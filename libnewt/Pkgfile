@@ -1,0 +1,21 @@
+# Description: a programming library for color text mode
+# URL: https://pagure.io/newt
+# Maintainer:
+# Packager:
+# Depends on: 
+
+name=libnewt 
+version=git
+release=1
+source=()
+git=(https://pagure.io/newt.git)
+
+build() {
+	git clone $git
+	cd newt
+	./autogen.sh
+	./configure --prefix=/usr --disable-nls
+	make
+	make DESTDIR=$PKG install	
+	rm -fr $PKG/usr/share/locale
+}

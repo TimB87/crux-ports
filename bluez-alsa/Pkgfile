@@ -1,0 +1,21 @@
+# Description: Bluetooth Audio ALSA Backend
+# URL: https://github.com/Arkq/bluez-alsa
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on: sbc
+
+name=bluez-alsa
+version=git
+release=1
+source=()
+git=(https://github.com/Arkq/bluez-alsa.git)
+
+build() {
+	git clone $git
+	cd $name
+	autoreconf --install
+	mkdir build
+	cd build
+	../configure --enable-aac --enable-debug
+	make
+	make DESTDIR=$PKG install
+}

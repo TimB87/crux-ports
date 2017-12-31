@@ -1,0 +1,19 @@
+# Description:
+# URL:
+# Maintainer:
+# Depends on:
+
+name=modemmanager
+version=1.6.10
+release=1
+source=(https://www.freedesktop.org/software/ModemManager/ModemManager-1.6.10.tar.xz)
+
+build() {
+	cd ModemManager-$version
+	./configure --prefix=/usr \
+				--disable-nls \
+				--disable-gtk-doc \
+				--without-mbim --without-qmi
+	make
+	make DESTDIR=$PKG install
+}

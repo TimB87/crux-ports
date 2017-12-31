@@ -1,0 +1,26 @@
+# Description: improved screen locker fork
+# URL: https://github.com/PandorasFox/i3lock-color
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on:
+
+name=i3lock-color
+version=git
+release=1
+source=()
+git=(https://github.com/PandorasFox/i3lock-color.git)
+
+build() {
+	git clone $git
+	cd $name
+	sed -i -e 's:login:system-auth:' pam/i3lock
+	autoreconf -fi
+	./configure --prefix=/usr --enable-debug=no \
+		--sysconfdir=/etc --enable-sanitizers \
+		--disable-maintainer-mode
+	make
+	make DESTDIR=$PKG install
+	#install -dm 755 $PKG/etc/pam.d
+	#maybe I should use --sysconfdir=/etc?
+#	mv $PKG/usr/etc/pam.d/i3lock $PKG/etc/pam.d/i3lock
+#	rm -fr $PKG/usr/etc/
+}

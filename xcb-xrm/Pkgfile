@@ -1,0 +1,19 @@
+# Description: XCB utility functions for the X resource manager
+# URL: https://github.com/Airblader/xcb-util-xrm
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on:
+
+name=xcb-xrm
+version=git
+release=1
+source=()
+git=(https://github.com/Airblader/xcb-util-xrm.git)
+
+build() {
+	git clone $git
+	cd xcb-util-xrm
+	git submodule update --init
+	./autogen.sh --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}

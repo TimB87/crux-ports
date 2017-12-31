@@ -1,0 +1,15 @@
+# Description:
+# URL: https://i3wm.org/i3status/
+# Maintainer:
+# Depends on:
+
+name=i3status
+version=2.11
+release=1
+source=(https://i3wm.org/i3status/i3status-2.11.tar.bz2)
+
+build() {
+	cd $name-$version
+	make
+	make DESTDIR=$PKG install
+}

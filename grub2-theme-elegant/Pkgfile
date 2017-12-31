@@ -1,0 +1,18 @@
+# Description:
+# URL:
+# Maintainer:
+# Packager:
+# Depends on:
+
+name=grub2-theme-elegant
+version=0.1
+release=1
+source=()
+git=(https://github.com/maximilienGilet/Elegant-GRUB2)
+
+build() {
+	git clone $git
+    cd Elegant-GRUB2
+    install -dm 744 $PKG/boot/grub/themes
+    cp -TR ./theme $PKG/boot/grub/themes/Elegant-GRUB2
+}

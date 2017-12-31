@@ -1,0 +1,22 @@
+# Description: Compiles finite state machines from regular languages into executable C, C++, Objective-C, or D code.
+# URL:
+# Maintainer:
+# Packager:
+# Depends on:
+
+name=ragel
+version=6.9
+release=1
+source=(http://www.colm.net/files/$name/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+    ./configure --prefix=/usr \
+    CXXFLAGS="$CXXFLAGS \
+    -std=gnu++98" 
+
+    make
+    make DESTDIR=$PKG install
+
+    install -m0644 -D ragel.vim $pkg/usr/share/vim/vimfiles/syntax/ragel.vim
+}

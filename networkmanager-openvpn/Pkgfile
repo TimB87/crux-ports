@@ -1,0 +1,18 @@
+# Description:
+# URL:
+# Maintainer:
+# Depends on:
+
+name=networkmanager-openvpn
+version=1.8.0
+release=1
+source=(https://download.gnome.org/sources/NetworkManager-openvpn/1.8/NetworkManager-openvpn-1.8.0.tar.xz)
+
+build() {
+	cd NetworkManager-openvpn-$version
+	./configure --prefix=/usr --disable-nls \
+		--without-libnm-glib 
+	make
+	make DESTDIR=$PKG install
+	rm -fr $PKG/usr/share/locale
+}

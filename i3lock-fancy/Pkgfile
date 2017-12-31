@@ -1,0 +1,20 @@
+# Description: A fancy script for i3-lock
+# URL: https://github.com/meskarune/i3lock-fancy
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on: imagemagick, i3lock-color
+
+name=i3lock-fancy
+version=git
+release=1
+source=()
+git=(https://github.com/meskarune/i3lock-fancy.git)
+
+build() {
+	git clone $git
+	cd $name
+	install -dm755 "$PKG/usr/share/$name/icons"
+	install -m644 -t "$PKG/usr/share/$name/icons" icons/*
+	install -dm755 "$PKG/usr/bin"
+	install -Dm755 lock "$PKG/usr/share/$name/"
+	ln -s "/usr/share/$name/lock" "$PKG/usr/bin/i3lock-fancy"
+}

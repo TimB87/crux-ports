@@ -1,0 +1,18 @@
+# Description: A flexible scheduler for your i3bar blocks
+# URL: https://github.com/vivien/i3blocks
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on:
+
+name=i3blocks
+version=git
+release=1
+source=()
+git=(https://github.com/vivien/i3blocks.git)
+
+build() {
+	git clone $git
+	cd $name
+	make clean debug
+	make PREFIX=/usr
+	make DESTDIR=$PKG PREFIX=/usr LIBEXECDIR=/usr/lib install
+}

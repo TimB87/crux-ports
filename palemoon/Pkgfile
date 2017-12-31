@@ -1,0 +1,49 @@
+# Description: Palemoon webbrowser, a Firefox fork
+# URL: https://www.palemoon.org/
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on: nss, libidl, gtk, python, alsa-lib, yasm, mesa3d
+ 
+name=palemoon
+version=27.3.0
+release=1
+source=(https://github.com/MoonchildProductions/Pale-Moon/archive/27.3.0_Release.tar.gz .mozconfig)
+git=(https://github.com/MoonchildProductions/Pale-Moon)
+build() 
+	{
+
+	#mozconfig should go here, not as a single sourcefile
+	#
+	#decompress 7zip, might better switch to git sources because needing 7z for this sucks (?!)
+	#7z x $name-$version-source.7z	
+	#tar xfvz 27.3.0_Release.tar.gz	
+
+	#git approach
+	#git clone $git 
+
+	#prepare the sources
+	chmod -R +x build/autoconf/* python/*
+	CPPFLAGS="$CPPFLAGS -O2"
+
+	#building palemoon
+	python2 mach build
+	cd "$SRC/pmbuild"
+
+#	make package	
+
+	#I have no idea how to make this look any better.. it installs into $PKG/usr/local, which we don't want
+	make DESTDIR=$PKG install		
+
+	#executable doesn't work because of wrong symlink, fixing..
+#	rm $PKG/usr/bin/palemoon
+#	cd $SRC/dist
+
+	#only -r doesn't work... 
+#	ln -sr $PKG/usr/bin/palemoon ../lib/$name-$version/palemoon
+
+	#installs icons, because why not, but they are not needed 
+	install -Dm644 $SRC/browser/branding/official/palemoon.desktop $PKG/usr/share/applications/$name.desktop
+	install -Dm644 $SRC/browser/branding/official/default16.png $PKG/usr/share/icons/hicolor/16x16/apps/$name.png
+	install -Dm644 $SRC/browser/branding/official/default32.png $PKG/usr/share/icons/hicolor/32x32/apps/$name.png
+ 	install -Dm644 $SRC/browser/branding/official/default48.png $PKG/usr/share/icons/hicolor/48x48/apps/$name.png
+	#install -Dm644 $SRC/browser/branding/official/default128.png $PKG/usr/share/icons/hicolor/128x128/apps/$name.png
+}

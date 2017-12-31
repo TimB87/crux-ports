@@ -1,0 +1,22 @@
+# Description: a theme for Grub2
+# URL: https://github.com/shvchk/poly-light
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on:
+
+name=grub2-theme-poly-light
+version=git
+release=1
+source=()
+git=(https://github.com/shvchk/poly-light.git)
+
+build() {
+	#cd $name-$version
+	git clone $git
+	#install -dm 744 $PKG/boot/grub/themes
+	mkdir -p $PKG/boot/grub/themes/poly-light
+	cd poly-light
+	cp {background,selected_item_c,item_c,terminal_box_c}.png $PKG/boot/grub/themes/poly-light
+	cp unifont-regular-16.pf2 $PKG/boot/grub/themes/poly-light
+	cp theme.txt $PKG/boot/grub/themes/poly-light
+	cp -R icons $PKG/boot/grub/themes/poly-light
+}

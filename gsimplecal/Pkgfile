@@ -1,0 +1,19 @@
+# Description: a lightweight calendar applet written in C++ using GTK
+# URL: https://github.com/dmedvinsky/gsimplecal
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on:
+
+name=gsimplecal
+version=git
+release=1
+source=()
+git=(https://github.com/dmedvinsky/gsimplecal.git)
+
+build() {
+	git clone $git
+	cd $name
+	./autogen.sh
+	./configure --prefix=/usr
+	make
+	make DESTDIR=$PKG install
+}

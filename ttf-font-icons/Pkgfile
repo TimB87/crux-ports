@@ -1,0 +1,16 @@
+# Description:
+# URL: https://aur.archlinux.org/ttf-font-icons.git/
+# Maintainer:
+# Depends on:
+
+name=ttf-font-icons
+version=git
+release=1
+source=()
+git=(https://aur.archlinux.org/ttf-font-icons.git)
+
+build() {
+	git clone $git
+	cd ttf-font-icons
+	install -Dm 644 icons.ttf $PKG/usr/share/fonts/TTF/icons.ttf
+}

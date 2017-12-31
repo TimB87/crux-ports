@@ -1,0 +1,16 @@
+# Description: A GTK+ bluetooth manager
+# URL: https://github.com/blueman-project/blueman
+# Maintainer:
+# Depends on:
+
+name=blueman
+version=2.1.alpha2
+release=1
+source=(https://github.com/blueman-project/blueman/releases/download/2.1.alpha2/blueman-2.1.alpha2.tar.xz)
+
+build() {
+	cd $name-$version
+	./autogen.sh --prefix=/usr --disable-schemas-compile --disable-nls --disable-runtime-deps-check --sysconfdir=/usr/etc
+	make
+	make DESTDIR=$PKG install
+}

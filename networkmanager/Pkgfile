@@ -1,0 +1,73 @@
+# Description: Network configuration tool
+# URL:         http://www.gnome.org/projects/NetworkManager/
+# Maintainer:  Alan Mizrahi, alan at mizrahi dot com dot ve
+# Depends on:  intltool dbus-glib libnl nss libndp p5-xml-parser openresolv dhcpcd polkit upower
+# Optional:    ppp avahi bash-completion dbus libnl jansson libteam dnsmasq
+
+name=networkmanager
+version=1.10.2
+release=1
+source=(
+http://ftp.gnome.org/pub/gnome/sources/NetworkManager/${version%.*}/NetworkManager-${version}.tar.xz
+networkmanager.rc
+NetworkManager.conf
+)
+
+build() {
+	cd NetworkManager-$version
+
+	CONFIG_SHELL=/bin/bash \
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--localstatedir=/var \
+		--libexecdir=/usr/lib/networkmanager \
+		--with-udev-dir=/lib/udev \
+		--with-systemdsystemunitdir=no \
+		--disable-nls \
+		--disable-static \
+		--enable-teamdctl=no \
+		--enable-polkit \
+		--enable-polkit-agent \
+		--enable-wifi \
+		--enable-ld-gc \
+		--enable-tests=no \
+		--enable-gtk-doc=no \
+		--enable-gtk-doc-html=no \
+		--enable-introspection=yes \
+		--with-suspend-resume=upower \
+		--with-dhcpcd=/sbin/dhcpcd \
+		--with-resolvconf=/usr/sbin/resolvconf \
+		--with-iptables=/usr/sbin/iptables \
+		--with-crypto=nss \
+		--enable-more-warnings=no \
+		--enable-modify-system \
+		--with-session-tracking=consolekit \
+		--with-suspend-resume=upower \
+		--with-libnm-glib \
+		--with-libsoup \
+		--with-wext \
+		--with-nmtui \
+		--$(test -f /usr/include/pppd/pppd.h && echo enable || echo disable)-ppp
+
+	make
+	make DESTDIR=$PKG install
+
+	# Fix the CRUX oddity
+	mkdir $PKG/usr/etc
+	mv $PKG/etc/dbus-1 $PKG/usr/etc
+
+	# Install config file
+	install -D -m 644 -o root -g root $SRC/NetworkManager.conf $PKG/etc/NetworkManager/NetworkManager.conf
+
+	# Install startup script
+	install -D -m 755 -o root -g root $SRC/$name.rc $PKG/etc/rc.d/$name
+
+	# Remove rundir
+	rm -rf $PKG/var/run $PKG/usr/share/{gtk-,}doc $PKG/usr/share/man/man5/nmcli-examples.5
+
+	# Remove bash-completion config unless it's installed
+	if [ ! -f /usr/lib/pkgconfig/bash-completion.pc ]; then
+		rm -rf $PKG/usr/share/bash-completion
+	fi
+}

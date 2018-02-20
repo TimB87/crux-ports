@@ -1,12 +1,12 @@
 # Description:	Bluetooth low-complexity, subband codec library
-# URL:		http://www.bluez.org/
-# Maintainer:	Alan Mizrahi, alan at mizrahi dot com dot ve
-# Depends on:	libsndfile
+# URL: http://www.bluez.org/
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on:
 
 name=sbc
 version=1.3
 release=1
-source=(http://www.kernel.org/pub/linux/bluetooth/sbc-$version.tar.xz)
+source=(http://www.kernel.org/pub/linux/bluetooth/$name-$version.tar.xz)
 
 build() {
         cd $name-$version

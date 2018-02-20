@@ -1,0 +1,17 @@
+# Description: C implementation of Sass CSS preprocessor.
+# URL: http://libsass.org/
+# Maintainer: 
+# Depends on: libsass
+
+name=sassc
+version=3.4.8
+release=1
+source=(https://github.com/sass/sassc/releases/download/3.4.8/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+    autoreconf -i
+	./configure --prefix=/usr
+	make
+    make DESTDIR=$PKG install
+}

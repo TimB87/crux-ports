@@ -1,0 +1,5 @@
+It is recommended that you put "UPGRADE         ^usr/etc/.*$            NO"
+into your /etc/pkgadd.conf, else the config will be overwritten during
+update!
+
+You need to install a greeter for lightdm, you can find two in my repo.

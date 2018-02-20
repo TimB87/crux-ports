@@ -1,0 +1,19 @@
+# Description: software for video recording and live streaming
+# URL: https://obsproject.com/
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on: fdk-aac ffmpeg gcc glibc gnutls icu jansson lame libsndfile libva libvpx libwebp openldap qt5 speexdsp x264 x265
+
+name=obs-studio
+version=21.0.1
+release=1
+source=(https://github.com/jp9000/obs-studio/archive/21.0.1/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+    mkdir build 
+    cd build
+    cmake -DUNIX_STRUCTURE=1 \
+    -DCMAKE_INSTALL_PREFIX=/usr ..
+    make -j4 
+    make DESTDIR=$PKG install
+}

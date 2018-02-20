@@ -1,7 +1,7 @@
 # Description: KeePass Cross-Platform Community Edition
 # URL: https://keepassxc.org/
 # Maintainer: Tim Biermann <tim_biermann@web.de>
-# Depends on: qt5 libgcrypt
+# Depends on: qt5 libgcrypt yubico-c yubikey-personalization libgpg-error llvm
 
 name=keepassxc
 version=2.2.4
@@ -17,7 +17,7 @@ build() {
         	-DWITH_GUI_TESTS=OFF \
         	-DWITH_XC_AUTOTYPE=ON \
         	-DWITH_XC_HTTP=ON \
-        	-DWITH_XC_YUBIKEY=OFF \
+        	-DWITH_XC_YUBIKEY=ON \
         	-DWITH_XC_SSHAGENT=ON \
         	-DCMAKE_BUILD_TYPE=Release
 	make

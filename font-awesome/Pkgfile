@@ -1,12 +1,12 @@
-# Description:
-# URL:
-# Maintainer:
+# Description: Font Awesome
+# URL: http://fontawesome.io/
+# Maintainer: Tim Biermann <tim_biermann@web.de>
 # Depends on:
 
 name=font-awesome
-version=5.0.1
+version=5.0.6
 release=1
-source=(https://use.fontawesome.com/releases/v5.0.1/fontawesome-free-5.0.1.zip)
+source=(https://use.fontawesome.com/releases/v5.0.6/fontawesome-free-$version.zip)
 
 build() {
 	cd fontawesome-free-$version

@@ -4,16 +4,17 @@
 # Depends on:
 
 name=modemmanager
-version=1.6.10
+version=1.7.990
 release=1
-source=(https://www.freedesktop.org/software/ModemManager/ModemManager-1.6.10.tar.xz)
+source=(https://www.freedesktop.org/software/ModemManager/ModemManager-$version.tar.xz)
 
 build() {
 	cd ModemManager-$version
 	./configure --prefix=/usr \
 				--disable-nls \
 				--disable-gtk-doc \
-				--without-mbim --without-qmi
+				--without-mbim \
+                --without-qmi
 	make
 	make DESTDIR=$PKG install
 }

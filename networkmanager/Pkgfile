@@ -1,7 +1,7 @@
 # Description: Network configuration tool
 # URL:         http://www.gnome.org/projects/NetworkManager/
-# Maintainer:  Alan Mizrahi, alan at mizrahi dot com dot ve
-# Depends on:  intltool dbus-glib libnl nss libndp p5-xml-parser openresolv dhcpcd polkit upower
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on: dhcpcd libndp libnl nss openresolv polkit upower
 # Optional:    ppp avahi bash-completion dbus libnl jansson libteam dnsmasq
 
 name=networkmanager
@@ -35,6 +35,7 @@ build() {
 		--enable-gtk-doc=no \
 		--enable-gtk-doc-html=no \
 		--enable-introspection=yes \
+        --with-consolekit \
 		--with-suspend-resume=upower \
 		--with-dhcpcd=/sbin/dhcpcd \
 		--with-resolvconf=/usr/sbin/resolvconf \
@@ -47,8 +48,7 @@ build() {
 		--with-libnm-glib \
 		--with-libsoup \
 		--with-wext \
-		--with-nmtui \
-		--$(test -f /usr/include/pppd/pppd.h && echo enable || echo disable)-ppp
+		--with-nmtui
 
 	make
 	make DESTDIR=$PKG install

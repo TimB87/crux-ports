@@ -1,0 +1,17 @@
+# Description: Faba Icon Theme
+# URL: https://github.com/snwh/faba-icon-theme/
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on:
+
+name=faba-icon-theme
+version=4.1.2
+release=1
+source=(https://github.com/snwh/faba-icon-theme/archive/v4.1.2/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+    chmod +x autogen.sh
+    ./autogen.sh
+    make
+    make DESTDIR=$PKG install
+}

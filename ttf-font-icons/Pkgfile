@@ -1,6 +1,6 @@
-# Description:
+# Description: Font Icons
 # URL: https://aur.archlinux.org/ttf-font-icons.git/
-# Maintainer:
+# Maintainer: Tim Biermann <tim_biermann@web.de>
 # Depends on:
 
 name=ttf-font-icons

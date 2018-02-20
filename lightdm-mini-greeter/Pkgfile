@@ -1,19 +1,20 @@
 # Description: A Minimal, Configurable, Single-User GTK3 LightDM Greeter
 # URL: https://github.com/prikhi/lightdm-mini-greeter
 # Maintainer: Tim Biermann <tim_biermann@web.de>
-# Depends on:
+# Depends on: libxklavier gtk3 libffi libpng libxml2 pango lightdm
 
 name=lightdm-mini-greeter
-version=git
-release=1
-source=()
+version=0.3.2
+release=2
+source=(https://github.com/prikhi/$name/archive/$version/$name-$version.tar.gz)
 git=(https://github.com/prikhi/lightdm-mini-greeter.git)
 
 build() {
-	git clone $git
-	cd lightdm-mini-greeter
+	#git clone $git
+	#cd $name
+    cd $name-$version
 	./autogen.sh
-	./configure --prefix=/usr --datadir /usr/etc \
+	./configure --prefix=/usr --datadir /usr/share \
 			--bindir /usr/bin --sysconfdir /usr/etc \
 			--disable-nls
 	make

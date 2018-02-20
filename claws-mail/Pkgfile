@@ -1,23 +1,27 @@
 # Description: An e-mail client (and news reader), based on GTK+ 
-# URL:         http://www.claws-mail.org/index.php
-# Maintainer:  John Vogel, jvogel4 at stny dot rr dot com
-# Depends on:  gtk libetpan gpgme gnutls
-# Nice to have: enchant clamav dillo openldap poppler python webkitgtk
+# URL:         http://www.claws-mail.org
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on:  gtk libetpan gpgme gnutls libical networkmanager
 
 name=claws-mail
-version=3.15.1
+version=3.16.0
 release=1
 source=(http://www.claws-mail.org/releases/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
 
+	# workaround for borked cflags in networkmanager pkgconfig file
+	NM_CFLAGS=
+	if [ -e /usr/lib/pkgconfig/NetworkManager.pc ]; then
+		NM_CFLAGS="-I/usr/include/libnm"
+	fi
+
 	./configure \
 		--prefix=/usr \
 		--disable-static \
 		--disable-nls \
-		--disable-networkmanager --disable-aspell --disable-enchant \
-		--disable-manual --without-aspell
+		--disable-manual
 
 	make
 	make DESTDIR=$PKG install

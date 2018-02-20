@@ -1,0 +1,17 @@
+# Description: Utility for generating icon themes and libXcursor cursor themes
+# URL: https://www.freedesktop.org/wiki/Software/icon-slicer/
+# Maintainer:
+# Depends on: gdk-pixbuf popt xorg-xcursorgen
+
+name=icon-slicer
+version=0.3
+release=1
+source=(https://freedesktop.org/software/icon-slicer/releases/$name-$version.tar.gz hotspotfix.patch)
+
+build() {
+	cd $name-$version
+    patch -Np1 -i $SRC/hotspotfix.patch
+    ./configure --prefix=/usr
+    make
+    make DESTDIR=$PKG install
+}

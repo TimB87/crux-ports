@@ -1,0 +1,16 @@
+# Description: theme engine for Qt4/Qt5 and KDE 
+# URL: https://github.com/tsujan/Kvantum/
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on: qt5 llvm libffi icu harfbuzz
+
+name=kvantum
+version=0.10.5
+release=1
+source=(https://github.com/tsujan/Kvantum/archive/V$version/Kvantum-v$version.tar.gz)
+
+build() {
+	cd Kvantum-$version/Kvantum
+    cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr
+    make
+    make DESTDIR=$PKG install
+}

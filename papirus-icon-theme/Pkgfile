@@ -1,0 +1,14 @@
+# Description: Papirus Icon Theme
+# URL: https://github.com/PapirusDevelopmentTeam/papirus-icon-theme
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on:
+
+name=papirus-icon-theme
+version=20180201
+release=1
+source=(https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/archive/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-20180116
+    make DESTDIR=$PKG install
+}

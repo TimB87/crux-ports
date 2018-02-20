@@ -1,0 +1,15 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+lrwxrwxrwx	root/root	usr/bin/i3lock-fancy -> /usr/share/i3lock-fancy/lock
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/i3lock-fancy/
+drwxr-xr-x	root/root	usr/share/i3lock-fancy/icons/
+-rw-r--r--	root/root	usr/share/i3lock-fancy/icons/circlelock.png
+-rw-r--r--	root/root	usr/share/i3lock-fancy/icons/circlelockclear.png
+-rw-r--r--	root/root	usr/share/i3lock-fancy/icons/circlelockcleardark.png
+-rw-r--r--	root/root	usr/share/i3lock-fancy/icons/circlelockdark.png
+-rw-r--r--	root/root	usr/share/i3lock-fancy/icons/lock.png
+-rw-r--r--	root/root	usr/share/i3lock-fancy/icons/lockdark.png
+-rw-r--r--	root/root	usr/share/i3lock-fancy/icons/token.png
+-rw-r--r--	root/root	usr/share/i3lock-fancy/icons/tokendark.png
+-rwxr-xr-x	root/root	usr/share/i3lock-fancy/lock

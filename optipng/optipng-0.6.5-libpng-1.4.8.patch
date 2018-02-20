@@ -1,0 +1,84 @@
+From d84fd1880aae22a2a92ca759a3f9e07f2f7b6bee Mon Sep 17 00:00:00 2001
+From: Sebastian Pipping <sebastian@pipping.org>
+Date: Tue, 2 Aug 2011 17:01:51 +0200
+Subject: [PATCH] Fix compilation against libpng 1.4.8
+
+---
+ src/opngoptim.c |    2 +-
+ src/opngreduc.c |   16 ++++++++--------
+ 2 files changed, 9 insertions(+), 9 deletions(-)
+
+diff --git a/src/opngoptim.c b/src/opngoptim.c
+index 16f7acd..ead0c6e 100644
+--- a/src/opngoptim.c
++++ b/src/opngoptim.c
+@@ -19,10 +19,10 @@
+ #include "proginfo.h"
+ 
+ #include "cbitset.h"
+-#include "cexcept.h"
+ #include "opngreduc.h"
+ #include "osys.h"
+ #include "png.h"
++#include "cexcept.h"
+ #include "pngx.h"
+ #include "pngxtern.h"
+ #include "zlib.h"
+diff --git a/src/opngreduc.c b/src/opngreduc.c
+index e4d5c98..5ef0b60 100644
+--- a/src/opngreduc.c
++++ b/src/opngreduc.c
+@@ -366,8 +366,8 @@ opng_get_alpha_row(png_structp png_ptr, png_infop info_ptr,
+    channels = (png_ptr->usr_channels > 0) ?
+       png_ptr->usr_channels : info_ptr->channels;
+    sample_ptr = row;
+-   if (!(png_ptr->transformations & PNG_FILLER) ||
+-        (png_ptr->flags & PNG_FLAG_FILLER_AFTER))
++   if (!(png_ptr->transformations & OPNG_FILLER) ||
++        (png_ptr->flags & OPNG_FLAG_FILLER_AFTER))
+       sample_ptr += channels - 1;  /* alpha sample is the last in RGBA tuple */
+    for (i = 0; i < width; ++i, sample_ptr += channels, ++alpha_row)
+       *alpha_row = *sample_ptr;
+@@ -416,8 +416,8 @@ opng_analyze_bits(png_structp png_ptr, png_infop info_ptr,
+       reductions &= ~OPNG_REDUCE_STRIP_ALPHA;
+ 
+    offset_color = offset_alpha = 0;
+-   if ((png_ptr->transformations & PNG_FILLER) &&
+-       !(png_ptr->flags & PNG_FLAG_FILLER_AFTER))
++   if ((png_ptr->transformations & OPNG_FILLER) &&
++       !(png_ptr->flags & OPNG_FLAG_FILLER_AFTER))
+       offset_color = byte_depth;
+    else
+       offset_alpha = (channels - 1) * byte_depth;
+@@ -565,7 +565,7 @@ opng_reduce_bits(png_structp png_ptr, png_infop info_ptr,
+    /* See which reductions may be performed. */
+    reductions = opng_analyze_bits(png_ptr, info_ptr, reductions);
+    /* Strip the filler even if it is not an alpha channel. */
+-   if (png_ptr->transformations & PNG_FILLER)
++   if (png_ptr->transformations & OPNG_FILLER)
+       reductions |= OPNG_REDUCE_STRIP_ALPHA;
+    if (reductions == OPNG_REDUCE_NONE)
+       return OPNG_REDUCE_NONE;  /* nothing can be reduced */
+@@ -606,8 +606,8 @@ opng_reduce_bits(png_structp png_ptr, png_infop info_ptr,
+    dest_sample_size = dest_channels * dest_byte_depth;
+    dest_pixel_depth = dest_channels * dest_bit_depth;
+ 
+-   if (!(png_ptr->transformations & PNG_FILLER) ||
+-       (png_ptr->flags & PNG_FLAG_FILLER_AFTER))
++   if (!(png_ptr->transformations & OPNG_FILLER) ||
++       (png_ptr->flags & OPNG_FLAG_FILLER_AFTER))
+       src_offset_alpha = (src_channels - 1) * src_byte_depth;
+    else
+       src_offset_alpha = 0;
+@@ -748,7 +748,7 @@ opng_reduce_bits(png_structp png_ptr, png_infop info_ptr,
+    png_ptr->pixel_depth = info_ptr->pixel_depth = (png_byte)dest_pixel_depth;
+    if (reductions & OPNG_REDUCE_STRIP_ALPHA)
+    {
+-      png_ptr->transformations &= ~PNG_FILLER;
++      png_ptr->transformations &= ~OPNG_FILLER;
+       if (png_ptr->usr_channels > 0)
+          --png_ptr->usr_channels;
+    }
+-- 
+1.7.6
+

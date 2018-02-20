@@ -1,0 +1,20 @@
+# Description: XCB-based Python bindings for the X Window System
+# URL: http://xcb.freedesktop.org/
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on: git xorg-xcb
+
+name=xorg-xpyb
+version=git
+release=1
+source=()
+git=(git://anongit.freedesktop.org/xcb/xpyb)
+
+build() {
+	git clone $git
+	cd xpyb
+	PYTHON=python2 ./autogen.sh --prefix=/usr \
+		    	                --disable-nls
+	make
+	make DESTDIR=$PKG install	
+	
+}

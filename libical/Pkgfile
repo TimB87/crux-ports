@@ -1,0 +1,18 @@
+# Description: An open source implementation of iCalendar protocols and protocol data units
+# URL: https://github.com/libical/libical
+# Maintainer: Matt Housh, jaeger at morpheus dot net
+# Depends on: cmake
+
+name=libical
+version=3.0.1
+release=1
+source=(https://github.com/$name/$name/releases/download/v$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	mkdir build
+	cd build
+	cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+	make
+	make DESTDIR=$PKG install
+}

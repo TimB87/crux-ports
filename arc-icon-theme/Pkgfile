@@ -1,0 +1,16 @@
+# Description:
+# URL:
+# Maintainer:
+# Depends on:
+
+name=arc-icon-theme
+version=20161122
+release=1
+source=(https://github.com/horst3180/arc-icon-theme/archive/20161122/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+    ./autogen.sh --prefix=/usr
+    make
+    make DESTDIR=$PKG install
+}

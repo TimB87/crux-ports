@@ -1,12 +1,12 @@
-# Description:
-# URL:
-# Maintainer:
-# Depends on:
+# Description: OpenVPN Plugin for Network Manager
+# URL: https://wiki.gnome.org/Projects/NetworkManager/VPN
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on: networkmanager network-manager-applet gcr
 
 name=networkmanager-openvpn
 version=1.8.0
 release=1
-source=(https://download.gnome.org/sources/NetworkManager-openvpn/1.8/NetworkManager-openvpn-1.8.0.tar.xz)
+source=(https://download.gnome.org/sources/NetworkManager-openvpn/1.8/NetworkManager-openvpn-$version.tar.xz)
 
 build() {
 	cd NetworkManager-openvpn-$version

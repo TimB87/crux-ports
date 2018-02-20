@@ -1,8 +1,7 @@
-# Description:
-# URL:
-# Maintainer:
-# Packager:
-# Depends on:
+# Description: a D-Bus service for accessing the list of user accounts and information attached to those accounts
+# URL: https://www.freedesktop.org/wiki/Software/AccountsService/
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on: polkit
 
 name=accountsservice
 version=0.6.45

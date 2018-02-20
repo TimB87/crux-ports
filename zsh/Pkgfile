@@ -1,7 +1,6 @@
 # Description: Very powerfull shell
 # URL: http://www.zsh.org/
-# Maintainer:  Thomas Penteker, tek at serverop dot de
-# Packager: Tilman Sauerbeck, tilman at crux dot nu
+# Maintainer: Tim Biermann <tim_biermann@web.de>
 # Depends on: libpcre
 
 name=zsh

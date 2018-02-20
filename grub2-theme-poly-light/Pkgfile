@@ -5,7 +5,7 @@
 
 name=grub2-theme-poly-light
 version=git
-release=1
+release=2
 source=()
 git=(https://github.com/shvchk/poly-light.git)
 

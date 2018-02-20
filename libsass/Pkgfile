@@ -1,0 +1,17 @@
+# Description: A C/C++ implementation of a Sass compiler
+# URL: http://sass-lang.com/libsass
+# Maintainer: 
+# Depends on:
+
+name=libsass
+version=3.4.8
+release=1
+source=(https://github.com/sass/libsass/releases/download/3.4.8/libsass-3.4.8.tar.gz)
+
+build() {
+	cd $name-$version
+    autoreconf -i
+	./configure --prefix=/usr
+	make
+    make DESTDIR=$PKG install    
+}

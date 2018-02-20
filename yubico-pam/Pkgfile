@@ -1,0 +1,17 @@
+# Description: Yubico Pluggable Authentication Module (PAM)
+# URL: https://github.com/Yubico/yubico-pam
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on: linux-pam yubikey-personalization
+
+name=yubico-pam
+version=2.24
+release=1
+source=(https://github.com/Yubico/yubico-pam/archive/2.24/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+    autoreconf -fi
+    ./configure --prefix=/usr
+    make
+    make DESTDIR=$PKG install
+}

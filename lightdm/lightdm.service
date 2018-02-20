@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# /etc/rc.d/dbus: start/stop lightdm 
+# /etc/rc.d/lightdm: start/stop lightdm 
 #
 
 SSD=/sbin/start-stop-daemon
@@ -11,7 +11,7 @@ PIDFILE=$RUNDIR/lightdm.pid
 
 case $1 in
         start)
-        $SSD --start --pidfile=$PIDFILE --exec $PROG #-- $OPTS
+        $SSD --start --pidfile=$PIDFILE --exec $PROG -- $OPTS
         ;;
 stop)
         $SSD --stop --retry 10 --pidfile=$PIDFILE

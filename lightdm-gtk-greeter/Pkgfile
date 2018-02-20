@@ -1,15 +1,12 @@
 # Description: A GTK+ greeter for LightDM
 # URL: https://launchpad.net/lightdm-gtk-greeter/
-# Maintainer:
-# Packager:
-# Depends on:
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on: libxklavier lightdm
 
 name=lightdm-gtk-greeter
 version=2.0.3
 release=1
 source=(https://launchpad.net/$name/2.0/$version/+download/$name-$version.tar.gz)
-LANG="de_DE.UTF-8"
-LC_ALL="de_DE.UTF-8"
 
 build() {
 	cd $name-$version

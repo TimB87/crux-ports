@@ -1,0 +1,22 @@
+# Description: QtKeychain is a QT API to store passwords and other secret data securely
+# URL: https://github.com/frankosterfeld/qtkeychain
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on: qt5
+
+name=qtkeychain
+version=0.8
+release=1
+source=(https://github.com/frankosterfeld/$name/archive/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	cmake -DCMAKE_BUILD_TYPE=Release \
+	      -DCMAKE_INSTALL_PREFIX=/usr \
+          -DCMAKE_INSTALL_LIBDIR=lib \
+          -DCMAKE_INSTALL_LIBEXECDIR=lib/$name \
+          -DCMAKE_BUILD_TYPE=Release \
+          -DLIBSECRET_SUPPORT=OFF
+	make
+	make DESTDIR=$PKG install
+    rm -fr $PKG/usr/share/qt5/translations
+}

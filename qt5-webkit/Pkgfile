@@ -1,0 +1,26 @@
+# Description:	Qt port of web browser engine
+# URL:		http://www.kde.org
+# Maintainer:	Alan Mizrahi, alan at mizrahi dot com dot ve
+# Depends on:	qt5
+
+name=qtwebkit
+version=5.212.0-alpha2
+release=1
+source=(
+https://github.com/annulen/webkit/releases/download/qtwebkit-5.212.0-alpha2/qtwebkit-5.212.0-alpha2.tar.xz)
+
+build() {
+	export QTDIR=/usr/share/qt5
+	export PATH="$QTDIR/bin:$PATH"
+
+    mkdir -p build
+    cd build
+
+    cmake ../qtwebkit-$version \
+        -DCMAKE_INSTALL_PREFIX=/usr \
+        -DCMAKE_BUILD_TYPE=Release \
+        -DPORT=Qt \
+        -DENABLE_TOOLS=OFF
+    make
+    make DESTDIR=$PKG install
+}

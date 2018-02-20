@@ -1,22 +1,50 @@
 # Description: A system tray applet for NetworkManager
 # URL: https://wiki.gnome.org/Projects/NetworkManager/
-# Maintainer:  Cory Burgett, cmburget at gmail dot com
-# Depends on: networkmanager, iso-codes, gconf, libsecret, consolekit, polkit
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on: consolekit gconf iso-codes libsecret networkmanager
 
 name=network-manager-applet
 version=1.8.6
+#version=git
 release=1
 source=(https://download.gnome.org/sources/$name/${version::3}/$name-$version.tar.xz)
-LANG="de_DE.UTF-8"
-LC_ALL="de_DE.UTF-8"
+git=(git://git.gnome.org/network-manager-applet)
 
 build() {
 	cd $name-$version
-	mkdir build
-	meson --prefix=/usr --sysconfdir=/etc \
-				-Denable-gtk-doc=false -Denable-libnm-gtk=true \
-				-Denable-selinux=false -Denable-team=false \
-				-Denable-wwan=false -Denable-introspection=true build 
+
+#    git clone $git
+#    cd $name
+#    NOCONFIGURE=1 ./autogen.sh
+#    ./configure --prefix=/usr \
+#                --sysconfdir=/etc \
+#                --sbindir=/usr/bin \
+#		        --libexecdir=/usr/lib/networkmanager \
+#		        --disable-static \
+#		        --disable-maintainer-mode \
+#		        --enable-gtk-doc \
+#               --enable-introspection \
+#                --enable-ld-gc \
+#                --with-team \
+#                --with-wwan \
+#                --without-appindicator \
+#                --without-selinux --without-selinux
+#
+#    sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
+#
+#    make
+#    make DESTDIR=$PKG install
+
+    mkdir build
+	meson --prefix=/usr \
+        --sysconfdir=/etc \
+        --disable-selinux \
+		-Denable-gtk-doc=false \
+        -Denable-libnm-gtk=true \
+		-Denable-selinux=false \
+       -Denable-team=false \
+		-Denable-wwan=false \
+        -Denable-introspection=true build 
 	cd build
 	ninja
 	DESTDIR=$PKG ninja install

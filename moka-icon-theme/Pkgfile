@@ -1,0 +1,23 @@
+# Description: Moka Icon Theme
+# URL: https://github.com/snwh/moka-icon-theme
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on:
+
+name=moka-icon-theme
+version=git
+release=1
+#source=(https://github.com/snwh/moka-icon-theme/archive/v5.3.6/$name-$version.tar.gz)
+git=(https://github.com/snwh/moka-icon-theme.git)
+
+build() {
+#	cd $name-$version
+    git clone $git $name
+    cd $name
+#    ./autogen.sh
+#    make
+#    make DESTDIR=$PKG install
+    install -d -m 755 $PKG/usr/share/icons/Moka
+    cp -dr --no-preserve=ownership Moka $PKG/usr/share/icons/
+    find $PKG/usr/share/icons/ -type d -exec chmod 755 {} \;
+    find $PKG/usr/share/icons/ -type f -exec chmod 644 {} \;
+}

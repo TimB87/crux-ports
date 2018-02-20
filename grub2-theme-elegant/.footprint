@@ -1,0 +1,14 @@
+drwxr-xr-x	root/root	boot/
+drwxr-xr-x	root/root	boot/grub/
+drwxr--r--	root/root	boot/grub/themes/
+drwxr-xr-x	root/root	boot/grub/themes/Elegant-GRUB2/
+-rw-r--r--	root/root	boot/grub/themes/Elegant-GRUB2/background.png
+-rw-r--r--	root/root	boot/grub/themes/Elegant-GRUB2/dejavu_12.pf2
+-rw-r--r--	root/root	boot/grub/themes/Elegant-GRUB2/dejavu_bold_14.pf2
+-rw-r--r--	root/root	boot/grub/themes/Elegant-GRUB2/help_bar.png
+-rw-r--r--	root/root	boot/grub/themes/Elegant-GRUB2/logo.png
+drwxr-xr-x	root/root	boot/grub/themes/Elegant-GRUB2/progress_bar/
+-rwxr-xr-x	root/root	boot/grub/themes/Elegant-GRUB2/progress_bar/progress_bar_c.png
+-rwxr-xr-x	root/root	boot/grub/themes/Elegant-GRUB2/progress_bar/progress_bar_hl_c.png
+-rwxr-xr-x	root/root	boot/grub/themes/Elegant-GRUB2/progress_bar/progress_bar_hl_n.png
+-rwxr-xr-x	root/root	boot/grub/themes/Elegant-GRUB2/theme.txt

@@ -1,0 +1,32 @@
+# Description: Evented I/O for V8 javascript.
+# URL: http://nodejs.org/
+# Maintainer: Danny Rawlins, crux at romster dot me
+# Depends on: python
+
+name=nodejs
+version=8.9.4
+release=1
+source=(https://nodejs.org/dist/v$version/node-v$version.tar.xz)
+
+build() {
+	cd node-v$version
+
+	./configure \
+		--prefix=/usr \
+		--shared-zlib
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/doc
+
+	# clean up
+	find $PKG -type f \( \
+		-name 'README.md' -o \
+		-name 'AUTHORS.md' -o \
+		-name 'INSTALL.md' -o \
+		-name 'TODO.org' -o \
+		-name 'ChangeLog' -o \
+		-name 'NEWS' \) -delete
+
+}

@@ -1,0 +1,18 @@
+# Description:
+# URL: https://gitlab.gnome.org/Incubator/libcloudproviders
+# Maintainer:
+# Depends on:
+
+name=libcloudproviders
+version=git
+release=1
+source=()
+git=(https://gitlab.gnome.org/Incubator/libcloudproviders.git)
+
+build() {
+    git clone $git
+    meson $name build --prefix=/usr --libdir=/usr/lib
+    ninja -C build
+    DESTDIR=$PKG ninja -C build install
+    
+}

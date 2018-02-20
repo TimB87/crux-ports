@@ -1,7 +1,7 @@
 # Description: Bluetooth Audio ALSA Backend
 # URL: https://github.com/Arkq/bluez-alsa
 # Maintainer: Tim Biermann <tim_biermann@web.de>
-# Depends on: sbc
+# Depends on: alsa-lib bluez fdk-aac sbc
 
 name=bluez-alsa
 version=git

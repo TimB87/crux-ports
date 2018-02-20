@@ -1,11 +1,11 @@
 # Description: improved screen locker fork
 # URL: https://github.com/PandorasFox/i3lock-color
 # Maintainer: Tim Biermann <tim_biermann@web.de>
-# Depends on:
+# Depends on: libxbkcommon libpng harfbuzz libev linux-pam
 
 name=i3lock-color
 version=git
-release=1
+release=2
 source=()
 git=(https://github.com/PandorasFox/i3lock-color.git)
 
@@ -19,8 +19,4 @@ build() {
 		--disable-maintainer-mode
 	make
 	make DESTDIR=$PKG install
-	#install -dm 755 $PKG/etc/pam.d
-	#maybe I should use --sysconfdir=/etc?
-#	mv $PKG/usr/etc/pam.d/i3lock $PKG/etc/pam.d/i3lock
-#	rm -fr $PKG/usr/etc/
 }

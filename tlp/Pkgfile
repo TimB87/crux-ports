@@ -1,0 +1,27 @@
+# Description: Linux Advanced Power Management
+# URL: http://linrunner.de/en/tlp/tlp.html
+# Maintainer: Tim Biermann
+# Depends on:
+
+name=tlp
+version=1.1
+release=1
+source=(https://github.com/linrunner/TLP/archive/$version/$name-$version.tar.gz tlp)
+#source=(tlp)
+#git=(https://github.com/linrunner/TLP.git)
+
+build() {
+#        git clone $git
+#        cd TLP
+        cd TLP-$version
+        export TLP_SBIN='/usr/bin'
+        #export TLP_ULIB='/lib/udev'
+        #export TLP_SYSD='/usr/lib/systemd/system'
+        #export TLP_NO_INIT='1'
+        #export TLP_SYSV='/etc/rc.d'
+        export TLP_CONF='/usr/etc/tlp'
+        export TLP_NO_PMUTILS='1'
+        export TLP_WITH_SYSTEMD='0'
+        make DESTDIR=$PKG install-tlp install-man
+        install -D -m 755 $SRC/tlp $PKG/etc/rc.d/tlp
+}

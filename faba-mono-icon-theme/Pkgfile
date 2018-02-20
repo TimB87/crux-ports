@@ -1,0 +1,18 @@
+# Description: Faba Mono Icon Theme
+# URL: https://github.com/snwh/faba-mono-icons
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on:
+
+name=faba-mono-icon-theme
+version=git
+release=1
+source=()
+git=(https://github.com/snwh/faba-mono-icons.git)
+
+build() {
+    git clone $git $name
+    cd $name
+    ./autogen.sh
+    make
+    make DESTDIR=$PKG install
+}

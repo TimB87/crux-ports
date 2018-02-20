@@ -1,13 +1,12 @@
-# Description:
-# URL:
-# Maintainer:
-# Packager:
+# Description: integrate gettext support, themed icons and scrollkeeper based documentation into Python's distutils
+# URL: https://launchpad.net/python-distutils-extra
+# Maintainer: Tim Biermann <tim_biermann@web.de>
 # Depends on:
 
 name=python-distutils-extra
 version=2.39
 release=1
-source=(https://launchpad.net/python-distutils-extra/trunk/2.39/+download/python-distutils-extra-2.39.tar.gz)
+source=(https://launchpad.net/python-distutils-extra/trunk/2.39/+download/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version

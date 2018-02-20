@@ -1,0 +1,24 @@
+# Description: 
+# URL: 
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on: gnome-common linux-pam p11-kit gcr gtk3 harfbuzz pango libepoxy
+
+name=gnome-keyring
+version=3.27.4
+release=1
+source=(https://git.gnome.org/browse/gnome-keyring/snapshot/$name-$version.tar.xz)
+
+build() {
+	cd $name-$version
+    NOCONFIGURE=1 ./autogen.sh
+    ./configure --prefix=/usr \
+                --localstatedir=/var \
+                --disable-static \
+                --libexecdir=/usr/lib/gnome-keyring \
+                --with-pam-dir=/lib/security \
+                --with-root-certs=/etc/ssl/certs \
+                --disable-schemas-compile \
+                --disable-nls
+    make
+    make DESTDIR=$PKG install
+}

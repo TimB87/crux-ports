@@ -1,11 +1,10 @@
 # Description:	Bluetooth libraries and utilities
 # URL:		http://www.bluez.org/
-# Maintainer:	Alan Mizrahi, alan at mizrahi dot com dot ve
-# Depends on:	dbus alsa-lib libusb-compat glib
-# Optional:	pygobject dbus-python sox gst-plugins-base-compat
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on: 
 
-name=bluez
-version=5.47
+name=bluez5
+version=5.48
 release=1
 source=(http://www.kernel.org/pub/linux/bluetooth/$name-$version.tar.xz bluetoothd)
 
@@ -30,41 +29,12 @@ build() {
 	make
 	make DESTDIR=$PKG all install
 
-#	make DESTDIR=$PKG \
-#		install-includeHEADERS \
-#		install-libLTLIBRARIES \
-#		install-pkgconfigDATA
+	make DESTDIR=$PKG \
+		install-includeHEADERS \
+		install-libLTLIBRARIES \
+		install-pkgconfigDATA
 	
-	# install all available tools and test programs with man pages
-	shopt -s nullglob
-	for i in test/* tools/*; do
-		if [ -x $i -a ! -d $i -a ! -x $PKG/usr/bin/${i##*/} -a ! -x $PKG/usr/sbin/${i##*/} ]; then
-			if [ -f $i.8 ]; then
-				install -D -m 755 $i $PKG/usr/sbin/bluez-${i#*/}
-			else
-				install -D -m 755 $i $PKG/usr/bin/bluez-${i#*/}
-			fi
-	
-			for j in $i.[1-8]; do
-				install -D -m 644 $j $PKG/usr/share/man/man${j##*.}/bluez-${j##*/}
-			done
-		fi
-	done
-
 	# install init script
-	install -D -m 755 $SRC/bluetoothd $PKG/etc/rc.d/bluetoothd
-
-	# install config files
-#	for i in audio input network serial; do
-#		install -D -m 644 $i/$i.conf $PKG/etc/bluetooth/$i.conf
-#	done
-
-	# this is because of the /usr/etc CRUX oddity
-#	mkdir $PKG/usr/etc
-#	mv $PKG/etc/dbus-1 $PKG/usr/etc
-
-	# fix some python scripts
-#	sed -ie 's|from gi.repository import GObject|import gobject as GObject|g' \
-#		$PKG/usr/bin/bluez-{simple-agent,test-device,test-discovery,test-manager}
-#	sed -ie 's|hstest|bluez-hstest|g' $PKG/usr/bin/bluez-hsplay
+	install -D -m 755 $SRC/bluetoothd \
+        $PKG/etc/rc.d/bluetoothd
 }

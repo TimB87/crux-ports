@@ -1,7 +1,7 @@
 # Description: A program to display informations about ACPI devices.
 # URL:         https://sourceforge.net/projects/acpiclient/
-# Maintainer:  jmf, https://github.com/jmf/jmf/issues
-# Depends on:  
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on: 
 
 name=acpi
 version=1.7

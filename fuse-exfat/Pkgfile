@@ -1,0 +1,24 @@
+# Description:	exfat filesystem implementation
+# URL:		http://code.google.com/p/exfat/
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on:	fuse
+
+name=fuse-exfat
+version=1.2.8
+release=1
+source=(https://github.com/relan/exfat/archive/v$version.tar.gz)
+
+build () {
+	cd exfat-$version
+	aclocal
+	autoheader
+	automake --force-missing --add-missing
+	autoconf
+	./configure \
+		--prefix=/usr \
+		--sbindir=/sbin
+	make CCFLAGS="$CFLAGS \
+            -std=c99" LINKFLAGS="$LDFLAGS" \
+            install DESTDIR=$PKG
+	install -D -m 644 fuse/mount.exfat-fuse.8 "$PKG/usr/share/man/man8/mount.exfat-fuse.8"
+}

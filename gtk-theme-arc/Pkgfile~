@@ -1,7 +1,7 @@
 # Description: A gtk theme
 # URL: https://github.com/horst3180/arc-theme
 # Maintainer: Tim Biermann <tim_biermann@web.de>
-# Depends on: gtk gtk-engine-murrine sassc
+# Depends on: gtk sassc
 
 name=gtk-theme-arc
 version=20180114

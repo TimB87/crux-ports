@@ -1,0 +1,6 @@
+# MATE ports - http://www.mate-desktop.org/
+#
+# https://github.com/mhoush/crux-mate/
+
+ROOT_DIR=/usr/ports/tb
+URL=https://raw.githubusercontent.com/TimB87/crux-ports/master

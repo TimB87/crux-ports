@@ -1,0 +1,29 @@
+# Description: Nextcloud Server
+# URL: https://nextcloud.com
+# Maintainer: Tim Biermann <tim_biermann at web.de>
+# Depends on: nginx postgresql php7 php7-gd php7-intl php7-pgsql
+
+name=nextcloud
+version=13.0.0
+release=1
+source=(https://download.nextcloud.com/server/releases/$name-$version.tar.bz2)
+
+build() {
+	cd $name
+    
+    install -d $PKG/home/www/
+	cp -R $SRC/$name $PKG/home/www/.
+	
+	#install configs
+	
+	install -d  $PKG/etc/webapps/$name
+    mv $PKG/home/www/$name/config $PKG/etc/webapps/$name/config
+    chown -R http:http $PKG/etc/webapps/$name
+    ln -s /etc/webapps/$name/config $PKG/usr/share/webapps/$name/config
+    chown -R root:http $PKG/usr/share/webapps/$name
+
+    find $PKG/home/www/$name -type f -exec chmod 0644 {} \;
+    find $PKG/home/www/$name -type d -exec chmod 0755 {} \;
+
+    chmod a+x $PKG/home/www/$name/occ
+}

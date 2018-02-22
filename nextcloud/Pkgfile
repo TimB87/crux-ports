@@ -19,7 +19,7 @@ build() {
 	install -d  $PKG/etc/webapps/$name
     mv $PKG/home/www/$name/config $PKG/etc/webapps/$name/config
     chown -R nginx:nginx $PKG/etc/webapps/$name
-    ln -s /etc/webapps/$name/config $PKG/usr/share/webapps/$name/config
+    ln -s /etc/webapps/$name/config $PKG/home/www/$name/config
     chown -R root:nginx $PKG/usr/share/webapps/$name
 
     find $PKG/home/www/$name -type f -exec chmod 0644 {} \;

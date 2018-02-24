@@ -1,7 +1,7 @@
-# Description: GD module for PHP v7
+# Description: INTL module for PHP v7
 # URL:         http://www.php.net
 # Maintainer:  Tim Biermann 
-# Depends on:  
+# Depends on: icu
 
 name=php7-intl
 version=7.2.2

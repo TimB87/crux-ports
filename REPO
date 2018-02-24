@@ -171,7 +171,7 @@ f:9647dba03b6c8f484d7bbac6dea7b23a:lightdm/.footprint
 f:8dd52c51aff8ee0cb9c97e1d036b707a:lightdm/lightdm-default-config.patch
 f:bc2b34fac9d186ba2fe9f053ffc40bc6:lightdm/lightdm.service
 f:12028bd6c26721055717cf56b05457f9:lightdm/README
-f:23742efd7ef8d9621962d21afe0c5788:libgd/.md5sum
+f:38c0650ccd8d9d33a3435089fd8f9890:libgd/.md5sum
 f:8e92c3259d9460fad9da1d297a651545:libgd/Pkgfile
 f:ead764233d599fb0226bdf8cd4e859b8:libgd/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:network-manager-applet/.md5sum

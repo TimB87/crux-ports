@@ -3,7 +3,7 @@
 # Maintainer:  Tim Biermann
 # Depends on:  libpcre libxml2
 
-name=php-fpm
+name=php7-fpm
 version=7.2.2
 release=1
 source=(http://php.net/distributions/php-$version.tar.xz

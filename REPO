@@ -246,7 +246,7 @@ f:0292b4dbbefbfc5404390e4879b88de2:freetype/0001-psaux-Correctly-handle-Flex-fea
 f:f9e5dfa77275e272ed70b5519c63b95a:freetype/.footprint
 f:47e916030eec65a17d87641595cc1ae8:freetype/0002-Enable-infinality-subpixel-hinting.patch
 f:94ce8e16b136633103d6adc1dff132be:php7-gd/.md5sum
-f:b95e1255ad5a2a55e37361b7582bffc8:php7-gd/Pkgfile
+f:71d6337f0d9fa87e4c8827ecd83eeb12:php7-gd/Pkgfile
 f:2e9563e73147712cc7d7ddb8d3567f44:php7-gd/.footprint
 f:2109ab2052009ffd676579c5fd328028:font-ibm-plex/.md5sum
 f:6c1fedb9a825c904d9ea555aeecf72b2:font-ibm-plex/Pkgfile
@@ -261,11 +261,11 @@ f:6971548d645147a20324f4125b4a5df6:faba-icon-theme/.md5sum
 f:b5402a4598e2294029e53136564ba7e6:faba-icon-theme/Pkgfile
 f:b808537b3ec7a21a6062b70051f3581f:faba-icon-theme/.footprint
 f:c3ec24d0edf3c49567230a55c91ff6de:php7-fpm/.md5sum
-f:8672d47c185d7728ded941876b70db6b:php7-fpm/Pkgfile
+f:9c84f8d1966b2f62a965a821fac6d8c0:php7-fpm/Pkgfile
 f:954d95b7f645f3435815195aeeac6949:php7-fpm/php-fpm
 f:cea9c47c25c89bcdfe5652391ed07781:php7-fpm/.footprint
 f:94ce8e16b136633103d6adc1dff132be:php7-intl/.md5sum
-f:10efce10ceff2231228c504061a8b91e:php7-intl/Pkgfile
+f:d816519bd8933565a67f9c0650ae3e40:php7-intl/Pkgfile
 f:c5157587e260c79d378428d7424a96c2:php7-intl/.footprint
 f:4693661cb9e8c43f99c0b918aac1beba:yubico-c-client/.md5sum
 f:a5b58810de115ee2f84699a87fd050bb:yubico-c-client/Pkgfile
@@ -292,7 +292,7 @@ f:07b3abdbc351b6d3208c58ec58f741fe:claws-mail/.md5sum
 f:0d39006656b1032443047d3dd3a1a557:claws-mail/Pkgfile
 f:7d2e86fde0d1c8c6a0b45b2d093784e0:claws-mail/.footprint
 f:94ce8e16b136633103d6adc1dff132be:php7-pgsql/.md5sum
-f:ccc9dbcd547e2677cb1275992109196b:php7-pgsql/Pkgfile
+f:9217a29e4b0ead582edebde8cec4d398:php7-pgsql/Pkgfile
 f:4bcff8c2fae56f50bf50bb9a3211205e:php7-pgsql/.footprint
 f:99f7d930a745c2447fc9ebb5d30c9451:fontconfig/.md5sum
 f:ea733785a9b85a912d41d8c99ab60d4c:fontconfig/0005-Makefile-20171017.am.in.patch
@@ -356,7 +356,7 @@ f:cf6749ddbf42c92e2c6ee8d2073c945c:rofi/.md5sum
 f:64ebdde932e7df6ced8660399252e171:rofi/Pkgfile
 f:2267916fe005d812d1154fd6b136f16e:rofi/.footprint
 f:94ce8e16b136633103d6adc1dff132be:php7/.md5sum
-f:df0f585b4e4fbb0bf001daeb29387da7:php7/Pkgfile
+f:eb63008a30b6028effd010112f0189cb:php7/Pkgfile
 f:5d061349a57dce31bdb9cb3c8f1a00c7:php7/.footprint
 f:1165b1a1555739e6d746ff9f7705f464:icon-slicer/.md5sum
 f:c9ebb7f8c3ed9b8d29d582283caf3ca1:icon-slicer/Pkgfile

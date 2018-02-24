@@ -3,7 +3,7 @@
 # Maintainer:  Tim Biermann 
 # Depends on:  postgresql
 
-name=php-pgsql
+name=php7-pgsql
 version=7.2.2
 release=1
 source=(http://www.php.net/distributions/php-$version.tar.xz)

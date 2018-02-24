@@ -1,9 +1,9 @@
 # Description: GD module for PHP v7
 # URL:         http://www.php.net
 # Maintainer:  Tim Biermann 
-# Depends on:  libgd
+# Depends on:  
 
-name=php-intl
+name=php7-intl
 version=7.2.2
 release=1
 source=(http://www.php.net/distributions/php-$version.tar.xz)

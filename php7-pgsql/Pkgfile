@@ -1,0 +1,26 @@
+# Description: postgresql module for PHP
+# URL:         http://www.php.net
+# Maintainer:  Tim Biermann 
+# Depends on:  postgresql
+
+name=php-pgsql
+version=7.2.2
+release=1
+source=(http://www.php.net/distributions/php-$version.tar.xz)
+
+build() {
+	cd php-$version
+
+	./configure \
+		--disable-all \
+		--enable-pdo \
+		--with-pdo-pgsql=shared,/usr \
+		--with-pgsql=shared,/usr
+	make build-modules
+    
+    install -d $PKG/{etc/php/conf.d,usr/lib/php/extensions}
+    install -m 755 modules/pgsql.so $PKG/usr/lib/php/extensions
+    install -m 755 modules/pdo_pgsql.so $PKG/usr/lib/php/extensions
+    echo "extension=pgsql.so" > $PKG/etc/php/conf.d/pgsql.ini
+    echo "extension=pdo_pgsql.so" > $PKG/etc/php/conf.d/pdo_pgsql.ini
+}

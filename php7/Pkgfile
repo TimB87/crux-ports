@@ -1,0 +1,54 @@
+# Description: PHP v7 interpreter, extension modules and support stuff
+# URL:         http://www.php.net
+# Maintainer:  Tim Biermann
+# Depends on:  libpcre libxml2 curl db gdbm
+
+name=php
+version=7.2.2
+release=1
+source=(http://php.net/distributions/php-$version.tar.xz)
+
+build () {
+    cd php-$version
+
+    local PHP_CONFIG="
+    --config-cache \
+    --prefix=/usr --mandir=/usr/share/man \
+    --with-config-file-path=/etc/php \
+    --with-config-file-scan-dir=/etc/php/conf.d \
+    --with-zlib \
+    --with-pcre-regex=/usr \
+    --disable-static --disable-debug \
+    --without-sqlite3 --without-pdo-sqlite \
+    --without-pear"
+
+    local PHP_SHARED="
+    --enable-dba=shared --with-gdbm --with-db4 \
+    --with-bz2=shared \
+    --with-curl=shared \
+    --with-openssl=shared \
+    --enable-zip=shared \
+    --enable-mbstring=shared"
+
+    EXTENSION_DIR=/usr/lib/php/extensions \
+    ./configure \
+        $PHP_CONFIG \
+        $PHP_SHARED \
+        --enable-cli \
+        --disable-cgi \
+        --with-readline \
+        --with-freetype-dir=/usr
+
+    make
+    make -j1 INSTALL_ROOT=$PKG install
+    rm $PKG/usr/lib/php/extensions/*.a
+    ln -sf phar.phar $PKG/usr/bin/phar
+
+    sed -i '/^extension_dir/s|=.*$|= "/usr/lib/php/extensions"|' php.ini-*
+    install -d $PKG/etc/php/conf.d
+    install -m 644 php.ini-* $PKG/etc/php
+
+    # order matters !
+    printf 'extension=%s\n' {zip,bz2,curl,openssl,dba,mbstring}.so \
+           > $PKG/etc/php/conf.d/extensions.ini
+}

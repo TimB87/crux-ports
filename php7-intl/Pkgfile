@@ -1,0 +1,22 @@
+# Description: GD module for PHP v7
+# URL:         http://www.php.net
+# Maintainer:  Tim Biermann 
+# Depends on:  libgd
+
+name=php-intl
+version=7.2.2
+release=1
+source=(http://www.php.net/distributions/php-$version.tar.xz)
+
+build() {
+	cd php-$version
+
+	./configure \
+		--disable-all \
+		--enable-intl=shared
+	make build-modules
+
+	install -d $PKG/etc/php/conf.d
+	echo "extension=intl.so" > $PKG/etc/php/conf.d/intl.ini
+	install -D -m775 modules/intl.so $PKG/usr/lib/php/extensions/intl.so
+}

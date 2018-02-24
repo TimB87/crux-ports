@@ -265,7 +265,7 @@ f:9c84f8d1966b2f62a965a821fac6d8c0:php7-fpm/Pkgfile
 f:954d95b7f645f3435815195aeeac6949:php7-fpm/php-fpm
 f:cea9c47c25c89bcdfe5652391ed07781:php7-fpm/.footprint
 f:94ce8e16b136633103d6adc1dff132be:php7-intl/.md5sum
-f:d816519bd8933565a67f9c0650ae3e40:php7-intl/Pkgfile
+f:4b60f082dfebcdf5338b92170503044b:php7-intl/Pkgfile
 f:c5157587e260c79d378428d7424a96c2:php7-intl/.footprint
 f:4693661cb9e8c43f99c0b918aac1beba:yubico-c-client/.md5sum
 f:a5b58810de115ee2f84699a87fd050bb:yubico-c-client/Pkgfile
@@ -304,7 +304,8 @@ f:b1df5b81276175f21063bfba24681615:fontconfig/.footprint
 f:99bda69f31d26a833ff20d74851b03ad:fontconfig/0002-configure-20171017.ac.patch
 f:5de10d632120b09be9a1b467f20c983e:fontconfig/README
 f:eb5ba6b8522868e4daff51e2b6fd7474:nextcloud/.md5sum
-f:86613c1f7a5f5d3374e1d31a71543a1f:nextcloud/Pkgfile
+f:f3e57d0c36a588ba25e3125317f633f6:nextcloud/Pkgfile
+f:032755a71431d0bbee7c3b42834a5a26:nextcloud/.footprint
 f:e3a35836cc3dd66c10942b60ef44d5c1:gnome-python-desktop/.md5sum
 f:0479269d54687bdb77c46cd3052f08cb:gnome-python-desktop/Pkgfile
 f:729f8b48bea7fca7b2f105b58ed69d06:gnome-python-desktop/.footprint

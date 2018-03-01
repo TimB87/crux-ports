@@ -107,12 +107,14 @@ drwxr-xr-x	root/root	usr/share/keepassxc/icons/application/16x16/actions/
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/16x16/actions/group-new.png
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/16x16/actions/help-about.png
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/16x16/actions/message-close.png
+-rw-r--r--	root/root	usr/share/keepassxc/icons/application/16x16/actions/paperclip.png
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/16x16/actions/password-copy.png
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/16x16/actions/password-generate.png
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/16x16/actions/password-generator.png
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/16x16/actions/password-show-off.png
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/16x16/actions/password-show-on.png
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/16x16/actions/system-search.png
+-rw-r--r--	root/root	usr/share/keepassxc/icons/application/16x16/actions/url-copy.png
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/16x16/actions/username-copy.png
 drwxr-xr-x	root/root	usr/share/keepassxc/icons/application/16x16/apps/
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/16x16/apps/keepassxc-dark.png
@@ -123,6 +125,7 @@ drwxr-xr-x	root/root	usr/share/keepassxc/icons/application/16x16/mimetypes/
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/16x16/mimetypes/application-x-keepassxc.png
 drwxr-xr-x	root/root	usr/share/keepassxc/icons/application/22x22/
 drwxr-xr-x	root/root	usr/share/keepassxc/icons/application/22x22/actions/
+-rw-r--r--	root/root	usr/share/keepassxc/icons/application/22x22/actions/chronometer.png
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/22x22/actions/dialog-close.png
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/22x22/actions/dialog-ok.png
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/22x22/actions/document-encrypt.png
@@ -133,9 +136,11 @@ drwxr-xr-x	root/root	usr/share/keepassxc/icons/application/22x22/actions/
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/22x22/actions/entry-edit.png
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/22x22/actions/entry-new.png
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/22x22/actions/message-close.png
+-rw-r--r--	root/root	usr/share/keepassxc/icons/application/22x22/actions/paperclip.png
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/22x22/actions/password-copy.png
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/22x22/actions/password-generator.png
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/22x22/actions/system-search.png
+-rw-r--r--	root/root	usr/share/keepassxc/icons/application/22x22/actions/url-copy.png
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/22x22/actions/username-copy.png
 drwxr-xr-x	root/root	usr/share/keepassxc/icons/application/22x22/mimetypes/
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/22x22/mimetypes/application-x-keepassxc.png
@@ -158,8 +163,10 @@ drwxr-xr-x	root/root	usr/share/keepassxc/icons/application/256x256/apps/
 drwxr-xr-x	root/root	usr/share/keepassxc/icons/application/32x32/
 drwxr-xr-x	root/root	usr/share/keepassxc/icons/application/32x32/actions/
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/32x32/actions/document-edit.png
+-rw-r--r--	root/root	usr/share/keepassxc/icons/application/32x32/actions/document-encrypt.png
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/32x32/actions/document-properties.png
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/32x32/actions/key-enter.png
+-rw-r--r--	root/root	usr/share/keepassxc/icons/application/32x32/actions/paperclip.png
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/32x32/actions/view-history.png
 drwxr-xr-x	root/root	usr/share/keepassxc/icons/application/32x32/apps/
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/32x32/apps/internet-web-browser.png
@@ -168,6 +175,7 @@ drwxr-xr-x	root/root	usr/share/keepassxc/icons/application/32x32/apps/
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/32x32/apps/keepassxc-unlocked.png
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/32x32/apps/keepassxc.png
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/32x32/apps/preferences-desktop-icons.png
+-rw-r--r--	root/root	usr/share/keepassxc/icons/application/32x32/apps/utilities-terminal.png
 drwxr-xr-x	root/root	usr/share/keepassxc/icons/application/32x32/categories/
 -rw-r--r--	root/root	usr/share/keepassxc/icons/application/32x32/categories/preferences-other.png
 drwxr-xr-x	root/root	usr/share/keepassxc/icons/application/32x32/mimetypes/
@@ -268,6 +276,9 @@ drwxr-xr-x	root/root	usr/share/keepassxc/icons/database/
 -rw-r--r--	root/root	usr/share/keepassxc/icons/database/C68_BlackBerry.png
 drwxr-xr-x	root/root	usr/share/keepassxc/wordlists/
 -rw-r--r--	root/root	usr/share/keepassxc/wordlists/eff_large.wordlist
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/keepassxc-cli.1.gz
 drwxr-xr-x	root/root	usr/share/metainfo/
 -rw-r--r--	root/root	usr/share/metainfo/org.keepassxc.KeePassXC.appdata.xml
 drwxr-xr-x	root/root	usr/share/mime/

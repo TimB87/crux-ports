@@ -1,0 +1,18 @@
+# Description: gd libraries
+# URL: http://www.libgd.org
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on: xorg-libxpm libjpeg-turbo freetype
+
+name=libgd
+version=2.2.5
+release=1
+source=(https://github.com/libgd/libgd/releases/download/gd-2.2.5/libgd-2.2.5.tar.xz)
+
+build () {
+  cd $name-$version
+
+  ./configure --prefix=/usr \
+                --disable-rpath
+
+  make DESTDIR=$PKG install
+}

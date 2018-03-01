@@ -1,0 +1,6 @@
+# TB ports collection
+#
+# https://github.com/TimB87/crux-ports/
+
+ROOT_DIR=/usr/ports/tb
+URL=https://raw.githubusercontent.com/TimB87/crux-ports/master

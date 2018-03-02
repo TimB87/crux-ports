@@ -1,9 +1,9 @@
-# Description:	Qt port of web browser engine
-# URL:		http://www.kde.org
-# Maintainer:	Alan Mizrahi, alan at mizrahi dot com dot ve
-# Depends on:	qt5
+# Description: Qt port of web browser engine
+# URL: https://webkit.org/
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on: qt5
 
-name=qtwebkit
+name=qt5-webkit
 version=5.212.0-alpha2
 release=1
 source=(

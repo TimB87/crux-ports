@@ -1,10 +1,10 @@
 # Description: Evented I/O for V8 javascript.
-# URL: http://nodejs.org/
-# Maintainer: Danny Rawlins, crux at romster dot me
+# URL: https://nodejs.org
+# Maintainer: Tim Biermann <tim_biermann@web.de>
 # Depends on: python
 
 name=nodejs
-version=8.9.4
+version=9.7.0
 release=1
 source=(https://nodejs.org/dist/v$version/node-v$version.tar.xz)
 

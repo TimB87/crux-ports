@@ -1,7 +1,7 @@
 # Description: Nextcloud desktop client
 # URL: https://nextcloud.com/
 # Maintainer: Tim Biermann <tim_biermann@web.de>
-# Depends on: hicolor-icon-theme qt5-webkit qtkeychain xdg-utils doxygen extra-cmake python-sphinx git qt5-tools qtkeychain libgnome-keyring
+# Depends on: hicolor-icon-theme libgnome-keyring qt5-webkit qtkeychain xdg-utils doxygen extra-cmake python-sphinx git qt5-tools
 
 name=nextcloud-client
 version=2.3.3

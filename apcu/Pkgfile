@@ -1,0 +1,21 @@
+# Description: APC user cache
+# URL:
+# Maintainer:
+# Depends on:
+
+name=apcu
+version=5.1.10
+release=1
+source=(https://pecl.php.net/get/apcu-$version.tgz)
+
+build() {
+	cd $name-$version
+    phpize
+    ./configure --config-cache \
+                --sysconfdir=/etc/php/conf.d \
+                --localstatedir=/var
+    make
+    make INSTALL_ROOT=$PKG install
+    echo 'extension=apcu.so' > apcu.ini
+    install -D -m644 apcu.ini $PKG/etc/php/conf.d/apcu.ini
+}

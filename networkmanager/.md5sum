@@ -1,3 +1,4 @@
 42d83efdff7f23381c0971981222b491  NetworkManager-1.10.2.tar.xz
 49dd5996e5a9a7f825e75501a8eb3066  NetworkManager.conf
+3746d7dcabbae93d842c9a1b73f6b939  disable_wifi_scan_when_connected.patch
 8959cd1832461aa0255c3a42fbc5b52f  networkmanager.rc

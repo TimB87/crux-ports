@@ -1,6 +1,6 @@
 # Description: Part of the Xfce4 desktop environment
 # URL: http://xfce.org/
-# Maintainer:  Cory Burgett, cmburget at gmail dot com
+# Maintainer: Tim Biermann <tim_biermann@web.de>
 # Depends on: startup-notification dbus-glib
 
 name=libxfce4ui
@@ -11,8 +11,11 @@ source=(http://archive.xfce.org/src/xfce/libxfce4ui/4.13/$name-$version.tar.bz2)
 build() {
 	cd $name-$version
 
-	./configure --prefix=/usr --libexecdir=/usr/lib/$name --sysconfdir=/etc \
-	            --disable-nls --disable-gtk-doc-html
+	./configure --prefix=/usr \
+            --libexecdir=/usr/lib/$name \
+            --sysconfdir=/etc \
+	        --disable-nls \
+            --disable-gtk-doc-html
 	make
 	make DESTDIR=$PKG install
 

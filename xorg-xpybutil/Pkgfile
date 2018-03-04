@@ -16,4 +16,5 @@ build() {
 	#make DESTDIR=$PKG install
 	echo $PKG	
 	python2 ./setup.py install --root=$PKG
+    rm -fr $PKG/usr/share
 }

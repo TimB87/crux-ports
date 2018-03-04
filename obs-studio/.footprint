@@ -1,5 +1,5 @@
 drwxrwxr-x	root/root	usr/
-drwxrwxr-x	root/root	usr/bin/
+drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/obs
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/obs/
@@ -93,7 +93,7 @@ drwxr-xr-x	root/root	usr/include/obs/util/vc/
 -rw-r--r--	root/root	usr/include/obs/util/vc/vc_inttypes.h
 -rw-r--r--	root/root	usr/include/obs/util/vc/vc_stdbool.h
 -rw-r--r--	root/root	usr/include/obs/util/vc/vc_stdint.h
-drwxrwxr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/cmake/
 drwxr-xr-x	root/root	usr/lib/cmake/LibObs/
 -rw-r--r--	root/root	usr/lib/cmake/LibObs/LibObsConfig.cmake

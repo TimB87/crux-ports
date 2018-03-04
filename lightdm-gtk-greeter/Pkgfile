@@ -1,26 +1,26 @@
 # Description: A GTK+ greeter for LightDM
 # URL: https://launchpad.net/lightdm-gtk-greeter/
 # Maintainer: Tim Biermann <tim_biermann@web.de>
-# Depends on: libxklavier lightdm
+# Depends on: lightdm
 
 name=lightdm-gtk-greeter
-version=2.0.3
+version=2.0.4
 release=1
 source=(https://launchpad.net/$name/2.0/$version/+download/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
-        ./configure --prefix='/usr' \
-                    --libexecdir='/var/lib/lightdm' \
-                    --sbindir='/usr/bin' \
-                    --sysconfdir='/usr/etc/' \
-                    --with-libxklavier \
-                    --enable-kill-on-sigterm \
-                    --disable-libido \
-                    --disable-libindicator \
-                    --disable-static \
-			--disable-Werror
-        make
-        make DESTDIR=$PKG install
-        rm -fr $PKG/usr/share/locale
+    ./configure --prefix='/usr' \
+                --libexecdir='/var/lib/lightdm' \
+                --sbindir='/usr/bin' \
+                --sysconfdir='/usr/etc/' \
+                --with-libxklavier \
+                --enable-kill-on-sigterm \
+                --disable-libido \
+                --disable-libindicator \
+                --disable-static \
+			    --disable-Werror
+    make
+    make DESTDIR=$PKG install
+    rm -fr $PKG/usr/share/locale
 }

@@ -1,0 +1,19 @@
+# Description: Yet Another JSON Library
+# URL: http://lloyd.github.com/yajl/
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on: cmake
+
+name=yajl
+version=2.1.0
+release=1
+source=(https://github.com/lloyd/$name/archive/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	mkdir build
+	cd build
+	cmake ..
+	make
+	install -d $PKG/usr
+	cp -a $name-$version/* $PKG/usr/
+}

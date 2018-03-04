@@ -18,6 +18,6 @@ build() {
 	make
 	make install
 	find $PKG/usr/share/texmaker \
-	-regex '.*/\(COPYING\|README\|AUTHORS\|INSTALL\|ChangeLog\|NEWS\|TODO\).*' \
+	-regex '.*/\(COPYING\|.*qm\|.*aff\|.*dic\|.*txt\|.*html\|.*tmx\|README\|AUTHORS\|INSTALL\|ChangeLog\|NEWS\|TODO\).*' \
 	-delete
 }

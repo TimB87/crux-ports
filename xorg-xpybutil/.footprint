@@ -38,8 +38,3 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/xpybutil/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/xpybutil/window.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/xpybutil/xinerama.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/xpybutil/xinerama.pyc
-drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/doc/
-drwxr-xr-x	root/root	usr/share/doc/xpybutil/
--rw-r--r--	root/root	usr/share/doc/xpybutil/COPYING
--rw-r--r--	root/root	usr/share/doc/xpybutil/README

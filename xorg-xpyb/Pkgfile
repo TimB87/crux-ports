@@ -16,5 +16,5 @@ build() {
 		    	                --disable-nls
 	make
 	make DESTDIR=$PKG install	
-	
+    rm -fr $PKG/usr/share
 }

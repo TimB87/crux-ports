@@ -1,7 +1,7 @@
-# Description:
+# Description: libcloudproviders is a DBus API that allows cloud storage sync clients to expose their services
 # URL: https://gitlab.gnome.org/Incubator/libcloudproviders
-# Maintainer:
-# Depends on:
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on: libffi glib
 
 name=libcloudproviders
 version=git

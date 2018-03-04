@@ -1,0 +1,21 @@
+# Description: A Library for low-level mail work.
+# URL: http://www.etpan.org/
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on: db openssl cyrus-sasl
+
+name=libetpan
+version=1.8
+release=1
+source=(https://github.com/dinhviethoa/libetpan/archive/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	NOCONFIGURE=1 ./autogen.sh
+	./configure \
+		--prefix=/usr \
+		--with-poll
+
+	make
+	make DESTDIR=$PKG install
+}

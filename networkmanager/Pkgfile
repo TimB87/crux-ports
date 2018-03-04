@@ -1,7 +1,7 @@
 # Description: Network configuration tool
-# URL:         http://www.gnome.org/projects/NetworkManager/
+# URL: https://wiki.gnome.org/Projects/NetworkManager/
 # Maintainer: Tim Biermann <tim_biermann@web.de>
-# Depends on: dhcpcd libndp libnl nss openresolv polkit upower
+# Depends on: dhcpcd libndp libnl nss openresolv polkit upower gconf
 # Optional:    ppp avahi bash-completion dbus libnl jansson libteam dnsmasq
 
 name=networkmanager
@@ -11,10 +11,14 @@ source=(
 http://ftp.gnome.org/pub/gnome/sources/NetworkManager/${version%.*}/NetworkManager-${version}.tar.xz
 networkmanager.rc
 NetworkManager.conf
+disable_wifi_scan_when_connected.patch
 )
 
 build() {
 	cd NetworkManager-$version
+    patch -Np1 -i ../disable_wifi_scan_when_connected.patch
+	CONFIG_SHELL=/bin/bash \
+    ./autogen.sh
 
 	CONFIG_SHELL=/bin/bash \
 	./configure \
@@ -23,7 +27,6 @@ build() {
 		--localstatedir=/var \
 		--libexecdir=/usr/lib/networkmanager \
 		--with-udev-dir=/lib/udev \
-		--with-systemdsystemunitdir=no \
 		--disable-nls \
 		--disable-static \
 		--enable-teamdctl=no \

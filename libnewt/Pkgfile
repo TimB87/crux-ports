@@ -1,8 +1,7 @@
 # Description: a programming library for color text mode
 # URL: https://pagure.io/newt
-# Maintainer:
-# Packager:
-# Depends on: 
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on: slang python popt
 
 name=libnewt 
 version=git

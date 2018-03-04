@@ -1,12 +1,12 @@
 # Description: A C/C++ implementation of a Sass compiler
 # URL: http://sass-lang.com/libsass
-# Maintainer: 
+# Maintainer: Tim Biermann <tim_biermann@web.de>
 # Depends on:
 
 name=libsass
-version=3.4.8
+version=3.4.9
 release=1
-source=(https://github.com/sass/libsass/releases/download/3.4.8/libsass-3.4.8.tar.gz)
+source=(https://github.com/sass/libsass/releases/download/$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version

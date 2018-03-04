@@ -1,7 +1,6 @@
-# Description:
-# URL:
-# Maintainer:
-# Packager:
+# Description: Grub2 theme
+# URL: https://github.com/maximilienGilet/Elegant-GRUB2
+# Maintainer: Tim Biermann <tim_biermann@web.de>
 # Depends on:
 
 name=grub2-theme-elegant

@@ -4,7 +4,7 @@
 # Depends on: 
 
 name=ragel
-version=6.9
+version=6.10
 release=1
 source=(http://www.colm.net/files/$name/$name-$version.tar.gz)
 
@@ -18,4 +18,5 @@ build() {
     make DESTDIR=$PKG install
 
     install -m0644 -D ragel.vim $pkg/usr/share/vim/vimfiles/syntax/ragel.vim
+    rm -fr $PKG/usr/share/doc/ragel
 }

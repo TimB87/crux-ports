@@ -6,7 +6,7 @@
 name=rofi
 version=1.5.0
 release=1
-source=(https://github.com/DaveDavenport/rofi/releases/download/${version}/$name-${version}.tar.gz)
+source=(https://github.com/DaveDavenport/rofi/releases/download/$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version

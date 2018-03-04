@@ -16,4 +16,5 @@ build() {
     -DCMAKE_INSTALL_PREFIX=/usr ..
     make -j4 
     make DESTDIR=$PKG install
+    chmod 755 $PKG/usr/{bin,lib}
 }

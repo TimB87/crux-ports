@@ -1,8 +1,8 @@
 # Description:	PulseAudio is a cross-platform, networked sound server - with bluez5 support
 # URL:		http://pulseaudio.org/
 # Maintainer:	Tim Biermann <tim_biermann@web.de>
-# Depends on: bluez json-c libsndfile p5-xml-parser speexdsp
-# Optional:	libsamplerate bluez avahi sbc orc lirc pyqt4 sbc sbc
+# Depends on: bluez5 json-c libsndfile p5-xml-parser speexdsp
+# Optional:	libsamplerate avahi sbc orc lirc pyqt4 sbc sbc
 
 name=pulseaudio
 version=11.1

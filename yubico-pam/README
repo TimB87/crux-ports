@@ -1,13 +1,12 @@
-Please configure as descriped on the Projects Github page:
+Please configure as described on the Projects Github page:
 
 https://github.com/Yubico/yubico-pam
-
 
 Install it in your PAM setup by adding a line to an appropriate file in /etc/pam.d/:
 
 auth sufficient pam_yubico.so id=[Your API Client ID] debug
 
-and move pam_yubico.so into /lib/security/ (or wherever PAM modules live in your system) :
+and move pam_yubico.so into /lib/security/ (or wherever PAM modules live in your system):
 
 mv /usr/lib/security/pam_yubico.so /lib/security/
 

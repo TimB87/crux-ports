@@ -52,6 +52,7 @@ lrwxrwxrwx	root/root	etc/fonts/conf.d/60-latin.conf -> /etc/fonts/conf.avail/60-
 lrwxrwxrwx	root/root	etc/fonts/conf.d/65-fonts-persian.conf -> /etc/fonts/conf.avail/65-fonts-persian.conf
 lrwxrwxrwx	root/root	etc/fonts/conf.d/65-nonlatin.conf -> /etc/fonts/conf.avail/65-nonlatin.conf
 lrwxrwxrwx	root/root	etc/fonts/conf.d/69-unifont.conf -> /etc/fonts/conf.avail/69-unifont.conf
+lrwxrwxrwx	root/root	etc/fonts/conf.d/70-no-bitmaps.conf -> /etc/fonts/conf.avail/70-no-bitmaps.conf
 lrwxrwxrwx	root/root	etc/fonts/conf.d/80-delicious.conf -> /etc/fonts/conf.avail/80-delicious.conf
 lrwxrwxrwx	root/root	etc/fonts/conf.d/90-synthetic.conf -> /etc/fonts/conf.avail/90-synthetic.conf
 -rw-r--r--	root/root	etc/fonts/fonts.conf

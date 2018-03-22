@@ -1,7 +1,7 @@
 # Description: Yubico Pluggable Authentication Module (PAM)
 # URL: https://github.com/Yubico/yubico-pam
 # Maintainer: Tim Biermann <tim_biermann@web.de>
-# Depends on: linux-pam yubikey-personalization
+# Depends on: linux-pam json-c openldap yubikey-personalization
 
 name=yubico-pam
 version=2.24

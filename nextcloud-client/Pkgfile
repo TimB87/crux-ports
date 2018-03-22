@@ -4,18 +4,15 @@
 # Depends on: hicolor-icon-theme libgnome-keyring qt5-webkit qtkeychain xdg-utils doxygen extra-cmake python-sphinx git qt5-tools
 
 name=nextcloud-client
-version=2.3.3
+#version=2.3.3
+version=git
 release=1
-source=(https://github.com/nextcloud/client_theming/archive/v2.3.3/client-theming-v2.3.3.tar.gz)
 git=(https://github.com/nextcloud/client.git)
 
 build() {
-	cd client_theming-$version
-    mkdir -p build-linux
     git clone $git client
-    cd build-linux
-    cmake -D OEM_THEME_DIR="$SRC/client_theming-$version/nextcloudtheme" ../client \
-        -DCMAKE_INSTALL_PREFIX=/usr \
+    cd client
+    cmake -DCMAKE_INSTALL_PREFIX=/usr \
         -DCMAKE_INSTALL_LIBDIR=lib \
         -DCMAKE_BUILD_TYPE=Release \
         -DCMAKE_INSTALL_SYSCONFDIR=/etc/nextcloud

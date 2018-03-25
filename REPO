@@ -299,7 +299,7 @@ f:fb42f235f800157dadcf8991d29f7806:font-noto/.md5sum
 f:f82bab2c1f88130feaf4a3bc10e775cf:yajl/Pkgfile
 f:1884d7eb9e16a1149157ab8e67651855:yajl/.footprint
 f:8c0bfbdb6951358aa971c31f55341759:yajl/.md5sum
-f:3d6cf5eea29203c9465651f3e4d4f15e:yubico-pam/Pkgfile
+f:972d57643023beb8b1adba02961cecd1:yubico-pam/Pkgfile
 f:7cf652ea1de8c2ab1996a2a3b30fe493:yubico-pam/README
 f:65284f321dbd1439f492a282b743c574:yubico-pam/.footprint
 f:3fd752319758c2e575aa842e08fbc82b:yubico-pam/.md5sum
@@ -312,9 +312,10 @@ f:d41d8cd98f00b204e9800998ecf8427e:i3lock-fancy/.md5sum
 f:50a04e3bdac94942461358d7d852a678:gtk-theme-arc/Pkgfile
 f:a1060a3acc7ed2bbc677cff26f1c33b9:gtk-theme-arc/.footprint
 f:b4edcf911559ae394ecaaf001eba830b:gtk-theme-arc/.md5sum
-f:276e0bd2a734f18173089de0df4c7ca0:argon2/Pkgfile
+f:d5f30adc128812aff65ab79602ad5136:argon2/Pkgfile
+f:d61611be3e0409008ac2d3f3419a25e0:argon2/libargon2.pc
 f:bd7bac93433642af06c8d39158adf9e3:argon2/.footprint
-f:9d5b0ff46d5750ce528afc39e6980042:argon2/.md5sum
+f:a75b360b193c63cd946cc863f8d047b7:argon2/.md5sum
 f:bbcef882147da9000691b07ac61c1b6b:zsh/zsh-lovers.1
 f:bbcba1292c8b40e111bb067fa25bee9a:zsh/Pkgfile
 f:1df5b335eca489948dfc49026d5a5e17:zsh/_prt-get

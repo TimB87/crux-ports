@@ -6,10 +6,11 @@
 name=argon2
 version=20171227
 release=1
-source=(https://github.com/P-H-C/phc-winner-argon2/archive/20171227/phc-winner-argon2-20171227.tar.gz)
+source=(https://github.com/P-H-C/phc-winner-argon2/archive/20171227/phc-winner-argon2-20171227.tar.gz libargon2.pc)
 
 build() {
 	cd phc-winner-$name-$version
     make
     make DESTDIR=$PKG install
+    install -D -m0644 libargon2.pc $PKG/usr/lib/pkgconfig/libargon2.pc
 }

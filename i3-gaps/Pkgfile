@@ -1,7 +1,7 @@
 # Description: i3 tiling window manager
 # URL: http://i3wm.org/
 # Maintainer:  Tim Biermann <tim_biermann@web.de>
-# Depends on: asciidoc dmenu libev pango startup-notification libxkbcommon xmlto xorg-xcb-util-cursor xorg-xcb-util-keysyms xorg-xcb-util-wm yajl
+# Depends on: freetype libev libxkbcommon pango startup-notification xcb-xrm xorg-xcb-util-cursor xorg-xcb-util-keysyms xorg-xcb-util-wm yajl
 
 name=i3-gaps
 version=git

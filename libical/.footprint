@@ -101,77 +101,29 @@ drwxr-xr-x	root/root	usr/lib64/cmake/LibIcal/
 -rw-r--r--	root/root	usr/lib64/cmake/LibIcal/LibIcalTargets.cmake
 -rw-r--r--	root/root	usr/lib64/libical-glib.a
 lrwxrwxrwx	root/root	usr/lib64/libical-glib.so -> libical-glib.so.3
-lrwxrwxrwx	root/root	usr/lib64/libical-glib.so.3 -> libical-glib.so.3.0.1
--rwxr-xr-x	root/root	usr/lib64/libical-glib.so.3.0.1
+lrwxrwxrwx	root/root	usr/lib64/libical-glib.so.3 -> libical-glib.so.3.0.3
+-rwxr-xr-x	root/root	usr/lib64/libical-glib.so.3.0.3
 -rw-r--r--	root/root	usr/lib64/libical.a
 lrwxrwxrwx	root/root	usr/lib64/libical.so -> libical.so.3
-lrwxrwxrwx	root/root	usr/lib64/libical.so.3 -> libical.so.3.0.1
--rwxr-xr-x	root/root	usr/lib64/libical.so.3.0.1
+lrwxrwxrwx	root/root	usr/lib64/libical.so.3 -> libical.so.3.0.3
+-rwxr-xr-x	root/root	usr/lib64/libical.so.3.0.3
 -rw-r--r--	root/root	usr/lib64/libical_cxx.a
 lrwxrwxrwx	root/root	usr/lib64/libical_cxx.so -> libical_cxx.so.3
-lrwxrwxrwx	root/root	usr/lib64/libical_cxx.so.3 -> libical_cxx.so.3.0.1
--rwxr-xr-x	root/root	usr/lib64/libical_cxx.so.3.0.1
+lrwxrwxrwx	root/root	usr/lib64/libical_cxx.so.3 -> libical_cxx.so.3.0.3
+-rwxr-xr-x	root/root	usr/lib64/libical_cxx.so.3.0.3
 -rw-r--r--	root/root	usr/lib64/libicalss.a
 lrwxrwxrwx	root/root	usr/lib64/libicalss.so -> libicalss.so.3
-lrwxrwxrwx	root/root	usr/lib64/libicalss.so.3 -> libicalss.so.3.0.1
--rwxr-xr-x	root/root	usr/lib64/libicalss.so.3.0.1
+lrwxrwxrwx	root/root	usr/lib64/libicalss.so.3 -> libicalss.so.3.0.3
+-rwxr-xr-x	root/root	usr/lib64/libicalss.so.3.0.3
 -rw-r--r--	root/root	usr/lib64/libicalss_cxx.a
 lrwxrwxrwx	root/root	usr/lib64/libicalss_cxx.so -> libicalss_cxx.so.3
-lrwxrwxrwx	root/root	usr/lib64/libicalss_cxx.so.3 -> libicalss_cxx.so.3.0.1
--rwxr-xr-x	root/root	usr/lib64/libicalss_cxx.so.3.0.1
+lrwxrwxrwx	root/root	usr/lib64/libicalss_cxx.so.3 -> libicalss_cxx.so.3.0.3
+-rwxr-xr-x	root/root	usr/lib64/libicalss_cxx.so.3.0.3
 -rw-r--r--	root/root	usr/lib64/libicalvcal.a
 lrwxrwxrwx	root/root	usr/lib64/libicalvcal.so -> libicalvcal.so.3
-lrwxrwxrwx	root/root	usr/lib64/libicalvcal.so.3 -> libicalvcal.so.3.0.1
--rwxr-xr-x	root/root	usr/lib64/libicalvcal.so.3.0.1
+lrwxrwxrwx	root/root	usr/lib64/libicalvcal.so.3 -> libicalvcal.so.3.0.3
+-rwxr-xr-x	root/root	usr/lib64/libicalvcal.so.3.0.3
 drwxr-xr-x	root/root	usr/lib64/pkgconfig/
 -rw-r--r--	root/root	usr/lib64/pkgconfig/libical-glib.pc
 -rw-r--r--	root/root	usr/lib64/pkgconfig/libical.pc
 drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/gtk-doc/
-drwxr-xr-x	root/root	usr/share/gtk-doc/html/
-drwxr-xr-x	root/root	usr/share/gtk-doc/html/libical-glib/
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/annotation-glossary.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/api-index-full.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/ch01.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/home.png
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/index.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/index.sgml
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/left.png
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-ICalArray.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-ICalAttach.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-ICalCompIter.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-ICalComponent.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-ICalDatetimeperiodType.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-ICalDurationType.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-ICalGeoType.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-ICalObject.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-ICalParameter.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-ICalParser.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-ICalPeriodType.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-ICalProperty.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-ICalRecurIterator.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-ICalRecurrenceType.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-ICalReqstatType.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-ICalTimeSpan.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-ICalTimetype.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-ICalTimezone.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-ICalTimezonePhase.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-ICalTimezonetype.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-ICalTriggerType.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-ICalValue.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-i-cal-derived-parameter.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-i-cal-derived-property.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-i-cal-derived-value.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-i-cal-enums.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-i-cal-error.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-i-cal-langbind.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-i-cal-memory.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-i-cal-mime.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-i-cal-recur.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-i-cal-restriction.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-i-cal-time.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib-i-cal-unknowntokenhandling.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/libical-glib.devhelp2
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/right.png
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/style.css
--rw-r--r--	root/root	usr/share/gtk-doc/html/libical-glib/up.png

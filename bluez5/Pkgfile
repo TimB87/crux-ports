@@ -1,7 +1,7 @@
 # Description: Bluetooth libraries and utilities
 # URL: https://www.bluez.org/
 # Maintainer: Tim Biermann <tim_biermann@web.de>
-# Depends on: icu glib
+# Depends on: icu glib dbus
 
 name=bluez5
 version=5.48

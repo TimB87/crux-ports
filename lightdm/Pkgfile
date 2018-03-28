@@ -1,16 +1,15 @@
 # Description: Lightweight Desktop Manager prefered by Mate Desktop
 # URL: https://freedesktop.org/wiki/Software/LightDM/ 
 # Maintainer: Tim Biermann <tim_biermann@web.de>
-# Depends on: glib glibc gtk-doc libgcrypt linux-pam polkit xorg-libx11 xorg-libxklavier
+# Depends on: glib glibc gtk-doc libgcrypt linux-pam polkit xorg-libx11 accountsservice libxklavier
 
 name=lightdm
-version=1.25.2
+version=1.26.0
 release=1
 source=(https://github.com/CanonicalLtd/lightdm/releases/download/$version/$name-$version.tar.xz Xsession lightdm-default-config.patch lightdm.rules lightdm.service)
 
 build() {
 	cd $name-$version
-    #patch -Np1 $SRC/lightdm-default-config.patch
 
     ./configure --prefix='/usr' \
                 --localstatedir='/var' \
@@ -40,17 +39,13 @@ build() {
     
     #install PAM configurations
     install -d $PKG/etc/pam.d
-#	for i in data/pam/*; do
-#		install -m 644 $i $PKG/etc/pam.d/$i;
-#	done
-
     cd data/pam
     for i in *; do
         install -m644 $i $PKG/etc/pam.d/;
     done
     cd ../..
-#    install -m644 data/pam/{lightdm,lightdm-autologin,lightdm-greeter} $PKG/etc/pam.d
-    #luckily we don't use system.d 
+    
+    #luckily we don't use systemd 
     for i in $PKG/etc/pam.d/*; do
     sed -i '/session   optional pam_systemd.so/ c\-session   optional pam_systemd.so' $i; done
 
@@ -64,5 +59,4 @@ build() {
     
     #remove junk
     rm -fr $PKG/usr/share/{locale,gtk-doc,help}
-
 }

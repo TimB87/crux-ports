@@ -6,7 +6,7 @@
 name=font-ibm-plex
 version=1.0.2
 release=1
-source=(https://github.com/IBM/plex/archive/v$version/plex-$version.tar.gz)
+source=(https://github.com/IBM/plex/archive/v$version/plex-v$version.tar.gz)
 
 build() {
     cd plex-$version

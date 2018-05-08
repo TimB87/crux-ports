@@ -12,8 +12,7 @@ git=(https://github.com/snwh/moka-icon-theme.git)
 build() {
     git clone $git $name
     cd $name
-    install -d -m 755 $PKG/usr/share/icons/Moka
-    cp -dr --no-preserve=ownership Moka $PKG/usr/share/icons/
-    find $PKG/usr/share/icons/ -type d -exec chmod 755 {} \;
-    find $PKG/usr/share/icons/ -type f -exec chmod 644 {} \;
+    ./autogen.sh
+    make
+    make DESTDIR=$PKG install
 }

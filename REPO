@@ -161,7 +161,7 @@ f:3a8d25463ffd964c4db63b4ba824d1a7:j4-dmenu-desktop/.md5sum
 f:88c95bff0d536acdb1bf241f96bb8cc1:acpi/Pkgfile
 f:3783ddd1a1bab952dc8166225349052a:acpi/.footprint
 f:ca5992b34a7e3d7e596ad25835fc6849:acpi/.md5sum
-f:0b0e29dc82500086c1cdbee5fe1ef51b:faba-mono-icon-theme/Pkgfile
+f:9080597229def308356ac1e0a83d67e4:faba-mono-icon-theme/Pkgfile
 f:48ab50e3e2e0bdf5c5ea34fe52b444cd:faba-mono-icon-theme/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:faba-mono-icon-theme/.md5sum
 f:4f3f68f35c533ad5959b26003e5a7ac0:ttf-font-icons/Pkgfile
@@ -248,9 +248,9 @@ f:2a7326f4de1d949b8c96749b62cc5021:lightdm/lightdm.rules
 f:019a3838a4fb4ba0aba41248575aea16:yubikey-personalization-gui/Pkgfile
 f:51782f0f7541d8a696dcc1859d187a77:yubikey-personalization-gui/.footprint
 f:ac50518fba25e4054773810e8e1809c1:yubikey-personalization-gui/.md5sum
-f:f9bc96157372981171819ccfcddc35c9:rofi/Pkgfile
-f:2267916fe005d812d1154fd6b136f16e:rofi/.footprint
-f:cf6749ddbf42c92e2c6ee8d2073c945c:rofi/.md5sum
+f:15b0b3870dc01b743507c0a8a8c616aa:rofi/Pkgfile
+f:5aae2e0fe725ada24d1cbf9bc38f4f53:rofi/.footprint
+f:21b08a14bc95a147d075f6a7ae2cdc7d:rofi/.md5sum
 f:d275739916973c618ee9057e4cc147f5:xcb-xrm/Pkgfile
 f:80e849824bbe614b2a87b956bf7fa46a:xcb-xrm/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:xcb-xrm/.md5sum
@@ -344,7 +344,7 @@ f:99f7d930a745c2447fc9ebb5d30c9451:fontconfig/.md5sum
 f:4f380c0d970af0758b701cc3e8d6a7b9:libsass/Pkgfile
 f:5cf0454092e3e984fa21d288f806a2a3:libsass/.footprint
 f:e32049af6dd08c73438c6d54c4266a9f:libsass/.md5sum
-f:b5402a4598e2294029e53136564ba7e6:faba-icon-theme/Pkgfile
+f:c66b8451ea3b0879dbaa72f54b858a5a:faba-icon-theme/Pkgfile
 f:b808537b3ec7a21a6062b70051f3581f:faba-icon-theme/.footprint
 f:6971548d645147a20324f4125b4a5df6:faba-icon-theme/.md5sum
 f:391ef936b2f18e50d1939cf77595c383:exo/Pkgfile
@@ -379,9 +379,9 @@ f:f9e5dfa77275e272ed70b5519c63b95a:freetype/.footprint
 f:9df123ffc4fd56e6345abb2707efd84e:freetype/0007-cleartype.patch
 f:9c6fe85de2c29a33aec390956e1be078:freetype/.md5sum
 f:a1f96fd4abc2574b04c2599fb1c71293:freetype/0001-Enable-table-validation-modules.patch
-f:7d122097b8e52c5c3cd8ac3e4083da40:papirus-icon-theme/Pkgfile
-f:fbe5d162a17ca41f80c6f8dd6c959b1a:papirus-icon-theme/.footprint
-f:9e18891f3185b1af7b1eca1c7f1c58da:papirus-icon-theme/.md5sum
+f:a98f018cb0c2b5a3b922188d0b6e6cc2:papirus-icon-theme/Pkgfile
+f:0bd171913e80143a866d0115c7923d2d:papirus-icon-theme/.footprint
+f:2c038e6faf6b9328f0fa9d60def6a179:papirus-icon-theme/.md5sum
 f:836dab0e85466ed5a4403ac24cbd9d4c:yubico-c/Pkgfile
 f:4afebeb3719afabc67734141a73009ec:yubico-c/.footprint
 f:f33f2e53dcd3f9f76aef63602dc298b9:yubico-c/.md5sum
@@ -408,7 +408,7 @@ f:02ca7bf2822d7962acb9cda48df486cd:optipng/.footprint
 f:0bfb686b497738a06f34720e20475e53:optipng/optipng-0.6.5-libpng-1.4.8.patch
 f:d5e90125dc4ede24dae56ba3e3440dba:optipng/.md5sum
 f:68c97a82938c1e157afc16f52d484b75:i3-gaps/Pkgfile
-f:96780fce8379918c7aed72b6e832a159:i3-gaps/.footprint
+f:9371001c062cd02c5cabc6ca321c1cb0:i3-gaps/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:i3-gaps/.md5sum
 f:3f9e6b917c409b22ec024ffe490a8a1c:gnome-keyring/Pkgfile
 f:a69db824d1790722ab89b2b59c028019:gnome-keyring/.footprint

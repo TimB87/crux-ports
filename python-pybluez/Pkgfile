@@ -1,14 +1,17 @@
-# Description:
-# URL:
-# Maintainer:
-# Depends on:
+# Description: Bluetooth Python extension module
+# URL: https://github.com/karulis/pybluez
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on: bluez5
 
 name=python-pybluez
-version=0.22
+version=git
 release=1
-source=(https://github.com/karulis/pybluez/archive/0.22.tar.gz)
+git=(https://github.com/pybluez/pybluez.git)
 
 build() {
-	cd pybluez-$version
+    git clone $git
+
+    cd pybluez
+    
 	python2 setup.py install --root="$PKG"
 }

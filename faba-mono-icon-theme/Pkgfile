@@ -11,8 +11,11 @@ git=(https://github.com/snwh/faba-mono-icons.git)
 
 build() {
     git clone $git $name
+
     cd $name
-    ./autogen.sh
+
+    bash autogen.sh
+
     make
     make DESTDIR=$PKG install
 }

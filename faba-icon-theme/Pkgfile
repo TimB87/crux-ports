@@ -6,12 +6,13 @@
 name=faba-icon-theme
 version=4.1.2
 release=1
-source=(https://github.com/snwh/faba-icon-theme/archive/v4.1.2/$name-$version.tar.gz)
+source=(https://github.com/snwh/$name/archive/v$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
-    chmod +x autogen.sh
-    ./autogen.sh
+
+    bash ./autogen.sh
+
     make
     make DESTDIR=$PKG install
 }

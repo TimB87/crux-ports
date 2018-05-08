@@ -17,5 +17,6 @@ build() {
                 --disable-cinammon \
                 --disable-metacity \
                 --disable-plank
+    make
 	make DESTDIR=$PKG install
 }

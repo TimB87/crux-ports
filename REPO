@@ -177,9 +177,9 @@ f:253d27929e611a984957c74857a77811:apcu/.md5sum
 f:44914d6a9a2d87c773a8146c8eaa2bf7:python-pyudev/Pkgfile
 f:18f30855ab3c07ef8da96de7e14a72f6:python-pyudev/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:python-pyudev/.md5sum
-f:ee4dd19ae5500b02fd4a7d0c208f4661:python-pybluez/Pkgfile
-f:c9595df310a63f3e3dc8eb2220819be9:python-pybluez/.footprint
-f:cbc294c546b94f0eef2039155eb88ef6:python-pybluez/.md5sum
+f:d60a2999927e6eed8e1766a3954f44ff:python-pybluez/Pkgfile
+f:3f360604fc374066b81ac78f271336ec:python-pybluez/.footprint
+f:d41d8cd98f00b204e9800998ecf8427e:python-pybluez/.md5sum
 f:cbb3615038aef8c340dee4ac382b520f:grub2-theme-elegant/Pkgfile
 f:60b54df4dbcbd2a4fd782a320058a839:grub2-theme-elegant/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:grub2-theme-elegant/.md5sum

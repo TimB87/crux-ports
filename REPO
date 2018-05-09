@@ -353,7 +353,7 @@ f:d938f939a160298e154d2874ed8de173:exo/.md5sum
 f:57224a94c94e0132afe47c02f7ac5e58:ragel/Pkgfile
 f:09281c2e533d00364382e78428f01a62:ragel/.footprint
 f:d6cbae0aba3d8fa4afb2fdfde4fae801:ragel/.md5sum
-f:8fb59e373dbbed1ece8cb6082b29a14c:gnome-common/Pkgfile
+f:ef4991d56c0484d34234d040fd47f45e:gnome-common/Pkgfile
 f:3ef5f1d63964dbd2af941fb5a56f4b79:gnome-common/.footprint
 f:53b5cfe249bf079bbd7adb032fbd18bd:gnome-common/.md5sum
 f:c7efbe620ba7b84a1db44fffc2ca5bd3:claws-mail/Pkgfile
@@ -397,7 +397,7 @@ f:6d67e70c5f615aeacea695502dd93bda:accountsservice/.md5sum
 f:868538048d01fcee937e4529e6f17982:qtkeychain/Pkgfile
 f:1e4b35f9c9beeb39aaab060d3381eeb8:qtkeychain/.footprint
 f:610c73194017659103dbccdda52fbfed:qtkeychain/.md5sum
-f:2f34dbf3752b244687689b47dfa24ebb:dbus-python3/Pkgfile
+f:b3d766c195073b1f43e1f0905e8ac928:dbus-python3/Pkgfile
 f:aadbb87f2efc0ee11c4a880658abcdc9:dbus-python3/.footprint
 f:76bf5d77ea95bcd88d8249d6c2274087:dbus-python3/.md5sum
 f:0066e82cbaa8c0288d65be9f1b9d20fb:arc-icon-theme/Pkgfile
@@ -410,9 +410,9 @@ f:d5e90125dc4ede24dae56ba3e3440dba:optipng/.md5sum
 f:68c97a82938c1e157afc16f52d484b75:i3-gaps/Pkgfile
 f:9371001c062cd02c5cabc6ca321c1cb0:i3-gaps/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:i3-gaps/.md5sum
-f:3f9e6b917c409b22ec024ffe490a8a1c:gnome-keyring/Pkgfile
-f:a69db824d1790722ab89b2b59c028019:gnome-keyring/.footprint
-f:e28bace1929bdca16e0f7a11cc40edc8:gnome-keyring/.md5sum
+f:2610db59f83a718df4bcc60e9c6f9c78:gnome-keyring/Pkgfile
+f:4a8ba2e5a3bae2f99cb87246761a86b7:gnome-keyring/.footprint
+f:3ff2c6e98ebe0acc182e4643424ade41:gnome-keyring/.md5sum
 f:c9f878bfe08a2322f4d6767f45adcfb1:bluez-alsa/Pkgfile
 f:f07cde0864ccae6508aa548a464ca5e6:bluez-alsa/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:bluez-alsa/.md5sum

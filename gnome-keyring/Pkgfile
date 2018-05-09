@@ -4,12 +4,13 @@
 # Depends on: gnome-common linux-pam p11-kit gcr gtk3 harfbuzz pango libepoxy
 
 name=gnome-keyring
-version=3.27.4
+version=3.28.2
 release=1
 source=(https://git.gnome.org/browse/gnome-keyring/snapshot/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
+    
     NOCONFIGURE=1 ./autogen.sh
     ./configure --prefix=/usr \
                 --localstatedir=/var \

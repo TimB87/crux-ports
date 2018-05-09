@@ -11,8 +11,8 @@ drwxr-xr-x	root/root	usr/include/sass/
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libsass.a
 -rwxr-xr-x	root/root	usr/lib/libsass.la
-lrwxrwxrwx	root/root	usr/lib/libsass.so -> libsass.so.0.0.9
-lrwxrwxrwx	root/root	usr/lib/libsass.so.0 -> libsass.so.0.0.9
--rwxr-xr-x	root/root	usr/lib/libsass.so.0.0.9
+lrwxrwxrwx	root/root	usr/lib/libsass.so -> libsass.so.1.0.0
+lrwxrwxrwx	root/root	usr/lib/libsass.so.1 -> libsass.so.1.0.0
+-rwxr-xr-x	root/root	usr/lib/libsass.so.1.0.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libsass.pc

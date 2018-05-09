@@ -4,17 +4,20 @@
 # Depends on: libxfce4ui p5-uri libxfce4util
 
 name=exo
-version=0.11.5
+version=0.12.0
 release=1
-source=(http://archive.xfce.org/src/xfce/exo/0.11/$name-$version.tar.bz2)
+source=(http://archive.xfce.org/src/xfce/exo/${version:0:4}/$name-$version.tar.bz2)
 
 build() {
 	cd $name-$version
 
-	./configure --prefix=/usr --libexecdir=/usr/lib/$name --sysconfdir=/etc \
-	            --disable-nls --disable-gtk-doc-html
+	./configure --prefix=/usr \
+                --libexecdir=/usr/lib/$name \
+                --sysconfdir=/etc \
+	            --disable-nls \
+                --disable-gtkdoc-html
 	make
 	make DESTDIR=$PKG install
 
-	rm -rf $PKG/usr/share/locale
+	rm -rf $PKG/usr/share/{locale,gtk-doc}
 }

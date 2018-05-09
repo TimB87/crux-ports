@@ -1,6 +1,6 @@
 #!/bin/sh
 #
-# /etc/rc.d/tlp: start/stop slim
+# /etc/rc.d/tlp: start/stop tlp
 #
 
 case $1 in
@@ -21,4 +21,3 @@ restart)
 esac
 
 # End of file
-

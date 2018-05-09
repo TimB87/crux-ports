@@ -1,5 +1,5 @@
 # Description: 
-# URL: 
+# URL: https://gnome.org
 # Maintainer: Tim Biermann <tim_biermann@web.de>
 # Depends on: gnome-common linux-pam p11-kit gcr gtk3 harfbuzz pango libepoxy
 

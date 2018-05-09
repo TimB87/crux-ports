@@ -11,11 +11,13 @@ source=(http://dbus.freedesktop.org/releases/dbus-python/dbus-python-$version.ta
 build() {
     cd dbus-python-$version	
 
-    mkdir python3
-	pushd python3
-	PYTHON=/usr/bin/python3 ../configure --prefix=/usr \
-             		--docdir=/usr/share/doc/dbus-python-1.2.0
-	make
+    mkdir build
+	cd build
+	
+    PYTHON=/usr/bin/python3 \
+        ../configure --prefix=/usr 
+	
+    make
 	make DESTDIR=$PKG install
     
     rm -fr $PKG/usr/share

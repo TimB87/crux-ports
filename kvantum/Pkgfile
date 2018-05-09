@@ -4,7 +4,7 @@
 # Depends on: qt5 llvm libffi icu harfbuzz
 
 name=kvantum
-version=0.10.5
+version=0.10.6
 release=1
 source=(https://github.com/tsujan/Kvantum/archive/V$version/Kvantum-v$version.tar.gz)
 

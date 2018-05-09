@@ -4,7 +4,7 @@
 # Depends on: dbus-glib
 
 name=dbus-python3
-version=1.2.6
+version=1.2.8
 release=1
 source=(http://dbus.freedesktop.org/releases/dbus-python/dbus-python-$version.tar.gz)
 

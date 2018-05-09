@@ -10,9 +10,12 @@ source=()
 git=(https://github.com/Airblader/i3blocks-gaps.git)
 
 build() {
-	git clone $git
+	git clone $git $name
 	cd $name
-	make clean debug
-	make PREFIX=/usr
-	make DESTDIR=$PKG PREFIX=/usr LIBEXECDIR=/usr/lib install
+	
+    make clean debug
+	
+    make PREFIX=/usr
+	
+    make DESTDIR=$PKG PREFIX=/usr SYSCONFDIR=/usr/etc LIBEXECDIR=/usr/lib install
 }

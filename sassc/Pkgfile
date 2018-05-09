@@ -4,9 +4,9 @@
 # Depends on: libsass
 
 name=sassc
-version=3.4.8
+version=3.5.0
 release=1
-source=(https://github.com/sass/sassc/releases/download/$version/$name-$version.tar.gz)
+source=(https://github.com/sass/sassc/archive/$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version

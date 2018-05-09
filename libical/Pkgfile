@@ -10,10 +10,14 @@ source=(https://github.com/$name/$name/releases/download/v$version/$name-$versio
 
 build() {
 	cd $name-$version
-	mkdir build
+
+   
+    mkdir build
 	cd build
-	cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+
+    cmake -DCMAKE_INSTALL_PREFIX=/usr ..
 	make
 	make DESTDIR=$PKG install
+
     rm -fr $PKG/usr/share/gtk-doc
 }

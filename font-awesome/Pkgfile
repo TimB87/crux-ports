@@ -4,9 +4,9 @@
 # Depends on:
 
 name=font-awesome
-version=5.0.6
+version=5.0.12
 release=1
-source=(https://use.fontawesome.com/releases/v5.0.6/fontawesome-free-$version.zip)
+source=(https://use.fontawesome.com/releases/v$version/fontawesome-free-$version.zip)
 
 build() {
 	cd fontawesome-free-$version

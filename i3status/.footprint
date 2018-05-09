@@ -1,8 +1,8 @@
-drwxr-xr-x	root/root	etc/
--rw-r--r--	root/root	etc/i3status.conf
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/i3status
+drwxr-xr-x	root/root	usr/etc/
+-rw-r--r--	root/root	usr/etc/i3status.conf
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/

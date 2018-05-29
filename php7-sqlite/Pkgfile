@@ -1,0 +1,27 @@
+# Description: sqlite3 module for PHP
+# URL:         http://www.php.net
+# Maintainer:  Tim Biermann 
+# Depends on:  sqlite3
+
+name=php7-sqlite
+version=7.2.6
+release=1
+source=(http://www.php.net/distributions/php-$version.tar.xz)
+
+build() {
+	cd php-$version
+
+	./configure \
+		--disable-all \
+		--enable-pdo \
+	    --with-pdo-sqlite=shared,/usr \
+        --with-sqlite3=shared,/usr
+    
+    make build-modules
+    
+    install -d $PKG/{etc/php/conf.d,usr/lib/php/extensions}
+    install -m 755 modules/sqlite3.so $PKG/usr/lib/php/extensions
+    install -m 755 modules/pdo_sqlite.so $PKG/usr/lib/php/extensions
+    echo "extension=sqlite3.so" > $PKG/etc/php/conf.d/sqlite3.ini
+    echo "extension=pdo_sqlite.so" > $PKG/etc/php/conf.d/pdo_sqlite.ini
+}

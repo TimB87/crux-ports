@@ -5,44 +5,19 @@
 
 name=network-manager-applet
 version=1.8.6
-#version=git
 release=1
 source=(https://download.gnome.org/sources/$name/${version::3}/$name-$version.tar.xz)
-git=(git://git.gnome.org/network-manager-applet)
 
 build() {
 	cd $name-$version
 
-#    git clone $git
-#    cd $name
-#    NOCONFIGURE=1 ./autogen.sh
-#    ./configure --prefix=/usr \
-#                --sysconfdir=/etc \
-#                --sbindir=/usr/bin \
-#		        --libexecdir=/usr/lib/networkmanager \
-#		        --disable-static \
-#		        --disable-maintainer-mode \
-#		        --enable-gtk-doc \
-#               --enable-introspection \
-#                --enable-ld-gc \
-#                --with-team \
-#                --with-wwan \
-#                --without-appindicator \
-#                --without-selinux --without-selinux
-#
-#    sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
-#
-#    make
-#    make DESTDIR=$PKG install
-
     mkdir build
 	meson --prefix=/usr \
         --sysconfdir=/etc \
-        --disable-selinux \
 		-Denable-gtk-doc=false \
         -Denable-libnm-gtk=true \
 		-Denable-selinux=false \
-       -Denable-team=false \
+        -Denable-team=true \
 		-Denable-wwan=false \
         -Denable-introspection=true build 
 	cd build

@@ -21,5 +21,6 @@ build() {
     make INSTALL_ROOT=$PKG install
     
     echo 'extension=apcu.so' > apcu.ini
+    
     install -D -m644 apcu.ini $PKG/etc/php/conf.d/apcu.ini
 }

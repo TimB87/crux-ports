@@ -332,9 +332,9 @@ f:d41d8cd98f00b204e9800998ecf8427e:grub2-theme-poly-light/.md5sum
 f:ae6dabfb78702066fdc5685745de7052:xcb-util-xrm/Pkgfile
 f:80e849824bbe614b2a87b956bf7fa46a:xcb-util-xrm/.footprint
 f:df300b56f70767921b1bc6c6e44745f1:xcb-util-xrm/.md5sum
-f:963b7e8e6a831eadf70b345943a32600:i3status/Pkgfile
+f:5dd418166098da52b8ebba5c95ef4af4:i3status/Pkgfile
 f:986e0927bd5c80f3c117310d56914328:i3status/.footprint
-f:3d88b9bb9182e767e0d2ef4405a89e1a:i3status/.md5sum
+f:0ba587b8de53d87a1b8364467a4230e4:i3status/.md5sum
 f:ea733785a9b85a912d41d8c99ab60d4c:fontconfig/0005-Makefile-20171017.am.in.patch
 f:09c8d0f931fd3b80b56a9c3e86493383:fontconfig/0001-configure-20171017.patch
 f:c91426655ba7f5a3712103d7a536f6f1:fontconfig/Pkgfile

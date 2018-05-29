@@ -4,12 +4,13 @@
 # Depends on: libconfuse libnl pulseaudio yajl
 
 name=i3status
-version=2.11
+version=2.12
 release=1
 source=(https://i3wm.org/$name/$name-$version.tar.bz2)
 
 build() {
 	cd $name-$version
+
 	make
 	make PREFIX=/usr SYSCONFDIR=/usr/etc DESTDIR=$PKG install
 }

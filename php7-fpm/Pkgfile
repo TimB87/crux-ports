@@ -4,7 +4,7 @@
 # Depends on:  libpcre libxml2
 
 name=php7-fpm
-version=7.2.2
+version=7.2.6
 release=1
 source=(http://php.net/distributions/php-$version.tar.xz
         php-fpm)

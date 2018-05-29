@@ -1,7 +1,7 @@
 drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/php/
 drwxr-xr-x	root/root	etc/php/conf.d/
--rw-r--r--	root/root	etc/php/conf.d/gd.ini
+-rw-r--r--	root/root	etc/php/conf.d/php7-gd.ini
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/php/

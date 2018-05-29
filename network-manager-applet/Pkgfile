@@ -4,24 +4,28 @@
 # Depends on: consolekit gconf iso-codes libsecret networkmanager
 
 name=network-manager-applet
-version=1.8.6
+version=1.8.12
 release=1
-source=(https://download.gnome.org/sources/$name/${version::3}/$name-$version.tar.xz)
+source=(https://download.gnome.org/sources/$name/${version:0:3}/$name-$version.tar.xz)
 
 build() {
 	cd $name-$version
 
     mkdir build
-	meson --prefix=/usr \
+
+    meson --prefix=/usr \
         --sysconfdir=/etc \
 		-Denable-gtk-doc=false \
-        -Denable-libnm-gtk=true \
-		-Denable-selinux=false \
-        -Denable-team=true \
-		-Denable-wwan=false \
-        -Denable-introspection=true build 
-	cd build
-	ninja
+        -Dlibnm-gtk=true \
+		-Dselinux=false \
+        -Dteam=true \
+		-Dwwan=false \
+        -Dintrospection=true build 
+
+    cd build
+    pwd
+    ninja
 	DESTDIR=$PKG ninja install
-	rm -rf $PKG/usr/share/locale
+
+    rm -rf $PKG/usr/share/locale
 }

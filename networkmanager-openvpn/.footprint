@@ -7,8 +7,10 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/NetworkManager/
 drwxr-xr-x	root/root	usr/lib/NetworkManager/VPN/
 -rw-r--r--	root/root	usr/lib/NetworkManager/VPN/nm-openvpn-service.name
+-rw-r--r--	root/root	usr/lib/NetworkManager/libnm-vpn-plugin-openvpn-editor.a
 -rwxr-xr-x	root/root	usr/lib/NetworkManager/libnm-vpn-plugin-openvpn-editor.la
 -rwxr-xr-x	root/root	usr/lib/NetworkManager/libnm-vpn-plugin-openvpn-editor.so
+-rw-r--r--	root/root	usr/lib/NetworkManager/libnm-vpn-plugin-openvpn.a
 -rwxr-xr-x	root/root	usr/lib/NetworkManager/libnm-vpn-plugin-openvpn.la
 -rwxr-xr-x	root/root	usr/lib/NetworkManager/libnm-vpn-plugin-openvpn.so
 drwxr-xr-x	root/root	usr/libexec/

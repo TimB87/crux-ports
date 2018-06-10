@@ -365,9 +365,9 @@ f:07b3abdbc351b6d3208c58ec58f741fe:claws-mail/.md5sum
 f:7430aed9ca678b1b209c718b4eeb84ba:lightdm-mini-greeter/Pkgfile
 f:aaa8d45a38f125ebaf99b2bf0430d3b6:lightdm-mini-greeter/.footprint
 f:cbdc7b97f5c009cc1f72720c5266dbff:lightdm-mini-greeter/.md5sum
-f:9627c9586b188bd40dbe006687e8251a:nextcloud/Pkgfile
-f:a64bcc3a761cd78f40ed1cf53bea4270:nextcloud/.footprint
-f:c688b012dff7f000719fb02c56ff6a0c:nextcloud/.md5sum
+f:8cc10b21b6d017cb488aa6f76d823c6a:nextcloud/Pkgfile
+f:d3f83a0c930a6aba1fec44878afff306:nextcloud/.footprint
+f:b87a30b5c7d8792ddbafb837ecb5a1ea:nextcloud/.md5sum
 f:1d671f2eb5b8441c805f1a498c2ef03b:texmaker/Pkgfile
 f:564039c73b06e34fcdce315e91485fef:texmaker/.footprint
 f:0b3759c20bbfc6092e3cc9cc83561ff4:texmaker/.md5sum

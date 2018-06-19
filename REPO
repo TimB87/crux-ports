@@ -106,6 +106,7 @@ f:8f3a0fdcfdd3f5b2ce5079184a07d1c9:apcu/Pkgfile
 f:1769695f89374c944baa2ebd9bf121c6:arc-icon-theme/.footprint
 f:dd6db2c9d637c53546ee139bcfd6573d:arc-icon-theme/.md5sum
 f:0066e82cbaa8c0288d65be9f1b9d20fb:arc-icon-theme/Pkgfile
+f:981358de3b8b3d56cc20bb630d645be6:arc-icon-theme/post-install
 f:bd7bac93433642af06c8d39158adf9e3:argon2/.footprint
 f:a75b360b193c63cd946cc863f8d047b7:argon2/.md5sum
 f:d5f30adc128812aff65ab79602ad5136:argon2/Pkgfile
@@ -139,9 +140,11 @@ f:96761a539e750ae257026b03f5ce74e3:exo/Pkgfile
 f:b808537b3ec7a21a6062b70051f3581f:faba-icon-theme/.footprint
 f:6971548d645147a20324f4125b4a5df6:faba-icon-theme/.md5sum
 f:c66b8451ea3b0879dbaa72f54b858a5a:faba-icon-theme/Pkgfile
+f:fd0add61aab7fabfc219cde8b6c79a3b:faba-icon-theme/post-install
 f:48ab50e3e2e0bdf5c5ea34fe52b444cd:faba-mono-icon-theme/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:faba-mono-icon-theme/.md5sum
 f:9080597229def308356ac1e0a83d67e4:faba-mono-icon-theme/Pkgfile
+f:9cd906d9823049112cd5038f1fe1551e:faba-mono-icon-theme/post-install
 f:8b1c8083c748d95f66b78f36af6e54b4:font-awesome/.footprint
 f:42afe104140afedf1791f00d43d9df04:font-awesome/.md5sum
 f:901f50bf257bbb80adc9f58e8975bdd7:font-awesome/Pkgfile
@@ -281,6 +284,7 @@ f:3bbf4cca658c433da691825175d095f4:modemmanager/Pkgfile
 f:079a50e6af0eb17e2844ceb021936349:moka-icon-theme/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:moka-icon-theme/.md5sum
 f:44054a1ce6f400d84a6ca127417c6866:moka-icon-theme/Pkgfile
+f:6f3bd0129898e7921db1ddb7c6a9f439:moka-icon-theme/post-install
 f:613ce45eb9f3cdcd030379f7405d4cf3:network-manager-applet/post-install
 f:80eda4376244b4022521f9a1040d86b3:network-manager-applet/.footprint
 f:d38c04a86682a0edfdd05ec42be9791c:network-manager-applet/.md5sum
@@ -311,6 +315,7 @@ f:0bfb686b497738a06f34720e20475e53:optipng/optipng-0.6.5-libpng-1.4.8.patch
 f:0bd171913e80143a866d0115c7923d2d:papirus-icon-theme/.footprint
 f:2c038e6faf6b9328f0fa9d60def6a179:papirus-icon-theme/.md5sum
 f:a98f018cb0c2b5a3b922188d0b6e6cc2:papirus-icon-theme/Pkgfile
+f:48c6571235da201e7fb43fba6d18bf7b:papirus-icon-theme/post-install
 f:cea9c47c25c89bcdfe5652391ed07781:php7-fpm/.footprint
 f:a9ce2938e7ed42f2d7469b2bc188f5d0:php7-fpm/.md5sum
 f:33074e44be88a67c86e29812dac987cc:php7-fpm/Pkgfile
@@ -380,6 +385,7 @@ f:b9948b160d497240274e53c228ac2589:xfconf/Pkgfile
 f:0063a41a3e37cd70f95af41b94eaf4a1:xorg-cursor-openzone/.footprint
 f:b113eed476dfe46bebc1af780150545a:xorg-cursor-openzone/.md5sum
 f:88fd6c02d833cd21e6a99f32aa154583:xorg-cursor-openzone/Pkgfile
+f:22391f7aed6e0110c5d8befaf6d7608b:xorg-cursor-openzone/post-install
 f:01142c180aef90e68f3f98805bd58c14:xorg-xpyb/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:xorg-xpyb/.md5sum
 f:9549188b17da4f810d228b41781de90e:xorg-xpyb/Pkgfile

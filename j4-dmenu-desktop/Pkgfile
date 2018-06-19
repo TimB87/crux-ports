@@ -1,6 +1,6 @@
 # Description: A fast desktop menu 
 # URL: https://github.com/enkore/j4-dmenu-desktop
-# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: 
 
 name=j4-dmenu-desktop

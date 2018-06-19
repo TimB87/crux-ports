@@ -1,6 +1,6 @@
 # Description: Unicode Bidirectional (BiDi) Algorithm.
 # URL: http://fribidi.org/
-# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends: glib
 
 name=fribidi

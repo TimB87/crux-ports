@@ -1,6 +1,6 @@
 # Description: APC user cache
 # URL: https://pecl.php.net/package/APCu
-# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on:
 
 name=apcu

@@ -1,6 +1,6 @@
 # Description: D-Bus Python bindings  
 # URL: http://freedesktop.org/wiki/Software/DBusBindings
-# Packager: Tim Biermann <tim_biermann@web.de>
+# Packager: Tim Biermann, tbier at posteo dot de
 # Depends on: dbus-glib
 
 name=dbus-python3

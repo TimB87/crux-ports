@@ -1,6 +1,6 @@
 # Description: improved screen locker fork
 # URL: https://github.com/PandorasFox/i3lock-color
-# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: libxbkcommon libpng harfbuzz libev linux-pam
 
 name=i3lock-color

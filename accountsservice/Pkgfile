@@ -1,6 +1,6 @@
 # Description: a D-Bus service for accessing the list of user accounts and information attached to those accounts
 # URL: https://www.freedesktop.org/wiki/Software/AccountsService/
-# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: polkit
 
 name=accountsservice

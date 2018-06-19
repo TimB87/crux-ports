@@ -1,6 +1,6 @@
 # Description: gd libraries
 # URL: http://www.libgd.org
-# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: xorg-libxpm libjpeg-turbo freetype
 
 name=libgd

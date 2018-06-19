@@ -1,6 +1,6 @@
 # Description: An open source implementation of iCalendar protocols and protocol data units
 # URL: https://github.com/libical/libical
-# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: cmake
 
 name=libical

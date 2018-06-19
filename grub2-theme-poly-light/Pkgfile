@@ -1,6 +1,6 @@
 # Description: a theme for Grub2
 # URL: https://github.com/shvchk/poly-light
-# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on:
 
 name=grub2-theme-poly-light

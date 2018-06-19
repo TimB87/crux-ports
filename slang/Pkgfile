@@ -1,6 +1,6 @@
 # Description: S-Lang programmer's library
 # URL: http://www.jedsoft.org/slang/
-# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: libpng
 
 name=slang

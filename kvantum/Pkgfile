@@ -1,6 +1,6 @@
 # Description: theme engine for Qt4/Qt5 and KDE 
 # URL: https://github.com/tsujan/Kvantum/
-# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: qt5 llvm libffi icu harfbuzz
 
 name=kvantum

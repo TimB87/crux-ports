@@ -1,6 +1,6 @@
 # Description: Qt port of web browser engine
 # URL: https://webkit.org/
-# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: qt5 ruby hyphen
 
 name=qt5-webkit

@@ -1,6 +1,6 @@
 # Description:	exfat filesystem implementation
 # URL:		http://code.google.com/p/exfat/
-# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on:	fuse
 
 name=fuse-exfat

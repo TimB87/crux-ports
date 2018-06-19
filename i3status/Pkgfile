@@ -1,6 +1,6 @@
 # Description: Generates status bar to use with i3bar, dzen2 or xmobar
 # URL: https://i3wm.org/i3status/
-# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: libconfuse libnl pulseaudio yajl
 
 name=i3status

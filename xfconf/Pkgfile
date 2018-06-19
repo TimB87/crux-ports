@@ -1,6 +1,6 @@
 # Description: Part of the Xfce4 desktop environment
 # URL: http://xfce.org/
-# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: dbus-glib
 
 name=xfconf

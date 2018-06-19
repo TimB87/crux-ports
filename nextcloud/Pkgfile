@@ -1,6 +1,6 @@
 # Description: Nextcloud
 # URL:         https://nextcloud.com
-# Maintainer:  Tim Biermann <tim_biermann@web.de>
+# Maintainer:  Tim Biermann, tbier at posteo dot de
 # Depends on: nginx postgresql php7 php7-gd php7-intl php7-pgsql 
 # Optional: You can use apache instead of nginx, there are other options for a sql server as well
 

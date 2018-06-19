@@ -1,6 +1,6 @@
 # Description: OpenVPN Plugin for Network Manager
 # URL: https://wiki.gnome.org/Projects/NetworkManager/VPN
-# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: networkmanager network-manager-applet gcr
 
 name=networkmanager-openvpn

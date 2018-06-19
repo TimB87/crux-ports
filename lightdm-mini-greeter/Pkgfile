@@ -1,6 +1,6 @@
 # Description: A Minimal, Configurable, Single-User GTK3 LightDM Greeter
 # URL: https://github.com/prikhi/lightdm-mini-greeter
-# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: libxklavier gtk3 libffi libpng libxml2 pango lightdm
 
 name=lightdm-mini-greeter

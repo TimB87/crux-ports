@@ -1,6 +1,6 @@
 # Description: OpenZone mouse cursor theme for X11
 # URL: https://github.com/ducakar/openzone-cursors
-# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: icon-slicer
 
 name=xorg-cursor-openzone

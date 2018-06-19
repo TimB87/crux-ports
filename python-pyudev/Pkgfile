@@ -1,6 +1,6 @@
 # Description: python3 bindings for udev
 # URL: http://pyudev.readthedocs.io/en/latest/index.html
-# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: 
 
 name=python-pyudev

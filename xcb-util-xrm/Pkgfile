@@ -1,6 +1,6 @@
 # Description: XCB utility functions for the X resource manager
 # URL: https://github.com/Airblader/xcb-util-xrm
-# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on:
 
 name=xcb-util-xrm

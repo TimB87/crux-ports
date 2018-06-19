@@ -1,6 +1,6 @@
 # Description: Another pairing tool for Logitech devices
 # URL: https://github.com/pwr/Solaar
-# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: python-pyudev
 
 name=solaar

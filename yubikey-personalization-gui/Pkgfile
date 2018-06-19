@@ -1,6 +1,6 @@
 # Description: Yubico YubiKey Personalization GUI
 # URL: https://github.com/Yubico/yubikey-personalization-gui
-# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: imagemagick qt5 yubikey-personalization
 
 name=yubikey-personalization-gui

@@ -1,6 +1,6 @@
 # Description: Yubico YubiKey C library
 # URL: https://github.com/Yubico/yubico-c
-# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: 
 
 name=yubico-c

@@ -1,6 +1,6 @@
 # Description: Gnome Desktop Python Bindings
 # URL: http://ftp.gnome.org/pub/GNOME/sources/gnome-python-desktop/
-# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: librsvg libwnck
 
 name=gnome-python-desktop

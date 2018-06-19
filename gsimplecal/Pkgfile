@@ -1,6 +1,6 @@
 # Description: a lightweight calendar applet written in C++ using GTK
 # URL: https://github.com/dmedvinsky/gsimplecal
-# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: gtk3 harfbuzz gdk-pixbuf libffi libpng
 
 name=gsimplecal

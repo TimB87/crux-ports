@@ -383,6 +383,7 @@ f:d41d8cd98f00b204e9800998ecf8427e:gsimplecal/.md5sum
 f:d056b2b494ae8ebaeb683301261bc377:gsimplecal/Pkgfile
 f:97c574f9e92d1194c1004ac45742d6a6:gsimplecal/.footprint
 f:b113eed476dfe46bebc1af780150545a:xorg-cursor-openzone/.md5sum
+f:22391f7aed6e0110c5d8befaf6d7608b:xorg-cursor-openzone/post-install
 f:88fd6c02d833cd21e6a99f32aa154583:xorg-cursor-openzone/Pkgfile
 f:0063a41a3e37cd70f95af41b94eaf4a1:xorg-cursor-openzone/.footprint
 f:44abb21065a25027abcd4cc54ccc4973:obs-studio/.md5sum

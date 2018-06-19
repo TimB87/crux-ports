@@ -305,9 +305,9 @@ f:4afebeb3719afabc67734141a73009ec:yubico-c/.footprint
 f:53b5cfe249bf079bbd7adb032fbd18bd:gnome-common/.md5sum
 f:ef4991d56c0484d34234d040fd47f45e:gnome-common/Pkgfile
 f:3ef5f1d63964dbd2af941fb5a56f4b79:gnome-common/.footprint
-f:c688b012dff7f000719fb02c56ff6a0c:nextcloud/.md5sum
-f:9627c9586b188bd40dbe006687e8251a:nextcloud/Pkgfile
-f:a64bcc3a761cd78f40ed1cf53bea4270:nextcloud/.footprint
+f:60fb1ad09eb53ffb24a8274657025733:nextcloud/.md5sum
+f:29f6c77272949fb265b8359d98b9c793:nextcloud/Pkgfile
+f:d3f83a0c930a6aba1fec44878afff306:nextcloud/.footprint
 f:4693661cb9e8c43f99c0b918aac1beba:yubico-c-client/.md5sum
 f:a5b58810de115ee2f84699a87fd050bb:yubico-c-client/Pkgfile
 f:6cb3e74177306cde4a7bc8d4d6239f69:yubico-c-client/.footprint

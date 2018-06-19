@@ -1,0 +1,12 @@
+#!/bin/sh
+
+/usr/bin/gtk-update-icon-cache -f -t /usr/share/icons/OpenZone_Black
+/usr/bin/gtk-update-icon-cache -f -t /usr/share/icons/OpenZone_Black_Slim
+/usr/bin/gtk-update-icon-cache -f -t /usr/share/icons/OpenZone_Fire
+/usr/bin/gtk-update-icon-cache -f -t /usr/share/icons/OpenZone_Fire_Slim
+/usr/bin/gtk-update-icon-cache -f -t /usr/share/icons/OpenZone_Ice
+/usr/bin/gtk-update-icon-cache -f -t /usr/share/icons/OpenZone_Ice_Slim
+/usr/bin/gtk-update-icon-cache -f -t /usr/share/icons/OpenZone_White
+/usr/bin/gtk-update-icon-cache -f -t /usr/share/icons/OpenZone_White_Slim
+
+# EOF

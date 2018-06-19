@@ -21,4 +21,14 @@ build() {
     find $PKG/var/www/$name -type d -exec chmod 0755 {} \;
 
     chmod a+x $PKG/var/www/$name/occ
+
+    find $PKG \(\
+        -iname '*README*' -o \
+        -iname '*COPYING*' -o \
+        -iname '*AUTHORS*' -o \
+        -iname '*news*' -o \
+        -iname '*license*' \
+        \) -exec rm -fr '{}' \; || true
+
+        #\) -delete \; || true
 }

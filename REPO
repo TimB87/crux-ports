@@ -298,9 +298,9 @@ f:8bcfbaa746aab78e509efea1ec51ed45:networkmanager/Pkgfile
 f:ba7d28620cba9d977cda3a3cd21accdc:nextcloud-client/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:nextcloud-client/.md5sum
 f:233ad847a26027691dd12e3909ec1a1b:nextcloud-client/Pkgfile
-f:d3f83a0c930a6aba1fec44878afff306:nextcloud/.footprint
+f:ff8989e4dbb56d41722b0dcb52aa562f:nextcloud/.footprint
 f:60fb1ad09eb53ffb24a8274657025733:nextcloud/.md5sum
-f:29f6c77272949fb265b8359d98b9c793:nextcloud/Pkgfile
+f:08544c5edec62eb8046b18b2f19facc4:nextcloud/Pkgfile
 f:70ac724fdcb51b81809094646cef4a2f:obs-studio/.footprint
 f:44abb21065a25027abcd4cc54ccc4973:obs-studio/.md5sum
 f:ca25a20b86c7472c48b05f2f939a4d5a:obs-studio/Pkgfile

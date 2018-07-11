@@ -4,9 +4,9 @@
 # Depends: glib
 
 name=fribidi
-version=1.0.1
+version=1.0.4
 release=1
-source=(https://github.com/fribidi/fribidi/releases/download/v1.0.1/fribidi-1.0.1.tar.bz2)
+source=(https://github.com/fribidi/fribidi/releases/download/v$version/$name-$version.tar.bz2)
 
 build() {
 	cd $name-$version

@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwP31rgQHf98HrYsOTyBFUDQNOJh9gCzvgfL6sfKyq7ApZWiWBihLVMyJTfu+06JPh3N18Lrapp6W5rgTIk+GZwQ=
+RWSXjYMPO7mZwJm59h1Ksf12xnZ9FkqvvvngmtfLbFRAlkI5Vk79WN5h6v9VIufkUCT6ArMpsUKKCT3pKIid5vbXqBD9vFW/RgQ=
+SHA256 (Pkgfile) = 593ca1bbe3da30a9f07ecc7d973ff0a5f2d30a6b90ee79f65fc07559c24cc195
+SHA256 (.footprint) = 4dbf55be6a6ce4be4e96ef6e6d4f08d599b2d691a52fad1058031fc870134612
+SHA256 (fribidi-1.0.4.tar.bz2) = 94bdfe553e004d8bd095b109e182682311dd511740d5083326d1582f1df237be

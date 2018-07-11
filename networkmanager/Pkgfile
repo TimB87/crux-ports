@@ -52,7 +52,7 @@ build() {
 		--enable-modify-system \
 		--with-session-tracking=consolekit \
 		--with-suspend-resume=upower \
-		--without-libnm-glib \
+		--with-libnm-glib \
 		--with-libsoup \
 		--with-wext \
 		--with-nmtui

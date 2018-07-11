@@ -4,9 +4,9 @@
 # Depends on: libpcre
 
 name=zsh
-version=5.4.2
+version=5.5.1
 release=1
-source=(https://crux.nu/~tek/zsh-${version}.tar.xz _prt-get zsh-lovers.1)
+source=(https://www.zsh.org/pub/$name-$version.tar.xz _prt-get zsh-lovers.1)
 
 build() {
     cd $name-$version

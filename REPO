@@ -5,6 +5,7 @@ d:font-awesome
 d:solaar
 d:i3lock-fancy
 d:gnome-keyring
+d:libsodium
 d:apcu
 d:lightdm-gtk-greeter-settings
 d:grub2-theme-poly-light
@@ -122,6 +123,10 @@ f:7ebceb007ad0efba7dfb2e600d65eda4:gnome-keyring/.signature
 f:3ff2c6e98ebe0acc182e4643424ade41:gnome-keyring/.md5sum
 f:8ca0000ebddfce86538c18229d3d914d:gnome-keyring/Pkgfile
 f:4a8ba2e5a3bae2f99cb87246761a86b7:gnome-keyring/.footprint
+f:bb9cdb4e7b489771ecbdea8b959f053b:libsodium/.signature
+f:d2ccb8046d4583ca5b1a946823eb7c36:libsodium/.md5sum
+f:f3ecf6c63b69f200830d722d022e3cf6:libsodium/Pkgfile
+f:1d8aed71134444e03610fd774ffcc7b1:libsodium/.footprint
 f:7ebceb007ad0efba7dfb2e600d65eda4:apcu/.signature
 f:8a25e49547f4cc03360346f378a7951a:apcu/.md5sum
 f:84ac358d3dbd9f26843e14759581ea12:apcu/Pkgfile
@@ -138,7 +143,7 @@ f:7ebceb007ad0efba7dfb2e600d65eda4:fontconfig/.signature
 f:99f7d930a745c2447fc9ebb5d30c9451:fontconfig/.md5sum
 f:99bda69f31d26a833ff20d74851b03ad:fontconfig/0002-configure-20171017.ac.patch
 f:ea733785a9b85a912d41d8c99ab60d4c:fontconfig/0005-Makefile-20171017.am.in.patch
-f:00a5e8784fa2704a20bf9f9355119ee1:fontconfig/Pkgfile
+f:a41e25f3d70dc75471adff49c7153c19:fontconfig/Pkgfile
 f:82bc2a786210a4790a57e4310a441728:fontconfig/.footprint
 f:e8727cbfc5e71a836d2e974bc9c89bdf:fontconfig/0003-Makefile-20171017.in.patch
 f:3f6aea3be96e5d846f5a7d6238ab2f6f:fontconfig/0004-Makefile-20171017.conf.d.patch
@@ -330,9 +335,10 @@ f:7ebceb007ad0efba7dfb2e600d65eda4:php7-pgsql/.signature
 f:e6fcf530aa8a7ffd0d579ef2ba6a1b32:php7-pgsql/.md5sum
 f:f4086302a72e813239c8e3c64e3ca36a:php7-pgsql/Pkgfile
 f:4bcff8c2fae56f50bf50bb9a3211205e:php7-pgsql/.footprint
-f:7ebceb007ad0efba7dfb2e600d65eda4:keepassxc/.signature
-f:820f2d8436008d7dfa79dcfded29aa60:keepassxc/.md5sum
-f:83458b0c5f34d5f941b7d4341a1059bd:keepassxc/Pkgfile
+f:2846254bfa1f87daa0af8fc49604af17:keepassxc/.signature
+f:17cd45262de1d256f9149d01d0ea7de3:keepassxc/.md5sum
+f:493b9545fb9aaeece77574c1a4a4e082:keepassxc/keepassxc-2.3.3-qt-5.11-edit-entry-widget-includes.patch
+f:429d0f51e11a0e5cf150bcf77ce3b918:keepassxc/Pkgfile
 f:aa6ff8a2b0f57154725d326124ac623d:keepassxc/.footprint
 f:7ebceb007ad0efba7dfb2e600d65eda4:libcloudproviders/.signature
 f:d41d8cd98f00b204e9800998ecf8427e:libcloudproviders/.md5sum
@@ -396,10 +402,10 @@ f:b5cfa7252907f6d884d263d28cacdccf:bluez-alsa/Pkgfile
 f:f07cde0864ccae6508aa548a464ca5e6:bluez-alsa/.footprint
 f:bbcef882147da9000691b07ac61c1b6b:zsh/zsh-lovers.1
 f:1df5b335eca489948dfc49026d5a5e17:zsh/_prt-get
-f:7ebceb007ad0efba7dfb2e600d65eda4:zsh/.signature
-f:4f5b45559f06a9fe2d0acec990c13412:zsh/.md5sum
-f:fb4ba1074f314d407b6b212a5d2b2996:zsh/Pkgfile
-f:8615ca3f5bdbfc61c080a96bcc9d5a62:zsh/.footprint
+f:437cb183697b4162b6de195e0f3b2097:zsh/.signature
+f:8f2de92e18b40d31bcf80513524fd401:zsh/.md5sum
+f:7d4cabde35a9bb70c24c8fe75ea8814f:zsh/Pkgfile
+f:c6fba00eea939f115cb53680a1d455b8:zsh/.footprint
 f:1f693bf2be89d608a359c63a513cec1c:zsh/README
 f:7ebceb007ad0efba7dfb2e600d65eda4:blueman/.signature
 f:9125a26b019df834b275d1668cb6384a:blueman/.md5sum
@@ -437,7 +443,7 @@ f:9e0eb910c2cdc531f29b50ce278b8739:libsass/Pkgfile
 f:a21d7d697fbb3a29e24433eb183731c7:libsass/.footprint
 f:7ebceb007ad0efba7dfb2e600d65eda4:claws-mail/.signature
 f:07b3abdbc351b6d3208c58ec58f741fe:claws-mail/.md5sum
-f:3e8af30d39c9353f04f31bb50e2a638b:claws-mail/Pkgfile
+f:a9f5c3efc742033c75d2fb7eaf864ddc:claws-mail/Pkgfile
 f:7d2e86fde0d1c8c6a0b45b2d093784e0:claws-mail/.footprint
 f:7ebceb007ad0efba7dfb2e600d65eda4:yajl/.signature
 f:8c0bfbdb6951358aa971c31f55341759:yajl/.md5sum

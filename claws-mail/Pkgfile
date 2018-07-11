@@ -11,11 +11,7 @@ source=(http://www.claws-mail.org/releases/$name-$version.tar.xz)
 build() {
 	cd $name-$version
 
-	# workaround for borked cflags in networkmanager pkgconfig file
-	NM_CFLAGS=
-	if [ -e /usr/lib/pkgconfig/NetworkManager.pc ]; then
-		NM_CFLAGS="-I/usr/include/libnm"
-	fi
+	NM_CFLAGS="-I/usr/include/libnm"
 
 	./configure \
 		--prefix=/usr \

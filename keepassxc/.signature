@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwC8ieHZiJR01pxaiZQEI/JlrO43wnDuBtX5vQguu0U8xbC40R9bwo4hNTxM3VRLL8dbUiL6uj+q2Rqfpsv9hEAA=
-SHA256 (Pkgfile) = c4d86af6ac8ff05292a7bb6494fe02aae139a904e5686083f00236f04d7d6284
+RWSXjYMPO7mZwDQE7b7NOF90cmNDMyOFQOR/HwwsJeckZoW5/uWjJPbBbRfxL5yoTz0v0aRitAJW5ujFPNcgaTtxj6AlFJEhOAM=
+SHA256 (Pkgfile) = 504d6c2c4bb03926911580385a07f6fccfb1cc6b8cf951bde85f9ddd78a59f17
 SHA256 (.footprint) = 6a641a1d64dbcfa738ca520c9330ead983ff912ee5351a9305135a572b01fa60
 SHA256 (keepassxc-2.3.3-src.tar.xz) = cfff85ef89ba590aec798c59bea4aa3db00626d7bff8cdde0f62ee34aea60ad5
 SHA256 (keepassxc-2.3.3-qt-5.11-edit-entry-widget-includes.patch) = 89729d7f83b49583ca073fd913123b3b7ee399c4ac9f2ec32886604c03bd1408

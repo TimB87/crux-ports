@@ -5,7 +5,7 @@
 # Optional:    ppp avahi bash-completion dbus libnl jansson libteam dnsmasq
 
 name=networkmanager
-version=1.11.3
+version=1.13.1
 release=1
 source=(
 http://ftp.gnome.org/pub/gnome/sources/NetworkManager/${version%.*}/NetworkManager-${version}.tar.xz
@@ -16,17 +16,20 @@ disable_wifi_scan_when_connected.patch
 
 build() {
 	cd NetworkManager-$version
+
     patch -Np1 -i ../disable_wifi_scan_when_connected.patch
-	CONFIG_SHELL=/bin/bash \
+	
+    CONFIG_SHELL=/bin/bash \
     ./autogen.sh
 
-	CONFIG_SHELL=/bin/bash \
-	./configure \
+    CONFIG_SHELL=/bin/bash \
+    ./configure \
 		--prefix=/usr \
 		--sysconfdir=/etc \
 		--localstatedir=/var \
 		--libexecdir=/usr/lib/networkmanager \
 		--with-udev-dir=/lib/udev \
+        --with-systemdsystemunitdir=no \
 		--disable-nls \
 		--disable-static \
 		--enable-teamdctl=no \
@@ -41,14 +44,15 @@ build() {
         --with-consolekit \
 		--with-suspend-resume=upower \
 		--with-dhcpcd=/sbin/dhcpcd \
-		--with-resolvconf=/usr/sbin/resolvconf \
+        --with-dhcpcd-supports-ipv6=yes \
+        --with-resolvconf=/usr/sbin/resolvconf \
 		--with-iptables=/usr/sbin/iptables \
 		--with-crypto=nss \
 		--enable-more-warnings=no \
 		--enable-modify-system \
 		--with-session-tracking=consolekit \
 		--with-suspend-resume=upower \
-		--with-libnm-glib \
+		--without-libnm-glib \
 		--with-libsoup \
 		--with-wext \
 		--with-nmtui

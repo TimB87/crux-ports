@@ -1,2 +1,8 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwP31rgQHf98HrYsOTyBFUDQNOJh9gCzvgfL6sfKyq7ApZWiWBihLVMyJTfu+06JPh3N18Lrapp6W5rgTIk+GZwQ=
+RWSXjYMPO7mZwJIJD51JTJyM39zf/H/FzQD8Mi5LCnY+qFAh2vvTT4G8k7Sj/hbnG5MR07Z5aszh6s1SeTkpUiaPzIXrbp2yCQk=
+SHA256 (Pkgfile) = 1de85ac1b7c61f6729af2fa16cd3102056aab61d755e1944c67edee52942b6bb
+SHA256 (.footprint) = da2b1d6f0383440e4a22c27d69073dbf2141265039d393960822299988431489
+SHA256 (NetworkManager-1.13.1.tar.xz) = 8f6b23cde3ef03cafb4a6820c07e5be4d919e372d1f87f7078bdb88c86da1bf7
+SHA256 (networkmanager.rc) = dc0b743685214c0402d392a6a9b2632b19714795a04c0f42ba10026250d9f3fc
+SHA256 (NetworkManager.conf) = b854c04d516f832d93416fd4150d30bb0188e1125c431fddbc6b8a84ba53f8d1
+SHA256 (disable_wifi_scan_when_connected.patch) = 860a772fcc26271f6a25a2baa0d92088e63dbf1770ccc4c25e71653dbe46b96b

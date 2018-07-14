@@ -1,0 +1,20 @@
+# Description: Just a simple settings dialog for light-locker
+# URL: https://launchpad.net/light-locker-settings
+# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Depends on: light-locker python-psutil
+
+name=light-locker-settings
+version=1.5.3
+release=1
+source=(https://github.com/Antergos/light-locker-settings/archive/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+    ./configure --prefix=/usr 
+    
+    make
+    make DESTDIR=$PKG install
+    
+    rm -fr $PKG/usr/share/{locale,doc}
+}

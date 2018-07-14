@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwA0WhTNaSY7E4X5E8GuWzJJKD8P45AxC//9xtWFLa9R+JxNS58SdLWJEoqMK72rPLgilqOzY+FhysRYMyRho3Ac=
+SHA256 (Pkgfile) = 3537bf5e6b40515584e3a4affe4c5e023ee73ca4321add77ab4b28d09d08c105
+SHA256 (.footprint) = 1fc1a9e2c33b1affee379470d562721ef010f0bdc7fbfaa35b4c897d81451ba7
+SHA256 (redshift-v1.12.tar.gz) = dd816df79765f87a0838b1568fbc40c3e8bdb4aef0e77712c85623afe34a29ad

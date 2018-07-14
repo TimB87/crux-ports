@@ -18,10 +18,10 @@ build() {
 		--sbindir=/usr/bin \
 		--libexecdir=/usr/lib \
 		--disable-static \
-		--enable-gtk-doc \
 		--enable-p2p \
 		--with-priv-mode=setuid \
-		--with-dbus-config-dir=/usr/share/dbus-1/system.d
+        --with-dbus-config-dir=/usr/etc/dbus-1 \
+        --disable-nls
 
 	sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
 

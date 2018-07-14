@@ -1,5 +1,8 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/etc/
+drwxr-xr-x	root/root	usr/etc/NetworkManager/
+drwxr-xr-x	root/root	usr/etc/NetworkManager/VPN/
+-rw-r--r--	root/root	usr/etc/NetworkManager/VPN/nm-openvpn-service.name
 drwxr-xr-x	root/root	usr/etc/dbus-1/
 drwxr-xr-x	root/root	usr/etc/dbus-1/system.d/
 -rw-r--r--	root/root	usr/etc/dbus-1/system.d/nm-openvpn-service.conf
@@ -7,6 +10,9 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/NetworkManager/
 drwxr-xr-x	root/root	usr/lib/NetworkManager/VPN/
 -rw-r--r--	root/root	usr/lib/NetworkManager/VPN/nm-openvpn-service.name
+-rw-r--r--	root/root	usr/lib/NetworkManager/libnm-openvpn-properties.a
+-rwxr-xr-x	root/root	usr/lib/NetworkManager/libnm-openvpn-properties.la
+-rwxr-xr-x	root/root	usr/lib/NetworkManager/libnm-openvpn-properties.so
 -rw-r--r--	root/root	usr/lib/NetworkManager/libnm-vpn-plugin-openvpn-editor.a
 -rwxr-xr-x	root/root	usr/lib/NetworkManager/libnm-vpn-plugin-openvpn-editor.la
 -rwxr-xr-x	root/root	usr/lib/NetworkManager/libnm-vpn-plugin-openvpn-editor.so

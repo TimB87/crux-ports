@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwKAYgGk9Za4D+IcZG/fhhejF1uOOnTbBRfPar973WlUfF9n+jrXzww8yM7WbW/67/s0CC8sj6drMh3k6SMPIDQE=
+SHA256 (Pkgfile) = c5eb4936643e5c30ef1ab0f74d27a56cec4bf25c5d3f6a590c9574422edde9a4
+SHA256 (.footprint) = 1f79ef9f7623e163571f27b21d920afecf0dcb71018ac55b4da5bc6a80ca0b49
+SHA256 (libostree-2018.6.tar.xz) = 8dd49a1ab94924e351ff9cfd8ea2bf725770400900f4875ad2cc95712c6cc905

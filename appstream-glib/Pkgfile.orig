@@ -1,0 +1,21 @@
+# Description: Objects and methods for reading and writing AppStream metadata
+# URL: https://people.freedesktop.org/~hughsient/appstream-glib/
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: snowball cairo expat gdk-pixbuf glib gtk3 harfbuzz json-glib keyutils krb5 libffi libpng libsoup libxml2 libyaml pango sqlite3 fontconfig freetype fribidi libepoxy xorg-libpixman xorg-libx11 xorg-libxau xorg-libxcb xorg-libxcomposite xorg-libxcursor xorg-libxdamage xorg-libxdmcp xorg-libxext xorg-libxfixes xorg-libxinerama xorg-libxi xorg-libxrandr xorg-libxrender
+
+name=appstream-glib
+version=0.7.10
+release=1
+source=(https://github.com/hughsie/appstream-glib/archive/appstream_glib_0_7_10.tar.gz)
+
+build() {
+    cd $name-appstream_glib_0_7_10
+    mkdir build && cd build
+    
+    meson ../ -Drpm=false -Dprefix=/usr
+    ninja
+    
+    DESTDIR=$PKG ninja install
+    
+    rm -fr $PKG/usr/share/locale
+}

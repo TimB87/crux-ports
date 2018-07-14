@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwMB2FQzFIjPJZPyJjKW8+V93reJIec/w/xnUD815E30W7X8EECoXfcs2IM2Ve8gc+XmOf584zhlZCMmBfZQcggI=
+SHA256 (Pkgfile) = 4edef0bf0cc426ae093e8dd5f4d1727a28a570ed724f24aaa40b44178cba3abb
+SHA256 (.footprint) = 3dcceeb3ea03bc27721331deefa5c4334e9b84817849edccd4e01d1118d6aaad
+SHA256 (pipewire-0.1.9.tar.gz) = d7dc591d60c3544f3c24b2b0ab1db458991dd69d0610337fd0accf136373916b
+SHA256 (unhide-providers.diff) = 8692ddbfc433bb4a56e3e4594683f9a7047b6cce539c7322dd3b74157a727f99

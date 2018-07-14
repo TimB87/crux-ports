@@ -196,10 +196,10 @@ f:7ebceb007ad0efba7dfb2e600d65eda4:xorg-xpyb/.signature
 f:d41d8cd98f00b204e9800998ecf8427e:xorg-xpyb/.md5sum
 f:fe806aa40472d99d5320ba845bd0b3e0:xorg-xpyb/Pkgfile
 f:01142c180aef90e68f3f98805bd58c14:xorg-xpyb/.footprint
-f:97e3e1516911fce970f83b578e6cec81:flatpak/.signature
+f:18cae5f745cca2916dd593c3ecda850c:flatpak/.signature
 f:2d50b14ece0b7826789db4ad7416dcb4:flatpak/.md5sum
-f:dfbdc26c4f273a146f950b4122c24924:flatpak/Pkgfile
-f:1098efc0996adb3738d74b8b7743e1db:flatpak/.footprint
+f:fb239b2f5d530a1da6d762d887e23f79:flatpak/Pkgfile
+f:8da418d247f349939d5f5266d24067a8:flatpak/.footprint
 f:7ebceb007ad0efba7dfb2e600d65eda4:libnewt/.signature
 f:d41d8cd98f00b204e9800998ecf8427e:libnewt/.md5sum
 f:16fa5c74c1cd02e96473e3ec9ea7c5a1:libnewt/Pkgfile

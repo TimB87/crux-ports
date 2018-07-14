@@ -198,7 +198,6 @@ f:fe806aa40472d99d5320ba845bd0b3e0:xorg-xpyb/Pkgfile
 f:01142c180aef90e68f3f98805bd58c14:xorg-xpyb/.footprint
 f:97e3e1516911fce970f83b578e6cec81:flatpak/.signature
 f:2d50b14ece0b7826789db4ad7416dcb4:flatpak/.md5sum
-f:4cc6aa0ebc285fe47aa611b86642ff1d:flatpak/Pkgfile.orig
 f:dfbdc26c4f273a146f950b4122c24924:flatpak/Pkgfile
 f:1098efc0996adb3738d74b8b7743e1db:flatpak/.footprint
 f:7ebceb007ad0efba7dfb2e600d65eda4:libnewt/.signature
@@ -280,7 +279,6 @@ f:1cccf8de5135f70f0d25863307cd677f:gtk-theme-arc/Pkgfile
 f:a1060a3acc7ed2bbc677cff26f1c33b9:gtk-theme-arc/.footprint
 f:e9a31df8471733b99703b202076814f5:v4l-utils/.signature
 f:057278bace8deff7ebfaa62024373b34:v4l-utils/.md5sum
-f:b63025d53b70e8bf9c512f9acdf893ca:v4l-utils/Pkgfile.orig
 f:68bdb9a2e66579ae3280945610495f67:v4l-utils/Pkgfile
 f:ff40bbaae7364b79e361a7743eb97b44:v4l-utils/.footprint
 f:7ebceb007ad0efba7dfb2e600d65eda4:ragel/.signature
@@ -328,7 +326,6 @@ f:33686ce4e490f989b634c511b8450952:sassc/Pkgfile
 f:9c54e647eadb86c2ca42143664d9ef26:sassc/.footprint
 f:1aa8cf37a92577eacf510ab997d24bb0:appstream-glib/.signature
 f:baf166a28faf674b20900bd9ae7c251c:appstream-glib/.md5sum
-f:7056179c6e4036c5002cdbc2b2c5c726:appstream-glib/Pkgfile.orig
 f:2ffda33f27d716b6f080fe5fe63f7557:appstream-glib/Pkgfile
 f:32a36f9e64201e5ee9ef7f1b8c112329:appstream-glib/.footprint
 f:7ebceb007ad0efba7dfb2e600d65eda4:libgd/.signature
@@ -403,7 +400,6 @@ f:c775432409dac36161c678564d5d9e86:libical/Pkgfile
 f:ab40220140b044f2e89afec530253d67:libical/.footprint
 f:abd5ba928a90ec85c6a37a66be7cb955:ostree/.signature
 f:e3114c9b16cd24310f8bf7046f44cd4b:ostree/.md5sum
-f:f0cbbef9c1213d500694bcd27b9d6760:ostree/Pkgfile.orig
 f:31b616c1c9bbca6758b2606d6b70d3e3:ostree/Pkgfile
 f:eec1e982b229b6e9e193a4541fb802ce:ostree/.footprint
 f:7ebceb007ad0efba7dfb2e600d65eda4:yubico-c/.signature
@@ -451,7 +447,6 @@ f:b5cfa7252907f6d884d263d28cacdccf:bluez-alsa/Pkgfile
 f:f07cde0864ccae6508aa548a464ca5e6:bluez-alsa/.footprint
 f:308bef95f813ef2099166e36267c00a0:xdg-desktop-portal-gtk/.signature
 f:f2524cd6cf706a7121009d3d9ceb09a4:xdg-desktop-portal-gtk/.md5sum
-f:534af80ca57fc4f169d2b688ea7251dd:xdg-desktop-portal-gtk/Pkgfile.orig
 f:28e5b597db889ca5f7294ed774dc5481:xdg-desktop-portal-gtk/Pkgfile
 f:8d4faa3f02c4a66d8b8bd0ce0b4373b6:xdg-desktop-portal-gtk/.footprint
 f:bbcef882147da9000691b07ac61c1b6b:zsh/zsh-lovers.1
@@ -472,7 +467,6 @@ f:5d061349a57dce31bdb9cb3c8f1a00c7:php7/.footprint
 f:8b3b3d5872053694bfc7a85764b11442:pipewire/unhide-providers.diff
 f:f416e1890b1413cce2cb405ccfb6b550:pipewire/.signature
 f:1af655311a33bb0bc76d39ec22c1d5d4:pipewire/.md5sum
-f:b961cc193f9c54f716e3c6d1e329ab8a:pipewire/Pkgfile.orig
 f:ef7f8f75ac4fcd95c3e3668b8c6370d2:pipewire/Pkgfile
 f:a54607a69874b212d874477c0cf9a000:pipewire/.footprint
 f:7ebceb007ad0efba7dfb2e600d65eda4:grub2-theme-elegant/.signature
@@ -545,7 +539,6 @@ f:1925b4b35530eb49e8e148ed6f959b86:xorg-cursor-openzone/Pkgfile
 f:0063a41a3e37cd70f95af41b94eaf4a1:xorg-cursor-openzone/.footprint
 f:438f3bcd5c58f3ea8fd642595430760a:xdg-desktop-portal/.signature
 f:cf777d529136c3c2b9682a51d1a7ec9b:xdg-desktop-portal/.md5sum
-f:fe11f6825f33d6dc5973be083d5acf56:xdg-desktop-portal/Pkgfile.orig
 f:d79d9a3cf35e550c10e8cee85e752bc7:xdg-desktop-portal/Pkgfile
 f:c1c85a20260a58a5a4834f2de7756b8c:xdg-desktop-portal/.footprint
 f:7ebceb007ad0efba7dfb2e600d65eda4:obs-studio/.signature

@@ -559,11 +559,11 @@ f:d61611be3e0409008ac2d3f3419a25e0:argon2/libargon2.pc
 f:a75b360b193c63cd946cc863f8d047b7:argon2/.md5sum
 f:56689ef8f6aceec9c60626f8aac218bb:argon2/Pkgfile
 f:bd7bac93433642af06c8d39158adf9e3:argon2/.footprint
-f:7ebceb007ad0efba7dfb2e600d65eda4:pulseaudio/.signature
-f:90148c0d189805a6559f1915c15f3737:pulseaudio/.md5sum
-f:217017ac4dd39d2166abe4ee8b3ecdbb:pulseaudio/Pkgfile
+f:9f52d428f1494665017862eceafd2ec6:pulseaudio/.signature
+f:20c1a367629c435c1a21d91d626eceb6:pulseaudio/.md5sum
+f:7d1b226241fbfdcea0ac44e39cb90f0d:pulseaudio/Pkgfile
 f:39518368836423cb843631bfde9846bd:pulseaudio/pre-install
-f:b2ca917d22552a62fa4ac6a9ced1dd47:pulseaudio/.footprint
+f:23f0eb6a0e2613e10f7119995a7ded25:pulseaudio/.footprint
 f:8dd52c51aff8ee0cb9c97e1d036b707a:lightdm/lightdm-default-config.patch
 f:7ebceb007ad0efba7dfb2e600d65eda4:lightdm/.signature
 f:a3a2039fc2f8e3dfd8fa39a1f71ada52:lightdm/.md5sum

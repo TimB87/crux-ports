@@ -5,13 +5,16 @@
 # Optional:	libsamplerate avahi sbc orc lirc pyqt4
 
 name=pulseaudio
-version=11.1
-release=3
+version=12.1
+release=1
 source=(http://freedesktop.org/software/pulseaudio/releases/pulseaudio-$version.tar.xz)
 
 build() {
 	cd $name-$version
-	./configure \
+
+    NOCONFIGURE=1 ./bootstrap.sh
+
+    ./configure \
 		--prefix=/usr \
 		--libexecdir=/usr/lib/pulseaudio/libexec \
 		--sysconfdir=/etc \
@@ -30,7 +33,8 @@ build() {
 		--disable-samplerate \
 		--disable-rpath \
 		--enable-bluez5
-	# fight unused direct deps
+	
+    # fight unused direct deps
 	sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
 
 	make

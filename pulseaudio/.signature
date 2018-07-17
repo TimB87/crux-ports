@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwP31rgQHf98HrYsOTyBFUDQNOJh9gCzvgfL6sfKyq7ApZWiWBihLVMyJTfu+06JPh3N18Lrapp6W5rgTIk+GZwQ=
+RWSXjYMPO7mZwKKP/pW3CCPHcMa5c3NQieRcdL3Qp/UsIx+zgbv4bu8Rz7wlvxW/rAjiTEcXx6K1sT6fj72fxwyvuBAeS9+vEww=
+SHA256 (Pkgfile) = 6e4987e7d7830569bd3c8f5ce65faf4552c14eeb51e3c9f546a6849859bf3132
+SHA256 (.footprint) = 2064e3eec87f37d54dcee2fef169be1bdae3efb2cc58c7944ee7c3923a5a3210
+SHA256 (pulseaudio-12.1.tar.xz) = 5f5dfb5e2c376e8c974b80f93b983ed77088ade7fb8b9325a575c45aa35977f3

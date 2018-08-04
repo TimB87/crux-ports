@@ -1,7 +1,7 @@
 # Description: a simple session-locker for lightdm 
 # URL: https://github.com/the-cavalry/light-locker
-# Maintainer: Tim Biermann <tim_biermann@web.de>
-# Depends on:
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: at-spi-atk dbus-glib freetype gtk3 xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxrandr xorg-libxscrnsaver xorg-libxxf86misc
 
 name=light-locker
 version=1.8.0

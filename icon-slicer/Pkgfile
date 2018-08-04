@@ -1,6 +1,6 @@
 # Description: Utility for generating icon themes and libXcursor cursor themes
 # URL: https://www.freedesktop.org/wiki/Software/icon-slicer/
-# Maintainer:
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: gdk-pixbuf popt xorg-xcursorgen
 
 name=icon-slicer

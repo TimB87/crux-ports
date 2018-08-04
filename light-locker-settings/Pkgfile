@@ -1,6 +1,6 @@
 # Description: Just a simple settings dialog for light-locker
 # URL: https://launchpad.net/light-locker-settings
-# Maintainer: Tim Biermann <tim_biermann@web.de>
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: light-locker python-psutil
 
 name=light-locker-settings
@@ -17,4 +17,5 @@ build() {
     make DESTDIR=$PKG install
     
     rm -fr $PKG/usr/share/{locale,doc}
+    rm -fr $PKG/usr/share/light-locker-settings/locale
 }

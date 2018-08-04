@@ -9,4 +9,3 @@ drwxr-xr-x	root/root	usr/share/light-locker-settings/light-locker-settings/
 -rwxr-xr-x	root/root	usr/share/light-locker-settings/light-locker-settings/light-locker-settings.glade
 -rwxr-xr-x	root/root	usr/share/light-locker-settings/light-locker-settings/light-locker-settings.py
 -rwxr-xr-x	root/root	usr/share/light-locker-settings/light-locker-settings/light_locker_xfsync.py
-lrwxrwxrwx	root/root	usr/share/light-locker-settings/locale -> /usr/share/locale

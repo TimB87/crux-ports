@@ -4,7 +4,7 @@
 # Depends on: icu glib dbus libical
 
 name=bluez5
-version=5.49
+version=5.50
 release=1
 source=(http://www.kernel.org/pub/linux/bluetooth/bluez-$version.tar.xz bluetoothd)
 
@@ -15,7 +15,7 @@ build() {
 		--prefix=/usr \
 		--sysconfdir=/etc \
 		--localstatedir=/var \
-		--libexecdir=/usr/libexec \
+		--libexecdir=/usr/lib/$name \
 		--libdir=/usr/lib \
 		--mandir=/usr/share/man \
 		--enable-tools \

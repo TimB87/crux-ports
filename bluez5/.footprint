@@ -70,6 +70,10 @@ drwxr-xr-x	root/root	usr/lib/bluez/test/
 -rwxr-xr-x	root/root	usr/lib/bluez/test/test-network
 -rwxr-xr-x	root/root	usr/lib/bluez/test/test-profile
 -rwxr-xr-x	root/root	usr/lib/bluez/test/test-sap-server
+drwxr-xr-x	root/root	usr/lib/bluez5/
+drwxr-xr-x	root/root	usr/lib/bluez5/bluetooth/
+-rwxr-xr-x	root/root	usr/lib/bluez5/bluetooth/bluetoothd
+-rwxr-xr-x	root/root	usr/lib/bluez5/bluetooth/obexd
 drwxr-xr-x	root/root	usr/lib/cups/
 drwxr-xr-x	root/root	usr/lib/cups/backend/
 -rwxr-xr-x	root/root	usr/lib/cups/backend/bluetooth
@@ -79,10 +83,6 @@ lrwxrwxrwx	root/root	usr/lib/libbluetooth.so.3 -> libbluetooth.so.3.18.16
 -rwxr-xr-x	root/root	usr/lib/libbluetooth.so.3.18.16
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/bluez.pc
-drwxr-xr-x	root/root	usr/libexec/
-drwxr-xr-x	root/root	usr/libexec/bluetooth/
--rwxr-xr-x	root/root	usr/libexec/bluetooth/bluetoothd
--rwxr-xr-x	root/root	usr/libexec/bluetooth/obexd
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/

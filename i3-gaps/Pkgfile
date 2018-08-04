@@ -6,6 +6,7 @@
 name=i3-gaps
 version=git
 release=2
+source=()
 git=(https://github.com/Airblader/i3)
 
 build() {

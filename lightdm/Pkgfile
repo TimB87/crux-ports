@@ -14,7 +14,7 @@ build() {
     ./configure --prefix='/usr' \
                 --localstatedir='/var' \
                 --sbindir='/usr/bin' \
-                --sysconfdir='/usr/etc' \
+                --libexecdir='/usr/lib/$name' \
 		        --enable-liblightdm-qt5=no \
                 --with-greeter-user='lightdm' \
                 --with-greeter-session='lightdm-mini-greeter' \

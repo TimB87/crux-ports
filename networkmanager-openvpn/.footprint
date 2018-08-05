@@ -19,10 +19,10 @@ drwxr-xr-x	root/root	usr/lib/NetworkManager/VPN/
 -rw-r--r--	root/root	usr/lib/NetworkManager/libnm-vpn-plugin-openvpn.a
 -rwxr-xr-x	root/root	usr/lib/NetworkManager/libnm-vpn-plugin-openvpn.la
 -rwxr-xr-x	root/root	usr/lib/NetworkManager/libnm-vpn-plugin-openvpn.so
-drwxr-xr-x	root/root	usr/libexec/
--rwxr-xr-x	root/root	usr/libexec/nm-openvpn-auth-dialog
--rwxr-xr-x	root/root	usr/libexec/nm-openvpn-service
--rwxr-xr-x	root/root	usr/libexec/nm-openvpn-service-openvpn-helper
+drwxr-xr-x	root/root	usr/lib/networkmanager-openvpn/
+-rwxr-xr-x	root/root	usr/lib/networkmanager-openvpn/nm-openvpn-auth-dialog
+-rwxr-xr-x	root/root	usr/lib/networkmanager-openvpn/nm-openvpn-service
+-rwxr-xr-x	root/root	usr/lib/networkmanager-openvpn/nm-openvpn-service-openvpn-helper
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/appdata/
 -rw-r--r--	root/root	usr/share/appdata/network-manager-openvpn.metainfo.xml

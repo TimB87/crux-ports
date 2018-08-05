@@ -12,6 +12,7 @@ build() {
 	cd NetworkManager-openvpn-$version
 	
     ./configure --prefix=/usr \
+                --libexecdir=/usr/lib/$name \
                 --disable-nls 
 	
     make

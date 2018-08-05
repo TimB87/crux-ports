@@ -1,6 +1,6 @@
 # Description: Linux Advanced Power Management
 # URL: http://linrunner.de/en/tlp/tlp.html
-# Maintainer: Tim Biermann
+# Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on:
 
 name=tlp
@@ -16,7 +16,6 @@ build() {
         cd TLP-$version
         export TLP_SBIN='/usr/bin'
         #export TLP_ULIB='/lib/udev'
-        #export TLP_SYSD='/usr/lib/systemd/system'
         #export TLP_NO_INIT='1'
         #export TLP_SYSV='/etc/rc.d'
         export TLP_CONF='/usr/etc/tlp'

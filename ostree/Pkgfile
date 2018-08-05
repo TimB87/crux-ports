@@ -12,7 +12,7 @@ build() {
 	cd lib$name-$version
 
 	./configure --prefix=/usr \
-        --with-libexecdir=/usr/lib/$name \
+        --libexecdir=/usr/lib/$name \
 		--with-openssl \
 		--with-builtin-grub2-mkconfig \
 		--enable-experimental-api \

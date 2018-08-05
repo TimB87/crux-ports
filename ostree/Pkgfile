@@ -4,7 +4,7 @@
 # Depends on: avahi fuse gpgme keyutils libsoup
 
 name=ostree
-version=2018.6
+version=2018.7
 release=1
 source=(https://github.com/ostreedev/ostree/releases/download/v$version/libostree-$version.tar.xz)
 
@@ -12,6 +12,7 @@ build() {
 	cd lib$name-$version
 
 	./configure --prefix=/usr \
+        --with-libexecdir=/usr/lib/$name \
 		--with-openssl \
 		--with-builtin-grub2-mkconfig \
 		--enable-experimental-api \
@@ -19,4 +20,6 @@ build() {
 	
 	make
 	make DESTDIR=$PKG install
+
+    rm -fr $PKG/usr/share/ostree/trusted.gpg.d/README-gpg
 }

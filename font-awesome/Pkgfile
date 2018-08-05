@@ -4,13 +4,13 @@
 # Depends on:
 
 name=font-awesome
-version=5.0.12
+version=5.2.0
 release=1
-source=(https://use.fontawesome.com/releases/v$version/fontawesome-free-$version.zip)
+source=(https://use.fontawesome.com/releases/v$version/fontawesome-free-$version-desktop.zip)
 
 build() {
-	cd fontawesome-free-$version
-	cd use-on-desktop
+	cd fontawesome-free-$version-desktop
+    cd otfs
 	install -d $PKG/usr/share/fonts/OTF
 	install -m644 *.otf $PKG/usr/share/fonts/OTF
 }

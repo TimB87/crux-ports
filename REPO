@@ -232,10 +232,10 @@ f:abb2be845e798e1140314f666def496d:font-noto/Pkgfile
 f:ecb06f374fcf9a58e9fc2773d8cabf28:font-noto/.footprint
 f:db47bc9b9c086239c4d86d4a5bc5db38:font-noto/README
 f:9d42abc94e3e85c034425715bd175191:yubikey-personalization/10-security-key.rules
-f:7ebceb007ad0efba7dfb2e600d65eda4:yubikey-personalization/.signature
-f:50f92eb93d15de33a8919391250b736b:yubikey-personalization/.md5sum
-f:5d0e3418d6395597e553d74e585ddc54:yubikey-personalization/Pkgfile
-f:b802ad22c790a3e509793603545db2a4:yubikey-personalization/.footprint
+f:07e3b33fa533daa2c21ecb9d0f1942a4:yubikey-personalization/.signature
+f:d8c2bddcfcd8d67cc71f56e4c04f159a:yubikey-personalization/.md5sum
+f:1dd36aa4112c651836d73a4b599ca362:yubikey-personalization/Pkgfile
+f:7d8fe84839827763f6da98de719f91e5:yubikey-personalization/.footprint
 f:de712291b5054b8443501ecd0381e12d:yubikey-personalization/README
 f:7ebceb007ad0efba7dfb2e600d65eda4:exo/.signature
 f:6736112f3c1a1b1db2552555c07dd361:exo/.md5sum
@@ -531,9 +531,9 @@ f:7ebceb007ad0efba7dfb2e600d65eda4:obs-studio/.signature
 f:44abb21065a25027abcd4cc54ccc4973:obs-studio/.md5sum
 f:90b374de57336fe8ea995ad82be54a0d:obs-studio/Pkgfile
 f:70ac724fdcb51b81809094646cef4a2f:obs-studio/.footprint
-f:7ebceb007ad0efba7dfb2e600d65eda4:yubico-pam/.signature
-f:3fd752319758c2e575aa842e08fbc82b:yubico-pam/.md5sum
-f:ab7ddc50b9cd59cd9c67adb718c8015b:yubico-pam/Pkgfile
+f:7c9d6c278787e7f0e9f3ee499338aed4:yubico-pam/.signature
+f:7af11327315d5791bfc09c1cf3c2d84d:yubico-pam/.md5sum
+f:b325bdbef937243cc320f3b64c41a807:yubico-pam/Pkgfile
 f:65284f321dbd1439f492a282b743c574:yubico-pam/.footprint
 f:83cbc70b1896eecc4994c98ec0363fce:yubico-pam/README
 f:7ebceb007ad0efba7dfb2e600d65eda4:libxdg-basedir/.signature

@@ -12,7 +12,9 @@ git=(https://github.com/snwh/moka-icon-theme.git)
 build() {
     git clone $git $name
     cd $name
-    ./autogen.sh
-    make
-    make DESTDIR=$PKG install
+#    ./autogen.sh
+#    make
+#    make DESTDIR=$PKG install
+    meson "build" --prefix=/usr
+    DESTDIR=$PKG ninja -C "build" install
 }

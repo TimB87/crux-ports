@@ -400,10 +400,10 @@ f:7ebceb007ad0efba7dfb2e600d65eda4:gnome-common/.signature
 f:53b5cfe249bf079bbd7adb032fbd18bd:gnome-common/.md5sum
 f:358f9f4c0d206cb019dd8d584c2691b5:gnome-common/Pkgfile
 f:3ef5f1d63964dbd2af941fb5a56f4b79:gnome-common/.footprint
-f:7ebceb007ad0efba7dfb2e600d65eda4:nextcloud/.signature
-f:60fb1ad09eb53ffb24a8274657025733:nextcloud/.md5sum
-f:676576bc186f5f30c9d43be7827399ef:nextcloud/Pkgfile
-f:ff8989e4dbb56d41722b0dcb52aa562f:nextcloud/.footprint
+f:c368c5ed455c23995f5fa562c36af50a:nextcloud/.signature
+f:26ab5adc393183401667a1a8ba6b4fe1:nextcloud/.md5sum
+f:412529bd6a29d32bec6f7255700c11cd:nextcloud/Pkgfile
+f:7dee18477d3e9f17d156dd462b38e2b3:nextcloud/.footprint
 f:8d43e8f91cd7fec4973e9136e3a32111:snowball/.signature
 f:d2159a5ca5ec7bcffbf39da9129ae405:snowball/.md5sum
 f:70e9965a8c2b415d5de3593d0728e517:snowball/dynamiclib.patch

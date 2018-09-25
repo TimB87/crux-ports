@@ -1,0 +1,7 @@
+Using this port will result in admin users getting an error about code
+integrity failing.
+By browsing $CLOUD-URL/settings/integrity/failed it will moan about missing
+files.
+
+You can find more information about it here:
+https://docs.nextcloud.com/server/13/admin_manual/issues/code_signing.html

@@ -4,13 +4,12 @@
 # Depends on: qt5 libgcrypt yubico-c yubikey-personalization libgpg-error llvm argon2 libsodium
 
 name=keepassxc
-version=2.3.3
+version=2.3.4
 release=1
-source=(https://github.com/keepassxreboot/keepassxc/releases/download/$version/$name-$version-src.tar.xz keepassxc-2.3.3-qt-5.11-edit-entry-widget-includes.patch)
+source=(https://github.com/keepassxreboot/keepassxc/releases/download/$version/$name-$version-src.tar.xz)
 
 build() {
 	cd $name-$version
-    patch -Np1 -i $SRC/keepassxc-2.3.3-qt-5.11-edit-entry-widget-includes.patch
     mkdir build && cd build
 	cmake -DCMAKE_INSTALL_PREFIX=/usr \
         	-DCMAKE_INSTALL_BINDIR=/usr/bin \

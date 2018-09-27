@@ -442,10 +442,10 @@ f:28e5b597db889ca5f7294ed774dc5481:xdg-desktop-portal-gtk/Pkgfile
 f:8d4faa3f02c4a66d8b8bd0ce0b4373b6:xdg-desktop-portal-gtk/.footprint
 f:bbcef882147da9000691b07ac61c1b6b:zsh/zsh-lovers.1
 f:1df5b335eca489948dfc49026d5a5e17:zsh/_prt-get
-f:437cb183697b4162b6de195e0f3b2097:zsh/.signature
-f:8f2de92e18b40d31bcf80513524fd401:zsh/.md5sum
-f:7d4cabde35a9bb70c24c8fe75ea8814f:zsh/Pkgfile
-f:c6fba00eea939f115cb53680a1d455b8:zsh/.footprint
+f:79601cb8971afae71d20d3f73a36a739:zsh/.signature
+f:3d5b161a74b3eab9a48bef5de5e92025:zsh/.md5sum
+f:376c915f2a8b1778e0a7da1837285dc8:zsh/Pkgfile
+f:4b84aa2f8badfe2927878b09a5c21b92:zsh/.footprint
 f:1f693bf2be89d608a359c63a513cec1c:zsh/README
 f:7ebceb007ad0efba7dfb2e600d65eda4:blueman/.signature
 f:9125a26b019df834b275d1668cb6384a:blueman/.md5sum

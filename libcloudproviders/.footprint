@@ -1,12 +1,12 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/cloudproviders/
+-rw-r--r--	root/root	usr/include/cloudproviders/cloudproviders.h
 -rw-r--r--	root/root	usr/include/cloudproviders/cloudprovidersaccount.h
 -rw-r--r--	root/root	usr/include/cloudproviders/cloudprovidersaccountexporter.h
 -rw-r--r--	root/root	usr/include/cloudproviders/cloudproviderscollector.h
 -rw-r--r--	root/root	usr/include/cloudproviders/cloudprovidersprovider.h
 -rw-r--r--	root/root	usr/include/cloudproviders/cloudprovidersproviderexporter.h
--rw-r--r--	root/root	usr/include/cloudproviders/enums.c
 -rw-r--r--	root/root	usr/include/cloudproviders/enums.h
 drwxr-xr-x	root/root	usr/lib/
 lrwxrwxrwx	root/root	usr/lib/libcloudproviders.so -> libcloudproviders.so.0

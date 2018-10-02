@@ -33,9 +33,9 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/girepository-1.0/
 -rw-r--r--	root/root	usr/lib/girepository-1.0/Flatpak-1.0.typelib
 -rwxr-xr-x	root/root	usr/lib/libflatpak.la
-lrwxrwxrwx	root/root	usr/lib/libflatpak.so -> libflatpak.so.0.10000.0
-lrwxrwxrwx	root/root	usr/lib/libflatpak.so.0 -> libflatpak.so.0.10000.0
--rwxr-xr-x	root/root	usr/lib/libflatpak.so.0.10000.0
+lrwxrwxrwx	root/root	usr/lib/libflatpak.so -> libflatpak.so.0.10002.0
+lrwxrwxrwx	root/root	usr/lib/libflatpak.so.0 -> libflatpak.so.0.10002.0
+-rwxr-xr-x	root/root	usr/lib/libflatpak.so.0.10002.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/flatpak.pc
 drwxr-xr-x	root/root	usr/lib/systemd/
@@ -72,6 +72,7 @@ drwxr-xr-x	root/root	usr/share/gir-1.0/
 drwxr-xr-x	root/root	usr/share/gtk-doc/
 drwxr-xr-x	root/root	usr/share/gtk-doc/html/
 drwxr-xr-x	root/root	usr/share/gtk-doc/html/flatpak/
+-rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/FlatpakBundleRef.html
 -rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/FlatpakInstallation.html
 -rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/FlatpakInstalledRef.html
 -rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/FlatpakRef.html
@@ -79,12 +80,12 @@ drwxr-xr-x	root/root	usr/share/gtk-doc/html/flatpak/
 -rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/FlatpakRemote.html
 -rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/FlatpakRemoteRef.html
 -rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/FlatpakTransaction.html
+-rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/FlatpakTransactionOperation.html
 -rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/FlatpakTransactionProgress.html
 -rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/annotation-glossary.html
 -rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/ch01.html
 -rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/flatpak-Error-codes.html
 -rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/flatpak-Version-information.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/flatpak-flatpak-bundle-ref.html
 -rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/flatpak.devhelp2
 -rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/full-api-index.html
 -rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/home.png
@@ -124,6 +125,7 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/flatpak-permission-remove.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/flatpak-permission-reset.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/flatpak-permission-show.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/flatpak-ps.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/flatpak-remote-add.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/flatpak-remote-delete.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/flatpak-remote-info.1.gz

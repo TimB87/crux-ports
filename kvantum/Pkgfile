@@ -4,7 +4,7 @@
 # Depends on: qt5 llvm libffi icu harfbuzz
 
 name=kvantum
-version=0.10.6
+version=0.10.8
 release=1
 source=(https://github.com/tsujan/Kvantum/archive/V$version/Kvantum-v$version.tar.gz)
 
@@ -13,4 +13,6 @@ build() {
     cmake -DCMAKE_INSTALL_PREFIX:PATH=/usr
     make
     make DESTDIR=$PKG install
+    rm -fr $PKG/usr/share/kvantumpreview/translations
+    rm -fr $PKG/usr/share/kvantummanager/translations
 }

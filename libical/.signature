@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwP31rgQHf98HrYsOTyBFUDQNOJh9gCzvgfL6sfKyq7ApZWiWBihLVMyJTfu+06JPh3N18Lrapp6W5rgTIk+GZwQ=
+RWSXjYMPO7mZwFA3KKcgq5ZsOpjiSC89OJ+6f+OLf+JUjELTb6/qEAsHqOTv3j0CP7t2FKta6/rVhrwCRQzfHjBsyG6UwIeuxgE=
+SHA256 (Pkgfile) = bcbc4700ae30c2cc2998fc3fd8d12be68c3d649575b2a12856f0c71579aca1ab
+SHA256 (.footprint) = 8094e911772442dbdaa490a3ea728a5ad81984f7e4b90ec0d9f7773dc08b470d
+SHA256 (libical-3.0.4.tar.gz) = 72b216e10233c3f60cb06062facf41f3b0f70615e5a60b47f9853341a0d5d145

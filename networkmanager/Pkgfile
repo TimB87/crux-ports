@@ -5,7 +5,7 @@
 # Optional:    ppp avahi bash-completion dbus libnl jansson libteam dnsmasq
 
 name=networkmanager
-version=1.13.1
+version=1.13.2
 release=1
 source=(
 http://ftp.gnome.org/pub/gnome/sources/NetworkManager/${version%.*}/NetworkManager-${version}.tar.xz

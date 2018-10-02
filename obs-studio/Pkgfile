@@ -4,7 +4,7 @@
 # Depends on: fdk-aac ffmpeg gcc glibc gnutls icu jansson lame libsndfile libva libvpx libwebp openldap qt5 speexdsp x264 x265
 
 name=obs-studio
-version=21.1.2
+version=22.0.2
 release=1
 source=(https://github.com/jp9000/obs-studio/archive/$version/$name-$version.tar.gz)
 
@@ -20,4 +20,5 @@ build() {
     make DESTDIR=$PKG install
     
     rm -fr $PKG/usr/share/obs/obs-plugins/*/locale
+    rm -fr $PKG/usr/share/obs/obs-studio/locale/
 }

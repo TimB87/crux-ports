@@ -4,13 +4,14 @@
 # Depends on: fdk-aac ffmpeg gnutls lame libva libvpx libwebp sbc v4l-utils x264 x265
 
 name=pipewire
-version=0.1.9
+version=0.2.3
 release=1
-source=(https://github.com/PipeWire/pipewire/archive/$version/$name-$version.tar.gz unhide-providers.diff)
+source=(https://github.com/PipeWire/pipewire/archive/$version/$name-$version.tar.gz pkgconfig.diff)
 
 build() {
 	cd $name-$version
-    patch -Np1 -i ../unhide-providers.diff
+    patch -Np1 -i ../pkgconfig.diff
+
     mkdir build && cd build
     
     meson -D enable_gstreamer=true \

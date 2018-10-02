@@ -4,12 +4,12 @@
 # Depends on: freetype gtk3 json-glib keyutils libsoup libyaml snowball xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxrandr
 
 name=appstream-glib
-version=0.7.10
+version=0.7.13
 release=1
-source=(https://github.com/hughsie/appstream-glib/archive/appstream_glib_0_7_10.tar.gz)
+source=(https://people.freedesktop.org/~hughsient/appstream-glib/releases/$name-$version.tar.xz)
 
 build() {
-    cd $name-appstream_glib_0_7_10
+    cd $name-$version
     mkdir build && cd build
     
     meson ../ -Drpm=false -Dprefix=/usr

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwHjr4jz6DEazx+CQgCXzXkr5ZSxJmFDq2q41bsrhS/opPloCnF5mcVjHlzTgK6nPe02QGHVHN2c/+zSWympDpgM=
-SHA256 (Pkgfile) = e2b6fd97ece0a9512d56c33905a890a10250639634a3fd7500bf9edd58feb0aa
-SHA256 (.footprint) = 4edf0e5a644255b3678ee6df139b0dccc4ccbfce91b6440bcfba59fd251aa875
-SHA256 (appstream_glib_0_7_10.tar.gz) = ee30d684cd7cd3146e3d1dbef4bf9200e3a86dba70a37a13acc64f50eba9ecce
+RWSXjYMPO7mZwMZYittesQvqPNbP3sATkOwpc0ecV8P/zuY5SGcki46ZEekZuxZhqMj0XDNKCGrBAErNUp14GCqxOK0ziG1uSQ0=
+SHA256 (Pkgfile) = be5731b169946a9b5a5420a7d73f779c40855aa975b63944e86272d206bf9680
+SHA256 (.footprint) = a87bd79a57c53eafed02f602e8ea23d116d2034eaefeac0271cc18ead9796af2
+SHA256 (appstream-glib-0.7.13.tar.xz) = ba29b5b42b0a849ee5a442e76e4742b4223afbd1400011dbe65153933887271c

@@ -6,11 +6,10 @@
 name=pipewire
 version=0.2.3
 release=1
-source=(https://github.com/PipeWire/pipewire/archive/$version/$name-$version.tar.gz pkgconfig.diff)
+source=(https://github.com/PipeWire/pipewire/archive/$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
-    patch -Np1 -i ../pkgconfig.diff
 
     mkdir build && cd build
     

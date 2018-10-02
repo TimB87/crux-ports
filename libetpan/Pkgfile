@@ -4,7 +4,7 @@
 # Depends on: db openssl cyrus-sasl
 
 name=libetpan
-version=1.8
+version=1.9.1
 release=1
 source=(https://github.com/dinhviethoa/libetpan/archive/$version/$name-$version.tar.gz)
 

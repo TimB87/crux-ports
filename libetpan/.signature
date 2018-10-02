@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwP31rgQHf98HrYsOTyBFUDQNOJh9gCzvgfL6sfKyq7ApZWiWBihLVMyJTfu+06JPh3N18Lrapp6W5rgTIk+GZwQ=
+RWSXjYMPO7mZwBh0Z4faJLm5q9kN4LE9eeGPAHlzrE/LsLgZG25l+PYk4ksTsslADOK6Eu0KtuT+vj4maEk1ICwS+JQ54+Ja1gw=
+SHA256 (Pkgfile) = e70daa4baf27eb31ead82e426bb31362e3963e3a0134759693882c890e0079ca
+SHA256 (.footprint) = 1fe7d032f77a2aae1fd3182ec588bd9b7bc3422afc2f5d679f6b1d8f66675429
+SHA256 (libetpan-1.9.1.tar.gz) = f5e354ccf1014c6ee313ade1009b8a82f28043d2504655e388bb4c1328700fcd

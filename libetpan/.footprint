@@ -170,6 +170,6 @@ drwxr-xr-x	root/root	usr/include/libetpan/
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libetpan.a
 -rwxr-xr-x	root/root	usr/lib/libetpan.la
-lrwxrwxrwx	root/root	usr/lib/libetpan.so -> libetpan.so.20.1.0
-lrwxrwxrwx	root/root	usr/lib/libetpan.so.20 -> libetpan.so.20.1.0
--rwxr-xr-x	root/root	usr/lib/libetpan.so.20.1.0
+lrwxrwxrwx	root/root	usr/lib/libetpan.so -> libetpan.so.20.2.0
+lrwxrwxrwx	root/root	usr/lib/libetpan.so.20 -> libetpan.so.20.2.0
+-rwxr-xr-x	root/root	usr/lib/libetpan.so.20.2.0

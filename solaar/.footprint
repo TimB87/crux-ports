@@ -76,8 +76,6 @@ drwxr-xr-x	root/root	usr/lib/python3.6/site-packages/solaar/
 drwxr-xr-x	root/root	usr/lib/python3.6/site-packages/solaar/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.6/site-packages/solaar/__pycache__/__init__.cpython-36.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.6/site-packages/solaar/__pycache__/__init__.cpython-36.pyc
--rw-r--r--	root/root	usr/lib/python3.6/site-packages/solaar/__pycache__/async.cpython-36.opt-1.pyc
--rw-r--r--	root/root	usr/lib/python3.6/site-packages/solaar/__pycache__/async.cpython-36.pyc
 -rw-r--r--	root/root	usr/lib/python3.6/site-packages/solaar/__pycache__/configuration.cpython-36.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.6/site-packages/solaar/__pycache__/configuration.cpython-36.pyc
 -rw-r--r--	root/root	usr/lib/python3.6/site-packages/solaar/__pycache__/gtk.cpython-36.opt-1.pyc
@@ -86,9 +84,10 @@ drwxr-xr-x	root/root	usr/lib/python3.6/site-packages/solaar/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.6/site-packages/solaar/__pycache__/i18n.cpython-36.pyc
 -rw-r--r--	root/root	usr/lib/python3.6/site-packages/solaar/__pycache__/listener.cpython-36.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.6/site-packages/solaar/__pycache__/listener.cpython-36.pyc
+-rw-r--r--	root/root	usr/lib/python3.6/site-packages/solaar/__pycache__/tasks.cpython-36.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.6/site-packages/solaar/__pycache__/tasks.cpython-36.pyc
 -rw-r--r--	root/root	usr/lib/python3.6/site-packages/solaar/__pycache__/upower.cpython-36.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.6/site-packages/solaar/__pycache__/upower.cpython-36.pyc
--rw-r--r--	root/root	usr/lib/python3.6/site-packages/solaar/async.py
 drwxr-xr-x	root/root	usr/lib/python3.6/site-packages/solaar/cli/
 -rw-r--r--	root/root	usr/lib/python3.6/site-packages/solaar/cli/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.6/site-packages/solaar/cli/__pycache__/
@@ -110,6 +109,7 @@ drwxr-xr-x	root/root	usr/lib/python3.6/site-packages/solaar/cli/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.6/site-packages/solaar/gtk.py
 -rw-r--r--	root/root	usr/lib/python3.6/site-packages/solaar/i18n.py
 -rw-r--r--	root/root	usr/lib/python3.6/site-packages/solaar/listener.py
+-rw-r--r--	root/root	usr/lib/python3.6/site-packages/solaar/tasks.py
 drwxr-xr-x	root/root	usr/lib/python3.6/site-packages/solaar/ui/
 -rw-r--r--	root/root	usr/lib/python3.6/site-packages/solaar/ui/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.6/site-packages/solaar/ui/__pycache__/

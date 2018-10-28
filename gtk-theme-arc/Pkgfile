@@ -4,7 +4,7 @@
 # Depends on: gtk gtk-engine-murrine sassc
 
 name=gtk-theme-arc
-version=20180715
+version=20181022
 release=1
 source=(https://github.com/NicoHood/arc-theme/archive/$version/arc-theme-$version.tar.gz)
 

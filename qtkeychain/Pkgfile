@@ -4,7 +4,7 @@
 # Depends on: qt5
 
 name=qtkeychain
-version=0.8.0
+version=0.9.1
 release=1
 source=(https://github.com/frankosterfeld/$name/archive/v$version/$name-$version.tar.gz)
 

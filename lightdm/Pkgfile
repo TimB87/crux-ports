@@ -4,7 +4,7 @@
 # Depends on: glib glibc gtk-doc libgcrypt linux-pam polkit xorg-libx11 accountsservice libxklavier
 
 name=lightdm
-version=1.26.0
+version=1.28.0
 release=1
 source=(https://github.com/CanonicalLtd/lightdm/releases/download/$version/$name-$version.tar.xz Xsession lightdm-default-config.patch lightdm.rules lightdm.service)
 

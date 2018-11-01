@@ -1,6 +1,0 @@
-a1f96fd4abc2574b04c2599fb1c71293  0001-Enable-table-validation-modules.patch
-0292b4dbbefbfc5404390e4879b88de2  0001-psaux-Correctly-handle-Flex-features-52846.patch
-47e916030eec65a17d87641595cc1ae8  0002-Enable-infinality-subpixel-hinting.patch
-b97d9d0b86f9edb961ee97f771016ba5  0003-Enable-long-PCF-family-names.patch
-9df123ffc4fd56e6345abb2707efd84e  0007-cleartype.patch
-513c403c110016fdc7e537216a642b1d  freetype-2.9.tar.bz2

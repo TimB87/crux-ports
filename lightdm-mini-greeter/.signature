@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwP31rgQHf98HrYsOTyBFUDQNOJh9gCzvgfL6sfKyq7ApZWiWBihLVMyJTfu+06JPh3N18Lrapp6W5rgTIk+GZwQ=
+RWSXjYMPO7mZwOsdDPvs0xl5yJvG2wcoM5HG9l26UIyGQqcn4cF8NBkauwSuELQXZcP2ZBDaO/wWx4xrQuOuRnik3eRcZUSfgwc=
+SHA256 (Pkgfile) = 9da70d3b2d74acaeba55720574f07187c9ad5315150b8307dc3eb91e38817e2b
+SHA256 (.footprint) = acb77b428976c0c3e6899c521bac048cefeabcb889ecf1a2db96959f8eb3e277
+SHA256 (lightdm-mini-greeter-0.3.4.tar.gz) = 6276b5ce6c97b7685788a41969c01335007cfc0163d9d6fd16462cff70622831

@@ -4,14 +4,11 @@
 # Depends on: libxklavier gtk3 libffi libpng libxml2 pango lightdm
 
 name=lightdm-mini-greeter
-version=0.3.2
-release=2
+version=0.3.4
+release=1
 source=(https://github.com/prikhi/$name/archive/$version/$name-$version.tar.gz)
-git=(https://github.com/prikhi/lightdm-mini-greeter.git)
 
 build() {
-	#git clone $git
-	#cd $name
     cd $name-$version
 	./autogen.sh
 	./configure --prefix=/usr --datadir /usr/share \

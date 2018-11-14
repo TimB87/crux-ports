@@ -19,6 +19,6 @@ build() {
     make
     make DESTDIR=$PKG install
     
-    rm -fr $PKG/usr/share/obs/obs-plugins/*/locale
-    rm -fr $PKG/usr/share/obs/obs-studio/locale/
+   # rm -fr $PKG/usr/share/obs/obs-plugins/*/locale
+   # rm -fr $PKG/usr/share/obs/obs-studio/locale/
 }

@@ -233,7 +233,7 @@ f:7ebceb007ad0efba7dfb2e600d65eda4:yubikey-personalization-gui/.signature
 f:ac50518fba25e4054773810e8e1809c1:yubikey-personalization-gui/.md5sum
 f:0f1a31e7c6b09705eb615720e88e4320:yubikey-personalization-gui/Pkgfile
 f:51782f0f7541d8a696dcc1859d187a77:yubikey-personalization-gui/.footprint
-f:7be296350e25a64ea177b654bb3f3389:network-manager-applet/.signature
+f:d894c04cd6c14febcdd27e47849b50a2:network-manager-applet/.signature
 f:6501980493b66e6ebbdc1b86f05870b1:network-manager-applet/.md5sum
 f:613ce45eb9f3cdcd030379f7405d4cf3:network-manager-applet/post-install
 f:c38359c591b28d460c0b9c43a5a05769:network-manager-applet/Pkgfile

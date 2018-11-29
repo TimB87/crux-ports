@@ -4,7 +4,7 @@
 # Depends on: qt5, texlive
 
 name=texmaker
-version=5.0.2
+version=5.0.3
 release=1
 source=(http://www.xm1math.net/$name/$name-$version.tar.bz2)
 

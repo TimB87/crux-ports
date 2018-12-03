@@ -16,6 +16,7 @@ drwxr-xr-x	root/root	usr/include/flatpak/
 -rw-r--r--	root/root	usr/include/flatpak/flatpak-error.h
 -rw-r--r--	root/root	usr/include/flatpak/flatpak-installation.h
 -rw-r--r--	root/root	usr/include/flatpak/flatpak-installed-ref.h
+-rw-r--r--	root/root	usr/include/flatpak/flatpak-instance.h
 -rw-r--r--	root/root	usr/include/flatpak/flatpak-portal-error.h
 -rw-r--r--	root/root	usr/include/flatpak/flatpak-ref.h
 -rw-r--r--	root/root	usr/include/flatpak/flatpak-related-ref.h
@@ -33,9 +34,9 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/girepository-1.0/
 -rw-r--r--	root/root	usr/lib/girepository-1.0/Flatpak-1.0.typelib
 -rwxr-xr-x	root/root	usr/lib/libflatpak.la
-lrwxrwxrwx	root/root	usr/lib/libflatpak.so -> libflatpak.so.0.10002.0
-lrwxrwxrwx	root/root	usr/lib/libflatpak.so.0 -> libflatpak.so.0.10002.0
--rwxr-xr-x	root/root	usr/lib/libflatpak.so.0.10002.0
+lrwxrwxrwx	root/root	usr/lib/libflatpak.so -> libflatpak.so.0.10100.0
+lrwxrwxrwx	root/root	usr/lib/libflatpak.so.0 -> libflatpak.so.0.10100.0
+-rwxr-xr-x	root/root	usr/lib/libflatpak.so.0.10100.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/flatpak.pc
 drwxr-xr-x	root/root	usr/lib/systemd/
@@ -75,6 +76,7 @@ drwxr-xr-x	root/root	usr/share/gtk-doc/html/flatpak/
 -rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/FlatpakBundleRef.html
 -rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/FlatpakInstallation.html
 -rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/FlatpakInstalledRef.html
+-rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/FlatpakInstance.html
 -rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/FlatpakRef.html
 -rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/FlatpakRelatedRef.html
 -rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/FlatpakRemote.html
@@ -116,8 +118,10 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/flatpak-document-list.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/flatpak-document-unexport.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/flatpak-enter.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/flatpak-history.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/flatpak-info.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/flatpak-install.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/flatpak-kill.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/flatpak-list.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/flatpak-make-current.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/flatpak-override.1.gz

@@ -4,7 +4,7 @@
 # Depends on: freetype gtk3 json-glib keyutils libsoup libyaml snowball xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxrandr
 
 name=appstream-glib
-version=0.7.13
+version=0.7.14
 release=1
 source=(https://people.freedesktop.org/~hughsient/appstream-glib/releases/$name-$version.tar.xz)
 

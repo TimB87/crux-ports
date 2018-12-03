@@ -13,9 +13,6 @@ build() {
     
     NOCONFIGURE=1 ./autogen.sh
     ./configure --prefix=/usr \
-                --localstatedir=/var \
-                --disable-static \
-                --libexecdir=/usr/lib/gnome-keyring \
                 --with-pam-dir=/lib/security \
                 --with-root-certs=/etc/ssl/certs \
                 --disable-schemas-compile \

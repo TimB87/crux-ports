@@ -4,13 +4,13 @@
 # Depends on: 
 
 name=j4-dmenu-desktop
-version=r2.16
+version=2.16
 release=1
-source=(https://github.com/enkore/j4-dmenu-desktop/archive/r2.16/$name-$version.tar.gz)
+source=(https://github.com/enkore/j4-dmenu-desktop/archive/r$version/$name-$version.tar.gz)
 git=(https://github.com/enkore/j4-dmenu-desktop.git)
 
 build() {
-	cd $name-$version
+	cd $name-r$version
 	cmake -DCMAKE_INSTALL_PREFIX=/usr .
 	make
 	make DESTDIR=$PKG install

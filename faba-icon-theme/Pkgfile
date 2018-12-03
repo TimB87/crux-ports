@@ -4,15 +4,13 @@
 # Depends on:
 
 name=faba-icon-theme
-version=4.1.2
+version=4.3
 release=1
 source=(https://github.com/snwh/$name/archive/v$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
 
-    bash ./autogen.sh
-
-    make
-    make DESTDIR=$PKG install
+    meson "build" --prefix=/usr
+    DESTDIR=$PKG ninja -C "build" install
 }

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwMOzORWaOndnvcPBYToe/JkSqoRcXjfoxyrQ86XhnKQmiBmITVs9J46C5f79KiLLyl4s6UA6PaI9fZ9Jm+UjjAg=
-SHA256 (Pkgfile) = 9f91deeb968c21bc5f8d7c484ffa3e2ab20b7dc8abae10978ffb672345c0f467
+RWSXjYMPO7mZwCZg+jveCvhivGHOjoQaUaitrnyw+0jGUpBVYehI/UTi2jZwSZF//XV2S38EbdjIVlKkP8jRWRX8angsy8YZ6QA=
+SHA256 (Pkgfile) = b243bfe44213e8071a339de6aa20571edc9a101c91ede1bd1ebcc07abdf50a3a
 SHA256 (.footprint) = ebfc3d6c594c86b3652421cba425d23d785ee9476c5980dfd76be5c5e71a7773
-SHA256 (NetworkManager-openvpn-1.8.6.tar.xz) = 9025237f7176e4828a4957e18eeb9346c9ae1c95f820f126cf543834489251cf
+SHA256 (NetworkManager-openvpn-1.8.8.tar.xz) = a23cded9fd5650fe2cce8237107b5c92a2f7cc64b588ba91acc99d5efaa10da7

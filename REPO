@@ -159,10 +159,10 @@ f:7ebceb007ad0efba7dfb2e600d65eda4:i3blocks/.signature
 f:d41d8cd98f00b204e9800998ecf8427e:i3blocks/.md5sum
 f:1eb600fe7207cc56012dfc5c07af149f:i3blocks/Pkgfile
 f:f9582c1ddebfdb5397f001646d4e17bc:i3blocks/.footprint
-f:a7b90af04dd763c359b9615bf22b43bf:flatpak/.signature
-f:170fc7316ddfd851f39e0aa184fb2da1:flatpak/.md5sum
-f:fe0f5f2796438b3d341d24e36528f257:flatpak/Pkgfile
-f:71b23c4b2ca9a7492aab0dcfd02e15e9:flatpak/.footprint
+f:ac32c50e4173258892b1a419bc9351c2:flatpak/.signature
+f:82c480520e92e3456b8dd79e01b37b72:flatpak/.md5sum
+f:c1a8694d0cc3da5709af0017ff013088:flatpak/Pkgfile
+f:0ea9c24ba970d22bff4ae34e74dbf261:flatpak/.footprint
 f:badc04f70c566d1f04314510096ade97:libnewt/.signature
 f:d41d8cd98f00b204e9800998ecf8427e:libnewt/.md5sum
 f:16fa5c74c1cd02e96473e3ec9ea7c5a1:libnewt/Pkgfile
@@ -171,9 +171,9 @@ f:7ebceb007ad0efba7dfb2e600d65eda4:i3status/.signature
 f:0ba587b8de53d87a1b8364467a4230e4:i3status/.md5sum
 f:e438974f51dd2e70608637a18d2f22b7:i3status/Pkgfile
 f:986e0927bd5c80f3c117310d56914328:i3status/.footprint
-f:7ebceb007ad0efba7dfb2e600d65eda4:accountsservice/.signature
-f:a627e7b9beb15a9702f0023f8e394402:accountsservice/.md5sum
-f:fda627f532271d41d77640b2fd72735a:accountsservice/Pkgfile
+f:d414ebc1cf3a2a704b7dd908b98a9220:accountsservice/.signature
+f:f7d58fbc3e5f41bf6a49d714ba4c8b7c:accountsservice/.md5sum
+f:e55e4bf304db66444546798c9f2e6ef5:accountsservice/Pkgfile
 f:f95354b317a57d7e0e9ab76dacd8d6d0:accountsservice/.footprint
 f:481f32ea92d9a3343bafde37e48608ef:networkmanager/.signature
 f:ab324196e853e252d3e19d6129eccc39:networkmanager/.md5sum

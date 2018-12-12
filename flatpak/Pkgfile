@@ -13,10 +13,6 @@ build() {
 
 	./configure \
 		--prefix=/usr \
-		--sysconfdir=/etc \
-		--localstatedir=/var \
-		--sbindir=/usr/bin \
-		--libexecdir=/usr/lib \
 		--disable-static \
 		--enable-p2p \
 		--with-priv-mode=setuid \

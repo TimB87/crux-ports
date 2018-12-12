@@ -1,6 +1,3 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/profile.d/
--rw-r--r--	root/root	etc/profile.d/flatpak.sh
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/flatpak
@@ -10,6 +7,8 @@ drwxr-xr-x	root/root	usr/etc/
 drwxr-xr-x	root/root	usr/etc/dbus-1/
 drwxr-xr-x	root/root	usr/etc/dbus-1/system.d/
 -rw-r--r--	root/root	usr/etc/dbus-1/system.d/org.freedesktop.Flatpak.SystemHelper.conf
+drwxr-xr-x	root/root	usr/etc/profile.d/
+-rw-r--r--	root/root	usr/etc/profile.d/flatpak.sh
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/flatpak/
 -rw-r--r--	root/root	usr/include/flatpak/flatpak-bundle-ref.h
@@ -27,11 +26,6 @@ drwxr-xr-x	root/root	usr/include/flatpak/
 -rw-r--r--	root/root	usr/include/flatpak/flatpak-version-macros.h
 -rw-r--r--	root/root	usr/include/flatpak/flatpak.h
 drwxr-xr-x	root/root	usr/lib/
--rwsr-xr-x	root/root	usr/lib/flatpak-bwrap
--rwxr-xr-x	root/root	usr/lib/flatpak-dbus-proxy
--rwxr-xr-x	root/root	usr/lib/flatpak-portal
--rwxr-xr-x	root/root	usr/lib/flatpak-session-helper
--rwxr-xr-x	root/root	usr/lib/flatpak-system-helper
 drwxr-xr-x	root/root	usr/lib/girepository-1.0/
 -rw-r--r--	root/root	usr/lib/girepository-1.0/Flatpak-1.0.typelib
 -rwxr-xr-x	root/root	usr/lib/libflatpak.la
@@ -48,6 +42,12 @@ drwxr-xr-x	root/root	usr/lib/systemd/user/dbus.service.d/
 -rw-r--r--	root/root	usr/lib/systemd/user/dbus.service.d/flatpak.conf
 -rw-r--r--	root/root	usr/lib/systemd/user/flatpak-portal.service
 -rw-r--r--	root/root	usr/lib/systemd/user/flatpak-session-helper.service
+drwxr-xr-x	root/root	usr/libexec/
+-rwsr-xr-x	root/root	usr/libexec/flatpak-bwrap
+-rwxr-xr-x	root/root	usr/libexec/flatpak-dbus-proxy
+-rwxr-xr-x	root/root	usr/libexec/flatpak-portal
+-rwxr-xr-x	root/root	usr/libexec/flatpak-session-helper
+-rwxr-xr-x	root/root	usr/libexec/flatpak-system-helper
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/bash-completion/
 drwxr-xr-x	root/root	usr/share/bash-completion/completions/

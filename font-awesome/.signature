@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwABCDExXoA4LGrdvWIxVO0H/RlIZYlX34Gv4zS4PaiBfhgX+H25s12Oa74wA86tmbds2+wbRQ3yHm9RsdH5uLgY=
-SHA256 (Pkgfile) = 3e550d96aa6859d676ffe1af9baf519e98be5ddcfe0093ac27198e0ff3bdf4ed
+RWSXjYMPO7mZwEO+bh+1CqtN7YJWS/LHi6xRl79nromhNmR7tZIxbKUZrIlOwFNxJWiiprjYzvyM28WJihKFpO1pRU+Nzq87pgs=
+SHA256 (Pkgfile) = 4e6ee62876c2392349b14ea0af96e7905d12bd24dded4d6b98ada3340c2d19d9
 SHA256 (.footprint) = 4a6e5dcc52f4e65b8c914fa73029d2ed0573a5bae07f70a3ae4315a63c9c2cc6
-SHA256 (fontawesome-free-5.5.0-desktop.zip) = 18e94c42dd01c86bd45b3dad287266247e59362fe545ff748bde2ba45b192dac
+SHA256 (fontawesome-free-5.6.0-desktop.zip) = 32434db680274dd3c64a3aecab58179cbeac07bf2cfd7ab6051e50ad0b16a232

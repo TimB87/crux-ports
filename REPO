@@ -106,9 +106,9 @@ f:01aa8ddfc7657b75e724bba717471826:networkmanager-openvpn/.signature
 f:690ba290d993e0cc08ec5bcb6dace249:networkmanager-openvpn/.md5sum
 f:17efa4ba2c956400f7e9b8b645dcf7be:networkmanager-openvpn/Pkgfile
 f:d358e62873320baecfd4798495a1d87b:networkmanager-openvpn/.footprint
-f:3e605707fb0a8abc08faa927c1029ccb:font-awesome/.signature
-f:7b888286d72271ce25a6b833b401debe:font-awesome/.md5sum
-f:66f4dc832aa369db6c20a79d68aacc01:font-awesome/Pkgfile
+f:114c6707fffd8fe7a6de4bd08a41cace:font-awesome/.signature
+f:495297bedd1aa57cef20b447bbab5457:font-awesome/.md5sum
+f:e341582b9100ce8d43abaf711a8edf11:font-awesome/Pkgfile
 f:8b1c8083c748d95f66b78f36af6e54b4:font-awesome/.footprint
 f:59f63f67dc181d49341fa5278f190c15:solaar/.signature
 f:d41d8cd98f00b204e9800998ecf8427e:solaar/.md5sum
@@ -159,10 +159,10 @@ f:7ebceb007ad0efba7dfb2e600d65eda4:i3blocks/.signature
 f:d41d8cd98f00b204e9800998ecf8427e:i3blocks/.md5sum
 f:1eb600fe7207cc56012dfc5c07af149f:i3blocks/Pkgfile
 f:f9582c1ddebfdb5397f001646d4e17bc:i3blocks/.footprint
-f:ac32c50e4173258892b1a419bc9351c2:flatpak/.signature
+f:f17a6c3eb7178e91a9d321048231d6d0:flatpak/.signature
 f:82c480520e92e3456b8dd79e01b37b72:flatpak/.md5sum
-f:c1a8694d0cc3da5709af0017ff013088:flatpak/Pkgfile
-f:0ea9c24ba970d22bff4ae34e74dbf261:flatpak/.footprint
+f:b6180e0c020c6f154d7a799dbf877752:flatpak/Pkgfile
+f:ef3144098c1842f1f6b7ee82d71fa759:flatpak/.footprint
 f:badc04f70c566d1f04314510096ade97:libnewt/.signature
 f:d41d8cd98f00b204e9800998ecf8427e:libnewt/.md5sum
 f:16fa5c74c1cd02e96473e3ec9ea7c5a1:libnewt/Pkgfile

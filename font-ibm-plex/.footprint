@@ -2,6 +2,14 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/fonts/
 drwxr-xr-x	root/root	usr/share/fonts/IBM-Plex/
+-rw-r--r--	root/root	usr/share/fonts/IBM-Plex/IBMPlexDevanagari-Bold.ttf
+-rw-r--r--	root/root	usr/share/fonts/IBM-Plex/IBMPlexDevanagari-ExtraLight.ttf
+-rw-r--r--	root/root	usr/share/fonts/IBM-Plex/IBMPlexDevanagari-Light.ttf
+-rw-r--r--	root/root	usr/share/fonts/IBM-Plex/IBMPlexDevanagari-Medium.ttf
+-rw-r--r--	root/root	usr/share/fonts/IBM-Plex/IBMPlexDevanagari-Regular.ttf
+-rw-r--r--	root/root	usr/share/fonts/IBM-Plex/IBMPlexDevanagari-SemiBold.ttf
+-rw-r--r--	root/root	usr/share/fonts/IBM-Plex/IBMPlexDevanagari-Text.ttf
+-rw-r--r--	root/root	usr/share/fonts/IBM-Plex/IBMPlexDevanagari-Thin.ttf
 -rw-r--r--	root/root	usr/share/fonts/IBM-Plex/IBMPlexMono-Bold.ttf
 -rw-r--r--	root/root	usr/share/fonts/IBM-Plex/IBMPlexMono-BoldItalic.ttf
 -rw-r--r--	root/root	usr/share/fonts/IBM-Plex/IBMPlexMono-ExtraLight.ttf

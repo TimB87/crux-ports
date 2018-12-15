@@ -98,10 +98,10 @@ f:486d64930c27c5db5e0d38d900cdb556:dbus-python3/.signature
 f:bc9655420cae2576d2d18af25f432eec:dbus-python3/.md5sum
 f:947ec50605d4f9b0069e332809d96e7a:dbus-python3/Pkgfile
 f:aadbb87f2efc0ee11c4a880658abcdc9:dbus-python3/.footprint
-f:26a74bef98c21b05ff4ae4e66c6bb0b2:font-ibm-plex/.signature
-f:961269548afec46d4360bc1f858d23a6:font-ibm-plex/.md5sum
-f:447ff5381231116ffb14298ae494c30e:font-ibm-plex/Pkgfile
-f:fbd6ad0d3bef93ca919f2c485f5c1ba8:font-ibm-plex/.footprint
+f:40291f98792d9dd51b46b28b3c5a0708:font-ibm-plex/.signature
+f:71cc52d4a431fd8a0901fef8e9c47464:font-ibm-plex/.md5sum
+f:f57a91a2e488fa31c154852e42b67e7a:font-ibm-plex/Pkgfile
+f:b8232cc4c15030829301d51b9f29e0e2:font-ibm-plex/.footprint
 f:01aa8ddfc7657b75e724bba717471826:networkmanager-openvpn/.signature
 f:690ba290d993e0cc08ec5bcb6dace249:networkmanager-openvpn/.md5sum
 f:17efa4ba2c956400f7e9b8b645dcf7be:networkmanager-openvpn/Pkgfile

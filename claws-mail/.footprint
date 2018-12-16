@@ -1,7 +1,6 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/claws-mail
-lrwxrwxrwx	root/root	usr/bin/sylpheed-claws -> claws-mail
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/claws-mail/
 -rw-r--r--	root/root	usr/include/claws-mail/account.h
@@ -32,10 +31,11 @@ drwxr-xr-x	root/root	usr/include/claws-mail/
 -rw-r--r--	root/root	usr/include/claws-mail/avatars.h
 -rw-r--r--	root/root	usr/include/claws-mail/browseldap.h
 -rw-r--r--	root/root	usr/include/claws-mail/claws-features.h
--rw-r--r--	root/root	usr/include/claws-mail/codeconv.h
 drwxr-xr-x	root/root	usr/include/claws-mail/common/
 -rw-r--r--	root/root	usr/include/claws-mail/common/claws.h
+-rw-r--r--	root/root	usr/include/claws-mail/common/codeconv.h
 -rw-r--r--	root/root	usr/include/claws-mail/common/defs.h
+-rw-r--r--	root/root	usr/include/claws-mail/common/file-utils.h
 -rw-r--r--	root/root	usr/include/claws-mail/common/hooks.h
 -rw-r--r--	root/root	usr/include/claws-mail/common/log.h
 -rw-r--r--	root/root	usr/include/claws-mail/common/md5.h
@@ -58,6 +58,7 @@ drwxr-xr-x	root/root	usr/include/claws-mail/common/
 -rw-r--r--	root/root	usr/include/claws-mail/common/template.h
 -rw-r--r--	root/root	usr/include/claws-mail/common/timing.h
 -rw-r--r--	root/root	usr/include/claws-mail/common/tlds.h
+-rw-r--r--	root/root	usr/include/claws-mail/common/unmime.h
 -rw-r--r--	root/root	usr/include/claws-mail/common/utils.h
 -rw-r--r--	root/root	usr/include/claws-mail/common/uuencode.h
 -rw-r--r--	root/root	usr/include/claws-mail/common/version.h
@@ -108,7 +109,6 @@ drwxr-xr-x	root/root	usr/include/claws-mail/gtk/
 -rw-r--r--	root/root	usr/include/claws-mail/gtk/description_window.h
 -rw-r--r--	root/root	usr/include/claws-mail/gtk/filesel.h
 -rw-r--r--	root/root	usr/include/claws-mail/gtk/foldersort.h
--rw-r--r--	root/root	usr/include/claws-mail/gtk/gdkkeysyms-new.h
 -rw-r--r--	root/root	usr/include/claws-mail/gtk/gtkaspell.h
 -rw-r--r--	root/root	usr/include/claws-mail/gtk/gtkcmclist.h
 -rw-r--r--	root/root	usr/include/claws-mail/gtk/gtkcmctree.h
@@ -234,7 +234,6 @@ drwxr-xr-x	root/root	usr/include/claws-mail/plugins/pgpcore/
 -rw-r--r--	root/root	usr/include/claws-mail/textview.h
 -rw-r--r--	root/root	usr/include/claws-mail/toolbar.h
 -rw-r--r--	root/root	usr/include/claws-mail/undo.h
--rw-r--r--	root/root	usr/include/claws-mail/unmime.h
 -rw-r--r--	root/root	usr/include/claws-mail/uri_opener.h
 -rw-r--r--	root/root	usr/include/claws-mail/vcard.h
 -rw-r--r--	root/root	usr/include/claws-mail/viewtypes.h

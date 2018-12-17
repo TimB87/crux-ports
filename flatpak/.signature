@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwPakWeRWqqn88DYjPKPf78/mD2efCXx37+S9ywst0gxzxXsc0w/GGtM/T3ZNSQGxm1Ibko3SHtphHk9saUpJSwI=
+RWSXjYMPO7mZwLYmY8L5Z0u3O6oItHh7g8IqydWPrRe7pZihZ60BZ+tQ8jyYegDrIPkphj3cqimLpzh0voFInI9gytZjbJri8gg=
 SHA256 (Pkgfile) = d4235223e0940c89a55f7fd98c5d07b7e26659b76efc3a28a326a6971968467f
-SHA256 (.footprint) = c193c37df376222f1d5de9ccdc36a70962ca1583ba903559c48c2ee6a6fe9d69
+SHA256 (.footprint) = 0227470f38382dd97711f5162e2f580fa207a969cea7a5a691f8e6bf29feb403
 SHA256 (flatpak-1.1.1.tar.xz) = 2caefcb36169f349bcd42820fb4b30a0d33901bb75ed1eab9da543b45c3c5144

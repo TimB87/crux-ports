@@ -159,7 +159,7 @@ f:7ebceb007ad0efba7dfb2e600d65eda4:i3blocks/.signature
 f:d41d8cd98f00b204e9800998ecf8427e:i3blocks/.md5sum
 f:1eb600fe7207cc56012dfc5c07af149f:i3blocks/Pkgfile
 f:f9582c1ddebfdb5397f001646d4e17bc:i3blocks/.footprint
-f:f17a6c3eb7178e91a9d321048231d6d0:flatpak/.signature
+f:2d51b0ff53a29f4a5de62b68d3e662f8:flatpak/.signature
 f:82c480520e92e3456b8dd79e01b37b72:flatpak/.md5sum
 f:b6180e0c020c6f154d7a799dbf877752:flatpak/Pkgfile
 f:ef3144098c1842f1f6b7ee82d71fa759:flatpak/.footprint
@@ -390,10 +390,10 @@ f:3d5b161a74b3eab9a48bef5de5e92025:zsh/.md5sum
 f:376c915f2a8b1778e0a7da1837285dc8:zsh/Pkgfile
 f:4b84aa2f8badfe2927878b09a5c21b92:zsh/.footprint
 f:1f693bf2be89d608a359c63a513cec1c:zsh/README
-f:7ebceb007ad0efba7dfb2e600d65eda4:blueman/.signature
-f:9125a26b019df834b275d1668cb6384a:blueman/.md5sum
-f:cfed083b8695ad6f8d714a637f6d4895:blueman/Pkgfile
-f:e3adddcd8b62c37021d667f1a5760628:blueman/.footprint
+f:412062470f26c0608563a4ea76429ff4:blueman/.signature
+f:340dd54e3df4bdf512c3031359a082a2:blueman/.md5sum
+f:c70fdc46454d954638874335cf5c0c6e:blueman/Pkgfile
+f:17afe1149556c6b6fee9d81a50019f53:blueman/.footprint
 f:7ebceb007ad0efba7dfb2e600d65eda4:php7/.signature
 f:e6fcf530aa8a7ffd0d579ef2ba6a1b32:php7/.md5sum
 f:40782f1d4d844ce3a9c790e0972611e0:php7/Pkgfile
@@ -430,9 +430,9 @@ f:94ce0ee1a47eea35af9f037968dcb91d:libsass/.signature
 f:4937c3b570470ebd7278189fd7b2c4ed:libsass/.md5sum
 f:7c2d7a210ea7951f00a61ad889f38493:libsass/Pkgfile
 f:a21d7d697fbb3a29e24433eb183731c7:libsass/.footprint
-f:2b7ba87a561dbf3964586af0220e0a21:claws-mail/.signature
-f:0279388ab8f68aa567ff967134b3c0a3:claws-mail/.md5sum
-f:e8fc638da1fa0b45d0cd5d86680c559d:claws-mail/Pkgfile
+f:03e37fad087c097ff29d592c99dcec0f:claws-mail/.signature
+f:1d408b190213d5fdd60f760ec69b2547:claws-mail/.md5sum
+f:a31eea4ed5b9559ab666f1162ed00d89:claws-mail/Pkgfile
 f:5107e3f5e3bd7aa88ca9bd860c386465:claws-mail/.footprint
 f:7ebceb007ad0efba7dfb2e600d65eda4:yajl/.signature
 f:8c0bfbdb6951358aa971c31f55341759:yajl/.md5sum

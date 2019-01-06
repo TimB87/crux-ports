@@ -442,10 +442,10 @@ f:7ebceb007ad0efba7dfb2e600d65eda4:consolekit2/.signature
 f:3d0f9ab8aa3e3e35f03903b8edb38324:consolekit2/.md5sum
 f:ac3f2197ebfc6b8c664abc8f1758c9b7:consolekit2/Pkgfile
 f:ccc8d3195398b6c19d2a51b82e7d2af5:consolekit2/.footprint
-f:7ebceb007ad0efba7dfb2e600d65eda4:rofi/.signature
-f:21b08a14bc95a147d075f6a7ae2cdc7d:rofi/.md5sum
-f:15b0b3870dc01b743507c0a8a8c616aa:rofi/Pkgfile
-f:5aae2e0fe725ada24d1cbf9bc38f4f53:rofi/.footprint
+f:26733d3db4226b2fa3c878a52bcf778b:rofi/.signature
+f:a9d0761c88b36db667da967ce1ecf48b:rofi/.md5sum
+f:718e85833348b7105dea8b70cf426b26:rofi/Pkgfile
+f:2883ccd055c592d885e9d37ef9f02891:rofi/.footprint
 f:a33c3150e135de6ab63059e0f8843522:icon-slicer/.signature
 f:1165b1a1555739e6d746ff9f7705f464:icon-slicer/.md5sum
 f:72c30ffb8f74bb40eff64862ae086ece:icon-slicer/Pkgfile

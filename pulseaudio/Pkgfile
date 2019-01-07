@@ -16,9 +16,7 @@ build() {
 
     ./configure \
 		--prefix=/usr \
-		--libexecdir=/usr/lib/pulseaudio/libexec \
-		--sysconfdir=/etc \
-		--localstatedir=/var \
+        --libexecdir=/usr/lib/$name \
 		--disable-nls \
 		--disable-esound \
 		--disable-x11 \
@@ -27,22 +25,19 @@ build() {
 		--disable-oss-wrapper \
 		--disable-legacy-database-entry-format \
 		--disable-hal-compat \
-		--with-database=tdb \
 		--disable-tests \
 		--disable-bluez4 \
 		--disable-samplerate \
 		--disable-rpath \
-		--enable-bluez5
+		--enable-bluez5 \
+        --disable-openssl \
+        --with-database=tdb
 	
     # fight unused direct deps
 	sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
 
 	make
 	make DESTDIR="$PKG" install
-
-	# Workaround the /usr/etc CRUX oddity
-	mkdir $PKG/usr/etc
-	mv $PKG/etc/dbus-1 $PKG/usr/etc
 
 	rm -rf $PKG/etc/bash_completion.d
 	rm -f $PKG/usr/share/man/man1/start-pulseaudio-kde.1

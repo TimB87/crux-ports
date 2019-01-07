@@ -1,9 +1,3 @@
-drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/pulse/
--rw-r--r--	root/root	etc/pulse/client.conf
--rw-r--r--	root/root	etc/pulse/daemon.conf
--rw-r--r--	root/root	etc/pulse/default.pa
--rw-r--r--	root/root	etc/pulse/system.pa
 drwxr-xr-x	root/root	lib/
 drwxr-xr-x	root/root	lib/udev/
 drwxr-xr-x	root/root	lib/udev/rules.d/
@@ -24,6 +18,11 @@ drwxr-xr-x	root/root	usr/etc/
 drwxr-xr-x	root/root	usr/etc/dbus-1/
 drwxr-xr-x	root/root	usr/etc/dbus-1/system.d/
 -rw-r--r--	root/root	usr/etc/dbus-1/system.d/pulseaudio-system.conf
+drwxr-xr-x	root/root	usr/etc/pulse/
+-rw-r--r--	root/root	usr/etc/pulse/client.conf
+-rw-r--r--	root/root	usr/etc/pulse/daemon.conf
+-rw-r--r--	root/root	usr/etc/pulse/default.pa
+-rw-r--r--	root/root	usr/etc/pulse/system.pa
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/pulse/
 -rw-r--r--	root/root	usr/include/pulse/cdecl.h
@@ -89,7 +88,6 @@ drwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/libprotocol-http.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/libprotocol-native.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/libprotocol-simple.so
--rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/libraop.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/librtp.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-allow-passthrough.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-alsa-card.so
@@ -133,8 +131,6 @@ drwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-pipe-sink.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-pipe-source.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-position-event-sounds.so
--rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-raop-discover.so
--rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-raop-sink.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-remap-sink.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-remap-source.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-rescue-streams.so
@@ -163,13 +159,12 @@ drwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-zeroconf-discover.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-zeroconf-publish.so
 drwxr-xr-x	root/root	usr/lib/pulseaudio/
-drwxr-xr-x	root/root	usr/lib/pulseaudio/libexec/
-drwxr-xr-x	root/root	usr/lib/pulseaudio/libexec/pulse/
--rwxr-xr-x	root/root	usr/lib/pulseaudio/libexec/pulse/gsettings-helper
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/libpulsecommon-12.2.la
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/libpulsecommon-12.2.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/libpulsecore-12.2.la
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/libpulsecore-12.2.so
+drwxr-xr-x	root/root	usr/lib/pulseaudio/pulse/
+-rwxr-xr-x	root/root	usr/lib/pulseaudio/pulse/gsettings-helper
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/GConf/
 drwxr-xr-x	root/root	usr/share/GConf/gsettings/

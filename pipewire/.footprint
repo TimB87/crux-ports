@@ -106,8 +106,8 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/gstreamer-1.0/
 -rwxr-xr-x	root/root	usr/lib/gstreamer-1.0/libgstpipewire.so
 lrwxrwxrwx	root/root	usr/lib/libpipewire-0.2.so -> libpipewire-0.2.so.1
-lrwxrwxrwx	root/root	usr/lib/libpipewire-0.2.so.1 -> libpipewire-0.2.so.1.204.0
--rwxr-xr-x	root/root	usr/lib/libpipewire-0.2.so.1.204.0
+lrwxrwxrwx	root/root	usr/lib/libpipewire-0.2.so.1 -> libpipewire-0.2.so.1.205.0
+-rwxr-xr-x	root/root	usr/lib/libpipewire-0.2.so.1.205.0
 drwxr-xr-x	root/root	usr/lib/pipewire-0.2/
 -rwxr-xr-x	root/root	usr/lib/pipewire-0.2/libpipewire-module-audio-dsp.so
 -rwxr-xr-x	root/root	usr/lib/pipewire-0.2/libpipewire-module-autolink.so

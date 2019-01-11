@@ -331,9 +331,9 @@ f:a9fb6a8c57b0f02960cc44aca2037977:libical/.signature
 f:c2953fb4f22b8cb190d03ee8e247c717:libical/.md5sum
 f:3ea4c126c03411c7e2790262e17c1831:libical/Pkgfile
 f:1db41360f184d068c57f0756bab4b240:libical/.footprint
-f:a85c7504ceabb878720e8d7719243d8e:ostree/.signature
-f:7802dbe54e34e5683bfdefb0aa7342c8:ostree/.md5sum
-f:107b68b914bf1d52b67dd19fc4168b68:ostree/Pkgfile
+f:13ae550217c5065f34eeb27d61fced75:ostree/.signature
+f:b6443a1abf71493eaae9ddfc163d4816:ostree/.md5sum
+f:7737db6e4a4929e35f17573c7fcdb4b2:ostree/Pkgfile
 f:180534dc7e92c9391cbd09665c783ad2:ostree/.footprint
 f:7ebceb007ad0efba7dfb2e600d65eda4:yubico-c/.signature
 f:f33f2e53dcd3f9f76aef63602dc298b9:yubico-c/.md5sum

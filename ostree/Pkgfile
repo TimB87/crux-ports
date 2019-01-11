@@ -4,7 +4,7 @@
 # Depends on: avahi fuse gpgme keyutils libsoup
 
 name=ostree
-version=2018.9
+version=2019.1
 release=1
 source=(https://github.com/ostreedev/ostree/releases/download/v$version/libostree-$version.tar.xz)
 

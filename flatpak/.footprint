@@ -1,3 +1,6 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/profile.d/
+-rw-r--r--	root/root	etc/profile.d/flatpak.sh
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/flatpak
@@ -7,8 +10,6 @@ drwxr-xr-x	root/root	usr/etc/
 drwxr-xr-x	root/root	usr/etc/dbus-1/
 drwxr-xr-x	root/root	usr/etc/dbus-1/system.d/
 -rw-r--r--	root/root	usr/etc/dbus-1/system.d/org.freedesktop.Flatpak.SystemHelper.conf
-drwxr-xr-x	root/root	usr/etc/profile.d/
--rw-r--r--	root/root	usr/etc/profile.d/flatpak.sh
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/flatpak/
 -rw-r--r--	root/root	usr/include/flatpak/flatpak-bundle-ref.h
@@ -29,21 +30,12 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/girepository-1.0/
 -rw-r--r--	root/root	usr/lib/girepository-1.0/Flatpak-1.0.typelib
 -rwxr-xr-x	root/root	usr/lib/libflatpak.la
-lrwxrwxrwx	root/root	usr/lib/libflatpak.so -> libflatpak.so.0.10101.0
-lrwxrwxrwx	root/root	usr/lib/libflatpak.so.0 -> libflatpak.so.0.10101.0
--rwxr-xr-x	root/root	usr/lib/libflatpak.so.0.10101.0
+lrwxrwxrwx	root/root	usr/lib/libflatpak.so -> libflatpak.so.0.10103.0
+lrwxrwxrwx	root/root	usr/lib/libflatpak.so.0 -> libflatpak.so.0.10103.0
+-rwxr-xr-x	root/root	usr/lib/libflatpak.so.0.10103.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/flatpak.pc
-drwxr-xr-x	root/root	usr/lib/systemd/
-drwxr-xr-x	root/root	usr/lib/systemd/system/
--rw-r--r--	root/root	usr/lib/systemd/system/flatpak-system-helper.service
-drwxr-xr-x	root/root	usr/lib/systemd/user/
-drwxr-xr-x	root/root	usr/lib/systemd/user/dbus.service.d/
--rw-r--r--	root/root	usr/lib/systemd/user/dbus.service.d/flatpak.conf
--rw-r--r--	root/root	usr/lib/systemd/user/flatpak-portal.service
--rw-r--r--	root/root	usr/lib/systemd/user/flatpak-session-helper.service
 drwxr-xr-x	root/root	usr/libexec/
--rwsr-xr-x	root/root	usr/libexec/flatpak-bwrap
 -rwxr-xr-x	root/root	usr/libexec/flatpak-dbus-proxy
 -rwxr-xr-x	root/root	usr/libexec/flatpak-portal
 -rwxr-xr-x	root/root	usr/libexec/flatpak-session-helper
@@ -71,36 +63,6 @@ drwxr-xr-x	root/root	usr/share/gdm/env.d/
 -rw-r--r--	root/root	usr/share/gdm/env.d/flatpak.env
 drwxr-xr-x	root/root	usr/share/gir-1.0/
 -rw-r--r--	root/root	usr/share/gir-1.0/Flatpak-1.0.gir
-drwxr-xr-x	root/root	usr/share/gtk-doc/
-drwxr-xr-x	root/root	usr/share/gtk-doc/html/
-drwxr-xr-x	root/root	usr/share/gtk-doc/html/flatpak/
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/FlatpakBundleRef.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/FlatpakInstallation.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/FlatpakInstalledRef.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/FlatpakInstance.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/FlatpakRef.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/FlatpakRelatedRef.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/FlatpakRemote.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/FlatpakRemoteRef.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/FlatpakTransaction.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/FlatpakTransactionOperation.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/FlatpakTransactionProgress.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/annotation-glossary.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/ch01.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/flatpak-Error-codes.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/flatpak-Version-information.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/flatpak.devhelp2
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/full-api-index.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/home.png
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/index.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/left-insensitive.png
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/left.png
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/object-tree.html
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/right-insensitive.png
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/right.png
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/style.css
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/up-insensitive.png
--rw-r--r--	root/root	usr/share/gtk-doc/html/flatpak/up.png
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/flatpak-build-bundle.1.gz
@@ -141,6 +103,7 @@ drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/flatpak-repo.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/flatpak-run.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/flatpak-search.1.gz
+-rw-r--r--	root/root	usr/share/man/man1/flatpak-spawn.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/flatpak-uninstall.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/flatpak-update.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/flatpak.1.gz

@@ -159,10 +159,10 @@ f:7ebceb007ad0efba7dfb2e600d65eda4:i3blocks/.signature
 f:d41d8cd98f00b204e9800998ecf8427e:i3blocks/.md5sum
 f:1eb600fe7207cc56012dfc5c07af149f:i3blocks/Pkgfile
 f:f9582c1ddebfdb5397f001646d4e17bc:i3blocks/.footprint
-f:2d51b0ff53a29f4a5de62b68d3e662f8:flatpak/.signature
-f:82c480520e92e3456b8dd79e01b37b72:flatpak/.md5sum
-f:b6180e0c020c6f154d7a799dbf877752:flatpak/Pkgfile
-f:ef3144098c1842f1f6b7ee82d71fa759:flatpak/.footprint
+f:e9de230da3b67388eeca09f6ed44043a:flatpak/.signature
+f:d47be7896521f31450ea0421fcb21675:flatpak/.md5sum
+f:6b8510f9810a71efe076aefc5ca7503d:flatpak/Pkgfile
+f:ca6400b182d96ff7df16df5cd8095d17:flatpak/.footprint
 f:badc04f70c566d1f04314510096ade97:libnewt/.signature
 f:d41d8cd98f00b204e9800998ecf8427e:libnewt/.md5sum
 f:16fa5c74c1cd02e96473e3ec9ea7c5a1:libnewt/Pkgfile

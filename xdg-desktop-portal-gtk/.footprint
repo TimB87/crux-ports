@@ -1,8 +1,5 @@
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/lib/
-drwxr-xr-x	root/root	usr/lib/systemd/
-drwxr-xr-x	root/root	usr/lib/systemd/user/
--rw-r--r--	root/root	usr/lib/systemd/user/xdg-desktop-portal-gtk.service
 -rwxr-xr-x	root/root	usr/lib/xdg-desktop-portal-gtk
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/

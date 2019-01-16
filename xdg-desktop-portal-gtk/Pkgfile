@@ -1,7 +1,7 @@
 # Description: A GTK+ backend for xdg-desktop-portal
 # URL: https://github.com/flatpak/xdg-desktop-portal-gtk
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: freetype gtk3 xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxrandr
+# Depends on: freetype gtk3 xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxrandr xdg-desktop-portal
 
 name=xdg-desktop-portal-gtk
 version=1.1.1

@@ -1,7 +1,7 @@
 # Description: Linux application sandboxing and distribution framework (formerly xdg-app)
 # URL: http://flatpak.org
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: appstream-glib jsob-glib libseccomp ostree polkit
+# Depends on: appstream-glib json-glib libseccomp ostree bubblewrap polkit
 
 name=flatpak
 version=1.1.3

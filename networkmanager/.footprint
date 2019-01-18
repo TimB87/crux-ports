@@ -2,6 +2,8 @@ drwxr-xr-x	root/root	etc/
 drwxr-xr-x	root/root	etc/NetworkManager/
 -rw-r--r--	root/root	etc/NetworkManager/NetworkManager.conf
 drwxr-xr-x	root/root	etc/NetworkManager/conf.d/
+-rw-r--r--	root/root	etc/NetworkManager/conf.d/dhcp.conf
+-rw-r--r--	root/root	etc/NetworkManager/conf.d/polkit.conf
 drwxr-xr-x	root/root	etc/NetworkManager/dispatcher.d/
 drwxr-xr-x	root/root	etc/NetworkManager/dispatcher.d/no-wait.d/
 drwxr-xr-x	root/root	etc/NetworkManager/dispatcher.d/pre-down.d/
@@ -30,6 +32,9 @@ drwxr-xr-x	root/root	usr/etc/dbus-1/
 drwxr-xr-x	root/root	usr/etc/dbus-1/system.d/
 -rw-r--r--	root/root	usr/etc/dbus-1/system.d/nm-dispatcher.conf
 -rw-r--r--	root/root	usr/etc/dbus-1/system.d/org.freedesktop.NetworkManager.conf
+drwxr-xr-x	root/root	usr/etc/polkit-1/
+drwxr-xr-x	polkitd/root	usr/etc/polkit-1/rules.d/
+-rw-r--r--	polkitd/root	usr/etc/polkit-1/rules.d/org.freedesktop.NetworkManager.policy
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/NetworkManager/
 -rw-r--r--	root/root	usr/include/NetworkManager/NetworkManager.h
@@ -208,45 +213,38 @@ drwxr-xr-x	root/root	usr/include/libnm/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/NetworkManager/
 drwxr-xr-x	root/root	usr/lib/NetworkManager/1.14.4/
--rwxr-xr-x	root/root	usr/lib/NetworkManager/1.14.4/libnm-device-plugin-adsl.la
 -rwxr-xr-x	root/root	usr/lib/NetworkManager/1.14.4/libnm-device-plugin-adsl.so
--rwxr-xr-x	root/root	usr/lib/NetworkManager/1.14.4/libnm-device-plugin-ovs.la
 -rwxr-xr-x	root/root	usr/lib/NetworkManager/1.14.4/libnm-device-plugin-ovs.so
--rwxr-xr-x	root/root	usr/lib/NetworkManager/1.14.4/libnm-device-plugin-wifi.la
 -rwxr-xr-x	root/root	usr/lib/NetworkManager/1.14.4/libnm-device-plugin-wifi.so
+-rwxr-xr-x	root/root	usr/lib/NetworkManager/1.14.4/libnm-settings-plugin-ifupdown.so
 drwxr-xr-x	root/root	usr/lib/NetworkManager/VPN/
 drwxr-xr-x	root/root	usr/lib/NetworkManager/conf.d/
 drwxr-xr-x	root/root	usr/lib/girepository-1.0/
 -rw-r--r--	root/root	usr/lib/girepository-1.0/NM-1.0.typelib
 -rw-r--r--	root/root	usr/lib/girepository-1.0/NMClient-1.0.typelib
 -rw-r--r--	root/root	usr/lib/girepository-1.0/NetworkManager-1.0.typelib
--rwxr-xr-x	root/root	usr/lib/libnm-glib-vpn.la
-lrwxrwxrwx	root/root	usr/lib/libnm-glib-vpn.so -> libnm-glib-vpn.so.1.2.0
+lrwxrwxrwx	root/root	usr/lib/libnm-glib-vpn.so -> libnm-glib-vpn.so.1
 lrwxrwxrwx	root/root	usr/lib/libnm-glib-vpn.so.1 -> libnm-glib-vpn.so.1.2.0
 -rwxr-xr-x	root/root	usr/lib/libnm-glib-vpn.so.1.2.0
--rwxr-xr-x	root/root	usr/lib/libnm-glib.la
-lrwxrwxrwx	root/root	usr/lib/libnm-glib.so -> libnm-glib.so.4.9.0
+lrwxrwxrwx	root/root	usr/lib/libnm-glib.so -> libnm-glib.so.4
 lrwxrwxrwx	root/root	usr/lib/libnm-glib.so.4 -> libnm-glib.so.4.9.0
 -rwxr-xr-x	root/root	usr/lib/libnm-glib.so.4.9.0
--rwxr-xr-x	root/root	usr/lib/libnm-util.la
-lrwxrwxrwx	root/root	usr/lib/libnm-util.so -> libnm-util.so.2.7.0
+lrwxrwxrwx	root/root	usr/lib/libnm-util.so -> libnm-util.so.2
 lrwxrwxrwx	root/root	usr/lib/libnm-util.so.2 -> libnm-util.so.2.7.0
 -rwxr-xr-x	root/root	usr/lib/libnm-util.so.2.7.0
--rwxr-xr-x	root/root	usr/lib/libnm.la
-lrwxrwxrwx	root/root	usr/lib/libnm.so -> libnm.so.0.1.0
+lrwxrwxrwx	root/root	usr/lib/libnm.so -> libnm.so.0
 lrwxrwxrwx	root/root	usr/lib/libnm.so.0 -> libnm.so.0.1.0
 -rwxr-xr-x	root/root	usr/lib/libnm.so.0.1.0
-drwxr-xr-x	root/root	usr/lib/networkmanager/
--rwxr-xr-x	root/root	usr/lib/networkmanager/nm-dhcp-helper
--rwxr-xr-x	root/root	usr/lib/networkmanager/nm-dispatcher
--rwxr-xr-x	root/root	usr/lib/networkmanager/nm-iface-helper
--rwxr-xr-x	root/root	usr/lib/networkmanager/nm-initrd-generator
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/NetworkManager.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libnm-glib-vpn.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libnm-glib.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libnm-util.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libnm.pc
+drwxr-xr-x	root/root	usr/libexec/
+-rwxr-xr-x	root/root	usr/libexec/nm-dhcp-helper
+-rwxr-xr-x	root/root	usr/libexec/nm-dispatcher
+-rwxr-xr-x	root/root	usr/libexec/nm-iface-helper
 drwxr-xr-x	root/root	usr/sbin/
 -rwxr-xr-x	root/root	usr/sbin/NetworkManager
 drwxr-xr-x	root/root	usr/share/
@@ -304,28 +302,6 @@ drwxr-xr-x	root/root	usr/share/gir-1.0/
 -rw-r--r--	root/root	usr/share/gir-1.0/NM-1.0.gir
 -rw-r--r--	root/root	usr/share/gir-1.0/NMClient-1.0.gir
 -rw-r--r--	root/root	usr/share/gir-1.0/NetworkManager-1.0.gir
-drwxr-xr-x	root/root	usr/share/man/
-drwxr-xr-x	root/root	usr/share/man/man1/
--rw-r--r--	root/root	usr/share/man/man1/nm-online.1.gz
--rw-r--r--	root/root	usr/share/man/man1/nmcli.1.gz
--rw-r--r--	root/root	usr/share/man/man1/nmtui-connect.1
--rw-r--r--	root/root	usr/share/man/man1/nmtui-edit.1
--rw-r--r--	root/root	usr/share/man/man1/nmtui-hostname.1
--rw-r--r--	root/root	usr/share/man/man1/nmtui.1
-drwxr-xr-x	root/root	usr/share/man/man5/
--rw-r--r--	root/root	usr/share/man/man5/NetworkManager.conf.5
--rw-r--r--	root/root	usr/share/man/man5/nm-settings-keyfile.5.gz
--rw-r--r--	root/root	usr/share/man/man5/nm-settings.5.gz
--rw-r--r--	root/root	usr/share/man/man5/nm-system-settings.conf.5
-drwxr-xr-x	root/root	usr/share/man/man7/
--rw-r--r--	root/root	usr/share/man/man7/nm-openvswitch.7.gz
--rw-r--r--	root/root	usr/share/man/man7/nmcli-examples.7.gz
-drwxr-xr-x	root/root	usr/share/man/man8/
--rw-r--r--	root/root	usr/share/man/man8/NetworkManager.8.gz
--rw-r--r--	root/root	usr/share/man/man8/nm-initrd-generator.8.gz
-drwxr-xr-x	root/root	usr/share/polkit-1/
-drwxr-xr-x	root/root	usr/share/polkit-1/actions/
--rw-r--r--	root/root	usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy
 drwxr-xr-x	root/root	usr/share/vala/
 drwxr-xr-x	root/root	usr/share/vala/vapi/
 -rw-r--r--	root/root	usr/share/vala/vapi/libnm-glib.deps

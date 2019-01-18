@@ -9,25 +9,26 @@ release=1
 source=(https://download.gnome.org/sources/$name/${version:0:3}/$name-$version.tar.xz)
 
 build() {
-	cd $name-$version
-
+    cd $name-$version
+    
     mkdir build
-
     meson --prefix=/usr \
         --sysconfdir=/etc \
-		-Denable-gtk-doc=false \
-        -Dlibnm-gtk=true \
-		-Dselinux=false \
+        -Dlibnm_gtk=true \
         -Dteam=true \
-		-Dwwan=false \
         -Dintrospection=true \
+        -Dgcr=true \
+        -Dld_gc=true \
+        -Dwwan=false \
+        -Dselinux=false \
         -Dmobile_broadband_provider_info=false \
+        -Denable-gtk-doc=false \
         build 
-
+        
     cd build
-    pwd
+    
     ninja
-	DESTDIR=$PKG ninja install
+    DESTDIR=$PKG ninja install
 
     rm -rf $PKG/usr/share/locale
 }

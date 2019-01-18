@@ -17,7 +17,7 @@ disable_wifi_scan_when_connected.patch
 )
 
 build() {
-	cd NetworkManager-$version
+    cd NetworkManager-$version
 
     patch -Np1 -i ../disable_wifi_scan_when_connected.patch
     sed '/initrd/d' -i src/meson.build

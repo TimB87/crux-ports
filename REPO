@@ -182,7 +182,7 @@ f:6167d41c0c632b108b2766ba94b35c64:networkmanager/.md5sum
 f:1653159d6634fb62d3a5c548b7a56151:networkmanager/NetworkManager.conf
 f:3746d7dcabbae93d842c9a1b73f6b939:networkmanager/disable_wifi_scan_when_connected.patch
 f:8959cd1832461aa0255c3a42fbc5b52f:networkmanager/networkmanager.rc
-f:732f5426d9921249a25534d86d77b3c3:networkmanager/Pkgfile
+f:c8de03331c994919b902c0341dc8ec82:networkmanager/Pkgfile
 f:eb7c880d3681c6cef3ceef3a7862d02c:networkmanager/.footprint
 f:567871363f64767a20704a4f9d70e87f:networkmanager/README
 f:7ebceb007ad0efba7dfb2e600d65eda4:acpi/.signature

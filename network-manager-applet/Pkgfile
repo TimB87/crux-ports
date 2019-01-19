@@ -5,8 +5,8 @@
 
 name=network-manager-applet
 version=1.8.18
-release=1
-source=(https://download.gnome.org/sources/$name/${version:0:3}/$name-$version.tar.xz)
+release=2
+source=(https://github.com/NetworkManager/network-manager-applet/archive/$version/$name-$version.tar.gz)
 
 build() {
     cd $name-$version
@@ -17,8 +17,6 @@ build() {
         -Dlibnm_gtk=true \
         -Dteam=true \
         -Dintrospection=true \
-        -Dgcr=true \
-        -Dld_gc=true \
         -Dwwan=false \
         -Dselinux=false \
         -Dmobile_broadband_provider_info=false \

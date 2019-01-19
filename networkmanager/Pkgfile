@@ -6,19 +6,20 @@
 
 name=networkmanager
 version=1.14.4
-release=1
+release=2
 source=(
 http://ftp.gnome.org/pub/gnome/sources/NetworkManager/${version%.*}/NetworkManager-${version}.tar.xz
 networkmanager.rc
 NetworkManager.conf
 polkit.conf
 dhcp.conf
+org.freedesktop.NetworkManager.rules
 disable_wifi_scan_when_connected.patch
 )
 
 build() {
     cd NetworkManager-$version
-
+    
     patch -Np1 -i ../disable_wifi_scan_when_connected.patch
     sed '/initrd/d' -i src/meson.build
     
@@ -29,27 +30,30 @@ build() {
     meson --prefix /usr \
         --sysconfdir /etc \
         --localstatedir /var \
-        -Ddbus_conf_dir=/usr/etc/dbus-1/system.d \
-        -Dpolkit_dir=/usr/etc/polkit-1/rules.d \
+        -Ddbus_conf_dir=/usr/share/dbus-1/system.d \
         -Dudev_dir=/lib/udev \
         -Ddhcpcd=/sbin/dhcpcd \
         -Dresolvconf=true \
+        -Dconfig_dns_rc_manager_default=resolvconf \
         -Dcrypto=nss \
         -Dintrospection=true \
+        -Dsession_tracking_consolekit=true \
         -Dwifi=true \
         -Dwext=true \
-        -Dsession_tracking_consolekit=true \
         -Dpolkit=yes \
         -Dpolkit_agent=true \
         -Dmodify_system=true \
         -Dlibnm_glib=true \
         -Difupdown=true \
+        -Dnmtui=true \
+        -Dnmcli=true \
+        -Dsession_tracking=no \
+        -Db_lto=false \
         -Dlibaudit=no \
         -Dlibpsl=false \
-        -Dnmtui=true \
         -Dppp=false \
+        -Dofono=false \
         -Dselinux=false \
-        -Dsession_tracking=no \
         -Dmodem_manager=false \
         -Dsystemdsystemunitdir=no \
         -Dsystemd_journal=false \
@@ -75,9 +79,9 @@ build() {
     # Remove rundir etc
     rm -rf $PKG/var/run $PKG/usr/share/{gtk-,}doc $PKG/usr/share/man/man5/nmcli-examples.5 $PKG/usr/share/locale
 
-    # fix polkit folder
-    chown -R polkitd:root $PKG/usr/etc/polkit-1/rules.d 
-
+    # install polkit rules
+    install -D -m 644 -o polkitd -g polkitd $SRC/org.freedesktop.NetworkManager.rules $PKG/usr/share/polkit-1/rules.d/org.freedesktop.NetworkManager.rules
+    
     # Remove bash-completion config unless it's installed
     if [ ! -f /usr/lib/pkgconfig/bash-completion.pc ]; then
         rm -rf $PKG/usr/share/bash-completion

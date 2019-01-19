@@ -1,10 +1,11 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwPYCAnr546btzmC7VWasFIJ30WGrnxpl69Zp4A2unrEVHuxqH+p/YbBKEc9pAm6bE4L49BcNNep0zZbkCU1uPAM=
-SHA256 (Pkgfile) = e51b865e2b16365953826f9c0bd9deae04f687a18530e781dae9cd2328e13b3e
-SHA256 (.footprint) = 6e128f1528468803571aac38f815cacf478ae37087c3b73df9720bbf61d59e66
+RWSXjYMPO7mZwJuVPjEYMmJbvKXVz0T9jBxDR1uS1MdCyDcs2f3YKCFyyqf8ZgTtIEdsyBbax3L9XdrKLkVGSo5abzO0mD1uPQc=
+SHA256 (Pkgfile) = d83e4bd2e6da8f77a9fee3e038402f7e32714eb8f5e20c8b3bea08aae5f2608d
+SHA256 (.footprint) = fa9e581926548ac6764292e88dce508b60d15e4ba7f8767673eaddc328278bed
 SHA256 (NetworkManager-1.14.4.tar.xz) = 35a3ede4c7d12d6212033c9e44cb82b7692f38063b53a067567f02f5937c8c18
 SHA256 (networkmanager.rc) = dc0b743685214c0402d392a6a9b2632b19714795a04c0f42ba10026250d9f3fc
 SHA256 (NetworkManager.conf) = 44b048804c7c0b8b3b0c29b8632b6ad613c397d0a1635ec918e10c0fbcdadf21
 SHA256 (polkit.conf) = 7410be567871e4dc8ef1e8204f80b7cfd0dd08abfa514408b7d549bdc70dbaba
 SHA256 (dhcp.conf) = cd2a4b0079c0726973c1cf226c4e1cb4f2d27d02c16e0e08af7e4d6b8770423c
+SHA256 (org.freedesktop.NetworkManager.rules) = 7708da5de800684eb7036f29534ac6f3004115695428484e09b712da5bb1e8a5
 SHA256 (disable_wifi_scan_when_connected.patch) = 860a772fcc26271f6a25a2baa0d92088e63dbf1770ccc4c25e71653dbe46b96b

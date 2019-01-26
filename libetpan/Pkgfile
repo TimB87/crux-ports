@@ -4,17 +4,23 @@
 # Depends on: db openssl cyrus-sasl
 
 name=libetpan
-version=1.9.1
+version=1.9.3
 release=1
 source=(https://github.com/dinhviethoa/libetpan/archive/$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
 
-	NOCONFIGURE=1 ./autogen.sh
+    libtoolize --force --copy
+    aclocal -I m4
+    autoheader
+    autoconf
+    automake --add-missing --foreign --force --copy
+
 	./configure \
 		--prefix=/usr \
-		--with-poll
+		--with-poll \
+        --disable-static
 
 	make
 	make DESTDIR=$PKG install

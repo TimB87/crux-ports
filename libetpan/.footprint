@@ -11,6 +11,7 @@ drwxr-xr-x	root/root	usr/include/libetpan/
 -rw-r--r--	root/root	usr/include/libetpan/carray.h
 -rw-r--r--	root/root	usr/include/libetpan/charconv.h
 -rw-r--r--	root/root	usr/include/libetpan/chash.h
+-rw-r--r--	root/root	usr/include/libetpan/clientid.h
 -rw-r--r--	root/root	usr/include/libetpan/clist.h
 -rw-r--r--	root/root	usr/include/libetpan/condstore.h
 -rw-r--r--	root/root	usr/include/libetpan/condstore_types.h
@@ -168,8 +169,7 @@ drwxr-xr-x	root/root	usr/include/libetpan/
 -rw-r--r--	root/root	usr/include/libetpan/xgmthrid.h
 -rw-r--r--	root/root	usr/include/libetpan/xlist.h
 drwxr-xr-x	root/root	usr/lib/
--rw-r--r--	root/root	usr/lib/libetpan.a
 -rwxr-xr-x	root/root	usr/lib/libetpan.la
-lrwxrwxrwx	root/root	usr/lib/libetpan.so -> libetpan.so.20.2.0
-lrwxrwxrwx	root/root	usr/lib/libetpan.so.20 -> libetpan.so.20.2.0
--rwxr-xr-x	root/root	usr/lib/libetpan.so.20.2.0
+lrwxrwxrwx	root/root	usr/lib/libetpan.so -> libetpan.so.20.4.0
+lrwxrwxrwx	root/root	usr/lib/libetpan.so.20 -> libetpan.so.20.4.0
+-rwxr-xr-x	root/root	usr/lib/libetpan.so.20.4.0

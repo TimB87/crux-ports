@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwL1hq+49yOPGqv0P7KAPcVc7NFrWidWp8xoDPTpdPJvM8x2hD67BUPNbVxL+QREMy7lk+IbRaTdR4llgCZjQDwE=
-SHA256 (Pkgfile) = 625adb6fdf673e6d6d03c6542a805873ffa7dcd2f44e3940af8d3144b1f76819
+RWSXjYMPO7mZwJnd4M2Zp85pKFmHUp23+Fh/kM5EzbYQO+oN38/PgSXT6q7gk32gGcLg9B1HEjLmN3mJcazVtzWX0MzB62NaywQ=
+SHA256 (Pkgfile) = 356dd628afddcb11e0b76e864284880e6dca48d7f3f7a367a82adc172793e876
 SHA256 (.footprint) = 73702410a781593cf9b1cb3587ca0f8968d7cf64af6490c1c2a29b9886d2c889
-SHA256 (xdg-desktop-portal-gtk-1.1.1.tar.xz) = 204ae664ec2c3aa44470574e8854ae9d5c1faadecc3c7b7a2ac53ef9ef24dd07
+SHA256 (xdg-desktop-portal-gtk-1.2.0.tar.xz) = 809e7f470643fdd655ed27193d2bc6aaf6c4e5f9634ca6afdad03173de0a7a3c

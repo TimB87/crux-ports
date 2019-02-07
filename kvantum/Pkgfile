@@ -1,10 +1,10 @@
 # Description: theme engine for Qt4/Qt5 and KDE 
 # URL: https://github.com/tsujan/Kvantum/
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: qt5 llvm libffi icu harfbuzz
+# Depends on: qt5 llvm libffi icu harfbuzz kwindowsystem
 
 name=kvantum
-version=0.10.8
+version=0.10.9
 release=1
 source=(https://github.com/tsujan/Kvantum/archive/V$version/Kvantum-v$version.tar.gz)
 

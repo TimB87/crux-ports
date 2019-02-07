@@ -30,9 +30,9 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/girepository-1.0/
 -rw-r--r--	root/root	usr/lib/girepository-1.0/Flatpak-1.0.typelib
 -rwxr-xr-x	root/root	usr/lib/libflatpak.la
-lrwxrwxrwx	root/root	usr/lib/libflatpak.so -> libflatpak.so.0.10103.0
-lrwxrwxrwx	root/root	usr/lib/libflatpak.so.0 -> libflatpak.so.0.10103.0
--rwxr-xr-x	root/root	usr/lib/libflatpak.so.0.10103.0
+lrwxrwxrwx	root/root	usr/lib/libflatpak.so -> libflatpak.so.0.10202.0
+lrwxrwxrwx	root/root	usr/lib/libflatpak.so.0 -> libflatpak.so.0.10202.0
+-rwxr-xr-x	root/root	usr/lib/libflatpak.so.0.10202.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/flatpak.pc
 drwxr-xr-x	root/root	usr/libexec/
@@ -40,6 +40,7 @@ drwxr-xr-x	root/root	usr/libexec/
 -rwxr-xr-x	root/root	usr/libexec/flatpak-portal
 -rwxr-xr-x	root/root	usr/libexec/flatpak-session-helper
 -rwxr-xr-x	root/root	usr/libexec/flatpak-system-helper
+-rwxr-xr-x	root/root	usr/libexec/flatpak-validate-icon
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/bash-completion/
 drwxr-xr-x	root/root	usr/share/bash-completion/completions/

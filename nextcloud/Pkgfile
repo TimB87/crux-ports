@@ -5,7 +5,7 @@
 # Optional: You can use apache instead of nginx, there are other options for a sql server as well
 
 name=nextcloud
-version=14.0.4
+version=15.0.3
 release=1
 source=(https://download.nextcloud.com/server/releases/$name-$version.tar.bz2)
 
@@ -17,8 +17,8 @@ build() {
 	
     chown -R nginx:nginx $PKG/var/www/$name
 
-    find $PKG/var/www/$name -type f -exec chmod 0644 {} \;
-    find $PKG/var/www/$name -type d -exec chmod 0755 {} \;
+    find $PKG/var/www/$name -type f -exec chmod 0640 {} \;
+    find $PKG/var/www/$name -type d -exec chmod 0750 {} \;
 
     chmod a+x $PKG/var/www/$name/occ
 
@@ -29,6 +29,4 @@ build() {
         -iname '*news*' -o \
         -iname '*license*' \
         \) -exec rm -fr '{}' \; || true
-
-        #\) -delete \; || true
 }

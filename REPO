@@ -347,10 +347,10 @@ f:7ebceb007ad0efba7dfb2e600d65eda4:gnome-common/.signature
 f:53b5cfe249bf079bbd7adb032fbd18bd:gnome-common/.md5sum
 f:358f9f4c0d206cb019dd8d584c2691b5:gnome-common/Pkgfile
 f:3ef5f1d63964dbd2af941fb5a56f4b79:gnome-common/.footprint
-f:d695dfc650c65158607ece6c2f363818:nextcloud/.signature
-f:b287eec8ee192b4cbd527686250c140b:nextcloud/.md5sum
-f:fed57eb7b53ed2faac4439289199c6d3:nextcloud/Pkgfile
-f:0805694e9da793824084dfde1dfa5db5:nextcloud/.footprint
+f:f5479fb883975985855d0fc0f06fea12:nextcloud/.signature
+f:de4380af439f2e95fd108a806a4881fc:nextcloud/.md5sum
+f:51f24503f46ab96fd55c8bef9425d0f5:nextcloud/Pkgfile
+f:081da06017ff32762524d9033fe82e19:nextcloud/.footprint
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README
 f:8d43e8f91cd7fec4973e9136e3a32111:snowball/.signature
 f:d2159a5ca5ec7bcffbf39da9129ae405:snowball/.md5sum

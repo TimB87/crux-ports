@@ -12,11 +12,11 @@ build() {
 	cd $name-$version
 
 	./configure \
-		--prefix=/usr \
-		--disable-static \
-		--enable-p2p \
+        --prefix=/usr \
+        --disable-static \
+        --enable-p2p \
         --with-system-bubblewrap \
-		--with-priv-mode=setuid \
+        --with-priv-mode=setuid \
         --with-profile-dir=/etc/profile.d \
         --with-dbus-config-dir=/usr/etc/dbus-1/system.d \
         --disable-nls

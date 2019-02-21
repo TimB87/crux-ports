@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwOJZSD9MdWiaVKfp2Qxq0G6qtXgm9z1VaNmfm9YUXbIPqGpYPX72cWTBVL9cTdhkkMFlWdS4vDgxQgyt+1qdgwM=
-SHA256 (Pkgfile) = b94d15fec13102ff682e4171a817d3df0d4cbac38e041ec4cf1aa83b96173401
-SHA256 (.footprint) = 4a6e5dcc52f4e65b8c914fa73029d2ed0573a5bae07f70a3ae4315a63c9c2cc6
-SHA256 (fontawesome-free-5.7.1-desktop.zip) = 3091ae3d89c29021d00206b5bea9fc83094d684b08b9e3f0651728d17acbef25
+RWSXjYMPO7mZwISGeoYRE1MazPhzuVdNw9h89skqgDxkczOtqJn1yLYrJssJCGC4QsJ8Y5O1T1LYkliH0j1pjMZUoMwnw7GmGgI=
+SHA256 (Pkgfile) = c5ad86832ea83a346dbbf5171c335694a5ec93486761c3961cd4522fcef44d24
+SHA256 (.footprint) = ef363d98146e8606a3ff73a699202a5865f19a7149d08e4f88e4af7925ce6100
+SHA256 (FontAwesome-5.7.2.tar.gz) = 926a5df0f33595f672ae21d9a0eb29f1109b5e4d56c1a1c2b9d4bab5445b6cd5

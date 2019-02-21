@@ -102,9 +102,9 @@ f:40291f98792d9dd51b46b28b3c5a0708:font-ibm-plex/.signature
 f:71cc52d4a431fd8a0901fef8e9c47464:font-ibm-plex/.md5sum
 f:f57a91a2e488fa31c154852e42b67e7a:font-ibm-plex/Pkgfile
 f:b8232cc4c15030829301d51b9f29e0e2:font-ibm-plex/.footprint
-f:01aa8ddfc7657b75e724bba717471826:networkmanager-openvpn/.signature
-f:690ba290d993e0cc08ec5bcb6dace249:networkmanager-openvpn/.md5sum
-f:17efa4ba2c956400f7e9b8b645dcf7be:networkmanager-openvpn/Pkgfile
+f:2264760b1e17f39f3c1a694206878c64:networkmanager-openvpn/.signature
+f:7e65947dbdc8606e76bb38df988bee56:networkmanager-openvpn/.md5sum
+f:25f56f7afd85ff4f760a6b334e6422ed:networkmanager-openvpn/Pkgfile
 f:d358e62873320baecfd4798495a1d87b:networkmanager-openvpn/.footprint
 f:6f3f053679e42b519331372cae287d9b:font-awesome/.signature
 f:3e08b26849f21611502dc6019e65c23d:font-awesome/.md5sum
@@ -214,10 +214,10 @@ f:7ebceb007ad0efba7dfb2e600d65eda4:yubikey-personalization-gui/.signature
 f:ac50518fba25e4054773810e8e1809c1:yubikey-personalization-gui/.md5sum
 f:0f1a31e7c6b09705eb615720e88e4320:yubikey-personalization-gui/Pkgfile
 f:51782f0f7541d8a696dcc1859d187a77:yubikey-personalization-gui/.footprint
-f:16f63c314ea6facf6c98c109d21a7681:network-manager-applet/.signature
-f:3ed54dadfee6bcd9a0c48ac18059b347:network-manager-applet/.md5sum
+f:ac4431e543f23d6225c03109143f6e9a:network-manager-applet/.signature
+f:cf3702f380c4921aface1f08d2d7cd1c:network-manager-applet/.md5sum
 f:613ce45eb9f3cdcd030379f7405d4cf3:network-manager-applet/post-install
-f:b741fe4a8be4a78eb91a10bf538f7503:network-manager-applet/Pkgfile
+f:8d0516ebf892ee2d5a152455e729afad:network-manager-applet/Pkgfile
 f:2aebd56ec277611f0ed45b7a9640d99c:network-manager-applet/.footprint
 f:7ebceb007ad0efba7dfb2e600d65eda4:i3lock-color/.signature
 f:d41d8cd98f00b204e9800998ecf8427e:i3lock-color/.md5sum

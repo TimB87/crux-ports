@@ -5,22 +5,30 @@
 
 name=claws-mail
 version=3.17.3
-release=1
+release=2
 source=(http://www.claws-mail.org/releases/$name-$version.tar.xz)
 
 build() {
-	cd $name-$version
+    cd $name-$version
 
-	NM_CFLAGS="-I/usr/include/libnm"
+    NM_CFLAGS="-I/usr/include/libnm"
+    sed -i "s:PKG_CHECK_MODULES(ENCHANT, enchant >= 1.4.0:PKG_CHECK_MODULES(ENCHANT, enchant-2 >= 1.4.0:" configure.ac
+    sed -i "s:--cflags enchant:--cflags enchant-2:" configure.ac
+    autoreconf -vfi
+    sed -i 's@^#!.*python.*@#!/usr/bin/python2@' tools/*.py
+    sed -i 's:python -c:python2 -c:g' configure
 
-	./configure \
-		--prefix=/usr \
-		--disable-static \
-		--disable-nls \
-		--disable-manual
+    ./configure \
+        --prefix=/usr \
+        --disable-static \
+        --disable-nls \
+        --disable-manual \
+        --enable-gnutls
 
-	make
-	make DESTDIR=$PKG install
+    sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
 
-	rm -rf $PKG/usr/share/doc
+    make
+    make DESTDIR=$PKG install
+
+    rm -rf $PKG/usr/share/doc
 }

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwCpLyi29yI+ErHQ0MnG0FUXMWaVFMPQjMeRyIjtmSenNvZYshC2cBvthrj6cABhhDAWQEIhcakhfzGJzfYx3og0=
-SHA256 (Pkgfile) = a4c1749fcbea56a48bc7f87be97ab8603a4d6719f89740291040113e46f2e05a
-SHA256 (.footprint) = 58fd92e64fbf4f9dd370bc3641dc228fccab2f59a2d497c156f6cc4d6635ea54
-SHA256 (obs-studio-22.0.2.tar.gz) = 8712becf41f6e4b801aeaea0ab2c3ec98da3356c60853971d0a9730d3281cebe
+RWSXjYMPO7mZwOWdUy+KDix7Vl+KMow0yAyNC56HMjjMbFzbZboe6P6pGmrrzOafRLL824EwXpERs7dk5i8hUuRTBE9Onq/IVgw=
+SHA256 (Pkgfile) = 9ec1f148711415a373a4c4f72209a8073ec04fd9b7592ee36747982af11bc561
+SHA256 (.footprint) = e87fc27a03233847b76b4da6e9ec5c23ef54f7dee424188eeb43a0556f4352a2
+SHA256 (obs-studio-23.0.0-rc2.tar.gz) = a40c5023f36943bce0e73fc1212c60f1ff5ff6d32785e4e2f142af8814215e24

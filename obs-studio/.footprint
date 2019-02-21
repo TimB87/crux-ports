@@ -112,6 +112,7 @@ lrwxrwxrwx	root/root	usr/lib/libobs.so -> libobs.so.0
 lrwxrwxrwx	root/root	usr/lib/libobsglad.so -> libobsglad.so.0
 -rwxr-xr-x	root/root	usr/lib/libobsglad.so.0
 drwxr-xr-x	root/root	usr/lib/obs-plugins/
+-rwxr-xr-x	root/root	usr/lib/obs-plugins/decklink-ouput-ui.so
 -rwxr-xr-x	root/root	usr/lib/obs-plugins/frontend-tools.so
 -rwxr-xr-x	root/root	usr/lib/obs-plugins/image-source.so
 -rwxr-xr-x	root/root	usr/lib/obs-plugins/linux-alsa.so
@@ -130,6 +131,8 @@ drwxr-xr-x	root/root	usr/lib/obs-plugins/
 drwxr-xr-x	root/root	usr/lib/obs-scripting/
 -rwxr-xr-x	root/root	usr/lib/obs-scripting/_obspython.so
 -rw-r--r--	root/root	usr/lib/obs-scripting/obspython.py
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/libobs.pc
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
 -rw-r--r--	root/root	usr/share/applications/obs.desktop
@@ -157,8 +160,11 @@ drwxrwxr-x	root/root	usr/share/obs/libobs/
 -rw-rw-r--	root/root	usr/share/obs/libobs/lanczos_scale.effect
 -rw-rw-r--	root/root	usr/share/obs/libobs/opaque.effect
 -rw-rw-r--	root/root	usr/share/obs/libobs/premultiplied_alpha.effect
+-rw-rw-r--	root/root	usr/share/obs/libobs/repeat.effect
 -rw-rw-r--	root/root	usr/share/obs/libobs/solid.effect
 drwxr-xr-x	root/root	usr/share/obs/obs-plugins/
+drwxrwxr-x	root/root	usr/share/obs/obs-plugins/decklink-ouput-ui/
+-rw-rw-r--	root/root	usr/share/obs/obs-plugins/decklink-ouput-ui/.keepme (EMPTY)
 drwxrwxr-x	root/root	usr/share/obs/obs-plugins/frontend-tools/
 drwxrwxr-x	root/root	usr/share/obs/obs-plugins/frontend-tools/locale/
 -rw-rw-r--	root/root	usr/share/obs/obs-plugins/frontend-tools/locale/bn-BD.ini
@@ -906,6 +912,10 @@ drwxrwxr-x	root/root	usr/share/obs/obs-plugins/text-freetype2/locale/
 -rw-rw-r--	root/root	usr/share/obs/obs-plugins/text-freetype2/locale/zh-TW.ini
 -rw-rw-r--	root/root	usr/share/obs/obs-plugins/text-freetype2/text_default.effect
 drwxrwxr-x	root/root	usr/share/obs/obs-studio/
+drwxr-xr-x	root/root	usr/share/obs/obs-studio/authors/
+-rw-r--r--	root/root	usr/share/obs/obs-studio/authors/AUTHORS
+drwxrwxr-x	root/root	usr/share/obs/obs-studio/images/
+-rw-rw-r--	root/root	usr/share/obs/obs-studio/images/overflow.png
 drwxrwxr-x	root/root	usr/share/obs/obs-studio/license/
 -rw-rw-r--	root/root	usr/share/obs/obs-studio/license/gplv2.txt
 -rw-rw-r--	root/root	usr/share/obs/obs-studio/locale.ini
@@ -974,6 +984,7 @@ drwxrwxr-x	root/root	usr/share/obs/obs-studio/themes/Acri/
 -rw-rw-r--	root/root	usr/share/obs/obs-studio/themes/Acri/checkbox_unchecked_disabled.png
 -rw-rw-r--	root/root	usr/share/obs/obs-studio/themes/Acri/checkbox_unchecked_focus.png
 -rw-rw-r--	root/root	usr/share/obs/obs-studio/themes/Acri/cogwheel.png
+-rw-rw-r--	root/root	usr/share/obs/obs-studio/themes/Acri/cogwheel@2x.png
 -rw-rw-r--	root/root	usr/share/obs/obs-studio/themes/Acri/down_arrow.png
 -rw-rw-r--	root/root	usr/share/obs/obs-studio/themes/Acri/minus.png
 -rw-rw-r--	root/root	usr/share/obs/obs-studio/themes/Acri/mute.png
@@ -992,6 +1003,7 @@ drwxrwxr-x	root/root	usr/share/obs/obs-studio/themes/Acri/
 -rw-rw-r--	root/root	usr/share/obs/obs-studio/themes/Dark.qss
 drwxrwxr-x	root/root	usr/share/obs/obs-studio/themes/Dark/
 -rw-rw-r--	root/root	usr/share/obs/obs-studio/themes/Dark/cogwheel.png
+-rw-rw-r--	root/root	usr/share/obs/obs-studio/themes/Dark/cogwheel@2x.png
 -rw-rw-r--	root/root	usr/share/obs/obs-studio/themes/Dark/collapse.png
 -rw-rw-r--	root/root	usr/share/obs/obs-studio/themes/Dark/down_arrow.png
 -rw-rw-r--	root/root	usr/share/obs/obs-studio/themes/Dark/expand.png

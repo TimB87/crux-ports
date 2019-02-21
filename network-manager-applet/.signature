@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwKztYyFPyq3+6FBi2FPR25uIt4WxlKQcRh37iKF7vySnVx+i2Tbf4P1rSzq4qdmaFJ2vjLlKvW8ErqtovmNwvgU=
-SHA256 (Pkgfile) = aec834701ef992ab5f439839e2f0939a50b2c5c6c1a674ab3e18fedd4791294e
+RWSXjYMPO7mZwLpHAu5GClTz85CSK/+r4Zk5Vftic5BPXj55xK88hSSoNFJaA3w1xsi146t6+M9gFrHv5+4sT4SdP5xf0e+37QI=
+SHA256 (Pkgfile) = 77e17f341ff15da240be471a639ca9ccddac7dd37008753d908d9c25e4ad17c4
 SHA256 (.footprint) = 26d5d412cef397b9e9689a2a17d4b432aa5964b63dd404f5966c774e7e0ce9f8
-SHA256 (network-manager-applet-1.8.18.tar.gz) = aee9916c7c419513bedb555414529c7a26e76e4b7fdd41bf7986cbbfcf3d5892
+SHA256 (network-manager-applet-1.8.20.tar.gz) = 8079649b838b2987991a332bdbc209934fc658527914059e902b0f95104a43f0

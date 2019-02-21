@@ -4,8 +4,8 @@
 # Depends on: consolekit gconf iso-codes libsecret networkmanager
 
 name=network-manager-applet
-version=1.8.18
-release=2
+version=1.8.20
+release=1
 source=(https://github.com/NetworkManager/network-manager-applet/archive/$version/$name-$version.tar.gz)
 
 build() {

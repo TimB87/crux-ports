@@ -11,6 +11,7 @@ source=(https://github.com/blueman-project/$name/releases/download/$version/$nam
 build() {
 	cd $name-$version
 	./autogen.sh --prefix=/usr \
+                --libexecdir=/usr/lib/blueman \
                 --disable-schemas-compile \
                 --disable-nls \
                 --disable-runtime-deps-check \

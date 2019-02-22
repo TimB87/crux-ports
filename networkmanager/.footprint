@@ -227,16 +227,16 @@ lrwxrwxrwx	root/root	usr/lib/libnm-util.so.2 -> libnm-util.so.2.7.0
 lrwxrwxrwx	root/root	usr/lib/libnm.so -> libnm.so.0
 lrwxrwxrwx	root/root	usr/lib/libnm.so.0 -> libnm.so.0.1.0
 -rwxr-xr-x	root/root	usr/lib/libnm.so.0.1.0
+drwxr-xr-x	root/root	usr/lib/networkmanager/
+-rwxr-xr-x	root/root	usr/lib/networkmanager/nm-dhcp-helper
+-rwxr-xr-x	root/root	usr/lib/networkmanager/nm-dispatcher
+-rwxr-xr-x	root/root	usr/lib/networkmanager/nm-iface-helper
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/NetworkManager.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libnm-glib-vpn.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libnm-glib.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libnm-util.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/libnm.pc
-drwxr-xr-x	root/root	usr/libexec/
--rwxr-xr-x	root/root	usr/libexec/nm-dhcp-helper
--rwxr-xr-x	root/root	usr/libexec/nm-dispatcher
--rwxr-xr-x	root/root	usr/libexec/nm-iface-helper
 drwxr-xr-x	root/root	usr/sbin/
 -rwxr-xr-x	root/root	usr/sbin/NetworkManager
 drwxr-xr-x	root/root	usr/share/

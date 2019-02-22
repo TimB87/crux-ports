@@ -30,6 +30,7 @@ build() {
     meson --prefix /usr \
         --sysconfdir /etc \
         --localstatedir /var \
+        --libexecdir /usr/lib/networkmanager \
         -Ddbus_conf_dir=/usr/share/dbus-1/system.d \
         -Dudev_dir=/lib/udev \
         -Ddhcpcd=/sbin/dhcpcd \

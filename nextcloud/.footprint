@@ -2045,7 +2045,6 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/guzzlehttp/guzzle/src/Handler/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/guzzlehttp/guzzle/src/functions.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/guzzlehttp/guzzle/src/functions_include.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/guzzlehttp/promises/
--rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/guzzlehttp/promises/CHANGELOG.md
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/guzzlehttp/promises/Makefile
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/guzzlehttp/promises/composer.json
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/guzzlehttp/promises/src/
@@ -2064,7 +2063,6 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/guzzlehttp/promises/src/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/guzzlehttp/promises/src/functions.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/guzzlehttp/promises/src/functions_include.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/guzzlehttp/psr7/
--rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/guzzlehttp/psr7/CHANGELOG.md
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/guzzlehttp/psr7/composer.json
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/guzzlehttp/psr7/src/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/guzzlehttp/psr7/src/AppendStream.php
@@ -2382,7 +2380,6 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/microsoft/
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/microsoft/azure-storage-blob/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/microsoft/azure-storage-blob/BreakingChanges.md
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/microsoft/azure-storage-blob/CONTRIBUTING.md
--rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/microsoft/azure-storage-blob/ChangeLog.md
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/microsoft/azure-storage-blob/composer.json
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/microsoft/azure-storage-blob/src/
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/microsoft/azure-storage-blob/src/Blob/
@@ -2456,7 +2453,6 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/microsoft/azure-storage-blob/s
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/microsoft/azure-storage-common/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/microsoft/azure-storage-common/BreakingChanges.md
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/microsoft/azure-storage-common/CONTRIBUTING.md
--rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/microsoft/azure-storage-common/ChangeLog.md
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/microsoft/azure-storage-common/composer.json
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/microsoft/azure-storage-common/src/
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/microsoft/azure-storage-common/src/Common/
@@ -2521,7 +2517,6 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/microsoft/azure-storage-common
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/mtdowling/
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/mtdowling/jmespath.php/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/mtdowling/jmespath.php/.gitignore
--rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/mtdowling/jmespath.php/CHANGELOG.md
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/mtdowling/jmespath.php/Makefile
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/mtdowling/jmespath.php/composer.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/mtdowling/jmespath.php/phpunit.xml.dist
@@ -2759,7 +2754,6 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/patchwork/jsqueeze/
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/patchwork/jsqueeze/src/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/patchwork/jsqueeze/src/JSqueeze.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/patchwork/utf8/
--rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/patchwork/utf8/CHANGELOG.md
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/patchwork/utf8/composer.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/patchwork/utf8/phpunit.xml.dist
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/patchwork/utf8/src/
@@ -3158,7 +3152,6 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/psr/container/src/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/psr/container/src/ContainerInterface.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/psr/container/src/NotFoundExceptionInterface.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/psr/http-message/
--rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/psr/http-message/CHANGELOG.md
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/psr/http-message/composer.json
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/psr/http-message/src/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/psr/http-message/src/MessageInterface.php
@@ -3772,7 +3765,6 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/react/promise/src/
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/dav/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/dav/.gitignore
--rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/dav/CHANGELOG.md
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/dav/CONTRIBUTING.md
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/dav/composer.json
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/dav/lib/
@@ -4055,7 +4047,6 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/dav/lib/DAVACL/Xml/Reque
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/dav/lib/DAVACL/Xml/Request/PrincipalSearchPropertySetReport.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/event/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/event/.gitignore
--rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/event/CHANGELOG.md
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/event/composer.json
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/event/lib/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/event/lib/EventEmitter.php
@@ -4073,7 +4064,6 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/event/lib/Promise/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/event/phpunit.xml.dist
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/http/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/http/.gitignore
--rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/http/CHANGELOG.md
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/http/composer.json
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/http/lib/
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/http/lib/Auth/
@@ -4102,7 +4092,6 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/http/lib/Auth/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/http/lib/functions.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/uri/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/uri/.gitignore
--rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/uri/CHANGELOG.md
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/uri/composer.json
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/uri/lib/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/uri/lib/InvalidUriException.php
@@ -4205,7 +4194,6 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/vobject/resources/schema
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/vobject/resources/schema/xcard.rng
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/xml/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/xml/.gitignore
--rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/xml/CHANGELOG.md
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/xml/composer.json
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/xml/lib/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/xml/lib/ContextStackTrait.php
@@ -4445,7 +4433,6 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/console/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/console/.gitignore
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/console/Application.php
--rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/console/CHANGELOG.md
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/console/Command/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/console/Command/Command.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/console/Command/HelpCommand.php
@@ -4542,7 +4529,6 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/console/Tester/
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/debug/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/debug/.gitignore
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/debug/BufferingLogger.php
--rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/debug/CHANGELOG.md
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/debug/Debug.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/debug/DebugClassLoader.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/debug/ErrorHandler.php
@@ -4577,7 +4563,6 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/debug/Resources/ext/te
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/debug/phpunit.xml.dist
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/event-dispatcher/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/event-dispatcher/.gitignore
--rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/event-dispatcher/CHANGELOG.md
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/event-dispatcher/ContainerAwareEventDispatcher.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/event-dispatcher/Debug/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/event-dispatcher/Debug/TraceableEventDispatcher.php
@@ -4603,7 +4588,6 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/polyfill-mbstring/Reso
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/polyfill-mbstring/composer.json
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/process/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/process/.gitignore
--rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/process/CHANGELOG.md
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/process/Exception/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/process/Exception/ExceptionInterface.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/process/Exception/InvalidArgumentException.php
@@ -4628,7 +4612,6 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/process/Pipes/
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/routing/
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/routing/Annotation/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/routing/Annotation/Route.php
--rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/routing/CHANGELOG.md
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/routing/CompiledRoute.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/routing/DependencyInjection/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/routing/DependencyInjection/RoutingResolverPass.php
@@ -4698,7 +4681,6 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/routing/Matcher/Dumper
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/routing/composer.json
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/translation/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/translation/.gitignore
--rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/translation/CHANGELOG.md
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/translation/Catalogue/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/translation/Catalogue/AbstractOperation.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/translation/Catalogue/MergeOperation.php
@@ -9298,7 +9280,6 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/templates/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/templates/wizard.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/gallery/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/gallery/.gitmodules
--rw-r-----	nginx/nginx	var/www/nextcloud/apps/gallery/CHANGELOG.md
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/gallery/appinfo/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/gallery/appinfo/app.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/gallery/appinfo/info.xml
@@ -9632,7 +9613,6 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/gallery/vendor/composer/
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/gallery/vendor/symfony/
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/gallery/vendor/symfony/yaml/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/gallery/vendor/symfony/yaml/.gitignore
--rw-r-----	nginx/nginx	var/www/nextcloud/apps/gallery/vendor/symfony/yaml/CHANGELOG.md
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/gallery/vendor/symfony/yaml/Dumper.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/gallery/vendor/symfony/yaml/Escaper.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/gallery/vendor/symfony/yaml/Exception/
@@ -10553,7 +10533,6 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/provisioning_api/lib/Middleware/Ex
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/provisioning_api/lib/Middleware/Exceptions/NotSubAdminException.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/provisioning_api/lib/Middleware/ProvisioningApiMiddleware.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/serverinfo/
--rw-r-----	nginx/nginx	var/www/nextcloud/apps/serverinfo/CHANGELOG.md
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/serverinfo/appinfo/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/serverinfo/appinfo/app.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/serverinfo/appinfo/info.xml

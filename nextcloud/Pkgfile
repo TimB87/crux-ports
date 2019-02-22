@@ -6,8 +6,11 @@
 
 name=nextcloud
 version=15.0.4
-release=1
+release=2
 source=(https://download.nextcloud.com/server/releases/$name-$version.tar.bz2)
+
+webuser=nginx
+webgroup=nginx
 
 build() {
 	cd $name
@@ -15,7 +18,7 @@ build() {
 	install -d $PKG/var/www/
 	cp -R $SRC/$name $PKG/var/www/.
 	
-    chown -R nginx:nginx $PKG/var/www/$name
+    chown -R $webuser:$webgroup $PKG/var/www/$name
 
     find $PKG/var/www/$name -type f -exec chmod 0640 {} \;
     find $PKG/var/www/$name -type d -exec chmod 0750 {} \;
@@ -27,6 +30,7 @@ build() {
         -iname '*COPYING*' -o \
         -iname '*AUTHORS*' -o \
         -iname '*news*' -o \
-        -iname '*license*' \
-        \) -exec rm -fr '{}' \; || true
+        -iname '*license*' -o \
+        -iname '*ChangeLog.md*' \
+        \) -delete || true
 }

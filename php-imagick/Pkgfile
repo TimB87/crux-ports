@@ -1,0 +1,21 @@
+# Description: PHP extension for IMagick
+# URL: https://pecl.php.net/package/imagick
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: graphite2 imagemagick libtool
+
+name=php-imagick
+version=3.4.3
+release=1
+source=(https://pecl.php.net/get/imagick-$version.tgz)
+
+build() {
+	cd imagick-$version
+
+    phpize
+    ./configure --prefix=/usr
+    make
+    make INSTALL_ROOT="$PKG" install
+
+    echo "extension=imagick.so" > "imagick.ini"
+    install -D -m644 "imagick.ini" "$PKG/etc/php/conf.d/imagick.ini"
+}

@@ -1,0 +1,14 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/php/
+drwxr-xr-x	root/root	etc/php/conf.d/
+-rw-r--r--	root/root	etc/php/conf.d/imagick.ini
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/include/
+drwxr-xr-x	root/root	usr/include/php/
+drwxr-xr-x	root/root	usr/include/php/ext/
+drwxr-xr-x	root/root	usr/include/php/ext/imagick/
+-rw-r--r--	root/root	usr/include/php/ext/imagick/php_imagick_shared.h
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/php/
+drwxr-xr-x	root/root	usr/lib/php/extensions/
+-rwxr-xr-x	root/root	usr/lib/php/extensions/imagick.so

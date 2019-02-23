@@ -5,20 +5,17 @@
 
 name=obs-studio
 version=23.0.0-rc2
-release=1
+release=2
 source=(https://github.com/jp9000/obs-studio/archive/$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
     mkdir build 
     cd build
-    
     cmake -DUNIX_STRUCTURE=1 \
         -DCMAKE_INSTALL_PREFIX=/usr ..
-    
     make
     make DESTDIR=$PKG install
-    
-   # rm -fr $PKG/usr/share/obs/obs-plugins/*/locale
-   # rm -fr $PKG/usr/share/obs/obs-studio/locale/
+    chmod 755 $PKG/usr $PKG/usr/bin $PKG/usr/lib
+    rm -f $PKG/usr/share/obs/obs-studio/authors/AUTHORS
 }

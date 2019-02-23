@@ -470,10 +470,10 @@ f:b1d7d9f9b8e3d39a14a8717a32b286aa:xdg-desktop-portal/.signature
 f:83a5640a2b16ebbbf4a30f599209d1d9:xdg-desktop-portal/.md5sum
 f:85d53d1a798ba447fe89b16ce66d13cf:xdg-desktop-portal/Pkgfile
 f:118a5e3f5614c5efd4015c0c5306a9b8:xdg-desktop-portal/.footprint
-f:c106c7ef933f4b6453d5f07d31d5a87c:obs-studio/.signature
+f:f006b114271a43617d48db07b0ace553:obs-studio/.signature
 f:b551b1e76de7f4638ecadf0c6ca1053f:obs-studio/.md5sum
-f:860eb49348ad7d098d230c5c488ae4ee:obs-studio/Pkgfile
-f:510c17e831e762adbfe54611eb235fac:obs-studio/.footprint
+f:e75f271f8e60c861c7a6e39fcbf07a37:obs-studio/Pkgfile
+f:b62ca05e32fd67ea89df0454b1f87395:obs-studio/.footprint
 f:7c9d6c278787e7f0e9f3ee499338aed4:yubico-pam/.signature
 f:7af11327315d5791bfc09c1cf3c2d84d:yubico-pam/.md5sum
 f:b325bdbef937243cc320f3b64c41a807:yubico-pam/Pkgfile

@@ -10,10 +10,10 @@ release=1
 source=(http://portland.freedesktop.org/download/$name-$version.tar.gz drop_obsolete_GNOME_support.patch)
 
 build() {
-	cd $name-$version
+    cd $name-$version
     patch -Np1 -i ../drop_obsolete_GNOME_support.patch
-	./configure	--prefix=/usr \
-			--disable-nls
-	make
-	make DESTDIR=${PKG} install
+    ./configure	--prefix=/usr \
+        --disable-nls
+    make
+    make DESTDIR=${PKG} install
 }

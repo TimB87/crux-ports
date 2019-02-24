@@ -10,13 +10,10 @@ source=()
 git=(https://github.com/shvchk/poly-light.git)
 
 build() {
-	#cd $name-$version
-	git clone $git
-	#install -dm 744 $PKG/boot/grub/themes
-	mkdir -p $PKG/boot/grub/themes/poly-light
-	cd poly-light
-	cp {background,selected_item_c,item_c,terminal_box_c}.png $PKG/boot/grub/themes/poly-light
-	cp unifont-regular-16.pf2 $PKG/boot/grub/themes/poly-light
-	cp theme.txt $PKG/boot/grub/themes/poly-light
-	cp -R icons $PKG/boot/grub/themes/poly-light
+    git clone $git $name
+    cd $name
+    mkdir -p $PKG/boot/grub/themes/poly-light
+    cp -R * $PKG/boot/grub/themes/poly-light
+    cp unifont-regular-16.pf2 $PKG/boot/grub/themes/poly-light
+    find $PKG -iname "*LICENSE*" -o -iname "*README*" -o -iname "install.sh" -delete
 }

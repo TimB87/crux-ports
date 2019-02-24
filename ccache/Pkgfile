@@ -11,20 +11,15 @@ release=1
 source=(https://samba.org/ftp/$name/$name-$version.tar.xz)
 
 build() {
-	cd $name-$version
-
-	./configure --prefix=/usr
-
-	make
-	make DESTDIR=$PKG install
-
-	install -d $PKG/usr/lib/ccache
-
-	for c in cc gcc g++ cpp c++; do
-		ln -s /usr/bin/ccache $PKG/usr/lib/ccache/$c
+    cd $name-$version
+    ./configure --prefix=/usr
+    make
+    make DESTDIR=$PKG install
+    install -d $PKG/usr/lib/ccache
+    for c in cc gcc g++ cpp c++; do
+        ln -s /usr/bin/ccache $PKG/usr/lib/ccache/$c
         ln -s /usr/bin/ccache $PKG/usr/lib/ccache/`uname -m`-$c
-	done
-
+    done
     for c in clang clang++; do
         ln -s /usr/bin/ccache $PKG/usr/lib/ccache/$c
     done

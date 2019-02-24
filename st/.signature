@@ -1,7 +1,7 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwKA9zsOTZtosMJhwF61m0jkt2L6okPgz3oaQoKJOg38A+5KAfDjjaOu/7Fe7CbIb8EqlAeXwHJ1oBr/B/QiATQs=
-SHA256 (Pkgfile) = 6b2835c712a1bb83da64001cce39f50c30718bf801bc8b5e0bd67c0fae6141df
+RWSXjYMPO7mZwEb/iDQFGcbzYnCr/pg7DbVQKUxGdlEH/wk5SVwJsNp/K7Nm94omVPcfRfvw3/j9cCRidcV1pbpB8tZyL2LtEg0=
+SHA256 (Pkgfile) = 447be5ac56b38105c18a90cdd61456c44a8fe9d388f56e9a4419d63ea1279050
 SHA256 (.footprint) = 2e1495fc958093d4e6c2fd56819cc70fb2e43c554aab71a33c68b71b47ad4ccc
 SHA256 (st-0.8.2.tar.gz) = aeb74e10aa11ed364e1bcc635a81a523119093e63befd2f231f8b0705b15bf35
-SHA256 (combined_st-0.8.2-v2.diff) = 559e2c664d2c285eda3351c7724e7c9bb0c1ad75349df25eb48c7f84093d59f7
+SHA256 (combined_st-0.8.2.diff) = e83dd2fe8129e90e69b1adbfa86f178538351f1e8b13907a4bf1eed597e0f37c
 SHA256 (st.desktop) = 77bf465f233dd6b3dab1b1a2979ba017b57be3da41ed435be76fc13903c3f032

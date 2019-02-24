@@ -5,12 +5,12 @@
 
 name=st
 version=0.8.2
-release=3
-source=(https://dl.suckless.org/st/$name-$version.tar.gz combined_st-0.8.2-v2.diff st.desktop)
+release=4
+source=(https://dl.suckless.org/st/$name-$version.tar.gz combined_st-0.8.2.diff st.desktop)
 
 build (){ 
     cd "$name-$version"
-    patch -Np1 -i $SRC/combined_st-0.8.2-v2.diff
+    patch -Np1 -i $SRC/combined_st-0.8.2.diff
     make CC=gcc
     make DESTDIR=$PKG PREFIX=/usr TERMINFO=$PKG/usr/share/terminfo install
     # Remove duplicates of files from ncurses

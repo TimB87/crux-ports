@@ -416,7 +416,7 @@ diff -Naur st-0.8.2.orig/boxdraw_data.h st-0.8.2/boxdraw_data.h
 +};
 diff -Naur st-0.8.2.orig/config.def.h st-0.8.2/config.def.h
 --- st-0.8.2.orig/config.def.h	2019-02-23 00:01:54.712354051 +0100
-+++ st-0.8.2/config.def.h	2019-02-23 12:09:29.412646733 +0100
++++ st-0.8.2/config.def.h	2019-02-23 00:29:07.756558462 +0100
 @@ -8,6 +8,11 @@
  static char *font = "Liberation Mono:pixelsize=12:antialias=true:autohint=true";
  static int borderpx = 2;
@@ -448,7 +448,7 @@ diff -Naur st-0.8.2.orig/config.def.h st-0.8.2/config.def.h
   * bell volume. It must be a value between -100 and 100. Use 0 for disabling
   * it
   */
-@@ -82,33 +99,49 @@
+@@ -82,33 +99,28 @@
   */
  unsigned int tabspaces = 8;
  
@@ -485,7 +485,7 @@ diff -Naur st-0.8.2.orig/config.def.h st-0.8.2/config.def.h
 +	/* solarized dark */
 +	"#073642",  /*  0: black    */
 +	"#dc322f",  /*  1: red      */
-+	"#859900",  /*  2: green    */
++    "#859900",  /*  2: green    */
 +	"#b58900",  /*  3: yellow   */
 +	"#268bd2",  /*  4: blue     */
 +	"#d33682",  /*  5: magenta  */
@@ -499,31 +499,10 @@ diff -Naur st-0.8.2.orig/config.def.h st-0.8.2/config.def.h
 +	"#6c71c4",  /* 13: brmagenta*/
 +	"#93a1a1",  /* 14: brcyan   */
 +	"#fdf6e3",  /* 15: brwhite  */
-+};
-+
-+/* Terminal colors for alternate (light) palette */
-+static const char *altcolorname[] = {
-+	/* solarized light */
-+	"#eee8d5",  /*  0: black    */
-+	"#dc322f",  /*  1: red      */
-+	"#859900",  /*  2: green    */
-+	"#b58900",  /*  3: yellow   */
-+	"#268bd2",  /*  4: blue     */
-+	"#d33682",  /*  5: magenta  */
-+	"#2aa198",  /*  6: cyan     */
-+	"#073642",  /*  7: white    */
-+	"#fdf6e3",  /*  8: brblack  */
-+	"#cb4b16",  /*  9: brred    */
-+	"#93a1a1",  /* 10: brgreen  */
-+	"#839496",  /* 11: bryellow */
-+	"#657b83",  /* 12: brblue   */
-+	"#6c71c4",  /* 13: brmagenta*/
-+	"#586e75",  /* 14: brcyan   */
-+	"#002b36",  /* 15: brwhite  */
  };
  
  
-@@ -116,10 +149,10 @@
+@@ -116,10 +128,10 @@
   * Default colors (colorname index)
   * foreground, background, cursor, reverse cursor
   */
@@ -538,7 +517,7 @@ diff -Naur st-0.8.2.orig/config.def.h st-0.8.2/config.def.h
  
  /*
   * Default shape of cursor
-@@ -151,6 +184,42 @@
+@@ -151,6 +163,42 @@
  static unsigned int defaultattr = 11;
  
  /*
@@ -581,14 +560,6 @@ diff -Naur st-0.8.2.orig/config.def.h st-0.8.2/config.def.h
   * Internal mouse shortcuts.
   * Beware that overloading Button1 will disable the selection.
   */
-@@ -178,6 +247,7 @@
- 	{ TERMMOD,              XK_Y,           selpaste,       {.i =  0} },
- 	{ ShiftMask,            XK_Insert,      selpaste,       {.i =  0} },
- 	{ TERMMOD,              XK_Num_Lock,    numlock,        {.i =  0} },
-+	{ XK_ANY_MOD,           XK_F6,          swapcolors,     {.i =  0} },
- };
- 
- /*
 diff -Naur st-0.8.2.orig/config.mk st-0.8.2/config.mk
 --- st-0.8.2.orig/config.mk	2019-02-23 00:01:54.712354051 +0100
 +++ st-0.8.2/config.mk	2019-02-22 23:53:56.297384231 +0100
@@ -627,7 +598,7 @@ diff -Naur st-0.8.2.orig/Makefile st-0.8.2/Makefile
  
 diff -Naur st-0.8.2.orig/st.c st-0.8.2/st.c
 --- st-0.8.2.orig/st.c	2019-02-23 00:01:54.712354051 +0100
-+++ st-0.8.2/st.c	2019-02-23 11:48:56.122244656 +0100
++++ st-0.8.2/st.c	2019-02-23 00:25:07.531997939 +0100
 @@ -1230,6 +1230,9 @@
  	term.dirty[y] = 1;
  	term.line[y][x] = *attr;
@@ -638,17 +609,9 @@ diff -Naur st-0.8.2.orig/st.c st-0.8.2/st.c
  }
  
  void
-@@ -2594,6 +2597,7 @@
- 			term.ocx, term.ocy, term.line[term.ocy][term.ocx]);
- 	term.ocx = cx, term.ocy = term.c.y;
- 	xfinishdraw();
-+    xximspot(term.ocx, term.ocy);
- }
- 
- void
 diff -Naur st-0.8.2.orig/st.h st-0.8.2/st.h
 --- st-0.8.2.orig/st.h	2019-02-23 00:01:54.712354051 +0100
-+++ st-0.8.2/st.h	2019-02-23 12:09:29.412646733 +0100
++++ st-0.8.2/st.h	2019-02-23 00:25:07.531997939 +0100
 @@ -33,6 +33,7 @@
  	ATTR_WRAP       = 1 << 8,
  	ATTR_WIDE       = 1 << 9,
@@ -672,27 +635,17 @@ diff -Naur st-0.8.2.orig/st.h st-0.8.2/st.h
  /* config.h globals */
  extern char *utmp;
  extern char *stty_args;
-@@ -117,6 +126,9 @@
- extern char *worddelimiters;
+@@ -118,5 +127,7 @@
  extern int allowaltscreen;
  extern char *termname;
-+extern int usealtcolors;
  extern unsigned int tabspaces;
 +extern unsigned int alpha;
  extern unsigned int defaultfg;
  extern unsigned int defaultbg;
 +extern const int boxdraw, boxdraw_bold, boxdraw_braille;
-diff -Naur st-0.8.2.orig/win.h st-0.8.2/win.h
---- st-0.8.2.orig/win.h	2019-02-23 00:01:54.712354051 +0100
-+++ st-0.8.2/win.h	2019-02-23 11:48:38.912973916 +0100
-@@ -36,3 +36,4 @@
- void xsetpointermotion(int);
- void xsetsel(char *);
- int xstartdraw(void);
-+void xximspot(int, int);
 diff -Naur st-0.8.2.orig/x.c st-0.8.2/x.c
 --- st-0.8.2.orig/x.c	2019-02-23 00:01:54.712354051 +0100
-+++ st-0.8.2/x.c	2019-02-23 12:09:29.412646733 +0100
++++ st-0.8.2/x.c	2019-02-23 00:25:07.531997939 +0100
 @@ -14,6 +14,7 @@
  #include <X11/keysym.h>
  #include <X11/Xft/Xft.h>
@@ -701,7 +654,7 @@ diff -Naur st-0.8.2.orig/x.c st-0.8.2/x.c
  
  static char *argv0;
  #include "arg.h"
-@@ -43,16 +44,34 @@
+@@ -43,11 +44,28 @@
  	signed char appcursor; /* application cursor */
  } Key;
  
@@ -730,13 +683,7 @@ diff -Naur st-0.8.2.orig/x.c st-0.8.2/x.c
  /* function definitions used in config.h */
  static void clipcopy(const Arg *);
  static void clippaste(const Arg *);
- static void numlock(const Arg *);
- static void selpaste(const Arg *);
-+static void swapcolors(const Arg *);
- static void zoom(const Arg *);
- static void zoomabs(const Arg *);
- static void zoomreset(const Arg *);
-@@ -80,6 +99,7 @@
+@@ -80,6 +98,7 @@
  	int w, h; /* window width and height */
  	int ch; /* char height */
  	int cw; /* char width  */
@@ -744,7 +691,7 @@ diff -Naur st-0.8.2.orig/x.c st-0.8.2/x.c
  	int mode; /* window state/mode flags */
  	int cursor; /* cursor style */
  } TermWindow;
-@@ -98,6 +118,7 @@
+@@ -98,6 +117,7 @@
  	XSetWindowAttributes attrs;
  	int scr;
  	int isfixed; /* is fixed geometry? */
@@ -752,17 +699,7 @@ diff -Naur st-0.8.2.orig/x.c st-0.8.2/x.c
  	int l, t; /* left and top offset */
  	int gm; /* geometry mask */
  } XWindow;
-@@ -139,6 +160,9 @@
- static void xdrawglyph(Glyph, int, int);
- static void xclear(int, int, int, int);
- static int xgeommasktogravity(int);
-+static void ximopen(Display *);
-+static void ximinstantiate(Display *, XPointer, XPointer);
-+static void ximdestroy(XIM, XPointer, XPointer);
- static void xinit(int, int);
- static void cresize(int, int);
- static void xresize(int, int);
-@@ -240,6 +264,13 @@
+@@ -240,6 +260,11 @@
  
  static int oldbutton = 3; /* button event on startup: 3 = release */
  
@@ -771,27 +708,10 @@ diff -Naur st-0.8.2.orig/x.c st-0.8.2/x.c
 +extern int disableitalic;
 +extern int disableroman;
 +
-+int usealtcolors = 0; /* 1 to use alternate palette */
-+
  void
  clipcopy(const Arg *dummy)
  {
-@@ -279,6 +310,14 @@
- }
- 
- void
-+swapcolors(const Arg *dummy)
-+{
-+	usealtcolors = !usealtcolors;
-+	xloadcols();
-+	redraw();
-+}
-+
-+void
- zoom(const Arg *arg)
- {
- 	Arg larg;
-@@ -688,7 +727,7 @@
+@@ -688,7 +713,7 @@
  
  	XFreePixmap(xw.dpy, xw.buf);
  	xw.buf = XCreatePixmap(xw.dpy, xw.win, win.w, win.h,
@@ -800,41 +720,7 @@ diff -Naur st-0.8.2.orig/x.c st-0.8.2/x.c
  	XftDrawChange(xw.draw, xw.buf);
  	xclear(0, 0, win.w, win.h);
  
-@@ -702,6 +741,11 @@
- 	return x == 0 ? 0 : 0x3737 + 0x2828 * x;
- }
- 
-+const char* getcolorname(int i)
-+{
-+    return (usealtcolors) ?  altcolorname[i] : colorname[i];
-+}
-+
- int
- xloadcolor(int i, const char *name, Color *ncolor)
- {
-@@ -720,7 +764,7 @@
- 			return XftColorAllocValue(xw.dpy, xw.vis,
- 			                          xw.cmap, &color, ncolor);
- 		} else
--			name = colorname[i];
-+			name = getcolorname(i);
- 	}
- 
- 	return XftColorAllocName(xw.dpy, xw.vis, xw.cmap, name, ncolor);
-@@ -737,17 +781,25 @@
- 		for (cp = dc.col; cp < &dc.col[dc.collen]; ++cp)
- 			XftColorFree(xw.dpy, xw.vis, xw.cmap, cp);
- 	} else {
--		dc.collen = MAX(LEN(colorname), 256);
-+		dc.collen = MAX(LEN(colorname), LEN(altcolorname));
- 		dc.col = xmalloc(dc.collen * sizeof(Color));
- 	}
- 
- 	for (i = 0; i < dc.collen; i++)
- 		if (!xloadcolor(i, NULL, &dc.col[i])) {
--			if (colorname[i])
-+			if (getcolorname(i))
- 				die("could not allocate color '%s'\n", colorname[i]);
+@@ -748,6 +773,14 @@
  			else
  				die("could not allocate color %d\n", i);
  		}
@@ -849,7 +735,7 @@ diff -Naur st-0.8.2.orig/x.c st-0.8.2/x.c
  	loaded = 1;
  }
  
-@@ -769,6 +821,17 @@
+@@ -769,6 +802,17 @@
  	return 0;
  }
  
@@ -867,7 +753,7 @@ diff -Naur st-0.8.2.orig/x.c st-0.8.2/x.c
  /*
   * Absolute coordinates.
   */
-@@ -783,8 +846,8 @@
+@@ -783,8 +827,8 @@
  void
  xhints(void)
  {
@@ -878,7 +764,7 @@ diff -Naur st-0.8.2.orig/x.c st-0.8.2/x.c
  	XWMHints wm = {.flags = InputHint, .input = 1};
  	XSizeHints *sizeh;
  
-@@ -955,19 +1018,23 @@
+@@ -955,19 +999,23 @@
  	/* Setting character width and height. */
  	win.cw = ceilf(dc.font.width * cwscale);
  	win.ch = ceilf(dc.font.height * chscale);
@@ -907,51 +793,7 @@ diff -Naur st-0.8.2.orig/x.c st-0.8.2/x.c
  	if (xloadfont(&dc.bfont, pattern))
  		die("can't open font %s\n", fontstr);
  
-@@ -997,6 +1064,43 @@
- }
- 
- void
-+ximopen(Display *dpy)
-+{
-+	XIMCallback destroy = { .client_data = NULL, .callback = ximdestroy };
-+
-+	if ((xw.xim = XOpenIM(xw.dpy, NULL, NULL, NULL)) == NULL) {
-+		XSetLocaleModifiers("@im=local");
-+		if ((xw.xim = XOpenIM(xw.dpy, NULL, NULL, NULL)) == NULL) {
-+			XSetLocaleModifiers("@im=");
-+			if ((xw.xim = XOpenIM(xw.dpy, NULL, NULL, NULL)) == NULL)
-+				die("XOpenIM failed. Could not open input device.\n");
-+		}
-+	}
-+	if (XSetIMValues(xw.xim, XNDestroyCallback, &destroy, NULL) != NULL)
-+		die("XSetIMValues failed. Could not set input method value.\n");
-+	xw.xic = XCreateIC(xw.xim, XNInputStyle, XIMPreeditNothing | XIMStatusNothing,
-+				XNClientWindow, xw.win, XNFocusWindow, xw.win, NULL);
-+	if (xw.xic == NULL)
-+		die("XCreateIC failed. Could not obtain input method.\n");
-+}
-+
-+void
-+ximinstantiate(Display *dpy, XPointer client, XPointer call)
-+{
-+	ximopen(dpy);
-+	XUnregisterIMInstantiateCallback(xw.dpy, NULL, NULL, NULL,
-+					ximinstantiate, NULL);
-+}
-+
-+void
-+ximdestroy(XIM xim, XPointer client, XPointer call)
-+{
-+	xw.xim = NULL;
-+	XRegisterIMInstantiateCallback(xw.dpy, NULL, NULL, NULL,
-+					ximinstantiate, NULL);
-+}
-+
-+void
- xinit(int cols, int rows)
- {
- 	XGCValues gcvalues;
-@@ -1005,10 +1109,41 @@
+@@ -1005,10 +1053,41 @@
  	pid_t thispid = getpid();
  	XColor xmousefg, xmousebg;
  
@@ -996,7 +838,7 @@ diff -Naur st-0.8.2.orig/x.c st-0.8.2/x.c
  
  	/* font */
  	if (!FcInit())
-@@ -1018,7 +1153,11 @@
+@@ -1018,7 +1097,11 @@
  	xloadfonts(usedfont, 0);
  
  	/* colors */
@@ -1009,16 +851,7 @@ diff -Naur st-0.8.2.orig/x.c st-0.8.2/x.c
  	xloadcols();
  
  	/* adjust fixed window geometry */
-@@ -1033,7 +1172,7 @@
- 	xw.attrs.background_pixel = dc.col[defaultbg].pixel;
- 	xw.attrs.border_pixel = dc.col[defaultbg].pixel;
- 	xw.attrs.bit_gravity = NorthWestGravity;
--	xw.attrs.event_mask = FocusChangeMask | KeyPressMask
-+	xw.attrs.event_mask = FocusChangeMask | KeyPressMask | KeyReleaseMask
- 		| ExposureMask | VisibilityChangeMask | StructureNotifyMask
- 		| ButtonMotionMask | ButtonPressMask | ButtonReleaseMask;
- 	xw.attrs.colormap = xw.cmap;
-@@ -1041,16 +1180,15 @@
+@@ -1041,16 +1124,15 @@
  	if (!(opt_embed && (parent = strtol(opt_embed, NULL, 0))))
  		parent = XRootWindow(xw.dpy, xw.scr);
  	xw.win = XCreateWindow(xw.dpy, parent, xw.l, xw.t,
@@ -1039,45 +872,7 @@ diff -Naur st-0.8.2.orig/x.c st-0.8.2/x.c
  	XSetForeground(xw.dpy, dc.gc, dc.col[defaultbg].pixel);
  	XFillRectangle(xw.dpy, xw.buf, dc.gc, 0, 0, win.w, win.h);
  
-@@ -1061,34 +1199,19 @@
- 	xw.draw = XftDrawCreate(xw.dpy, xw.buf, xw.vis, xw.cmap);
- 
- 	/* input methods */
--	if ((xw.xim = XOpenIM(xw.dpy, NULL, NULL, NULL)) == NULL) {
--		XSetLocaleModifiers("@im=local");
--		if ((xw.xim =  XOpenIM(xw.dpy, NULL, NULL, NULL)) == NULL) {
--			XSetLocaleModifiers("@im=");
--			if ((xw.xim = XOpenIM(xw.dpy,
--					NULL, NULL, NULL)) == NULL) {
--				die("XOpenIM failed. Could not open input"
--					" device.\n");
--			}
--		}
--	}
--	xw.xic = XCreateIC(xw.xim, XNInputStyle, XIMPreeditNothing
--					   | XIMStatusNothing, XNClientWindow, xw.win,
--					   XNFocusWindow, xw.win, NULL);
--	if (xw.xic == NULL)
--		die("XCreateIC failed. Could not obtain input method.\n");
-+    ximopen(xw.dpy);
- 
- 	/* white cursor, black outline */
- 	cursor = XCreateFontCursor(xw.dpy, mouseshape);
- 	XDefineCursor(xw.dpy, xw.win, cursor);
- 
--	if (XParseColor(xw.dpy, xw.cmap, colorname[mousefg], &xmousefg) == 0) {
-+	if (XParseColor(xw.dpy, xw.cmap, getcolorname(mousefg), &xmousefg) == 0) {
- 		xmousefg.red   = 0xffff;
- 		xmousefg.green = 0xffff;
- 		xmousefg.blue  = 0xffff;
- 	}
- 
--	if (XParseColor(xw.dpy, xw.cmap, colorname[mousebg], &xmousebg) == 0) {
-+	if (XParseColor(xw.dpy, xw.cmap, getcolorname(mousebg), &xmousebg) == 0) {
- 		xmousebg.red   = 0x0000;
- 		xmousebg.green = 0x0000;
- 		xmousebg.blue  = 0x0000;
-@@ -1118,6 +1241,8 @@
+@@ -1118,6 +1200,8 @@
  	xsel.xtarget = XInternAtom(xw.dpy, "UTF8_STRING", 0);
  	if (xsel.xtarget == None)
  		xsel.xtarget = XA_STRING;
@@ -1086,7 +881,7 @@ diff -Naur st-0.8.2.orig/x.c st-0.8.2/x.c
  }
  
  int
-@@ -1136,7 +1261,7 @@
+@@ -1136,7 +1220,7 @@
  	FcCharSet *fccharset;
  	int i, f, numspecs = 0;
  
@@ -1095,7 +890,7 @@ diff -Naur st-0.8.2.orig/x.c st-0.8.2/x.c
  		/* Fetch rune and mode for current glyph. */
  		rune = glyphs[i].u;
  		mode = glyphs[i].mode;
-@@ -1161,11 +1286,16 @@
+@@ -1161,11 +1245,16 @@
  				font = &dc.bfont;
  				frcflags = FRC_BOLD;
  			}
@@ -1115,7 +910,7 @@ diff -Naur st-0.8.2.orig/x.c st-0.8.2/x.c
  		if (glyphidx) {
  			specs[numspecs].font = font->match;
  			specs[numspecs].glyph = glyphidx;
-@@ -1298,7 +1428,7 @@
+@@ -1298,7 +1387,7 @@
  
  	/* Change basic system colors [0-7] to bright system colors [8-15] */
  	if ((base.mode & ATTR_BOLD_FAINT) == ATTR_BOLD && BETWEEN(base.fg, 0, 7))
@@ -1124,7 +919,7 @@ diff -Naur st-0.8.2.orig/x.c st-0.8.2/x.c
  
  	if (IS_SET(MODE_REVERSE)) {
  		if (fg == &dc.col[defaultfg]) {
-@@ -1372,17 +1502,21 @@
+@@ -1372,17 +1461,21 @@
  	r.width = width;
  	XftDrawSetClipRectangles(xw.draw, winx, winy, &r, 1);
  
@@ -1150,7 +945,7 @@ diff -Naur st-0.8.2.orig/x.c st-0.8.2/x.c
  				width, 1);
  	}
  
-@@ -1416,7 +1550,7 @@
+@@ -1416,7 +1509,7 @@
  	/*
  	 * Select the right color for the right mode.
  	 */
@@ -1159,24 +954,7 @@ diff -Naur st-0.8.2.orig/x.c st-0.8.2/x.c
  
  	if (IS_SET(MODE_REVERSE)) {
  		g.mode |= ATTR_REVERSE;
-@@ -1555,6 +1689,16 @@
- }
- 
- void
-+xximspot(int x, int y)
-+{
-+	XPoint spot = { borderpx + x * win.cw, borderpx + (y + 1) * win.ch };
-+	XVaNestedList attr = XVaCreateNestedList(0, XNSpotLocation, &spot, NULL);
-+
-+	XSetICValues(xw.xic, XNPreeditAttributes, attr, NULL);
-+	XFree(attr);
-+}
-+
-+void
- expose(XEvent *ev)
- {
- 	redraw();
-@@ -1870,6 +2014,59 @@
+@@ -1870,6 +1963,59 @@
  	}
  }
  
@@ -1236,7 +1014,7 @@ diff -Naur st-0.8.2.orig/x.c st-0.8.2/x.c
  void
  usage(void)
  {
-@@ -1943,6 +2140,11 @@
+@@ -1943,6 +2089,11 @@
  
  	setlocale(LC_CTYPE, "");
  	XSetLocaleModifiers("");

@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwP31rgQHf98HrYsOTyBFUDQNOJh9gCzvgfL6sfKyq7ApZWiWBihLVMyJTfu+06JPh3N18Lrapp6W5rgTIk+GZwQ=
+RWSXjYMPO7mZwBJltanldHjaTFFb3UQocScyWfKqEF5XIIH4Yk9f0uEd2XxbOxxwyHs9MzhMjAIU5WppKtIhSKsuFmI9HAJoZwU=
+SHA256 (Pkgfile) = f6963909c61d1c55fdf71c8d7c11338d4296f64edce5e53c8952dbb0c86b5e3c
+SHA256 (.footprint) = 61e3ca0dd6bc7e3700b6dc3a1f4ccce9c465371588ddf0ecccccd28fee2fbc9f
+SHA256 (faba-icon-theme-4.3.tar.gz) = c87ce7dae8df6b25228297baa1be96cfad06c5c109ff60fedf1f0343bb0196a2

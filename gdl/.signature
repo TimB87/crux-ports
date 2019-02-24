@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwAPK97rSet5PEaG557N7kVMoRzHm+CcPwiUJ+/O20wY4S1gyOjGZzmmMlEFjTpbyJ5baj2/yORQvEChiQZ2yAgQ=
+SHA256 (Pkgfile) = aa8243511904bf5aab9fc4950f657fd38a524d0bce53cc923a53357d00f14cf8
+SHA256 (.footprint) = 125a7a49b762b71161876b3e2ffe946d430cc063dbcf36ba26638b2b3ce504ba
+SHA256 (gdl-3.28.0.tar.xz) = 52cc98ecc105148467b3b2b4e0d27ae484b1b6710d53413f771ed07ef1b737b6

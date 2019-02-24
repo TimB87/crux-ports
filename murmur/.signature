@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwIuX19b9qfl6qMU6pE/MZCqteOvSVs//858d34iqYN7lH8MZ2Gr8Aj28tN72WVJ2GUphCGNsYceV64sDZnrsuw4=
+SHA256 (Pkgfile) = 827c8fb496cc25cd2b2f0f437758274ad41a230ffcc13b779bb5e18d465f3e58
+SHA256 (.footprint) = 5275b8b97bf0a83c067c48bd5a18dbb134f91d7353895ba5c024cfd9ddbe499c
+SHA256 (mumble-1.3.0~2942~g755c290~snapshot.tar.gz) = 209cc0680fcf90adc8d374a0f73a932c3a3dfa71611d2a78a3036121e67f78a2
+SHA256 (murmur) = c0a0ee056b00818f25b0cb10c84635d2f5761c6bc8dbcace44ab5bbf552f3776

@@ -1,0 +1,24 @@
+# Description: A utility for tracing a bitmap, which means, transforming a bitmap into a smooth, scalable image.
+# URL: http://potrace.sourceforge.net/
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Packager: Simone Rota, sip at varlock dot com
+# Depends on:
+
+name=potrace
+version=1.15
+release=2
+source=(http://potrace.sourceforge.net/download/1.15/potrace-1.15.tar.gz)
+
+build() {
+    cd $name-$version
+    ./configure \
+        --prefix=/usr \
+        --mandir=/usr/share/man \
+        --disable-static \
+        --enable-a4 \
+        --enable-metric \
+        --with-libpotrace
+    make
+    make DESTDIR=$PKG install
+    rm -r $PKG/usr/share/doc
+}

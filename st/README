@@ -1,0 +1,11 @@
+This port contains the following patches:
+    st-alpha-20190116-3be4cf1.diff
+    st-boxdraw_v2-0.8.2.diff
+    st-disable-bold-italic-fonts.diff
+    st-no_bold_colors-0.8.1.diff
+    st-solarized-both-20190128-3be4cf1.diff
+    st-vertcenter-20180320-6ac8c8a.diff
+    st-xresources-20190105-3be4cf1.diff
+taken from the official resource: https://st.suckless.org/patches/
+
+Configuration is possible via Xresources.

@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwDWvr6GdOG2Fz1VEkW4TdT1dHPU/bkAdwVTGb5EvuBEjWM+D5ivkbI+BCqgbdE0SwCSrOPgniqpGIwm4fGrW6QU=
+SHA256 (Pkgfile) = 03df074e19791759db48bdb8927bad8c1b7be677c93bb94bda2863d544f16b16
+SHA256 (.footprint) = acd5830aac82e2f284575e0c44a4ed6c51caacee79fe211a2bf73acf9e298fc0
+SHA256 (distcc-3.3.2.tar.gz) = 64894de2970c631801d29c9962553673ea7a1d150e6855d7e166d273fca5cdfc
+SHA256 (distccd) = ff8f413d6b6bfb5b0b9cd38945f6dd18e66a7fc1a89811175915b0893f052790

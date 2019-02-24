@@ -1,0 +1,22 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/cgi-fcgi
+drwxr-xr-x	root/root	usr/include/
+-rw-r--r--	root/root	usr/include/fastcgi.h
+-rw-r--r--	root/root	usr/include/fcgi_config.h
+-rw-r--r--	root/root	usr/include/fcgi_stdio.h
+-rw-r--r--	root/root	usr/include/fcgiapp.h
+-rw-r--r--	root/root	usr/include/fcgimisc.h
+-rw-r--r--	root/root	usr/include/fcgio.h
+-rw-r--r--	root/root	usr/include/fcgios.h
+drwxr-xr-x	root/root	usr/lib/
+-rw-r--r--	root/root	usr/lib/libfcgi++.a
+-rwxr-xr-x	root/root	usr/lib/libfcgi++.la
+lrwxrwxrwx	root/root	usr/lib/libfcgi++.so -> libfcgi++.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libfcgi++.so.0 -> libfcgi++.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libfcgi++.so.0.0.0
+-rw-r--r--	root/root	usr/lib/libfcgi.a
+-rwxr-xr-x	root/root	usr/lib/libfcgi.la
+lrwxrwxrwx	root/root	usr/lib/libfcgi.so -> libfcgi.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libfcgi.so.0 -> libfcgi.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libfcgi.so.0.0.0

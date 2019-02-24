@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwMpxBQVjAChoYp8jaRspfJec6rcXzLFX3NW8uuWTSziI/f/JdvANN2fZNbb9Fe5o7p3TwhAC2UDlKitWdm5SmQQ=
+SHA256 (Pkgfile) = 146078708007b0382014a59b9ee317fe6bbf444d83fc9dc824d8018ed275e351
+SHA256 (.footprint) = b647dc53053865cb45cda39e0079a058ac07e39a25e5c36c43cd85769837331a
+SHA256 (rapidjson-1.1.0.tar.gz) = bf7ced29704a1e696fbccf2a2b4ea068e7774fa37f6d7dd4039d0787f8bed98e

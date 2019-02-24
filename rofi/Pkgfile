@@ -1,7 +1,8 @@
 # Description: A window switcher, run dialog, and dmenu replacement
-# URL:         https://davedavenport.github.io/rofi/
-# Maintainer:  Aaron Ball, nullspoon at oper dot io
-# Depends on:  xcb-util-xrm libxkbcommon xorg-xcb-util-wm pango xcb-xrm
+# URL: https://davedavenport.github.io/rofi/
+# Maintainer: Tim Biermann, tbier at posteo dot de 
+# Packager: Aaron Ball, nullspoon at oper dot io
+# Depends on: xcb-util-xrm libxkbcommon xorg-xcb-util-wm pango xcb-xrm
 
 name=rofi
 version=1.5.2

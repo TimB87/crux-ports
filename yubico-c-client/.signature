@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwP31rgQHf98HrYsOTyBFUDQNOJh9gCzvgfL6sfKyq7ApZWiWBihLVMyJTfu+06JPh3N18Lrapp6W5rgTIk+GZwQ=
+RWSXjYMPO7mZwE3axgHXCDJxqYISMyrxNi5gL3vyRMpmzcLi8AZPsoDitbyGNnPgvytRB/9PkfJbYwe1C9ep6qz9Vho2YhOzTQs=
+SHA256 (Pkgfile) = 1b7d7dfd4068ead0a39b0c297f538d58b90528f2868d3be434a191d7d8671c29
+SHA256 (.footprint) = 526eeebac065065041c8d375be3a9739ecbea16688ecf9f3b5c6fe30c66bd008
+SHA256 (ykclient-2.15.tar.gz) = 3863f4fc2f3320c59fcbf57862bba48bcb716fddb886840bb0dd8db14d5ab7f0

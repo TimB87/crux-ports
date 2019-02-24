@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwNV9XO+0XZYft5Lqlqoe4eZU+TDiNZ2yENt0LXmGeX8XWYuKy+Mwu1TeyylSdrmtb+GVFHA5X/tIxYR8pYdCjAQ=
+SHA256 (Pkgfile) = 4026f0049e0b25eced97b767a61b1ae274b9aef4cc2cf3c73548e66cc9419eed
+SHA256 (.footprint) = 6fd649e2f00c82378742f3cc59d39a6a8c128cdb04cb82994fc17c831962b2ed
+SHA256 (CGI-4.40.tar.gz) = 10efff3061b3c31a33b3cc59f955aef9c88d57d12dbac46389758cef92f24f56

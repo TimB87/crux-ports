@@ -10,15 +10,15 @@ drwxr-xr-x	root/root	usr/include/cloudproviders/
 -rw-r--r--	root/root	usr/include/cloudproviders/enums.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/girepository-1.0/
--rw-r--r--	root/root	usr/lib/girepository-1.0/CloudProviders-0.2.5.typelib
+-rw-r--r--	root/root	usr/lib/girepository-1.0/CloudProviders-0.3.0.typelib
 lrwxrwxrwx	root/root	usr/lib/libcloudproviders.so -> libcloudproviders.so.0
-lrwxrwxrwx	root/root	usr/lib/libcloudproviders.so.0 -> libcloudproviders.so.0.2.5
--rwxr-xr-x	root/root	usr/lib/libcloudproviders.so.0.2.5
+lrwxrwxrwx	root/root	usr/lib/libcloudproviders.so.0 -> libcloudproviders.so.0.3.0
+-rwxr-xr-x	root/root	usr/lib/libcloudproviders.so.0.3.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/cloudproviders.pc
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/gir-1.0/
--rw-r--r--	root/root	usr/share/gir-1.0/CloudProviders-0.2.5.gir
+-rw-r--r--	root/root	usr/share/gir-1.0/CloudProviders-0.3.0.gir
 drwxr-xr-x	root/root	usr/share/vala/
 drwxr-xr-x	root/root	usr/share/vala/vapi/
 -rw-r--r--	root/root	usr/share/vala/vapi/cloudproviders.deps

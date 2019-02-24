@@ -1,2 +1,7 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwP31rgQHf98HrYsOTyBFUDQNOJh9gCzvgfL6sfKyq7ApZWiWBihLVMyJTfu+06JPh3N18Lrapp6W5rgTIk+GZwQ=
+RWSXjYMPO7mZwIEpP84FMt4n4q7mVTXa03CW6k9HdPZtehJ2p3pKx3ZJ0FUDB1w7kUjMu1djuGTb35tBh6H7C/vgyJVf8vXw/gE=
+SHA256 (Pkgfile) = 99a61204d70553c5e07b0cb1af24aee0e0801027bfdce2d56caebfc552938e65
+SHA256 (.footprint) = 3f4fdad9b560f7b8d82f4a6c1ec14558b3024ce44e76dda3729adb340872588c
+SHA256 (NotoMono-hinted.zip) = 2722ae9033c9e306e784b9254ca86c58c7af7483051583f767e05d03bc252bda
+SHA256 (NotoSans-hinted.zip) = 02e5f834c526f815f3b9f90f98e2b5b09f17cec107cc751c3b58fc3a2c0b2942
+SHA256 (NotoSerif-hinted.zip) = 64e4c71c5b0d09f41c4093c1f673d92350eb8789f041d1f5e948ccfbdbe0bafa

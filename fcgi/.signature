@@ -1,0 +1,9 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwHL8eq2X0wVgYFyThM8YaFmjWFrOt4eFVikaVQuZSYsx2qXhdrC2e7JUW0HvfxFPpi0cyqjsXZOUHjrIMisWFgU=
+SHA256 (Pkgfile) = 7f5173f1832087878ae543ceacbd8b8d43d343eb23ae97448bbb0618d30d8b4c
+SHA256 (.footprint) = e9a8692b371abfb847b9c5364e30c475b7961d30ae24a6f56aaf5a0e7b4488e5
+SHA256 (fcgi-2.4.0.tar.gz) = 66fc45c6b36a21bf2fbbb68e90f780cc21a9da1fffbae75e76d2b4402d3f05b9
+SHA256 (fcgi-2.4.0-configure.in.patch) = 1b22bf50d37a0086870f3259c04df05f92bfa74795212283a24baba62d617dc8
+SHA256 (fcgi-2.4.0-Makefile.am-CPPFLAGS.patch) = df132dec038246ce9526f311c5d00ec103427111722c476f78069d7f1386529f
+SHA256 (fcgi-2.4.0-gcc44_fixes.patch) = c31eb921a662b53401a88caafbadb16b02ae809d25d0b6d8b1ac96d20803e9d5
+SHA256 (fcgi-2.4.0-poll.patch) = 7fc1e0af1c71d7b86d1a90595fbadedbb01db0731b9e91b17fb5437680bb4e96

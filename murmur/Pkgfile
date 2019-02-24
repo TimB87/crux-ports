@@ -1,0 +1,36 @@
+# Description: The voice chat application server for Mumble
+# URL: http://mumble.sourceforge.net/
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: icu protobuf qt5
+
+name=murmur
+version=1.3.0~2942~g755c290~snapshot
+release=1
+source=(https://mumble.info/snapshot/mumble-$version.tar.gz murmur)
+
+build() {
+	cd mumble-$version
+    
+    qmake-qt5 main.pro \
+        CONFIG+="no-client no-bonjour no-ice"
+    make release
+
+    sed -e "1i# vi:ft=cfg" \
+        -e "s|database=|database=/var/db/murmur/murmur.sqlite|" \
+        -e "s|#logfile=murmur.log|logfile=|" \
+        -e "s|#uname=|uname=murmur|" \
+        -i scripts/murmur.ini
+
+    mkdir -p ${PKG}/etc/rc.d/
+
+    install -dm755 -o 122 -g 122 ${PKG}/var/db/murmur
+    install -Dm755 release/murmurd ${PKG}/usr/bin/murmurd
+    install -Dm644 scripts/murmur.ini ${PKG}/etc/murmur.ini
+    install -Dm644 man/murmurd.1 ${PKG}/usr/share/man/man1/murmurd.1
+    install -Dm644 $SRC/murmur ${PKG}/etc/rc.d/
+
+    chgrp murmur ${PKG}/var/db/murmur/
+    chmod 755 ${PKG}/var/db/murmur/
+    chown murmur ${PKG}/var/db/murmur/
+    chmod +x ${PKG}/etc/rc.d/murmur
+}

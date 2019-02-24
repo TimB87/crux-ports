@@ -304,7 +304,10 @@ drwxr-xr-x	root/root	usr/include/php/main/streams/
 drwxr-xr-x	root/root	usr/include/php/sapi/
 drwxr-xr-x	root/root	usr/include/php/sapi/cli/
 -rw-r--r--	root/root	usr/include/php/sapi/cli/cli.h
+drwxr-xr-x	root/root	usr/include/php/sapi/embed/
+-rw-r--r--	root/root	usr/include/php/sapi/embed/php_embed.h
 drwxr-xr-x	root/root	usr/lib/
+-rwxr-xr-x	root/root	usr/lib/libphp7.so
 drwxr-xr-x	root/root	usr/lib/php/
 drwxr-xr-x	root/root	usr/lib/php/build/
 -rw-r--r--	root/root	usr/lib/php/build/Makefile.global

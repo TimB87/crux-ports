@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwCnTHAXMNJqtAV6fmo3X6gDSpuoVgfw2C/DJlKu74KyRjH7gpoZY5ASSD0nCBohh/JMEAG0JVtKh66Rz0WbeTAw=
+SHA256 (Pkgfile) = 1488c6d606a9bd846e0d29ae44c6b9b8cc205d5baf24059780c2ed238f66d835
+SHA256 (.footprint) = 43bfec3025e8f45a278b478019d315ee0b0182d4d8244ad03d0dbaf8df5cf927
+SHA256 (xdotool-v3.20160805.1.tar.gz) = ddafca1239075c203769c17a5a184587731e56fbe0438c09d08f8af1704e117a

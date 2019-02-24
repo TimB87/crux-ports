@@ -1,2 +1,6 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwP31rgQHf98HrYsOTyBFUDQNOJh9gCzvgfL6sfKyq7ApZWiWBihLVMyJTfu+06JPh3N18Lrapp6W5rgTIk+GZwQ=
+RWSXjYMPO7mZwFxEwAkNkrXe2vvzfXI7l3jhQKMezlkTivgdbmUUQ89N/maO8SBjeaAQf1VxKo2FbVvax6mvi/TQr7JTTysPUwc=
+SHA256 (Pkgfile) = b9851f2813adefca92c99b358d9260592727ac1582dcad0586d091819754fa93
+SHA256 (.footprint) = 643fc69b86b926bc2f45505fc6aeb0185e1de769b790ebd235521b4dcaac51b9
+SHA256 (gnome-python-desktop-2.32.0.tar.bz2) = 09dbd580bf3b0ef60f91b090eafe6d08ddcc50a609e2b425a7f8eca46d4e0ee9
+SHA256 (01_wnck_enums.patch) = bb51a303bc745f13f9386c734c0467267a19cb193c330eff0b7d39aad0edb1c1

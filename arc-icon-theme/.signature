@@ -1,2 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwP31rgQHf98HrYsOTyBFUDQNOJh9gCzvgfL6sfKyq7ApZWiWBihLVMyJTfu+06JPh3N18Lrapp6W5rgTIk+GZwQ=
+RWSXjYMPO7mZwFl5lhET+MWz1Oc1VRHuQ5I0N1BErZeppaqx+wiM75IaAEVq2NZsLtukILdcOSbZzFZWKbE5jbfcZ3LgL0Cw1gs=
+SHA256 (Pkgfile) = 92841c7ea9384818eec84c1d2fdfef212bebfcdcba1222d08b4037c3c1711b0f
+SHA256 (.footprint) = 386579ae000859bc002838bca2b34017c6a875afce16cf1ecddbbe7bb005f5bb
+SHA256 (arc-icon-theme-20161122.tar.gz) = 0b448dde34138b12ab2d5f224f001cf8203fff55e6b19b013b0461b4376641f9

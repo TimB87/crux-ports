@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwHBPNMVEQiefUFbONF1aqf/jub7tTfTsD1359NmrOlsqOKkqESsy9ZAQy3ND/XuuQHYsUWDvhkIdTNR4aGBTVAc=
+SHA256 (Pkgfile) = 4c353ca34b87f339f4ae3ac34c7a04ca3e7c300e1f7bee84d45bc1473ecc41e6
+SHA256 (.footprint) = 73cdfd6e9d921638301ec8125028af8c82b07bea78298e90ecd66352b5f6c54d
+SHA256 (libmediainfo_18.12.tar.xz) = 976f3d42c092359769f9ed95168a2c9e661edd3afe63b8de9b4e8a2123836e4f

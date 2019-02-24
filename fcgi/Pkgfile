@@ -15,7 +15,7 @@ fcgi-2.4.0-poll.patch
 )
 
 build() {
-	cd $name-$version
+    cd $name-$version
     for i in ../*.patch; do
         patch -p1 -i $i;
     done

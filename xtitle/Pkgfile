@@ -9,7 +9,7 @@ release=1
 source=(https://github.com/baskerville/xtitle/archive/$version/$name-$version.tar.gz)
 
 build() {
-	cd $name-$version
+    cd $name-$version
     make
     PREFIX=/usr make DESTDIR=$PKG install
 }

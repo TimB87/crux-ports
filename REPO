@@ -443,12 +443,12 @@ f:aa63fd9f186f9bdc2d1b79fcae9558cc:blueman/.signature
 f:a9c254cd64825db1e71691424b70b85d:blueman/.footprint
 f:340dd54e3df4bdf512c3031359a082a2:blueman/.md5sum
 f:1939f79c1f734205f877376b79a658b6:blueman/Pkgfile
-f:bd5c1bb201597fa63b0f226ad1948b2b:st/.signature
+f:042d2291db97877fa67e9da99fe2ad87:st/.signature
+f:d1cc7660b525b1e5c46472a142eea5c3:st/combined_st-0.8.2.diff
 f:948f5ce3537ad69f4f6fbf0c6a3d4b66:st/.footprint
-f:cfbcddbe002466f005879aeadbc31a78:st/.md5sum
+f:aee8306af235b1cd8c1c80922bd88a30:st/.md5sum
 f:9725c4f72bb0907f33b625e3006ec5d8:st/README
-f:0e276db7de024d98320ffccaa52c0d08:st/combined_st-0.8.2-v2.diff
-f:e8a408d6e74592a2cdcd2e18b5524342:st/Pkgfile
+f:7822255957a22117bc9f26981e26e069:st/Pkgfile
 f:c158d313ed51022ee98d9bffdadd238d:st/st.desktop
 f:853f9ba5942bca692a5ff0a58e54ce88:consolekit2/.signature
 f:03118d459917d55e4c1598c28d73b437:consolekit2/.footprint

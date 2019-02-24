@@ -9,12 +9,12 @@ release=3
 source=(https://dl.suckless.org/st/$name-$version.tar.gz combined_st-0.8.2-v2.diff st.desktop)
 
 build (){ 
-	cd "$name-$version"
+    cd "$name-$version"
     patch -Np1 -i $SRC/combined_st-0.8.2-v2.diff
     make CC=gcc
-	make DESTDIR=$PKG PREFIX=/usr TERMINFO=$PKG/usr/share/terminfo install
-	# Remove duplicates of files from ncurses
-	rm -f $PKG/usr/share/terminfo/s/{st,st-256color}
+    make DESTDIR=$PKG PREFIX=/usr TERMINFO=$PKG/usr/share/terminfo install
+    # Remove duplicates of files from ncurses
+    rm -f $PKG/usr/share/terminfo/s/{st,st-256color}
     install -d $PKG/usr/share/applications
     install -m644 $SRC/st.desktop $PKG/usr/share/applications/st.desktop
 }

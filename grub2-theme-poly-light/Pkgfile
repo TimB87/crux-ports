@@ -16,4 +16,5 @@ build() {
     cp -R * $PKG/boot/grub/themes/poly-light
     cp unifont-regular-16.pf2 $PKG/boot/grub/themes/poly-light
     find $PKG -iname "*LICENSE*" -o -iname "*README*" -o -iname "install.sh" -delete
+    rm -fr $PKG/boot/grub/themes/poly-light/README.md
 }

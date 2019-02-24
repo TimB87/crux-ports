@@ -3,7 +3,6 @@ drwxr-xr-x	root/root	boot/grub/
 drwxr-xr-x	root/root	boot/grub/themes/
 drwxr-xr-x	root/root	boot/grub/themes/poly-light/
 -rw-r--r--	root/root	boot/grub/themes/poly-light/LICENSE
--rw-r--r--	root/root	boot/grub/themes/poly-light/README.md
 -rw-r--r--	root/root	boot/grub/themes/poly-light/background.png
 drwxr-xr-x	root/root	boot/grub/themes/poly-light/icons/
 -rw-r--r--	root/root	boot/grub/themes/poly-light/icons/antergos.png

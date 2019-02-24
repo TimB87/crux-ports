@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwBy+gEh63XYIVSFH7oUxIXb1O6Ithef3iQtLgujDu4F0Y8ijcHpVUimhvQ4HtmMyn2wyxTScxwkrbd7NT37dhw4=
-SHA256 (Pkgfile) = 8830cba87d96033082e4808f95309550065da6c6dc12b2ae94fc9d708d1e6bdf
+RWSXjYMPO7mZwIjdannM3SAyN2nWNWtFB0T1F/3KtgkgUgkNQz29kAvBb718JMj+LJCXcAKnhbL5AonIe7ii7sf6I6hU3NPpnAE=
+SHA256 (Pkgfile) = e12869d70a4c1dad0649e2ad95241f58878350042831d372f43897a213825a49
 SHA256 (.footprint) = bdab576c52fef0c948f29151e7b2fc28d8d3f291e73b5fcb6d0176f7bc70a187
 SHA256 (unifont-11.0.03.tar.gz) = 5bc12d0babacc9fb36a4fa83b2d1a0922de76db204339c82bd3f13264a853f9c

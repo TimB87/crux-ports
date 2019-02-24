@@ -2,8 +2,7 @@
 # URL: http://pulseaudio.org/
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Packager: Fredrik Rinnestam, fredrik at crux dot guru
-# Depends on: bluez5 json-c libsndfile p5-xml-parser speexdsp tdb sbc
-# Optional:	libsamplerate avahi sbc orc lirc pyqt4
+# Depends on: avahi fftw libcap libsndfile orc sbc speexdsp tdb
 
 name=pulseaudio
 version=12.2
@@ -11,40 +10,33 @@ release=1
 source=(http://freedesktop.org/software/pulseaudio/releases/pulseaudio-$version.tar.xz)
 
 build() {
-	cd $name-$version
-
+    cd $name-$version
     NOCONFIGURE=1 ./bootstrap.sh
-
     ./configure \
-		--prefix=/usr \
+        --prefix=/usr \
         --libexecdir=/usr/lib/$name \
-		--disable-nls \
-		--disable-esound \
-		--disable-x11 \
-		--disable-gtk3 \
-		--disable-oss-output \
-		--disable-oss-wrapper \
-		--disable-legacy-database-entry-format \
-		--disable-hal-compat \
-		--disable-tests \
-		--disable-bluez4 \
-		--disable-samplerate \
-		--disable-rpath \
-		--enable-bluez5 \
+        --disable-nls \
+        --disable-esound \
+        --disable-x11 \
+        --disable-gtk3 \
+        --disable-oss-output \
+        --disable-oss-wrapper \
+        --disable-legacy-database-entry-format \
+        --disable-hal-compat \
+        --disable-tests \
+        --disable-bluez4 \
+        --disable-samplerate \
+        --disable-rpath \
+        --enable-bluez5 \
         --disable-openssl \
         --with-database=tdb
-	
     # fight unused direct deps
-	sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
-
-	make
-	make DESTDIR="$PKG" install
-
-	rm -rf $PKG/etc/bash_completion.d
-	rm -f $PKG/usr/share/man/man1/start-pulseaudio-kde.1
-
-	install -D -m755 src/start-pulseaudio-x11 $PKG/usr/bin/start-pulseaudio-x11
-
-	# remove zsh completion functions
-	rm -rf $PKG/usr/share/zsh
+    sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
+    make
+    make DESTDIR="$PKG" install
+    rm -rf $PKG/etc/bash_completion.d
+    rm -f $PKG/usr/share/man/man1/start-pulseaudio-kde.1
+    install -D -m755 src/start-pulseaudio-x11 $PKG/usr/bin/start-pulseaudio-x11
+    # remove zsh completion functions
+    rm -rf $PKG/usr/share/zsh
 }

@@ -12,16 +12,14 @@ release=1
 source=(https://github.com/distcc/distcc/releases/download/v$version/distcc-$version.tar.gz)
 
 build() {
-	cd distcc
+    cd distcc
     ./autogen.sh
-	./configure \
-		--prefix=/usr \
-		--disable-nls \
-		--with-gtk
-
-	make distccmon-gnome
-	make distccmon-gnome DESTDIR=$PKG install
-
-	rm -r $PKG/usr/etc $PKG/usr/bin/{lsdistcc,pump}
-	rm -r $PKG/usr/{share/doc/,share/man,lib/python3.6,sbin/update-distcc-symlinks,bin/distcc{,d,mon-text}}
+    ./configure \
+        --prefix=/usr \
+        --disable-nls \
+        --with-gtk
+    make distccmon-gnome
+    make distccmon-gnome DESTDIR=$PKG install
+    rm -r $PKG/usr/etc $PKG/usr/bin/{lsdistcc,pump}
+    rm -r $PKG/usr/{share/doc/,share/man,lib/python3.6,sbin/update-distcc-symlinks,bin/distcc{,d,mon-text}}
 }

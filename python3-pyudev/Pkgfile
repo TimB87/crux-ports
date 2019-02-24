@@ -3,14 +3,14 @@
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: 
 
-name=python-pyudev
+name=python3-pyudev
 version=git
 release=1
 source=()
 git=(https://github.com/pyudev/pyudev.git)
 
 build() {
-    git clone $git
-	cd pyudev
+    git clone $git $name
+    cd $name
     python3 setup.py install --root $PKG --optimize=1
 }

@@ -3,7 +3,7 @@
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: bluez5
 
-name=python-pybluez
+name=python3-pybluez
 version=git
 release=1
 git=(https://github.com/pybluez/pybluez.git)
@@ -11,5 +11,5 @@ git=(https://github.com/pybluez/pybluez.git)
 build() {
   git clone $git
   cd pybluez
-  python2 setup.py install --root="$PKG"
+  python3 setup.py install --root="$PKG"
 }

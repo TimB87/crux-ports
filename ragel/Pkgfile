@@ -5,7 +5,7 @@
 
 name=ragel
 version=6.10
-release=1
+release=2
 source=(http://www.colm.net/files/$name/$name-$version.tar.gz)
 
 build() {

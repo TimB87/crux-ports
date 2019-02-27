@@ -4,18 +4,22 @@
 # Depends on: fdk-aac ffmpeg gcc glibc gnutls icu jansson lame libsndfile libva libvpx libwebp openldap qt5 speexdsp x264 x265
 
 name=obs-studio
-version=23.0.0-rc2
+version=23.0.1
 release=2
 source=(https://github.com/jp9000/obs-studio/archive/$version/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
-    mkdir build 
+    mkdir build
     cd build
     cmake -DUNIX_STRUCTURE=1 \
         -DCMAKE_INSTALL_PREFIX=/usr ..
     make
     make DESTDIR=$PKG install
     chmod 755 $PKG/usr $PKG/usr/bin $PKG/usr/lib
-    rm -f $PKG/usr/share/obs/obs-studio/authors/AUTHORS
+    find $PKG \
+      -iname "*ini" ! -iname "en-*.ini" \
+      ! -iname "locale.ini" \
+      -delete
+    rm -fr $PKG/usr/share/obs/obs-studio/authors
 }

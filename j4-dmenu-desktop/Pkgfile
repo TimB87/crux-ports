@@ -1,10 +1,10 @@
-# Description: A fast desktop menu 
+# Description: A fast desktop menu
 # URL: https://github.com/enkore/j4-dmenu-desktop
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: 
+# Depends on:
 
 name=j4-dmenu-desktop
-version=2.16
+version=2.17
 release=1
 source=(https://github.com/enkore/j4-dmenu-desktop/archive/r$version/$name-$version.tar.gz)
 git=(https://github.com/enkore/j4-dmenu-desktop.git)

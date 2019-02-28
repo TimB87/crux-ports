@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwK7+l+MchnyxBHWLCfCkorxSRck7yTKsSGp9g9GEYhw9Z0QXaC3RKGha1Zkw5fpGBXRTZMXbtlRo5XinXu7drAM=
-SHA256 (Pkgfile) = b3fffc2fcaec5209b448914dc9d6512bdcda961669f8039b0968931f81a0d655
+RWSXjYMPO7mZwGQCzVvRv3ob7h6LCUBKclHjME8spRP0LTx/HfxP3NfaEfaq5dmdxsYnRqKURFgbHFbiu955J7FFbAQgSQaSbQM=
+SHA256 (Pkgfile) = 4e6345269cba2c2bd117cccefb3b7f4f408402a18e2c0fd42c96ded2efd3e3a6
 SHA256 (.footprint) = f9131e4a1b59b24dc03729e189ef831ad28d61af07b231fa73ec3dfeeae51708
 SHA256 (lightdm-1.28.0.tar.xz) = f20f599d8d7cf90b77a2df33c6e9e615abc443123b1b228de1c20a636aecfa07
 SHA256 (Xsession) = d30321a1b490500483b8ed7825fcff2c24a7c760ac627789ff517693888ec3c5

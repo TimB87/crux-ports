@@ -5,8 +5,8 @@
 # Optional: You can use apache instead of nginx, there are other options for a sql server as well
 
 name=nextcloud
-version=15.0.4
-release=3
+version=15.0.5
+release=1
 source=(https://download.nextcloud.com/server/releases/$name-$version.tar.bz2)
 
 webuser=nginx
@@ -14,10 +14,10 @@ webgroup=nginx
 
 build() {
 	cd $name
-	
+
 	install -d $PKG/var/www/
 	cp -R $SRC/$name $PKG/var/www/.
-	
+
     chown -R $webuser:$webgroup $PKG/var/www/$name
 
     find $PKG/var/www/$name -type f -exec chmod 0640 {} \;

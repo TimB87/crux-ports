@@ -1,4 +1,4 @@
-# Description: D-Bus Python bindings  
+# Description: D-Bus Python bindings
 # URL: http://freedesktop.org/wiki/Software/DBusBindings
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: dbus-glib
@@ -9,18 +9,13 @@ release=1
 source=(http://dbus.freedesktop.org/releases/dbus-python/dbus-python-$version.tar.gz)
 
 build() {
-    cd dbus-python-$version	
-
-    mkdir build
-	cd build
-	
-    PYTHON=/usr/bin/python3 \
-        ../configure --prefix=/usr 
-	
-    sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
-
-    make
-	make DESTDIR=$PKG install
-    
-    rm -fr $PKG/usr/share
+  cd dbus-python-$version
+  mkdir build && cd build
+  PYTHON=/usr/bin/python3 \
+  ../configure --prefix=/usr
+	sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
+  make
+  make DESTDIR=$PKG install
+  rm -fr $PKG/usr/{share,include}
+  rm -r $PKG/usr/include/pkgconfig
 }

@@ -2,7 +2,7 @@
 # URL: http://pulseaudio.org/
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Packager: Fredrik Rinnestam, fredrik at crux dot guru
-# Depends on: avahi fftw libcap libsndfile orc sbc speexdsp tdb
+# Depends on: avahi bluez5 libcap libsndfile libtool orc sbc speexdsp tdb util-linux
 
 name=pulseaudio
 version=12.2

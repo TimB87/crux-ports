@@ -4,13 +4,13 @@
 # Depends on: gcc glibc graphite2 icu qt5
 
 name=qownnotes
-version=19.2.5
+version=19.3.0
 release=1
 source=(https://download.tuxfamily.org/$name/src/$name-$version.tar.xz)
 
 build() {
     cd $name-$version
-    
+
     echo "#define RELEASE \"CRUX\"" > release.h
     /usr/lib/qt5/bin/qmake \
         QMAKE_CFLAGS_RELEASE="${CFLAGS}" \

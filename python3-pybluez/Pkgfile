@@ -6,6 +6,7 @@
 name=python3-pybluez
 version=git
 release=1
+source=()
 git=(https://github.com/pybluez/pybluez.git)
 
 build() {

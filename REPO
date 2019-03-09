@@ -152,10 +152,10 @@ f:0313e0029362d4904006b87a00a495c5:xdg-desktop-portal-gtk/.signature
 f:dcab9ebde3c07144d207f24cb479d6b7:xdg-desktop-portal-gtk/.footprint
 f:8b97c5547497e74ead68219a1b60b576:xdg-desktop-portal-gtk/.md5sum
 f:d85bb9f7bac65976de36472aeca4bf9c:xdg-desktop-portal-gtk/Pkgfile
-f:4236ca511cac95199e95a4ae7e13477a:python3-pybluez/.signature
+f:d195851121c6bb365290555d9e307fa2:python3-pybluez/.signature
 f:84826ee1262e9316a5fd312c4013963e:python3-pybluez/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:python3-pybluez/.md5sum
-f:7be11bbe4de1c61dd89dd0f1f8b05940:python3-pybluez/Pkgfile
+f:8d1d4989429c01c8a4cfc520cb9b8a11:python3-pybluez/Pkgfile
 f:24f1f8c9890df39fd8458a80404dee10:fcgi/.signature
 f:bea2d2d548512be2d42a8165c09aa29c:fcgi/.footprint
 f:291d7788515cbaf148790e04c459005b:fcgi/.md5sum
@@ -217,10 +217,10 @@ f:7dba540db83fe3fc4f19d5e9ceb01cf8:gtk-theme-arc/.signature
 f:0e5d4ccedf07f546962b3b505ef63754:gtk-theme-arc/.footprint
 f:641b2c54620148da1c13d3a05a5d33b2:gtk-theme-arc/.md5sum
 f:4bf89b814f4cae6480643e8d9698718d:gtk-theme-arc/Pkgfile
-f:8e08d84823a08502864e19aadcb58d95:python-pybluez/.signature
+f:4b5f0cb5f234a1f433cfc09c94e5d05a:python-pybluez/.signature
 f:3f360604fc374066b81ac78f271336ec:python-pybluez/.footprint
 f:d41d8cd98f00b204e9800998ecf8427e:python-pybluez/.md5sum
-f:861cbe45fbbe3c3441dddc997ba2d5b7:python-pybluez/Pkgfile
+f:e8387887932f2fe5f41df6db83e0a4ab:python-pybluez/Pkgfile
 f:7f98ce87174032f4cb61bb602cd4679b:libass/.signature
 f:b1d5506e46620c0bf05a6185906f6042:libass/.footprint
 f:d4d4c759e44a222099b31ed9ad36d35a:libass/.md5sum

@@ -61,4 +61,5 @@ build() {
   # remove junk
   rm -fr $PKG/usr/share/{locale,gtk-doc,help}
   rm -fr $PKG/usr/etc/{init,apparmor.d}
+  #find $PKG -iname "accountsservice" -delete #test
 }

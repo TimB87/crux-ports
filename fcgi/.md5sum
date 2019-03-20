@@ -1,5 +1,0 @@
-8c07165aed574b853326ae25fe9af291  fcgi-2.4.0-Makefile.am-CPPFLAGS.patch
-7e901968aa90168b6cdfc8323ca59868  fcgi-2.4.0-configure.in.patch
-2e72c834db21da6af3f77dd2b36727a2  fcgi-2.4.0-gcc44_fixes.patch
-02900e5f2400ed2982db1e02c4a17aa8  fcgi-2.4.0-poll.patch
-d15060a813b91383a9f3c66faf84867e  fcgi-2.4.0.tar.gz

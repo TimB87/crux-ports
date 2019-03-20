@@ -1,7 +1,0 @@
-54ce62f0aa18ef6c5e754eaac47494ac  NetworkManager-1.14.4.tar.xz
-1653159d6634fb62d3a5c548b7a56151  NetworkManager.conf
-b722fa02f904a9c8ed0d2ec21cbfc588  dhcp.conf
-3746d7dcabbae93d842c9a1b73f6b939  disable_wifi_scan_when_connected.patch
-8959cd1832461aa0255c3a42fbc5b52f  networkmanager.rc
-3a7fb4b8ff084c1ccfaeb16e1650c574  org.freedesktop.NetworkManager.rules
-4a6fd05ae47bb208f58799b4e4e41745  polkit.conf

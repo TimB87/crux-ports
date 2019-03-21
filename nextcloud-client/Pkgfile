@@ -1,7 +1,7 @@
 # Description: Nextcloud desktop client
 # URL: https://nextcloud.com/
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: graphite2 libcloudproviders libevent libwebp pciutils qtkeychain qtwebengine qtwebkit
+# Depends on: graphite2 libevent libwebp pciutils qtkeychain qtwebengine qtwebkit
 
 name=nextcloud-client
 version=2.5.2-rc1

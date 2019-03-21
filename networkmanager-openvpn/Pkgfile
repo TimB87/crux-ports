@@ -5,13 +5,14 @@
 
 name=networkmanager-openvpn
 version=1.8.10
-release=2
+release=3
 source=(https://download.gnome.org/sources/NetworkManager-openvpn/1.8/NetworkManager-openvpn-$version.tar.xz)
 
 build() {
   cd NetworkManager-openvpn-$version
   ./configure --prefix=/usr \
     --libexecdir=/usr/lib \
+    --without-libnm-glib \
     --disable-nls
 
   make

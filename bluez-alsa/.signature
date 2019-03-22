@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwA74450R0uJDCbmt9XGXKY9xe6/rHlZegd9Dm4V0Ub2FzMNz8fG+PEE6y22Z42eQ4b/0Ol988pbVjJlZM3UUhA4=
+SHA256 (Pkgfile) = 1032e228825134fa92c1a5ea113150b3751c1f6139193cd393dcda99c2002a80
+SHA256 (.footprint) = eaad9ee71e52aab043c4b99f085a252e058d142c7ce132b4aa8590fba689077d
+SHA256 (bluez-alsa-1.3.1.tar.gz) = 29dad23877d0cf46a16e2f8d3746219e89068c33d052059caf1caaacd8b40cac

@@ -97,12 +97,6 @@ drwxr-xr-x	root/root	lib/udev/rc_keymaps/
 -rw-r--r--	root/root	lib/udev/rc_keymaps/pixelview_new.toml
 -rw-r--r--	root/root	lib/udev/rc_keymaps/powercolor_real_angel.toml
 -rw-r--r--	root/root	lib/udev/rc_keymaps/proteus_2309.toml
-drwxr-xr-x	root/root	lib/udev/rc_keymaps/protocols/
--rw-r--r--	root/root	lib/udev/rc_keymaps/protocols/grundig.o
--rw-r--r--	root/root	lib/udev/rc_keymaps/protocols/manchester.o
--rw-r--r--	root/root	lib/udev/rc_keymaps/protocols/pulse_distance.o
--rw-r--r--	root/root	lib/udev/rc_keymaps/protocols/pulse_length.o
--rw-r--r--	root/root	lib/udev/rc_keymaps/protocols/rc_mm.o
 -rw-r--r--	root/root	lib/udev/rc_keymaps/purpletv.toml
 -rw-r--r--	root/root	lib/udev/rc_keymaps/pv951.toml
 -rw-r--r--	root/root	lib/udev/rc_keymaps/rc6_mce.toml
@@ -161,7 +155,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/v4l2-sysfs-path
 drwxr-xr-x	root/root	usr/etc/
 drwxr-xr-x	root/root	usr/etc/rc_keymaps/
-drwxr-xr-x	root/root	usr/etc/rc_keymaps/protocols/
 -rw-r--r--	root/root	usr/etc/rc_maps.cfg
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/libdvbv5/

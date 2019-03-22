@@ -10,7 +10,7 @@ source=(https://github.com/NetworkManager/network-manager-applet/archive/$versio
 
 build() {
     cd $name-$version
-    
+
     mkdir build
     meson --prefix=/usr \
         --sysconfdir=/etc \
@@ -21,10 +21,10 @@ build() {
         -Dselinux=false \
         -Dmobile_broadband_provider_info=false \
         -Denable-gtk-doc=false \
-        build 
-        
+        build
+
     cd build
-    
+
     ninja
     DESTDIR=$PKG ninja install
 

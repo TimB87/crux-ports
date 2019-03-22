@@ -121,8 +121,6 @@ drwxr-xr-x	root/root	usr/lib/R/etc/
 -rw-r--r--	root/root	usr/lib/R/etc/repositories
 drwxr-xr-x	root/root	usr/lib/R/lib/
 -rwxr-xr-x	root/root	usr/lib/R/lib/libR.so
--rwxr-xr-x	root/root	usr/lib/R/lib/libRblas.so
--rwxr-xr-x	root/root	usr/lib/R/lib/libRlapack.so
 drwxr-xr-x	root/root	usr/lib/R/library/
 drwxr-xr-x	root/root	usr/lib/R/library/KernSmooth/
 -rw-r--r--	root/root	usr/lib/R/library/KernSmooth/DESCRIPTION

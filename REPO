@@ -266,6 +266,7 @@ f:920d4260cd020fe90806ccbb9f60eb7e:dunst/Pkgfile
 f:6eb76ed44c68ee8bbdc8249b7ea3dc4e:php-gd/.signature
 f:2e9563e73147712cc7d7ddb8d3567f44:php-gd/.footprint
 f:3f3e9701c975bf9e6e6694e2e48468f4:php-gd/Pkgfile
+f:edaaf6af56a6679bb4198a60d617ff28:highlight/.signature
 f:dc9db9a1b8544557d150fe48496d9f06:highlight/.footprint
 f:9126643e952117fd773f2367db965647:highlight/Pkgfile
 f:3da4a2446db4b7590aec6ab79ccfe3e4:j4-dmenu-desktop/.signature
@@ -457,10 +458,10 @@ f:d6b82c6e3fa580b3220e80b197d27cf0:v4l-utils/Pkgfile
 f:bb9cdb4e7b489771ecbdea8b959f053b:libsodium/.signature
 f:1d8aed71134444e03610fd774ffcc7b1:libsodium/.footprint
 f:f3ecf6c63b69f200830d722d022e3cf6:libsodium/Pkgfile
-f:aba7193263e1aa38dc5296f677fe81b1:network-manager-applet/.signature
+f:6531bce5154d8ec60c6b0b1d71cad980:network-manager-applet/.signature
 f:9153aeda238ce0ab157a0e311bc57e52:network-manager-applet/.footprint
 f:613ce45eb9f3cdcd030379f7405d4cf3:network-manager-applet/post-install
-f:8d0516ebf892ee2d5a152455e729afad:network-manager-applet/Pkgfile
+f:12869bddbe68e4c4288e8ada794a689f:network-manager-applet/Pkgfile
 f:ba4b494249516a6e01d5691341573773:sbc/.signature
 f:3f7b0aa5ba4695dbe98a2322c60d05cc:sbc/.footprint
 f:6c0f81632ea76c6faa645216c3202de2:sbc/Pkgfile

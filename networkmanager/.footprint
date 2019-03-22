@@ -301,7 +301,7 @@ drwxr-xr-x	root/root	usr/share/polkit-1/
 drwxr-xr-x	root/root	usr/share/polkit-1/actions/
 -rw-r--r--	root/root	usr/share/polkit-1/actions/org.freedesktop.NetworkManager.policy
 drwxr-xr-x	root/root	usr/share/polkit-1/rules.d/
--rw-r--r--	polkitd/polkitd	usr/share/polkit-1/rules.d/org.freedesktop.NetworkManager.rules
+-rw-r--r--	root/root	usr/share/polkit-1/rules.d/org.freedesktop.NetworkManager.rules
 drwxr-xr-x	root/root	usr/share/vala/
 drwxr-xr-x	root/root	usr/share/vala/vapi/
 -rw-r--r--	root/root	usr/share/vala/vapi/libnm-glib.deps

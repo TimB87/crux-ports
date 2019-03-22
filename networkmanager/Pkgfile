@@ -2,11 +2,11 @@
 # URL: https://wiki.gnome.org/Projects/NetworkManager/
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: dhcpcd libndp libnl nss openresolv polkit upower gconf libnewt
-# Optional:    ppp avahi bash-completion dbus libnl jansson libteam dnsmasq
+# Optional: ppp avahi bash-completion dbus libnl jansson libteam dnsmasq
 
 name=networkmanager
 version=1.14.4
-release=2
+release=3
 source=(
 http://ftp.gnome.org/pub/gnome/sources/NetworkManager/${version%.*}/NetworkManager-${version}.tar.xz
 networkmanager.rc
@@ -18,73 +18,71 @@ disable_wifi_scan_when_connected.patch
 )
 
 build() {
-    cd NetworkManager-$version
-    
-    patch -Np1 -i ../disable_wifi_scan_when_connected.patch
-    sed '/initrd/d' -i src/meson.build
-    
-    mkdir build
-    cd build
+  cd NetworkManager-$version
 
-    CXXFLAGS+="-O2 -fPIC" \
-    meson --prefix /usr \
-        --sysconfdir /etc \
-        --localstatedir /var \
-        --libexecdir /usr/lib/networkmanager \
-        -Ddbus_conf_dir=/usr/share/dbus-1/system.d \
-        -Dudev_dir=/lib/udev \
-        -Ddhcpcd=/sbin/dhcpcd \
-        -Dresolvconf=true \
-        -Dconfig_dns_rc_manager_default=resolvconf \
-        -Dcrypto=nss \
-        -Dintrospection=true \
-        -Dsession_tracking_consolekit=true \
-        -Dwifi=true \
-        -Dwext=true \
-        -Dpolkit=yes \
-        -Dpolkit_agent=true \
-        -Dmodify_system=true \
-        -Dlibnm_glib=true \
-        -Difupdown=true \
-        -Dnmtui=true \
-        -Dnmcli=true \
-        -Dsession_tracking=no \
-        -Db_lto=false \
-        -Dlibaudit=no \
-        -Dlibpsl=false \
-        -Dppp=false \
-        -Dofono=false \
-        -Dselinux=false \
-        -Dmodem_manager=false \
-        -Dsystemdsystemunitdir=no \
-        -Dsystemd_journal=false \
-        -Dqt=false \
-        -Ddocs=false \
-        -Dtests=no \
-        -Dmore_logging=false \
-        -Dmore_asserts=0 \
-        -Dlibpsl=false \
-        ..
-    
-    ninja
-    DESTDIR=$PKG ninja install
+  patch -Np1 -i ../disable_wifi_scan_when_connected.patch
+  sed '/initrd/d' -i src/meson.build
 
-    # Install config file
-    install -D -m 644 -o root -g root $SRC/NetworkManager.conf $PKG/etc/NetworkManager/NetworkManager.conf
-    install -D -m 644 -o root -g root $SRC/dhcp.conf $PKG/etc/NetworkManager/conf.d/dhcp.conf
-    install -D -m 644 -o root -g root $SRC/polkit.conf $PKG/etc/NetworkManager/conf.d/polkit.conf
+  mkdir build
+  cd build
 
-    # Install startup script
-    install -D -m 755 -o root -g root $SRC/$name.rc $PKG/etc/rc.d/$name
+  CXXFLAGS+="-O2 -fPIC" \
+  meson --prefix /usr \
+    --sysconfdir /etc \
+    --localstatedir /var \
+    --libexecdir /usr/lib/networkmanager \
+    -Ddbus_conf_dir=/usr/share/dbus-1/system.d \
+    -Dudev_dir=/lib/udev \
+    -Ddhcpcd=/sbin/dhcpcd \
+    -Dresolvconf=true \
+    -Dconfig_dns_rc_manager_default=resolvconf \
+    -Dcrypto=nss \
+    -Dintrospection=true \
+    -Dsession_tracking_consolekit=true \
+    -Dwifi=true \
+    -Dwext=true \
+    -Dpolkit=yes \
+    -Dpolkit_agent=true \
+    -Dmodify_system=true \
+    -Dlibnm_glib=true \
+    -Difupdown=true \
+    -Dnmtui=true \
+    -Dnmcli=true \
+    -Dsession_tracking=no \
+    -Db_lto=false \
+    -Dlibaudit=no \
+    -Dlibpsl=false \
+    -Dppp=false \
+    -Dofono=false \
+    -Dselinux=false \
+    -Dmodem_manager=false \
+    -Dsystemdsystemunitdir=no \
+    -Dsystemd_journal=false \
+    -Dqt=false \
+    -Ddocs=false \
+    -Dtests=no \
+    -Dmore_logging=false \
+    -Dmore_asserts=0 \
+    -Dlibpsl=false \
+    ..
 
-    # Remove rundir etc
-    rm -rf $PKG/var/run $PKG/usr/share/{gtk-,}doc $PKG/usr/share/man/man5/nmcli-examples.5 $PKG/usr/share/locale
+  ninja
+  DESTDIR=$PKG ninja install
 
-    # install polkit rules
-    install -D -m 644 -o polkitd -g polkitd $SRC/org.freedesktop.NetworkManager.rules $PKG/usr/share/polkit-1/rules.d/org.freedesktop.NetworkManager.rules
-    
-    # Remove bash-completion config unless it's installed
-    if [ ! -f /usr/lib/pkgconfig/bash-completion.pc ]; then
-        rm -rf $PKG/usr/share/bash-completion
-    fi
+  # Install config file
+  install -Dm 644 $SRC/NetworkManager.conf $PKG/etc/NetworkManager/NetworkManager.conf
+  install -Dm 644 $SRC/dhcp.conf $PKG/etc/NetworkManager/conf.d/dhcp.conf
+  install -Dm 644 $SRC/polkit.conf $PKG/etc/NetworkManager/conf.d/polkit.conf
+
+  # Install startup script
+  install -Dm 755 $SRC/$name.rc $PKG/etc/rc.d/$name
+
+  # Remove rundir etc
+  rm -rf $PKG/var/run $PKG/usr/share/{gtk-,}doc $PKG/usr/share/man/man5/nmcli-examples.5 $PKG/usr/share/locale
+
+  # install polkit rules
+  install -Dm 644 $SRC/org.freedesktop.NetworkManager.rules $PKG/usr/share/polkit-1/rules.d/org.freedesktop.NetworkManager.rules
+
+  # Remove bash-completion config
+  rm -rf $PKG/usr/share/bash-completion
 }

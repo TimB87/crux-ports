@@ -5,13 +5,13 @@
 
 name=lightdm
 version=1.28.0
-release=3
+release=4
 source=(
 https://github.com/CanonicalLtd/lightdm/releases/download/$version/$name-$version.tar.xz
 Xsession
 lightdm-default-config.patch
-lightdm.rules
-lightdm.service
+lightdm.rules lightdm.service
+lightdm.pam lightdm-autologin.pam lightdm-greeter.pam
 )
 
 build() {
@@ -42,17 +42,16 @@ build() {
 
   # install PAM configurations
   install -d $PKG/etc/pam.d
-  pushd data/pam
-  sed -i '/systemd/d' *
-  for i in *; do
-    install -m644 $i $PKG/etc/pam.d/;
-  done
-  popd
+  install -m644 $SRC/lightdm.pam $PKG/etc/pam.d/lightdm
+  install -m644 $SRC/lightdm-autologin.pam $PKG/etc/pam.d/lightdm-autologin
+  install -m644 $SRC/lightdm-greeter.pam $PKG/etc/pam.d/lightdm-greeter
+
+  # adjust users.conf to accept userid<500
+  sed -i 's/500/100/g' $PKG/usr/etc/lightdm/users.conf
 
   # install PolKit rules
-  install -dm 750 -g root $PKG/usr/etc/polkit-1/rules.d
-  chown polkitd $PKG/usr/etc/polkit-1/rules.d
-  install -m 644 ../lightdm.rules $PKG/usr/etc/polkit-1/rules.d/lightdm.rules
+  install -dm 750 -g root $PKG/usr/share/polkit-1/rules.d
+  install -m 644 $SRC/lightdm.rules $PKG/usr/share/polkit-1/rules.d/lightdm.rules
 
   # install rc.d service
   install -dm 755 $PKG/etc/rc.d
@@ -61,5 +60,4 @@ build() {
   # remove junk
   rm -fr $PKG/usr/share/{locale,gtk-doc,help}
   rm -fr $PKG/usr/etc/{init,apparmor.d}
-  #find $PKG -iname "accountsservice" -delete #test
 }

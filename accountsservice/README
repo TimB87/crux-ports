@@ -1,3 +1,0 @@
-accountsservice seems to harddepend on at least elogind, if
-not systemd and I am thinking about removing the port. If 
-you have interest in taking it over, leave me a message.

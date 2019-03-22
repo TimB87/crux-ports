@@ -1,0 +1,4 @@
+--with-config-dir=.config/claws-mail was added, so you need to
+`mv ~/.claws-mail ~/.config/claws-mail
+
+Keep your ~ clean.

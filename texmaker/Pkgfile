@@ -9,18 +9,17 @@ release=1
 source=(http://www.xm1math.net/$name/$name-$version.tar.bz2)
 
 build() {
-	cd $name-$version
+  cd $name-$version
 
-    /usr/lib/qt5/bin/qmake PREFIX=$PKG/usr \
-	                    DESKTOPDIR=$PKG/usr/share/ \
-	                    ICONDIR=$PKG/usr/share/pixmaps \
-	                    METAINFODIR=$PKG/usr/share/metainfo \
-	                    texmaker.pro 
+  /usr/lib/qt5/bin/qmake PREFIX=$PKG/usr \
+    DESKTOPDIR=$PKG/usr/share/applications \
+    ICONDIR=$PKG/usr/share/pixmaps \
+    METAINFODIR=$PKG/usr/share/metainfo \
+    texmaker.pro
+  make
+  make install
 
-    make
-	make install
-
-    find $PKG/usr/share/texmaker \
-	-regex '.*/\(COPYING\|.*qm\|.*aff\|.*dic\|.*txt\|.*html\|.*tmx\|README\|AUTHORS\|INSTALL\|ChangeLog\|NEWS\|TODO\).*' \
-	-delete
+  find $PKG/usr/share/texmaker \
+    -regex '.*/\(COPYING\|.*qm\|.*aff\|.*dic\|.*txt\|.*html\|.*tmx\|README\|AUTHORS\|INSTALL\|ChangeLog\|NEWS\|TODO\).*' \
+    -exec rm '{}' \+
 }

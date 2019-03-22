@@ -1,8 +1,8 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwOVrN9knhtCPHnKwtn+vMP23ZmPMFOFaCgu+PSHoZejR9wTzCSpeNyAl9SmOItXHhqIM3S6nqE9L0whmO2Uq6QU=
-SHA256 (Pkgfile) = 2c17649ff08e5605e9c5285779ade036c6eadf2eda0911cacd1e7f8b192075af
-SHA256 (.footprint) = 88c95c12fd505740978b1db7c9fca96bed6c9ae2748974538fbf49d4e509dca0
-SHA256 (NetworkManager-1.14.4.tar.xz) = 35a3ede4c7d12d6212033c9e44cb82b7692f38063b53a067567f02f5937c8c18
+RWSXjYMPO7mZwKpdcROG3lgo3A+haMBmysHMrGmbIRgIb25drg1H1R0fNfYhATkr5ma7HmQmMNaiOjb1j4zNxpy7mBXYf/XXSAE=
+SHA256 (Pkgfile) = 865f8ca3e9f2fad513b93a0044ff378f820680fe52fcede8f9932a17a4069bc0
+SHA256 (.footprint) = a05e82940f1fc70e56bb8e9aed8b1dc5a62fc28df5fbc2e2ffa456748abcd68b
+SHA256 (NetworkManager-1.16.0.tar.xz) = 8e962833b6ca03edda1bc57ed6614a7b8c2339531b44acef098d05f2324c5d2c
 SHA256 (networkmanager.rc) = dc0b743685214c0402d392a6a9b2632b19714795a04c0f42ba10026250d9f3fc
 SHA256 (NetworkManager.conf) = 44b048804c7c0b8b3b0c29b8632b6ad613c397d0a1635ec918e10c0fbcdadf21
 SHA256 (polkit.conf) = 7410be567871e4dc8ef1e8204f80b7cfd0dd08abfa514408b7d549bdc70dbaba

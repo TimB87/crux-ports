@@ -131,6 +131,7 @@ drwxr-xr-x	root/root	usr/include/libnm/
 -rw-r--r--	root/root	usr/include/libnm/nm-device-tun.h
 -rw-r--r--	root/root	usr/include/libnm/nm-device-vlan.h
 -rw-r--r--	root/root	usr/include/libnm/nm-device-vxlan.h
+-rw-r--r--	root/root	usr/include/libnm/nm-device-wifi-p2p.h
 -rw-r--r--	root/root	usr/include/libnm/nm-device-wifi.h
 -rw-r--r--	root/root	usr/include/libnm/nm-device-wimax.h
 -rw-r--r--	root/root	usr/include/libnm/nm-device-wireguard.h
@@ -183,8 +184,10 @@ drwxr-xr-x	root/root	usr/include/libnm/
 -rw-r--r--	root/root	usr/include/libnm/nm-setting-vlan.h
 -rw-r--r--	root/root	usr/include/libnm/nm-setting-vpn.h
 -rw-r--r--	root/root	usr/include/libnm/nm-setting-vxlan.h
+-rw-r--r--	root/root	usr/include/libnm/nm-setting-wifi-p2p.h
 -rw-r--r--	root/root	usr/include/libnm/nm-setting-wimax.h
 -rw-r--r--	root/root	usr/include/libnm/nm-setting-wired.h
+-rw-r--r--	root/root	usr/include/libnm/nm-setting-wireguard.h
 -rw-r--r--	root/root	usr/include/libnm/nm-setting-wireless-security.h
 -rw-r--r--	root/root	usr/include/libnm/nm-setting-wireless.h
 -rw-r--r--	root/root	usr/include/libnm/nm-setting-wpan.h
@@ -201,14 +204,15 @@ drwxr-xr-x	root/root	usr/include/libnm/
 -rw-r--r--	root/root	usr/include/libnm/nm-vpn-plugin-info.h
 -rw-r--r--	root/root	usr/include/libnm/nm-vpn-plugin-old.h
 -rw-r--r--	root/root	usr/include/libnm/nm-vpn-service-plugin.h
+-rw-r--r--	root/root	usr/include/libnm/nm-wifi-p2p-peer.h
 -rw-r--r--	root/root	usr/include/libnm/nm-wimax-nsp.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/NetworkManager/
-drwxr-xr-x	root/root	usr/lib/NetworkManager/1.14.4/
--rwxr-xr-x	root/root	usr/lib/NetworkManager/1.14.4/libnm-device-plugin-adsl.so
--rwxr-xr-x	root/root	usr/lib/NetworkManager/1.14.4/libnm-device-plugin-ovs.so
--rwxr-xr-x	root/root	usr/lib/NetworkManager/1.14.4/libnm-device-plugin-wifi.so
--rwxr-xr-x	root/root	usr/lib/NetworkManager/1.14.4/libnm-settings-plugin-ifupdown.so
+drwxr-xr-x	root/root	usr/lib/NetworkManager/1.16.0/
+-rwxr-xr-x	root/root	usr/lib/NetworkManager/1.16.0/libnm-device-plugin-adsl.so
+-rwxr-xr-x	root/root	usr/lib/NetworkManager/1.16.0/libnm-device-plugin-ovs.so
+-rwxr-xr-x	root/root	usr/lib/NetworkManager/1.16.0/libnm-device-plugin-wifi.so
+-rwxr-xr-x	root/root	usr/lib/NetworkManager/1.16.0/libnm-settings-plugin-ifupdown.so
 drwxr-xr-x	root/root	usr/lib/NetworkManager/VPN/
 drwxr-xr-x	root/root	usr/lib/NetworkManager/conf.d/
 drwxr-xr-x	root/root	usr/lib/girepository-1.0/
@@ -272,6 +276,7 @@ drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.freedesktop.NetworkManager.Device.Vlan.xml
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.freedesktop.NetworkManager.Device.Vxlan.xml
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.freedesktop.NetworkManager.Device.WiMax.xml
+-rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.freedesktop.NetworkManager.Device.WifiP2P.xml
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.freedesktop.NetworkManager.Device.WireGuard.xml
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.freedesktop.NetworkManager.Device.Wired.xml
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.freedesktop.NetworkManager.Device.Wireless.xml
@@ -287,6 +292,7 @@ drwxr-xr-x	root/root	usr/share/dbus-1/interfaces/
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.freedesktop.NetworkManager.VPN.Connection.xml
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.freedesktop.NetworkManager.VPN.Plugin.xml
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.freedesktop.NetworkManager.WiMax.Nsp.xml
+-rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.freedesktop.NetworkManager.WifiP2PPeer.xml
 -rw-r--r--	root/root	usr/share/dbus-1/interfaces/org.freedesktop.NetworkManager.xml
 drwxr-xr-x	root/root	usr/share/dbus-1/system-services/
 -rw-r--r--	root/root	usr/share/dbus-1/system-services/org.freedesktop.nm_dispatcher.service

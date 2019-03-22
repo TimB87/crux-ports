@@ -13,6 +13,7 @@ lrwxrwxrwx	root/root	usr/bin/parec -> pacat
 lrwxrwxrwx	root/root	usr/bin/parecord -> pacat
 -rwxr-xr-x	root/root	usr/bin/pasuspender
 -rwxr-xr-x	root/root	usr/bin/pulseaudio
+-rwxr-xr-x	root/root	usr/bin/qpaeq
 -rwxr-xr-x	root/root	usr/bin/start-pulseaudio-x11
 drwxr-xr-x	root/root	usr/etc/
 drwxr-xr-x	root/root	usr/etc/dbus-1/
@@ -113,6 +114,7 @@ drwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-device-manager.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-device-restore.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-echo-cancel.so
+-rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-equalizer-sink.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-filter-apply.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-filter-heuristics.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-gsettings.so

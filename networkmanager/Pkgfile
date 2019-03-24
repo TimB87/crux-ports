@@ -44,7 +44,7 @@ build() {
     -Dpolkit=true \
     -Dpolkit_agent=true \
     -Dmodify_system=true \
-    -Dlibnm_glib=true \
+    -Dlibnm_glib=false \
     -Difupdown=true \
     -Dnmtui=true \
     -Dnmcli=true \
@@ -78,7 +78,7 @@ build() {
   install -Dm 755 $SRC/$name.rc $PKG/etc/rc.d/$name
 
   # Remove rundir etc
-  rm -rf $PKG/var/run $PKG/usr/share/{gtk-,}doc $PKG/usr/share/man/man5/nmcli-examples.5 $PKG/usr/share/locale
+  rm -rf $PKG/var/run $PKG/usr/share/{gtk-,}doc $PKG/usr/share/man/man5/nmcli-examples.5 $PKG/usr/share/locale $PKG/usr/share/bash-completion
 
   # install polkit rules
   install -Dm 644 $SRC/org.freedesktop.NetworkManager.rules $PKG/usr/share/polkit-1/rules.d/org.freedesktop.NetworkManager.rules

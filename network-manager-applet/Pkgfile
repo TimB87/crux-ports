@@ -14,9 +14,9 @@ build() {
     mkdir build
     meson --prefix=/usr \
         --sysconfdir=/etc \
-        -Dlibnm_gtk=true \
         -Dteam=true \
         -Dintrospection=true \
+        -Dlibnm_gtk=false \
         -Dwwan=false \
         -Dselinux=false \
         -Dmobile_broadband_provider_info=false \

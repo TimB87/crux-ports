@@ -274,7 +274,7 @@ f:361f51be6e24a481e1bd54e1c0fbc285:j4-dmenu-desktop/.footprint
 f:9cb33d5825a5298c002ac6a9e932de78:j4-dmenu-desktop/Pkgfile
 f:13ed2e9f3712e97b56568d9db43c6646:libnewt/.signature
 f:c8056c9b2c52c82edf9b84e637d59e2a:libnewt/.footprint
-f:16fa5c74c1cd02e96473e3ec9ea7c5a1:libnewt/Pkgfile
+f:cdd43dd659161b2754a42dde91e58fb3:libnewt/Pkgfile
 f:08ce71c8281a0da5ed0a6bdbe3da2bf4:xdg-utils/.signature
 f:8770075ccb033ba438f4b8dce5f84c8a:xdg-utils/drop_obsolete_GNOME_support.patch
 f:6a7fca796dcb640f51f29ae1af6be2a1:xdg-utils/.footprint
@@ -386,7 +386,7 @@ f:03118d459917d55e4c1598c28d73b437:consolekit2/.footprint
 f:ac3f2197ebfc6b8c664abc8f1758c9b7:consolekit2/Pkgfile
 f:1d0e6b24cbbfc728d7e8da8988e6a832:qownnotes/.signature
 f:fac0e3d12a162636dea4c270f66ee6a5:qownnotes/.footprint
-f:a4d2e47b1c611b78d5e23436adae7af7:qownnotes/Pkgfile
+f:18ada91e17c99df5e62eabc7b944775a:qownnotes/Pkgfile
 f:fe7156bec482d9aad67fb4de08aa5cfc:flatpak/.signature
 f:e7e06ec8da6b6f7daee00a6b6a7abc6e:flatpak/.footprint
 f:02e3beef3b8f7b60522a8fe91176ae96:flatpak/Pkgfile

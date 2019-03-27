@@ -3,18 +3,17 @@
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: slang python popt
 
-name=libnewt 
-version=git
+name=libnewt
+version=0.52.20
 release=1
-source=()
+source=(https://releases.pagure.org/newt/newt-$version.tar.gz)
 git=(https://pagure.io/newt.git)
 
 build() {
-	git clone $git
-	cd newt
-	./autogen.sh
-	./configure --prefix=/usr --disable-nls
-	make
-	make DESTDIR=$PKG install	
-	rm -fr $PKG/usr/share/locale
+  cd newt-$version
+  ./autogen.sh
+  ./configure --prefix=/usr --disable-nls
+  make
+  make DESTDIR=$PKG install
+  rm -fr $PKG/usr/share/locale
 }

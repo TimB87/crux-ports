@@ -1,27 +1,23 @@
 # Description: KeePass Cross-Platform Community Edition
 # URL: https://keepassxc.org/
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: qt5 libgcrypt yubico-c yubikey-personalization libgpg-error llvm argon2 libsodium
+# Depends on: qt5 qrencode libgcrypt yubico-c yubikey-personalization libgpg-error llvm argon2 libsodium
 
 name=keepassxc
-version=2.3.4
+version=2.4.0
 release=1
 source=(https://github.com/keepassxreboot/keepassxc/releases/download/$version/$name-$version-src.tar.xz)
 
 build() {
-	cd $name-$version
-    mkdir build && cd build
-	cmake -DCMAKE_INSTALL_PREFIX=/usr \
-        	-DCMAKE_INSTALL_BINDIR=/usr/bin \
-        	-DCMAKE_INSTALL_LIBDIR=/usr/lib \
-        	-DCMAKE_VERBOSE_MAKEFILE=OFF \
-        	-DWITH_GUI_TESTS=OFF \
-        	-DWITH_XC_AUTOTYPE=ON \
-        	-DWITH_XC_NETWORKING=ON \
-            -DWITH_XC_YUBIKEY=ON \
-        	-DWITH_XC_SSHAGENT=ON \
-        	-DCMAKE_BUILD_TYPE=Release ..
-	make
-	make DESTDIR=$PKG install
-	rm -fr $PKG/usr/share/keepassxc/translations
+  cd $name-$version
+  mkdir build && cd build
+  cmake -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_INSTALL_BINDIR=/usr/bin \
+    -DCMAKE_INSTALL_LIBDIR=/usr/lib \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DWITH_XC_ALL=ON \
+    ..
+  make
+  make DESTDIR=$PKG install
+  rm -fr $PKG/usr/share/keepassxc/translations
 }

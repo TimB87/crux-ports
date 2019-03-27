@@ -18,6 +18,7 @@ d:libmediainfo
 d:light-locker-settings
 d:kvantum
 d:gtk-theme-arc
+d:qrencode
 d:python-pybluez
 d:libass
 d:xorg-cursor-openzone
@@ -156,9 +157,8 @@ f:7e901968aa90168b6cdfc8323ca59868:fcgi/fcgi-2.4.0-configure.in.patch
 f:35f4256fbdfc1f74b90eeb875291f82a:fcgi/Pkgfile
 f:2e72c834db21da6af3f77dd2b36727a2:fcgi/fcgi-2.4.0-gcc44_fixes.patch
 f:9eaddbe50415c7aaabe7006075c73561:keepassxc/.signature
-f:aa6ff8a2b0f57154725d326124ac623d:keepassxc/.footprint
-f:d5616374214ee7372005da4e0dd0bde8:keepassxc/Pkgfile
-f:493b9545fb9aaeece77574c1a4a4e082:keepassxc/keepassxc-2.3.3-qt-5.11-edit-entry-widget-includes.patch
+f:e7e23a4eaaae851c6e32fe8236d22e2f:keepassxc/.footprint
+f:909963702350094d9ef1223ed3f5d253:keepassxc/Pkgfile
 f:2147916572967d9c748a446a614c352f:bluez-alsa/.signature
 f:f07cde0864ccae6508aa548a464ca5e6:bluez-alsa/.footprint
 f:d39c9a23072dd14cf994a97a09ae8a34:bluez-alsa/Pkgfile
@@ -196,6 +196,10 @@ f:04c8f75a6a701d4434f185793556fcbb:kvantum/Pkgfile
 f:7dba540db83fe3fc4f19d5e9ceb01cf8:gtk-theme-arc/.signature
 f:0e5d4ccedf07f546962b3b505ef63754:gtk-theme-arc/.footprint
 f:4bf89b814f4cae6480643e8d9698718d:gtk-theme-arc/Pkgfile
+f:fd06a90f045659692b67212b14bebebf:qrencode/.signature
+f:337b1a140a2f9f0ecc377e3093aaca41:qrencode/.footprint
+f:bb0a68199e594b078f57ce508bf6466c:qrencode/.md5sum
+f:15a8633bbe45108dbac3296cfbaf6db6:qrencode/Pkgfile
 f:4b5f0cb5f234a1f433cfc09c94e5d05a:python-pybluez/.signature
 f:3f360604fc374066b81ac78f271336ec:python-pybluez/.footprint
 f:e8387887932f2fe5f41df6db83e0a4ab:python-pybluez/Pkgfile
@@ -272,9 +276,9 @@ f:9126643e952117fd773f2367db965647:highlight/Pkgfile
 f:3da4a2446db4b7590aec6ab79ccfe3e4:j4-dmenu-desktop/.signature
 f:361f51be6e24a481e1bd54e1c0fbc285:j4-dmenu-desktop/.footprint
 f:9cb33d5825a5298c002ac6a9e932de78:j4-dmenu-desktop/Pkgfile
-f:13ed2e9f3712e97b56568d9db43c6646:libnewt/.signature
+f:31f0581b89f8759c1bbe349a4216a602:libnewt/.signature
 f:c8056c9b2c52c82edf9b84e637d59e2a:libnewt/.footprint
-f:cdd43dd659161b2754a42dde91e58fb3:libnewt/Pkgfile
+f:92a882e65c1d97479dd4bb1b5fb4c490:libnewt/Pkgfile
 f:08ce71c8281a0da5ed0a6bdbe3da2bf4:xdg-utils/.signature
 f:8770075ccb033ba438f4b8dce5f84c8a:xdg-utils/drop_obsolete_GNOME_support.patch
 f:6a7fca796dcb640f51f29ae1af6be2a1:xdg-utils/.footprint

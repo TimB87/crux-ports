@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwN85dVCUXsZ+WzlJg0g/uov37SsyJc6y15Yl/V3n9TYcgSU7dfqF3voUVW1MXMBGReYCqUjmg2jry7I1/aSYKAA=
-SHA256 (Pkgfile) = a65a6191a5fed2fd35af09ab80f15ca654db1e7dd714f6a991282531941e765c
+RWSXjYMPO7mZwLYd0Y/4N87hnfz8ms/9o/KmfMpDO2AIn//JrNEXf+V+xuXcQmPqhlAswoj4VUpY1yRamu3SIUY4P0/fO/aSxAc=
+SHA256 (Pkgfile) = 3736f42c07f9583b2e7d97ca22e935d4da6c9a8b4b571b0b9004510aa2245350
 SHA256 (.footprint) = 5e444186454a276de56288fb7ebc407b1ee2b3ac37fbf101a172fd8c6e7e9983
-SHA256 (dunst-v1.3.2.tar.gz) = aab6e8fb1105a64153eee1db85d00ddb807994f03f7222aa46d40e3f3846d28a
+SHA256 (dunst-v1.4.0.tar.gz) = 943c465ae2fdafeb6d611cd9b76ffaa3030a094b08b9185d234017f3f7654177

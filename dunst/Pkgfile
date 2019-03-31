@@ -4,7 +4,7 @@
 # Depends on: libxdg-basedir
 
 name=dunst
-version=1.3.2
+version=1.4.0
 release=1
 source=(https://github.com/dunst-project/$name/archive/v$version/$name-v$version.tar.gz)
 

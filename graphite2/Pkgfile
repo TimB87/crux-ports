@@ -11,18 +11,18 @@ release=1
 source=(https://github.com/silnrsi/graphite/releases/download/$version/$name-$version.tgz)
 
 build() {
-	mkdir build
-	cd build
+  mkdir build
+  cd build
 
-	cmake -G "Unix Makefiles" $SRC/$name-$version \
-		-DCMAKE_C_FLAGS:STRING="$CFLAGS" \
-		-DCMAKE_CXX_FLAGS:STRING="$CXXFLAGS" \
-		-DCMAKE_INSTALL_PREFIX=/usr \
-		-DCMAKE_BUILD_TYPE:STRING=Release \
-		-DGRAPHITE2_COMPARE_RENDERER=OFF
+  cmake -G "Unix Makefiles" $SRC/$name-$version \
+    -DCMAKE_C_FLAGS:STRING="$CFLAGS" \
+    -DCMAKE_CXX_FLAGS:STRING="$CXXFLAGS" \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_BUILD_TYPE:STRING=Release \
+    -DGRAPHITE2_COMPARE_RENDERER=OFF
 
-	find . -type f ! -name "rules" ! -name "changelog" -exec sed -i -e 's/\-03//g' {} \;
+  find . -type f ! -name "rules" ! -name "changelog" -exec sed -i -e 's/\-03//g' {} \;
 
-	make
-	make DESTDIR=$PKG install
+  make
+  make DESTDIR=$PKG install
 }

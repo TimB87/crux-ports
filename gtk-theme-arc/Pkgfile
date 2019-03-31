@@ -5,8 +5,8 @@
 # Optional: arc-icon-theme
 
 name=gtk-theme-arc
-version=20190213
-release=2
+version=20190330
+release=1
 source=(https://github.com/NicoHood/arc-theme/archive/$version/arc-theme-$version.tar.gz)
 
 build() {
@@ -20,5 +20,4 @@ build() {
     --disable-plank
   make
   make DESTDIR=$PKG install
-  #rm -fr $PKG/usr/share/themes/*/cinnamon
 }

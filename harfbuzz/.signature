@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwIjfK0h9UBhsqpntOe4uAA514pEZRtLS7seIvzxz73q2VLfHrpA9UE1qExgigTdDyu8+8YVshsSDO+Dpr66prQE=
-SHA256 (Pkgfile) = c09a4fc59c6e6dfa561c4bce890e7582832c74a37e7c01ce232950f4390097dc
-SHA256 (.footprint) = f9fbfd8f04aef468fbb8fbeb290e5a22d09baef80e20191c58bf408e8f1c0068
-SHA256 (harfbuzz-2.3.1.tar.bz2) = f205699d5b91374008d6f8e36c59e419ae2d9a7bb8c5d9f34041b9a5abcae468
+RWSXjYMPO7mZwLAYyA9x9dNnMMMRYBZKzgNbB11/G940zN+131zABsXckbKGxzHO+apsOWLZxGwUWIq3qz//6+EPNcT/tgK1Qg8=
+SHA256 (Pkgfile) = 5e4753f9be50dcc0c0b5061e845b4737203175dfd20583a0049608193aad5f2b
+SHA256 (.footprint) = a65537d4b51a8b2ae0e16d4844fffd8758dbbd4e553cb32a88dfb0c4c744fce6
+SHA256 (harfbuzz-2.4.0.tar.bz2) = 9035005903da74667d28bb181986e879e11da3d5986722759fa145cca781ead6

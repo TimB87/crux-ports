@@ -5,7 +5,7 @@
 # Optional: You can use apache instead of nginx, there are other options for a sql server as well
 
 name=nextcloud
-version=15.0.5
+version=15.0.6
 release=1
 source=(https://download.nextcloud.com/server/releases/$name-$version.tar.bz2)
 

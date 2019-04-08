@@ -4,14 +4,14 @@
 # Depends on:
 
 name=font-ibm-plex
-version=1.2.3
+version=1.4.1
 release=1
 source=(https://github.com/IBM/plex/archive/v$version/plex-v$version.tar.gz)
 
 build() {
     cd plex-$version
     install -d $PKG/usr/share/fonts/IBM-Plex
-    
+
     for i in IBM-Plex-*/fonts/complete/ttf/*.ttf;
         do install -m644 $i $PKG/usr/share/fonts/IBM-Plex;
     done

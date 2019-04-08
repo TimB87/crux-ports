@@ -6,40 +6,40 @@
 
 name=distcc
 version=3.3.2
-release=3
+release=4
 source=(https://github.com/distcc/distcc/archive/$name-$version.tar.gz distccd)
 
 build() {
-    cd $name
-    ./autogen.sh
-    ./configure \
-        --prefix=/usr \
-        --mandir=/usr/share/man \
-        --enable-rfc2553 \
-        --without-gnome \
-        --without-gtk \
-        --disable-Werror \
-        --with-included-popt
-    make WERROR_CFLAGS= INCLUDESERVER_PYTHON=/usr/bin/python
-    make DESTDIR=$PKG \
-        INCLUDESERVER_PYTHON=/usr/bin/python \
-        install
-    # distccd should be in sbin
-    install -d $PKG/usr/sbin
-    mv $PKG/usr/bin/distccd $PKG/usr/sbin/distccd
-    # install service
-    install -m 0755 -D $SRC/distccd $PKG/etc/rc.d/distccd
-    # create the masquerade directory
-    install -d $PKG/usr/lib/distcc
-    cd $PKG/usr/lib/distcc
-    for c in cc c++ gcc g++ cpp; do
-        ln -s ../../bin/distcc $c
-    done
-    cd -
-    rm -rf $PKG/usr/share/doc $PKG/usr/etc/default $PKG/usr/etc/distcc
-    rmdir $PKG/usr/etc
-    # python is required for pump mode
-    if [ "$(prt-get isinst python)" = 'package python is not installed' ]; then
-        rm $PKG/usr/share/man/man1/{pump,include_server}.1
-    fi
+  cd $name
+  ./autogen.sh
+  ./configure \
+    --prefix=/usr \
+    --mandir=/usr/share/man \
+    --enable-rfc2553 \
+    --without-gnome \
+    --without-gtk \
+    --disable-Werror \
+    --with-included-popt
+  make WERROR_CFLAGS= INCLUDESERVER_PYTHON=/usr/bin/python3
+  make DESTDIR=$PKG \
+    INCLUDESERVER_PYTHON=/usr/bin/python3 \
+    install
+  # distccd should be in sbin
+  install -d $PKG/usr/sbin
+  mv $PKG/usr/bin/distccd $PKG/usr/sbin/distccd
+  # install service
+  install -m 0755 -D $SRC/distccd $PKG/etc/rc.d/distccd
+  # create the masquerade directory
+  install -d $PKG/usr/lib/distcc
+  cd $PKG/usr/lib/distcc
+  for c in cc c++ gcc g++ cpp; do
+    ln -s ../../bin/distcc $c
+  done
+  cd -
+  rm -rf $PKG/usr/share/doc $PKG/usr/etc/default $PKG/usr/etc/distcc
+  rmdir $PKG/usr/etc
+  # python is required for pump mode
+  if [ "$(prt-get isinst python)" = 'package python is not installed' ]; then
+    rm $PKG/usr/share/man/man1/{pump,include_server}.1
+  fi
 }

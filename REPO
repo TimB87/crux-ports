@@ -291,10 +291,10 @@ f:2613e820676d14af515406931ae86a94:pulseaudio/.signature
 f:f25e025d7f1f59e8bb90d38ea94fe98c:pulseaudio/.footprint
 f:f342b41cea5f64636f02e0b6bb95c1b8:pulseaudio/Pkgfile
 f:39518368836423cb843631bfde9846bd:pulseaudio/pre-install
-f:8e16332bcc6d5a4771e1fd01676a7da2:nextcloud/.signature
+f:83f909a2dd8bb3e09e117bb15a9cef77:nextcloud/.signature
 f:b500f1d9e045c297cefc76d16b189675:nextcloud/.footprint
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README
-f:ead19e1344a1333a8150191b79533dbd:nextcloud/Pkgfile
+f:80871f54e3eb3debe5c29672c028aebd:nextcloud/Pkgfile
 f:201580558c8208873a5a91f4c4808011:mono/.signature
 f:4dff6c51a7cd99c5bc36853d6d1b3325:mono/.footprint
 f:2b2c05fa56a24fc5fb8c74252c8bdb32:mono/Pkgfile

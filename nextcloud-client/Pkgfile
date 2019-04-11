@@ -4,7 +4,7 @@
 # Depends on: graphite2 libevent libwebp pciutils qtkeychain qtwebengine qtwebkit
 
 name=nextcloud-client
-version=2.5.2-rc1
+version=2.5.2
 release=1
 source=(https://github.com/nextcloud/desktop/archive/v$version/$name-$version.tar.gz)
 

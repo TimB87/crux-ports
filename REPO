@@ -470,9 +470,9 @@ f:87bb15e03a2537c0c7c755dadef10a3a:network-manager-applet/Pkgfile
 f:ba4b494249516a6e01d5691341573773:sbc/.signature
 f:3f7b0aa5ba4695dbe98a2322c60d05cc:sbc/.footprint
 f:6c0f81632ea76c6faa645216c3202de2:sbc/Pkgfile
-f:71418fc1219cebc2e2930703f5c6da14:nextcloud-client/.signature
+f:a0c16c6d7c764576d664ac8315c0f0f9:nextcloud-client/.signature
 f:d86962ad1c3c0ecae52e38e73306e5a1:nextcloud-client/.footprint
-f:adceacaec05b3135aa42e38ce78d11c0:nextcloud-client/Pkgfile
+f:edf746f2fc62d16f5bd0b646c4c03aa2:nextcloud-client/Pkgfile
 f:2e462c3c849fe8b77cd41192aa97fdd2:faba-mono-icon-theme/.signature
 f:48ab50e3e2e0bdf5c5ea34fe52b444cd:faba-mono-icon-theme/.footprint
 f:9cd906d9823049112cd5038f1fe1551e:faba-mono-icon-theme/post-install

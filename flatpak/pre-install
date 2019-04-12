@@ -1,0 +1,7 @@
+#!/bin/sh
+
+getent group flatpak || /usr/sbin/groupadd -g 90 polkitd
+
+getent passwd flatpak || /usr/sbin/useradd -g polkitd -u 90 -d /var/empty -s /bin/false -c "flatpak User" polkitd
+
+/usr/bin/passwd -l flatpak

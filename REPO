@@ -392,9 +392,9 @@ f:ac3f2197ebfc6b8c664abc8f1758c9b7:consolekit2/Pkgfile
 f:05550ca5e69a8c46aaae8a05a5d51cdc:qownnotes/.signature
 f:fac0e3d12a162636dea4c270f66ee6a5:qownnotes/.footprint
 f:f190e6faeb7c9be2163c4bef630c7b28:qownnotes/Pkgfile
-f:37d48ab4570c7ec4a1e47a2ecafc4724:flatpak/.signature
-f:11d2cb1ef8e56fac86541ea0b4ab8e12:flatpak/.footprint
-f:0ddc499dae01f62a9099f7de21fa97e0:flatpak/Pkgfile
+f:41baf85ea31e37f4f3e76f16658f529c:flatpak/.signature
+f:7841f42eef7c4cbc05cdb4e8e92c8c57:flatpak/.footprint
+f:50711ac1ebc4ce7ed91aec2d79149bca:flatpak/Pkgfile
 f:7c384afa65772eeb01265497f6722211:lightdm-mini-greeter/.signature
 f:aaa8d45a38f125ebaf99b2bf0430d3b6:lightdm-mini-greeter/.footprint
 f:f08a02f4b3644d7a0e26e4ac9957eaaf:lightdm-mini-greeter/Pkgfile

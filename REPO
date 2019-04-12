@@ -395,7 +395,7 @@ f:f190e6faeb7c9be2163c4bef630c7b28:qownnotes/Pkgfile
 f:41baf85ea31e37f4f3e76f16658f529c:flatpak/.signature
 f:7841f42eef7c4cbc05cdb4e8e92c8c57:flatpak/.footprint
 f:50711ac1ebc4ce7ed91aec2d79149bca:flatpak/Pkgfile
-f:1d344b82c093337d8020d575a67f160f:flatpak/pre-install
+f:1863aea1513ff08a4c9605c6cc3f204c:flatpak/pre-install
 f:7c384afa65772eeb01265497f6722211:lightdm-mini-greeter/.signature
 f:aaa8d45a38f125ebaf99b2bf0430d3b6:lightdm-mini-greeter/.footprint
 f:f08a02f4b3644d7a0e26e4ac9957eaaf:lightdm-mini-greeter/Pkgfile

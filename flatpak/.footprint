@@ -33,12 +33,13 @@ drwxr-xr-x	root/root	usr/lib/flatpak/
 -rwxr-xr-x	root/root	usr/lib/flatpak/flatpak-session-helper
 -rwxr-xr-x	root/root	usr/lib/flatpak/flatpak-system-helper
 -rwxr-xr-x	root/root	usr/lib/flatpak/flatpak-validate-icon
+-rwxr-xr-x	root/root	usr/lib/flatpak/revokefs-fuse
 drwxr-xr-x	root/root	usr/lib/girepository-1.0/
 -rw-r--r--	root/root	usr/lib/girepository-1.0/Flatpak-1.0.typelib
 -rwxr-xr-x	root/root	usr/lib/libflatpak.la
-lrwxrwxrwx	root/root	usr/lib/libflatpak.so -> libflatpak.so.0.10301.0
-lrwxrwxrwx	root/root	usr/lib/libflatpak.so.0 -> libflatpak.so.0.10301.0
--rwxr-xr-x	root/root	usr/lib/libflatpak.so.0.10301.0
+lrwxrwxrwx	root/root	usr/lib/libflatpak.so -> libflatpak.so.0.10302.0
+lrwxrwxrwx	root/root	usr/lib/libflatpak.so.0 -> libflatpak.so.0.10302.0
+-rwxr-xr-x	root/root	usr/lib/libflatpak.so.0.10302.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/flatpak.pc
 drwxr-xr-x	root/root	usr/share/

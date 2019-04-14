@@ -4,15 +4,13 @@
 # Depends on:
 
 name=libsodium
-version=1.0.16
+version=1.0.17
 release=1
 source=(https://github.com/jedisct1/libsodium/releases/download/$version/$name-$version.tar.gz)
 
 build() {
-	cd $name-$version
-
-    ./configure --prefix=/usr
-
-    make
-    make DESTDIR=$PKG install
+  cd $name-$version
+  ./configure --prefix=/usr
+  make
+  make DESTDIR=$PKG install
 }

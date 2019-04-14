@@ -56,6 +56,7 @@ drwxr-xr-x	root/root	usr/share/highlight/langDefs/
 -rw-r--r--	root/root	usr/share/highlight/langDefs/coldfusion.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/conf.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/crk.lang
+-rw-r--r--	root/root	usr/share/highlight/langDefs/crystal.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/cs_block_regex.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/csharp.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/css.lang
@@ -195,10 +196,12 @@ drwxr-xr-x	root/root	usr/share/highlight/langDefs/
 -rw-r--r--	root/root	usr/share/highlight/langDefs/ruby.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/s.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/sas.lang
+-rw-r--r--	root/root	usr/share/highlight/langDefs/scad.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/scala.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/scilab.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/scss.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/sh.lang
+-rw-r--r--	root/root	usr/share/highlight/langDefs/slim.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/small.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/smalltalk.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/sml.lang

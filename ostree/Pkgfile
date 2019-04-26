@@ -4,7 +4,7 @@
 # Depends on: avahi fuse gpgme keyutils libsoup
 
 name=ostree
-version=2019.1
+version=2019.2
 release=1
 source=(https://github.com/ostreedev/ostree/releases/download/v$version/libostree-$version.tar.xz)
 
@@ -17,7 +17,7 @@ build() {
 		--with-builtin-grub2-mkconfig \
 		--enable-experimental-api \
 		--disable-static
-	
+
 	make
 	make DESTDIR=$PKG install
 

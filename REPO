@@ -540,9 +540,9 @@ f:22a44bd44c9598917bd8b779f2fc2925:solaar/Pkgfile
 f:b295e93dd782a1ccb864effd24d58686:slang/.signature
 f:2f163bdf2626f50a3034096f25871fb5:slang/.footprint
 f:e013e93c23c8b6b82fbb25117a5fbb9f:slang/Pkgfile
-f:13ae550217c5065f34eeb27d61fced75:ostree/.signature
+f:0d2f3173fed45e997732eba2e0001812:ostree/.signature
 f:180534dc7e92c9391cbd09665c783ad2:ostree/.footprint
-f:7737db6e4a4929e35f17573c7fcdb4b2:ostree/Pkgfile
+f:f23a6f32815d0d47c1367fc56df64590:ostree/Pkgfile
 f:7eb1c02d69d99f0b06832eab54252894:gsimplecal/.signature
 f:97c574f9e92d1194c1004ac45742d6a6:gsimplecal/.footprint
 f:521f2da5924471fc040bda1bfa65c805:gsimplecal/Pkgfile

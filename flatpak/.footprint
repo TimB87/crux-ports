@@ -6,10 +6,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/flatpak
 -rwxr-xr-x	root/root	usr/bin/flatpak-bisect
 -rwxr-xr-x	root/root	usr/bin/flatpak-coredumpctl
-drwxr-xr-x	root/root	usr/etc/
-drwxr-xr-x	root/root	usr/etc/dbus-1/
-drwxr-xr-x	root/root	usr/etc/dbus-1/system.d/
--rw-r--r--	root/root	usr/etc/dbus-1/system.d/org.freedesktop.Flatpak.SystemHelper.conf
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/flatpak/
 -rw-r--r--	root/root	usr/include/flatpak/flatpak-bundle-ref.h
@@ -27,21 +23,20 @@ drwxr-xr-x	root/root	usr/include/flatpak/
 -rw-r--r--	root/root	usr/include/flatpak/flatpak-version-macros.h
 -rw-r--r--	root/root	usr/include/flatpak/flatpak.h
 drwxr-xr-x	root/root	usr/lib/
-drwxr-xr-x	root/root	usr/lib/flatpak/
--rwxr-xr-x	root/root	usr/lib/flatpak/flatpak-dbus-proxy
--rwxr-xr-x	root/root	usr/lib/flatpak/flatpak-portal
--rwxr-xr-x	root/root	usr/lib/flatpak/flatpak-session-helper
--rwxr-xr-x	root/root	usr/lib/flatpak/flatpak-system-helper
--rwxr-xr-x	root/root	usr/lib/flatpak/flatpak-validate-icon
--rwxr-xr-x	root/root	usr/lib/flatpak/revokefs-fuse
+-rwxr-xr-x	root/root	usr/lib/flatpak-dbus-proxy
+-rwxr-xr-x	root/root	usr/lib/flatpak-portal
+-rwxr-xr-x	root/root	usr/lib/flatpak-session-helper
+-rwxr-xr-x	root/root	usr/lib/flatpak-system-helper
+-rwxr-xr-x	root/root	usr/lib/flatpak-validate-icon
 drwxr-xr-x	root/root	usr/lib/girepository-1.0/
 -rw-r--r--	root/root	usr/lib/girepository-1.0/Flatpak-1.0.typelib
 -rwxr-xr-x	root/root	usr/lib/libflatpak.la
-lrwxrwxrwx	root/root	usr/lib/libflatpak.so -> libflatpak.so.0.10302.0
-lrwxrwxrwx	root/root	usr/lib/libflatpak.so.0 -> libflatpak.so.0.10302.0
--rwxr-xr-x	root/root	usr/lib/libflatpak.so.0.10302.0
+lrwxrwxrwx	root/root	usr/lib/libflatpak.so -> libflatpak.so.0.10303.0
+lrwxrwxrwx	root/root	usr/lib/libflatpak.so.0 -> libflatpak.so.0.10303.0
+-rwxr-xr-x	root/root	usr/lib/libflatpak.so.0.10303.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/flatpak.pc
+-rwxr-xr-x	root/root	usr/lib/revokefs-fuse
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/bash-completion/
 drwxr-xr-x	root/root	usr/share/bash-completion/completions/
@@ -55,10 +50,8 @@ drwxr-xr-x	root/root	usr/share/dbus-1/services/
 -rw-r--r--	root/root	usr/share/dbus-1/services/org.freedesktop.portal.Flatpak.service
 drwxr-xr-x	root/root	usr/share/dbus-1/system-services/
 -rw-r--r--	root/root	usr/share/dbus-1/system-services/org.freedesktop.Flatpak.SystemHelper.service
-drwxr-xr-x	root/root	usr/share/doc/
-drwxr-xr-x	root/root	usr/share/doc/flatpak/
--rw-r--r--	root/root	usr/share/doc/flatpak/docbook.css
--rw-r--r--	root/root	usr/share/doc/flatpak/flatpak-docs.html
+drwxr-xr-x	root/root	usr/share/dbus-1/system.d/
+-rw-r--r--	root/root	usr/share/dbus-1/system.d/org.freedesktop.Flatpak.SystemHelper.conf
 drwxr-xr-x	root/root	usr/share/flatpak/
 drwxr-xr-x	root/root	usr/share/flatpak/triggers/
 -rwxr-xr-x	root/root	usr/share/flatpak/triggers/desktop-database.trigger

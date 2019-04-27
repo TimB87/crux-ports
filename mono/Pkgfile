@@ -5,8 +5,8 @@
 # Depends on:
 
 name=mono
-version=5.18.0.240
-release=2
+version=5.20.1.19
+release=1
 source=(http://download.mono-project.com/sources/$name/$name-$version.tar.bz2)
 build() {
     cd $name-$version
@@ -15,7 +15,7 @@ build() {
         --with-mcs-docs=no \
         --disable-crash-reporting \
         --disable-support-build \
-        --disable-nls 
+        --disable-nls
     make
     make DESTDIR=$PKG MANDIR=/usr/man install
     rm -fr $PKG/usr/share/locale

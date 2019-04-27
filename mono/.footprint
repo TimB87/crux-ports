@@ -160,6 +160,7 @@ drwxr-xr-x	root/root	usr/include/mono-2.0/mono/utils/
 -rw-r--r--	root/root	usr/include/mono-2.0/mono/utils/mono-counters.h
 -rw-r--r--	root/root	usr/include/mono-2.0/mono/utils/mono-dl-fallback.h
 -rw-r--r--	root/root	usr/include/mono-2.0/mono/utils/mono-error.h
+-rw-r--r--	root/root	usr/include/mono-2.0/mono/utils/mono-forward.h
 -rw-r--r--	root/root	usr/include/mono-2.0/mono/utils/mono-jemalloc.h
 -rw-r--r--	root/root	usr/include/mono-2.0/mono/utils/mono-logger.h
 -rw-r--r--	root/root	usr/include/mono-2.0/mono/utils/mono-publib.h
@@ -173,6 +174,11 @@ lrwxrwxrwx	root/root	usr/lib/libmono-2.0.so -> libmonosgen-2.0.so
 lrwxrwxrwx	root/root	usr/lib/libmono-2.0.so.1 -> libmonosgen-2.0.so.1
 lrwxrwxrwx	root/root	usr/lib/libmono-2.0.so.1.0.0 -> libmonosgen-2.0.so.1.0.0
 -rwxr-xr-x	root/root	usr/lib/libmono-btls-shared.so
+-rw-r--r--	root/root	usr/lib/libmono-native.a
+-rwxr-xr-x	root/root	usr/lib/libmono-native.la
+lrwxrwxrwx	root/root	usr/lib/libmono-native.so -> libmono-native.so.0.0.0
+lrwxrwxrwx	root/root	usr/lib/libmono-native.so.0 -> libmono-native.so.0.0.0
+-rwxr-xr-x	root/root	usr/lib/libmono-native.so.0.0.0
 -rw-r--r--	root/root	usr/lib/libmono-profiler-aot-static.a
 -rwxr-xr-x	root/root	usr/lib/libmono-profiler-aot-static.la
 -rw-r--r--	root/root	usr/lib/libmono-profiler-aot.a
@@ -194,11 +200,6 @@ lrwxrwxrwx	root/root	usr/lib/libmono-profiler-coverage.so.0 -> libmono-profiler-
 lrwxrwxrwx	root/root	usr/lib/libmono-profiler-log.so -> libmono-profiler-log.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libmono-profiler-log.so.0 -> libmono-profiler-log.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libmono-profiler-log.so.0.0.0
--rw-r--r--	root/root	usr/lib/libmono-system-native.a
--rwxr-xr-x	root/root	usr/lib/libmono-system-native.la
-lrwxrwxrwx	root/root	usr/lib/libmono-system-native.so -> libmono-system-native.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libmono-system-native.so.0 -> libmono-system-native.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libmono-system-native.so.0.0.0
 -rw-r--r--	root/root	usr/lib/libmonoboehm-2.0.a
 -rwxr-xr-x	root/root	usr/lib/libmonoboehm-2.0.la
 lrwxrwxrwx	root/root	usr/lib/libmonoboehm-2.0.so -> libmonoboehm-2.0.so.1.0.0
@@ -2848,9 +2849,9 @@ drwxr-xr-x	root/root	usr/lib/mono/gac/Mono.Cairo/4.0.0.0__0738eb9f132ed756/
 -rw-r--r--	root/root	usr/lib/mono/gac/Mono.Cairo/4.0.0.0__0738eb9f132ed756/Mono.Cairo.dll
 -rw-r--r--	root/root	usr/lib/mono/gac/Mono.Cairo/4.0.0.0__0738eb9f132ed756/Mono.Cairo.pdb
 drwxr-xr-x	root/root	usr/lib/mono/gac/Mono.Cecil/
-drwxr-xr-x	root/root	usr/lib/mono/gac/Mono.Cecil/0.10.0.0__0738eb9f132ed756/
--rw-r--r--	root/root	usr/lib/mono/gac/Mono.Cecil/0.10.0.0__0738eb9f132ed756/Mono.Cecil.dll
--rw-r--r--	root/root	usr/lib/mono/gac/Mono.Cecil/0.10.0.0__0738eb9f132ed756/Mono.Cecil.pdb
+drwxr-xr-x	root/root	usr/lib/mono/gac/Mono.Cecil/0.10.3.0__0738eb9f132ed756/
+-rw-r--r--	root/root	usr/lib/mono/gac/Mono.Cecil/0.10.3.0__0738eb9f132ed756/Mono.Cecil.dll
+-rw-r--r--	root/root	usr/lib/mono/gac/Mono.Cecil/0.10.3.0__0738eb9f132ed756/Mono.Cecil.pdb
 drwxr-xr-x	root/root	usr/lib/mono/gac/Mono.Cecil/0.9.5.0__0738eb9f132ed756/
 -rw-r--r--	root/root	usr/lib/mono/gac/Mono.Cecil/0.9.5.0__0738eb9f132ed756/Mono.Cecil.dll
 -rw-r--r--	root/root	usr/lib/mono/gac/Mono.Cecil/0.9.5.0__0738eb9f132ed756/Mono.Cecil.pdb

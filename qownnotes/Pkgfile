@@ -4,7 +4,7 @@
 # Depends on: gcc glibc graphite2 icu qt5
 
 name=qownnotes
-version=19.4.1
+version=19.4.5
 release=1
 source=(https://download.tuxfamily.org/$name/src/$name-$version.tar.xz)
 

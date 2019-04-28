@@ -5,55 +5,58 @@
 
 name=consolekit2
 version=1.2.1
-release=1
-source=(https://github.com/ConsoleKit2/ConsoleKit2/releases/download/$version/ConsoleKit2-$version.tar.bz2)
-
+release=2
+source=(https://github.com/ConsoleKit2/ConsoleKit2/releases/download/1.2.1/ConsoleKit2-1.2.1.tar.bz2 ck-sysdeps-linux.c.patch)
+#
 build() {
-	cd ConsoleKit2-$version
-    ./configure --prefix=/usr \
-                --localstatedir=/var \
-                --libexecdir=/usr/lib/$name \
-                --disable-nls \
-                --enable-udev-acl \
-                --enable-pam-module \
-                --enable-polkit \
-                --enable-instrospection \
-                --with-xinitrc-dir=/etc/X11/xinit/xinitrc.d
-    make
-    make DESTDIR=$PKG install
-    rm -fr $PKG/usr/share/{locale,gtk-doc}
-    
-    #xinitrc will only execute files ending in .sh
-    mv $PKG/etc/X11/xinit/xinitrc.d/90-consolekit{,.sh}
+  cd ConsoleKit2-$version
+  patch -Np1 -i ../ck-sysdeps-linux.c.patch
+  ./configure --prefix=/usr \
+    --localstatedir=/var \
+    --libexecdir=/usr/lib/$name \
+    --disable-nls \
+    --enable-udev-acl \
+    --enable-pam-module \
+    --enable-polkit \
+    --enable-instrospection \
+    --with-xinitrc-dir=/etc/X11/xinit/xinitrc.d
+  make
+  make DESTDIR=$PKG install
+  rm -fr $PKG/usr/share/{locale,gtk-doc}
 
-    #PAM rules for ConsoleKit2
-    install -d $PKG/etc/pam.d
-    cat >> $PKG/etc/pam.d/system-session << "EOF"
+  #xinitrc will only execute files ending in .sh
+  mv $PKG/etc/X11/xinit/xinitrc.d/90-consolekit{,.sh}
+  #PAM rules for ConsoleKit2
+  install -d $PKG/etc/pam.d
+
+  cat >> $PKG/etc/pam.d/system-session << "EOF"
 # Begin ConsoleKit addition
-
 session   optional    pam_loginuid.so
 session   optional    pam_ck_connector.so nox11
-
 # End ConsoleKit addition
 EOF
-    cat > $PKG/usr/lib/ConsoleKit/run-session.d/pam-foreground-compat.ck << "EOF"
+
+   cat > $PKG/usr/lib/ConsoleKit/run-session.d/pam-foreground-compat.ck << "EOF"
 #!/bin/sh
 TAGDIR=/var/run/console
-
 [ -n "$CK_SESSION_USER_UID" ] || exit 1
 [ "$CK_SESSION_IS_LOCAL" = "true" ] || exit 0
 
 TAGFILE="$TAGDIR/`getent passwd $CK_SESSION_USER_UID | cut -f 1 -d:`"
 
 if [ "$1" = "session_added" ]; then
-    mkdir -p "$TAGDIR"
-    echo "$CK_SESSION_ID" >> "$TAGFILE"
+mkdir -p "$TAGDIR"
+echo "$CK_SESSION_ID" >> "$TAGFILE"
 fi
 
 if [ "$1" = "session_removed" ] && [ -e "$TAGFILE" ]; then
-    sed -i "\%^$CK_SESSION_ID\$%d" "$TAGFILE"
-    [ -s "$TAGFILE" ] || rm -f "$TAGFILE"
+sed -i "\%^$CK_SESSION_ID\$%d" "$TAGFILE"
+[ -s "$TAGFILE" ] || rm -f "$TAGFILE"
 fi
 EOF
-    chmod -v 755 $PKG/usr/lib/ConsoleKit/run-session.d/pam-foreground-compat.ck
+
+  chmod -v 755 $PKG/usr/lib/ConsoleKit/run-session.d/pam-foreground-compat.ck
+#    install -dm755 $PKG/etc/logrotate.d
+#    mv $PKG/usr/etc/logrotate.d/ConsoleKit.conf $PKG/etc/logrotate.d/ConsoleKit.conf
+#    rm -f $PKG/usr/etc/logrotate.d
 }

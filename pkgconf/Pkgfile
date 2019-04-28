@@ -1,0 +1,34 @@
+# Description: A system for managing library compile/link flags.
+# URL: https://git.dereferenced.org/pkgconf/pkgconf
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on:
+
+name=pkgconf
+version=1.6.1
+release=1
+source=(https://git.dereferenced.org/pkgconf/pkgconf/archive/$name-$version.tar.gz platform-pkg-config.in)
+
+CHOST="x86_64-pc-linux-gnu"
+libdir="/lib:/usr/lib"
+pkgdir="/usr/lib/pkgconfig:/usr/share/pkgconfig"
+includedir="/usr/include:/include"
+
+build() {
+  cd $name
+  #cd $name-$name-$version
+  ./autogen.sh
+  ./configure --prefix=/usr \
+    --with-system-libdir=$libdir \
+    --with-pkg-config-dir=$pkgdir \
+    --with-system-includedir=$includedir
+  make
+  make install DESTDIR=$PKG
+  rm -rf $PKG/usr/share/doc
+  sed -e "s|@TARGET_PLATFORM@|$CHOST|g" \
+    -e "s|@PKGCONF_LIBDIRS@|$pkgdir|g" \
+    -e "s|@PKGCONF_SYSLIBDIR@|$libdir|g" \
+    -e "s|@PKGCONF_SYSINCDIR@|$includedir|g" \
+    $SRC/platform-pkg-config.in |
+    install -D /dev/stdin $PKG/usr/bin/$CHOST-pkg-config
+  ln -s $CHOST-pkg-config $PKG/usr/bin/pkg-config
+}

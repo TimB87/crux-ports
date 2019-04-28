@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwJpQ0QFqBLJVD7wRHazX7gV2+sQbs24zICkIdCLQNjrt32Yw/OtxQyZkOjoTm0ZJqY4jqcMhP2jmVyF2+7VqOgo=
+SHA256 (Pkgfile) = c8e193334b05e2d8263b07a6701843713b3a26d16ddcbcdecd2cb76daf3d1af8
+SHA256 (.footprint) = 56229cf637603c3fd7153b031e9fcf8dd2dab658570d514f82254185eb5c1bbb
+SHA256 (Mozilla-CA-20180117.tar.gz) = f2cc9fbe119f756313f321e0d9f1fac0859f8f154ac9d75b1a264c1afdf4e406

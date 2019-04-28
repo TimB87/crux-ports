@@ -1,0 +1,17 @@
+# Description: Sort::Key - the fastest way to sort anything in Perl
+# URL: http://search.cpan.org/dist/sort-sort/
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on:
+
+name=p5-sort-key
+version=1.33
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/S/SA/SALVA/Sort-Key-$version.tar.gz)
+
+build() {
+  cd Sort-Key-$version
+  PERL_MM_USE_DEFAULT=1 perl Makefile.PL INSTALLDIRS=vendor
+  make
+  make install INSTALLDIRS=vendor DESTDIR=$PKG
+  find $PKG \( -name '.packlist' -o -name '*.pod' \) -delete
+}

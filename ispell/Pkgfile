@@ -1,0 +1,28 @@
+# Description: An interactive spell-checking program for Unix
+# URL: http://ficus-www.cs.ucla.edu/geoff/ispell.html
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: ncurses
+
+name=ispell
+version=3.4.00
+release=1
+source=(http://fmg-www.cs.ucla.edu/geoff/tars/$name-$version.tar.gz)
+
+build() {
+  cd $name-$version
+  sed -i -e 's/#undef USG/#define USG/' \
+    -e 's|/usr/local|/usr|' \
+    -e 's|/lib|/lib/ispell|' local.h.linux
+  cp local.h.linux local.h
+  sudo make all
+  install -dm755 $PKG/usr/{bin,lib/ispell,share/man/man{1,5}}
+  for b in buildhash findaffix icombine ijoin ispell iwhich munchlist tryaffix; do
+    install -m755 $b $PKG/usr/bin/
+  done
+  install -m644 languages/american/americanmed.hash \
+    $PKG/usr/lib/ispell/americanmed.hash
+  install -m644 languages/english/english.aff \
+    $PKG/usr/lib/ispell/english.aff
+  ln -s americanmed.hash $PKG/usr/lib/ispell/american.hash
+  ln -s americanmed.hash $PKG/usr/lib/ispell/english.hash
+}

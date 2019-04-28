@@ -1,0 +1,20 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/buildhash
+-rwxr-xr-x	root/root	usr/bin/findaffix
+-rwxr-xr-x	root/root	usr/bin/icombine
+-rwxr-xr-x	root/root	usr/bin/ijoin
+-rwxr-xr-x	root/root	usr/bin/ispell
+-rwxr-xr-x	root/root	usr/bin/iwhich
+-rwxr-xr-x	root/root	usr/bin/munchlist
+-rwxr-xr-x	root/root	usr/bin/tryaffix
+drwxr-xr-x	root/root	usr/lib/
+drwxr-xr-x	root/root	usr/lib/ispell/
+lrwxrwxrwx	root/root	usr/lib/ispell/american.hash -> americanmed.hash
+-rw-r--r--	root/root	usr/lib/ispell/americanmed.hash
+-rw-r--r--	root/root	usr/lib/ispell/english.aff
+lrwxrwxrwx	root/root	usr/lib/ispell/english.hash -> americanmed.hash
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+drwxr-xr-x	root/root	usr/share/man/man5/

@@ -1,0 +1,20 @@
+# Description: Routines for manipulating stashes
+# URL: http://search.cpan.org/dist/Package-Stash
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: p5-dist-checkconflicts p5-module-implementation p5-package-stash-xs
+
+name=p5-package-stash
+version=0.38
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/E/ET/ETHER/Package-Stash-$version.tar.gz)
+
+build() {
+  cd Package-Stash-$version
+  perl Makefile.PL INSTALLDIRS=vendor
+  make
+  make DESTDIR=$PKG install
+  find $PKG -name .packlist -o \
+    -name perllocal.pod -o \
+    -name README -o \
+    -name '*.bs' | xargs rm
+}

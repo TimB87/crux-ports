@@ -771,7 +771,6 @@ f:d6df03373d469831e56e08af65866c89:os-prober/.footprint
 f:8d49aa9472cb3307e454e3ea6c8768ef:os-prober/.md5sum
 f:5908b2d6281b2a3ffd71fc93aaa84275:os-prober/Fix-CRUX-grub-menu-entry-detection.patch
 f:c35f55f9a2434d1549d22d14398e65b4:os-prober/Pkgfile
-f:906ba76c28f3ea44d48175b59cf4364e:os-prober/Pkgfile.bak
 f:a33c3150e135de6ab63059e0f8843522:icon-slicer/.signature
 f:83173b8c98cb800e54be41d5e2be868e:icon-slicer/.footprint
 f:1a0ec657e39c1c80bf94d346040a7c90:icon-slicer/hotspotfix.patch

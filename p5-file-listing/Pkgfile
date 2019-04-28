@@ -1,0 +1,17 @@
+# Description: parse directory listing
+# URL: http://search.cpan.org/dist/File-Listing
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: p5-http-date
+
+name=p5-file-listing
+version=6.04
+release=1
+source=(http://search.cpan.org/CPAN/authors/id/G/GA/GAAS/File-Listing-$version.tar.gz)
+
+build() {
+  cd File-Listing-$version
+  perl Makefile.PL INSTALLDIRS=vendor
+  make
+  make DESTDIR=$PKG install
+  find $PKG \( -name '.packlist' -o -name '*.pod' \) -delete
+}

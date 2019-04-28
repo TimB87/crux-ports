@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwGRSVToGMionC4KWGB6VA/PjrNSQFyv+91lrKlpcoL4I4+e2PPOPWeCvnku1peA7gvhKo2Mgnfh/m1eOQKp+DgI=
+SHA256 (Pkgfile) = 302b38e7ad6fc17c57547472c79a6fef7408961be1ba1d75ac8c65f29eeab427
+SHA256 (.footprint) = 32e2967409ddbae3de7900aebf432ed0bdbd0ec7ee5ab93dafc674bb5e886bfd
+SHA256 (lsb-release-1.4.tar.gz) = 99321288f8d62e7a1d485b7c6bdccf06766fb8ca603c6195806e4457fdf17172
+SHA256 (lsb_release_description.patch) = 79f7f4d47052eea37c602d42c8d75d391b87effd867f20003f179e8f74663e93

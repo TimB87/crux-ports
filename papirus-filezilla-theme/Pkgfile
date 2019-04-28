@@ -1,0 +1,18 @@
+# Description: Papirus theme for FileZilla
+# URL: https://github.com/PapirusDevelopmentTeam/papirus-filezilla-themes
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: filezilla
+
+name=papirus-filezilla-theme
+version=git
+release=3
+source=()
+git=(https://github.com/PapirusDevelopmentTeam/papirus-filezilla-themes.git)
+
+build() {
+    git clone $git $name
+    cd $name
+    make build
+    make DESTDIR=$PKG install
+    find $PKG -iname "*AUTHORS*" -delete
+}

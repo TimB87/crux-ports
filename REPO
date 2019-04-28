@@ -107,6 +107,7 @@ d:i3status
 d:sassc
 d:grub2-theme-poly-light
 d:p5-sub-name
+d:mediainfo
 d:p5-sub-exporter-progressive
 d:p5-variable-magic
 d:p5-text-bibtex
@@ -374,9 +375,9 @@ f:346b1d55dfc3fa2925705df7ae57b890:p5-datetime-format-builder/Pkgfile
 f:2ed33bbf0cbbdfefb24d5858e36525ba:p5-list-moreutils-xs/.signature
 f:043a750a493b5e417c40b55c092b3b31:p5-list-moreutils-xs/.footprint
 f:dbf870172fea1430064963ce5b028e64:p5-list-moreutils-xs/Pkgfile
-f:073fc683db29421a7f884c39827db035:libmediainfo/.signature
+f:39da4d4a55e2e8535a711532381458d4:libmediainfo/.signature
 f:27e9c1a983dca509b9c66a0d3cfd0cc7:libmediainfo/.footprint
-f:3313b4a19615dca7170015147bc14408:libmediainfo/Pkgfile
+f:cc4c05d6c95b5c4d6f1f0b459bda9175:libmediainfo/Pkgfile
 f:244977fae43a7d503e99ebcba9a9358e:light-locker-settings/.signature
 f:92f6e378c8fbc88902b61f4b63806b29:light-locker-settings/.footprint
 f:9fd6c5d54a6be550d713cb74bc77c9f6:light-locker-settings/Pkgfile
@@ -555,9 +556,9 @@ f:97a0a2cc1c782ed1ff0b9475fd41505e:ragel/Pkgfile
 f:360b6332ad5b563100a3d757367b5a6b:p5-datetime/.signature
 f:ecfa49ce9fc2c28c599c4fee3a2430a7:p5-datetime/.footprint
 f:55b15bbfeac2e2a709d667c1cc36ef72:p5-datetime/Pkgfile
-f:c32e97c28e81ea105d4a80b24bcd4c4b:dbus-python3/.signature
+f:892cf0099c50913e61b2ed795491fc52:dbus-python3/.signature
 f:1c276958a3d580e59e9ec70339f71d0f:dbus-python3/.footprint
-f:dbd36d76d989ae282c64035f33acc45d:dbus-python3/Pkgfile
+f:539efc344f3327f45411f4ad25044d6c:dbus-python3/Pkgfile
 f:f2934f027074a0fc9fdd44952fb2067b:xcb-util-xrm/.signature
 f:80e849824bbe614b2a87b956bf7fa46a:xcb-util-xrm/.footprint
 f:1ff16ee6c2d01ef644c0924230f31d68:xcb-util-xrm/Pkgfile
@@ -617,6 +618,9 @@ f:0be50df12f3446e3625ebb19d9e8d474:grub2-theme-poly-light/Pkgfile
 f:91f2656551d973b026db37e2887cc98b:p5-sub-name/.signature
 f:5fb57ef3c91ff0c126a053cbab86c150:p5-sub-name/.footprint
 f:b3ae71b1bc91a89d801c1050440642ad:p5-sub-name/Pkgfile
+f:ae86b2c11744377cb1464c82e34f3a46:mediainfo/.signature
+f:35785fabebc236ef5c88091b6fe7aa06:mediainfo/.footprint
+f:f8c5197d5e1661ff07d8be0ee6ce7991:mediainfo/Pkgfile
 f:570efa64972ff69ce65f2fed8fafa2d8:p5-sub-exporter-progressive/.signature
 f:aef1f63da002ca222c509b0e217cfd11:p5-sub-exporter-progressive/.footprint
 f:36d0ef1beda829362c09a3cdfdb4e48d:p5-sub-exporter-progressive/Pkgfile
@@ -718,9 +722,11 @@ f:c84fbc5bb23d4c457a440130a92a000d:p5-lingua-translit/Pkgfile
 f:cd1bd5078dd7048480cae1728882646a:bdf-unifont/.signature
 f:edc290cfc8f37574ab9e672950008809:bdf-unifont/.footprint
 f:3bc50ef5903a4057b0a02087cea18f11:bdf-unifont/Pkgfile
-f:853f9ba5942bca692a5ff0a58e54ce88:consolekit2/.signature
+f:5c25c3399d3578c980ee6d82cb0f4d81:consolekit2/.signature
 f:03118d459917d55e4c1598c28d73b437:consolekit2/.footprint
-f:ac3f2197ebfc6b8c664abc8f1758c9b7:consolekit2/Pkgfile
+f:3b0080988092b3c507a3603d5808acb7:consolekit2/ck-sysdeps-linux.c.patch
+f:bdc1c8474187d198238bf0da38a93208:consolekit2/post-install
+f:19595836301b926c6a020ee25561e794:consolekit2/Pkgfile
 f:179e93abf2313f088b97589ad86394de:p5-package-stash-xs/.signature
 f:9aa2845c83b933bfe82f41a3927762cf:p5-package-stash-xs/.footprint
 f:d2985a6774c1a9aaca0bf4bffabed6c1:p5-package-stash-xs/Pkgfile

@@ -4,7 +4,7 @@
 # Depends on: brotli curl cyrus-sasl e2fsprogs glib gnutls keyutils krb5 libffi libgmp libidn2 libmms libpcre libpsl libtasn1 libunistring libzen nettle openldap openssl p11-kit rtmpdump zlib
 
 name=libmediainfo
-version=18.12
+version=19.04
 release=1
 source=(https://mediaarea.net/download/source/libmediainfo/$version/libmediainfo_$version.tar.xz)
 

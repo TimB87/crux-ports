@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwGLmh3zFP+Z1ktqk3pPWMXZwEObhYIQsn/ERx6++0+adZIdJYcpfcVT6i2J/PRrLL+kD+yoeaq83QIwYaYFTEgU=
+SHA256 (Pkgfile) = 9d05a73a8df64a6e79c4be55ece3fe3b7efec6b8c45865d3634cd84b4ec18fb6
+SHA256 (.footprint) = 0fd452253376d4970125d8818875a6989994454ee94d983ffa403bbac9339903
+SHA256 (autovivification-0.18.tar.gz) = 2d99975685242980d0a9904f639144c059d6ece15899efde4acb742d3253f105

@@ -1,0 +1,22 @@
+# Description: A compositor for X, and a fork of xcompmgr-dana.
+# URL: https://github.com/yshui/compton
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Packager: Danny Rawlins, crux at romster dot me
+# Depends on: dbus libconfig libpcre mesa3d xorg-libxcomposite xorg-libxinerama xorg-libxrandr
+
+name=compton
+version=6.2
+release=1
+source=(https://github.com/yshui/compton/archive/v$version/$name-$version.tar.gz)
+
+build() {
+  cd $name-$version
+  mkdir -p build
+  meson build . \
+    --prefix=/usr \
+    --buildtype=release \
+    -Dbuild_docs=false \
+    -Dnls=false
+  ninja -v -C build
+  DESTDIR=$PKG ninja -C build install
+}

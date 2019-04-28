@@ -6,7 +6,6 @@ drwxr-xr-x	root/root	usr/lib/perl5/5.28/linux-thread-multi/
 drwxr-xr-x	root/root	usr/lib/perl5/site_perl/
 drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/CGI.pm
--r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/CGI.pod
 drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/CGI/
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/CGI/Carp.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/CGI/Cookie.pm
@@ -14,7 +13,6 @@ drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/CGI/File/
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/CGI/File/Temp.pm
 drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/CGI/HTML/
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/CGI/HTML/Functions.pm
--r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/CGI/HTML/Functions.pod
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/CGI/Pretty.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/CGI/Push.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/CGI/Util.pm

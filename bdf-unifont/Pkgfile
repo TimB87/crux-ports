@@ -1,0 +1,15 @@
+# Description: GNU Unifont Glyphs
+# URL: https://ftp.gnu.org/gnu/unifont
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on:
+
+name=bdf-unifont
+version=11.0.03
+release=1
+source=(https://ftp.gnu.org/gnu/unifont/unifont-$version/unifont-$version.bdf.gz)
+
+build() {
+  gunzip unifont-$version.bdf.gz
+  install -Dm644 $SRC/unifont-$version.bdf \
+    $PKG/usr/share/fonts/misc/unifont.bdf
+}

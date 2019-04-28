@@ -190,6 +190,7 @@ d:p5-namespace-autoclean
 d:p5-json
 d:p5-file-slurper
 d:p5-net-http
+d:fail2ban
 d:yubikey-personalization-gui
 d:harfbuzz
 d:p5-http-negotiate
@@ -905,6 +906,11 @@ f:bcadbaae8d0d3b017bb990912c23139c:p5-file-slurper/Pkgfile
 f:62f4d0cacc78d73f7bfe9f7d68d212fd:p5-net-http/.signature
 f:5de00a69dabde1e65d43b9e53028edcd:p5-net-http/.footprint
 f:dd745efe04656d953835b0b476a0740f:p5-net-http/Pkgfile
+f:ff670388eb1cdd2cf657c5929533933f:fail2ban/.signature
+f:990053450464a045fc126a13cb6067b3:fail2ban/.footprint
+f:27205c03a07b0b5ec834a9c17169e264:fail2ban/fail2ban.rc
+f:c7708f2ab230a443c31980d0e3f8c39f:fail2ban/.md5sum
+f:46a77c1adfc4da35f24e0393d5af1d3c:fail2ban/Pkgfile
 f:81809d73c4cd9e2c240ba85b065e14d5:yubikey-personalization-gui/.signature
 f:51782f0f7541d8a696dcc1859d187a77:yubikey-personalization-gui/.footprint
 f:0f1a31e7c6b09705eb615720e88e4320:yubikey-personalization-gui/Pkgfile

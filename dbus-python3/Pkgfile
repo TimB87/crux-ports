@@ -5,7 +5,7 @@
 
 name=dbus-python3
 version=1.2.8
-release=1
+release=2
 source=(http://dbus.freedesktop.org/releases/dbus-python/dbus-python-$version.tar.gz)
 
 build() {
@@ -17,5 +17,6 @@ build() {
   make
   make DESTDIR=$PKG install
   rm -fr $PKG/usr/{share,include}
-  rm -r $PKG/usr/include/pkgconfig
+  mv $PKG/usr/lib/pkgconfig/dbus-python.pc $PKG/usr/lib/pkgconfig/dbus-python3.pc
+  #rm -r $PKG/usr/include
 }

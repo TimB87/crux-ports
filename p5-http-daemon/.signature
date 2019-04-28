@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwFt6M2wSfMAlRr4anvPQ9mKEDrTyNrr/KDrYFef3n+OZjd+XczuE20zp07jOG9zNYBeW6AoydjX+mpeOROEsuQI=
+SHA256 (Pkgfile) = d0fce83a7a3ba63473a51d455dd4703ece4d4f170bfdecdc47e3354cd703ac44
+SHA256 (.footprint) = 616440f31b9c4355c4981bc78c016a614cf8c8ad52d670cabba10c483bc332c9
+SHA256 (HTTP-Daemon-6.01.tar.gz) = 43fd867742701a3f9fcc7bd59838ab72c6490c0ebaf66901068ec6997514adc2
+SHA256 (HTTP-Daemon-6.01-Add-IPv6-support.patch) = a4bac445248fb494f88e7189a74f1a5d916ae7778edd089ed5a97e0d443e1ebf
+SHA256 (HTTP-Daemon-6.01-Handle-undef-and-empty-LocalAddr.patch) = 3c46084a36f4a3c3f83e7ed8f4393a6588a5c8d0dbdc948a4f0d6fddc65005ec

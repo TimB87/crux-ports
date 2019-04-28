@@ -1,0 +1,43 @@
+# Description:  Hunspell dictionary for English
+# URL:  http://wordlist.sourceforge.net/
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: hunspell
+
+name=hunspell-de
+version=20161207
+release=1
+source=(
+https://www.j3e.de/ispell/igerman98/dict/igerman98-$version.tar.bz2
+)
+
+build() {
+  cd igerman98-$version
+
+  make hunspell/de_AT.dic hunspell/de_AT.aff \
+   hunspell/de_CH.dic hunspell/de_CH.aff \
+   hunspell/de_DE.dic hunspell/de_DE.aff
+
+  install -dm755 $PKG/usr/share/hunspell
+  cp -p hunspell/de_*.dic hunspell/de_*.aff $PKG/usr/share/hunspell
+  pushd $PKG/usr/share/hunspell
+
+  de_DE_aliases="de_BE de_LU"
+  for lang in $de_DE_aliases; do
+    ln -s de_DE.aff $lang.aff
+    ln -s de_DE.dic $lang.dic
+  done
+
+  de_CH_aliases="de_LI"
+  for lang in $de_CH_aliases; do
+    ln -s de_CH.aff $lang.aff
+    ln -s de_CH.dic $lang.dic
+  done
+  popd
+
+  install -dm755 $PKG/usr/share/myspell/dicts
+  pushd $PKG/usr/share/myspell/dicts
+  for file in $PKG/usr/share/hunspell/*; do
+    ln -sv /usr/share/hunspell/$(basename $file) .
+  done
+  popd
+}

@@ -1,0 +1,41 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/hunspell/
+-rw-r--r--	root/root	usr/share/hunspell/de_AT.aff
+-rw-r--r--	root/root	usr/share/hunspell/de_AT.dic
+-rw-r--r--	root/root	usr/share/hunspell/de_AT_small.aff
+-rw-r--r--	root/root	usr/share/hunspell/de_AT_small.dic
+lrwxrwxrwx	root/root	usr/share/hunspell/de_BE.aff -> de_DE.aff
+lrwxrwxrwx	root/root	usr/share/hunspell/de_BE.dic -> de_DE.dic
+-rw-r--r--	root/root	usr/share/hunspell/de_CH.aff
+-rw-r--r--	root/root	usr/share/hunspell/de_CH.dic
+-rw-r--r--	root/root	usr/share/hunspell/de_CH_small.aff
+-rw-r--r--	root/root	usr/share/hunspell/de_CH_small.dic
+-rw-r--r--	root/root	usr/share/hunspell/de_DE.aff
+-rw-r--r--	root/root	usr/share/hunspell/de_DE.dic
+-rw-r--r--	root/root	usr/share/hunspell/de_DE_small.aff
+-rw-r--r--	root/root	usr/share/hunspell/de_DE_small.dic
+lrwxrwxrwx	root/root	usr/share/hunspell/de_LI.aff -> de_CH.aff
+lrwxrwxrwx	root/root	usr/share/hunspell/de_LI.dic -> de_CH.dic
+lrwxrwxrwx	root/root	usr/share/hunspell/de_LU.aff -> de_DE.aff
+lrwxrwxrwx	root/root	usr/share/hunspell/de_LU.dic -> de_DE.dic
+drwxr-xr-x	root/root	usr/share/myspell/
+drwxr-xr-x	root/root	usr/share/myspell/dicts/
+lrwxrwxrwx	root/root	usr/share/myspell/dicts/de_AT.aff -> /usr/share/hunspell/de_AT.aff
+lrwxrwxrwx	root/root	usr/share/myspell/dicts/de_AT.dic -> /usr/share/hunspell/de_AT.dic
+lrwxrwxrwx	root/root	usr/share/myspell/dicts/de_AT_small.aff -> /usr/share/hunspell/de_AT_small.aff
+lrwxrwxrwx	root/root	usr/share/myspell/dicts/de_AT_small.dic -> /usr/share/hunspell/de_AT_small.dic
+lrwxrwxrwx	root/root	usr/share/myspell/dicts/de_BE.aff -> /usr/share/hunspell/de_BE.aff
+lrwxrwxrwx	root/root	usr/share/myspell/dicts/de_BE.dic -> /usr/share/hunspell/de_BE.dic
+lrwxrwxrwx	root/root	usr/share/myspell/dicts/de_CH.aff -> /usr/share/hunspell/de_CH.aff
+lrwxrwxrwx	root/root	usr/share/myspell/dicts/de_CH.dic -> /usr/share/hunspell/de_CH.dic
+lrwxrwxrwx	root/root	usr/share/myspell/dicts/de_CH_small.aff -> /usr/share/hunspell/de_CH_small.aff
+lrwxrwxrwx	root/root	usr/share/myspell/dicts/de_CH_small.dic -> /usr/share/hunspell/de_CH_small.dic
+lrwxrwxrwx	root/root	usr/share/myspell/dicts/de_DE.aff -> /usr/share/hunspell/de_DE.aff
+lrwxrwxrwx	root/root	usr/share/myspell/dicts/de_DE.dic -> /usr/share/hunspell/de_DE.dic
+lrwxrwxrwx	root/root	usr/share/myspell/dicts/de_DE_small.aff -> /usr/share/hunspell/de_DE_small.aff
+lrwxrwxrwx	root/root	usr/share/myspell/dicts/de_DE_small.dic -> /usr/share/hunspell/de_DE_small.dic
+lrwxrwxrwx	root/root	usr/share/myspell/dicts/de_LI.aff -> /usr/share/hunspell/de_LI.aff
+lrwxrwxrwx	root/root	usr/share/myspell/dicts/de_LI.dic -> /usr/share/hunspell/de_LI.dic
+lrwxrwxrwx	root/root	usr/share/myspell/dicts/de_LU.aff -> /usr/share/hunspell/de_LU.aff
+lrwxrwxrwx	root/root	usr/share/myspell/dicts/de_LU.dic -> /usr/share/hunspell/de_LU.dic

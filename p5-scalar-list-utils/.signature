@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwLygIMmzsM63JWhoalXs8h2TJXAOmnzhhxHYR/z9fuXrGF85+/2z4bzxa24qT+G2Uq2lb7VYVG19xp6aykqKYgc=
+SHA256 (Pkgfile) = ea82b53770c69b05c95bbe5f2ba13bbc66eb2eb9ee25995a0de562a1adc1db15
+SHA256 (.footprint) = 4be8967ebc7c8371a9f3ad8f132b5ea3aad2f72348c36cfd16496dba2c74aae7
+SHA256 (Scalar-List-Utils-1.50.tar.gz) = 06aab9c693380190e53be09be7daed20c5d6278f71956989c24cca7782013675

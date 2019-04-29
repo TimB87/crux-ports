@@ -76,7 +76,6 @@ lrwxrwxrwx	root/root	usr/lib/R/bin/R -> ../../../bin/R
 -rwxr-xr-x	root/root	usr/lib/R/bin/config
 drwxr-xr-x	root/root	usr/lib/R/bin/exec/
 -rwxr-xr-x	root/root	usr/lib/R/bin/exec/R
--rwxr-xr-x	root/root	usr/lib/R/bin/f77_f2c
 -rwxr-xr-x	root/root	usr/lib/R/bin/javareconf
 -rwxr-xr-x	root/root	usr/lib/R/bin/libtool
 -rwxr-xr-x	root/root	usr/lib/R/bin/pager
@@ -1191,6 +1190,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/rpart/doc/
 drwxr-xr-x	root/root	usr/lib/R/library/rpart/help/
 -rw-r--r--	root/root	usr/lib/R/library/rpart/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/rpart/help/aliases.rds
+drwxr-xr-x	root/root	usr/lib/R/library/rpart/help/figures/
+-rwxr--r--	root/root	usr/lib/R/library/rpart/help/figures/rpart.png
 -rw-r--r--	root/root	usr/lib/R/library/rpart/help/paths.rds
 -rw-r--r--	root/root	usr/lib/R/library/rpart/help/rpart.rdb
 -rw-r--r--	root/root	usr/lib/R/library/rpart/help/rpart.rdx
@@ -1408,7 +1409,7 @@ drwxr-xr-x	root/root	usr/lib/R/library/survival/doc/
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/compete.Rnw
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/compete.pdf
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/concordance.R
--rwxr-xr-x	root/root	usr/lib/R/library/survival/doc/concordance.Rnw
+-rw-r--r--	root/root	usr/lib/R/library/survival/doc/concordance.Rnw
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/concordance.pdf
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/index.html
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/multi.R
@@ -1420,6 +1421,9 @@ drwxr-xr-x	root/root	usr/lib/R/library/survival/doc/
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/splines.R
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/splines.Rnw
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/splines.pdf
+-rw-r--r--	root/root	usr/lib/R/library/survival/doc/survival.R
+-rw-r--r--	root/root	usr/lib/R/library/survival/doc/survival.Rnw
+-rw-r--r--	root/root	usr/lib/R/library/survival/doc/survival.pdf
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/tests.R
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/tests.Rnw
 -rw-r--r--	root/root	usr/lib/R/library/survival/doc/tests.pdf
@@ -1435,6 +1439,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/survival/doc/
 drwxr-xr-x	root/root	usr/lib/R/library/survival/help/
 -rw-r--r--	root/root	usr/lib/R/library/survival/help/AnIndex
 -rw-r--r--	root/root	usr/lib/R/library/survival/help/aliases.rds
+drwxr-xr-x	root/root	usr/lib/R/library/survival/help/figures/
+-rw-r--r--	root/root	usr/lib/R/library/survival/help/figures/logo.png
 -rw-r--r--	root/root	usr/lib/R/library/survival/help/paths.rds
 -rw-r--r--	root/root	usr/lib/R/library/survival/help/survival.rdb
 -rw-r--r--	root/root	usr/lib/R/library/survival/help/survival.rdx
@@ -1457,6 +1463,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/tcltk/Meta/
 -rw-r--r--	root/root	usr/lib/R/library/tcltk/NAMESPACE
 drwxr-xr-x	root/root	usr/lib/R/library/tcltk/R/
 -rw-r--r--	root/root	usr/lib/R/library/tcltk/R/tcltk
+-rw-r--r--	root/root	usr/lib/R/library/tcltk/R/tcltk.rdb
+-rw-r--r--	root/root	usr/lib/R/library/tcltk/R/tcltk.rdx
 drwxr-xr-x	root/root	usr/lib/R/library/tcltk/demo/
 -rw-r--r--	root/root	usr/lib/R/library/tcltk/demo/tkcanvas.R
 -rw-r--r--	root/root	usr/lib/R/library/tcltk/demo/tkdensity.R
@@ -1484,6 +1492,8 @@ drwxr-xr-x	root/root	usr/lib/R/library/tcltk/help/
 drwxr-xr-x	root/root	usr/lib/R/library/tcltk/html/
 -rw-r--r--	root/root	usr/lib/R/library/tcltk/html/00Index.html
 -rw-r--r--	root/root	usr/lib/R/library/tcltk/html/R.css
+drwxr-xr-x	root/root	usr/lib/R/library/tcltk/libs/
+-rwxr-xr-x	root/root	usr/lib/R/library/tcltk/libs/tcltk.so
 drwxr-xr-x	root/root	usr/lib/R/library/tools/
 -rw-r--r--	root/root	usr/lib/R/library/tools/DESCRIPTION
 -rw-r--r--	root/root	usr/lib/R/library/tools/INDEX

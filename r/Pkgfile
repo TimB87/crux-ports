@@ -4,7 +4,7 @@
 # Depends on: brotli gnutls graphite2 icu keyutils krb5 libpcre2 libpsl libwebp openldap pango rtmpdump xorg-libxmu zstd
 
 name=r
-version=3.5.3
+version=3.6.0
 release=1
 source=(https://cran.r-project.org/src/base/R-3/R-$version.tar.gz
 r.desktop

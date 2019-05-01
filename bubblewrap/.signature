@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwN64NZUbV+rtT/CKn0kw0ppG/QaOVu11bM7+lVz+IpLIgD1MRzXnMXKwu1kriKXvwY/lPwJreJB2GiqOCspFkAo=
-SHA256 (Pkgfile) = 60ea526dc6b5fba8a8d53e7b55143987c5be975aa927dff4faf40b9c04adc7d8
+RWSXjYMPO7mZwDsfxu8qWZRORB03PCjCRsDX//eOpgdyBrhYvwC3CzRv6DqyeavQPUgmjWFWO6hsD4Csbx6T4qzKvNc3b2+uwww=
+SHA256 (Pkgfile) = 5493d9d65fed5fe5451e1728235330b0d3a8880d5f0b937b8a9a30bbc02ad1b5
 SHA256 (.footprint) = e8c8c4e353f4c9362d89a9cf83126409af016d87c19ba0bbc568aeb0c0124038
-SHA256 (bubblewrap-0.3.1.tar.xz) = deca6b608c54df4be0669b8bb6d254858924588e9f86e116eb04656a3b6d4bf8
+SHA256 (bubblewrap-0.3.3.tar.xz) = c6a45f51794a908b76833b132471397a7413f07620af08e76c273d9f7b364dff

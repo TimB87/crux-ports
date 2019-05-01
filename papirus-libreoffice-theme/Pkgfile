@@ -10,7 +10,7 @@ source=()
 git=(https://github.com/PapirusDevelopmentTeam/papirus-libreoffice-theme.git)
 
 build() {
-	git clone $git $name
-    cd $name
-    make DESTDIR=$PKG install
+  git clone $git $name
+  cd $name
+  make DESTDIR=$PKG install
 }

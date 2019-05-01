@@ -1,7 +1,7 @@
 # Description: R is a free software environment for statistical computing and graphics
 # URL: https://www.r-project.org/
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: brotli gnutls graphite2 icu keyutils krb5 libpcre2 libpsl libwebp openldap pango rtmpdump xorg-libxmu zstd
+# Depends on: brotli gnutls graphite2 icu keyutils krb5 libpcre2 libpsl libwebp openblas openldap pango rtmpdump xorg-libxmu zstd
 
 name=r
 version=3.6.0

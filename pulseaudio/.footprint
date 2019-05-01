@@ -1,3 +1,15 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/dbus-1/
+drwxr-xr-x	root/root	etc/dbus-1/system.d/
+-rw-r--r--	root/root	etc/dbus-1/system.d/pulseaudio-system.conf
+drwxr-xr-x	root/root	etc/pulse/
+-rw-r--r--	root/root	etc/pulse/client.conf
+drwxr-xr-x	root/root	etc/pulse/client.conf.d/
+-rw-r--r--	root/root	etc/pulse/daemon.conf
+drwxr-xr-x	root/root	etc/pulse/daemon.conf.d/
+-rw-r--r--	root/root	etc/pulse/daemon.conf.d/disable_flat_volumes.conf
+-rw-r--r--	root/root	etc/pulse/default.pa
+-rw-r--r--	root/root	etc/pulse/system.pa
 drwxr-xr-x	root/root	lib/
 drwxr-xr-x	root/root	lib/udev/
 drwxr-xr-x	root/root	lib/udev/rules.d/
@@ -7,6 +19,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/pacat
 -rwxr-xr-x	root/root	usr/bin/pacmd
 -rwxr-xr-x	root/root	usr/bin/pactl
+-rwxr-xr-x	root/root	usr/bin/padsp
 lrwxrwxrwx	root/root	usr/bin/pamon -> pacat
 lrwxrwxrwx	root/root	usr/bin/paplay -> pacat
 lrwxrwxrwx	root/root	usr/bin/parec -> pacat
@@ -15,15 +28,6 @@ lrwxrwxrwx	root/root	usr/bin/parecord -> pacat
 -rwxr-xr-x	root/root	usr/bin/pulseaudio
 -rwxr-xr-x	root/root	usr/bin/qpaeq
 -rwxr-xr-x	root/root	usr/bin/start-pulseaudio-x11
-drwxr-xr-x	root/root	usr/etc/
-drwxr-xr-x	root/root	usr/etc/dbus-1/
-drwxr-xr-x	root/root	usr/etc/dbus-1/system.d/
--rw-r--r--	root/root	usr/etc/dbus-1/system.d/pulseaudio-system.conf
-drwxr-xr-x	root/root	usr/etc/pulse/
--rw-r--r--	root/root	usr/etc/pulse/client.conf
--rw-r--r--	root/root	usr/etc/pulse/daemon.conf
--rw-r--r--	root/root	usr/etc/pulse/default.pa
--rw-r--r--	root/root	usr/etc/pulse/system.pa
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/pulse/
 -rw-r--r--	root/root	usr/include/pulse/cdecl.h
@@ -85,6 +89,7 @@ drwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/libavahi-wrap.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/libbluez5-util.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/libcli.so
+-rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/liboss-util.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/libprotocol-cli.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/libprotocol-http.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/libprotocol-native.so
@@ -121,6 +126,9 @@ drwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-http-protocol-tcp.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-http-protocol-unix.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-intended-roles.so
+-rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-jack-sink.so
+-rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-jack-source.so
+-rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-jackdbus-detect.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-ladspa-sink.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-loopback.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-match.so
@@ -130,6 +138,7 @@ drwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-native-protocol-unix.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-null-sink.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-null-source.so
+-rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-oss.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-pipe-sink.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-pipe-source.so
 -rwxr-xr-x	root/root	usr/lib/pulse-12.2/modules/module-position-event-sounds.so
@@ -165,6 +174,8 @@ drwxr-xr-x	root/root	usr/lib/pulseaudio/
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/libpulsecommon-12.2.so
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/libpulsecore-12.2.la
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/libpulsecore-12.2.so
+-rwxr-xr-x	root/root	usr/lib/pulseaudio/libpulsedsp.la
+-rwxr-xr-x	root/root	usr/lib/pulseaudio/libpulsedsp.so
 drwxr-xr-x	root/root	usr/lib/pulseaudio/pulse/
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/pulse/gsettings-helper
 drwxr-xr-x	root/root	usr/share/

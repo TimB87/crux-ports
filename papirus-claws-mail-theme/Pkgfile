@@ -10,9 +10,9 @@ source=()
 git=(https://github.com/PapirusDevelopmentTeam/papirus-claws-mail-theme.git)
 
 build() {
-	git clone $git $name
-    cd $name
-    make build
-    make DESTDIR=$PKG install
-    find $PKG -name README.txt -delete
+  git clone $git $name
+  cd $name
+  make build
+  make DESTDIR=$PKG install
+  find $PKG -name README.txt -delete
 }

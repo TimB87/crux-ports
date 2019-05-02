@@ -27,6 +27,7 @@ drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/Alien/Build/Plugin/Build/
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Alien/Build/Plugin/Build/Make.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Alien/Build/Plugin/Build/SearchDep.pm
 drwxr-xr-x	root/root	usr/lib/perl5/site_perl/5.28/Alien/Build/Plugin/Core/
+-r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Alien/Build/Plugin/Core/CleanInstall.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Alien/Build/Plugin/Core/Download.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Alien/Build/Plugin/Core/FFI.pm
 -r--r--r--	root/root	usr/lib/perl5/site_perl/5.28/Alien/Build/Plugin/Core/Gather.pm
@@ -115,6 +116,7 @@ drwxr-xr-x	root/root	usr/share/man/man3/
 -r--r--r--	root/root	usr/share/man/man3/Alien::Build::Plugin::Build::Make.3pm.gz
 -r--r--r--	root/root	usr/share/man/man3/Alien::Build::Plugin::Build::SearchDep.3pm.gz
 -r--r--r--	root/root	usr/share/man/man3/Alien::Build::Plugin::Core.3pm.gz
+-r--r--r--	root/root	usr/share/man/man3/Alien::Build::Plugin::Core::CleanInstall.3pm.gz
 -r--r--r--	root/root	usr/share/man/man3/Alien::Build::Plugin::Core::Download.3pm.gz
 -r--r--r--	root/root	usr/share/man/man3/Alien::Build::Plugin::Core::FFI.3pm.gz
 -r--r--r--	root/root	usr/share/man/man3/Alien::Build::Plugin::Core::Gather.3pm.gz

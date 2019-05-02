@@ -4,7 +4,7 @@
 # Depends on: p5-capture-tiny p5-ffi-checklib p5-file-chdir p5-file-which p5-path-tiny
 
 name=p5-alien-build
-version=1.68
+version=1.71_01
 release=1
 source=(https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Alien-Build-$version.tar.gz)
 

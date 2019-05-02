@@ -4,7 +4,7 @@
 # Depends on:
 
 name=p5-ffi-checklib
-version=0.23
+version=0.24
 release=1
 source=(https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/FFI-CheckLib-$version.tar.gz)
 

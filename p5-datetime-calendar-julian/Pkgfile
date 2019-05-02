@@ -4,9 +4,9 @@
 # Depends on:
 
 name=p5-datetime-calendar-julian
-version=0.04
+version=0.100
 release=1
-source=(http://search.cpan.org/CPAN/authors/id/P/PI/PIJLL/DateTime-Calendar-Julian-$version.tar.gz)
+source=(http://search.cpan.org/CPAN/authors/id/W/WY/WYANT/DateTime-Calendar-Julian-$version.tar.gz)
 
 build() {
   cd DateTime-Calendar-Julian-$version

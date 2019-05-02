@@ -1,0 +1,7 @@
+#!/bin/sh
+
+alias="openblas: lapack"
+
+if [ -z "$(grep "$alias" /var/lib/pkg/prt-get.aliases)" ]; then
+	echo "$alias" >> /var/lib/pkg/prt-get.aliases
+fi

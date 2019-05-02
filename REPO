@@ -663,9 +663,9 @@ f:8d43e8f91cd7fec4973e9136e3a32111:snowball/.signature
 f:c0493bfcb2d566404ad5fb488d2ed87d:snowball/.footprint
 f:4a56557ad0ed4774862df6110d5e74a5:snowball/Pkgfile
 f:70e9965a8c2b415d5de3593d0728e517:snowball/dynamiclib.patch
-f:0617dd5f0ff4de6ac32567ac95d34456:p5-alien-build/.signature
-f:2f359745f1bf4c4e95397393271ad5e6:p5-alien-build/.footprint
-f:bede6fe375972c1e86d0cbf21674e43f:p5-alien-build/Pkgfile
+f:67e0296cab94a612b153919c960a2f9f:p5-alien-build/.signature
+f:ef3ec552d8bed7ad13ea6dac694ed378:p5-alien-build/.footprint
+f:8f96d5db5b00e35d5600e7831a7801b2:p5-alien-build/Pkgfile
 f:8803fb2af0fa5613c26a9fb7bbfe969d:faba-icon-theme/.signature
 f:91c9223c91d86188775cb8a8f13eec96:faba-icon-theme/.footprint
 f:fd0add61aab7fabfc219cde8b6c79a3b:faba-icon-theme/post-install
@@ -703,6 +703,7 @@ f:1506f57f189f8742a6bbbf5b7026815e:p5-b-hooks-endofscope/.footprint
 f:72a1d8a29bfdd360ce642184905f1f2f:p5-b-hooks-endofscope/Pkgfile
 f:9c83867844a6eadcef6a104fb479e211:openblas/.signature
 f:b21fd75e9d0cda3e4c5078f8f434e3b1:openblas/.footprint
+f:8554f9013578de7c43ab3c820a3a823d:openblas/post-install
 f:ec718d25a8e9b0f87f781c1682100234:openblas/Pkgfile
 f:73836a01344666bcfcd3d96e801db8fd:blueman/.signature
 f:db1dbc7ff87ab94175aa9c9ac2d33321:blueman/.footprint

@@ -46,7 +46,6 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/blueman/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/blueman/__pycache__/__init__.cpython-37.pyc
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/blueman/bluez/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/blueman/bluez/Adapter.py
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/blueman/bluez/Agent.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/blueman/bluez/AgentManager.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/blueman/bluez/AnyBase.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/blueman/bluez/Base.py
@@ -58,8 +57,6 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/blueman/bluez/
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/blueman/bluez/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/blueman/bluez/__pycache__/Adapter.cpython-37.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/blueman/bluez/__pycache__/Adapter.cpython-37.pyc
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/blueman/bluez/__pycache__/Agent.cpython-37.opt-1.pyc
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/blueman/bluez/__pycache__/Agent.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/blueman/bluez/__pycache__/AgentManager.cpython-37.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/blueman/bluez/__pycache__/AgentManager.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/blueman/bluez/__pycache__/AnyBase.cpython-37.opt-1.pyc
@@ -80,7 +77,6 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/blueman/bluez/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/blueman/bluez/__pycache__/errors.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/blueman/bluez/errors.py
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/blueman/bluez/obex/
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/blueman/bluez/obex/Agent.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/blueman/bluez/obex/AgentManager.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/blueman/bluez/obex/Base.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/blueman/bluez/obex/Client.py
@@ -90,8 +86,6 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/blueman/bluez/obex/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/blueman/bluez/obex/Transfer.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/blueman/bluez/obex/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/blueman/bluez/obex/__pycache__/
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/blueman/bluez/obex/__pycache__/Agent.cpython-37.opt-1.pyc
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/blueman/bluez/obex/__pycache__/Agent.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/blueman/bluez/obex/__pycache__/AgentManager.cpython-37.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/blueman/bluez/obex/__pycache__/AgentManager.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/blueman/bluez/obex/__pycache__/Base.cpython-37.opt-1.pyc
@@ -535,21 +529,6 @@ drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/actions/
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/actions/blueman-send-file.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/apps/
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/apps/blueman.png
-drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/devices/
--rw-r--r--	root/root	usr/share/icons/hicolor/48x48/devices/blueman-camera.png
--rw-r--r--	root/root	usr/share/icons/hicolor/48x48/devices/blueman-cellular.png
--rw-r--r--	root/root	usr/share/icons/hicolor/48x48/devices/blueman-desktop.png
--rw-r--r--	root/root	usr/share/icons/hicolor/48x48/devices/blueman-handheld.png
--rw-r--r--	root/root	usr/share/icons/hicolor/48x48/devices/blueman-handsfree.png
--rw-r--r--	root/root	usr/share/icons/hicolor/48x48/devices/blueman-headset.png
--rw-r--r--	root/root	usr/share/icons/hicolor/48x48/devices/blueman-keyboard.png
--rw-r--r--	root/root	usr/share/icons/hicolor/48x48/devices/blueman-laptop.png
--rw-r--r--	root/root	usr/share/icons/hicolor/48x48/devices/blueman-loudspeaker.png
--rw-r--r--	root/root	usr/share/icons/hicolor/48x48/devices/blueman-mouse.png
--rw-r--r--	root/root	usr/share/icons/hicolor/48x48/devices/blueman-pointing.png
--rw-r--r--	root/root	usr/share/icons/hicolor/48x48/devices/blueman-scanner.png
--rw-r--r--	root/root	usr/share/icons/hicolor/48x48/devices/blueman-server.png
--rw-r--r--	root/root	usr/share/icons/hicolor/48x48/devices/blueman-smart-phone.png
 drwxr-xr-x	root/root	usr/share/icons/hicolor/48x48/status/
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/status/blueman-active.png
 -rw-r--r--	root/root	usr/share/icons/hicolor/48x48/status/blueman-disabled.png

@@ -4,7 +4,7 @@
 # Depends on:
 
 name=tlp
-version=1.2.1
+version=1.2.2
 release=1
 source=(https://github.com/linrunner/TLP/archive/$version/$name-$version.tar.gz tlp)
 
@@ -16,4 +16,5 @@ build() {
   export TLP_WITH_SYSTEMD='0'
   make DESTDIR=$PKG install-tlp install-man
   install -D -m 755 $SRC/tlp $PKG/etc/rc.d/tlp
+  rm -fr $PKG/lib/elogind
 }

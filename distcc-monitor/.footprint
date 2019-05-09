@@ -1,9 +1,0 @@
-drwxr-xr-x	root/root	usr/
-drwxr-xr-x	root/root	usr/bin/
--rwxr-xr-x	root/root	usr/bin/distccmon-gnome
-drwxr-xr-x	root/root	usr/lib/
-drwxr-xr-x	root/root	usr/sbin/
-drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/distcc/
--rw-r--r--	root/root	usr/share/distcc/distccmon-gnome-icon.png
--rw-r--r--	root/root	usr/share/distcc/distccmon-gnome.desktop

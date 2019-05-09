@@ -1,7 +1,7 @@
-# Description: a simple session-locker for lightdm 
+# Description: a simple session-locker for lightdm
 # URL: https://github.com/the-cavalry/light-locker
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: at-spi-atk dbus-glib freetype gtk3 xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxrandr xorg-libxscrnsaver xorg-libxxf86misc
+# Depends on: dbus-glib gtk3 util-linux xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxscrnsaver xorg-libxxf86misc
 
 name=light-locker
 version=1.8.0
@@ -9,14 +9,14 @@ release=1
 source=(https://github.com/the-cavalry/$name/releases/download/v$version/$name-$version.tar.bz2)
 
 build() {
-	cd $name-$version
-    ./configure --prefix=/usr \
-        --sysconfdir=/etc \
-        --with-console-kit \
-        --with-upower \
-        --with-dpms-ext \
-        --disable-nls
-    make
-    make DESTDIR=$PKG install
-    rm -fr $PKG/usr/share/locale
+  cd $name-$version
+  ./configure --prefix=/usr \
+    --sysconfdir=/etc \
+    --with-console-kit \
+    --with-upower \
+    --with-dpms-ext \
+    --disable-nls
+  make
+  make DESTDIR=$PKG install
+  rm -fr $PKG/usr/share/locale
 }

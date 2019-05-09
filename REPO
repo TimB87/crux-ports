@@ -366,9 +366,9 @@ f:7d8fe84839827763f6da98de719f91e5:yubikey-personalization/.footprint
 f:9d42abc94e3e85c034425715bd175191:yubikey-personalization/10-security-key.rules
 f:de712291b5054b8443501ecd0381e12d:yubikey-personalization/README
 f:1dd36aa4112c651836d73a4b599ca362:yubikey-personalization/Pkgfile
-f:3faca20a525cba705c0aa528bd9e269a:termite/.signature
+f:e8dcc7a1d5a1b780cd8daa93e206d8b9:termite/.signature
 f:567433e3379669c6bd9a9605e5675291:termite/.footprint
-f:576f846fd453ecf3f49075defacd0438:termite/Pkgfile
+f:384b48e6f3104f80f09f249629b8fb06:termite/Pkgfile
 f:2b265aa56077ddee3ae96cbb1ca0d301:p5-devel-stacktrace/.signature
 f:418bfdd31bf0befffd869e0d01a61484:p5-devel-stacktrace/.footprint
 f:c32d7aa9e5657706118d60d2830b2867:p5-devel-stacktrace/Pkgfile

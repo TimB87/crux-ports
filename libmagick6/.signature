@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwPRNXtrRGlmw0zxn4c4wV0KBJOlOcqkQ3YF1bdQQhol4rQTZNNwkgbj24qRPOq+VAi41WeIUj8HyARUbeGKm7Qc=
-SHA256 (Pkgfile) = b58ce353d8a3f47fdce214ef8b6a1077cb03364a49e4f1cdfc9b393bf2602b31
-SHA256 (.footprint) = eba886efc564ca18bcb2e469f4f1a12ec1bf86ec1cc5a23d76e6fd534b964ffe
-SHA256 (ImageMagick-6.9.10-27.tar.xz) = 98c944233e6b6ffa7be60b22d138b5c719ebe1ee12e6c49816ea4e8a0a7c76ea
-SHA256 (IM6-GS-policy.patch) = f20c09860da65a4259ec9627ceeca7d993949b7460fa199c5ffd874633814cf6

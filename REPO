@@ -788,9 +788,9 @@ f:b640101c99ca05d02fbae1974f00ab31:light-locker/.signature
 f:24acd60ec47339feb2e9a951b9c06a13:light-locker/.footprint
 f:c12cca3ec32b9d4941f53c72a0e368bc:light-locker/Pkgfile
 f:e62427f53fea4bc79ee8bc158832a8f6:tb.pub
-f:aa64a460810563d6dcc82db48343ec82:rofi/.signature
+f:99dba0122966c9f977da7ea4cdbb8709:rofi/.signature
 f:2883ccd055c592d885e9d37ef9f02891:rofi/.footprint
-f:9739b456c087c21d1980552f456e1372:rofi/Pkgfile
+f:19ca31cb8d775615247bc72b08271bcb:rofi/Pkgfile
 f:ebd275b6e7f86204d011de18072989e5:avahi/.signature
 f:413c7e2bf233badd23d8d8719883d9b7:avahi/.footprint
 f:3de0652d5bf88d820e83c2f281548a8a:avahi/Pkgfile
@@ -845,10 +845,10 @@ f:12324194775691dba1a3069eb7fbccfb:p5-extutils-libbuilder/Pkgfile
 f:b7fad779d2bb5cdb35817cf8bbc47dd0:p5-www-robotrules/.signature
 f:7d55fe33d19560709f5313c85e026e26:p5-www-robotrules/.footprint
 f:1540f0fee7a91eaff7388122f17a0331:p5-www-robotrules/Pkgfile
-f:8ac95196c15b97695dca647149f8d93b:i3-gaps/.signature
+f:0d1c6440efa0bedf1e9c77ae47a1af96:i3-gaps/.signature
 f:7c7cb96e3b0f7fba48506efe109a4753:i3-gaps/.footprint
 f:a89245058732b01796d0ce1e2279fb00:i3-gaps/.nostrip
-f:c4f1b8f867a9fc31e6877da0823a9d0a:i3-gaps/Pkgfile
+f:27b41362572e8811cc9de6b3eebe7f99:i3-gaps/Pkgfile
 f:9f8bfbda2c678408d52769e66169b1e2:php/.signature
 f:3ac8cc7f69dd896264937d86f74c58b9:php/.footprint
 f:0dcacecf5118f50df9ade0af7072c994:php/Pkgfile

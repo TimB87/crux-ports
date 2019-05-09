@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwKkjXS5kljTI+RgUvtlSwsvUkF8Flk9wYebG1Zh4QH9/p0d2iNwABl4Y053oKwuq+VL7KMgRvjqYKN4hl1V8iAU=
-SHA256 (Pkgfile) = e9f6b136a487dbae7e7b1f8ed95d862ff6c3c1b019d16bc4a4024660a01ee6f9
+RWSXjYMPO7mZwDOk1rkgzZ8V4BcsZDmc3IR/C6Ik/sr4alRj29CBBCl2fb/ke9hEwyqPepxkTiblHJkxkajZg4Dg2WfyThylqwk=
+SHA256 (Pkgfile) = 3b6ef217bf95825bd0c6ce0aa406e146a1a8dae6ecfff0e5e7eee06b60d02750
 SHA256 (.footprint) = 8b251a16ddeab9f260af6597bb2eedd9a32be52160d2a9cb5f1e05adc717a426
-SHA256 (libwww-perl-6.38.tar.gz) = a8e0849b8d2798fc45a2a5f2fe45c96cbbad5baf3bcbe64a3bf85f210e78708c
+SHA256 (libwww-perl-6.39.tar.gz) = 9a8d7747938aa75d7d524c71574ae7f99ca66a5dac8255a7f7759f373e7774d5

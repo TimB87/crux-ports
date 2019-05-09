@@ -1,7 +1,7 @@
 # Description: i3 tiling window manager with gaps
 # URL: http://i3wm.org/
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: libev libxkbcommon pango startup-notification xcb-util-xrm xorg-xcb-util-cursor xorg-xcb-util-keysyms xorg-xcb-util-wm yajl
+# Depends on: libev libxkbcommon pango startup-notification xorg-xcb-util-xrm xorg-xcb-util-cursor xorg-xcb-util-keysyms xorg-xcb-util-wm yajl
 
 name=i3-gaps
 version=4.16.1

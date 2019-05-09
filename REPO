@@ -1009,9 +1009,9 @@ f:a75f7407229d411a3a6414435eacaa7e:p5-http-daemon/Pkgfile
 f:75e50b703f4bd15379caacc1cd948188:p5-class-factory-util/.signature
 f:4ec4f3918b03c335c7641ae4ca9eff4e:p5-class-factory-util/.footprint
 f:0d83e2fbefa8be0e17f3c9d0c4af2dfd:p5-class-factory-util/Pkgfile
-f:174d97eee7e11a7258b8889e0aa8eb11:p5-libwww/.signature
+f:cc61fb2f219a51199cd3b6d07edd576b:p5-libwww/.signature
 f:4438023bb2456e7f477ae2c9863e1bc1:p5-libwww/.footprint
-f:6f790fd1a202fd603e7e1576a87bb073:p5-libwww/Pkgfile
+f:736bb59150615e09512f97ddc9884987:p5-libwww/Pkgfile
 f:b52cdf824a51d32879bf4c2501f1fbbe:argon2/.signature
 f:d61611be3e0409008ac2d3f3419a25e0:argon2/libargon2.pc
 f:a95e7bab1d5f4e36c349247ce0c8ee88:argon2/.footprint

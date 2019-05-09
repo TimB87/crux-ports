@@ -13,6 +13,7 @@ d:p5-io-html
 d:p5-file-sharedir-install
 d:xdotool
 d:p5-xml-sax
+d:libdaemon
 d:libsass
 d:xdg-desktop-portal-gtk
 d:python3-pybluez
@@ -303,6 +304,9 @@ f:dc38921c200161844a55f053ede828b1:xdotool/Pkgfile
 f:7bbbd357bd147674a74a24ffac468cf4:p5-xml-sax/.signature
 f:c585f0bebbfbf00ad572408ab5876e02:p5-xml-sax/.footprint
 f:912e57c04dc1058d566bb7ce5b7f1698:p5-xml-sax/Pkgfile
+f:d4a1969b7123f256b5fbd56d052f8ba5:libdaemon/.signature
+f:4f395863e79829697114feb0871546b8:libdaemon/.footprint
+f:986103dfde73d97ec729f76239f6aa9c:libdaemon/Pkgfile
 f:94ce0ee1a47eea35af9f037968dcb91d:libsass/.signature
 f:a21d7d697fbb3a29e24433eb183731c7:libsass/.footprint
 f:7c2d7a210ea7951f00a61ad889f38493:libsass/Pkgfile

@@ -9,13 +9,10 @@ release=1
 source=(https://github.com/Antergos/light-locker-settings/archive/$version/$name-$version.tar.gz)
 
 build() {
-	cd $name-$version
-
-    ./configure --prefix=/usr 
-    
-    make
-    make DESTDIR=$PKG install
-    
-    rm -fr $PKG/usr/share/{locale,doc}
-    rm -fr $PKG/usr/share/light-locker-settings/locale
+  cd $name-$version
+  ./configure --prefix=/usr
+  make
+  make DESTDIR=$PKG install
+  rm -fr $PKG/usr/share/{locale,doc}
+  rm -fr $PKG/usr/share/light-locker-settings/locale
 }

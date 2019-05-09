@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwPAuzttNsjQ9Tvd7cOhXaN87qWz8uwUtQ5ZLnEkswgQBCAqhlE+vkFHo5mSxgx8xJBChNBRvzGuIr2v3DUkRRAQ=
-SHA256 (Pkgfile) = 78939df42808fcb5dad834f6eb1cade7431e65ff1c706815f42ad55ecac6f7b2
+RWSXjYMPO7mZwPblvY+8umKfNjB5h1v+X8pXG2E97vPNiY5imfHuJfKxHKNhV9TGUFsPx9+DnbXbSWuxEWioSpl7UVcLHyrA9gA=
+SHA256 (Pkgfile) = ff3a52673d97f52ef619a0f76c56dfff6c3663d2ae21fb774d92a5fce07131da
 SHA256 (.footprint) = 1aa883b3b183eed93977b74f5eb223512ff8880322deb73cd98568633dcd09cc
 SHA256 (light-locker-settings-1.5.3.tar.gz) = 9174ee896d9ea7f41cb14eed61bea473de4b57278858bbd32045f1ed64858fcd

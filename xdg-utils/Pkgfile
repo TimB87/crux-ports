@@ -1,8 +1,8 @@
 # Description: Command line tools for desktop integration tasks.
-# URL: http://portland.freedesktop.org/ 
+# URL: http://portland.freedesktop.org/
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Packager: Fredrik Rinnestam, fredrik at crux dot guru
-# Depends on: 
+# Depends on: xmlto lynx
 
 name=xdg-utils
 version=1.1.3

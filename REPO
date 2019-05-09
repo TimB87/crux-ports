@@ -165,7 +165,6 @@ d:optipng
 d:arandr
 d:p5-module-runtime
 d:networkmanager
-d:distcc-monitor
 d:p5-test-differences
 d:python3-pyudev
 d:p5-extutils-libbuilder
@@ -363,9 +362,9 @@ f:7d8fe84839827763f6da98de719f91e5:yubikey-personalization/.footprint
 f:9d42abc94e3e85c034425715bd175191:yubikey-personalization/10-security-key.rules
 f:de712291b5054b8443501ecd0381e12d:yubikey-personalization/README
 f:1dd36aa4112c651836d73a4b599ca362:yubikey-personalization/Pkgfile
-f:6757e98768fe4fef2522859de0365216:termite/.signature
+f:3faca20a525cba705c0aa528bd9e269a:termite/.signature
 f:567433e3379669c6bd9a9605e5675291:termite/.footprint
-f:432053a00631d2e3d61d289de5e80966:termite/Pkgfile
+f:576f846fd453ecf3f49075defacd0438:termite/Pkgfile
 f:2b265aa56077ddee3ae96cbb1ca0d301:p5-devel-stacktrace/.signature
 f:418bfdd31bf0befffd869e0d01a61484:p5-devel-stacktrace/.footprint
 f:c32d7aa9e5657706118d60d2830b2867:p5-devel-stacktrace/Pkgfile
@@ -830,9 +829,6 @@ f:2259175ccddd94bda95ca35a31af693b:networkmanager/Pkgfile
 f:1653159d6634fb62d3a5c548b7a56151:networkmanager/NetworkManager.conf
 f:3a7fb4b8ff084c1ccfaeb16e1650c574:networkmanager/org.freedesktop.NetworkManager.rules
 f:b722fa02f904a9c8ed0d2ec21cbfc588:networkmanager/dhcp.conf
-f:1d7ff9d02b45b0f07f001470f9630088:distcc-monitor/.signature
-f:9b9538ad125074f24fabb35fa12650d8:distcc-monitor/.footprint
-f:479f52899f590171811722116196433e:distcc-monitor/Pkgfile
 f:939a2d6997e82d1fc7ca1bdd50c43868:p5-test-differences/.signature
 f:312e20a4ef1f0ffe4bee584a661d474f:p5-test-differences/.footprint
 f:5af357fe2c456ca1e35b2e421a67f2f1:p5-test-differences/Pkgfile
@@ -1096,9 +1092,9 @@ f:8087789a33c86485579e8cfddb889dd0:libgd/Pkgfile
 f:f78b4ba73a4a8d528127818f91401d19:p5-sort-key/.signature
 f:cc88417ecd17f63dcd6ec9306c70b03a:p5-sort-key/.footprint
 f:b4997ba09c88bdad547ad3521cfed389:p5-sort-key/Pkgfile
-f:8944f74c3d95775f31daf777b27543df:murmur/.signature
+f:97a04745e9a68ee67ab6a6fe9546ea0c:murmur/.signature
 f:99fa44acfdccf900f090869f7bb38e82:murmur/.footprint
-f:356c0db419447f5dd04c59ae447fde3a:murmur/Pkgfile
+f:37ebdcdf23b2ca474b579a81473f5aea:murmur/Pkgfile
 f:e72ca7bc42fe99f9de8fd97d1e1572ba:murmur/pre-install
 f:4014d548fa3a400a75ebd3fb26b90316:murmur/murmur
 f:8e3a4c1d110194b79245e344c67f4a02:php-sqlite3/.signature

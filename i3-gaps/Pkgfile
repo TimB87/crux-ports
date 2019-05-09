@@ -1,7 +1,7 @@
 # Description: i3 tiling window manager with gaps
 # URL: http://i3wm.org/
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: freetype libev libxkbcommon pango startup-notification xcb-util-xrm xorg-xcb-util-cursor xorg-xcb-util-keysyms xorg-xcb-util-wm yajl
+# Depends on: libev libxkbcommon pango startup-notification xcb-util-xrm xorg-xcb-util-cursor xorg-xcb-util-keysyms xorg-xcb-util-wm yajl
 
 name=i3-gaps
 version=4.16.1
@@ -9,15 +9,12 @@ release=1
 source=(https://github.com/Airblader/i3/releases/download/$version/i3-$version.tar.bz2)
 
 build() {
-    cd i3-$version
-    
-    autoreconf --force --install
-    mkdir -p build && cd build
-    
-    ../configure --prefix=/usr \
-                --disable-sanitizers
-    make
-    make DESTDIR=$PKG install
-    
-    rm -rf $PKG/usr/share/doc
+  cd i3-$version
+  autoreconf --force --install
+  mkdir -p build && cd build
+  ../configure --prefix=/usr \
+    --disable-sanitizers
+  make
+  make DESTDIR=$PKG install
+  rm -rf $PKG/usr/share/doc
 }

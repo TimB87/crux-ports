@@ -373,14 +373,14 @@ f:384b48e6f3104f80f09f249629b8fb06:termite/Pkgfile
 f:2b265aa56077ddee3ae96cbb1ca0d301:p5-devel-stacktrace/.signature
 f:418bfdd31bf0befffd869e0d01a61484:p5-devel-stacktrace/.footprint
 f:c32d7aa9e5657706118d60d2830b2867:p5-devel-stacktrace/Pkgfile
-f:9a831341c9ed9fe65ae1aecde2a559b2:lxc/.signature
+f:872069cc0deb8cca87f3c57193113cca:lxc/.signature
 f:0d61d1ff89bb9d3708a4c0b523b079af:lxc/lxc-cgroups
 f:2136f3664da330867e5993d7a1174c61:lxc/default.conf
 f:46a3fcc98d77589f9d4862562a6c1f0c:lxc/.footprint
 f:13b40dfb0c71e737148782c6a29151eb:lxc/lxc-usernet
 f:76e6f30cc352507f366f1b8653980b68:lxc/post-install
-f:b72d479d793b72efedd816650e15a58a:lxc/README
-f:77df9fe1e6c035c33570802c04abebf4:lxc/Pkgfile
+f:e5f4d1655e531abdd57b777fdb22a2e8:lxc/README
+f:1e4f774280c55e63cfca5146051ae817:lxc/Pkgfile
 f:a18407a2c9b43ca217ebdb14523e3d82:lxc/lxc-users-setup
 f:5c2bdfb9ab3e421c5816408ee646a578:lxc/lxc-users
 f:3adcecede2a9d7bc42c95c60b6b7d004:lxc/man-pages.tar.xz

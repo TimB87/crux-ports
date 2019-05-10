@@ -362,11 +362,11 @@ f:58263288f4bf69813d0ec0b7e255625d:ccache/.signature
 f:098b046790e3e45140628ddbee320fee:ccache/.footprint
 f:e09c51e72a7a563cff8340a74a9c7441:ccache/README
 f:7a1c34d6f8fce7f3dd7c7de00eaccfe0:ccache/Pkgfile
-f:07e3b33fa533daa2c21ecb9d0f1942a4:yubikey-personalization/.signature
-f:7d8fe84839827763f6da98de719f91e5:yubikey-personalization/.footprint
+f:f0930fcff081d861776ca52a64dcc5b7:yubikey-personalization/.signature
+f:6eef98f4815b2c1218d535ea197465ab:yubikey-personalization/.footprint
 f:9d42abc94e3e85c034425715bd175191:yubikey-personalization/10-security-key.rules
 f:de712291b5054b8443501ecd0381e12d:yubikey-personalization/README
-f:1dd36aa4112c651836d73a4b599ca362:yubikey-personalization/Pkgfile
+f:1df347f1d8e6e7128b729457728d7bb1:yubikey-personalization/Pkgfile
 f:e8dcc7a1d5a1b780cd8daa93e206d8b9:termite/.signature
 f:567433e3379669c6bd9a9605e5675291:termite/.footprint
 f:384b48e6f3104f80f09f249629b8fb06:termite/Pkgfile

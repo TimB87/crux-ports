@@ -4,7 +4,7 @@
 # Depends on: yubico-c-client libusb
 
 name=yubikey-personalization
-version=1.19.0
+version=1.19.3
 release=1
 source=(https://github.com/Yubico/yubikey-personalization/archive/v$version/$name-v$version.tar.gz 10-security-key.rules)
 

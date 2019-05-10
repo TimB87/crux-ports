@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwBUqRoXP18cNw1vSzvjkEsVQx3s/jRNjXFwWwoBx+0twqcmgv3xyROPupTpmWYaydld8XtFjPUqIxvSj+8ngEAM=
-SHA256 (Pkgfile) = 629fdb5f7ea6086f4ff9c72969cbd22bb161ce36ee90d5880a07e34856e9dfa8
-SHA256 (.footprint) = d3a95a031b7bc6cb6c17d955dee61e55c32c9512677d45773c0e17cf8964d0ed
-SHA256 (yubikey-personalization-v1.19.0.tar.gz) = 2ba078bc7ddd79f3945d5d9fe94fb7a2d679f5c3113760dfcafbbfcb5afc786b
+RWSXjYMPO7mZwPi9Ev3sifqsAW/ofg02hsVvZIY54wIwr+e5qarw+PIHwZ90sqK8iuTrCLcTm7nYZI6DrkykdgcmJtG87oihvwE=
+SHA256 (Pkgfile) = 67ebc623c2d901a636eb2ae06c14b1da346fd63411fb737643a14e0b6ffdcc07
+SHA256 (.footprint) = 2ffbdca01baa18a0a06f13cb35015284714e8f77af777b150446cac3467387c6
+SHA256 (yubikey-personalization-v1.19.3.tar.gz) = a59273938fb9d1e1e059e319e2d73bac2f121dad53b76efb49b1631839cb2afc
 SHA256 (10-security-key.rules) = e7cd6d8e595ceda4e8d907f2a579e88d2beb49a3d31eb70ef7a9fcca879f55d4

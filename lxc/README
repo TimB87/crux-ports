@@ -67,6 +67,9 @@ service for the new user cgroups to be available for use. Last, if you are
 wanting LXC to manage the startup of your user containers, be sure to place
 the lxc-users service after lxc in the /etc/rc.conf file.
 
+Fifth, you need to add the following line to /etc/pam.d/common-session:
+session   optional    pam_cgfs.so -c all
+
 Now you are ready to start using LXC. See below for some examples of basic
 usage of LXC.
 

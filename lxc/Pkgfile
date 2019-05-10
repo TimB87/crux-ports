@@ -8,7 +8,7 @@
 
 name=lxc
 version=3.1.0
-release=1
+release=2
 source=(https://linuxcontainers.org/downloads/$name/$name-$version.tar.gz
         man-pages.tar.xz
         default.conf
@@ -41,11 +41,11 @@ build() {
   rm -rf $PKG/usr/lib/lxc/rootfs/README $PKG/usr/share/doc
   rm -rf $PKG/usr/share/lxc/config/common.conf.d/README
   mv $PKG/etc/rc.d/init.d/* $PKG/etc/rc.d/
-  mv $SRC/lxc-cgroups $PKG/etc/rc.d/
-  mv $SRC/lxc-users $PKG/etc/rc.d/
+  install -m755 $SRC/lxc-cgroups $PKG/etc/rc.d/
+  install -m755 $SRC/lxc-users $PKG/etc/rc.d/
   rmdir $PKG/etc/rc.d/init.d/
-  mv $SRC/lxc-net $PKG/etc/default/
+  install -m644 $SRC/lxc-net $PKG/etc/default/
   rm $PKG/etc/lxc/default.conf
-  mv $SRC/default.conf $PKG/etc/lxc/
-  mv $SRC/lxc-usernet $PKG/etc/lxc/
+  install -m644 $SRC/default.conf $PKG/etc/lxc/
+  install -m644 $SRC/lxc-usernet $PKG/etc/lxc/
 }

@@ -2,7 +2,7 @@
 # URL: https://metacpan.org/release/libwww-perl
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Packager: Danny Rawlins, crux at romster dot me
-# Depends on: p5-encode-locale p5-file-listing p5-html-parser p5-http-cookies p5-http-daemon p5-http-date p5-http-negotiate p5-lwp-mediatypes p5-net-http p5-try-tiny p5-uri p5-www-robotrules p5-lwp-protocol-https
+# Depends on: p5-encode-locale p5-file-listing p5-html-parser p5-http-cookies p5-http-daemon p5-http-date p5-http-negotiate p5-lwp-mediatypes p5-net-http p5-try-tiny p5-uri p5-www-robotrules
 
 name=p5-libwww
 version=6.39

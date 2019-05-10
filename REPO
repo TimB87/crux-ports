@@ -758,9 +758,9 @@ f:b77fc26fcb1614bb6da14266bb92d6a8:qownnotes/Pkgfile
 f:ac85f41c466f07a64566411c09a5962a:p5-data-optlist/.signature
 f:090ed3ffcc65aaf3791afe2d3633abff:p5-data-optlist/.footprint
 f:5019e730e55cf13cc599bbbb957e1494:p5-data-optlist/Pkgfile
-f:0a7e492bfefa2e1f18ceef0c6923bbd1:flatpak/.signature
-f:8b8252b8c4c5399a2a31a1259d36050f:flatpak/.footprint
-f:62db22d2fdcd1601dd21f746d59688c4:flatpak/Pkgfile
+f:ef05ec1f7583f4f3f44ccaafada968b7:flatpak/.signature
+f:618b2a0ce4a0a803e1205897f7740a0c:flatpak/.footprint
+f:426ef27f1d2d9e2b6dcd1138e5a32fc8:flatpak/Pkgfile
 f:1863aea1513ff08a4c9605c6cc3f204c:flatpak/pre-install
 f:ca45269dc5de960b8446100f9d88e7c9:p5-scalar-list-utils/.signature
 f:6947f242fcae9a3487fa0eb94dca609f:p5-scalar-list-utils/.footprint

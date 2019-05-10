@@ -48,4 +48,7 @@ build() {
   rm $PKG/etc/lxc/default.conf
   install -m644 $SRC/default.conf $PKG/etc/lxc/
   install -m644 $SRC/lxc-usernet $PKG/etc/lxc/
+  if [ "$(prt-get isinst bash-completion)" = 'package bash-completion is not installed' ]; then
+    rm -fr $PKG/etc/bash_completion.d;
+  fi
 }

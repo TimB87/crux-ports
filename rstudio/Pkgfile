@@ -21,6 +21,7 @@ unpack_source() {
     case ${file##*/} in
       rstudio-$version.tar.gz)
         bsdtar -p -o -C $SRC -xf $(get_filename $file) ;;
+        #if you need a git based build, comment the line above and uncomment the line below
         #git clone $git $SRC/$name-$version ;;
       gwt-$_gwtver.zip)
         gwtdir=$SRC/$name-$version/src/gwt
@@ -34,7 +35,6 @@ unpack_source() {
         install -d $gwtdir/lib/gin
         install -d $gwtdir/lib/gin/$_ginver
         unzip -qo $(get_filename $file) -d $gwtdir/lib/gin/$_ginver ;;
-        #mv $gwtdir/lib/gin/$_ginver/gin-$_ginver/* $gwtdir/lib/gin/$_ginver ;;
       *)
         cp $(get_filename $file) $SRC ;;
     esac
@@ -43,6 +43,7 @@ unpack_source() {
 
 build() {
     cd $name-$version
+    #if you want your git snapshot to be a particular version…
     #git checkout v$version
 
     pushd dependencies/common
@@ -51,9 +52,6 @@ build() {
     ln -sfT /usr/share/mathjax mathjax-26
     ln -sfT /usr/bin/pandoc pandoc/pandoc
     ln -sfT /usr/bin/pandoc-citeproc pandoc/pandoc-citeproc
-    #install -d libclang/{3.5,builtin-headers}
-    #ln -sfT '/usr/lib/libclang.so'              libclang/3.5/libclang.so
-    #ln -sfT "/usr/lib/clang/$_clangver/include" libclang/builtin-headers/3.5
     bash install-packages
     popd
 
@@ -61,13 +59,11 @@ build() {
     mkdir build
     pushd build
     export PATH=/usr/lib/java/openjdk8/jre/bin/:${PATH}
-    #export JAVA_TOOL_OPTIONS="-Djava.util.prefs.userRoot=$SRC"
     cmake -DRSTUDIO_TARGET=Desktop \
         -DCMAKE_BUILD_TYPE=Release \
         -DCMAKE_INSTALL_PREFIX=/usr/lib/rstudio \
         -DQT_QMAKE_EXECUTABLE=/usr/lib/qt5/bin/qmake \
         -DRSTUDIO_BUNDLE_QT=FALSE ..
-        #-DQT_QMAKE_EXECUTABLE="/usr/lib/qt5/bin/qmake"  \
 
     make DESTDIR=$PKG install
     install -dm755 $PKG/usr/bin/

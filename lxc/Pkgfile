@@ -8,7 +8,7 @@
 
 name=lxc
 version=3.1.0
-release=2
+release=3
 source=(https://linuxcontainers.org/downloads/$name/$name-$version.tar.gz
         man-pages.tar.xz
         default.conf
@@ -21,7 +21,7 @@ source=(https://linuxcontainers.org/downloads/$name/$name-$version.tar.gz
 build() {
   cd $name-$version
   ./configure --prefix=/usr \
-              --mandir=/usr/man \
+              --mandir=/usr/share/man \
               --libexecdir=/usr/lib \
               --localstatedir=/var \
               --sysconfdir=/etc \
@@ -33,11 +33,11 @@ build() {
   make
   make DESTDIR=$PKG install
 
-  install -d $PKG/usr/man
+  install -d $PKG/usr/share/man
   install -d $PKG/var/lib/misc
 
   install -m 0755 $SRC/lxc-users-setup $PKG/usr/sbin/
-  mv $SRC/man* $PKG/usr/man
+  mv $SRC/man* $PKG/usr/share/man
   rm -rf $PKG/usr/lib/lxc/rootfs/README $PKG/usr/share/doc
   rm -rf $PKG/usr/share/lxc/config/common.conf.d/README
   mv $PKG/etc/rc.d/init.d/* $PKG/etc/rc.d/

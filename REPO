@@ -96,6 +96,7 @@ d:moka-icon-theme
 d:p5-regexp-common
 d:bubblewrap
 d:yubico-c-client
+d:pandoc-bin
 d:p5-alien-libxml2
 d:p5-mozilla-ca
 d:networkmanager-openvpn
@@ -161,6 +162,7 @@ d:avahi
 d:font-awesome
 d:papirus-libreoffice-theme
 d:p5-class-inspector
+d:rstudio
 d:qtkeychain
 d:p5-clone
 d:optipng
@@ -178,7 +180,6 @@ d:v4l-utils
 d:libsodium
 d:p5-log-log4perl
 d:network-manager-applet
-d:sbc
 d:nextcloud-client
 d:p5-tie-cycle
 d:p5-autovivification
@@ -236,6 +237,7 @@ d:nnn
 d:p5-perlio-utf8-strict
 d:papirus-folders
 d:php-fpm
+d:mathjax
 d:p5-data-uniqid
 d:solaar
 d:slang
@@ -483,7 +485,7 @@ f:f90d68128d59a0f85f53bca64cd36f7c:yajl/Pkgfile
 f:65be2cce5649e56f4287f2bfc1041384:gdl/.signature
 f:6f43686c659093f1f3e1505ddb3e5a2b:gdl/.footprint
 f:f9189e52ccb8758ee4e522e6f9426df0:gdl/Pkgfile
-f:50522a7b04d757e307f69df3eab84ea0:harfbuzz-icu/.signature
+f:0bff02cb180aa125a17496cf40acd9d0:harfbuzz-icu/.signature
 f:d2b98a83b2a4522d2d29fdd466369a80:harfbuzz-icu/.footprint
 f:0989431b68725803668d2d633ece5f45:harfbuzz-icu/Pkgfile
 f:22b19c99e7efc5e09a447d81d66d0e41:ttf-unifont/.signature
@@ -596,6 +598,9 @@ f:48a0012337c393cecaa89a939d1b64b1:bubblewrap/Pkgfile
 f:1bced39587230b4ea934ce890b35c996:yubico-c-client/.signature
 f:6cb3e74177306cde4a7bc8d4d6239f69:yubico-c-client/.footprint
 f:14ca967a46b688d0506bcf8263711893:yubico-c-client/Pkgfile
+f:9fc1670b157dc53d5d63a8aef9cdb572:pandoc-bin/.signature
+f:8a52f5daae3236d9c50b0ed37501471f:pandoc-bin/.footprint
+f:a2fff5b5fcca03b4f55f2f078defdb6f:pandoc-bin/Pkgfile
 f:c5ed51d5771c351b0758b292b3e739b2:p5-alien-libxml2/.signature
 f:69646546c07822f0b0a72aafb6f50ff1:p5-alien-libxml2/.footprint
 f:819bc36a443f481dbc81b6f569d955da:p5-alien-libxml2/Pkgfile
@@ -682,11 +687,11 @@ f:8803fb2af0fa5613c26a9fb7bbfe969d:faba-icon-theme/.signature
 f:91c9223c91d86188775cb8a8f13eec96:faba-icon-theme/.footprint
 f:fd0add61aab7fabfc219cde8b6c79a3b:faba-icon-theme/post-install
 f:e19b162d5db6b104a79c3a8345e48d4b:faba-icon-theme/Pkgfile
-f:9933416187c456da36c70eb826ea8040:r/.signature
+f:247cd9ccdfc8a8c7a6c1a0370468ac4f:r/.signature
 f:2dd24e473eb837016b63a45b638af167:r/r.desktop
-f:7a2d7eaae0110486ca7ce465960b5368:r/.footprint
+f:8939a2c531cc43f06b8fab39d29f8380:r/.footprint
 f:3232377173c4e0c3951f1f795c8444ca:r/r.png
-f:1d24db1473a6470ed13670b1a8e69800:r/Pkgfile
+f:3eadef3075551b70e3383f7f7c5379f8:r/Pkgfile
 f:70df6f383a984821f6833d741715dd02:r/R.conf
 f:02d025a6f71574cf5f170e8d442967a3:p5-sort-versions/.signature
 f:7e29185cd6797dcc16e6e91f498842f8:p5-sort-versions/.footprint
@@ -821,6 +826,9 @@ f:2437e2834d4abde8612ba14ece235458:papirus-libreoffice-theme/Pkgfile
 f:a2707c17f0cae42d618cd384973b2232:p5-class-inspector/.signature
 f:d855a623740de9174bfe82e047d20799:p5-class-inspector/.footprint
 f:be50a0e12918208a49b7d419d348d46a:p5-class-inspector/Pkgfile
+f:82cac5cce02bdd73222374086821117f:rstudio/.signature
+f:a71e21d02af9e99c0433f9259f59f137:rstudio/.footprint
+f:43714cc88a74c9325ddb8bde39087ceb:rstudio/Pkgfile
 f:4930825ff4f90e65d3a5627960b88646:qtkeychain/.signature
 f:e430a68d4a7298b783ed6d72f617c01b:qtkeychain/.footprint
 f:62c887ef42ce34c2506c766ca46590f7:qtkeychain/Pkgfile
@@ -881,9 +889,6 @@ f:dfd1c4f7902d4a0cd95d5b5a84ddd4d4:network-manager-applet/.signature
 f:9153aeda238ce0ab157a0e311bc57e52:network-manager-applet/.footprint
 f:613ce45eb9f3cdcd030379f7405d4cf3:network-manager-applet/post-install
 f:87bb15e03a2537c0c7c755dadef10a3a:network-manager-applet/Pkgfile
-f:ba4b494249516a6e01d5691341573773:sbc/.signature
-f:3f7b0aa5ba4695dbe98a2322c60d05cc:sbc/.footprint
-f:6c0f81632ea76c6faa645216c3202de2:sbc/Pkgfile
 f:a0c16c6d7c764576d664ac8315c0f0f9:nextcloud-client/.signature
 f:d86962ad1c3c0ecae52e38e73306e5a1:nextcloud-client/.footprint
 f:edf746f2fc62d16f5bd0b646c4c03aa2:nextcloud-client/Pkgfile
@@ -934,7 +939,7 @@ f:46a77c1adfc4da35f24e0393d5af1d3c:fail2ban/Pkgfile
 f:81809d73c4cd9e2c240ba85b065e14d5:yubikey-personalization-gui/.signature
 f:51782f0f7541d8a696dcc1859d187a77:yubikey-personalization-gui/.footprint
 f:0f1a31e7c6b09705eb615720e88e4320:yubikey-personalization-gui/Pkgfile
-f:6627355e32d5100036d5a635d12d13a3:harfbuzz/.signature
+f:5733b178ae9b0b23e9d7cd2a63a71553:harfbuzz/.signature
 f:20860d315909d5c308ef75c2be107561:harfbuzz/.footprint
 f:b2c97f503f5860aea8a3373386e7dd15:harfbuzz/Pkgfile
 f:687b9089b2faac03e7c42c219fa93947:p5-http-negotiate/.signature
@@ -1073,6 +1078,9 @@ f:3b82825f8256cfbff7efe1c82245d29a:php-fpm/.signature
 f:5fdeeb4e93c5a496b7ece09d4a996d47:php-fpm/.footprint
 f:04b9673c08cb742e11f10858382cbf86:php-fpm/Pkgfile
 f:954d95b7f645f3435815195aeeac6949:php-fpm/php-fpm
+f:3ab23bfe840d26ce014eb94b20817be4:mathjax/.signature
+f:16bbd1b31492c33c86a61691921b52e0:mathjax/.footprint
+f:5b06893aba55074ede518331ae35e4bd:mathjax/Pkgfile
 f:bf8534a80ad9eb6093c15b9fb5102428:p5-data-uniqid/.signature
 f:83b048b55b141f5c6ab21c7f63adf396:p5-data-uniqid/.footprint
 f:2e0cd6438744e95bdf3190253e9c3999:p5-data-uniqid/Pkgfile

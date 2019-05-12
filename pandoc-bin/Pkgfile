@@ -2,7 +2,7 @@
 # URL: http://pandoc.org
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: cmark
-# Optional: texlive
+# Optional: texlive pandoc-citeproc
 
 name=pandoc-bin
 version=2.7.2

@@ -1,0 +1,81 @@
+# Description: RStudio - an Interface for GNU R
+# URL: https://www.rstudio.com/
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: ant openjdk8 boost libevent pciutils qtwebengine r mathjax pandoc-bin
+
+name=rstudio
+version=1.2.1335
+_gwtver=2.8.1
+_ginver=2.1.2
+release=1
+source=(
+https://github.com/rstudio/rstudio/archive/v$version/$name-$version.tar.gz
+https://s3.amazonaws.com/rstudio-buildtools/gin-$_ginver.zip
+https://s3.amazonaws.com/rstudio-buildtools/gwt-$_gwtver.zip
+https://s3.amazonaws.com/rstudio-dictionaries/core-dictionaries.zip
+)
+git=(https://github.com/rstudio/rstudio.git)
+
+unpack_source() {
+  for file in ${source[@]}; do
+    case ${file##*/} in
+      rstudio-$version.tar.gz)
+        bsdtar -p -o -C $SRC -xf $(get_filename $file) ;;
+        #git clone $git $SRC/$name-$version ;;
+      gwt-$_gwtver.zip)
+        gwtdir=$SRC/$name-$version/src/gwt
+        install -d $gwtdir/dictionaries
+        install -d $gwtdir/lib/gwt
+        install -d $gwtdir/lib/gwt/$_gwtver
+        unzip -qd $gwtdir/lib/gwt/$_gwtver $(get_filename $file) # ;;
+        mv $gwtdir/lib/gwt/$_gwtver/gwt-$_gwtver/* $gwtdir/lib/gwt/$_gwtver ;;
+      gin-$_ginver.zip)
+        gwtdir=$SRC/$name-$version/src/gwt
+        install -d $gwtdir/lib/gin
+        install -d $gwtdir/lib/gin/$_ginver
+        unzip -qo $(get_filename $file) -d $gwtdir/lib/gin/$_ginver ;;
+        #mv $gwtdir/lib/gin/$_ginver/gin-$_ginver/* $gwtdir/lib/gin/$_ginver ;;
+      *)
+        cp $(get_filename $file) $SRC ;;
+    esac
+  done
+}
+
+build() {
+    cd $name-$version
+    #git checkout v$version
+
+    pushd dependencies/common
+    install -d pandoc
+    ln -sfT /usr/share/myspell/dicts dictionaries
+    ln -sfT /usr/share/mathjax mathjax-26
+    ln -sfT /usr/bin/pandoc pandoc/pandoc
+    ln -sfT /usr/bin/pandoc-citeproc pandoc/pandoc-citeproc
+    #install -d libclang/{3.5,builtin-headers}
+    #ln -sfT '/usr/lib/libclang.so'              libclang/3.5/libclang.so
+    #ln -sfT "/usr/lib/clang/$_clangver/include" libclang/builtin-headers/3.5
+    bash install-packages
+    popd
+
+    rm -fr build
+    mkdir build
+    pushd build
+    export PATH=/usr/lib/java/openjdk8/jre/bin/:${PATH}
+    #export JAVA_TOOL_OPTIONS="-Djava.util.prefs.userRoot=$SRC"
+    cmake -DRSTUDIO_TARGET=Desktop \
+        -DCMAKE_BUILD_TYPE=Release \
+        -DCMAKE_INSTALL_PREFIX=/usr/lib/rstudio \
+        -DQT_QMAKE_EXECUTABLE=/usr/lib/qt5/bin/qmake \
+        -DRSTUDIO_BUNDLE_QT=FALSE ..
+        #-DQT_QMAKE_EXECUTABLE="/usr/lib/qt5/bin/qmake"  \
+
+    make DESTDIR=$PKG install
+    install -dm755 $PKG/usr/bin/
+    ln -s "/usr/lib/$name/bin/$name" "$PKG/usr/bin/$name"
+    sed -i 's|/usr/lib/rstudio/bin/rstudio|/usr/bin/rstudio|g' "$PKG/usr/share/applications/rstudio.desktop"
+    find $PKG \(\
+        -iname '*README*' -o \
+        -iname '*COPYING*' -o \
+        -iname 'INSTALL' \
+        \) -delete || true
+}

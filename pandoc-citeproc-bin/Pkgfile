@@ -1,0 +1,15 @@
+# Description: Pandoc Cite Processor - "Bin"-Edition
+# URL: https://hackage.haskell.org/package/pandoc-citeproc
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: pandoc-bin
+
+name=pandoc-citeproc-bin
+version=2.7.2
+release=1
+source=(https://github.com/jgm/pandoc/releases/download/$version/pandoc-${version}-linux.tar.gz)
+
+build() {
+  rm -f pandoc-$version/{bin/pandoc,share/man/man1/pandoc.1.gz}
+  mkdir $PKG/usr
+  cp -R pandoc-$version/{bin,share} $PKG/usr
+}

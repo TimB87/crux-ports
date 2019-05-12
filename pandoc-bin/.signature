@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwCrMm5mej8WXacmI4ChNWXkVQhG9EDc+Rg6daBbtyiZT38hi9bufx+BBNY7CFf8B1Ntkz/KgBZzbf74okKzjHwE=
+SHA256 (Pkgfile) = 013db7a4b6a3f372f3e5590c75b812ec4682c84cb59530074e70acdd086a09f9
+SHA256 (.footprint) = b70815ed4e1d8f5aabe0ccead543ed4434793de52668ec1371213c257bea148b
+SHA256 (pandoc-2.7.2-linux.tar.gz) = 6741f73e37a900deee56bc2dc71c2893fb28e0961557db36eb029368de5183c2
+SHA256 (pandoc-2.7.2.tar.gz) = cce58880ef8fd1510f71760ecd637e5e43461a8c6116a5b39c49fcf260116954

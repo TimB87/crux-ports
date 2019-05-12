@@ -5,7 +5,7 @@
 
 name=r
 version=3.6.0
-release=1
+release=2
 source=(https://cran.r-project.org/src/base/R-3/R-$version.tar.gz
 r.desktop
 r.png
@@ -16,6 +16,8 @@ build() {
   cd R-$version
   sed -i 's|$(rsharedir)/texmf|${datarootdir}/texmf|' share/Makefile.in
   ./configure --prefix=/usr \
+    --libdir=/usr/lib \
+    --sysconfdir=/etc/R \
     --datarootdir=/usr/share \
     rsharedir=/usr/share/R/ \
     rincludedir=/usr/include/R/ \
@@ -47,15 +49,23 @@ build() {
   install -Dm644 "$SRC/R.conf" \
     "$PKG/etc/ld.so.conf.d/R.conf"
 
+  install -d $PKG/etc/R
+  cd $PKG/usr/lib/R/etc
+  for i in *; do
+    mv -f ${i} $PKG/etc/R
+    ln -s /etc/R/$i $i
+  done
+
   #clean up
   find $PKG \(\
     -iname '*README*' -o \
     -iname '*COPYING*' -o \
     -iname '*AUTHORS*' -o \
-    -iname '*INSTALL*' -o \
     -iname '*THANKS*' -o \
     -iname '*NEWS*' -o \
     -iname '*LICENSE*' -o \
     -iname '*CHANGELOG*' \
     \) -exec rm '{}' \+ || true
+    #doh! don't remove INSTALl or you won't be able to install R packages
+    #-iname '*INSTALL*' -o \
 }

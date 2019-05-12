@@ -1,4 +1,10 @@
 drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/R/
+-rw-r--r--	root/root	etc/R/Makeconf
+-rw-r--r--	root/root	etc/R/Renviron
+-rw-r--r--	root/root	etc/R/javaconf
+-rw-r--r--	root/root	etc/R/ldpaths
+-rw-r--r--	root/root	etc/R/repositories
 drwxr-xr-x	root/root	etc/ld.so.conf.d/
 -rw-r--r--	root/root	etc/ld.so.conf.d/R.conf
 drwxr-xr-x	root/root	usr/
@@ -59,6 +65,7 @@ drwxr-xr-x	root/root	usr/lib/R/
 drwxr-xr-x	root/root	usr/lib/R/bin/
 -rwxr-xr-x	root/root	usr/lib/R/bin/BATCH
 -rwxr-xr-x	root/root	usr/lib/R/bin/COMPILE
+-rwxr-xr-x	root/root	usr/lib/R/bin/INSTALL
 -rwxr-xr-x	root/root	usr/lib/R/bin/LINK
 lrwxrwxrwx	root/root	usr/lib/R/bin/R -> ../../../bin/R
 -rwxr-xr-x	root/root	usr/lib/R/bin/REMOVE
@@ -78,6 +85,7 @@ drwxr-xr-x	root/root	usr/lib/R/bin/exec/
 -rwxr-xr-x	root/root	usr/lib/R/bin/exec/R
 -rwxr-xr-x	root/root	usr/lib/R/bin/javareconf
 -rwxr-xr-x	root/root	usr/lib/R/bin/libtool
+-rwxr-xr-x	root/root	usr/lib/R/bin/mkinstalldirs
 -rwxr-xr-x	root/root	usr/lib/R/bin/pager
 -rwxr-xr-x	root/root	usr/lib/R/bin/rtags
 drwxr-xr-x	root/root	usr/lib/R/doc/
@@ -105,6 +113,13 @@ drwxr-xr-x	root/root	usr/lib/R/doc/html/
 -rw-r--r--	root/root	usr/lib/R/doc/html/right.jpg
 -rw-r--r--	root/root	usr/lib/R/doc/html/up.jpg
 drwxr-xr-x	root/root	usr/lib/R/doc/manual/
+-rw-r--r--	root/root	usr/lib/R/doc/manual/R-FAQ.html
+-rw-r--r--	root/root	usr/lib/R/doc/manual/R-admin.html
+-rw-r--r--	root/root	usr/lib/R/doc/manual/R-data.html
+-rw-r--r--	root/root	usr/lib/R/doc/manual/R-exts.html
+-rw-r--r--	root/root	usr/lib/R/doc/manual/R-intro.html
+-rw-r--r--	root/root	usr/lib/R/doc/manual/R-ints.html
+-rw-r--r--	root/root	usr/lib/R/doc/manual/R-lang.html
 drwxr-xr-x	root/root	usr/lib/R/doc/manual/images/
 -rw-r--r--	root/root	usr/lib/R/doc/manual/images/QQ.png
 -rw-r--r--	root/root	usr/lib/R/doc/manual/images/ecdf.png
@@ -113,11 +128,11 @@ drwxr-xr-x	root/root	usr/lib/R/doc/manual/images/
 -rw-r--r--	root/root	usr/lib/R/doc/manual/images/hist.png
 -rw-r--r--	root/root	usr/lib/R/doc/manual/images/ice.png
 drwxr-xr-x	root/root	usr/lib/R/etc/
--rw-r--r--	root/root	usr/lib/R/etc/Makeconf
--rw-r--r--	root/root	usr/lib/R/etc/Renviron
--rw-r--r--	root/root	usr/lib/R/etc/javaconf
--rw-r--r--	root/root	usr/lib/R/etc/ldpaths
--rw-r--r--	root/root	usr/lib/R/etc/repositories
+lrwxrwxrwx	root/root	usr/lib/R/etc/Makeconf -> /etc/R/Makeconf
+lrwxrwxrwx	root/root	usr/lib/R/etc/Renviron -> /etc/R/Renviron
+lrwxrwxrwx	root/root	usr/lib/R/etc/javaconf -> /etc/R/javaconf
+lrwxrwxrwx	root/root	usr/lib/R/etc/ldpaths -> /etc/R/ldpaths
+lrwxrwxrwx	root/root	usr/lib/R/etc/repositories -> /etc/R/repositories
 drwxr-xr-x	root/root	usr/lib/R/lib/
 -rwxr-xr-x	root/root	usr/lib/R/lib/libR.so
 drwxr-xr-x	root/root	usr/lib/R/library/

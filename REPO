@@ -372,7 +372,7 @@ f:de712291b5054b8443501ecd0381e12d:yubikey-personalization/README
 f:1df347f1d8e6e7128b729457728d7bb1:yubikey-personalization/Pkgfile
 f:e8dcc7a1d5a1b780cd8daa93e206d8b9:termite/.signature
 f:567433e3379669c6bd9a9605e5675291:termite/.footprint
-f:384b48e6f3104f80f09f249629b8fb06:termite/Pkgfile
+f:6635e04bd7381a9c01a17d5432d4d0cd:termite/Pkgfile
 f:2b265aa56077ddee3ae96cbb1ca0d301:p5-devel-stacktrace/.signature
 f:418bfdd31bf0befffd869e0d01a61484:p5-devel-stacktrace/.footprint
 f:c32d7aa9e5657706118d60d2830b2867:p5-devel-stacktrace/Pkgfile
@@ -400,10 +400,10 @@ f:cc4c05d6c95b5c4d6f1f0b459bda9175:libmediainfo/Pkgfile
 f:ce6f0d15a488e020fe447bbddf6ec6b2:light-locker-settings/.signature
 f:92f6e378c8fbc88902b61f4b63806b29:light-locker-settings/.footprint
 f:9071ddf0a04842e0d791ae9b01d5e9d4:light-locker-settings/Pkgfile
-f:ee790b29d29a3648de74f5f3ebc78dd9:kvantum/.signature
+f:61d7e100a5e957ecef83234c9cb45198:kvantum/.signature
 f:18c75bc6bb23eb9422e185d67b1d6faf:kvantum/.footprint
 f:636c00dbf785d6d4cd7e559a61d7bb4b:kvantum/README
-f:04c8f75a6a701d4434f185793556fcbb:kvantum/Pkgfile
+f:5d746a112be1158b81bcc1583d305e58:kvantum/Pkgfile
 f:90b5c6c0415b44eefd61806c924b29fe:p5-text-glob/.signature
 f:030928c77750edc151e6d12ea0914e5a:p5-text-glob/.footprint
 f:d423c5501082be00f4435f6fa221d910:p5-text-glob/Pkgfile

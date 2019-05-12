@@ -1,0 +1,23 @@
+# Description: A JavaScript display engine for mathematics that works in all browsers
+# URL: https://www.mathjax.org/
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: fontconfig xorg-mkfontscale
+
+name=mathjax
+version=2.7.5
+release=2
+source=(https://github.com/mathjax/MathJax/archive/2.7.5/MathJax-$version.tar.gz)
+
+build() {
+  cd MathJax-$version
+  rm -r docs test unpacked
+  rm -r fonts/HTML-CSS/TeX/png
+  for _format in eot otf svg ; do
+    find . -type d -name "$_format" -prune -exec rm -rf {} \;
+  done
+  mkdir -p $PKG/usr/share/{fonts,licenses/mathjax}
+  cp -a $SRC/MathJax-$version $PKG/usr/share/mathjax
+  mv $PKG/usr/share/mathjax/fonts $PKG/usr/share/fonts/mathjax
+  ln -s /usr/share/fonts/mathjax $PKG/usr/share/mathjax/fonts
+  find $PKG -name README.md -delete
+}

@@ -4,7 +4,7 @@
 # Depends on: qt5 llvm libffi icu harfbuzz kwindowsystem
 
 name=kvantum
-version=0.11.0
+version=0.11.1
 release=1
 source=(https://github.com/tsujan/Kvantum/archive/V$version/Kvantum-v$version.tar.gz)
 

@@ -86,6 +86,7 @@ d:pulseaudio
 d:nextcloud
 d:p5-params-validate
 d:mono
+d:pandoc-citeproc-bin
 d:claws-mail
 d:python-psutil
 d:ragel
@@ -566,6 +567,9 @@ f:70ac91bfe18e75138bad425fbfd9426a:p5-params-validate/Pkgfile
 f:1de4fec4362b4d8377214c9e4cc4d686:mono/.signature
 f:aec48609593a584105249daba6ce149f:mono/.footprint
 f:587e5f7620b498db3136dd87e7c2a9bd:mono/Pkgfile
+f:02bb78c5535de1db07c7a8878875ecbc:pandoc-citeproc-bin/.signature
+f:6c9c9050c0753360e24b02c91cf00088:pandoc-citeproc-bin/.footprint
+f:73acf0bfae69530424bbaf2630f1c7cb:pandoc-citeproc-bin/Pkgfile
 f:833da839392c5be26bb999a3a0261574:claws-mail/.signature
 f:5107e3f5e3bd7aa88ca9bd860c386465:claws-mail/.footprint
 f:a3818f288bd275c694fa5ea9819747e1:claws-mail/README
@@ -598,9 +602,9 @@ f:48a0012337c393cecaa89a939d1b64b1:bubblewrap/Pkgfile
 f:1bced39587230b4ea934ce890b35c996:yubico-c-client/.signature
 f:6cb3e74177306cde4a7bc8d4d6239f69:yubico-c-client/.footprint
 f:14ca967a46b688d0506bcf8263711893:yubico-c-client/Pkgfile
-f:9fc1670b157dc53d5d63a8aef9cdb572:pandoc-bin/.signature
+f:57c58a8eb35411ab9784756074f78542:pandoc-bin/.signature
 f:8a52f5daae3236d9c50b0ed37501471f:pandoc-bin/.footprint
-f:a2fff5b5fcca03b4f55f2f078defdb6f:pandoc-bin/Pkgfile
+f:701679225756ed59328c5362f4e3f7a3:pandoc-bin/Pkgfile
 f:c5ed51d5771c351b0758b292b3e739b2:p5-alien-libxml2/.signature
 f:69646546c07822f0b0a72aafb6f50ff1:p5-alien-libxml2/.footprint
 f:819bc36a443f481dbc81b6f569d955da:p5-alien-libxml2/Pkgfile

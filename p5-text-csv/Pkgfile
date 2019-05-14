@@ -4,7 +4,7 @@
 # Depends on:
 
 name=p5-text-csv
-version=1.97
+version=2.00
 release=1
 source=(https://cpan.metacpan.org/authors/id/I/IS/ISHIGAKI/Text-CSV-$version.tar.gz)
 

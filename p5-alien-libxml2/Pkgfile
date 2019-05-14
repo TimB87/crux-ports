@@ -4,7 +4,7 @@
 # Depends on: libxml2 p5-alien-build p5-html-parser p5-sort-versions p5-uri
 
 name=p5-alien-libxml2
-version=0.07
+version=0.08_01
 release=1
 source=(https://cpan.metacpan.org/authors/id/P/PL/PLICEASE/Alien-Libxml2-$version.tar.gz)
 

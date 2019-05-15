@@ -168,6 +168,7 @@ d:qtkeychain
 d:p5-clone
 d:optipng
 d:arandr
+d:colm
 d:p5-module-runtime
 d:networkmanager
 d:p5-test-differences
@@ -372,7 +373,7 @@ f:de712291b5054b8443501ecd0381e12d:yubikey-personalization/README
 f:1df347f1d8e6e7128b729457728d7bb1:yubikey-personalization/Pkgfile
 f:be492da8d77b7d30446fcc9b89241c0f:termite/.signature
 f:567433e3379669c6bd9a9605e5675291:termite/.footprint
-f:15d005b7c83674d3b3e3fec7cdb025c7:termite/Pkgfile
+f:6635e04bd7381a9c01a17d5432d4d0cd:termite/Pkgfile
 f:2b265aa56077ddee3ae96cbb1ca0d301:p5-devel-stacktrace/.signature
 f:418bfdd31bf0befffd869e0d01a61484:p5-devel-stacktrace/.footprint
 f:c32d7aa9e5657706118d60d2830b2867:p5-devel-stacktrace/Pkgfile
@@ -577,9 +578,9 @@ f:919272e246568acf5dcb5c28f75d62b1:claws-mail/Pkgfile
 f:b24ae462742132f4c5d6baae689a350a:python-psutil/.signature
 f:cd7e6758c7b882903e5040f5f9a6edcc:python-psutil/.footprint
 f:ef2410c0571e6de4ee631969a947bb7b:python-psutil/Pkgfile
-f:11b5cc2853614a5b0df9af15e9587681:ragel/.signature
-f:361048e9dbf7b1123dc00157f40dc370:ragel/.footprint
-f:97a0a2cc1c782ed1ff0b9475fd41505e:ragel/Pkgfile
+f:8e07fc15cbde8ad9b73d9738176edb8f:ragel/.signature
+f:80ce09f789b9bde6d26aba64ea1afc09:ragel/.footprint
+f:a2114bd76d8f147ffb8765a4053549d1:ragel/Pkgfile
 f:360b6332ad5b563100a3d757367b5a6b:p5-datetime/.signature
 f:ecfa49ce9fc2c28c599c4fee3a2430a7:p5-datetime/.footprint
 f:55b15bbfeac2e2a709d667c1cc36ef72:p5-datetime/Pkgfile
@@ -845,6 +846,9 @@ f:d6010b9700ef41852adaf47010a42731:optipng/Pkgfile
 f:29103567e89979ee9f39e16e26fd067c:arandr/.signature
 f:8cbd7bf38c05034ee13b9a66cc42599b:arandr/.footprint
 f:f3b43ea745450e5436a2aa41c7b9f8d3:arandr/Pkgfile
+f:8bd190817303746fa9c734b90673a53c:colm/.signature
+f:5c701ca0f55bccf8eb78cdadf609517e:colm/.footprint
+f:fb0eed9346f2f8019400111f579f0733:colm/Pkgfile
 f:5015095c3af013c23b5b3712ebb31396:p5-module-runtime/.signature
 f:ffe52015e92da7e938e938a5169b8bee:p5-module-runtime/.footprint
 f:a68b3844abd50823ec1aff446c79cb4c:p5-module-runtime/Pkgfile

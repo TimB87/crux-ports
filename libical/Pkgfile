@@ -6,13 +6,14 @@
 name=libical
 version=3.0.5
 release=1
-source=(https://github.com/$name/$name/releases/download/v$version/$name-$version.tar.gz)
+source=(https://github.com/libical/libical/archive/v$version/$name-$version.tar.gz)
 
 build() {
   cd $name-$version
   mkdir build
   cd build
-  cmake -DCMAKE_INSTALL_PREFIX=/usr ..
+  cmake -DCMAKE_INSTALL_PREFIX=/usr \
+    -DICAL_BUILD_DOCS=false ..
   make
   make DESTDIR=$PKG install
   rm -fr $PKG/usr/share/gtk-doc

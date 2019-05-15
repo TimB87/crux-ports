@@ -122,4 +122,3 @@ lrwxrwxrwx	root/root	usr/lib64/libicalvcal.so.3 -> libicalvcal.so.3.0.5
 drwxr-xr-x	root/root	usr/lib64/pkgconfig/
 -rw-r--r--	root/root	usr/lib64/pkgconfig/libical-glib.pc
 -rw-r--r--	root/root	usr/lib64/pkgconfig/libical.pc
-drwxr-xr-x	root/root	usr/share/

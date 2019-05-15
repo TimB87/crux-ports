@@ -6,21 +6,21 @@
 # Optional: clang-ccache-bindings
 
 name=ccache
-version=3.6
+version=3.7.1
 release=1
-source=(https://samba.org/ftp/$name/$name-$version.tar.xz)
+source=(https://github.com/ccache/ccache/releases/download/v$version/$name-$version.tar.xz)
 
 build() {
-    cd $name-$version
-    ./configure --prefix=/usr
-    make
-    make DESTDIR=$PKG install
-    install -d $PKG/usr/lib/ccache
-    for c in cc gcc g++ cpp c++; do
-        ln -s /usr/bin/ccache $PKG/usr/lib/ccache/$c
-        ln -s /usr/bin/ccache $PKG/usr/lib/ccache/`uname -m`-$c
-    done
-    for c in clang clang++; do
-        ln -s /usr/bin/ccache $PKG/usr/lib/ccache/$c
-    done
+  cd $name-$version
+  ./configure --prefix=/usr
+  make
+  make DESTDIR=$PKG install
+  install -d $PKG/usr/lib/ccache
+  for c in cc gcc g++ cpp c++; do
+    ln -s /usr/bin/ccache $PKG/usr/lib/ccache/$c
+    ln -s /usr/bin/ccache $PKG/usr/lib/ccache/`uname -m`-$c
+  done
+  for c in clang clang++; do
+    ln -s /usr/bin/ccache $PKG/usr/lib/ccache/$c
+  done
 }

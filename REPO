@@ -361,10 +361,10 @@ f:5f5216b253fc29da57b9f5336196f749:apcu/Pkgfile
 f:cb07afdbede40b96c6b03c72c97f0b58:p5-list-allutils/.signature
 f:c765083dbf9ea9c0bc958bdb760e290d:p5-list-allutils/.footprint
 f:fb07a86dd7ed736ff547a9d261b45cfc:p5-list-allutils/Pkgfile
-f:58263288f4bf69813d0ec0b7e255625d:ccache/.signature
+f:e7918a9745c63ae48fbdb32d63941366:ccache/.signature
 f:098b046790e3e45140628ddbee320fee:ccache/.footprint
 f:e09c51e72a7a563cff8340a74a9c7441:ccache/README
-f:7a1c34d6f8fce7f3dd7c7de00eaccfe0:ccache/Pkgfile
+f:0a1af433cedce86a2dc0a0f516b647d2:ccache/Pkgfile
 f:f0930fcff081d861776ca52a64dcc5b7:yubikey-personalization/.signature
 f:6eef98f4815b2c1218d535ea197465ab:yubikey-personalization/.footprint
 f:9d42abc94e3e85c034425715bd175191:yubikey-personalization/10-security-key.rules

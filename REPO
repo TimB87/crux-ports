@@ -149,7 +149,6 @@ d:p5-scalar-list-utils
 d:lightdm-mini-greeter
 d:appstream-glib
 d:libical
-d:libical/build
 d:p5-xml-sax-base
 d:p5-class-data-inheritable
 d:pipewire

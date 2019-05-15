@@ -372,7 +372,7 @@ f:de712291b5054b8443501ecd0381e12d:yubikey-personalization/README
 f:1df347f1d8e6e7128b729457728d7bb1:yubikey-personalization/Pkgfile
 f:be492da8d77b7d30446fcc9b89241c0f:termite/.signature
 f:567433e3379669c6bd9a9605e5675291:termite/.footprint
-f:6635e04bd7381a9c01a17d5432d4d0cd:termite/Pkgfile
+f:15d005b7c83674d3b3e3fec7cdb025c7:termite/Pkgfile
 f:2b265aa56077ddee3ae96cbb1ca0d301:p5-devel-stacktrace/.signature
 f:418bfdd31bf0befffd869e0d01a61484:p5-devel-stacktrace/.footprint
 f:c32d7aa9e5657706118d60d2830b2867:p5-devel-stacktrace/Pkgfile
@@ -780,9 +780,9 @@ f:f08a02f4b3644d7a0e26e4ac9957eaaf:lightdm-mini-greeter/Pkgfile
 f:accbae315c1a0610264146bea2f4f747:appstream-glib/.signature
 f:03d85bc766eba607d9ad544571a8c72b:appstream-glib/.footprint
 f:e129163d3ff25e48bd11e8be56953fce:appstream-glib/Pkgfile
-f:37fc92a509a60d5e0cb4a863260b34c5:libical/.signature
-f:1db41360f184d068c57f0756bab4b240:libical/.footprint
-f:3ea4c126c03411c7e2790262e17c1831:libical/Pkgfile
+f:7288937d70af4b9545fced83808b5c42:libical/.signature
+f:0563a631ff5b1384dd9f20a241610632:libical/.footprint
+f:777a32f80b21d6084140d318ad251ca1:libical/Pkgfile
 f:264c1b70355967908217af0549e38022:p5-xml-sax-base/.signature
 f:9e31eb679583e11163d1f9f3a11df1ab:p5-xml-sax-base/.footprint
 f:ed513ce62f33190f266ff54f5c416fc4:p5-xml-sax-base/Pkgfile

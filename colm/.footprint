@@ -23,6 +23,3 @@ drwxr-xr-x	root/root	usr/lib/
 -rwxr-xr-x	root/root	usr/lib/libcolm.la
 lrwxrwxrwx	root/root	usr/lib/libcolm.so -> libcolm-0.13.0.7.so
 drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/doc/
-drwxr-xr-x	root/root	usr/share/doc/colm/
--rw-r--r--	root/root	usr/share/doc/colm/colm.vim

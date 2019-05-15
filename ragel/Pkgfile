@@ -1,11 +1,11 @@
 # Description: Compiles finite state machines from regular languages into executable C, C++, Objective-C, or D code.
 # URL: http://www.complang.org/ragel/
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on:
+# Depends on: colm
 
 name=ragel
-version=6.10
-release=2
+version=7.0.0.12
+release=1
 source=(http://www.colm.net/files/$name/$name-$version.tar.gz)
 
 build() {

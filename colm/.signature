@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwJNDYSSfzbhEMXWcqtSnS24VYVz8eA/XT5E6aCzy7N4FVasDb7Qo92wMj7MELNCrkhXXqtXt67oMU8BGeqjzygs=
+SHA256 (Pkgfile) = f53324d72ce4863957b4b871872a4a8948b3e66381c90e38add543553712eef4
+SHA256 (.footprint) = 0f25e1637ad988ddb3f9d4c1cd4a1e3ae3b2f844aef333017fccee2899b3cfce
+SHA256 (colm-0.13.0.7.tar.gz) = e43fa328ad7672f485848bf4f40ae498a1925ce5199f2d94e4828e13628ee638

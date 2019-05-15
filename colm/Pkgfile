@@ -1,0 +1,16 @@
+# Description: Programming language designed for analysis and transformation of computer languages
+# URL: https://www.colm.net/open-source/colm/
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on:
+
+name=colm
+version=0.13.0.7
+release=1
+source=(https://www.colm.net/files/colm/colm-$version.tar.gz)
+
+build() {
+  cd $name-$version
+  ./configure --prefix=/usr
+  make
+  make DESTDIR=$PKG install
+}

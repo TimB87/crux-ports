@@ -4,7 +4,7 @@
 # Depends on: libpcre libxml2
 
 name=php-fcgi
-version=7.3.4
+version=7.3.5
 release=1
 source=(http://php.net/distributions/php-$version.tar.xz
         php-fcgi)

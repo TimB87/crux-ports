@@ -5,7 +5,7 @@
 
 name=libical
 version=3.0.5
-release=1
+release=2
 source=(https://github.com/libical/libical/archive/v$version/$name-$version.tar.gz)
 
 build() {

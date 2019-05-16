@@ -97,28 +97,28 @@ drwxr-xr-x	root/root	usr/lib64/cmake/LibIcal/
 -rw-r--r--	root/root	usr/lib64/cmake/LibIcal/LibIcalTargets.cmake
 -rw-r--r--	root/root	usr/lib64/libical-glib.a
 lrwxrwxrwx	root/root	usr/lib64/libical-glib.so -> libical-glib.so.3
-lrwxrwxrwx	root/root	usr/lib64/libical-glib.so.3 -> libical-glib.so.3.0.5
--rwxr-xr-x	root/root	usr/lib64/libical-glib.so.3.0.5
+lrwxrwxrwx	root/root	usr/lib64/libical-glib.so.3 -> libical-glib.so.3.0.6
+-rwxr-xr-x	root/root	usr/lib64/libical-glib.so.3.0.6
 -rw-r--r--	root/root	usr/lib64/libical.a
 lrwxrwxrwx	root/root	usr/lib64/libical.so -> libical.so.3
-lrwxrwxrwx	root/root	usr/lib64/libical.so.3 -> libical.so.3.0.5
--rwxr-xr-x	root/root	usr/lib64/libical.so.3.0.5
+lrwxrwxrwx	root/root	usr/lib64/libical.so.3 -> libical.so.3.0.6
+-rwxr-xr-x	root/root	usr/lib64/libical.so.3.0.6
 -rw-r--r--	root/root	usr/lib64/libical_cxx.a
 lrwxrwxrwx	root/root	usr/lib64/libical_cxx.so -> libical_cxx.so.3
-lrwxrwxrwx	root/root	usr/lib64/libical_cxx.so.3 -> libical_cxx.so.3.0.5
--rwxr-xr-x	root/root	usr/lib64/libical_cxx.so.3.0.5
+lrwxrwxrwx	root/root	usr/lib64/libical_cxx.so.3 -> libical_cxx.so.3.0.6
+-rwxr-xr-x	root/root	usr/lib64/libical_cxx.so.3.0.6
 -rw-r--r--	root/root	usr/lib64/libicalss.a
 lrwxrwxrwx	root/root	usr/lib64/libicalss.so -> libicalss.so.3
-lrwxrwxrwx	root/root	usr/lib64/libicalss.so.3 -> libicalss.so.3.0.5
--rwxr-xr-x	root/root	usr/lib64/libicalss.so.3.0.5
+lrwxrwxrwx	root/root	usr/lib64/libicalss.so.3 -> libicalss.so.3.0.6
+-rwxr-xr-x	root/root	usr/lib64/libicalss.so.3.0.6
 -rw-r--r--	root/root	usr/lib64/libicalss_cxx.a
 lrwxrwxrwx	root/root	usr/lib64/libicalss_cxx.so -> libicalss_cxx.so.3
-lrwxrwxrwx	root/root	usr/lib64/libicalss_cxx.so.3 -> libicalss_cxx.so.3.0.5
--rwxr-xr-x	root/root	usr/lib64/libicalss_cxx.so.3.0.5
+lrwxrwxrwx	root/root	usr/lib64/libicalss_cxx.so.3 -> libicalss_cxx.so.3.0.6
+-rwxr-xr-x	root/root	usr/lib64/libicalss_cxx.so.3.0.6
 -rw-r--r--	root/root	usr/lib64/libicalvcal.a
 lrwxrwxrwx	root/root	usr/lib64/libicalvcal.so -> libicalvcal.so.3
-lrwxrwxrwx	root/root	usr/lib64/libicalvcal.so.3 -> libicalvcal.so.3.0.5
--rwxr-xr-x	root/root	usr/lib64/libicalvcal.so.3.0.5
+lrwxrwxrwx	root/root	usr/lib64/libicalvcal.so.3 -> libicalvcal.so.3.0.6
+-rwxr-xr-x	root/root	usr/lib64/libicalvcal.so.3.0.6
 drwxr-xr-x	root/root	usr/lib64/pkgconfig/
 -rw-r--r--	root/root	usr/lib64/pkgconfig/libical-glib.pc
 -rw-r--r--	root/root	usr/lib64/pkgconfig/libical.pc

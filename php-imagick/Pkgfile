@@ -4,7 +4,7 @@
 # Depends on: graphite2 imagemagick libtool
 
 name=php-imagick
-version=3.4.3
+version=3.4.4
 release=1
 source=(https://pecl.php.net/get/imagick-$version.tgz)
 

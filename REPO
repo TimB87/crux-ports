@@ -776,9 +776,9 @@ f:f08a02f4b3644d7a0e26e4ac9957eaaf:lightdm-mini-greeter/Pkgfile
 f:accbae315c1a0610264146bea2f4f747:appstream-glib/.signature
 f:03d85bc766eba607d9ad544571a8c72b:appstream-glib/.footprint
 f:e129163d3ff25e48bd11e8be56953fce:appstream-glib/Pkgfile
-f:dea335f7093ecf35b0c5a70aba88d1ac:libical/.signature
-f:feb7c062a725ec198305900398869b22:libical/.footprint
-f:6799c4771cb21c66b41c1630509088b1:libical/Pkgfile
+f:dc199c4a2d95cd0a505cf2e0bba7c37e:libical/.signature
+f:b9785b4db1f87962a7756d3f04f11311:libical/.footprint
+f:59d6c794ea473d99a5d50ec63b1246b9:libical/Pkgfile
 f:264c1b70355967908217af0549e38022:p5-xml-sax-base/.signature
 f:9e31eb679583e11163d1f9f3a11df1ab:p5-xml-sax-base/.footprint
 f:ed513ce62f33190f266ff54f5c416fc4:p5-xml-sax-base/Pkgfile

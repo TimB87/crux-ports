@@ -553,10 +553,10 @@ f:95d5b85bf33e4ca1765a3003b82b7064:pulseaudio/.footprint
 f:658a2d493f67a80cc2041aced48bee8f:pulseaudio/disable_flat_volumes.conf
 f:eeef690c04cb3e0abd0248beaf43984e:pulseaudio/Pkgfile
 f:39518368836423cb843631bfde9846bd:pulseaudio/pre-install
-f:83f909a2dd8bb3e09e117bb15a9cef77:nextcloud/.signature
-f:b500f1d9e045c297cefc76d16b189675:nextcloud/.footprint
+f:e69ab50e4c253690ccfbcd3baa21b17d:nextcloud/.signature
+f:823c2a482f839292348bf150eef2393e:nextcloud/.footprint
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README
-f:80871f54e3eb3debe5c29672c028aebd:nextcloud/Pkgfile
+f:d230ab7baf8185af9d5f1db3f1a90914:nextcloud/Pkgfile
 f:0752c022fcf7d817960fca7db331abb8:p5-params-validate/.signature
 f:81ad70ba1922dfc7df9cf5f508f0169d:p5-params-validate/.footprint
 f:70ac91bfe18e75138bad425fbfd9426a:p5-params-validate/Pkgfile

@@ -443,7 +443,7 @@ f:483a67ed9f685748f9e83441f8f5f079:g13/default.g13.bind
 f:26c816dbe42e2333039c91713e333e30:g13/.footprint
 f:831f7b31511f80571cd3eb5aabfad186:g13/Pkgfile
 f:6e087a7dab0525ab1011883ad63f8514:lightdm/lightdm.pam
-f:048420c386830ffed36e87f95028a0eb:lightdm/.signature
+f:72538c9f4de76378b1bab2712d9d0852:lightdm/.signature
 f:f42bedc5ce74b3078b2135ee5aaaa62f:lightdm/.footprint
 f:8dd52c51aff8ee0cb9c97e1d036b707a:lightdm/lightdm-default-config.patch
 f:b3272277f32ad90a6d504293dd88dc5d:lightdm/Xsession
@@ -451,7 +451,7 @@ f:f0a8455c0f2f9b7bb0493fab16d5fae0:lightdm/post-install
 f:5ec3681b6c2714283c34deff3c822a72:lightdm/README
 f:5326cf76607b86a6bac9755df4d3f130:lightdm/lightdm-autologin.pam
 f:bc2b34fac9d186ba2fe9f053ffc40bc6:lightdm/lightdm.service
-f:25975530f520bca17d11f14ec15555fd:lightdm/Pkgfile
+f:76b6c8d46988eb48eb0e2e3f2e3ec5a6:lightdm/Pkgfile
 f:2a7326f4de1d949b8c96749b62cc5021:lightdm/lightdm.rules
 f:d3fe6c651250ae6e1e08715e2c6b92b5:lightdm/lightdm-greeter.pam
 f:7e0eef407495fe5c48d8e96e8e12c11a:zsh/.signature

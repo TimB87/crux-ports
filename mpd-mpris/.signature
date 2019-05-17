@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwC1qHRgYCKEv4KqPKLmD04KDpynPm4X749dZSM/fRTybSZdtcGx0TmZ1oI4rghgD4RpWzgydXVTZWhlapwWfWQw=
+SHA256 (Pkgfile) = bf8964bfb7afad3030c122e85c22739bc5841858aebc3c1dce90992aa636999b
+SHA256 (.footprint) = 06ab44c938aa2bdf0397910785947336abcddd1db0fdbb32335d9a0141a04da0
+SHA256 (mpd-mpris-0.2.2.tar.gz) = 9ea6c3cbae012590c10077dee81158c6a104fc4c86113955bfdbb543db15ce02

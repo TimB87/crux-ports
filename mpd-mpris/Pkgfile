@@ -1,0 +1,18 @@
+# Description: An implementation of the MPRIS protocol for MPD
+# URL: https://github.com/natsukagami/mpd-mpris
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: go git
+
+name=mpd-mpris
+version=0.2.2
+release=1
+source=(https://github.com/natsukagami/mpd-mpris/archive/v$version/$name-$version.tar.gz)
+_gourl='github.com/natsukagami/mpd-mpris'
+
+build() {
+  export GOPATH="$SRC/build"
+  mkdir --parents `dirname "$GOPATH/src/$_gourl"`
+  mv -Tv "$SRC/$name-$version" "$GOPATH/src/$_gourl"
+  go build -v -o $name $_gourl/cmd/mpd-mpris
+  install -Dm0755 mpd-mpris $PKG/usr/bin/mpd-mpris
+}

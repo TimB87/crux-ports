@@ -18,10 +18,6 @@ drwxr-xr-x	root/root	usr/etc/lightdm/
 -rw-r--r--	root/root	usr/etc/lightdm/keys.conf
 -rw-r--r--	root/root	usr/etc/lightdm/lightdm.conf
 -rw-r--r--	root/root	usr/etc/lightdm/users.conf
-drwxr-xr-x	root/root	usr/etc/pam.d/
--rw-r--r--	root/root	usr/etc/pam.d/lightdm
--rw-r--r--	root/root	usr/etc/pam.d/lightdm-autologin
--rw-r--r--	root/root	usr/etc/pam.d/lightdm-greeter
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/lightdm-gobject-1/
 -rw-r--r--	root/root	usr/include/lightdm-gobject-1/lightdm.h

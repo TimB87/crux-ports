@@ -1,0 +1,17 @@
+# Description: Font Awesome version 4
+# URL: http://fontawesome.io/
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on:
+
+name=font-awesome-compat
+version=4.7.0
+release=1
+source=(https://github.com/FortAwesome/Font-Awesome/archive/v$version/Font-Awesome-$version.tar.gz)
+
+build() {
+  cd Font-Awesome-$version/fonts
+  install -d "$PKG/usr/share/fonts/TTF"
+  install -m644 *.ttf "$PKG/usr/share/fonts/TTF"
+  install -d "$PKG/usr/share/fonts/OTF"
+  install -m644 *.otf "$PKG/usr/share/fonts/OTF"
+}

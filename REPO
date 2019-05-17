@@ -1,4 +1,5 @@
 d:p5-class-load
+d:p5-types-serialiser
 d:p5-exporter-tiny
 d:p5-lwp-mediatypes
 d:grub2-theme-elegant
@@ -10,6 +11,7 @@ d:p5-list-someutils
 d:p5-datetime-timezone
 d:fribidi
 d:p5-io-html
+d:font-powerline
 d:p5-file-sharedir-install
 d:xdotool
 d:p5-xml-sax
@@ -20,6 +22,7 @@ d:python3-pybluez
 d:mpd-mpris
 d:fcgi
 d:keepassxc
+d:p5-common-sense
 d:bluez-alsa
 d:p5-mime-charset
 d:i3blocks-gaps
@@ -93,6 +96,7 @@ d:python-psutil
 d:ragel
 d:p5-datetime
 d:dbus-python3
+d:p5-canary-stability
 d:p5-file-sharedir
 d:moka-icon-theme
 d:p5-regexp-common
@@ -152,6 +156,7 @@ d:p5-scalar-list-utils
 d:lightdm-mini-greeter
 d:appstream-glib
 d:libical
+d:p5-anyevent
 d:p5-xml-sax-base
 d:p5-class-data-inheritable
 d:pipewire
@@ -166,6 +171,7 @@ d:font-awesome
 d:papirus-libreoffice-theme
 d:p5-class-inspector
 d:rstudio
+d:p5-anyevent-i3
 d:qtkeychain
 d:p5-clone
 d:optipng
@@ -174,6 +180,7 @@ d:colm
 d:p5-module-runtime
 d:networkmanager
 d:p5-test-differences
+d:font-awesome-compat
 d:python3-pyudev
 d:p5-extutils-libbuilder
 d:p5-www-robotrules
@@ -254,6 +261,7 @@ d:p5-ipc-run3
 d:p5-html-parser
 d:libgd
 d:p5-sort-key
+d:p5-json-xs
 d:murmur
 d:php-sqlite3
 d:gnome-common
@@ -269,6 +277,9 @@ d:p5-file-listing
 f:dfe868f7176b393269fe28d4b130b15d:p5-class-load/.signature
 f:2f991ee4750a23fabc309d9700906e53:p5-class-load/.footprint
 f:734436e8f8db5b19a6b385616d1a2eeb:p5-class-load/Pkgfile
+f:48fa8f3a8f0299a6af256ec24a5f783f:p5-types-serialiser/.signature
+f:ba0dfa4d0d828c9e9c48d02397db25d2:p5-types-serialiser/.footprint
+f:46d1495acccc41971b0620e2ae638476:p5-types-serialiser/Pkgfile
 f:e6f5ec7754d95bfb0116ff9b6aa37740:p5-exporter-tiny/.signature
 f:f8f40391831ab2f1b75c2f88aea4020c:p5-exporter-tiny/.footprint
 f:d1e666188d416330161f94597e013a4c:p5-exporter-tiny/Pkgfile
@@ -302,6 +313,9 @@ f:923af66fe2c4058b505d8d3ea080fe2b:fribidi/Pkgfile
 f:45da75def9bce28e41f528a9930db9cc:p5-io-html/.signature
 f:ede1587d176e7e5f3e0a257a1ec71f1d:p5-io-html/.footprint
 f:fd3ebbe24178d4ab27b2e8c7d2812808:p5-io-html/Pkgfile
+f:bbefaba8d7ea3cffa14f0702ebc47034:font-powerline/.signature
+f:edb68910d34259fe70d4ed95a74c6575:font-powerline/.footprint
+f:ba927a8e77f9a039cca4863e4789fc9e:font-powerline/Pkgfile
 f:dc81bea9b7a47283e58174d38e507e73:p5-file-sharedir-install/.signature
 f:77b479b14905cb8b17e77015637c2803:p5-file-sharedir-install/.footprint
 f:6816d28c73792376535d425f3352ff8b:p5-file-sharedir-install/Pkgfile
@@ -336,6 +350,9 @@ f:2e72c834db21da6af3f77dd2b36727a2:fcgi/fcgi-2.4.0-gcc44_fixes.patch
 f:f23d5c80eaa1e2ee81e8b6dc52887301:keepassxc/.signature
 f:e7e23a4eaaae851c6e32fe8236d22e2f:keepassxc/.footprint
 f:dcbd65f48fb9c9926644fb5109414d70:keepassxc/Pkgfile
+f:fe738c6757e879d07d2c94343d20a03b:p5-common-sense/.signature
+f:9f7995c2040d9d8b9a73f87212d50302:p5-common-sense/.footprint
+f:5e9b94991b86f86cbe704c682eb00d14:p5-common-sense/Pkgfile
 f:2147916572967d9c748a446a614c352f:bluez-alsa/.signature
 f:f07cde0864ccae6508aa548a464ca5e6:bluez-alsa/.footprint
 f:d39c9a23072dd14cf994a97a09ae8a34:bluez-alsa/Pkgfile
@@ -591,6 +608,9 @@ f:55b15bbfeac2e2a709d667c1cc36ef72:p5-datetime/Pkgfile
 f:892cf0099c50913e61b2ed795491fc52:dbus-python3/.signature
 f:1c276958a3d580e59e9ec70339f71d0f:dbus-python3/.footprint
 f:539efc344f3327f45411f4ad25044d6c:dbus-python3/Pkgfile
+f:98972e4c88590ef7ed4dfb64f76b7881:p5-canary-stability/.signature
+f:39600a293bda02e444f26cf5072e8650:p5-canary-stability/.footprint
+f:0bc89f03881ac39eb0fa6783581663bd:p5-canary-stability/Pkgfile
 f:a33828ae316590a787b99d0307f98203:p5-file-sharedir/.signature
 f:327d8df72493544541f93ce1510d1708:p5-file-sharedir/.footprint
 f:de9619376333a3750615e04c19c5d041:p5-file-sharedir/Pkgfile
@@ -610,9 +630,9 @@ f:14ca967a46b688d0506bcf8263711893:yubico-c-client/Pkgfile
 f:57c58a8eb35411ab9784756074f78542:pandoc-bin/.signature
 f:8a52f5daae3236d9c50b0ed37501471f:pandoc-bin/.footprint
 f:701679225756ed59328c5362f4e3f7a3:pandoc-bin/Pkgfile
-f:f13ee80a80288274a8285d8272a58a59:p5-alien-libxml2/.signature
+f:fbb892657fa7c1f11185185aa4435060:p5-alien-libxml2/.signature
 f:69646546c07822f0b0a72aafb6f50ff1:p5-alien-libxml2/.footprint
-f:33c147d7bb23951cf4e907383ded4c58:p5-alien-libxml2/Pkgfile
+f:bad001deb9d681939d3d9398cd4f1d70:p5-alien-libxml2/Pkgfile
 f:547250ee79d8f32f43779f02306c72e1:p5-mozilla-ca/.signature
 f:1f93078449cc989b24f020c9b50284b0:p5-mozilla-ca/.footprint
 f:be1a03e6f0852e9b7180f0194ede3ec3:p5-mozilla-ca/Pkgfile
@@ -791,6 +811,9 @@ f:e129163d3ff25e48bd11e8be56953fce:appstream-glib/Pkgfile
 f:9242025e870c1b4986d80be7e6c3e8bf:libical/.signature
 f:b9785b4db1f87962a7756d3f04f11311:libical/.footprint
 f:59d6c794ea473d99a5d50ec63b1246b9:libical/Pkgfile
+f:5829c81613fa1ae1966444fb84bc09e5:p5-anyevent/.signature
+f:41942c90322f8a201e8de2cad0261be4:p5-anyevent/.footprint
+f:1c5d61104e2eefebaee00b9a278a2c49:p5-anyevent/Pkgfile
 f:264c1b70355967908217af0549e38022:p5-xml-sax-base/.signature
 f:9e31eb679583e11163d1f9f3a11df1ab:p5-xml-sax-base/.footprint
 f:ed513ce62f33190f266ff54f5c416fc4:p5-xml-sax-base/Pkgfile
@@ -841,6 +864,9 @@ f:be50a0e12918208a49b7d419d348d46a:p5-class-inspector/Pkgfile
 f:bd0a2edd0c95ee3d764e8e4cc66e8102:rstudio/.signature
 f:a71e21d02af9e99c0433f9259f59f137:rstudio/.footprint
 f:534a32462474f7473db381697d85ef0a:rstudio/Pkgfile
+f:28de1756795ff62219d5aa863036944b:p5-anyevent-i3/.signature
+f:53bc746c550407c5c2340f8b8c265958:p5-anyevent-i3/.footprint
+f:5ba1107f20f3f8d30e7abae241ac746b:p5-anyevent-i3/Pkgfile
 f:4930825ff4f90e65d3a5627960b88646:qtkeychain/.signature
 f:e430a68d4a7298b783ed6d72f617c01b:qtkeychain/.footprint
 f:62c887ef42ce34c2506c766ca46590f7:qtkeychain/Pkgfile
@@ -872,6 +898,9 @@ f:b722fa02f904a9c8ed0d2ec21cbfc588:networkmanager/dhcp.conf
 f:939a2d6997e82d1fc7ca1bdd50c43868:p5-test-differences/.signature
 f:312e20a4ef1f0ffe4bee584a661d474f:p5-test-differences/.footprint
 f:5af357fe2c456ca1e35b2e421a67f2f1:p5-test-differences/Pkgfile
+f:0dc935a26afafedb98cf0f9e0fa2438f:font-awesome-compat/.signature
+f:34982e50c40fa095ec9411bc4a96d13b:font-awesome-compat/.footprint
+f:f7268e0a6eef965f306f092bd53222ff:font-awesome-compat/Pkgfile
 f:8c713abfb03cfe6e15666fab2de23218:python3-pyudev/.signature
 f:a7060f00d49d41f39b5208ce451a50a6:python3-pyudev/.footprint
 f:a139619d7fe50cad02fa76e327f73ddd:python3-pyudev/Pkgfile
@@ -943,9 +972,9 @@ f:c13994f9843ef061653c95d10fd5f6fd:p5-json/Pkgfile
 f:3c99be5858d438fc36e4670d2a120a7e:p5-file-slurper/.signature
 f:d5b345be975a7a0d12e1f8cf9981a8d0:p5-file-slurper/.footprint
 f:bcadbaae8d0d3b017bb990912c23139c:p5-file-slurper/Pkgfile
-f:62f4d0cacc78d73f7bfe9f7d68d212fd:p5-net-http/.signature
+f:060e43182232a1f881f8f56057906349:p5-net-http/.signature
 f:5de00a69dabde1e65d43b9e53028edcd:p5-net-http/.footprint
-f:dd745efe04656d953835b0b476a0740f:p5-net-http/Pkgfile
+f:18b09bc559c8f1d382448316000d9060:p5-net-http/Pkgfile
 f:ff670388eb1cdd2cf657c5929533933f:fail2ban/.signature
 f:990053450464a045fc126a13cb6067b3:fail2ban/.footprint
 f:27205c03a07b0b5ec834a9c17169e264:fail2ban/fail2ban.rc
@@ -1132,6 +1161,9 @@ f:8087789a33c86485579e8cfddb889dd0:libgd/Pkgfile
 f:f78b4ba73a4a8d528127818f91401d19:p5-sort-key/.signature
 f:cc88417ecd17f63dcd6ec9306c70b03a:p5-sort-key/.footprint
 f:b4997ba09c88bdad547ad3521cfed389:p5-sort-key/Pkgfile
+f:dd8eea1881e2b94c6913f143dc390f31:p5-json-xs/.signature
+f:4e4a7f97c395c1ba9915fca070511d8c:p5-json-xs/.footprint
+f:e9180a184a4814f607b00dd9b2f8f48a:p5-json-xs/Pkgfile
 f:97a04745e9a68ee67ab6a6fe9546ea0c:murmur/.signature
 f:99fa44acfdccf900f090869f7bb38e82:murmur/.footprint
 f:37ebdcdf23b2ca474b579a81473f5aea:murmur/Pkgfile

@@ -4,8 +4,8 @@
 # Depends on: libgcrypt libxklavier linux-pam util-linux xorg-libxi xorg-libxkbfile
 
 name=lightdm
-version=1.28.0
-release=4
+version=1.30.0
+release=1
 source=(
 https://github.com/CanonicalLtd/lightdm/releases/download/$version/$name-$version.tar.xz
 Xsession
@@ -25,6 +25,7 @@ build() {
     --with-greeter-session='lightdm-mini-greeter' \
     --disable-static \
     --disable-nls \
+    --disable-gtk-doc \
     --disable-tests
   make
   make DESTDIR=$PKG install

@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwCeGx3p7xv39J9njV7Egut64QkKGUJkzjsmhhwqeKjax8wiMDcGura38IDbb1C2qYVr/6b4r/frF6UhvYYsOUgI=
+SHA256 (Pkgfile) = f8c56528054053eec66da0cd9ac2197799b6d7ab7a983c377139e3f7bb500bf2
+SHA256 (.footprint) = d95602a8bc9d4ea7b597b41dc9b365e0a322ae59c8d288ae3a79da944d07dd8c
+SHA256 (10-powerline-symbols.conf) = 079f6d44d34feebdc2ae7aee791090d6bfb1fec8a0359439368aa2efc5a0c0f7
+SHA256 (PowerlineSymbols.otf) = 4a2496a009b1649878ce067a7ec2aed9f79656c90136971e1dba00766515f7a1

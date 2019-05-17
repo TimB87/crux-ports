@@ -17,6 +17,7 @@ d:libdaemon
 d:libsass
 d:xdg-desktop-portal-gtk
 d:python3-pybluez
+d:mpd-mpris
 d:fcgi
 d:keepassxc
 d:bluez-alsa
@@ -74,6 +75,7 @@ d:php-gd
 d:p5-ffi-checklib
 d:highlight
 d:p5-datetime-calendar-julian
+d:i3status-rust
 d:p5-package-deprecationmanager
 d:p5-config-autoconf
 d:j4-dmenu-desktop
@@ -140,6 +142,7 @@ d:st
 d:p5-lingua-translit
 d:bdf-unifont
 d:consolekit2
+d:go-mtpfs
 d:p5-package-stash-xs
 d:p5-list-utilsby
 d:qownnotes
@@ -320,6 +323,9 @@ f:d85bb9f7bac65976de36472aeca4bf9c:xdg-desktop-portal-gtk/Pkgfile
 f:d195851121c6bb365290555d9e307fa2:python3-pybluez/.signature
 f:84826ee1262e9316a5fd312c4013963e:python3-pybluez/.footprint
 f:8d1d4989429c01c8a4cfc520cb9b8a11:python3-pybluez/Pkgfile
+f:d3a1ee4722f28d59b02bf731358e3f32:mpd-mpris/.signature
+f:3affd17c6800f03eba2ba2b0e22490f2:mpd-mpris/.footprint
+f:d603967893655ff7f2e561b80a98980f:mpd-mpris/Pkgfile
 f:24f1f8c9890df39fd8458a80404dee10:fcgi/.signature
 f:bea2d2d548512be2d42a8165c09aa29c:fcgi/.footprint
 f:8c07165aed574b853326ae25fe9af291:fcgi/fcgi-2.4.0-Makefile.am-CPPFLAGS.patch
@@ -525,6 +531,9 @@ f:9e8412e080c0c7ce42f95df6695f90be:highlight/Pkgfile
 f:ff46cfcc702250adae71af79d90b9fa6:p5-datetime-calendar-julian/.signature
 f:e4e18476fded1a63a5404e057a4589fe:p5-datetime-calendar-julian/.footprint
 f:12326300e9eeeffd9442124d73e9799d:p5-datetime-calendar-julian/Pkgfile
+f:b2c5ffaf74a72a6b9a72f406be5bb6cc:i3status-rust/.signature
+f:cb88dab39de9f26ccbc4bd46bda46b99:i3status-rust/.footprint
+f:2fc2d49c3380f261e50a2cd18f2bc445:i3status-rust/Pkgfile
 f:78ec6ae5bd7b9235f8eaf41e00996c59:p5-package-deprecationmanager/.signature
 f:4dbabaf4d33b9c132c6dfcf215ce1248:p5-package-deprecationmanager/.footprint
 f:664bc997b44c7750093cb03c6577f54c:p5-package-deprecationmanager/Pkgfile
@@ -751,6 +760,9 @@ f:03118d459917d55e4c1598c28d73b437:consolekit2/.footprint
 f:3b0080988092b3c507a3603d5808acb7:consolekit2/ck-sysdeps-linux.c.patch
 f:bdc1c8474187d198238bf0da38a93208:consolekit2/post-install
 f:19595836301b926c6a020ee25561e794:consolekit2/Pkgfile
+f:67d884ce1dd87d55a9fe1e31121f2c96:go-mtpfs/.signature
+f:b76a518d4ba3ca0a808475ec49da691d:go-mtpfs/.footprint
+f:9fa79264fa2103bddac76abd0520f9ce:go-mtpfs/Pkgfile
 f:179e93abf2313f088b97589ad86394de:p5-package-stash-xs/.signature
 f:9aa2845c83b933bfe82f41a3927762cf:p5-package-stash-xs/.footprint
 f:d2985a6774c1a9aaca0bf4bffabed6c1:p5-package-stash-xs/Pkgfile

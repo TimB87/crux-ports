@@ -4,14 +4,14 @@
 # Depends on:
 
 name=libsass
-version=3.5.5
+version=3.6.0
 release=1
 source=(https://github.com/sass/libsass/archive/$version/$name-$version.tar.gz)
 
 build() {
-	cd $name-$version
-    autoreconf -i
-	./configure --prefix=/usr
-	make
-    make DESTDIR=$PKG install    
+  cd $name-$version
+  autoreconf -i
+  ./configure --prefix=/usr
+  make
+  make DESTDIR=$PKG install
 }

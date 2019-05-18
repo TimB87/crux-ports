@@ -328,9 +328,9 @@ f:912e57c04dc1058d566bb7ce5b7f1698:p5-xml-sax/Pkgfile
 f:d4a1969b7123f256b5fbd56d052f8ba5:libdaemon/.signature
 f:4f395863e79829697114feb0871546b8:libdaemon/.footprint
 f:986103dfde73d97ec729f76239f6aa9c:libdaemon/Pkgfile
-f:94ce0ee1a47eea35af9f037968dcb91d:libsass/.signature
+f:c38324ac3054e7ef1711a2a20f69cdc5:libsass/.signature
 f:a21d7d697fbb3a29e24433eb183731c7:libsass/.footprint
-f:7c2d7a210ea7951f00a61ad889f38493:libsass/Pkgfile
+f:bf61c24ea4e5a8a285390bd6f6e0f226:libsass/Pkgfile
 f:0313e0029362d4904006b87a00a495c5:xdg-desktop-portal-gtk/.signature
 f:dcab9ebde3c07144d207f24cb479d6b7:xdg-desktop-portal-gtk/.footprint
 f:d85bb9f7bac65976de36472aeca4bf9c:xdg-desktop-portal-gtk/Pkgfile

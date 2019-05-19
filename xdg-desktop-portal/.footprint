@@ -45,9 +45,5 @@ drwxr-xr-x	root/root	usr/share/dbus-1/services/
 -rw-r--r--	root/root	usr/share/dbus-1/services/org.freedesktop.impl.portal.PermissionStore.service
 -rw-r--r--	root/root	usr/share/dbus-1/services/org.freedesktop.portal.Desktop.service
 -rw-r--r--	root/root	usr/share/dbus-1/services/org.freedesktop.portal.Documents.service
-drwxr-xr-x	root/root	usr/share/doc/
-drwxr-xr-x	root/root	usr/share/doc/xdg-desktop-portal/
--rw-r--r--	root/root	usr/share/doc/xdg-desktop-portal/docbook.css
--rw-r--r--	root/root	usr/share/doc/xdg-desktop-portal/portal-docs.html
 drwxr-xr-x	root/root	usr/share/pkgconfig/
 -rw-r--r--	root/root	usr/share/pkgconfig/xdg-desktop-portal.pc

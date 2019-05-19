@@ -1,7 +1,7 @@
 # Description: RStudio - an Interface for GNU R
 # URL: https://www.rstudio.com/
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: ant openjdk8 boost libevent pciutils qtwebengine r mathjax pandoc-bin hypen
+# Depends on: ant openjdk8 boost libevent pciutils qtwebengine r mathjax pandoc-bin hyphen
 
 name=rstudio
 version=1.2.1335

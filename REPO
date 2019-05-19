@@ -791,9 +791,9 @@ f:d2985a6774c1a9aaca0bf4bffabed6c1:p5-package-stash-xs/Pkgfile
 f:44ca6cab5bfcb8d39b3282fd3afaa070:p5-list-utilsby/.signature
 f:e75b39280aa535461fc7228167ab1cbf:p5-list-utilsby/.footprint
 f:525114b5f91d11c34422f32bf6719fbf:p5-list-utilsby/Pkgfile
-f:dabddf329ec96e2e0e5c001b295eb8c8:qownnotes/.signature
+f:5379575a0be4cfb65ddd02b3900e29fc:qownnotes/.signature
 f:fac0e3d12a162636dea4c270f66ee6a5:qownnotes/.footprint
-f:1177c10ba27f0be11ec400c3e8530f0f:qownnotes/Pkgfile
+f:b35c301c4417682275063d9992902620:qownnotes/Pkgfile
 f:ac85f41c466f07a64566411c09a5962a:p5-data-optlist/.signature
 f:090ed3ffcc65aaf3791afe2d3633abff:p5-data-optlist/.footprint
 f:5019e730e55cf13cc599bbbb957e1494:p5-data-optlist/Pkgfile
@@ -863,9 +863,9 @@ f:2437e2834d4abde8612ba14ece235458:papirus-libreoffice-theme/Pkgfile
 f:a2707c17f0cae42d618cd384973b2232:p5-class-inspector/.signature
 f:d855a623740de9174bfe82e047d20799:p5-class-inspector/.footprint
 f:be50a0e12918208a49b7d419d348d46a:p5-class-inspector/Pkgfile
-f:508209f2bd115dd761cd437a9ad54edb:rstudio/.signature
+f:fcca233ab8d0aadca9b1f39cbd6a9ebc:rstudio/.signature
 f:a71e21d02af9e99c0433f9259f59f137:rstudio/.footprint
-f:bff8fa19f6de571f7eb6c0b59d263c3c:rstudio/Pkgfile
+f:df069f0114e9b9b98d05505f4a885101:rstudio/Pkgfile
 f:28de1756795ff62219d5aa863036944b:p5-anyevent-i3/.signature
 f:53bc746c550407c5c2340f8b8c265958:p5-anyevent-i3/.footprint
 f:5ba1107f20f3f8d30e7abae241ac746b:p5-anyevent-i3/Pkgfile

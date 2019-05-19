@@ -1,7 +1,7 @@
 # Description:  Hunspell dictionary for English
 # URL:  http://wordlist.sourceforge.net/
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: hunspell
+# Depends on: hunspell ispell
 
 name=hunspell-de
 version=20161207

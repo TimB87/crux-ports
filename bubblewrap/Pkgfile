@@ -1,7 +1,7 @@
 # Description: Unprivileged sandboxing tool
 # URL: https://github.com/projectatomic/bubblewrap/
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on:
+# Depends on: docbook-xsl
 
 name=bubblewrap
 version=0.3.3

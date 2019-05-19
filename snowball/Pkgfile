@@ -1,7 +1,7 @@
 # Description: String processing language for creating stemming algorithms
 # URL: http://snowballstem.org/
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: 
+# Depends on: git
 
 name=snowball
 version=git
@@ -13,9 +13,9 @@ build() {
     git clone $git $name
     cd $name
     patch -Np1 -i ../dynamiclib.patch
-    
+
     make
-    
+
     install -d $PKG/usr/bin
     install -t $PKG/usr/bin snowball stemwords
     install -Dm644 {.,$PKG/usr}/include/libstemmer.h

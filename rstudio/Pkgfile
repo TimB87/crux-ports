@@ -1,7 +1,7 @@
 # Description: RStudio - an Interface for GNU R
 # URL: https://www.rstudio.com/
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: ant openjdk8 boost libevent pciutils qtwebengine r mathjax pandoc-bin
+# Depends on: ant openjdk8 boost libevent pciutils qtwebengine r mathjax pandoc-bin hypen
 
 name=rstudio
 version=1.2.1335
@@ -43,7 +43,7 @@ unpack_source() {
 
 build() {
     cd $name-$version
-    #if you want your git snapshot to be a particular version…
+    #if you want your git snapshot to be a particular version
     #git checkout v$version
 
     pushd dependencies/common

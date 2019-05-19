@@ -1,7 +1,7 @@
 # Description: Lightweight Desktop Manager prefered by Mate Desktop
 # URL: https://freedesktop.org/wiki/Software/LightDM/
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: libgcrypt libxklavier linux-pam util-linux xorg-libxi xorg-libxkbfile
+# Depends on: libgcrypt libxklavier linux-pam util-linux xorg-libxi xorg-libxkbfile itstool
 
 name=lightdm
 version=1.30.0

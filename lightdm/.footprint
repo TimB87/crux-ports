@@ -62,10 +62,6 @@ drwxr-xr-x	root/root	usr/share/polkit-1/actions/
 -rw-r--r--	root/root	usr/share/polkit-1/actions/org.freedesktop.DisplayManager.AccountsService.policy
 drwxr-x---	root/root	usr/share/polkit-1/rules.d/
 -rw-r--r--	root/root	usr/share/polkit-1/rules.d/lightdm.rules
-drwxr-xr-x	root/root	usr/share/vala/
-drwxr-xr-x	root/root	usr/share/vala/vapi/
--rw-r--r--	root/root	usr/share/vala/vapi/liblightdm-gobject-1.deps
--rw-r--r--	root/root	usr/share/vala/vapi/liblightdm-gobject-1.vapi
 drwxr-xr-x	root/root	var/
 drwxr-xr-x	root/root	var/cache/
 drwxr-xr-t	root/root	var/cache/lightdm/

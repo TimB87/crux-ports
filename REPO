@@ -582,11 +582,11 @@ f:95d5b85bf33e4ca1765a3003b82b7064:pulseaudio/.footprint
 f:658a2d493f67a80cc2041aced48bee8f:pulseaudio/disable_flat_volumes.conf
 f:eeef690c04cb3e0abd0248beaf43984e:pulseaudio/Pkgfile
 f:39518368836423cb843631bfde9846bd:pulseaudio/pre-install
-f:65b9d239e96ee44b4a3e99067311564a:zotero/.signature
+f:96c023298affb5f3902c3a0fb7b9d9ad:zotero/.signature
 f:136648cf264908f0003041356b0036b1:zotero/.footprint
 f:f227abe95940abd63367716928c6e379:zotero/zotero.desktop
 f:9bf3c471a4322d57c3b8f48dc1ed697c:zotero/README
-f:8a73181d026a61a85df29c56c2b81acf:zotero/Pkgfile
+f:171938d300af82e9b0dcf5a0f21a659b:zotero/Pkgfile
 f:e69ab50e4c253690ccfbcd3baa21b17d:nextcloud/.signature
 f:823c2a482f839292348bf150eef2393e:nextcloud/.footprint
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README

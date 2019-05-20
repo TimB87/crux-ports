@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwC+3neIOsDUsZj6vplRYkT0cd0QWq/E0lgs6IKd0LUpndmkke2fLZyLV0cOLqkCtD0fENY45VQQg/aeANZ3rBQs=
+SHA256 (Pkgfile) = af2c3ee7f534ef6f0288ab011cfa7fc3b62a3a4a908de355b00157c42d4457cf
+SHA256 (.footprint) = 225d133c785017a2d9d0fbbccaa766d74af5eb44c76a440a3c1d6d5f293744c2
+SHA256 (cli-6.9.0.tar.gz) = 97610878321c85042d9721dcb0d523f9c37fa08377a74a6955e0133b98bbca61

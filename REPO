@@ -87,6 +87,7 @@ d:libnewt
 d:xdg-utils
 d:fcgiwrap
 d:pulseaudio
+d:zotero
 d:nextcloud
 d:p5-params-validate
 d:mono
@@ -106,6 +107,7 @@ d:pandoc-bin
 d:p5-alien-libxml2
 d:p5-mozilla-ca
 d:networkmanager-openvpn
+d:npm
 d:php-imagick
 d:p5-class-singleton
 d:libcloudproviders
@@ -580,6 +582,11 @@ f:95d5b85bf33e4ca1765a3003b82b7064:pulseaudio/.footprint
 f:658a2d493f67a80cc2041aced48bee8f:pulseaudio/disable_flat_volumes.conf
 f:eeef690c04cb3e0abd0248beaf43984e:pulseaudio/Pkgfile
 f:39518368836423cb843631bfde9846bd:pulseaudio/pre-install
+f:65b9d239e96ee44b4a3e99067311564a:zotero/.signature
+f:136648cf264908f0003041356b0036b1:zotero/.footprint
+f:f227abe95940abd63367716928c6e379:zotero/zotero.desktop
+f:9bf3c471a4322d57c3b8f48dc1ed697c:zotero/README
+f:8a73181d026a61a85df29c56c2b81acf:zotero/Pkgfile
 f:e69ab50e4c253690ccfbcd3baa21b17d:nextcloud/.signature
 f:823c2a482f839292348bf150eef2393e:nextcloud/.footprint
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README
@@ -640,6 +647,9 @@ f:be1a03e6f0852e9b7180f0194ede3ec3:p5-mozilla-ca/Pkgfile
 f:84cbb2de573deb18b4845cad29a4d505:networkmanager-openvpn/.signature
 f:bc67dd5649ffab35f6f5f82c25bbde9f:networkmanager-openvpn/.footprint
 f:37c875040fee41f99499519318c4f162:networkmanager-openvpn/Pkgfile
+f:7f819386008a06364b7508c9cb0892d1:npm/.signature
+f:fd2f2bcc3837e36a4720c8c9c069880d:npm/.footprint
+f:309c2ce42ddc9010df149740467b43b8:npm/Pkgfile
 f:723721c9a3d4821ce0f7d746805caf10:php-imagick/.signature
 f:97f8c324e249ac36e0ba2c4b1870bff3:php-imagick/.footprint
 f:fe5e1a54b54021021e2443534d8ac9b2:php-imagick/Pkgfile

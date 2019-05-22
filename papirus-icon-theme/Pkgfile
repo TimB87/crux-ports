@@ -4,12 +4,12 @@
 # Depends on:
 
 name=papirus-icon-theme
-version=20190501
+version=20190521
 release=1
 source=(https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/archive/$version/$name-$version.tar.gz)
 
 build() {
   cd $name-$version
   make DESTDIR=$PKG install
-  find $PKG -name AUTHORS -name README -delete
+  find $PKG -name AUTHORS -name README -exec rm '{}' \+
 }

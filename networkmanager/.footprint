@@ -138,13 +138,17 @@ drwxr-xr-x	root/root	usr/include/libnm/
 -rw-r--r--	root/root	usr/include/libnm/nm-wimax-nsp.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/NetworkManager/
-drwxr-xr-x	root/root	usr/lib/NetworkManager/1.18.1/
--rwxr-xr-x	root/root	usr/lib/NetworkManager/1.18.1/libnm-device-plugin-adsl.so
--rwxr-xr-x	root/root	usr/lib/NetworkManager/1.18.1/libnm-device-plugin-ovs.so
--rwxr-xr-x	root/root	usr/lib/NetworkManager/1.18.1/libnm-device-plugin-wifi.so
--rwxr-xr-x	root/root	usr/lib/NetworkManager/1.18.1/libnm-settings-plugin-ifupdown.so
+drwxr-xr-x	root/root	usr/lib/NetworkManager/1.19.2/
+-rwxr-xr-x	root/root	usr/lib/NetworkManager/1.19.2/libnm-device-plugin-adsl.so
+-rwxr-xr-x	root/root	usr/lib/NetworkManager/1.19.2/libnm-device-plugin-ovs.so
+-rwxr-xr-x	root/root	usr/lib/NetworkManager/1.19.2/libnm-device-plugin-wifi.so
+-rwxr-xr-x	root/root	usr/lib/NetworkManager/1.19.2/libnm-settings-plugin-ifupdown.so
 drwxr-xr-x	root/root	usr/lib/NetworkManager/VPN/
 drwxr-xr-x	root/root	usr/lib/NetworkManager/conf.d/
+drwxr-xr-x	root/root	usr/lib/NetworkManager/dispatcher.d/
+drwxr-xr-x	root/root	usr/lib/NetworkManager/dispatcher.d/no-wait.d/
+drwxr-xr-x	root/root	usr/lib/NetworkManager/dispatcher.d/pre-down.d/
+drwxr-xr-x	root/root	usr/lib/NetworkManager/dispatcher.d/pre-up.d/
 drwxr-xr-x	root/root	usr/lib/girepository-1.0/
 -rw-r--r--	root/root	usr/lib/girepository-1.0/NM-1.0.typelib
 lrwxrwxrwx	root/root	usr/lib/libnm.so -> libnm.so.0

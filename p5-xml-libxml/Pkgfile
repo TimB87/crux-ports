@@ -4,7 +4,7 @@
 # Depends on: p5-alien-libxml2 p5-xml-namespacesupport p5-xml-sax
 
 name=p5-xml-libxml
-version=2.0200
+version=2.0201
 release=1
 source=(https://www.cpan.org/authors/id/S/SH/SHLOMIF/XML-LibXML-$version.tar.gz)
 

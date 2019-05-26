@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwD/ISwbfXyLlDTPWpInNx29lxwhN23uQpxewAV8FAddngYUYRsm0w/7a+0b0Kp+20M/qPwQ6RpprQX//HDSXMAA=
-SHA256 (Pkgfile) = d51fa7b07e4ad689d1895cb2aefe1a02d0bf759af4d6871a4e8f9fa7b805e0f8
+RWSXjYMPO7mZwJ/fsWjMOMqFSg7uQqRY8WjUw/F/t/0CwOED2nRXkF5LbuGkvOK3h1BbRVaAQgM/zEDsP1BUBFLOjBV8nxSg1wU=
+SHA256 (Pkgfile) = bbaaf59df4f3a12ee118dd4dff689c1973eacc659d541399bb2597d99ea28693
 SHA256 (.footprint) = 93ec310e9078a94f1e1ba99e54d7c9c2d30cb5ab35e7f1724503429f8cec07df
-SHA256 (Devel-StackTrace-2.03.tar.gz) = 7618cd4ebe24e254c17085f4b418784ab503cb4cb3baf8f48a7be894e59ba848
+SHA256 (Devel-StackTrace-2.04.tar.gz) = cd3c03ed547d3d42c61fa5814c98296139392e7971c092e09a431f2c9f5d6855

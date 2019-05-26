@@ -4,7 +4,7 @@
 # Depends on:
 
 name=p5-devel-stacktrace
-version=2.03
+version=2.04
 release=1
 source=(http://search.cpan.org/CPAN/authors/id/D/DR/DROLSKY/Devel-StackTrace-$version.tar.gz)
 

@@ -152,6 +152,7 @@ d:go-mtpfs
 d:p5-package-stash-xs
 d:p5-list-utilsby
 d:qownnotes
+d:uthash
 d:p5-data-optlist
 d:flatpak
 d:p5-scalar-list-utils
@@ -394,9 +395,9 @@ f:1df347f1d8e6e7128b729457728d7bb1:yubikey-personalization/Pkgfile
 f:be492da8d77b7d30446fcc9b89241c0f:termite/.signature
 f:567433e3379669c6bd9a9605e5675291:termite/.footprint
 f:6635e04bd7381a9c01a17d5432d4d0cd:termite/Pkgfile
-f:2b265aa56077ddee3ae96cbb1ca0d301:p5-devel-stacktrace/.signature
+f:67b4123d5964a1ceef2f69d507748c6f:p5-devel-stacktrace/.signature
 f:418bfdd31bf0befffd869e0d01a61484:p5-devel-stacktrace/.footprint
-f:c32d7aa9e5657706118d60d2830b2867:p5-devel-stacktrace/Pkgfile
+f:fcd7fe3baa4b40a441a1ce4a35e28b59:p5-devel-stacktrace/Pkgfile
 f:42847aafda4c202f7cf1f1925aa68621:lxc/.signature
 f:0d61d1ff89bb9d3708a4c0b523b079af:lxc/lxc-cgroups
 f:2136f3664da330867e5993d7a1174c61:lxc/default.conf
@@ -693,7 +694,7 @@ f:6798daa830e6445d90f4a99040bab663:p5-text-bibtex/Pkgfile
 f:63528b651e2a5a87d5d9f91aab010cb5:compton/.signature
 f:788ba14c6467fca362b03f5ad4c55d1d:compton/.footprint
 f:5807ca9073efef6bc7cf7865c1f2146a:compton/README
-f:d3347afc33a19fbe57ac38687123dea7:compton/Pkgfile
+f:9d6a84dff69bea40e473a000c1368a05:compton/Pkgfile
 f:2a7b47dc7324315feb4794e4e32d1aea:papirus-icon-theme/.signature
 f:c3400044d8e45bb7e0f39b5e62a8fa07:papirus-icon-theme/.footprint
 f:48c6571235da201e7fb43fba6d18bf7b:papirus-icon-theme/post-install
@@ -720,9 +721,9 @@ f:e4834048050ec8a7f5defd2b3027a2d0:snowball/.signature
 f:c0493bfcb2d566404ad5fb488d2ed87d:snowball/.footprint
 f:6e2392bc2a46107d77a43bfe80bb1558:snowball/Pkgfile
 f:70e9965a8c2b415d5de3593d0728e517:snowball/dynamiclib.patch
-f:76192c650690bb8ee71d409f879f2bb8:p5-alien-build/.signature
+f:736fa4126f7d2dbea736e6a4313ede29:p5-alien-build/.signature
 f:d52977e692baf1e9b317c5de5101d87c:p5-alien-build/.footprint
-f:cbf4f12cc57bffdbb3fc42255947f03a:p5-alien-build/Pkgfile
+f:40feda3a5d4c9be71f351fe9b3f5f3d8:p5-alien-build/Pkgfile
 f:8803fb2af0fa5613c26a9fb7bbfe969d:faba-icon-theme/.signature
 f:91c9223c91d86188775cb8a8f13eec96:faba-icon-theme/.footprint
 f:fd0add61aab7fabfc219cde8b6c79a3b:faba-icon-theme/post-install
@@ -803,6 +804,10 @@ f:525114b5f91d11c34422f32bf6719fbf:p5-list-utilsby/Pkgfile
 f:5379575a0be4cfb65ddd02b3900e29fc:qownnotes/.signature
 f:fac0e3d12a162636dea4c270f66ee6a5:qownnotes/.footprint
 f:b35c301c4417682275063d9992902620:qownnotes/Pkgfile
+f:bfbbd29100bf8f4efb03e2e57d421708:uthash/.signature
+f:7425ebb96a9e48ce8a23b5e087b1b002:uthash/.footprint
+f:95aef197483d12a783024649013890f9:uthash/.md5sum
+f:2cce752377dd3fd78d4e95d2c99e1fb7:uthash/Pkgfile
 f:ac85f41c466f07a64566411c09a5962a:p5-data-optlist/.signature
 f:090ed3ffcc65aaf3791afe2d3633abff:p5-data-optlist/.footprint
 f:5019e730e55cf13cc599bbbb957e1494:p5-data-optlist/Pkgfile
@@ -1079,9 +1084,9 @@ f:56689ef8f6aceec9c60626f8aac218bb:argon2/Pkgfile
 f:6e9029516f411575e02017773e4e5438:davfs2/.signature
 f:a0cfa8234952f71459f9380b339f4629:davfs2/.footprint
 f:26a0ccb3120be55b2430ddf0957637fd:davfs2/Pkgfile
-f:e4b2057a5b9f16c5f899ad9bbebd1431:p5-xml-libxml/.signature
+f:5de8372d6f5e018d95ccc175f2ccea43:p5-xml-libxml/.signature
 f:4f0390fa885c32791071d0c888a1e1c1:p5-xml-libxml/.footprint
-f:9b2ba2461645de5f56fd1f8ec93f0943:p5-xml-libxml/Pkgfile
+f:6295c43bb8dad2777e731b76de8a5b5a:p5-xml-libxml/Pkgfile
 f:68fc2a3563bf49695f718b0cea7202cc:gnome-python-desktop/.signature
 f:b19554bb86b6380e1e4b81f89f80f26c:gnome-python-desktop/01_wnck_enums.patch
 f:729f8b48bea7fca7b2f105b58ed69d06:gnome-python-desktop/.footprint

@@ -1119,10 +1119,9 @@ f:0b4dded63382ae5a8f08f8794d9a86e9:bluez5/.footprint
 f:d0d8abe8abbb1b0aded9847c4a74c35c:bluez5/README
 f:1602f5283e52a4c88ac70ddc7730e439:bluez5/Pkgfile
 f:97519078e120e7a47851929992dfab13:bluez5/bluetoothd
-f:48d0d26c27ddd8d4a65a322b24f98196:nnn/.signature
-f:c008a184f4369109ec1b806e186b7d85:nnn/fix_blockage.patch
-f:534c6e4a4b59f60a2cea83819e38eef0:nnn/.footprint
-f:3f3a2bce1af4a38ae574fd82b9ccede1:nnn/Pkgfile
+f:293a34714712807afebc6a9c1a55f752:nnn/.signature
+f:7d0b4394e546d041731084a2453c1925:nnn/.footprint
+f:af30d87611569a388e58218545e950f0:nnn/Pkgfile
 f:51ad9d4e7f2ac0a1e9beb7334fa8c69b:p5-perlio-utf8-strict/.signature
 f:5b0c6f1b41c5ba51652090579b337fdd:p5-perlio-utf8-strict/.footprint
 f:e59c22fbc5f63372c34fbf55da3c6a00:p5-perlio-utf8-strict/Pkgfile

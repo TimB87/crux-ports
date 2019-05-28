@@ -31,9 +31,9 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/girepository-1.0/
 -rw-r--r--	root/root	usr/lib/girepository-1.0/Flatpak-1.0.typelib
 -rwxr-xr-x	root/root	usr/lib/libflatpak.la
-lrwxrwxrwx	root/root	usr/lib/libflatpak.so -> libflatpak.so.0.10304.0
-lrwxrwxrwx	root/root	usr/lib/libflatpak.so.0 -> libflatpak.so.0.10304.0
--rwxr-xr-x	root/root	usr/lib/libflatpak.so.0.10304.0
+lrwxrwxrwx	root/root	usr/lib/libflatpak.so -> libflatpak.so.0.10400.0
+lrwxrwxrwx	root/root	usr/lib/libflatpak.so.0 -> libflatpak.so.0.10400.0
+-rwxr-xr-x	root/root	usr/lib/libflatpak.so.0.10400.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/flatpak.pc
 -rwxr-xr-x	root/root	usr/lib/revokefs-fuse

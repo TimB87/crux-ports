@@ -315,9 +315,9 @@ f:b0e1437a875c8197299fc1a040365a2a:gnome-keyring/.signature
 f:8ab1a8aebf81c512aa5d551b60792167:gnome-keyring/post-install
 f:3a6d232c67782f6b528359a203612742:gnome-keyring/Pkgfile
 f:4a8ba2e5a3bae2f99cb87246761a86b7:gnome-keyring/.footprint
-f:e1ddef22c319b0fffd020da21bc66758:libsodium/.signature
-f:15a99519d29ca41eb230dd211de25e1c:libsodium/Pkgfile
-f:461bc81b67c20bff1c160b140230bc1c:libsodium/.footprint
+f:557990109b3a31e8479be5416bad4a76:libsodium/.signature
+f:32785d996fa28d28d0dd0170aa293902:libsodium/Pkgfile
+f:00675e15cff7a2312c454aedb114792d:libsodium/.footprint
 f:c77f62c012688ca34d5bf181fe64aa1a:apcu/.signature
 f:5f5216b253fc29da57b9f5336196f749:apcu/Pkgfile
 f:1f224e34a35479213575544614c7e7f0:apcu/.footprint

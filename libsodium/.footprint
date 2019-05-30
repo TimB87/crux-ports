@@ -16,6 +16,7 @@ drwxr-xr-x	root/root	usr/include/sodium/
 -rw-r--r--	root/root	usr/include/sodium/crypto_core_ed25519.h
 -rw-r--r--	root/root	usr/include/sodium/crypto_core_hchacha20.h
 -rw-r--r--	root/root	usr/include/sodium/crypto_core_hsalsa20.h
+-rw-r--r--	root/root	usr/include/sodium/crypto_core_ristretto255.h
 -rw-r--r--	root/root	usr/include/sodium/crypto_core_salsa20.h
 -rw-r--r--	root/root	usr/include/sodium/crypto_core_salsa2012.h
 -rw-r--r--	root/root	usr/include/sodium/crypto_core_salsa208.h
@@ -36,6 +37,7 @@ drwxr-xr-x	root/root	usr/include/sodium/
 -rw-r--r--	root/root	usr/include/sodium/crypto_scalarmult.h
 -rw-r--r--	root/root	usr/include/sodium/crypto_scalarmult_curve25519.h
 -rw-r--r--	root/root	usr/include/sodium/crypto_scalarmult_ed25519.h
+-rw-r--r--	root/root	usr/include/sodium/crypto_scalarmult_ristretto255.h
 -rw-r--r--	root/root	usr/include/sodium/crypto_secretbox.h
 -rw-r--r--	root/root	usr/include/sodium/crypto_secretbox_xchacha20poly1305.h
 -rw-r--r--	root/root	usr/include/sodium/crypto_secretbox_xsalsa20poly1305.h
@@ -57,7 +59,7 @@ drwxr-xr-x	root/root	usr/include/sodium/
 -rw-r--r--	root/root	usr/include/sodium/crypto_verify_64.h
 -rw-r--r--	root/root	usr/include/sodium/export.h
 -rw-r--r--	root/root	usr/include/sodium/randombytes.h
--rw-r--r--	root/root	usr/include/sodium/randombytes_salsa20_random.h
+-rw-r--r--	root/root	usr/include/sodium/randombytes_internal_random.h
 -rw-r--r--	root/root	usr/include/sodium/randombytes_sysrandom.h
 -rw-r--r--	root/root	usr/include/sodium/runtime.h
 -rw-r--r--	root/root	usr/include/sodium/utils.h
@@ -65,8 +67,8 @@ drwxr-xr-x	root/root	usr/include/sodium/
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libsodium.a
 -rwxr-xr-x	root/root	usr/lib/libsodium.la
-lrwxrwxrwx	root/root	usr/lib/libsodium.so -> libsodium.so.23.2.0
-lrwxrwxrwx	root/root	usr/lib/libsodium.so.23 -> libsodium.so.23.2.0
--rwxr-xr-x	root/root	usr/lib/libsodium.so.23.2.0
+lrwxrwxrwx	root/root	usr/lib/libsodium.so -> libsodium.so.23.3.0
+lrwxrwxrwx	root/root	usr/lib/libsodium.so.23 -> libsodium.so.23.3.0
+-rwxr-xr-x	root/root	usr/lib/libsodium.so.23.3.0
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libsodium.pc

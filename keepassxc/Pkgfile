@@ -4,7 +4,7 @@
 # Depends on: qt5 qrencode libgcrypt yubico-c yubikey-personalization libgpg-error llvm argon2 libsodium
 
 name=keepassxc
-version=2.4.1
+version=2.4.2
 release=1
 source=(https://github.com/keepassxreboot/keepassxc/releases/download/$version/$name-$version-src.tar.xz)
 

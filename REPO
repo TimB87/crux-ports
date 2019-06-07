@@ -395,7 +395,7 @@ f:0d61d1ff89bb9d3708a4c0b523b079af:lxc/lxc-cgroups
 f:2136f3664da330867e5993d7a1174c61:lxc/default.conf
 f:d20bd968f7983f9156ec9279b8bcbff0:lxc/.footprint
 f:13b40dfb0c71e737148782c6a29151eb:lxc/lxc-usernet
-f:76e6f30cc352507f366f1b8653980b68:lxc/post-install
+f:598dbfd55fbc2cf9954b2c4ce94cbfdd:lxc/post-install
 f:e5f4d1655e531abdd57b777fdb22a2e8:lxc/README
 f:e713dab574fa6fb4f285b147139d8510:lxc/Pkgfile
 f:a18407a2c9b43ca217ebdb14523e3d82:lxc/lxc-users-setup
@@ -703,9 +703,9 @@ f:d3e12a1d079155d5185103cc0f0b6781:graphite2/Pkgfile
 f:406ac8c92f79c97d585472d995a3572d:p5-file-chdir/.signature
 f:4b314df6423559045f77b084234d7c2e:p5-file-chdir/.footprint
 f:803eee2fa1e30e5eb55997ac78670af1:p5-file-chdir/Pkgfile
-f:17b6f9eda294e6367a957545159e29c2:font-ibm-plex/.signature
-f:85188c280ede03683e16c1fe4cebc212:font-ibm-plex/.footprint
-f:6fa73039645cd5704ee6e315bf14bc5f:font-ibm-plex/Pkgfile
+f:59d6442827830429ee87cf7de8de620b:font-ibm-plex/.signature
+f:4260234cb5b61d9f1aa4e4f633d28b35:font-ibm-plex/.footprint
+f:98c7e596875803fdd00d95bcddd2f830:font-ibm-plex/Pkgfile
 f:e4834048050ec8a7f5defd2b3027a2d0:snowball/.signature
 f:c0493bfcb2d566404ad5fb488d2ed87d:snowball/.footprint
 f:6e2392bc2a46107d77a43bfe80bb1558:snowball/Pkgfile
@@ -848,9 +848,9 @@ f:413c7e2bf233badd23d8d8719883d9b7:avahi/.footprint
 f:3de0652d5bf88d820e83c2f281548a8a:avahi/Pkgfile
 f:0b8b02610ea0e67fdcc62bba11250d4c:avahi/pre-install
 f:5c90e86c7ca398605605ec31d17fd18e:avahi/avahi-daemon.rc
-f:7eaaf23f60fea12df64264c9effa9db8:font-awesome/.signature
+f:5f850b3b81773723d98df55998bc31ab:font-awesome/.signature
 f:66cae75bb029a755b80f0968f88a0b94:font-awesome/.footprint
-f:74d14a17c64e841ae9d6c06bd26ff354:font-awesome/Pkgfile
+f:56305dc6d92cc6a0935361acc3d06d95:font-awesome/Pkgfile
 f:ca5157b9d55142955edaf51f67aff19c:papirus-libreoffice-theme/.signature
 f:32e46505d0a1032c2655d5a14fbcc265:papirus-libreoffice-theme/.footprint
 f:2437e2834d4abde8612ba14ece235458:papirus-libreoffice-theme/Pkgfile

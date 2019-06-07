@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwO0buh2+q+1iYWHf3O0JN1DnNUnMhVyuk61aAGtMaRBkf0CCmCb3JM5LH+QzNCeoJ+PcDB2EK6aGyc/RyID3Gwc=
-SHA256 (Pkgfile) = de019df4edf331268dc1d2f375392b017e51ad8923a4799ad36c45bd4c612487
+RWSXjYMPO7mZwEVM7Sjorqawl4g+UTjdft+KHQfayhRwWufeFB7XIyGlDUkyzKOfj2fZ+/Bvm8E2G/Q5d8nwumzVGKdFOS8/oAU=
+SHA256 (Pkgfile) = 464498a670f02b2f8320a36f75588ee233350e9a918f772e54a10e1af988d5f5
 SHA256 (.footprint) = d3916e94908249d530356c1e79cef586cdeacf7bd488278a3f0c61ab5be2aab3
-SHA256 (qownnotes-19.5.3.tar.xz) = 39fece16bfc0d650844ad6b867770523fc23741f1e62e28e32fa136c7f8bc536
+SHA256 (qownnotes-19.6.1.tar.xz) = 86b5e6d9492e6605abc435d7c80def4c5365d1feb44e6117ec05afa0199da654

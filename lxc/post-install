@@ -2,8 +2,8 @@
 
 # Setup user mapping for unprivileged containers
 test -f '/etc/subuid' || touch '/etc/subuid'
-usermod -v 100000-165535 root
+/usr/sbin/usermod -v 100000-165535 root
 
 # Setup group mapping for unprivileged containers
 test -f '/etc/subgid' || touch '/etc/subgid'
-usermod -w 100000-165535 root
+/usr/sbin/usermod -w 100000-165535 root

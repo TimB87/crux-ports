@@ -5,19 +5,19 @@
 # Depends on:
 
 name=mono
-version=5.20.1.19
+version=5.20.1.27
 release=1
 source=(http://download.mono-project.com/sources/$name/$name-$version.tar.bz2)
 build() {
-    cd $name-$version
-    ./configure --prefix=/usr \
-        --mandir=/usr/share/man \
-        --with-mcs-docs=no \
-        --disable-crash-reporting \
-        --disable-support-build \
-        --disable-nls
-    make
-    make DESTDIR=$PKG MANDIR=/usr/man install
-    rm -fr $PKG/usr/share/locale
-    find $PKG -iname "*README*" -delete
+  cd $name-$version
+  ./configure --prefix=/usr \
+    --mandir=/usr/share/man \
+    --with-mcs-docs=no \
+    --disable-crash-reporting \
+    --disable-support-build \
+    --disable-nls
+  make
+  make DESTDIR=$PKG MANDIR=/usr/man install
+  rm -fr $PKG/usr/share/locale
+  find $PKG -iname "*README*" -delete
 }

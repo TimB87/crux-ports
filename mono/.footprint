@@ -3371,31 +3371,31 @@ drwxr-xr-x	root/root	usr/lib/mono/mono-configuration-crypto/4.5/
 drwxr-xr-x	root/root	usr/lib/mono/monodoc/
 lrwxrwxrwx	root/root	usr/lib/mono/monodoc/monodoc.dll -> ../gac/monodoc/1.0.0.0__0738eb9f132ed756/monodoc.dll
 drwxr-xr-x	root/root	usr/lib/mono/msbuild/
-drwxr-xr-x	root/root	usr/lib/mono/msbuild/15.0/
-drwxr-xr-x	root/root	usr/lib/mono/msbuild/15.0/bin/
-drwxr-xr-x	root/root	usr/lib/mono/msbuild/15.0/bin/Roslyn/
--rwxr-xr-x	root/root	usr/lib/mono/msbuild/15.0/bin/Roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
--rwxr-xr-x	root/root	usr/lib/mono/msbuild/15.0/bin/Roslyn/Microsoft.CSharp.Core.targets
-lrwxrwxrwx	root/root	usr/lib/mono/msbuild/15.0/bin/Roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll -> ../../../../4.5/Microsoft.CodeAnalysis.CSharp.Scripting.dll
-lrwxrwxrwx	root/root	usr/lib/mono/msbuild/15.0/bin/Roslyn/Microsoft.CodeAnalysis.CSharp.dll -> ../../../../4.5/Microsoft.CodeAnalysis.CSharp.dll
-lrwxrwxrwx	root/root	usr/lib/mono/msbuild/15.0/bin/Roslyn/Microsoft.CodeAnalysis.Scripting.dll -> ../../../../4.5/Microsoft.CodeAnalysis.Scripting.dll
-lrwxrwxrwx	root/root	usr/lib/mono/msbuild/15.0/bin/Roslyn/Microsoft.CodeAnalysis.VisualBasic.dll -> ../../../../4.5/Microsoft.CodeAnalysis.VisualBasic.dll
-lrwxrwxrwx	root/root	usr/lib/mono/msbuild/15.0/bin/Roslyn/Microsoft.CodeAnalysis.dll -> ../../../../4.5/Microsoft.CodeAnalysis.dll
--rwxr-xr-x	root/root	usr/lib/mono/msbuild/15.0/bin/Roslyn/Microsoft.Managed.Core.targets
--rwxr-xr-x	root/root	usr/lib/mono/msbuild/15.0/bin/Roslyn/Microsoft.VisualBasic.Core.targets
-lrwxrwxrwx	root/root	usr/lib/mono/msbuild/15.0/bin/Roslyn/System.Collections.Immutable.dll -> ../../../../4.5/System.Collections.Immutable.dll
-lrwxrwxrwx	root/root	usr/lib/mono/msbuild/15.0/bin/Roslyn/System.Reflection.Metadata.dll -> ../../../../4.5/System.Reflection.Metadata.dll
-lrwxrwxrwx	root/root	usr/lib/mono/msbuild/15.0/bin/Roslyn/VBCSCompiler.exe -> ../../../../4.5/VBCSCompiler.exe
-lrwxrwxrwx	root/root	usr/lib/mono/msbuild/15.0/bin/Roslyn/VBCSCompiler.exe.config -> ../../../../4.5/VBCSCompiler.exe.config
-lrwxrwxrwx	root/root	usr/lib/mono/msbuild/15.0/bin/Roslyn/csc.exe -> ../../../../4.5/csc.exe
-lrwxrwxrwx	root/root	usr/lib/mono/msbuild/15.0/bin/Roslyn/csc.exe.config -> ../../../../4.5/csc.exe.config
-lrwxrwxrwx	root/root	usr/lib/mono/msbuild/15.0/bin/Roslyn/csc.rsp -> ../../../../4.5/csc.rsp
-lrwxrwxrwx	root/root	usr/lib/mono/msbuild/15.0/bin/Roslyn/csi.exe -> ../../../../4.5/csi.exe
-lrwxrwxrwx	root/root	usr/lib/mono/msbuild/15.0/bin/Roslyn/csi.exe.config -> ../../../../4.5/csi.exe.config
-lrwxrwxrwx	root/root	usr/lib/mono/msbuild/15.0/bin/Roslyn/csi.rsp -> ../../../../4.5/csi.rsp
-lrwxrwxrwx	root/root	usr/lib/mono/msbuild/15.0/bin/Roslyn/vbc.exe -> ../../../../4.5/vbc.exe
-lrwxrwxrwx	root/root	usr/lib/mono/msbuild/15.0/bin/Roslyn/vbc.exe.config -> ../../../../4.5/vbc.exe.config
-lrwxrwxrwx	root/root	usr/lib/mono/msbuild/15.0/bin/Roslyn/vbc.rsp -> ../../../../4.5/vbc.rsp
+drwxr-xr-x	root/root	usr/lib/mono/msbuild/Current/
+drwxr-xr-x	root/root	usr/lib/mono/msbuild/Current/bin/
+drwxr-xr-x	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/
+-rwxr-xr-x	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll
+-rwxr-xr-x	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/Microsoft.CSharp.Core.targets
+lrwxrwxrwx	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll -> ../../../../4.5/Microsoft.CodeAnalysis.CSharp.Scripting.dll
+lrwxrwxrwx	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/Microsoft.CodeAnalysis.CSharp.dll -> ../../../../4.5/Microsoft.CodeAnalysis.CSharp.dll
+lrwxrwxrwx	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/Microsoft.CodeAnalysis.Scripting.dll -> ../../../../4.5/Microsoft.CodeAnalysis.Scripting.dll
+lrwxrwxrwx	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/Microsoft.CodeAnalysis.VisualBasic.dll -> ../../../../4.5/Microsoft.CodeAnalysis.VisualBasic.dll
+lrwxrwxrwx	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/Microsoft.CodeAnalysis.dll -> ../../../../4.5/Microsoft.CodeAnalysis.dll
+-rwxr-xr-x	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/Microsoft.Managed.Core.targets
+-rwxr-xr-x	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/Microsoft.VisualBasic.Core.targets
+lrwxrwxrwx	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/System.Collections.Immutable.dll -> ../../../../4.5/System.Collections.Immutable.dll
+lrwxrwxrwx	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/System.Reflection.Metadata.dll -> ../../../../4.5/System.Reflection.Metadata.dll
+lrwxrwxrwx	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/VBCSCompiler.exe -> ../../../../4.5/VBCSCompiler.exe
+lrwxrwxrwx	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/VBCSCompiler.exe.config -> ../../../../4.5/VBCSCompiler.exe.config
+lrwxrwxrwx	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/csc.exe -> ../../../../4.5/csc.exe
+lrwxrwxrwx	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/csc.exe.config -> ../../../../4.5/csc.exe.config
+lrwxrwxrwx	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/csc.rsp -> ../../../../4.5/csc.rsp
+lrwxrwxrwx	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/csi.exe -> ../../../../4.5/csi.exe
+lrwxrwxrwx	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/csi.exe.config -> ../../../../4.5/csi.exe.config
+lrwxrwxrwx	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/csi.rsp -> ../../../../4.5/csi.rsp
+lrwxrwxrwx	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/vbc.exe -> ../../../../4.5/vbc.exe
+lrwxrwxrwx	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/vbc.exe.config -> ../../../../4.5/vbc.exe.config
+lrwxrwxrwx	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/vbc.rsp -> ../../../../4.5/vbc.rsp
 drwxr-xr-x	root/root	usr/lib/mono/xbuild-frameworks/
 drwxr-xr-x	root/root	usr/lib/mono/xbuild-frameworks/.NETFramework/
 drwxr-xr-x	root/root	usr/lib/mono/xbuild-frameworks/.NETFramework/v2.0/
@@ -3498,14 +3498,14 @@ lrwxrwxrwx	root/root	usr/lib/mono/xbuild/14.0/bin/Mono.XBuild.Tasks.dll -> ../..
 -rw-r--r--	root/root	usr/lib/mono/xbuild/14.0/bin/xbuild.exe.config
 -rwxr-xr-x	root/root	usr/lib/mono/xbuild/14.0/bin/xbuild.pdb
 -rw-r--r--	root/root	usr/lib/mono/xbuild/14.0/bin/xbuild.rsp
-drwxr-xr-x	root/root	usr/lib/mono/xbuild/15.0/
-drwxr-xr-x	root/root	usr/lib/mono/xbuild/15.0/Imports/
-drwxr-xr-x	root/root	usr/lib/mono/xbuild/15.0/Imports/Microsoft.Common.props/
-drwxr-xr-x	root/root	usr/lib/mono/xbuild/15.0/Imports/Microsoft.Common.props/ImportBefore/
--rw-r--r--	root/root	usr/lib/mono/xbuild/15.0/Imports/Microsoft.Common.props/ImportBefore/Microsoft.NuGet.ImportBefore.props
-drwxr-xr-x	root/root	usr/lib/mono/xbuild/15.0/Microsoft.Common.targets/
-drwxr-xr-x	root/root	usr/lib/mono/xbuild/15.0/Microsoft.Common.targets/ImportAfter/
--rw-r--r--	root/root	usr/lib/mono/xbuild/15.0/Microsoft.Common.targets/ImportAfter/Microsoft.NuGet.ImportAfter.targets
+drwxr-xr-x	root/root	usr/lib/mono/xbuild/Current/
+drwxr-xr-x	root/root	usr/lib/mono/xbuild/Current/Imports/
+drwxr-xr-x	root/root	usr/lib/mono/xbuild/Current/Imports/Microsoft.Common.props/
+drwxr-xr-x	root/root	usr/lib/mono/xbuild/Current/Imports/Microsoft.Common.props/ImportBefore/
+-rw-r--r--	root/root	usr/lib/mono/xbuild/Current/Imports/Microsoft.Common.props/ImportBefore/Microsoft.NuGet.ImportBefore.props
+drwxr-xr-x	root/root	usr/lib/mono/xbuild/Current/Microsoft.Common.targets/
+drwxr-xr-x	root/root	usr/lib/mono/xbuild/Current/Microsoft.Common.targets/ImportAfter/
+-rw-r--r--	root/root	usr/lib/mono/xbuild/Current/Microsoft.Common.targets/ImportAfter/Microsoft.NuGet.ImportAfter.targets
 drwxr-xr-x	root/root	usr/lib/mono/xbuild/Microsoft/
 drwxr-xr-x	root/root	usr/lib/mono/xbuild/Microsoft/NuGet/
 -rwxr-xr-x	root/root	usr/lib/mono/xbuild/Microsoft/NuGet/Microsoft.NuGet.Build.Tasks.dll
@@ -3547,6 +3547,9 @@ drwxr-xr-x	root/root	usr/lib/mono/xbuild/Microsoft/VisualStudio/v14.0/WebApplica
 drwxr-xr-x	root/root	usr/lib/mono/xbuild/Microsoft/VisualStudio/v15.0/
 drwxr-xr-x	root/root	usr/lib/mono/xbuild/Microsoft/VisualStudio/v15.0/WebApplications/
 -rw-r--r--	root/root	usr/lib/mono/xbuild/Microsoft/VisualStudio/v15.0/WebApplications/Microsoft.WebApplication.targets
+drwxr-xr-x	root/root	usr/lib/mono/xbuild/Microsoft/VisualStudio/v16.0/
+drwxr-xr-x	root/root	usr/lib/mono/xbuild/Microsoft/VisualStudio/v16.0/WebApplications/
+-rw-r--r--	root/root	usr/lib/mono/xbuild/Microsoft/VisualStudio/v16.0/WebApplications/Microsoft.WebApplication.targets
 drwxr-xr-x	root/root	usr/lib/mono/xbuild/Microsoft/VisualStudio/v9.0/
 drwxr-xr-x	root/root	usr/lib/mono/xbuild/Microsoft/VisualStudio/v9.0/WebApplications/
 -rw-r--r--	root/root	usr/lib/mono/xbuild/Microsoft/VisualStudio/v9.0/WebApplications/Microsoft.WebApplication.targets

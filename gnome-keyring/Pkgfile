@@ -1,4 +1,4 @@
-# Description: 
+# Description:
 # URL: https://gnome.org
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: gnome-common linux-pam p11-kit gcr gtk3 harfbuzz pango libepoxy
@@ -9,14 +9,13 @@ release=1
 source=(https://git.gnome.org/browse/gnome-keyring/snapshot/$name-$version.tar.xz)
 
 build() {
-	cd $name-$version
-    
-    NOCONFIGURE=1 ./autogen.sh
-    ./configure --prefix=/usr \
-                --with-pam-dir=/lib/security \
-                --with-root-certs=/etc/ssl/certs \
-                --disable-schemas-compile \
-                --disable-nls
-    make
-    make DESTDIR=$PKG install
+  cd $name-$version
+  NOCONFIGURE=1 ./autogen.sh
+  ./configure --prefix=/usr \
+    --with-pam-dir=/lib/security \
+    --with-root-certs=/etc/ssl/certs \
+    --disable-schemas-compile \
+    --disable-nls
+  make
+  make DESTDIR=$PKG install
 }

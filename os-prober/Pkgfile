@@ -5,7 +5,7 @@
 # Depends on:
 
 name=os-prober
-version=1.76
+version=1.77
 release=1
 source=(http://ftp.de.debian.org/debian/pool/main/o/$name/${name}_$version.tar.xz
 Fix-CRUX-grub-menu-entry-detection.patch)

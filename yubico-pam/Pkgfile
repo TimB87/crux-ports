@@ -9,12 +9,12 @@ release=2
 source=(https://github.com/Yubico/yubico-pam/archive/$version/$name-$version.tar.gz)
 
 build() {
-	cd $name-$version
-    autoreconf -fi
-    ./configure --prefix=/usr \
-      --with-pam-dir=/lib/security \
-      --enable-coverage=no \
-      --disable-static
-    make
-    make DESTDIR=$PKG install
+  cd $name-$version
+  autoreconf -fi
+  ./configure --prefix=/usr \
+    --with-pam-dir=/lib/security \
+    --enable-coverage=no \
+    --disable-static
+  make
+  make DESTDIR=$PKG install
 }

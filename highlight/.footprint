@@ -22,6 +22,7 @@ drwxr-xr-x	root/root	usr/share/highlight/langDefs/
 -rw-r--r--	root/root	usr/share/highlight/langDefs/arm.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/as400cl.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/ascend.lang
+-rw-r--r--	root/root	usr/share/highlight/langDefs/asciidoc.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/asp.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/aspect.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/assembler.lang
@@ -75,6 +76,7 @@ drwxr-xr-x	root/root	usr/share/highlight/langDefs/
 -rw-r--r--	root/root	usr/share/highlight/langDefs/erb.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/erlang.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/euphoria.lang
+-rw-r--r--	root/root	usr/share/highlight/langDefs/exapunks.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/excel.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/express.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/fame.lang
@@ -96,6 +98,7 @@ drwxr-xr-x	root/root	usr/share/highlight/langDefs/
 -rw-r--r--	root/root	usr/share/highlight/langDefs/hcl.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/html.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/httpd.lang
+-rw-r--r--	root/root	usr/share/highlight/langDefs/hugo.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/icon.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/idl.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/idlang.lang
@@ -413,6 +416,11 @@ drwxr-xr-x	root/root	usr/share/highlight/themes/base16/
 -rw-r--r--	root/root	usr/share/highlight/themes/darkslategray.theme
 -rw-r--r--	root/root	usr/share/highlight/themes/darkspectrum.theme
 -rw-r--r--	root/root	usr/share/highlight/themes/denim.theme
+-rw-r--r--	root/root	usr/share/highlight/themes/duotone-dark-earth.theme
+-rw-r--r--	root/root	usr/share/highlight/themes/duotone-dark-forest.theme
+-rw-r--r--	root/root	usr/share/highlight/themes/duotone-dark-sea.theme
+-rw-r--r--	root/root	usr/share/highlight/themes/duotone-dark-sky.theme
+-rw-r--r--	root/root	usr/share/highlight/themes/duotone-dark-space.theme
 -rw-r--r--	root/root	usr/share/highlight/themes/dusk.theme
 -rw-r--r--	root/root	usr/share/highlight/themes/earendel.theme
 -rw-r--r--	root/root	usr/share/highlight/themes/easter.theme

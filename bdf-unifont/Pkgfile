@@ -4,7 +4,7 @@
 # Depends on:
 
 name=bdf-unifont
-version=11.0.03
+version=12.1.02
 release=1
 source=(https://ftp.gnu.org/gnu/unifont/unifont-$version/unifont-$version.bdf.gz)
 

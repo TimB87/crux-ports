@@ -9,11 +9,10 @@ release=1
 source=(https://github.com/prikhi/$name/archive/$version/$name-$version.tar.gz)
 
 build() {
-    cd $name-$version
-	./autogen.sh
-	./configure --prefix=/usr --datadir /usr/share \
-			--bindir /usr/bin --sysconfdir /usr/etc \
-			--disable-nls
-	make
-	make DESTDIR=$PKG install
+  cd $name-$version
+  ./autogen.sh
+  ./configure --prefix=/usr \
+    --disable-nls
+  make
+  make DESTDIR=$PKG install
 }

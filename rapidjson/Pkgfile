@@ -1,7 +1,7 @@
 # Description: A fast JSON parser/generator for C++ with both SAX/DOM style API
 # URL: https://github.com/miloyip/rapidjson
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on:
+# Depends on: cmake
 
 name=rapidjson
 version=1.1.0
@@ -10,9 +10,8 @@ source=(https://github.com/miloyip/$name/archive/v$version/$name-$version.tar.gz
 
 build() {
     cd $name-$version
-    find -name CMakeLists.txt | xargs sed -e 's|-Werror||' -i # Don't use -Werror 
+    find -name CMakeLists.txt | xargs sed -e 's|-Werror||' -i # Don't use -Werror
     mkdir -p build && cd build
-
     cmake -DCMAKE_BUILD_TYPE=Release \
         -DCMAKE_INSTALL_PREFIX:PATH=/usr \
         ..

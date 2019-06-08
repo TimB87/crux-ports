@@ -6,14 +6,12 @@
 name=xdotool
 version=3.20160805.1
 release=1
-source=("https://github.com/jordansissel/${name}/archive/v${version}/${name}-v${version}.tar.gz")
+source=(https://github.com/jordansissel/$name/archive/v$version/$name-v$version.tar.gz)
 
 
 build() {
-	cd "${name}-${version}"
-
-	make WITHOUT_RPATH_FIX=1
-	make DESTDIR="${PKG}" PREFIX=/usr DINSTALLMAN="${PKG}/usr/share/man" install
-
-	chmod -x "${PKG}/usr/include/xdo.h"
+ cd $name-$version
+ make WITHOUT_RPATH_FIX=1
+ make DESTDIR="${PKG}" PREFIX=/usr DINSTALLMAN="${PKG}/usr/share/man" install
+ chmod -x $PKG/usr/include/xdo.h
 }

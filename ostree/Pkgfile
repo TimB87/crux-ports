@@ -9,17 +9,14 @@ release=1
 source=(https://github.com/ostreedev/ostree/releases/download/v$version/libostree-$version.tar.xz)
 
 build() {
-	cd lib$name-$version
-
-	./configure --prefix=/usr \
-        --libexecdir=/usr/lib/$name \
-		--with-openssl \
-		--with-builtin-grub2-mkconfig \
-		--enable-experimental-api \
-		--disable-static
-
-	make
-	make DESTDIR=$PKG install
-
-    rm -fr $PKG/usr/share/ostree/trusted.gpg.d/
+  cd lib$name-$version
+  ./configure --prefix=/usr \
+    --libexecdir=/usr/lib/$name \
+    --with-openssl \
+    --with-builtin-grub2-mkconfig \
+    --enable-experimental-api \
+    --disable-static
+  make
+  make DESTDIR=$PKG install
+  rm -fr $PKG/usr/share/ostree/trusted.gpg.d/
 }

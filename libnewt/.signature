@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwCi+aNIRz+40E4eYMGW4IIcRvA2hKE+hYAjpbXKrapsOi461zHJV0pxyqJjl3RPtMg4fTvm7iQnJe1ps7CPb4Aw=
-SHA256 (Pkgfile) = d68d37cb3c7178b24c66fffa0dfeb6bc6ac61f7bea43460bbac4d5f4c1586620
-SHA256 (.footprint) = 0cc653e177f21eda582d894cf5e57e5ff9c263afe3bdc4caffb93d62053ddde4
-SHA256 (newt-0.52.20.tar.gz) = 8d66ba6beffc3f786d4ccfee9d2b43d93484680ef8db9397a4fb70b5adbb6dbc
+RWSXjYMPO7mZwG1Ukr0DGahJJAYXHyIGD0gINK3bP1Kyh1kjSHgJMd+mr6weRTxz52PG3u8EBOuNrv02ZQZ4V/kQsNqnyCZgAws=
+SHA256 (Pkgfile) = f8ea58f17efd1f16829c0239669e9153ac252f9350bc667201d37df588cfd532
+SHA256 (.footprint) = 65ced68fc1e5b614cd5e55a04f41067554e332f7ae9936c4bca017234f2d181c
+SHA256 (newt-0.52.21.tar.gz) = 265eb46b55d7eaeb887fca7a1d51fe115658882dfe148164b6c49fccac5abb31

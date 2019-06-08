@@ -6,8 +6,8 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libnewt.a
 lrwxrwxrwx	root/root	usr/lib/libnewt.so -> libnewt.so.0.52
-lrwxrwxrwx	root/root	usr/lib/libnewt.so.0.52 -> libnewt.so.0.52.20
--rwxr-xr-x	root/root	usr/lib/libnewt.so.0.52.20
+lrwxrwxrwx	root/root	usr/lib/libnewt.so.0.52 -> libnewt.so.0.52.21
+-rwxr-xr-x	root/root	usr/lib/libnewt.so.0.52.21
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/libnewt.pc
 drwxr-xr-x	root/root	usr/lib/python2.7/
@@ -28,6 +28,7 @@ drwxr-xr-x	root/root	usr/lib/usr/include/python3/
 drwxr-xr-x	root/root	usr/lib/usr/include/python3/Python.h/
 drwxr-xr-x	root/root	usr/lib/usr/include/python3/Python.h/site-packages/
 -rw-r--r--	root/root	usr/lib/usr/include/python3/Python.h/site-packages/snack.py
+-rwxr-xr-x	root/root	usr/lib/whiptcl.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/

@@ -9,9 +9,9 @@ release=1
 source=(https://github.com/Yubico/yubico-c-client/archive/ykclient-$version.tar.gz)
 
 build() {
-	cd $name-ykclient-$version
-    autoreconf --install
-    ./configure --prefix=/usr
-    make
-    make DESTDIR=$PKG install
+  cd $name-ykclient-$version
+  autoreconf --install
+  ./configure --prefix=/usr
+  make
+  make DESTDIR=$PKG install
 }

@@ -4,15 +4,15 @@
 # Depends on: icon-slicer
 
 name=xorg-cursor-openzone
-version=1.2.6
+version=1.2.8
 release=1
 source=(https://github.com/ducakar/openzone-cursors/archive/v$version/openzone-cursors-$version.tar.gz)
 
 build() {
-	cd openzone-cursors-$version
-    make
-    mkdir -p $PKG/usr/share/icons
-    for i in OpenZone_*.tar.*; do
-        tar xfv $i -C $PKG/usr/share/icons
-    done
+  cd openzone-cursors-$version
+  make
+  mkdir -p $PKG/usr/share/icons
+  for i in OpenZone_*; do
+    cp -R $i $PKG/usr/share/icons
+  done
 }

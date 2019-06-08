@@ -41,7 +41,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/bottom_side -> size_
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/bottom_tee -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/c7088f0f3e6c8088236ef8e1e3e70000 -> size_fdiag
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Black/cursors/cell
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/center_ptr -> up_arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/center_ptr -> up-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/circle -> forbidden
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Black/cursors/closedhand
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/col-resize -> size_hor
@@ -65,8 +65,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/dnd-none -> forbidde
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/dot_box_mask -> dotbox
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Black/cursors/dotbox
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/double_arrow -> size_ver
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/down-arrow -> down_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_Black/cursors/down_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_Black/cursors/down-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/draft -> pencil
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/draft_large -> right_ptr
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/draft_small -> right_ptr
@@ -91,8 +90,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/hand2 -> pointing_ha
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/help -> whats_this
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Black/cursors/ibeam
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/icon -> dotbox
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/left-arrow -> left_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_Black/cursors/left_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_Black/cursors/left-arrow
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Black/cursors/left_ptr
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/left_ptr_help -> whats_this
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Black/cursors/left_ptr_watch
@@ -119,18 +117,17 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/pointer-move -> move
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Black/cursors/pointing_hand
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/progress -> left_ptr_watch
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/question_arrow -> whats_this
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/right-arrow -> right_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_Black/cursors/right_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_Black/cursors/right-arrow
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Black/cursors/right_ptr
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/right_side -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/right_tee -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/row-resize -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/s-resize -> size_ver
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/sb_down_arrow -> down_arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/sb_down_arrow -> down-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/sb_h_double_arrow -> size_hor
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/sb_left_arrow -> left_arrow
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/sb_right_arrow -> right_arrow
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/sb_up_arrow -> up_arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/sb_left_arrow -> left-arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/sb_right_arrow -> right-arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/sb_up_arrow -> up-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/sb_v_double_arrow -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/se-resize -> size_fdiag
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/size-bdiag -> size_bdiag
@@ -155,8 +152,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/top_right_corner -> 
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/top_side -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/top_tee -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/ul_angle -> size_fdiag
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/up-arrow -> up_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_Black/cursors/up_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_Black/cursors/up-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/ur_angle -> size_bdiag
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black/cursors/v_double_arrow -> size_ver
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Black/cursors/vertical-text
@@ -210,7 +206,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/bottom_side -> 
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/bottom_tee -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/c7088f0f3e6c8088236ef8e1e3e70000 -> size_fdiag
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/cell
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/center_ptr -> up_arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/center_ptr -> up-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/circle -> forbidden
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/closedhand
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/col-resize -> size_hor
@@ -234,8 +230,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/dnd-none -> for
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/dot_box_mask -> dotbox
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/dotbox
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/double_arrow -> size_ver
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/down-arrow -> down_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/down_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/down-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/draft -> pencil
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/draft_large -> right_ptr
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/draft_small -> right_ptr
@@ -260,8 +255,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/hand2 -> pointi
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/help -> whats_this
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/ibeam
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/icon -> dotbox
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/left-arrow -> left_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/left_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/left-arrow
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/left_ptr
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/left_ptr_help -> whats_this
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/left_ptr_watch
@@ -288,18 +282,17 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/pointer-move ->
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/pointing_hand
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/progress -> left_ptr_watch
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/question_arrow -> whats_this
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/right-arrow -> right_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/right_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/right-arrow
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/right_ptr
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/right_side -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/right_tee -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/row-resize -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/s-resize -> size_ver
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/sb_down_arrow -> down_arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/sb_down_arrow -> down-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/sb_h_double_arrow -> size_hor
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/sb_left_arrow -> left_arrow
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/sb_right_arrow -> right_arrow
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/sb_up_arrow -> up_arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/sb_left_arrow -> left-arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/sb_right_arrow -> right-arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/sb_up_arrow -> up-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/sb_v_double_arrow -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/se-resize -> size_fdiag
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/size-bdiag -> size_bdiag
@@ -324,8 +317,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/top_right_corne
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/top_side -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/top_tee -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/ul_angle -> size_fdiag
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/up-arrow -> up_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/up_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/up-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/ur_angle -> size_bdiag
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/v_double_arrow -> size_ver
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Black_Slim/cursors/vertical-text
@@ -379,7 +371,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/bottom_side -> size_v
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/bottom_tee -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/c7088f0f3e6c8088236ef8e1e3e70000 -> size_fdiag
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Fire/cursors/cell
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/center_ptr -> up_arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/center_ptr -> up-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/circle -> forbidden
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Fire/cursors/closedhand
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/col-resize -> size_hor
@@ -403,8 +395,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/dnd-none -> forbidden
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/dot_box_mask -> dotbox
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Fire/cursors/dotbox
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/double_arrow -> size_ver
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/down-arrow -> down_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_Fire/cursors/down_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_Fire/cursors/down-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/draft -> pencil
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/draft_large -> right_ptr
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/draft_small -> right_ptr
@@ -429,8 +420,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/hand2 -> pointing_han
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/help -> whats_this
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Fire/cursors/ibeam
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/icon -> dotbox
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/left-arrow -> left_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_Fire/cursors/left_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_Fire/cursors/left-arrow
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Fire/cursors/left_ptr
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/left_ptr_help -> whats_this
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Fire/cursors/left_ptr_watch
@@ -457,18 +447,17 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/pointer-move -> move
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Fire/cursors/pointing_hand
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/progress -> left_ptr_watch
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/question_arrow -> whats_this
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/right-arrow -> right_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_Fire/cursors/right_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_Fire/cursors/right-arrow
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Fire/cursors/right_ptr
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/right_side -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/right_tee -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/row-resize -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/s-resize -> size_ver
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/sb_down_arrow -> down_arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/sb_down_arrow -> down-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/sb_h_double_arrow -> size_hor
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/sb_left_arrow -> left_arrow
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/sb_right_arrow -> right_arrow
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/sb_up_arrow -> up_arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/sb_left_arrow -> left-arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/sb_right_arrow -> right-arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/sb_up_arrow -> up-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/sb_v_double_arrow -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/se-resize -> size_fdiag
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/size-bdiag -> size_bdiag
@@ -493,8 +482,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/top_right_corner -> s
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/top_side -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/top_tee -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/ul_angle -> size_fdiag
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/up-arrow -> up_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_Fire/cursors/up_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_Fire/cursors/up-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/ur_angle -> size_bdiag
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire/cursors/v_double_arrow -> size_ver
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Fire/cursors/vertical-text
@@ -548,7 +536,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/bottom_side -> s
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/bottom_tee -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/c7088f0f3e6c8088236ef8e1e3e70000 -> size_fdiag
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/cell
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/center_ptr -> up_arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/center_ptr -> up-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/circle -> forbidden
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/closedhand
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/col-resize -> size_hor
@@ -572,8 +560,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/dnd-none -> forb
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/dot_box_mask -> dotbox
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/dotbox
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/double_arrow -> size_ver
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/down-arrow -> down_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/down_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/down-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/draft -> pencil
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/draft_large -> right_ptr
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/draft_small -> right_ptr
@@ -598,8 +585,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/hand2 -> pointin
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/help -> whats_this
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/ibeam
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/icon -> dotbox
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/left-arrow -> left_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/left_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/left-arrow
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/left_ptr
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/left_ptr_help -> whats_this
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/left_ptr_watch
@@ -626,18 +612,17 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/pointer-move -> 
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/pointing_hand
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/progress -> left_ptr_watch
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/question_arrow -> whats_this
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/right-arrow -> right_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/right_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/right-arrow
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/right_ptr
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/right_side -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/right_tee -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/row-resize -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/s-resize -> size_ver
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/sb_down_arrow -> down_arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/sb_down_arrow -> down-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/sb_h_double_arrow -> size_hor
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/sb_left_arrow -> left_arrow
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/sb_right_arrow -> right_arrow
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/sb_up_arrow -> up_arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/sb_left_arrow -> left-arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/sb_right_arrow -> right-arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/sb_up_arrow -> up-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/sb_v_double_arrow -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/se-resize -> size_fdiag
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/size-bdiag -> size_bdiag
@@ -662,8 +647,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/top_right_corner
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/top_side -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/top_tee -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/ul_angle -> size_fdiag
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/up-arrow -> up_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/up_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/up-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/ur_angle -> size_bdiag
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/v_double_arrow -> size_ver
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Fire_Slim/cursors/vertical-text
@@ -717,7 +701,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/bottom_side -> size_ve
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/bottom_tee -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/c7088f0f3e6c8088236ef8e1e3e70000 -> size_fdiag
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Ice/cursors/cell
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/center_ptr -> up_arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/center_ptr -> up-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/circle -> forbidden
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Ice/cursors/closedhand
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/col-resize -> size_hor
@@ -741,8 +725,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/dnd-none -> forbidden
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/dot_box_mask -> dotbox
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Ice/cursors/dotbox
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/double_arrow -> size_ver
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/down-arrow -> down_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_Ice/cursors/down_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_Ice/cursors/down-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/draft -> pencil
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/draft_large -> right_ptr
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/draft_small -> right_ptr
@@ -767,8 +750,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/hand2 -> pointing_hand
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/help -> whats_this
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Ice/cursors/ibeam
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/icon -> dotbox
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/left-arrow -> left_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_Ice/cursors/left_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_Ice/cursors/left-arrow
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Ice/cursors/left_ptr
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/left_ptr_help -> whats_this
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Ice/cursors/left_ptr_watch
@@ -795,18 +777,17 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/pointer-move -> move
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Ice/cursors/pointing_hand
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/progress -> left_ptr_watch
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/question_arrow -> whats_this
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/right-arrow -> right_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_Ice/cursors/right_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_Ice/cursors/right-arrow
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Ice/cursors/right_ptr
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/right_side -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/right_tee -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/row-resize -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/s-resize -> size_ver
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/sb_down_arrow -> down_arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/sb_down_arrow -> down-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/sb_h_double_arrow -> size_hor
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/sb_left_arrow -> left_arrow
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/sb_right_arrow -> right_arrow
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/sb_up_arrow -> up_arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/sb_left_arrow -> left-arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/sb_right_arrow -> right-arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/sb_up_arrow -> up-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/sb_v_double_arrow -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/se-resize -> size_fdiag
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/size-bdiag -> size_bdiag
@@ -831,8 +812,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/top_right_corner -> si
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/top_side -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/top_tee -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/ul_angle -> size_fdiag
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/up-arrow -> up_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_Ice/cursors/up_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_Ice/cursors/up-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/ur_angle -> size_bdiag
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice/cursors/v_double_arrow -> size_ver
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Ice/cursors/vertical-text
@@ -886,7 +866,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/bottom_side -> si
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/bottom_tee -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/c7088f0f3e6c8088236ef8e1e3e70000 -> size_fdiag
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/cell
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/center_ptr -> up_arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/center_ptr -> up-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/circle -> forbidden
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/closedhand
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/col-resize -> size_hor
@@ -910,8 +890,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/dnd-none -> forbi
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/dot_box_mask -> dotbox
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/dotbox
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/double_arrow -> size_ver
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/down-arrow -> down_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/down_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/down-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/draft -> pencil
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/draft_large -> right_ptr
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/draft_small -> right_ptr
@@ -936,8 +915,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/hand2 -> pointing
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/help -> whats_this
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/ibeam
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/icon -> dotbox
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/left-arrow -> left_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/left_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/left-arrow
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/left_ptr
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/left_ptr_help -> whats_this
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/left_ptr_watch
@@ -964,18 +942,17 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/pointer-move -> m
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/pointing_hand
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/progress -> left_ptr_watch
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/question_arrow -> whats_this
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/right-arrow -> right_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/right_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/right-arrow
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/right_ptr
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/right_side -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/right_tee -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/row-resize -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/s-resize -> size_ver
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/sb_down_arrow -> down_arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/sb_down_arrow -> down-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/sb_h_double_arrow -> size_hor
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/sb_left_arrow -> left_arrow
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/sb_right_arrow -> right_arrow
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/sb_up_arrow -> up_arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/sb_left_arrow -> left-arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/sb_right_arrow -> right-arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/sb_up_arrow -> up-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/sb_v_double_arrow -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/se-resize -> size_fdiag
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/size-bdiag -> size_bdiag
@@ -1000,8 +977,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/top_right_corner 
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/top_side -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/top_tee -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/ul_angle -> size_fdiag
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/up-arrow -> up_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/up_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/up-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/ur_angle -> size_bdiag
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/v_double_arrow -> size_ver
 -rw-r--r--	root/root	usr/share/icons/OpenZone_Ice_Slim/cursors/vertical-text
@@ -1055,7 +1031,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/bottom_side -> size_
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/bottom_tee -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/c7088f0f3e6c8088236ef8e1e3e70000 -> size_fdiag
 -rw-r--r--	root/root	usr/share/icons/OpenZone_White/cursors/cell
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/center_ptr -> up_arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/center_ptr -> up-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/circle -> forbidden
 -rw-r--r--	root/root	usr/share/icons/OpenZone_White/cursors/closedhand
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/col-resize -> size_hor
@@ -1079,8 +1055,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/dnd-none -> forbidde
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/dot_box_mask -> dotbox
 -rw-r--r--	root/root	usr/share/icons/OpenZone_White/cursors/dotbox
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/double_arrow -> size_ver
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/down-arrow -> down_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_White/cursors/down_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_White/cursors/down-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/draft -> pencil
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/draft_large -> right_ptr
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/draft_small -> right_ptr
@@ -1105,8 +1080,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/hand2 -> pointing_ha
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/help -> whats_this
 -rw-r--r--	root/root	usr/share/icons/OpenZone_White/cursors/ibeam
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/icon -> dotbox
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/left-arrow -> left_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_White/cursors/left_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_White/cursors/left-arrow
 -rw-r--r--	root/root	usr/share/icons/OpenZone_White/cursors/left_ptr
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/left_ptr_help -> whats_this
 -rw-r--r--	root/root	usr/share/icons/OpenZone_White/cursors/left_ptr_watch
@@ -1133,18 +1107,17 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/pointer-move -> move
 -rw-r--r--	root/root	usr/share/icons/OpenZone_White/cursors/pointing_hand
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/progress -> left_ptr_watch
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/question_arrow -> whats_this
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/right-arrow -> right_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_White/cursors/right_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_White/cursors/right-arrow
 -rw-r--r--	root/root	usr/share/icons/OpenZone_White/cursors/right_ptr
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/right_side -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/right_tee -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/row-resize -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/s-resize -> size_ver
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/sb_down_arrow -> down_arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/sb_down_arrow -> down-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/sb_h_double_arrow -> size_hor
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/sb_left_arrow -> left_arrow
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/sb_right_arrow -> right_arrow
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/sb_up_arrow -> up_arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/sb_left_arrow -> left-arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/sb_right_arrow -> right-arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/sb_up_arrow -> up-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/sb_v_double_arrow -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/se-resize -> size_fdiag
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/size-bdiag -> size_bdiag
@@ -1169,8 +1142,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/top_right_corner -> 
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/top_side -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/top_tee -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/ul_angle -> size_fdiag
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/up-arrow -> up_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_White/cursors/up_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_White/cursors/up-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/ur_angle -> size_bdiag
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White/cursors/v_double_arrow -> size_ver
 -rw-r--r--	root/root	usr/share/icons/OpenZone_White/cursors/vertical-text
@@ -1224,7 +1196,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/bottom_side -> 
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/bottom_tee -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/c7088f0f3e6c8088236ef8e1e3e70000 -> size_fdiag
 -rw-r--r--	root/root	usr/share/icons/OpenZone_White_Slim/cursors/cell
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/center_ptr -> up_arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/center_ptr -> up-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/circle -> forbidden
 -rw-r--r--	root/root	usr/share/icons/OpenZone_White_Slim/cursors/closedhand
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/col-resize -> size_hor
@@ -1248,8 +1220,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/dnd-none -> for
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/dot_box_mask -> dotbox
 -rw-r--r--	root/root	usr/share/icons/OpenZone_White_Slim/cursors/dotbox
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/double_arrow -> size_ver
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/down-arrow -> down_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_White_Slim/cursors/down_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_White_Slim/cursors/down-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/draft -> pencil
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/draft_large -> right_ptr
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/draft_small -> right_ptr
@@ -1274,8 +1245,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/hand2 -> pointi
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/help -> whats_this
 -rw-r--r--	root/root	usr/share/icons/OpenZone_White_Slim/cursors/ibeam
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/icon -> dotbox
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/left-arrow -> left_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_White_Slim/cursors/left_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_White_Slim/cursors/left-arrow
 -rw-r--r--	root/root	usr/share/icons/OpenZone_White_Slim/cursors/left_ptr
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/left_ptr_help -> whats_this
 -rw-r--r--	root/root	usr/share/icons/OpenZone_White_Slim/cursors/left_ptr_watch
@@ -1302,18 +1272,17 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/pointer-move ->
 -rw-r--r--	root/root	usr/share/icons/OpenZone_White_Slim/cursors/pointing_hand
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/progress -> left_ptr_watch
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/question_arrow -> whats_this
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/right-arrow -> right_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_White_Slim/cursors/right_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_White_Slim/cursors/right-arrow
 -rw-r--r--	root/root	usr/share/icons/OpenZone_White_Slim/cursors/right_ptr
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/right_side -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/right_tee -> size_hor
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/row-resize -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/s-resize -> size_ver
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/sb_down_arrow -> down_arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/sb_down_arrow -> down-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/sb_h_double_arrow -> size_hor
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/sb_left_arrow -> left_arrow
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/sb_right_arrow -> right_arrow
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/sb_up_arrow -> up_arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/sb_left_arrow -> left-arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/sb_right_arrow -> right-arrow
+lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/sb_up_arrow -> up-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/sb_v_double_arrow -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/se-resize -> size_fdiag
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/size-bdiag -> size_bdiag
@@ -1338,8 +1307,7 @@ lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/top_right_corne
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/top_side -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/top_tee -> size_ver
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/ul_angle -> size_fdiag
-lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/up-arrow -> up_arrow
--rw-r--r--	root/root	usr/share/icons/OpenZone_White_Slim/cursors/up_arrow
+-rw-r--r--	root/root	usr/share/icons/OpenZone_White_Slim/cursors/up-arrow
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/ur_angle -> size_bdiag
 lrwxrwxrwx	root/root	usr/share/icons/OpenZone_White_Slim/cursors/v_double_arrow -> size_ver
 -rw-r--r--	root/root	usr/share/icons/OpenZone_White_Slim/cursors/vertical-text

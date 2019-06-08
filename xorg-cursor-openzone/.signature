@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwCPmzf/sGfve83krmMPLg15DklUyNDspP1lrSQOIRiCMIESDh/xiikNFuZuno9hmYHBgrgAvSrHYvbcz208yXgo=
-SHA256 (Pkgfile) = 6459f3a2ea542a912a3e2e315b57dce9582102fc76b280148ff403c54d8f2875
-SHA256 (.footprint) = f64d84cb12d734b77b561cd738eec79c5d144b7e43bb3e4769a1a1bd52050897
-SHA256 (openzone-cursors-1.2.6.tar.gz) = 56b260b6184c3e949356bb330e923aae926135ded5765a25f6b7da86cc499fce
+RWSXjYMPO7mZwMz1nBM3pTK/IrbzT/tp+SzL1XwcUEbxgHSfd+Zw7rNwd1jRuS24bwr0exf/t6qPLoaxuSMyGfrjiP4aRovCzAE=
+SHA256 (Pkgfile) = 1bf0c77cc4291d9a838e97d8a04f7bacd590abc4ddfcfe582113194a8209d2be
+SHA256 (.footprint) = 9fbf853b383866b83865e0584502ca280840c962ee23a1d8a292647847dfa1cf
+SHA256 (openzone-cursors-1.2.8.tar.gz) = 83daced492330b0cec4037de50223f26c0a6f5743508758cce1e93f0a0ba7267

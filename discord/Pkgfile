@@ -4,8 +4,8 @@
 # Depends on: alsa-lib avahi cups graphite2 gtk3 nss util-linux xorg-libxcomposite xorg-libxcursor xorg-libxinerama xorg-libxscrnsaver
 
 name=discord
-version=0.0.8
-release=2
+version=0.0.9
+release=1
 source=(https://dl.discordapp.net/apps/linux/$version/$name-$version.tar.gz)
 
 build() {

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwNDfDUpU9pzq+wDif0Px39Z9okBkQlwhcUw3Dr+daFZt5/QV9WbvNBd7nEvaWnH1ZwrVApi8OzMYkRTGC9ccuA4=
-SHA256 (Pkgfile) = ede7ce7bd6d12b8cb6c61f2035a576ab75a2cebd7d68d1eafadd24da86f53622
+RWSXjYMPO7mZwNPzz5+5UiFDfzzoDBPq9tYv+OiX25dfgWi1RhFtFQ6xnU9N/Hq9QWBJaVyETqG/trs+pfalfFgeayZzSE0KiAo=
+SHA256 (Pkgfile) = 7ca9d3c414e08471210a19b8739f5b4c498913df18df51f62b6539fbe55fde03
 SHA256 (.footprint) = c59564118cbb7bf691ad8287d852a503c13d4e06abc4846e57ed2432e478ee31
-SHA256 (discord-0.0.8.tar.gz) = d98418539bdd3fd908d7bd594697bcebfa33b24ed422be8096542d525435e8dc
+SHA256 (discord-0.0.9.tar.gz) = 4e5b955768cb35c0d1564e3bfb174470efc97028a1c38046770266105a440ec4

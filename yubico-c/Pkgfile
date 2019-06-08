@@ -9,9 +9,9 @@ release=1
 source=(https://github.com/Yubico/yubico-c/archive/libyubikey-$version.tar.gz)
 
 build() {
-	cd $name-libyubikey-$version
-    autoreconf --install
-    ./configure --prefix=/usr
-    make
-    make DESTDIR=$PKG install
+  cd $name-libyubikey-$version
+  autoreconf --install
+  ./configure --prefix=/usr
+  make
+  make DESTDIR=$PKG install
 }

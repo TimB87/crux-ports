@@ -4,7 +4,7 @@
 # Depends on: xorg-libxau xorg-libxcb xorg-libxdmcp xorg-xcb-util-wm
 
 name=xtitle
-version=0.4.3
+version=0.4.4
 release=1
 source=(https://github.com/baskerville/xtitle/archive/$version/$name-$version.tar.gz)
 

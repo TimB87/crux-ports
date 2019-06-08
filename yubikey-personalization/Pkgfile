@@ -9,11 +9,12 @@ release=1
 source=(https://github.com/Yubico/yubikey-personalization/archive/v$version/$name-v$version.tar.gz 10-security-key.rules)
 
 build() {
-	cd $name-$version
-    autoreconf --install
-    ./configure --prefix=/usr \
-                --with-udevrulesdir=/lib/udev/rules.d/
-    make
-    make DESTDIR=$PKG install
-    install -D -m0644 $SRC/10-security-key.rules $PKG/etc/udev/rules.d/10-security-key.rules
+  cd $name-$version
+  autoreconf --install
+  ./configure --prefix=/usr \
+    --with-udevrulesdir=/lib/udev/rules.d/
+  make
+  make DESTDIR=$PKG install
+  install -D -m0644 $SRC/10-security-key.rules \
+    $PKG/etc/udev/rules.d/10-security-key.rules
 }

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwIGm78++AOxtwVEUMisYZBCx+Isr1D0qluAHNfhNKwSoLNCVDlk0ftcYJqq/XUM8LaA+K1mt5zdFbb6dqE9a/Qc=
-SHA256 (Pkgfile) = 6cd9d67b1f3799debe0b43d2afc04623840328b789117ea11c8bcf88c5e52ce3
-SHA256 (.footprint) = 66fed06ee21c70c30ad95ff76019b4babfefc4f901c03b0873c75658ca79df0a
-SHA256 (v4l-utils-1.16.3.tar.bz2) = 7c5c0d49c130cf65d384f28e9f3a53c5f7d17bf18740c48c40810e0fbbed5b54
+RWSXjYMPO7mZwK+3seqr3D2fVu3n6S8JkV2/BrmXX7d4ySfvqNAdMODjF0aJabUlz2KwXQpymI+2QsbQbkMWjg/uS18dcGN0lws=
+SHA256 (Pkgfile) = 88acb917b0b33e34f7f0de7b943e4f15b848586001311d775ba15d4f9b0e89f6
+SHA256 (.footprint) = 41bc1c0516761928a3552ed0d2aad727dcef65d49314067b978eb62ef618e1eb
+SHA256 (v4l-utils-1.16.6.tar.bz2) = f9dac1878e3d5636eab7f56bb209fdfc66b94ee8a2aae54dcb4282fe63a678ae

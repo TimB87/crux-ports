@@ -9,13 +9,13 @@ release=1
 source=(http://downloads.sourceforge.net/project/optipng/OptiPNG/$name-$version/$name-$version.tar.gz)
 
 build() {
-	cd $name-$version/
+  cd $name-$version/
 
-	./configure \
-		-prefix=/usr \
-		-with-system-libpng \
-		-with-system-zlib
+  ./configure \
+    -prefix=/usr \
+    -with-system-libpng \
+    -with-system-zlib
 
-	make
-    make prefix=$PKG/usr mandir=$PKG/usr/share/man install
+  make
+  make prefix=$PKG/usr mandir=$PKG/usr/share/man install
 }

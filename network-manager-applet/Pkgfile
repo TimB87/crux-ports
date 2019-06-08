@@ -4,29 +4,24 @@
 # Depends on: consolekit gconf iso-codes libsecret networkmanager
 
 name=network-manager-applet
-version=1.8.20
+version=1.8.22
 release=1
 source=(https://github.com/NetworkManager/network-manager-applet/archive/$version/$name-$version.tar.gz)
 
 build() {
-    cd $name-$version
-
-    mkdir build
-    meson --prefix=/usr \
-        --sysconfdir=/etc \
-        -Dteam=true \
-        -Dintrospection=true \
-        -Dlibnm_gtk=false \
-        -Dwwan=false \
-        -Dselinux=false \
-        -Dmobile_broadband_provider_info=false \
-        -Denable-gtk-doc=false \
-        build
-
-    cd build
-
-    ninja
-    DESTDIR=$PKG ninja install
-
-    rm -rf $PKG/usr/share/locale
+  cd $name-$version
+  mkdir build
+  meson --prefix=/usr \
+    --sysconfdir=/etc \
+    -Dteam=true \
+    -Dintrospection=true \
+    -Dlibnm_gtk=false \
+    -Dwwan=false \
+    -Dselinux=false \
+    -Dmobile_broadband_provider_info=false \
+    -Denable-gtk-doc=false \
+    build
+  ninja -C build
+  DESTDIR=$PKG ninja -C build install
+  rm -rf $PKG/usr/share/locale
 }

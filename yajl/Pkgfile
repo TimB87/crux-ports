@@ -9,11 +9,11 @@ release=1
 source=(https://github.com/lloyd/$name/archive/$version/$name-$version.tar.gz)
 
 build() {
-	cd $name-$version
-	mkdir build
-	cd build
-	cmake ..
-	make
-	install -d $PKG/usr
-	cp -a $name-$version/* $PKG/usr/
+  cd $name-$version
+  mkdir build
+  cd build
+  cmake ..
+  make
+  install -d $PKG/usr
+  cp -a $name-$version/* $PKG/usr/
 }

@@ -752,9 +752,9 @@ f:9c83867844a6eadcef6a104fb479e211:openblas/.signature
 f:b21fd75e9d0cda3e4c5078f8f434e3b1:openblas/.footprint
 f:8554f9013578de7c43ab3c820a3a823d:openblas/post-install
 f:ec718d25a8e9b0f87f781c1682100234:openblas/Pkgfile
-f:cc84f1a95577ffcf2600e8d6a264a61d:blueman/.signature
+f:704a65db4a6eef34abdf07611ff517f1:blueman/.signature
 f:7e2a7d4c3977b61bbab84f1cbcebff25:blueman/.footprint
-f:f47ffeace6a8f6aa3bdc7eb876da6c9b:blueman/Pkgfile
+f:479c2fc3db1b1f1ad85a7b2103e24606:blueman/Pkgfile
 f:cf3779ad3af5a24e20e8634712a4e95b:p5-data-dump/.signature
 f:80823015b6290cd38e0f432aaab86ec3:p5-data-dump/.footprint
 f:0023347b1dfdce65aaafa29ad8497406:p5-data-dump/Pkgfile

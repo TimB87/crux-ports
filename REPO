@@ -710,9 +710,9 @@ f:e4834048050ec8a7f5defd2b3027a2d0:snowball/.signature
 f:c0493bfcb2d566404ad5fb488d2ed87d:snowball/.footprint
 f:6e2392bc2a46107d77a43bfe80bb1558:snowball/Pkgfile
 f:70e9965a8c2b415d5de3593d0728e517:snowball/dynamiclib.patch
-f:736fa4126f7d2dbea736e6a4313ede29:p5-alien-build/.signature
+f:7b688b7f97a83ac2f89653be719ae551:p5-alien-build/.signature
 f:d52977e692baf1e9b317c5de5101d87c:p5-alien-build/.footprint
-f:40feda3a5d4c9be71f351fe9b3f5f3d8:p5-alien-build/Pkgfile
+f:2fcc8eaddcf8a961521c7f6b640b745f:p5-alien-build/Pkgfile
 f:8803fb2af0fa5613c26a9fb7bbfe969d:faba-icon-theme/.signature
 f:91c9223c91d86188775cb8a8f13eec96:faba-icon-theme/.footprint
 f:fd0add61aab7fabfc219cde8b6c79a3b:faba-icon-theme/post-install
@@ -913,9 +913,9 @@ f:c8599563d1a6a63bf57be3b8bf975633:i3-gaps/Pkgfile
 f:e1361ab510f480999c4784bc5d410e97:php/.signature
 f:3ac8cc7f69dd896264937d86f74c58b9:php/.footprint
 f:085cceb74b49be6b93ff141b10332e5d:php/Pkgfile
-f:4cb794cc91d988f79b48ff96ed6fe52b:p5-cgi/.signature
+f:d9b884543f0d005f41d1f669923c0bc4:p5-cgi/.signature
 f:217bf0746f6d8a02306d8ee33b6198ef:p5-cgi/.footprint
-f:b81715d78d361133ae6693d6ba837f07:p5-cgi/Pkgfile
+f:7e8cb1a946493e56ce8a5c4d8f7c38c7:p5-cgi/Pkgfile
 f:88fe518f6c68b017c92e68ce4d5963a5:v4l-utils/.signature
 f:c83a104ca6beae3abd28e27cf16f463f:v4l-utils/.footprint
 f:3914e7afa0d648f35056775e5a661b77:v4l-utils/Pkgfile

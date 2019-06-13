@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwGDAvjiy/etKR177G5ALNahrLszmfP+PHGNjdPSd58/U88FwkmRfhlJpc30jfGbPFmQHfyOhxHDemHJ4Hq+zRgg=
-SHA256 (Pkgfile) = 875b9639097d0b3656817fcf5b264a5d68b71a0b34e40714a12bad0d5aca5a0f
-SHA256 (.footprint) = ecfd3f39e069d04ac53985d4c8389fa2e3a9081c44f914083cbd39682a45d722
-SHA256 (phc-winner-argon2-20171227.tar.gz) = eaea0172c1f4ee4550d1b6c9ce01aab8d1ab66b4207776aa67991eb5872fdcd8
-SHA256 (libargon2.pc) = 4189ce6c183319ceaf2c4ec96facd424deeaa9e2819efb7511893bcf3ef5c836

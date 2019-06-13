@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwJfiS6n5/ZCe+s3LWrJkrsSlBmaZphKgqp6dG7cdFwkPM0ObBoIt5GDSW6f1CxJ5UBALaqysRVrHvcdAbTl7wgk=
-SHA256 (Pkgfile) = 3ef26446020612cab3f15b74a114c3109dee2dd01929c0e5c55402719188e69d
-SHA256 (.footprint) = 7429c157b692c16996179b5a772451911ce61fba6d84c720c8c7d296d1e87ed9
-SHA256 (avahi-0.7.tar.gz) = 57a99b5dfe7fdae794e3d1ee7a62973a368e91e414bd0dfa5d84434de5b14804
-SHA256 (avahi-daemon.rc) = 464b62bee01b221b052ff6e72b24251381761c6fe55942faa4c509060943ffee

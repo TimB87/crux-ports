@@ -1,8 +1,0 @@
-untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwF2zVrm+6wTbIsxgGDuTuj94RbtJj/Gs31xnDQhv6sEUgzzgf8PAN+qN3UudEcNnXrMYgKAGbUbMzpyIZ22CNww=
-SHA256 (Pkgfile) = b02763ab8a4a8a9e92bf716826484a15c6967f594106115e80336ca948a10c6f
-SHA256 (.footprint) = 09c5314d4e84f206c9ae001a618164b224163a420ba6d6b3fd80bb8700133f42
-SHA256 (rstudio-1.2.1335.tar.gz) = f124fbae68762d0a1fc9a7dc72ad290aebde768e262df87acda3883a07fdfd58
-SHA256 (gin-2.1.2.zip) = b98e704164f54be596779696a3fcd11be5785c9907a99ec535ff6e9525ad5f9a
-SHA256 (gwt-2.8.1.zip) = 0b7af89fdadb4ec51cdb400ace94637d6fe9ffa401b168e2c3d372392a00a0a7
-SHA256 (core-dictionaries.zip) = 4341a9630efb9dcf7f215c324136407f3b3d6003e1c96f2e5e1f9f14d5787494

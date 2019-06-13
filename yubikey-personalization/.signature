@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwPizHbnahydGK9Gow2RyegcbaTfOlcd1nossri2I8xgVOz3TRDFJMRovETL2trGv7F5CmziOX0xTijuGBmYJawo=
-SHA256 (Pkgfile) = 68fdfca43470e1b63198941a652cac8bd88a0898227ef89ca3ed416d25a69397
-SHA256 (.footprint) = 2ffbdca01baa18a0a06f13cb35015284714e8f77af777b150446cac3467387c6
-SHA256 (yubikey-personalization-v1.19.3.tar.gz) = a59273938fb9d1e1e059e319e2d73bac2f121dad53b76efb49b1631839cb2afc
-SHA256 (10-security-key.rules) = e7cd6d8e595ceda4e8d907f2a579e88d2beb49a3d31eb70ef7a9fcca879f55d4

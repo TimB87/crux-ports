@@ -71,7 +71,6 @@ d:p5-package-deprecationmanager
 d:p5-config-autoconf
 d:p5-module-implementation
 d:libnewt
-d:xdg-utils
 d:fcgiwrap
 d:pulseaudio
 d:zotero
@@ -470,10 +469,6 @@ f:835414675de876068c318b22144c7651:p5-module-implementation/Pkgfile
 f:c5b0eb81e7703a473a468da8d28963ff:libnewt/.signature
 f:8eabff9825a22cd10b58fbe526260220:libnewt/.footprint
 f:66d76dc0314b673409d3a4b837a2cb2d:libnewt/Pkgfile
-f:d15d4bf7befe0404eb2f074f58852152:xdg-utils/.signature
-f:8770075ccb033ba438f4b8dce5f84c8a:xdg-utils/drop_obsolete_GNOME_support.patch
-f:6a7fca796dcb640f51f29ae1af6be2a1:xdg-utils/.footprint
-f:436d00069fed1f2501734dbfb589d739:xdg-utils/Pkgfile
 f:5f92de3b3a34e9790e6047c0b33ed1d9:fcgiwrap/.signature
 f:6e6b9ce39ea2cafdeb255468697cd0e9:fcgiwrap/.footprint
 f:946e976740d631c8c0c90e51475981c4:fcgiwrap/Pkgfile

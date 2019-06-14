@@ -13,7 +13,6 @@ d:font-powerline
 d:p5-file-sharedir-install
 d:xdotool
 d:p5-xml-sax
-d:libsass
 d:xdg-desktop-portal-gtk
 d:python3-pybluez
 d:mpd-mpris
@@ -35,7 +34,6 @@ d:p5-datetime-format-builder
 d:p5-list-moreutils-xs
 d:light-locker-settings
 d:p5-text-glob
-d:gtk-theme-arc
 d:p5-business-isbn-data
 d:biber
 d:papirus-claws-mail-theme
@@ -43,14 +41,18 @@ d:p5-business-isbn
 d:python-pybluez
 d:libass
 d:p5-encode-locale
+d:pylibacl
 d:xorg-cursor-openzone
 d:p5-http-date
+d:sc-controller
 d:g13
 d:zsh
 d:p5-io-socket-ssl
 d:php-fcgi
 d:php-pgsql
 d:p5-file-slurp-tiny
+d:libmaxminddb
+d:python-evdev
 d:libxdg-basedir
 d:yajl
 d:gdl
@@ -95,7 +97,6 @@ d:libcloudproviders
 d:re2c
 d:p5-net-ssleay
 d:i3status
-d:sassc
 d:grub2-theme-poly-light
 d:p5-sub-name
 d:p5-sub-exporter-progressive
@@ -160,6 +161,7 @@ d:p5-tie-cycle
 d:p5-autovivification
 d:p5-class-accessor
 d:patchelf
+d:geoip2-database
 d:p5-package-stash
 d:faba-mono-icon-theme
 d:p5-list-moreutils
@@ -182,6 +184,7 @@ d:p5-specio
 d:p5-params-util
 d:ispell
 d:xdg-desktop-portal
+d:goaccess
 d:p5-number-compare
 d:p5-sub-install
 d:p5-text-csv
@@ -274,9 +277,6 @@ f:761c79282550141f5eb1a085c67858ca:xdotool/Pkgfile
 f:7bbbd357bd147674a74a24ffac468cf4:p5-xml-sax/.signature
 f:c585f0bebbfbf00ad572408ab5876e02:p5-xml-sax/.footprint
 f:912e57c04dc1058d566bb7ce5b7f1698:p5-xml-sax/Pkgfile
-f:c38324ac3054e7ef1711a2a20f69cdc5:libsass/.signature
-f:a21d7d697fbb3a29e24433eb183731c7:libsass/.footprint
-f:bf61c24ea4e5a8a285390bd6f6e0f226:libsass/Pkgfile
 f:944e111a1a869410f564f25ecc5c35a2:xdg-desktop-portal-gtk/.signature
 f:dcab9ebde3c07144d207f24cb479d6b7:xdg-desktop-portal-gtk/.footprint
 f:d5cd8bd3e623379c0d858c2003a3a0e2:xdg-desktop-portal-gtk/Pkgfile
@@ -354,9 +354,6 @@ f:9071ddf0a04842e0d791ae9b01d5e9d4:light-locker-settings/Pkgfile
 f:90b5c6c0415b44eefd61806c924b29fe:p5-text-glob/.signature
 f:030928c77750edc151e6d12ea0914e5a:p5-text-glob/.footprint
 f:d423c5501082be00f4435f6fa221d910:p5-text-glob/Pkgfile
-f:477ab27562323cdc8f87d53317682a92:gtk-theme-arc/.signature
-f:0e5d4ccedf07f546962b3b505ef63754:gtk-theme-arc/.footprint
-f:54a16a9b24f398e966c07df114fe94fa:gtk-theme-arc/Pkgfile
 f:1b4b55cf3aa4ca683f56e2fa5e2ca013:p5-business-isbn-data/.signature
 f:2022ca776faa621d78e6d452e0ef241f:p5-business-isbn-data/.footprint
 f:7bf81d16daa04ba7f73ccc5243e54add:p5-business-isbn-data/Pkgfile
@@ -378,6 +375,9 @@ f:265c4aaaa8dd209837de3a9d95dd9aab:libass/Pkgfile
 f:3725d2803f68a1d0ea4028f12764d00d:p5-encode-locale/.signature
 f:d0727f8a819df3379184f22adbb14b18:p5-encode-locale/.footprint
 f:f51fd3059483e7c883c46456dba3063d:p5-encode-locale/Pkgfile
+f:ed10f030f53befaa328d3fbe1b0cae28:pylibacl/.signature
+f:ccef02ef80adc2e128a19e6e98d7b932:pylibacl/.footprint
+f:91d47ee785667cdacdc94555a83bf22d:pylibacl/Pkgfile
 f:4e721dc1b64eb06ef061fd49cf87d722:xorg-cursor-openzone/.signature
 f:02cc6a57a9e282a6f8219525f8e02ccc:xorg-cursor-openzone/.footprint
 f:22391f7aed6e0110c5d8befaf6d7608b:xorg-cursor-openzone/post-install
@@ -385,6 +385,9 @@ f:a2809e5e1c1cc8f41611a3932f61e20d:xorg-cursor-openzone/Pkgfile
 f:52a22673e2f3cc9a3e9ec2feffd9bf1f:p5-http-date/.signature
 f:71259c1bf54910e3d7853f066664c73d:p5-http-date/.footprint
 f:7980bac7f385d8c6d9ee0cb8e3389eea:p5-http-date/Pkgfile
+f:8c413d90ff11d4c8fa4aa5e65566c897:sc-controller/.signature
+f:9dcc819c2e3c7774f499fb761811898b:sc-controller/.footprint
+f:8962cb719c778c3e70bf182ab9932d42:sc-controller/Pkgfile
 f:819db4ddfa4fb001c0dd816fdff600ec:g13/.signature
 f:483a67ed9f685748f9e83441f8f5f079:g13/default.g13.bind
 f:26c816dbe42e2333039c91713e333e30:g13/.footprint
@@ -408,6 +411,13 @@ f:e16aa8dd6b9daa5a55e1cdbf3cbda69a:php-pgsql/Pkgfile
 f:9d9e0886a86cce39727ec4b4edfea1c3:p5-file-slurp-tiny/.signature
 f:f1ea28f7b261e76dd0d9dd00a33097cc:p5-file-slurp-tiny/.footprint
 f:c1501d9bfdff215188a036eb18ddaaed:p5-file-slurp-tiny/Pkgfile
+f:af8933aec78a633cfc3dde9b92475f41:libmaxminddb/.signature
+f:118ba6f3b2fad4c7f1a601ba1a12a1d1:libmaxminddb/.footprint
+f:8a40a10c11cdb933487b64ebb195f228:libmaxminddb/.md5sum
+f:f03b5f0cc607e2a9ff3f3a7416b9e15c:libmaxminddb/Pkgfile
+f:b596dc08f87f95ffe21ed063ff066bfb:python-evdev/.signature
+f:c4cd9626febb2b0cedd17500c0c4cad1:python-evdev/.footprint
+f:757b62a8d947d53e974cd07075b33210:python-evdev/Pkgfile
 f:828289347bf4bb272cf0739b6c8f9c4c:libxdg-basedir/.signature
 f:2e74b7a5e14fd2111c681f9df9bc9a07:libxdg-basedir/.footprint
 f:c123a6aed1cca05f188692f50f666d2b:libxdg-basedir/Pkgfile
@@ -550,9 +560,6 @@ f:000f29ac3bebcab0c97896e2b684f638:p5-net-ssleay/Pkgfile
 f:437adeb4329baf39787b5ef9dcd93b40:i3status/.signature
 f:986e0927bd5c80f3c117310d56914328:i3status/.footprint
 f:e438974f51dd2e70608637a18d2f22b7:i3status/Pkgfile
-f:1a8b17a8d50a699f2a2189b6973671b7:sassc/.signature
-f:9c54e647eadb86c2ca42143664d9ef26:sassc/.footprint
-f:6476936bf0fde77310cfb5eee635b8ce:sassc/Pkgfile
 f:7f0c2b58c8e4e509cfecdde5148a898a:grub2-theme-poly-light/.signature
 f:2512e110d4b94c257d80a38d1456249c:grub2-theme-poly-light/.footprint
 f:0be50df12f3446e3625ebb19d9e8d474:grub2-theme-poly-light/Pkgfile
@@ -766,6 +773,9 @@ f:d87efe4e7488bc091d6bb47ef18a8e5b:patchelf/.signature
 f:f95f2f850934b5b1bef9bee2505927d0:patchelf/.footprint
 f:5276327faa5850c038fa5b37287f0fb4:patchelf/.md5sum
 f:2d3a3359f3755b817fccdfc1996025fe:patchelf/Pkgfile
+f:f6e9505044d842f70cd33859c1edc73f:geoip2-database/.signature
+f:7dcac88aec3a79e1b381dd31cf067fab:geoip2-database/.footprint
+f:e5553a3e2b34b232339977aafa54ad9b:geoip2-database/Pkgfile
 f:506291d969f3f828a0db5be3d338ae48:p5-package-stash/.signature
 f:74359497bc6e44158d3598373c68c221:p5-package-stash/.footprint
 f:accd21de01addb4eac2d7b751b7cec11:p5-package-stash/Pkgfile
@@ -840,6 +850,9 @@ f:7a1c17b6c7ad772e361390b05ed08601:ispell/Pkgfile
 f:5589d93570f18717c6d419183f8a007b:xdg-desktop-portal/.signature
 f:cefe857677632476ed1c8ff255cd3228:xdg-desktop-portal/.footprint
 f:4895fe9cbfc476d1ffca5966be8b080e:xdg-desktop-portal/Pkgfile
+f:0d00dd69c1ce7c5f82ea9ad1ba41229e:goaccess/.signature
+f:d4a9fabb6c9fd81cb8e6c8b048ca878a:goaccess/.footprint
+f:bf8a73a1b9dc6689fc6d439c48498010:goaccess/Pkgfile
 f:e7de2cea89a9471459f24197d6609c78:p5-number-compare/.signature
 f:b4de074ea3a787a87d1fa9d503c5bf9e:p5-number-compare/.footprint
 f:ced5f8897cb4a77ac6d1f76380a492fc:p5-number-compare/Pkgfile

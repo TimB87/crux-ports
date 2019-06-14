@@ -1,0 +1,17 @@
+# Description: GeoLite2 IP geolocation databases
+# URL: https://dev.maxmind.com/geoip/geoip2/geolite2/
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on:
+
+name=geoip2-database
+version=20190415
+release=1
+source=(https://geolite.maxmind.com/download/geoip/database/GeoLite2-City.tar.gz
+https://geolite.maxmind.com/download/geoip/database/GeoLite2-Country.tar.gz
+https://geolite.maxmind.com/download/geoip/database/GeoLite2-ASN.tar.gz)
+
+build() {
+  mv */*mmdb .
+  install -d "$PKG/usr/share/GeoIP"
+  install -m644 -t "$PKG/usr/share/GeoIP" GeoLite2-{City,Country,ASN}.mmdb
+}

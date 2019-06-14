@@ -1,0 +1,34 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/bin/
+-rwxr-xr-x	root/root	usr/bin/mmdblookup
+drwxr-xr-x	root/root	usr/include/
+-rw-r--r--	root/root	usr/include/maxminddb.h
+-rw-r--r--	root/root	usr/include/maxminddb_config.h
+drwxr-xr-x	root/root	usr/lib/
+-rw-r--r--	root/root	usr/lib/libmaxminddb.a
+-rwxr-xr-x	root/root	usr/lib/libmaxminddb.la
+lrwxrwxrwx	root/root	usr/lib/libmaxminddb.so -> libmaxminddb.so.0.0.7
+lrwxrwxrwx	root/root	usr/lib/libmaxminddb.so.0 -> libmaxminddb.so.0.0.7
+-rwxr-xr-x	root/root	usr/lib/libmaxminddb.so.0.0.7
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/libmaxminddb.pc
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/man/
+drwxr-xr-x	root/root	usr/share/man/man1/
+-rw-r--r--	root/root	usr/share/man/man1/mmdblookup.1.gz
+drwxr-xr-x	root/root	usr/share/man/man3/
+-rw-r--r--	root/root	usr/share/man/man3/MMDB_aget_value.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/MMDB_close.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/MMDB_dump_entry_data_list.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/MMDB_free_entry_data_list.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/MMDB_get_entry_data_list.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/MMDB_get_metadata_as_entry_data_list.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/MMDB_get_value.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/MMDB_lib_version.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/MMDB_lookup_sockaddr.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/MMDB_lookup_string.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/MMDB_open.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/MMDB_read_node.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/MMDB_strerror.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/MMDB_vget_value.3.gz
+-rw-r--r--	root/root	usr/share/man/man3/libmaxminddb.3.gz

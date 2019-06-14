@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwAHSE3+WzvsjKTGik2a8/6n4FkzXaKXn32KPWuniJzE8Rt0/brNsCs0QK80cIHP7GODigUDS6Q1HwWJBVHZ2RAM=
+SHA256 (Pkgfile) = 9ba8d0e20a1ac4153e431d62e2e9b60355105a30e7a544db34cfd61cc66b012e
+SHA256 (.footprint) = 8e5c87761bdcb7588cd0047d66940129234de75d10a31e2b1afeda43a2f32f0f
+SHA256 (sc-controller-0.4.6.1.tar.gz) = 550572c6dd38e9b905015d88ad81f4e3d7d8a18cda50c06ec245a3cccc6df295

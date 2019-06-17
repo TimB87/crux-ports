@@ -4,7 +4,7 @@
 # Depends on: p5-xml-namespacesupport p5-xml-sax-base
 
 name=p5-xml-sax
-version=1.00
+version=1.02
 release=1
 source=(https://www.cpan.org/authors/id/G/GR/GRANTM/XML-SAX-$version.tar.gz)
 

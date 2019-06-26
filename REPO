@@ -136,7 +136,6 @@ d:p5-data-compare
 d:os-prober
 d:icon-slicer
 d:light-locker
-d:rofi
 d:font-awesome
 d:papirus-libreoffice-theme
 d:p5-class-inspector
@@ -689,9 +688,6 @@ f:b640101c99ca05d02fbae1974f00ab31:light-locker/.signature
 f:24acd60ec47339feb2e9a951b9c06a13:light-locker/.footprint
 f:c12cca3ec32b9d4941f53c72a0e368bc:light-locker/Pkgfile
 f:e62427f53fea4bc79ee8bc158832a8f6:tb.pub
-f:99dba0122966c9f977da7ea4cdbb8709:rofi/.signature
-f:2883ccd055c592d885e9d37ef9f02891:rofi/.footprint
-f:19ca31cb8d775615247bc72b08271bcb:rofi/Pkgfile
 f:5f850b3b81773723d98df55998bc31ab:font-awesome/.signature
 f:66cae75bb029a755b80f0968f88a0b94:font-awesome/.footprint
 f:56305dc6d92cc6a0935361acc3d06d95:font-awesome/Pkgfile

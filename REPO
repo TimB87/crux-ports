@@ -537,9 +537,9 @@ f:bad001deb9d681939d3d9398cd4f1d70:p5-alien-libxml2/Pkgfile
 f:547250ee79d8f32f43779f02306c72e1:p5-mozilla-ca/.signature
 f:1f93078449cc989b24f020c9b50284b0:p5-mozilla-ca/.footprint
 f:be1a03e6f0852e9b7180f0194ede3ec3:p5-mozilla-ca/Pkgfile
-f:7f819386008a06364b7508c9cb0892d1:npm/.signature
-f:fd2f2bcc3837e36a4720c8c9c069880d:npm/.footprint
-f:309c2ce42ddc9010df149740467b43b8:npm/Pkgfile
+f:ac2d09d4608fa5fe61aa3fabdc57ddeb:npm/.signature
+f:fb6cb374da645a67cd89d60dbd70b20e:npm/.footprint
+f:995eee8ac32ba7345b3ad28108ed02aa:npm/Pkgfile
 f:723721c9a3d4821ce0f7d746805caf10:php-imagick/.signature
 f:97f8c324e249ac36e0ba2c4b1870bff3:php-imagick/.footprint
 f:fe5e1a54b54021021e2443534d8ac9b2:php-imagick/Pkgfile

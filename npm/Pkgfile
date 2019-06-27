@@ -4,7 +4,7 @@
 # Depends on: nodejs
 
 name=npm
-version=6.9.0
+version=6.9.1
 release=1
 source=(https://github.com/npm/cli/archive/v$version/cli-$version.tar.gz)
 

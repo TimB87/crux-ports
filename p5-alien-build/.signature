@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwCufIPt7CsK13qT+jbdZAODb5DUBvx1kFtujMVuBi6uXRMCPhXVq9Ah+ZiCGZQVQPy7b9l3532Okbm9jZki9MAg=
-SHA256 (Pkgfile) = b05a93bd97d788fabd282a8219ce31d88c9b2dd2f9641f6aa82fa3cdfd77ae8c
+RWSXjYMPO7mZwLtV7UGO0aKMvf7kL9lxp9Y8pa8in5sjw8ESlxL9Lt6g7VPYaVLINzoBPYiNuKx/La4NtLgtTrGhOf0brzm3rAQ=
+SHA256 (Pkgfile) = b14f86af874ce27c3f3ba378e7a2a9d1f4d4900950de86eed04e50a78ef31177
 SHA256 (.footprint) = 60301fe759b46774582c17a8fe8866a2afbfd6d80dfd9aae8aa3cd122384b33c
-SHA256 (Alien-Build-1.75_01.tar.gz) = 3e3d07aee9ccc8ea44702418ca5ce57414da6298ab823f2516de0ba8c93d2df9
+SHA256 (Alien-Build-1.78.tar.gz) = 132c71bbf4248af401a4780308ac98d98471f6efae2f4f56aea5ef3677406fc9

@@ -196,7 +196,6 @@ d:p5-www-robotrules
 d:os-prober
 d:p5-class-data-inheritable
 d:consolekit2
-d:rofi
 d:hunspell-de
 d:p5-params-validate
 d:p5-datetime-timezone
@@ -744,9 +743,9 @@ f:b1e3040d5e96af5bd9d2fc512b465502:p5-lwp-mediatypes/.footprint
 f:2147916572967d9c748a446a614c352f:bluez-alsa/.signature
 f:d39c9a23072dd14cf994a97a09ae8a34:bluez-alsa/Pkgfile
 f:f07cde0864ccae6508aa548a464ca5e6:bluez-alsa/.footprint
-f:7f819386008a06364b7508c9cb0892d1:npm/.signature
-f:309c2ce42ddc9010df149740467b43b8:npm/Pkgfile
-f:fd2f2bcc3837e36a4720c8c9c069880d:npm/.footprint
+f:4ea40bcdff53e817598897b9e8f7ef78:npm/.signature
+f:9175c0cca2ef6b235f54db1f45a4ad23:npm/Pkgfile
+f:fb6cb374da645a67cd89d60dbd70b20e:npm/.footprint
 f:944e111a1a869410f564f25ecc5c35a2:xdg-desktop-portal-gtk/.signature
 f:d5cd8bd3e623379c0d858c2003a3a0e2:xdg-desktop-portal-gtk/Pkgfile
 f:dcab9ebde3c07144d207f24cb479d6b7:xdg-desktop-portal-gtk/.footprint
@@ -893,9 +892,6 @@ f:bdc1c8474187d198238bf0da38a93208:consolekit2/post-install
 f:3b0080988092b3c507a3603d5808acb7:consolekit2/ck-sysdeps-linux.c.patch
 f:19595836301b926c6a020ee25561e794:consolekit2/Pkgfile
 f:03118d459917d55e4c1598c28d73b437:consolekit2/.footprint
-f:99dba0122966c9f977da7ea4cdbb8709:rofi/.signature
-f:19ca31cb8d775615247bc72b08271bcb:rofi/Pkgfile
-f:2883ccd055c592d885e9d37ef9f02891:rofi/.footprint
 f:75e4bf26fa8e76c03cd237a73d27da67:hunspell-de/.signature
 f:cfbf5c4ecb6c3fd3cf99d6f59db216d6:hunspell-de/Pkgfile
 f:d70815eeedac20ad5ff7e494e04124e5:hunspell-de/.footprint

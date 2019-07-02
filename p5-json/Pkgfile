@@ -4,7 +4,7 @@
 # Depends on:
 
 name=p5-json
-version=2.97001
+version=4.02
 release=1
 source=(https://search.cpan.org/CPAN/authors/id/I/IS/ISHIGAKI/JSON-$version.tar.gz)
 

@@ -448,9 +448,9 @@ f:d108bd4281d7bc45cc7ab54ad6f1224a:p5-try-tiny/Pkgfile
 f:06a3620f21bc569ab7ce90104722e1b2:p5-datetime-locale/.signature
 f:bf0046ad6e5dcf15b4944209eee3e877:p5-datetime-locale/.footprint
 f:9999109756b3a585074bec97a7617bb5:p5-datetime-locale/Pkgfile
-f:ca5c6fe429fb49de4e0c5f6633c79bd5:dunst/.signature
+f:da480b92b2b82db8fb69c14efafe6295:dunst/.signature
 f:94b07bc9dc42628b6a6efff99110ac22:dunst/.footprint
-f:5241516c12ae341606ed262dc3bdde74:dunst/Pkgfile
+f:53ffb30d0e4ee1858191188c5ed0620e:dunst/Pkgfile
 f:acded374e4ae5247b14a43ddb7aa27ea:php-gd/.signature
 f:2e9563e73147712cc7d7ddb8d3567f44:php-gd/.footprint
 f:94becda6cd83da8c30d475ee1772439b:php-gd/Pkgfile

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwIBlna+vk9/fcKTiTwj1XY3NCehnCOFyjn+0axOba+WGSD6gOjJOZjv0Nbomv03OkkzVmJyIMliNY4khE0tQJQs=
-SHA256 (Pkgfile) = 987f176ee3a05daebefacdb2cb35870731704563c8132fdf635f0c8c3f25cace
+RWSXjYMPO7mZwGjI0v/v8bNykhiZTHvPLP3ipuOPF0BNf4JyblTMPbz4BW5N4VLhMgICV9h28Ril0QUpeLABEt+x+5XmKgsGcA0=
+SHA256 (Pkgfile) = 4a53057b7fa9ffbe121557ff172915abcbbf5912157e1cbecd3a33e1bbc0cdc0
 SHA256 (.footprint) = 9c9094a9d1dbdfd7c3c3aa50a1a8f46ac5db2344b57c7351452c4eeb6d0025da
-SHA256 (JSON-XS-4.0.tar.gz) = 479f4afca6d21d679101954a8144cf42e3ff8780c336ea8b748cf2a77ef62804
+SHA256 (JSON-XS-4.02.tar.gz) = a5ad172138071a14729da8a01921ca233da4fe2bed290ffdfb8e560dd8adcf16

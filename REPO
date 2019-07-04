@@ -615,7 +615,7 @@ f:e1361ab510f480999c4784bc5d410e97:php/.signature
 f:085cceb74b49be6b93ff141b10332e5d:php/Pkgfile
 f:3ac8cc7f69dd896264937d86f74c58b9:php/.footprint
 f:ce6f0d15a488e020fe447bbddf6ec6b2:light-locker-settings/.signature
-f:9071ddf0a04842e0d791ae9b01d5e9d4:light-locker-settings/Pkgfile
+f:7d7b678926090e6ba53c755ac2c0b1ee:light-locker-settings/Pkgfile
 f:92f6e378c8fbc88902b61f4b63806b29:light-locker-settings/.footprint
 f:97a04745e9a68ee67ab6a6fe9546ea0c:murmur/.signature
 f:4014d548fa3a400a75ebd3fb26b90316:murmur/murmur
@@ -703,9 +703,9 @@ f:354d2f1b5bc0d0a69a873276c8147757:p5-text-csv/.footprint
 f:ed10f030f53befaa328d3fbe1b0cae28:pylibacl/.signature
 f:91d47ee785667cdacdc94555a83bf22d:pylibacl/Pkgfile
 f:ccef02ef80adc2e128a19e6e98d7b932:pylibacl/.footprint
-f:e69ab50e4c253690ccfbcd3baa21b17d:nextcloud/.signature
-f:d230ab7baf8185af9d5f1db3f1a90914:nextcloud/Pkgfile
-f:823c2a482f839292348bf150eef2393e:nextcloud/.footprint
+f:a75ac03949e2110a19aede9f71b41ed0:nextcloud/.signature
+f:e5e1fc2a0aa34a3a760d72e9262aa0f6:nextcloud/Pkgfile
+f:916f9bf21662a46268730a0b7ffa7f53:nextcloud/.footprint
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README
 f:7cacf86db864438b25643a10f4872ddf:papirus-filezilla-theme/.signature
 f:9932c95f5b6779e2cf64cf24c5f04b26:papirus-filezilla-theme/Pkgfile

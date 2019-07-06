@@ -5,36 +5,37 @@
 
 name=bluez5
 version=5.50
-release=1
+release=2
 source=(http://www.kernel.org/pub/linux/bluetooth/bluez-$version.tar.xz bluetoothd)
 
 build() {
-	cd bluez-$version
+  cd bluez-$version
 
-	./configure \
-		--prefix=/usr \
-		--sysconfdir=/etc \
-		--localstatedir=/var \
-		--libexecdir=/usr/lib/$name \
-		--libdir=/usr/lib \
-		--mandir=/usr/share/man \
-		--enable-tools \
-		--enable-test \
-		--enable-cups \
-		--enable-experimental \
-		--enable-a2dp \
-		--enable-library \
-		--disable-systemd 
+  ./configure \
+    --prefix=/usr \
+    --sysconfdir=/etc \
+    --localstatedir=/var \
+    --libexecdir=/usr/lib/$name \
+    --libdir=/usr/lib \
+    --mandir=/usr/share/man \
+    --enable-tools \
+    --enable-test \
+    --enable-cups \
+    --enable-midi \
+    --enable-experimental \
+    --enable-a2dp \
+    --enable-library \
+    --disable-systemd
 
-	make
-	make DESTDIR=$PKG all install
+  make
+  make DESTDIR=$PKG all install
 
-	make DESTDIR=$PKG \
-		install-includeHEADERS \
-		install-libLTLIBRARIES \
-		install-pkgconfigDATA
-	
-	# install init script
-	install -D -m 755 $SRC/bluetoothd \
-        $PKG/etc/rc.d/bluetoothd
+  make DESTDIR=$PKG \
+    install-includeHEADERS \
+    install-libLTLIBRARIES \
+    install-pkgconfigDATA
+
+  # install init script
+  install -D -m 755 $SRC/bluetoothd \
+    $PKG/etc/rc.d/bluetoothd
 }

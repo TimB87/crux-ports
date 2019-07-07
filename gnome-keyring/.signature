@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwE+30bTInJ7pto6oEfGzj+pLjK+SOYiK9XIDFi5UYwL3jMSI8RXI1XT/PFyuqPxPhlNb1iJsn840EBcxTe7l+AI=
-SHA256 (Pkgfile) = 44fb9f76221a80f0a1f16cf386f08e034d89bf8c90ac1e58d092103fdf582138
+RWSXjYMPO7mZwC85Sj+Cw5pbJJI4+9ea8u7ZsBPzAuKzuNgmVl/9SMYS5tAjwY2j2CmmORjksqwbIIu/nFBasIn5n1d2I3oPxAs=
+SHA256 (Pkgfile) = 568afea6c221e3fcc5a1840c75ff0faa25cefd713c48ff98435c38e25dfb268d
 SHA256 (.footprint) = ede3b16f8cd78b029698ccabc1d5c307b1b71e7898428a235dd2d6d7afccef10
-SHA256 (gnome-keyring-3.28.2.tar.xz) = 02e3e406350851ee1b1987ec3a60f0a5b41e1c27c0540651e96201f25ef0c1f1
+SHA256 (gnome-keyring-3.28.2.tar.gz) = 14c7a74fc25bfaeb203dfdc905afd292096ad901451f67f2cfa546f0b2654617

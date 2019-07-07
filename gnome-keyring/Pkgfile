@@ -6,7 +6,7 @@
 name=gnome-keyring
 version=3.28.2
 release=1
-source=(https://git.gnome.org/browse/gnome-keyring/snapshot/$name-$version.tar.xz)
+source=(https://github.com/GNOME/gnome-keyring/archive/$version/$name-$version.tar.gz)
 
 build() {
   cd $name-$version

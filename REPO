@@ -438,10 +438,10 @@ f:3cf264e61079d6f29cf268931ed01d5f:p5-math-round/Pkgfile
 f:4416ac03cf4ec625fcafe338c1945c0a:ttf-font-icons/.signature
 f:9e318bed7942bb8155c8b337f695908d:ttf-font-icons/.footprint
 f:d0d64fe4327a17cbdf90039af0c2a44a:ttf-font-icons/Pkgfile
-f:736c20b9c06a799dce6fabde77875682:gnome-keyring/.signature
+f:5e372467c8d8afbef52d082a51fbc3e9:gnome-keyring/.signature
 f:4a8ba2e5a3bae2f99cb87246761a86b7:gnome-keyring/.footprint
 f:8ab1a8aebf81c512aa5d551b60792167:gnome-keyring/post-install
-f:2d2f620a17fad2bc9959313d53947233:gnome-keyring/Pkgfile
+f:391d976bb40fc36f516199b78cc2133f:gnome-keyring/Pkgfile
 f:6bc85b684285db0b5ae0fc2d16d01330:p5-try-tiny/.signature
 f:557fc028c3853ea678593a2b124abf6b:p5-try-tiny/.footprint
 f:d108bd4281d7bc45cc7ab54ad6f1224a:p5-try-tiny/Pkgfile

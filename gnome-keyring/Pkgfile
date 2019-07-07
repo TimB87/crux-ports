@@ -1,7 +1,7 @@
 # Description: GNOME Keyring is a collection of components in GNOME that store secrets, passwords, keys, certificates and make them available to applications.
 # URL: https://gnome.org
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: gnome-common linux-pam p11-kit gcr gtk3 harfbuzz pango libepoxy
+# Depends on: gnome-common linux-pam p11-kit gcr gtk3 harfbuzz pango libepoxy desktop-file-utils docbook-xsl
 
 name=gnome-keyring
 version=3.28.2

@@ -13,6 +13,7 @@ drwxr-xr-x	root/root	usr/bin/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python2.7/
 drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/
+-rwxr-xr-x	root/root	usr/lib/python2.7/site-packages/libcemuhook.so
 -rwxr-xr-x	root/root	usr/lib/python2.7/site-packages/libhiddrv.so
 -rwxr-xr-x	root/root	usr/lib/python2.7/site-packages/libremotepad.so
 -rwxr-xr-x	root/root	usr/lib/python2.7/site-packages/libsc_by_bt.so
@@ -27,6 +28,9 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/scc/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/scc/aliases.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/scc/aliases.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/scc/aliases.pyo
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/scc/cemuhook_server.py
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/scc/cemuhook_server.pyc
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/scc/cemuhook_server.pyo
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/scc/cheader.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/scc/cheader.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/scc/cheader.pyo
@@ -435,7 +439,7 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/scc/x11/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/scc/x11/scc_autoswitch_daemon.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/scc/x11/scc_autoswitch_daemon.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/scc/x11/scc_autoswitch_daemon.pyo
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/sccontroller-0.4.6-py2.7.egg-info
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/sccontroller-0.4.7-py2.7.egg-info
 drwxr-xr-x	root/root	usr/lib/udev/
 drwxr-xr-x	root/root	usr/lib/udev/rules.d/
 -rw-rw-r--	root/root	usr/lib/udev/rules.d/69-sc-controller.rules

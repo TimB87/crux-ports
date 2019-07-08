@@ -4,8 +4,8 @@
 # Depends on: bluez5 glib libffi python3 python-cython
 
 name=blueman
-version=2.1
-release=2
+version=2.1.1
+release=1
 source=(https://github.com/blueman-project/$name/releases/download/$version/$name-$version.tar.xz)
 
 build() {

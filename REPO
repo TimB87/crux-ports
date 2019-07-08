@@ -384,9 +384,9 @@ f:a2809e5e1c1cc8f41611a3932f61e20d:xorg-cursor-openzone/Pkgfile
 f:52a22673e2f3cc9a3e9ec2feffd9bf1f:p5-http-date/.signature
 f:71259c1bf54910e3d7853f066664c73d:p5-http-date/.footprint
 f:7980bac7f385d8c6d9ee0cb8e3389eea:p5-http-date/Pkgfile
-f:8c413d90ff11d4c8fa4aa5e65566c897:sc-controller/.signature
-f:9dcc819c2e3c7774f499fb761811898b:sc-controller/.footprint
-f:8962cb719c778c3e70bf182ab9932d42:sc-controller/Pkgfile
+f:0b6f64114df8d77610dda1a2cbe06817:sc-controller/.signature
+f:706ad01e3dd4e33b638c1d0f6b35c611:sc-controller/.footprint
+f:41555fe08bc7bb7274e3454a18260694:sc-controller/Pkgfile
 f:819db4ddfa4fb001c0dd816fdff600ec:g13/.signature
 f:483a67ed9f685748f9e83441f8f5f079:g13/default.g13.bind
 f:26c816dbe42e2333039c91713e333e30:g13/.footprint

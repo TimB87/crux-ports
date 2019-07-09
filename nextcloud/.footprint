@@ -8412,8 +8412,6 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/files_texteditor/js/
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/files_texteditor/l10n/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_texteditor/l10n/ast.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_texteditor/l10n/ast.json
--rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_texteditor/l10n/az.js
--rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_texteditor/l10n/az.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_texteditor/l10n/bg.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_texteditor/l10n/bg.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_texteditor/l10n/ca.js
@@ -9155,6 +9153,8 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/l10n/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/l10n/ja.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/l10n/ja.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/l10n/km.php
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/l10n/ko.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/l10n/ko.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/l10n/ku_IQ.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/l10n/lt_LT.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/l10n/lt_LT.json
@@ -14716,6 +14716,7 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/lib/private/Repair/NC15/
 drwxr-x---	nginx/nginx	var/www/nextcloud/lib/private/Repair/NC16/
 -rw-r-----	nginx/nginx	var/www/nextcloud/lib/private/Repair/NC16/AddClenupLoginFlowV2BackgroundJob.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/lib/private/Repair/NC16/CleanupCardDAVPhotoCache.php
+-rw-r-----	nginx/nginx	var/www/nextcloud/lib/private/Repair/NC16/RemoveCypressFiles.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/lib/private/Repair/OldGroupMembershipShares.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/lib/private/Repair/Owncloud/
 -rw-r-----	nginx/nginx	var/www/nextcloud/lib/private/Repair/Owncloud/DropAccountTermsTable.php

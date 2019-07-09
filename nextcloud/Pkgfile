@@ -5,7 +5,7 @@
 # Optional: You can use apache instead of nginx, there are other options for a sql server as well
 
 name=nextcloud
-version=16.0.2
+version=16.0.3
 release=1
 source=(https://download.nextcloud.com/server/releases/$name-$version.tar.bz2)
 
@@ -13,24 +13,24 @@ webuser=nginx
 webgroup=nginx
 
 build() {
-	cd $name
+  cd $name
 
-	install -d $PKG/var/www/
-	cp -R $SRC/$name $PKG/var/www/.
+  install -d $PKG/var/www/
+  cp -R $SRC/$name $PKG/var/www/.
 
-    chown -R $webuser:$webgroup $PKG/var/www/$name
+  chown -R $webuser:$webgroup $PKG/var/www/$name
 
-    find $PKG/var/www/$name -type f -exec chmod 0640 {} \;
-    find $PKG/var/www/$name -type d -exec chmod 0750 {} \;
+  find $PKG/var/www/$name -type f -exec chmod 0640 {} \;
+  find $PKG/var/www/$name -type d -exec chmod 0750 {} \;
 
-    chmod a+x $PKG/var/www/$name/occ
+  chmod a+x $PKG/var/www/$name/occ
 
-    find $PKG \(\
-        -iname '*README*' -o \
-        -iname '*COPYING*' -o \
-        -iname '*AUTHORS*' -o \
-        -iname '*news*' -o \
-        -iname '*license*' -o \
-        -iname '*ChangeLog.md*' \
-        \) -delete || true
+  find $PKG \(\
+    -iname '*README*' -o \
+    -iname '*COPYING*' -o \
+    -iname '*AUTHORS*' -o \
+    -iname '*news*' -o \
+    -iname '*license*' -o \
+    -iname '*ChangeLog.md*' \
+    \) -delete || true
 }

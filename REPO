@@ -578,10 +578,10 @@ f:63528b651e2a5a87d5d9f91aab010cb5:compton/.signature
 f:788ba14c6467fca362b03f5ad4c55d1d:compton/.footprint
 f:5807ca9073efef6bc7cf7865c1f2146a:compton/README
 f:d3347afc33a19fbe57ac38687123dea7:compton/Pkgfile
-f:59b041e810ae37af66671215cc757738:papirus-icon-theme/.signature
-f:1e3a84505332ea94c11141e60a8a48fc:papirus-icon-theme/.footprint
+f:4ba0249b8d8ed3f1eb92cd40d65be8ff:papirus-icon-theme/.signature
+f:6ef41c3d890c1a4be2584d0e8a2ef38f:papirus-icon-theme/.footprint
 f:48c6571235da201e7fb43fba6d18bf7b:papirus-icon-theme/post-install
-f:3be4aa62e1f44d6078c7c20608688dfd:papirus-icon-theme/Pkgfile
+f:841b97d8ea4f1ba790dd9e572597ae6f:papirus-icon-theme/Pkgfile
 f:e1e2e07b10b2a2b56a3a8c793217b4cf:p5-sub-identify/.signature
 f:83bafa7890a49aff67c7e9cb743a55bd:p5-sub-identify/.footprint
 f:53d8a9450cee049c37e174d3e114c6cc:p5-sub-identify/Pkgfile

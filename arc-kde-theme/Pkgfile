@@ -1,0 +1,23 @@
+# Description: Arc theme for KDE Plasma 5
+# URL: https://github.com/PapirusDevelopmentTeam/arc-kde
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on:
+
+name=arc-kde-theme
+version=20180614
+release=1
+source=(https://github.com/PapirusDevelopmentTeam/arc-kde/archive/$version/$name-$version.tar.gz
+https://github.com/PapirusDevelopmentTeam/arc-kde/commit/ebe4ed6bd17b2fdb8c17e3784e913e12c6b325d5.patch
+https://github.com/PapirusDevelopmentTeam/arc-kde/commit/b7b7f6d60ed2b19ba9822418c2d43fbcf27c5245.patch)
+
+build() {
+  cd arc-kde-$version
+  patch -p1 -i ../b7b7f6d60ed2b19ba9822418c2d43fbcf27c5245.patch
+  patch -p1 -i ../ebe4ed6bd17b2fdb8c17e3784e913e12c6b325d5.patch
+  install -d $PKG/usr/share
+  cp -r plasma $PKG/usr/share
+  cp -r aurorae $PKG/usr/share
+  cp -r color-schemes $PKG/usr/share
+  cp -r konsole $PKG/usr/share
+  cp -r yakuake $PKG/usr/share
+}

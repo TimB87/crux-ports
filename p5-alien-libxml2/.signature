@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwBbETkafkvDJVb8bYW3iRkmcEynVsyhql8P5qzmLIbAQXJmzEQzDLJorHsX1vdgCb54H1BOuFb1puFes+jxboQ4=
-SHA256 (Pkgfile) = e6236f05f8a940dc93ffdafb8ad7feeb05aab6d8bc8aa20ee3546562ad43db6f
+RWSXjYMPO7mZwDj6bh4F1SHXqSDOQ2tJKq4ldxB8jYx618qmUVTlq/shnvOZ4YIn7RKWfPh43eLnddSfuoItb28m34H6joZjUQM=
+SHA256 (Pkgfile) = 42d5400eb42e61ef32c8b0d43f4d889cd7fe65c94c095649bc1746572a578867
 SHA256 (.footprint) = 6f8a1c28638b11fa7bc0858b1e52edac252e0f97be4802278e7b1dac36e439c6
-SHA256 (Alien-Libxml2-0.09.tar.gz) = 926e43bfcdd70bc111795b78bc41dd3a5c80f466eec5841d32aa6a497228dcba
+SHA256 (Alien-Libxml2-0.10_01.tar.gz) = 2f45b308b33503292f48bf46a75fe1e653d6b209ba5caf0628d8cc103f8d61ac

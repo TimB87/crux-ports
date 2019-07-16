@@ -1,0 +1,12 @@
+#!/bin/sh
+#
+# This was originally my post-install for this port!
+# pkgconf and pkg-config are not meant to co-exist, but
+# the decision to swap them out is only yours to make! 
+# Please review the consequences of this script!
+
+alias="pkgconf: pkg-config"
+
+if [ -z "$(grep "$alias" /var/lib/pkg/prt-get.aliases)" ]; then
+	echo "$alias" >> /var/lib/pkg/prt-get.aliases
+fi

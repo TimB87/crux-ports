@@ -4,7 +4,7 @@
 # Depends on: p5-class-load p5-class-singleton p5-list-allutils p5-params-validate
 
 name=p5-datetime-timezone
-version=2.35
+version=2.36
 release=1
 source=(https://www.cpan.org/CPAN/authors/id/D/DR/DROLSKY/DateTime-TimeZone-$version.tar.gz)
 

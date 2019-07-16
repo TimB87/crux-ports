@@ -1,8 +1,8 @@
+d:arc-kde-theme
 d:p5-class-load
 d:p5-types-serialiser
 d:p5-exporter-tiny
 d:p5-lwp-mediatypes
-d:grub2-theme-elegant
 d:p5-unicode-linebreak
 d:p5-html-tagset
 d:p5-business-issn
@@ -20,7 +20,6 @@ d:fcgi
 d:p5-common-sense
 d:bluez-alsa
 d:p5-mime-charset
-d:i3blocks-gaps
 d:p5-xml-libxml-simple
 d:p5-http-message
 d:p5-text-roman
@@ -96,7 +95,6 @@ d:p5-class-singleton
 d:libcloudproviders
 d:re2c
 d:p5-net-ssleay
-d:i3status
 d:grub2-theme-poly-light
 d:p5-sub-name
 d:p5-sub-exporter-progressive
@@ -171,7 +169,6 @@ d:p5-file-slurper
 d:p5-net-http
 d:fail2ban
 d:p5-http-negotiate
-d:arc-icon-theme
 d:p5-capture-tiny
 d:p5-mro-compat
 d:p5-xml-libxslt
@@ -205,6 +202,7 @@ d:p5-http-cookies
 d:xtitle
 d:rapidjson
 d:p5-xml-namespacesupport
+d:kvantum-theme-arc
 d:bluez5
 d:p5-perlio-utf8-strict
 d:papirus-folders
@@ -213,7 +211,6 @@ d:p5-data-uniqid
 d:solaar
 d:p5-eval-closure
 d:gsimplecal
-d:i3blocks
 d:p5-dist-checkconflicts
 d:p5-ipc-run3
 d:p5-html-parser
@@ -231,6 +228,9 @@ d:papirus-filezilla-theme
 d:potrace
 d:p5-sub-exporter
 d:p5-file-listing
+f:98ea373b3b0fa6867ba3fe4db04bfab7:arc-kde-theme/.signature
+f:913f2444bcb9766abbf12de26310359d:arc-kde-theme/.footprint
+f:a43a4142bd9a50494985f72c0cb74fe9:arc-kde-theme/Pkgfile
 f:dfe868f7176b393269fe28d4b130b15d:p5-class-load/.signature
 f:2f991ee4750a23fabc309d9700906e53:p5-class-load/.footprint
 f:734436e8f8db5b19a6b385616d1a2eeb:p5-class-load/Pkgfile
@@ -243,9 +243,6 @@ f:d1e666188d416330161f94597e013a4c:p5-exporter-tiny/Pkgfile
 f:f0e0c90225a9c45e8a9319dc7156f66c:p5-lwp-mediatypes/.signature
 f:b1e3040d5e96af5bd9d2fc512b465502:p5-lwp-mediatypes/.footprint
 f:701f5e65681705632f6d8bad693c3f6c:p5-lwp-mediatypes/Pkgfile
-f:25940d246dbef796cecd0bb5c5031721:grub2-theme-elegant/.signature
-f:60b54df4dbcbd2a4fd782a320058a839:grub2-theme-elegant/.footprint
-f:27c4589e420bbf953ca3e6eddb9679f7:grub2-theme-elegant/Pkgfile
 f:54cd49e145228c3def28609f1d83c96c:p5-unicode-linebreak/.signature
 f:111f1fb9fc1269ea4939fc2b4ae2ea4a:p5-unicode-linebreak/.footprint
 f:f4efd93ee8a9c62949befa835b0d4ac7:p5-unicode-linebreak/Pkgfile
@@ -258,9 +255,9 @@ f:fb7cc926e8b0a111ef16fde2581aac3e:p5-business-issn/Pkgfile
 f:af93cee415d7ea26c9eb37d9519f432f:p5-list-someutils/.signature
 f:8785358c1e634426f75b83b4007c4eb5:p5-list-someutils/.footprint
 f:0c035a9c537c15e1ca3bbce90e5dd2be:p5-list-someutils/Pkgfile
-f:dee7eed85a9ebc975a5c815b7a796239:p5-datetime-timezone/.signature
+f:083c3124aa9532010d24360db65ad0ee:p5-datetime-timezone/.signature
 f:7a1e97db272ac3de68a6596b36e55b13:p5-datetime-timezone/.footprint
-f:6020d6503b1c7b32647847ac4872c49c:p5-datetime-timezone/Pkgfile
+f:d91cbd81fa3602501da050914bff2f63:p5-datetime-timezone/Pkgfile
 f:45da75def9bce28e41f528a9930db9cc:p5-io-html/.signature
 f:ede1587d176e7e5f3e0a257a1ec71f1d:p5-io-html/.footprint
 f:fd3ebbe24178d4ab27b2e8c7d2812808:p5-io-html/Pkgfile
@@ -301,9 +298,6 @@ f:d39c9a23072dd14cf994a97a09ae8a34:bluez-alsa/Pkgfile
 f:5539f9d4980900b1fc67165647f4bf9b:p5-mime-charset/.signature
 f:d4e753263ebb3631e1d501af84b69bbf:p5-mime-charset/.footprint
 f:37717bf2d6d1b70ec01995ad293afd9a:p5-mime-charset/Pkgfile
-f:6eaa8841e60bc3cefb5a1865b79d8e24:i3blocks-gaps/.signature
-f:19d167bcbd32c6643ab4675c87231085:i3blocks-gaps/.footprint
-f:ad3d38325e418266ba74dc9dbd188e6b:i3blocks-gaps/Pkgfile
 f:90f4535d56e2c92264f41a7bfdac8304:p5-xml-libxml-simple/.signature
 f:536cde719370f700ef3f30c5a40c9b99:p5-xml-libxml-simple/.footprint
 f:143fdb3803d80dfc28ccab356252a626:p5-xml-libxml-simple/Pkgfile
@@ -531,9 +525,9 @@ f:33f1d739db734f219952ecb8e4cfc067:moka-icon-theme/Pkgfile
 f:4b9510a504a597cc92adf857245842d2:p5-regexp-common/.signature
 f:74c8f19eeeeb5a02b4bb2b555fdb3c90:p5-regexp-common/.footprint
 f:174531f8a20e1f3c8fc96e6863bb4838:p5-regexp-common/Pkgfile
-f:fbb892657fa7c1f11185185aa4435060:p5-alien-libxml2/.signature
+f:312a527b1cff81cea1e3973babe3e50f:p5-alien-libxml2/.signature
 f:69646546c07822f0b0a72aafb6f50ff1:p5-alien-libxml2/.footprint
-f:bad001deb9d681939d3d9398cd4f1d70:p5-alien-libxml2/Pkgfile
+f:f8df01b3244959357f6dac7a112beade:p5-alien-libxml2/Pkgfile
 f:547250ee79d8f32f43779f02306c72e1:p5-mozilla-ca/.signature
 f:1f93078449cc989b24f020c9b50284b0:p5-mozilla-ca/.footprint
 f:be1a03e6f0852e9b7180f0194ede3ec3:p5-mozilla-ca/Pkgfile
@@ -556,9 +550,6 @@ f:b9299ab6489af1262eb9b33cb97eb77f:p5-net-ssleay/.signature
 f:ca15b7d6a55d0965b036445662d1f4bf:p5-net-ssleay/.footprint
 f:5d18c18d27d5b160c7434d03c1c7ec3e:p5-net-ssleay/README
 f:000f29ac3bebcab0c97896e2b684f638:p5-net-ssleay/Pkgfile
-f:437adeb4329baf39787b5ef9dcd93b40:i3status/.signature
-f:986e0927bd5c80f3c117310d56914328:i3status/.footprint
-f:e438974f51dd2e70608637a18d2f22b7:i3status/Pkgfile
 f:7f0c2b58c8e4e509cfecdde5148a898a:grub2-theme-poly-light/.signature
 f:2512e110d4b94c257d80a38d1456249c:grub2-theme-poly-light/.footprint
 f:0be50df12f3446e3625ebb19d9e8d474:grub2-theme-poly-light/Pkgfile
@@ -597,9 +588,9 @@ f:803eee2fa1e30e5eb55997ac78670af1:p5-file-chdir/Pkgfile
 f:59d6442827830429ee87cf7de8de620b:font-ibm-plex/.signature
 f:4260234cb5b61d9f1aa4e4f633d28b35:font-ibm-plex/.footprint
 f:98c7e596875803fdd00d95bcddd2f830:font-ibm-plex/Pkgfile
-f:2900a4f51b80ffe49252b56dbf5fb989:p5-alien-build/.signature
+f:6fa705caf619b62600846bc242fa14f3:p5-alien-build/.signature
 f:d52977e692baf1e9b317c5de5101d87c:p5-alien-build/.footprint
-f:6510a75e1ea03ee4529068c3200e32b8:p5-alien-build/Pkgfile
+f:84072220cc04400d32cd5a53a66454f8:p5-alien-build/Pkgfile
 f:8803fb2af0fa5613c26a9fb7bbfe969d:faba-icon-theme/.signature
 f:91c9223c91d86188775cb8a8f13eec96:faba-icon-theme/.footprint
 f:fd0add61aab7fabfc219cde8b6c79a3b:faba-icon-theme/post-install
@@ -640,7 +631,7 @@ f:13ebcab395827b6f61d0ff94c9a8635d:bdf-unifont/Pkgfile
 f:f8d80fb06316cf5cfef7191e5279caae:consolekit2/.signature
 f:7b7faf0a5b0abd53d2cbefd3c68ffc83:consolekit2/.footprint
 f:3b0080988092b3c507a3603d5808acb7:consolekit2/ck-sysdeps-linux.c.patch
-f:bdc1c8474187d198238bf0da38a93208:consolekit2/post-install
+f:bcec55b3d747663d31e38b0fd94a3717:consolekit2/README
 f:8ae4cfc2c215c704a27a84297a291ab6:consolekit2/Pkgfile
 f:67d884ce1dd87d55a9fe1e31121f2c96:go-mtpfs/.signature
 f:b76a518d4ba3ca0a808475ec49da691d:go-mtpfs/.footprint
@@ -806,10 +797,6 @@ f:46a77c1adfc4da35f24e0393d5af1d3c:fail2ban/Pkgfile
 f:687b9089b2faac03e7c42c219fa93947:p5-http-negotiate/.signature
 f:8093b7217f59580081adaefd591bfdd6:p5-http-negotiate/.footprint
 f:0bc36666406806a35793c921ffa08c51:p5-http-negotiate/Pkgfile
-f:88cd83d3f0594d29234bde0ce3229da9:arc-icon-theme/.signature
-f:1769695f89374c944baa2ebd9bf121c6:arc-icon-theme/.footprint
-f:981358de3b8b3d56cc20bb630d645be6:arc-icon-theme/post-install
-f:a113a7cda01dba71accc38ea1997a074:arc-icon-theme/Pkgfile
 f:b107abb6e815b012b9486a464d9a7ecf:p5-capture-tiny/.signature
 f:6748f9060e441f1d8e038b6aa32a4fc0:p5-capture-tiny/.footprint
 f:1f3e78c2b197253baa9a45792451ba38:p5-capture-tiny/Pkgfile
@@ -822,7 +809,7 @@ f:2adcddfa73d9a40687bd4a65b7945c8b:p5-xml-libxslt/Pkgfile
 f:10c46dd0943d2757ed183261ec7e1729:pkgconf/.signature
 f:d98e4d525fbb4ed5e710b505ad82faa7:pkgconf/.footprint
 f:0176494ed903b480d67bdda0243ad961:pkgconf/.md5sum
-f:b2ffe65760b80a68cd60c7ee808980a1:pkgconf/post-install
+f:b48544e12aa25823235c48bfdef29ed6:pkgconf/README
 f:07e6ae5a8f15414c4b7e8469e11fcaee:pkgconf/Pkgfile
 f:48ecc2c5daaa91d3d331f5b4346c01d9:pkgconf/platform-pkg-config.in
 f:2f3b8e429aabef3eb120a2d81eba03dd:p5-params-validationcompiler/.signature
@@ -916,6 +903,9 @@ f:98fb47fa58990c1d7b1625bb7f199026:rapidjson/Pkgfile
 f:91740aab8f436d944a4b71f2001637fe:p5-xml-namespacesupport/.signature
 f:70e1d1ba8973241a04eab6464ef72714:p5-xml-namespacesupport/.footprint
 f:0fd54259deb3afbf5bdeeb27b03c73ee:p5-xml-namespacesupport/Pkgfile
+f:6e86e2cda720c78859b7a101ae3c1a74:kvantum-theme-arc/.signature
+f:f15d91b2e1323910cb5b90ab2cc10141:kvantum-theme-arc/.footprint
+f:7c7e0421b27fc5f5c27e8306a0b99e9f:kvantum-theme-arc/Pkgfile
 f:cdbc600916d172dde39f087e1357461e:bluez5/.signature
 f:0b4dded63382ae5a8f08f8794d9a86e9:bluez5/.footprint
 f:ff4b49bafc0fc47cbaa65f954e8ed1f8:bluez5/Pkgfile
@@ -942,9 +932,6 @@ f:7cb7166f57d7cf2841484edd071e0a46:p5-eval-closure/Pkgfile
 f:7eb1c02d69d99f0b06832eab54252894:gsimplecal/.signature
 f:97c574f9e92d1194c1004ac45742d6a6:gsimplecal/.footprint
 f:521f2da5924471fc040bda1bfa65c805:gsimplecal/Pkgfile
-f:ddaa6f4b45c506aaceb272703aace674:i3blocks/.signature
-f:f9582c1ddebfdb5397f001646d4e17bc:i3blocks/.footprint
-f:1eb600fe7207cc56012dfc5c07af149f:i3blocks/Pkgfile
 f:f04c6bb881a809373fccf1716acbc958:p5-dist-checkconflicts/.signature
 f:1c6d0b610738ebe9df4334bd8792482d:p5-dist-checkconflicts/.footprint
 f:ae11d95684cb18d21da8ea9eaa2e8ef3:p5-dist-checkconflicts/Pkgfile

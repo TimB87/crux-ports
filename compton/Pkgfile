@@ -2,21 +2,21 @@
 # URL: https://github.com/yshui/compton
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Packager: Danny Rawlins, crux at romster dot me
-# Depends on: dbus libconfig libpcre mesa3d xorg-libxcomposite xorg-libxinerama xorg-libxrandr
+# Depends on: dbus libconfig libpcre mesa3d uthash xorg-libxcomposite xorg-libxinerama xorg-libxrandr
 
 name=compton
-version=6.2
+version=7
 release=1
-source=(https://github.com/yshui/compton/archive/v$version/$name-$version.tar.gz)
+source=(https://github.com/yshui/compton/archive/v$version/$name-$version.tar.gz skip_tests.patch)
 
 build() {
   cd $name-$version
-  mkdir -p build
-  meson build . \
+  patch -Np1 -i $SRC/skip_tests.patch
+  mkdir build
+  meson . build \
     --prefix=/usr \
     --buildtype=release \
-    -Dbuild_docs=false \
-    -Dnls=false
+    -Dbuild_docs=false
   ninja -v -C build
   DESTDIR=$PKG ninja -C build install
 }

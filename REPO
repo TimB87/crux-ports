@@ -123,6 +123,7 @@ d:consolekit2
 d:go-mtpfs
 d:p5-package-stash-xs
 d:p5-list-utilsby
+d:uthash
 d:p5-data-optlist
 d:p5-scalar-list-utils
 d:libical
@@ -565,10 +566,11 @@ f:7fee02ad21c0059b93e3066ed9e9b588:p5-variable-magic/Pkgfile
 f:6788a7288415cf3f5a6e5cc1a7206be0:p5-text-bibtex/.signature
 f:738b9327af76d352f278787c345d2cb4:p5-text-bibtex/.footprint
 f:6798daa830e6445d90f4a99040bab663:p5-text-bibtex/Pkgfile
-f:63528b651e2a5a87d5d9f91aab010cb5:compton/.signature
+f:5601ac6eb005004e543a0d23b33c9dee:compton/.signature
 f:788ba14c6467fca362b03f5ad4c55d1d:compton/.footprint
-f:5807ca9073efef6bc7cf7865c1f2146a:compton/README
-f:d3347afc33a19fbe57ac38687123dea7:compton/Pkgfile
+f:c4660ef0a605512664d2119c44158edf:compton/README
+f:40cba69f06c2702b024ea6210492cd2c:compton/Pkgfile
+f:8e527a8b6f702d9b7671a21820783ba9:compton/skip_tests.patch
 f:4ba0249b8d8ed3f1eb92cd40d65be8ff:papirus-icon-theme/.signature
 f:6ef41c3d890c1a4be2584d0e8a2ef38f:papirus-icon-theme/.footprint
 f:48c6571235da201e7fb43fba6d18bf7b:papirus-icon-theme/post-install
@@ -642,6 +644,10 @@ f:d2985a6774c1a9aaca0bf4bffabed6c1:p5-package-stash-xs/Pkgfile
 f:44ca6cab5bfcb8d39b3282fd3afaa070:p5-list-utilsby/.signature
 f:e75b39280aa535461fc7228167ab1cbf:p5-list-utilsby/.footprint
 f:525114b5f91d11c34422f32bf6719fbf:p5-list-utilsby/Pkgfile
+f:46b612cbf2a68f03f34299b5ff50e20a:uthash/.signature
+f:d8abf2591188e6e6a8badd0abe472dca:uthash/.footprint
+f:95aef197483d12a783024649013890f9:uthash/.md5sum
+f:2cce752377dd3fd78d4e95d2c99e1fb7:uthash/Pkgfile
 f:ac85f41c466f07a64566411c09a5962a:p5-data-optlist/.signature
 f:090ed3ffcc65aaf3791afe2d3633abff:p5-data-optlist/.footprint
 f:5019e730e55cf13cc599bbbb957e1494:p5-data-optlist/Pkgfile

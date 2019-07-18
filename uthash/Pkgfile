@@ -1,0 +1,16 @@
+# Description: A hash library implemented in C.
+# URL: http://troydhanson.github.io/uthash/index.html
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Packager: Danny Rawlins, crux at romster dot me
+# Packager: Younes Hafri, ycrux at club-internet dot fr
+
+name=uthash
+version=2.1.0
+release=1
+source=(https://github.com/troydhanson/uthash/archive/v$version.tar.gz)
+
+build() {
+  cd $name-$version/src
+  install -d $PKG/usr/include/
+  install -m 0644 -t $PKG/usr/include/ *.h
+}

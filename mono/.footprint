@@ -11,7 +11,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/chktrust
 -rwxr-xr-x	root/root	usr/bin/crlupdate
 -rwxr-xr-x	root/root	usr/bin/csc
--rwxr-xr-x	root/root	usr/bin/csc-dim
 -rwxr-xr-x	root/root	usr/bin/csharp
 -rwxr-xr-x	root/root	usr/bin/csi
 -rwxr-xr-x	root/root	usr/bin/disco
@@ -65,15 +64,11 @@ lrwxrwxrwx	root/root	usr/bin/mono -> mono-sgen
 -rwxr-xr-x	root/root	usr/bin/monodocer
 -rwxr-xr-x	root/root	usr/bin/monodocs2html
 -rwxr-xr-x	root/root	usr/bin/monodocs2slashdoc
--rwxr-xr-x	root/root	usr/bin/monograph
 -rwxr-xr-x	root/root	usr/bin/monolinker
 -rwxr-xr-x	root/root	usr/bin/monop
 -rwxr-xr-x	root/root	usr/bin/monop2
 -rwxr-xr-x	root/root	usr/bin/mozroots
 -rwxr-xr-x	root/root	usr/bin/mprof-report
--rwxr-xr-x	root/root	usr/bin/nunit-console
--rwxr-xr-x	root/root	usr/bin/nunit-console2
--rwxr-xr-x	root/root	usr/bin/nunit-console4
 -rwxr-xr-x	root/root	usr/bin/pdb2mdb
 -rwxr-xr-x	root/root	usr/bin/pedump
 -rwxr-xr-x	root/root	usr/bin/permview
@@ -1238,6 +1233,7 @@ lrwxrwxrwx	root/root	usr/lib/mono/4.5/System.IdentityModel.dll -> ../gac/System.
 lrwxrwxrwx	root/root	usr/lib/mono/4.5/System.Json.Microsoft.dll -> ../gac/System.Json.Microsoft/4.0.0.0__31bf3856ad364e35/System.Json.Microsoft.dll
 lrwxrwxrwx	root/root	usr/lib/mono/4.5/System.Json.dll -> ../gac/System.Json/4.0.0.0__31bf3856ad364e35/System.Json.dll
 lrwxrwxrwx	root/root	usr/lib/mono/4.5/System.Management.dll -> ../gac/System.Management/4.0.0.0__b03f5f7f11d50a3a/System.Management.dll
+-rwxr-xr-x	root/root	usr/lib/mono/4.5/System.Memory.dll
 lrwxrwxrwx	root/root	usr/lib/mono/4.5/System.Messaging.dll -> ../gac/System.Messaging/4.0.0.0__b03f5f7f11d50a3a/System.Messaging.dll
 lrwxrwxrwx	root/root	usr/lib/mono/4.5/System.Net.Http.Formatting.dll -> ../gac/System.Net.Http.Formatting/4.0.0.0__31bf3856ad364e35/System.Net.Http.Formatting.dll
 lrwxrwxrwx	root/root	usr/lib/mono/4.5/System.Net.Http.WebRequest.dll -> ../gac/System.Net.Http.WebRequest/4.0.0.0__b03f5f7f11d50a3a/System.Net.Http.WebRequest.dll
@@ -1260,6 +1256,7 @@ lrwxrwxrwx	root/root	usr/lib/mono/4.5/System.Reflection.Context.dll -> ../gac/Sy
 -rwxr-xr-x	root/root	usr/lib/mono/4.5/System.Reflection.Metadata.dll
 -rwxr-xr-x	root/root	usr/lib/mono/4.5/System.Reflection.Metadata.dll.so
 lrwxrwxrwx	root/root	usr/lib/mono/4.5/System.Runtime.Caching.dll -> ../gac/System.Runtime.Caching/4.0.0.0__b03f5f7f11d50a3a/System.Runtime.Caching.dll
+-rwxr-xr-x	root/root	usr/lib/mono/4.5/System.Runtime.CompilerServices.Unsafe.dll
 lrwxrwxrwx	root/root	usr/lib/mono/4.5/System.Runtime.DurableInstancing.dll -> ../gac/System.Runtime.DurableInstancing/4.0.0.0__31bf3856ad364e35/System.Runtime.DurableInstancing.dll
 lrwxrwxrwx	root/root	usr/lib/mono/4.5/System.Runtime.Remoting.dll -> ../gac/System.Runtime.Remoting/4.0.0.0__b77a5c561934e089/System.Runtime.Remoting.dll
 lrwxrwxrwx	root/root	usr/lib/mono/4.5/System.Runtime.Serialization.Formatters.Soap.dll -> ../gac/System.Runtime.Serialization.Formatters.Soap/4.0.0.0__b03f5f7f11d50a3a/System.Runtime.Serialization.Formatters.Soap.dll
@@ -1273,6 +1270,7 @@ lrwxrwxrwx	root/root	usr/lib/mono/4.5/System.ServiceModel.Web.dll -> ../gac/Syst
 lrwxrwxrwx	root/root	usr/lib/mono/4.5/System.ServiceModel.dll -> ../gac/System.ServiceModel/4.0.0.0__b77a5c561934e089/System.ServiceModel.dll
 lrwxrwxrwx	root/root	usr/lib/mono/4.5/System.ServiceProcess.dll -> ../gac/System.ServiceProcess/4.0.0.0__b03f5f7f11d50a3a/System.ServiceProcess.dll
 lrwxrwxrwx	root/root	usr/lib/mono/4.5/System.Threading.Tasks.Dataflow.dll -> ../gac/System.Threading.Tasks.Dataflow/4.0.0.0__b77a5c561934e089/System.Threading.Tasks.Dataflow.dll
+-rwxr-xr-x	root/root	usr/lib/mono/4.5/System.Threading.Tasks.Extensions.dll
 lrwxrwxrwx	root/root	usr/lib/mono/4.5/System.Transactions.dll -> ../gac/System.Transactions/4.0.0.0__b77a5c561934e089/System.Transactions.dll
 lrwxrwxrwx	root/root	usr/lib/mono/4.5/System.Web.Abstractions.dll -> ../gac/System.Web.Abstractions/4.0.0.0__31bf3856ad364e35/System.Web.Abstractions.dll
 lrwxrwxrwx	root/root	usr/lib/mono/4.5/System.Web.ApplicationServices.dll -> ../gac/System.Web.ApplicationServices/4.0.0.0__31bf3856ad364e35/System.Web.ApplicationServices.dll
@@ -1339,14 +1337,6 @@ lrwxrwxrwx	root/root	usr/lib/mono/4.5/cscompmgd.dll -> ../gac/cscompmgd/0.0.0.0_
 -rwxr-xr-x	root/root	usr/lib/mono/4.5/csi.rsp
 -rwxr-xr-x	root/root	usr/lib/mono/4.5/culevel.exe
 -rwxr-xr-x	root/root	usr/lib/mono/4.5/culevel.pdb
-drwxr-xr-x	root/root	usr/lib/mono/4.5/dim/
--rwxr-xr-x	root/root	usr/lib/mono/4.5/dim/Microsoft.CodeAnalysis.CSharp.dll
--rwxr-xr-x	root/root	usr/lib/mono/4.5/dim/Microsoft.CodeAnalysis.dll
--rwxr-xr-x	root/root	usr/lib/mono/4.5/dim/System.Collections.Immutable.dll
--rwxr-xr-x	root/root	usr/lib/mono/4.5/dim/System.Reflection.Metadata.dll
--rwxr-xr-x	root/root	usr/lib/mono/4.5/dim/csc.exe
--rwxr-xr-x	root/root	usr/lib/mono/4.5/dim/csc.exe.config
--rwxr-xr-x	root/root	usr/lib/mono/4.5/dim/csc.rsp
 -rwxr-xr-x	root/root	usr/lib/mono/4.5/disco.exe
 -rwxr-xr-x	root/root	usr/lib/mono/4.5/disco.pdb
 -rwxr-xr-x	root/root	usr/lib/mono/4.5/dtd2rng.exe
@@ -1416,17 +1406,6 @@ drwxr-xr-x	root/root	usr/lib/mono/4.5/dim/
 -rwxr-xr-x	root/root	usr/lib/mono/4.5/mscorlib.dll
 -rwxr-xr-x	root/root	usr/lib/mono/4.5/mscorlib.dll.so
 -rwxr-xr-x	root/root	usr/lib/mono/4.5/mscorlib.pdb
-lrwxrwxrwx	root/root	usr/lib/mono/4.5/nunit-console-runner.dll -> ../gac/nunit-console-runner/2.4.8.0__96d09a1eb7f44a77/nunit-console-runner.dll
--rwxr-xr-x	root/root	usr/lib/mono/4.5/nunit-console.exe
--rw-r--r--	root/root	usr/lib/mono/4.5/nunit-console.exe.config
--rwxr-xr-x	root/root	usr/lib/mono/4.5/nunit-console.pdb
-lrwxrwxrwx	root/root	usr/lib/mono/4.5/nunit.core.dll -> ../gac/nunit.core/2.4.8.0__96d09a1eb7f44a77/nunit.core.dll
-lrwxrwxrwx	root/root	usr/lib/mono/4.5/nunit.core.extensions.dll -> ../gac/nunit.core.extensions/2.4.8.0__96d09a1eb7f44a77/nunit.core.extensions.dll
-lrwxrwxrwx	root/root	usr/lib/mono/4.5/nunit.core.interfaces.dll -> ../gac/nunit.core.interfaces/2.4.8.0__96d09a1eb7f44a77/nunit.core.interfaces.dll
-lrwxrwxrwx	root/root	usr/lib/mono/4.5/nunit.framework.dll -> ../gac/nunit.framework/2.4.8.0__96d09a1eb7f44a77/nunit.framework.dll
-lrwxrwxrwx	root/root	usr/lib/mono/4.5/nunit.framework.extensions.dll -> ../gac/nunit.framework.extensions/2.4.8.0__96d09a1eb7f44a77/nunit.framework.extensions.dll
-lrwxrwxrwx	root/root	usr/lib/mono/4.5/nunit.mocks.dll -> ../gac/nunit.mocks/2.4.8.0__96d09a1eb7f44a77/nunit.mocks.dll
-lrwxrwxrwx	root/root	usr/lib/mono/4.5/nunit.util.dll -> ../gac/nunit.util/2.4.8.0__96d09a1eb7f44a77/nunit.util.dll
 -rwxr-xr-x	root/root	usr/lib/mono/4.5/pdb2mdb.exe
 -rwxr-xr-x	root/root	usr/lib/mono/4.5/pdb2mdb.pdb
 -rwxr-xr-x	root/root	usr/lib/mono/4.5/permview.exe
@@ -3328,38 +3307,6 @@ drwxr-xr-x	root/root	usr/lib/mono/gac/monodoc/1.0.0.0__0738eb9f132ed756/
 -rw-r--r--	root/root	usr/lib/mono/gac/monodoc/1.0.0.0__0738eb9f132ed756/monodoc.dll
 -rw-r--r--	root/root	usr/lib/mono/gac/monodoc/1.0.0.0__0738eb9f132ed756/monodoc.dll.config
 -rw-r--r--	root/root	usr/lib/mono/gac/monodoc/1.0.0.0__0738eb9f132ed756/monodoc.pdb
-drwxr-xr-x	root/root	usr/lib/mono/gac/nunit-console-runner/
-drwxr-xr-x	root/root	usr/lib/mono/gac/nunit-console-runner/2.4.8.0__96d09a1eb7f44a77/
--rw-r--r--	root/root	usr/lib/mono/gac/nunit-console-runner/2.4.8.0__96d09a1eb7f44a77/nunit-console-runner.dll
--rw-r--r--	root/root	usr/lib/mono/gac/nunit-console-runner/2.4.8.0__96d09a1eb7f44a77/nunit-console-runner.pdb
-drwxr-xr-x	root/root	usr/lib/mono/gac/nunit.core.extensions/
-drwxr-xr-x	root/root	usr/lib/mono/gac/nunit.core.extensions/2.4.8.0__96d09a1eb7f44a77/
--rw-r--r--	root/root	usr/lib/mono/gac/nunit.core.extensions/2.4.8.0__96d09a1eb7f44a77/nunit.core.extensions.dll
--rw-r--r--	root/root	usr/lib/mono/gac/nunit.core.extensions/2.4.8.0__96d09a1eb7f44a77/nunit.core.extensions.pdb
-drwxr-xr-x	root/root	usr/lib/mono/gac/nunit.core.interfaces/
-drwxr-xr-x	root/root	usr/lib/mono/gac/nunit.core.interfaces/2.4.8.0__96d09a1eb7f44a77/
--rw-r--r--	root/root	usr/lib/mono/gac/nunit.core.interfaces/2.4.8.0__96d09a1eb7f44a77/nunit.core.interfaces.dll
--rw-r--r--	root/root	usr/lib/mono/gac/nunit.core.interfaces/2.4.8.0__96d09a1eb7f44a77/nunit.core.interfaces.pdb
-drwxr-xr-x	root/root	usr/lib/mono/gac/nunit.core/
-drwxr-xr-x	root/root	usr/lib/mono/gac/nunit.core/2.4.8.0__96d09a1eb7f44a77/
--rw-r--r--	root/root	usr/lib/mono/gac/nunit.core/2.4.8.0__96d09a1eb7f44a77/nunit.core.dll
--rw-r--r--	root/root	usr/lib/mono/gac/nunit.core/2.4.8.0__96d09a1eb7f44a77/nunit.core.pdb
-drwxr-xr-x	root/root	usr/lib/mono/gac/nunit.framework.extensions/
-drwxr-xr-x	root/root	usr/lib/mono/gac/nunit.framework.extensions/2.4.8.0__96d09a1eb7f44a77/
--rw-r--r--	root/root	usr/lib/mono/gac/nunit.framework.extensions/2.4.8.0__96d09a1eb7f44a77/nunit.framework.extensions.dll
--rw-r--r--	root/root	usr/lib/mono/gac/nunit.framework.extensions/2.4.8.0__96d09a1eb7f44a77/nunit.framework.extensions.pdb
-drwxr-xr-x	root/root	usr/lib/mono/gac/nunit.framework/
-drwxr-xr-x	root/root	usr/lib/mono/gac/nunit.framework/2.4.8.0__96d09a1eb7f44a77/
--rw-r--r--	root/root	usr/lib/mono/gac/nunit.framework/2.4.8.0__96d09a1eb7f44a77/nunit.framework.dll
--rw-r--r--	root/root	usr/lib/mono/gac/nunit.framework/2.4.8.0__96d09a1eb7f44a77/nunit.framework.pdb
-drwxr-xr-x	root/root	usr/lib/mono/gac/nunit.mocks/
-drwxr-xr-x	root/root	usr/lib/mono/gac/nunit.mocks/2.4.8.0__96d09a1eb7f44a77/
--rw-r--r--	root/root	usr/lib/mono/gac/nunit.mocks/2.4.8.0__96d09a1eb7f44a77/nunit.mocks.dll
--rw-r--r--	root/root	usr/lib/mono/gac/nunit.mocks/2.4.8.0__96d09a1eb7f44a77/nunit.mocks.pdb
-drwxr-xr-x	root/root	usr/lib/mono/gac/nunit.util/
-drwxr-xr-x	root/root	usr/lib/mono/gac/nunit.util/2.4.8.0__96d09a1eb7f44a77/
--rw-r--r--	root/root	usr/lib/mono/gac/nunit.util/2.4.8.0__96d09a1eb7f44a77/nunit.util.dll
--rw-r--r--	root/root	usr/lib/mono/gac/nunit.util/2.4.8.0__96d09a1eb7f44a77/nunit.util.pdb
 drwxr-xr-x	root/root	usr/lib/mono/lldb/
 -rw-r--r--	root/root	usr/lib/mono/lldb/mono.py
 drwxr-xr-x	root/root	usr/lib/mono/mono-configuration-crypto/
@@ -3384,7 +3331,10 @@ lrwxrwxrwx	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/Microsoft.CodeAnaly
 -rwxr-xr-x	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/Microsoft.Managed.Core.targets
 -rwxr-xr-x	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/Microsoft.VisualBasic.Core.targets
 lrwxrwxrwx	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/System.Collections.Immutable.dll -> ../../../../4.5/System.Collections.Immutable.dll
+lrwxrwxrwx	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/System.Memory.dll -> ../../../../4.5/System.Memory.dll
 lrwxrwxrwx	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/System.Reflection.Metadata.dll -> ../../../../4.5/System.Reflection.Metadata.dll
+lrwxrwxrwx	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/System.Runtime.CompilerServices.Unsafe.dll -> ../../../../4.5/System.Runtime.CompilerServices.Unsafe.dll
+lrwxrwxrwx	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/System.Threading.Tasks.Extensions.dll -> ../../../../4.5/System.Threading.Tasks.Extensions.dll
 lrwxrwxrwx	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/VBCSCompiler.exe -> ../../../../4.5/VBCSCompiler.exe
 lrwxrwxrwx	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/VBCSCompiler.exe.config -> ../../../../4.5/VBCSCompiler.exe.config
 lrwxrwxrwx	root/root	usr/lib/mono/msbuild/Current/bin/Roslyn/csc.exe -> ../../../../4.5/csc.exe
@@ -3562,7 +3512,6 @@ drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/mono-2.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/mono-cairo.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/mono-lineeditor.pc
--rw-r--r--	root/root	usr/lib/pkgconfig/mono-nunit.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/mono-options.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/mono.pc
 -rw-r--r--	root/root	usr/lib/pkgconfig/monodoc.pc

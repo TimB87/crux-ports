@@ -801,11 +801,11 @@ f:8558478ab97e3f284c695bc4f007f819:p5-mro-compat/Pkgfile
 f:543ea3060e84a93c0347e0f5bf954705:p5-xml-libxslt/.signature
 f:fe18fddb361df2ad7e9869f70379971c:p5-xml-libxslt/.footprint
 f:2adcddfa73d9a40687bd4a65b7945c8b:p5-xml-libxslt/Pkgfile
-f:10c46dd0943d2757ed183261ec7e1729:pkgconf/.signature
+f:027ff2b3d18d7a719f9298793960e160:pkgconf/.signature
 f:d98e4d525fbb4ed5e710b505ad82faa7:pkgconf/.footprint
 f:0176494ed903b480d67bdda0243ad961:pkgconf/.md5sum
 f:b48544e12aa25823235c48bfdef29ed6:pkgconf/README
-f:07e6ae5a8f15414c4b7e8469e11fcaee:pkgconf/Pkgfile
+f:1f711cd48015a3352a3478c075fe7097:pkgconf/Pkgfile
 f:48ecc2c5daaa91d3d331f5b4346c01d9:pkgconf/platform-pkg-config.in
 f:2f3b8e429aabef3eb120a2d81eba03dd:p5-params-validationcompiler/.signature
 f:14d002e967d8e91d23d2a41dce643438:p5-params-validationcompiler/.footprint

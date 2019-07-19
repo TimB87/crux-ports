@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwG0IjeD3QGYSChm/GMUILWTjtopGKs4LOLpBd/JX/+o2e6ATpwBGqdIV0b6sx4MletgFj1VzPac73fLNlkeLCgg=
-SHA256 (Pkgfile) = 93b0281ddf4297dc0ee2cc4b0ceca25e4859634dfc0c09f9a25e8d3ef8a806fb
-SHA256 (.footprint) = e559ba0cc0745c3c17191dd5abb945c60134b6b4de68ce623e2d2d0f147df445
-SHA256 (ConsoleKit2-1.2.1.tar.bz2) = 9af223096ece88b217bcd3fe85093390a8d1527b6492124b0e90ea7688ec934b
-SHA256 (ck-sysdeps-linux.c.patch) = ffa2717f0741b94aed4f810fbec4b51198bbf16032d8f4da10d8487ab2b36ef9

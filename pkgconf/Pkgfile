@@ -4,7 +4,7 @@
 # Depends on:
 
 name=pkgconf
-version=1.6.1
+version=1.6.3
 release=1
 source=(https://git.dereferenced.org/pkgconf/pkgconf/archive/$name-$version.tar.gz platform-pkg-config.in)
 

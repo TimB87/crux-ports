@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwMpmCjbw7erApn7ffK+BAymCURBKoMeznTPZoeygz53zWrtFjAeUwL72Zxckcd9Se5LUpMLqHMRTGiECCazjeQs=
-SHA256 (Pkgfile) = a9cea4135b6bf22787ec4cf0be2438e9859bc7f93d330ed6f297abf4629cb7dc
+RWSXjYMPO7mZwOXW1ZbY5yT9PnCReTMhBiZUxtkREetWffjiayGv13n+pEecIn9ShViUDLTN6FgeWu2RPP/N2rHoSaPPmOl/sg4=
+SHA256 (Pkgfile) = 4e2d969055b2b69a9b1e2d8b57f7a5d639f32dfc4df9b969fdd9bd1561c4c6ad
 SHA256 (.footprint) = 3d65b29ee2db66c54d94e8c50eef1288af287db421928764f531465312e22e49
-SHA256 (pkgconf-1.6.1.tar.gz) = 736494ae9e6222f56ab2fdc3346f78a3b76cadf0e8d6ea8308ee7245ccd7b894
+SHA256 (pkgconf-1.6.3.tar.gz) = 5bfd1bb224dd604805c0315920162de7d6224620ee57759bd2d914c9df277acb
 SHA256 (platform-pkg-config.in) = 7c61338fbd83f9783d805c2f2f97b426977895a2f4b79e0ae5bc8e9d7996edaa

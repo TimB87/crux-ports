@@ -5,7 +5,7 @@
 
 name=arc-kde-theme
 version=20180614
-release=1
+release=2
 source=(https://github.com/PapirusDevelopmentTeam/arc-kde/archive/$version/$name-$version.tar.gz
 https://github.com/PapirusDevelopmentTeam/arc-kde/commit/ebe4ed6bd17b2fdb8c17e3784e913e12c6b325d5.patch
 https://github.com/PapirusDevelopmentTeam/arc-kde/commit/b7b7f6d60ed2b19ba9822418c2d43fbcf27c5245.patch)
@@ -20,4 +20,5 @@ build() {
   cp -r color-schemes $PKG/usr/share
   cp -r konsole $PKG/usr/share
   cp -r yakuake $PKG/usr/share
+  find $PKG -iname AUTHORS -delete
 }

@@ -3,7 +3,6 @@ drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/aurorae/
 drwxr-xr-x	root/root	usr/share/aurorae/themes/
 drwxr-xr-x	root/root	usr/share/aurorae/themes/Arc-Dark/
--rw-r--r--	root/root	usr/share/aurorae/themes/Arc-Dark/AUTHORS
 -rw-r--r--	root/root	usr/share/aurorae/themes/Arc-Dark/Arc-Darkrc
 -rw-r--r--	root/root	usr/share/aurorae/themes/Arc-Dark/LICENSE
 -rw-r--r--	root/root	usr/share/aurorae/themes/Arc-Dark/alldesktops.svg
@@ -16,7 +15,6 @@ drwxr-xr-x	root/root	usr/share/aurorae/themes/Arc-Dark/
 -rw-r--r--	root/root	usr/share/aurorae/themes/Arc-Dark/minimize.svg
 -rw-r--r--	root/root	usr/share/aurorae/themes/Arc-Dark/shade.svg
 drwxr-xr-x	root/root	usr/share/aurorae/themes/Arc/
--rw-r--r--	root/root	usr/share/aurorae/themes/Arc/AUTHORS
 -rw-r--r--	root/root	usr/share/aurorae/themes/Arc/Arcrc
 -rw-r--r--	root/root	usr/share/aurorae/themes/Arc/LICENSE
 -rw-r--r--	root/root	usr/share/aurorae/themes/Arc/alldesktops.svg
@@ -37,7 +35,6 @@ drwxr-xr-x	root/root	usr/share/konsole/
 drwxr-xr-x	root/root	usr/share/plasma/
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/Arc-Color/
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/Arc-Color/AUTHORS
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/Arc-Color/LICENSE
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/Arc-Color/dialogs/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/Arc-Color/dialogs/background.svg
@@ -138,7 +135,6 @@ drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/Arc-Color/widgets/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/Arc-Color/widgets/tooltip.svg
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/Arc-Color/widgets/viewitem.svg
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/Arc-Dark/
--rw-r--r--	root/root	usr/share/plasma/desktoptheme/Arc-Dark/AUTHORS
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/Arc-Dark/LICENSE
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/Arc-Dark/colors
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/Arc-Dark/dialogs/
@@ -249,7 +245,6 @@ drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/Arc-Dark/widgets/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/Arc-Dark/widgets/viewitem.svg
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/com.github.varlesh.arc-dark/
--rw-r--r--	root/root	usr/share/plasma/look-and-feel/com.github.varlesh.arc-dark/AUTHORS
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/com.github.varlesh.arc-dark/LICENSE
 drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/com.github.varlesh.arc-dark/contents/
 -rw-r--r--	root/root	usr/share/plasma/look-and-feel/com.github.varlesh.arc-dark/contents/defaults
@@ -266,7 +261,6 @@ drwxr-xr-x	root/root	usr/share/plasma/look-and-feel/com.github.varlesh.arc-dark/
 drwxr-xr-x	root/root	usr/share/yakuake/
 drwxr-xr-x	root/root	usr/share/yakuake/skins/
 drwxr-xr-x	root/root	usr/share/yakuake/skins/arc-dark/
--rw-r--r--	root/root	usr/share/yakuake/skins/arc-dark/AUTHORS
 -rw-r--r--	root/root	usr/share/yakuake/skins/arc-dark/LICENSE
 -rw-r--r--	root/root	usr/share/yakuake/skins/arc-dark/icon.png
 -rw-r--r--	root/root	usr/share/yakuake/skins/arc-dark/tabs.skin
@@ -296,7 +290,6 @@ drwxr-xr-x	root/root	usr/share/yakuake/skins/arc-dark/title/
 -rw-r--r--	root/root	usr/share/yakuake/skins/arc-dark/title/quit_up.png
 -rw-r--r--	root/root	usr/share/yakuake/skins/arc-dark/title/right_tr.png
 drwxr-xr-x	root/root	usr/share/yakuake/skins/arc/
--rw-r--r--	root/root	usr/share/yakuake/skins/arc/AUTHORS
 -rw-r--r--	root/root	usr/share/yakuake/skins/arc/LICENSE
 -rw-r--r--	root/root	usr/share/yakuake/skins/arc/icon.png
 -rw-r--r--	root/root	usr/share/yakuake/skins/arc/tabs.skin

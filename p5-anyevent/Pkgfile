@@ -4,7 +4,7 @@
 # Depends on:
 
 name=p5-anyevent
-version=7.15
+version=7.16
 release=1
 source=(http://search.cpan.org/CPAN/authors/id/M/ML/MLEHMANN/AnyEvent-$version.tar.gz)
 

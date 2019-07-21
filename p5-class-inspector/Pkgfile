@@ -4,8 +4,8 @@
 # Depends on:
 
 name=p5-class-inspector
-version=1.34
-release=2
+version=1.36
+release=1
 source=(http://search.cpan.org/CPAN/authors/id/P/PL/PLICEASE/Class-Inspector-$version.tar.gz)
 
 build() {

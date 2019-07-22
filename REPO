@@ -701,13 +701,12 @@ f:1db03760c313831870e327b392da083f:colm/Pkgfile
 f:5015095c3af013c23b5b3712ebb31396:p5-module-runtime/.signature
 f:ffe52015e92da7e938e938a5169b8bee:p5-module-runtime/.footprint
 f:a68b3844abd50823ec1aff446c79cb4c:p5-module-runtime/Pkgfile
-f:afbf75622e244e498e21ef27aa8218b8:networkmanager/.signature
+f:a7b8b8ae0030c04a1574034222abf603:networkmanager/.signature
 f:8959cd1832461aa0255c3a42fbc5b52f:networkmanager/networkmanager.rc
-f:3746d7dcabbae93d842c9a1b73f6b939:networkmanager/disable_wifi_scan_when_connected.patch
-f:d7521fbf24bfda9ec883685a6f9f7fb6:networkmanager/.footprint
+f:e0e211d866df936d82d0ab029e6bfea9:networkmanager/.footprint
 f:4a6fd05ae47bb208f58799b4e4e41745:networkmanager/polkit.conf
 f:8ccd2b552400bd31556e038d0c7308b6:networkmanager/README
-f:41c0221b69d777c467c21d2af5ce56fa:networkmanager/Pkgfile
+f:81688f781d7f6b316a288d3d57e73d5d:networkmanager/Pkgfile
 f:1653159d6634fb62d3a5c548b7a56151:networkmanager/NetworkManager.conf
 f:3a7fb4b8ff084c1ccfaeb16e1650c574:networkmanager/org.freedesktop.NetworkManager.rules
 f:b722fa02f904a9c8ed0d2ec21cbfc588:networkmanager/dhcp.conf

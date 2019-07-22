@@ -5,7 +5,7 @@
 # Optional: ppp avahi bash-completion dbus libnl jansson libteam dnsmasq
 
 name=networkmanager
-version=1.19.2
+version=1.19.5
 release=1
 source=(
 http://ftp.gnome.org/pub/gnome/sources/NetworkManager/${version%.*}/NetworkManager-${version}.tar.xz
@@ -14,13 +14,11 @@ NetworkManager.conf
 polkit.conf
 dhcp.conf
 org.freedesktop.NetworkManager.rules
-disable_wifi_scan_when_connected.patch
 )
 
 build() {
   cd NetworkManager-$version
 
-  #patch -Np1 -i ../disable_wifi_scan_when_connected.patch
   sed '/initrd/d' -i src/meson.build
 
   mkdir build

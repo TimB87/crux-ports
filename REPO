@@ -47,7 +47,6 @@ d:sc-controller
 d:g13
 d:zsh
 d:p5-io-socket-ssl
-d:php-fcgi
 d:php-pgsql
 d:p5-file-slurp-tiny
 d:libmaxminddb
@@ -62,7 +61,6 @@ d:gnome-keyring
 d:p5-try-tiny
 d:p5-datetime-locale
 d:dunst
-d:php-gd
 d:p5-ffi-checklib
 d:highlight
 d:p5-datetime-calendar-julian
@@ -149,7 +147,6 @@ d:python3-pyudev
 d:p5-extutils-libbuilder
 d:p5-www-robotrules
 d:i3-gaps
-d:php
 d:p5-cgi
 d:v4l-utils
 d:p5-log-log4perl
@@ -205,7 +202,6 @@ d:kvantum-theme-arc
 d:bluez5
 d:p5-perlio-utf8-strict
 d:papirus-folders
-d:php-fpm
 d:p5-data-uniqid
 d:solaar
 d:p5-eval-closure
@@ -216,7 +212,6 @@ d:p5-html-parser
 d:p5-sort-key
 d:p5-json-xs
 d:murmur
-d:php-sqlite3
 d:gnome-common
 d:p5-file-which
 d:distcc
@@ -392,10 +387,6 @@ f:bbcef882147da9000691b07ac61c1b6b:zsh/zsh-lovers.1
 f:a33bb734099e432a6939267609e3653d:p5-io-socket-ssl/.signature
 f:b6c8449c634a01c8ff71d2e7ecaaf4bb:p5-io-socket-ssl/.footprint
 f:4080921c0ea5e755ebe6d60c8f52aaa7:p5-io-socket-ssl/Pkgfile
-f:efdf7212e349e8ae49abff602855f652:php-fcgi/.signature
-f:21c66e60355e55b678ae4c6bcc84ee3b:php-fcgi/.footprint
-f:cdaab91680ba17cbf31b21d1b64dcd6a:php-fcgi/php-fcgi
-f:7e455339c1c07ada2687a734dc22f620:php-fcgi/Pkgfile
 f:c90c7a1d09a074ad6f9ba4d1fddd5c23:php-pgsql/.signature
 f:4bcff8c2fae56f50bf50bb9a3211205e:php-pgsql/.footprint
 f:e16aa8dd6b9daa5a55e1cdbf3cbda69a:php-pgsql/Pkgfile
@@ -440,9 +431,6 @@ f:9999109756b3a585074bec97a7617bb5:p5-datetime-locale/Pkgfile
 f:da480b92b2b82db8fb69c14efafe6295:dunst/.signature
 f:94b07bc9dc42628b6a6efff99110ac22:dunst/.footprint
 f:53ffb30d0e4ee1858191188c5ed0620e:dunst/Pkgfile
-f:acded374e4ae5247b14a43ddb7aa27ea:php-gd/.signature
-f:2e9563e73147712cc7d7ddb8d3567f44:php-gd/.footprint
-f:94becda6cd83da8c30d475ee1772439b:php-gd/Pkgfile
 f:973f5452c4d6aa8fd6d5c34fb78545ab:p5-ffi-checklib/.signature
 f:1d6722024afe143d9bc9faa624495397:p5-ffi-checklib/.footprint
 f:573c3a916bf7e7b335edec0eb2383be6:p5-ffi-checklib/Pkgfile
@@ -728,9 +716,6 @@ f:348df352e386c829ffaa4fa60f79427f:i3-gaps/.signature
 f:7c7cb96e3b0f7fba48506efe109a4753:i3-gaps/.footprint
 f:a89245058732b01796d0ce1e2279fb00:i3-gaps/.nostrip
 f:c8599563d1a6a63bf57be3b8bf975633:i3-gaps/Pkgfile
-f:e1361ab510f480999c4784bc5d410e97:php/.signature
-f:3ac8cc7f69dd896264937d86f74c58b9:php/.footprint
-f:085cceb74b49be6b93ff141b10332e5d:php/Pkgfile
 f:d9b884543f0d005f41d1f669923c0bc4:p5-cgi/.signature
 f:217bf0746f6d8a02306d8ee33b6198ef:p5-cgi/.footprint
 f:7e8cb1a946493e56ce8a5c4d8f7c38c7:p5-cgi/Pkgfile
@@ -909,10 +894,6 @@ f:e59c22fbc5f63372c34fbf55da3c6a00:p5-perlio-utf8-strict/Pkgfile
 f:7977a4fe24604752c5ba5cd07b8f4356:papirus-folders/.signature
 f:73c4057599cee9a577d75785c54cc008:papirus-folders/.footprint
 f:4cde461e775fac5aed0ef4c8e324ee3b:papirus-folders/Pkgfile
-f:7e0676fca6fbcb9aa9be6c23dea5955e:php-fpm/.signature
-f:5fdeeb4e93c5a496b7ece09d4a996d47:php-fpm/.footprint
-f:d34bbe3f6b85b1816d5846adc3175ff8:php-fpm/Pkgfile
-f:954d95b7f645f3435815195aeeac6949:php-fpm/php-fpm
 f:bf8534a80ad9eb6093c15b9fb5102428:p5-data-uniqid/.signature
 f:83b048b55b141f5c6ab21c7f63adf396:p5-data-uniqid/.footprint
 f:2e0cd6438744e95bdf3190253e9c3999:p5-data-uniqid/Pkgfile
@@ -945,9 +926,6 @@ f:99fa44acfdccf900f090869f7bb38e82:murmur/.footprint
 f:965e987425897c501409a1d7a916299d:murmur/Pkgfile
 f:e72ca7bc42fe99f9de8fd97d1e1572ba:murmur/pre-install
 f:4014d548fa3a400a75ebd3fb26b90316:murmur/murmur
-f:c3515342e8a868731f8f2e6ff6f92349:php-sqlite3/.signature
-f:eac17d2d7f43e31ab3bb1bc703a254e8:php-sqlite3/.footprint
-f:cbe07ea0ea02d4de85dd8f6988399a76:php-sqlite3/Pkgfile
 f:27c2198c74288abb709ebab5a76105c2:gnome-common/.signature
 f:3ef5f1d63964dbd2af941fb5a56f4b79:gnome-common/.footprint
 f:dd639c4f8c30e20a96e3ed5e65ee623a:gnome-common/Pkgfile

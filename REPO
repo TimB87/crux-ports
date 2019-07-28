@@ -272,9 +272,9 @@ f:d5cd8bd3e623379c0d858c2003a3a0e2:xdg-desktop-portal-gtk/Pkgfile
 f:d195851121c6bb365290555d9e307fa2:python3-pybluez/.signature
 f:84826ee1262e9316a5fd312c4013963e:python3-pybluez/.footprint
 f:8d1d4989429c01c8a4cfc520cb9b8a11:python3-pybluez/Pkgfile
-f:d3a1ee4722f28d59b02bf731358e3f32:mpd-mpris/.signature
+f:93965223494139c9d01403b7785f9480:mpd-mpris/.signature
 f:3affd17c6800f03eba2ba2b0e22490f2:mpd-mpris/.footprint
-f:d603967893655ff7f2e561b80a98980f:mpd-mpris/Pkgfile
+f:232acf3887860165200aff18baed65c1:mpd-mpris/Pkgfile
 f:24f1f8c9890df39fd8458a80404dee10:fcgi/.signature
 f:bea2d2d548512be2d42a8165c09aa29c:fcgi/.footprint
 f:8c07165aed574b853326ae25fe9af291:fcgi/fcgi-2.4.0-Makefile.am-CPPFLAGS.patch
@@ -897,9 +897,9 @@ f:4cde461e775fac5aed0ef4c8e324ee3b:papirus-folders/Pkgfile
 f:bf8534a80ad9eb6093c15b9fb5102428:p5-data-uniqid/.signature
 f:83b048b55b141f5c6ab21c7f63adf396:p5-data-uniqid/.footprint
 f:2e0cd6438744e95bdf3190253e9c3999:p5-data-uniqid/Pkgfile
-f:acbb2a3a4ee7ee7379af9a73fcaad02d:solaar/.signature
-f:b627c2993036d22c92a79ad536c726ab:solaar/.footprint
-f:93e1a7111aefe48fa24722df82e938b5:solaar/Pkgfile
+f:551c0c873cc8d32704794fcf8ef82d53:solaar/.signature
+f:9da3ed5bd9d03ebe882ad35a84f7e6d1:solaar/.footprint
+f:bffa427f73f574806b903225264a2552:solaar/Pkgfile
 f:d9b4eeaf351a4980f1be649065160ba6:p5-eval-closure/.signature
 f:c37975e9b976dc4ee02d4741bfc4d399:p5-eval-closure/.footprint
 f:7cb7166f57d7cf2841484edd071e0a46:p5-eval-closure/Pkgfile

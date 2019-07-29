@@ -4,8 +4,8 @@
 # Depends on: gtk libetpan gpgme gnutls libical networkmanager
 
 name=claws-mail
-version=3.17.3
-release=3
+version=3.17.4
+release=1
 source=(http://www.claws-mail.org/releases/$name-$version.tar.xz)
 
 build() {

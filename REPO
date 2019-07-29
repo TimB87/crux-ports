@@ -479,10 +479,10 @@ f:70ac91bfe18e75138bad425fbfd9426a:p5-params-validate/Pkgfile
 f:5fe6c509061ef43da739dfa9d835f7f2:mono/.signature
 f:388a1d82474593acf7757054fd106f72:mono/.footprint
 f:548a1bd406c255c5e731130d4b379346:mono/Pkgfile
-f:833da839392c5be26bb999a3a0261574:claws-mail/.signature
+f:b3e9000bbd7e9952e47ffd02fceb7d63:claws-mail/.signature
 f:5107e3f5e3bd7aa88ca9bd860c386465:claws-mail/.footprint
 f:a3818f288bd275c694fa5ea9819747e1:claws-mail/README
-f:919272e246568acf5dcb5c28f75d62b1:claws-mail/Pkgfile
+f:869f377af99d8e6f901b68959f697298:claws-mail/Pkgfile
 f:b24ae462742132f4c5d6baae689a350a:python-psutil/.signature
 f:cd7e6758c7b882903e5040f5f9a6edcc:python-psutil/.footprint
 f:ef2410c0571e6de4ee631969a947bb7b:python-psutil/Pkgfile
@@ -661,9 +661,9 @@ f:b640101c99ca05d02fbae1974f00ab31:light-locker/.signature
 f:24acd60ec47339feb2e9a951b9c06a13:light-locker/.footprint
 f:c12cca3ec32b9d4941f53c72a0e368bc:light-locker/Pkgfile
 f:e62427f53fea4bc79ee8bc158832a8f6:tb.pub
-f:5f850b3b81773723d98df55998bc31ab:font-awesome/.signature
+f:0abd8e061fadf8a396223f08bdf751ca:font-awesome/.signature
 f:66cae75bb029a755b80f0968f88a0b94:font-awesome/.footprint
-f:56305dc6d92cc6a0935361acc3d06d95:font-awesome/Pkgfile
+f:ac62c19d48bbf0629431e18df0952d28:font-awesome/Pkgfile
 f:ca5157b9d55142955edaf51f67aff19c:papirus-libreoffice-theme/.signature
 f:32e46505d0a1032c2655d5a14fbcc265:papirus-libreoffice-theme/.footprint
 f:2437e2834d4abde8612ba14ece235458:papirus-libreoffice-theme/Pkgfile

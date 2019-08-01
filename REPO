@@ -387,9 +387,9 @@ f:bbcef882147da9000691b07ac61c1b6b:zsh/zsh-lovers.1
 f:a33bb734099e432a6939267609e3653d:p5-io-socket-ssl/.signature
 f:b6c8449c634a01c8ff71d2e7ecaaf4bb:p5-io-socket-ssl/.footprint
 f:4080921c0ea5e755ebe6d60c8f52aaa7:p5-io-socket-ssl/Pkgfile
-f:c90c7a1d09a074ad6f9ba4d1fddd5c23:php-pgsql/.signature
+f:5f72a17a8351205da24cfa4112aaacd2:php-pgsql/.signature
 f:4bcff8c2fae56f50bf50bb9a3211205e:php-pgsql/.footprint
-f:e16aa8dd6b9daa5a55e1cdbf3cbda69a:php-pgsql/Pkgfile
+f:9052e77a4f01b89030f0ae4149fdbefa:php-pgsql/Pkgfile
 f:9d9e0886a86cce39727ec4b4edfea1c3:p5-file-slurp-tiny/.signature
 f:f1ea28f7b261e76dd0d9dd00a33097cc:p5-file-slurp-tiny/.footprint
 f:c1501d9bfdff215188a036eb18ddaaed:p5-file-slurp-tiny/Pkgfile
@@ -866,9 +866,9 @@ f:f000a8a55ec33f8fb4fcdf0289548496:font-noto/.signature
 f:ecb06f374fcf9a58e9fc2773d8cabf28:font-noto/.footprint
 f:db47bc9b9c086239c4d86d4a5bc5db38:font-noto/README
 f:abb2be845e798e1140314f666def496d:font-noto/Pkgfile
-f:ed86757c6de3dff5c29c4b494c99c260:acpi/.signature
+f:246728e1f71d9470bbe726f5f174f1dd:acpi/.signature
 f:3783ddd1a1bab952dc8166225349052a:acpi/.footprint
-f:ca3a9f939123b2eed715b53c746ecbf4:acpi/Pkgfile
+f:d3524b5a5ba80ec9244208cf347299d7:acpi/Pkgfile
 f:0baecb459874f08a417d8d25cd99e8b8:p5-http-cookies/.signature
 f:36d04ebf53810468cc34e1d44476d6b5:p5-http-cookies/.footprint
 f:aedf62fcd33e6ee7b41c53de58f56544:p5-http-cookies/Pkgfile
@@ -940,9 +940,9 @@ f:061c47e951d17d9c9e2f159db366a43d:distcc/distccd
 f:64dcce3b80b330596995e953bc8d8ecf:fuse-exfat/.signature
 f:b967b19a19a6a6733801af3bc60ad391:fuse-exfat/.footprint
 f:50ffc0e0afc98c38261aa02a6a68cc9d:fuse-exfat/Pkgfile
-f:dacb04e52b848f8df1c95a523defad58:php-intl/.signature
+f:572e13ac9bcaddf8578e7a175b846bc8:php-intl/.signature
 f:c5157587e260c79d378428d7424a96c2:php-intl/.footprint
-f:1da8cef1aef0df41726278bc1e90ffee:php-intl/Pkgfile
+f:d1f2824ca57b4c29369f49c1e1c944e0:php-intl/Pkgfile
 f:7cacf86db864438b25643a10f4872ddf:papirus-filezilla-theme/.signature
 f:ce0cdff35871135338e70dce399b26b1:papirus-filezilla-theme/.footprint
 f:9932c95f5b6779e2cf64cf24c5f04b26:papirus-filezilla-theme/Pkgfile

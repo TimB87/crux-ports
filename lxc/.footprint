@@ -49,8 +49,8 @@ drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/liblxc.a
 -rwxr-xr-x	root/root	usr/lib/liblxc.la
 lrwxrwxrwx	root/root	usr/lib/liblxc.so -> liblxc.so.1
-lrwxrwxrwx	root/root	usr/lib/liblxc.so.1 -> liblxc.so.1.5.0
--rwxr-xr-x	root/root	usr/lib/liblxc.so.1.5.0
+lrwxrwxrwx	root/root	usr/lib/liblxc.so.1 -> liblxc.so.1.6.0
+-rwxr-xr-x	root/root	usr/lib/liblxc.so.1.6.0
 drwxr-xr-x	root/root	usr/lib/lxc/
 drwxr-xr-x	root/root	usr/lib/lxc/hooks/
 -rwxr-xr-x	root/root	usr/lib/lxc/hooks/unmount-namespace

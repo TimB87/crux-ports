@@ -434,9 +434,9 @@ f:53ffb30d0e4ee1858191188c5ed0620e:dunst/Pkgfile
 f:973f5452c4d6aa8fd6d5c34fb78545ab:p5-ffi-checklib/.signature
 f:1d6722024afe143d9bc9faa624495397:p5-ffi-checklib/.footprint
 f:573c3a916bf7e7b335edec0eb2383be6:p5-ffi-checklib/Pkgfile
-f:8df61a73de186b67b2f2f2c0cff54d71:highlight/.signature
-f:f33b2e745f9df578005f2a7958939055:highlight/.footprint
-f:312827a358f44579417a1c38ed5ef105:highlight/Pkgfile
+f:36da14bfc83abfc213a62fb224e94c4b:highlight/.signature
+f:aaed406e35e763c7df59952e740832ec:highlight/.footprint
+f:25894e2de8723285f226abcc8d153e37:highlight/Pkgfile
 f:ff46cfcc702250adae71af79d90b9fa6:p5-datetime-calendar-julian/.signature
 f:e4e18476fded1a63a5404e057a4589fe:p5-datetime-calendar-julian/.footprint
 f:12326300e9eeeffd9442124d73e9799d:p5-datetime-calendar-julian/Pkgfile

@@ -5,7 +5,7 @@
 # Depends on:  lua boost
 
 name=highlight
-version=3.52
+version=3.53
 release=1
 source=(http://www.andre-simon.de/zip/$name-$version.tar.bz2)
 

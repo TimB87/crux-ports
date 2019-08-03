@@ -82,6 +82,7 @@ drwxr-xr-x	root/root	usr/share/highlight/langDefs/
 -rw-r--r--	root/root	usr/share/highlight/langDefs/fame.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/fasm.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/felix.lang
+-rw-r--r--	root/root	usr/share/highlight/langDefs/fish.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/fortran77.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/fortran90.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/frink.lang
@@ -131,9 +132,9 @@ drwxr-xr-x	root/root	usr/share/highlight/langDefs/
 -rw-r--r--	root/root	usr/share/highlight/langDefs/luban.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/make.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/maple.lang
+-rw-r--r--	root/root	usr/share/highlight/langDefs/markdown.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/matlab.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/maya.lang
--rw-r--r--	root/root	usr/share/highlight/langDefs/md.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/mercury.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/meson.lang
 -rw-r--r--	root/root	usr/share/highlight/langDefs/miranda.lang

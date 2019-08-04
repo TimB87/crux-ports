@@ -1,12 +1,12 @@
 # Description: JSON (JavaScript Object Notation) encoder/decoder
-# URL: https://search.cpan.org/dist/JSON
+# URL: https://cpan.metacpan.org/dist/JSON
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on:
 
 name=p5-json
 version=4.02
 release=1
-source=(https://search.cpan.org/CPAN/authors/id/I/IS/ISHIGAKI/JSON-$version.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/I/IS/ISHIGAKI/JSON-$version.tar.gz)
 
 build() {
   cd JSON-$version

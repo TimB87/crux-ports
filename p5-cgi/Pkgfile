@@ -6,7 +6,7 @@
 name=p5-cgi
 version=4.44
 release=1
-source=(http://search.cpan.org/CPAN/authors/id/L/LE/LEEJO/CGI-$version.tar.gz)
+source=(https://search.cpan.org/CPAN/authors/id/L/LE/LEEJO/CGI-$version.tar.gz)
 
 build() {
   cd CGI-$version

@@ -6,7 +6,7 @@
 name=p5-mozilla-ca
 version=20180117
 release=1
-source=(https://search.cpan.org/CPAN/authors/id/A/AB/ABH/Mozilla-CA-$version.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/A/AB/ABH/Mozilla-CA-$version.tar.gz)
 
 build() {
   cd Mozilla-CA-$version

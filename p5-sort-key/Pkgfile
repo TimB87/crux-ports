@@ -6,7 +6,7 @@
 name=p5-sort-key
 version=1.33
 release=1
-source=(https://search.cpan.org/CPAN/authors/id/S/SA/SALVA/Sort-Key-$version.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/S/SA/SALVA/Sort-Key-$version.tar.gz)
 
 build() {
   cd Sort-Key-$version

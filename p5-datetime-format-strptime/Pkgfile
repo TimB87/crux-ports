@@ -1,12 +1,12 @@
 # Description: Parse and Format DateTimes using Strptime
-# URL: https://search.cpan.org/dist/DateTime-Format-Strptime
+# URL: https://cpan.metacpan.org/dist/DateTime-Format-Strptime
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: p5-datetime p5-datetime-locale p5-datetime-timezone p5-package-deprecationmanager p5-params-validate
 
 name=p5-datetime-format-strptime
 version=1.75
 release=1
-source=(https://search.cpan.org/CPAN/authors/id/D/DR/DROLSKY/DateTime-Format-Strptime-$version.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-Format-Strptime-$version.tar.gz)
 
 build() {
   cd DateTime-Format-Strptime-$version

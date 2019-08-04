@@ -1,12 +1,12 @@
-# Description: Perl/CPAN Module Test::Exception : Functions for testing exceptionbased code
-# URL: https://search.cpan.org/dist/Test-Exception/
+# Description: Perl Module Test::Exception : Functions for testing exceptionbased code
+# URL: https://cpan.metacpan.org/dist/Test-Exception/
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: p5-sub-uplevel
 
 name=p5-test-exception
 version=0.43
 release=1
-source=(https://search.cpan.org/CPAN/authors/id/E/EX/EXODIST/Test-Exception-$version.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/E/EX/EXODIST/Test-Exception-$version.tar.gz)
 
 build() {
   cd Test-Exception-$version

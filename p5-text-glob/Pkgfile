@@ -1,12 +1,12 @@
 # Description: match globbing patterns against text
-# URL: http://search.mcpan.org/dist/Text-Glob
+# URL: https://search.mcpan.org/dist/Text-Glob
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on:
 
 name=p5-text-glob
 version=0.11
 release=1
-source=(http://search.mcpan.org/CPAN/authors/id/R/RC/RCLAMP/Text-Glob-$version.tar.gz)
+source=(https://search.mcpan.org/CPAN/authors/id/R/RC/RCLAMP/Text-Glob-$version.tar.gz)
 
 build() {
   cd Text-Glob-$version

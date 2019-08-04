@@ -12,7 +12,6 @@ d:p5-io-html
 d:font-powerline
 d:p5-file-sharedir-install
 d:xdotool
-d:p5-xml-sax
 d:xdg-desktop-portal-gtk
 d:python3-pybluez
 d:mpd-mpris
@@ -61,7 +60,6 @@ d:gnome-keyring
 d:p5-try-tiny
 d:p5-datetime-locale
 d:dunst
-d:p5-ffi-checklib
 d:highlight
 d:p5-datetime-calendar-julian
 d:i3status-rust
@@ -84,7 +82,6 @@ d:p5-canary-stability
 d:p5-file-sharedir
 d:moka-icon-theme
 d:p5-regexp-common
-d:p5-alien-libxml2
 d:p5-mozilla-ca
 d:npm
 d:php-imagick
@@ -102,11 +99,8 @@ d:papirus-icon-theme
 d:p5-sub-identify
 d:p5-business-ismn
 d:p5-text-diff
-d:p5-file-chdir
 d:font-ibm-plex
-d:p5-alien-build
 d:faba-icon-theme
-d:p5-sort-versions
 d:p5-test-exception
 d:p5-b-hooks-endofscope
 d:blueman
@@ -124,7 +118,6 @@ d:p5-data-optlist
 d:p5-scalar-list-utils
 d:libical
 d:p5-anyevent
-d:p5-xml-sax-base
 d:p5-class-data-inheritable
 d:pipewire
 d:p5-data-compare
@@ -165,13 +158,11 @@ d:p5-file-slurper
 d:p5-net-http
 d:fail2ban
 d:p5-http-negotiate
-d:p5-capture-tiny
 d:p5-mro-compat
 d:p5-xml-libxslt
 d:pkgconf
 d:p5-params-validationcompiler
 d:libetpan
-d:p5-path-tiny
 d:p5-specio
 d:p5-params-util
 d:ispell
@@ -187,7 +178,6 @@ d:p5-http-daemon
 d:p5-class-factory-util
 d:p5-libwww
 d:davfs2
-d:p5-xml-libxml
 d:gnome-python-desktop
 d:p5-file-find-rule
 d:hunspell-de
@@ -197,7 +187,6 @@ d:acpi
 d:p5-http-cookies
 d:xtitle
 d:rapidjson
-d:p5-xml-namespacesupport
 d:kvantum-theme-arc
 d:bluez5
 d:p5-perlio-utf8-strict
@@ -213,7 +202,6 @@ d:p5-sort-key
 d:p5-json-xs
 d:murmur
 d:gnome-common
-d:p5-file-which
 d:distcc
 d:fuse-exfat
 d:php-intl
@@ -263,9 +251,6 @@ f:831c40410848b4091898caab37da3003:p5-file-sharedir-install/Pkgfile
 f:8ad61f4fd0bccbdb24677d58a3cb6367:xdotool/.signature
 f:7b285dc2bd25228c6f7b8e31af265ef1:xdotool/.footprint
 f:761c79282550141f5eb1a085c67858ca:xdotool/Pkgfile
-f:640d33eda3e1e736ed8a73043dad6b4b:p5-xml-sax/.signature
-f:c585f0bebbfbf00ad572408ab5876e02:p5-xml-sax/.footprint
-f:54c5d77027a8f0d0a3ff75f2d07c30ab:p5-xml-sax/Pkgfile
 f:944e111a1a869410f564f25ecc5c35a2:xdg-desktop-portal-gtk/.signature
 f:dcab9ebde3c07144d207f24cb479d6b7:xdg-desktop-portal-gtk/.footprint
 f:d5cd8bd3e623379c0d858c2003a3a0e2:xdg-desktop-portal-gtk/Pkgfile
@@ -431,9 +416,6 @@ f:0562748f0d5526892fe79cbd251f5120:p5-datetime-locale/Pkgfile
 f:da480b92b2b82db8fb69c14efafe6295:dunst/.signature
 f:94b07bc9dc42628b6a6efff99110ac22:dunst/.footprint
 f:53ffb30d0e4ee1858191188c5ed0620e:dunst/Pkgfile
-f:973f5452c4d6aa8fd6d5c34fb78545ab:p5-ffi-checklib/.signature
-f:1d6722024afe143d9bc9faa624495397:p5-ffi-checklib/.footprint
-f:573c3a916bf7e7b335edec0eb2383be6:p5-ffi-checklib/Pkgfile
 f:36da14bfc83abfc213a62fb224e94c4b:highlight/.signature
 f:aaed406e35e763c7df59952e740832ec:highlight/.footprint
 f:25894e2de8723285f226abcc8d153e37:highlight/Pkgfile
@@ -508,9 +490,6 @@ f:33f1d739db734f219952ecb8e4cfc067:moka-icon-theme/Pkgfile
 f:4b9510a504a597cc92adf857245842d2:p5-regexp-common/.signature
 f:74c8f19eeeeb5a02b4bb2b555fdb3c90:p5-regexp-common/.footprint
 f:174531f8a20e1f3c8fc96e6863bb4838:p5-regexp-common/Pkgfile
-f:312a527b1cff81cea1e3973babe3e50f:p5-alien-libxml2/.signature
-f:69646546c07822f0b0a72aafb6f50ff1:p5-alien-libxml2/.footprint
-f:f8df01b3244959357f6dac7a112beade:p5-alien-libxml2/Pkgfile
 f:17ff4f8bd96ed99116e10808c8df8367:p5-mozilla-ca/.signature
 f:1f93078449cc989b24f020c9b50284b0:p5-mozilla-ca/.footprint
 f:d41a75780444855f88fc21bfc3fba219:p5-mozilla-ca/Pkgfile
@@ -566,22 +545,13 @@ f:e043e5210f4053f29e6c504ea1c7ca28:p5-business-ismn/Pkgfile
 f:7df8ffb8b14c24273b9755c88d228ed6:p5-text-diff/.signature
 f:b51f85aa283c7bcd5a2c268955c09593:p5-text-diff/.footprint
 f:e7cd226f56e7245c1c14a30679fb04b6:p5-text-diff/Pkgfile
-f:3eb29ea4bd96c9183e1596f1945e3072:p5-file-chdir/.signature
-f:4b314df6423559045f77b084234d7c2e:p5-file-chdir/.footprint
-f:ab3969857533c73233ca72f37e8dc3b4:p5-file-chdir/Pkgfile
 f:59d6442827830429ee87cf7de8de620b:font-ibm-plex/.signature
 f:4260234cb5b61d9f1aa4e4f633d28b35:font-ibm-plex/.footprint
 f:98c7e596875803fdd00d95bcddd2f830:font-ibm-plex/Pkgfile
-f:6fa705caf619b62600846bc242fa14f3:p5-alien-build/.signature
-f:d52977e692baf1e9b317c5de5101d87c:p5-alien-build/.footprint
-f:84072220cc04400d32cd5a53a66454f8:p5-alien-build/Pkgfile
 f:8803fb2af0fa5613c26a9fb7bbfe969d:faba-icon-theme/.signature
 f:91c9223c91d86188775cb8a8f13eec96:faba-icon-theme/.footprint
 f:fd0add61aab7fabfc219cde8b6c79a3b:faba-icon-theme/post-install
 f:e19b162d5db6b104a79c3a8345e48d4b:faba-icon-theme/Pkgfile
-f:d3de7f979529f8e01bfa19b558f99e57:p5-sort-versions/.signature
-f:7e29185cd6797dcc16e6e91f498842f8:p5-sort-versions/.footprint
-f:18aabeb84faea558ba5b3a7935e733a6:p5-sort-versions/Pkgfile
 f:92ec5625f5a51013ec9410a390c58594:p5-test-exception/.signature
 f:a1488cad75c645bf535b8aaf9ead694a:p5-test-exception/.footprint
 f:81d22bb3838d0778295b51bd594e7b72:p5-test-exception/Pkgfile
@@ -636,9 +606,6 @@ f:59d6c794ea473d99a5d50ec63b1246b9:libical/Pkgfile
 f:ec212b8825ac0707662965d1ad39f7d9:p5-anyevent/.signature
 f:41942c90322f8a201e8de2cad0261be4:p5-anyevent/.footprint
 f:60c99062752f4b48e14f21736f2bd0ea:p5-anyevent/Pkgfile
-f:5b35ce7c7220fed881911089b864b464:p5-xml-sax-base/.signature
-f:9e31eb679583e11163d1f9f3a11df1ab:p5-xml-sax-base/.footprint
-f:a55f69310d65a909b4ecbdcf89e65354:p5-xml-sax-base/Pkgfile
 f:829532bec9d055a99ea4b2de2d262a85:p5-class-data-inheritable/.signature
 f:8280f9338f5f32e2e34358c7291b8a54:p5-class-data-inheritable/.footprint
 f:148a415501e53c1b20fa5751e953dd2b:p5-class-data-inheritable/Pkgfile
@@ -775,9 +742,6 @@ f:46a77c1adfc4da35f24e0393d5af1d3c:fail2ban/Pkgfile
 f:af6b6e6c9afe7540ae6caa624f6545c1:p5-http-negotiate/.signature
 f:8093b7217f59580081adaefd591bfdd6:p5-http-negotiate/.footprint
 f:589b42c44fdf5a1aa658ab71a7f233bb:p5-http-negotiate/Pkgfile
-f:b107abb6e815b012b9486a464d9a7ecf:p5-capture-tiny/.signature
-f:6748f9060e441f1d8e038b6aa32a4fc0:p5-capture-tiny/.footprint
-f:1f3e78c2b197253baa9a45792451ba38:p5-capture-tiny/Pkgfile
 f:e66e6b9480467a3edddf9e713bc8babc:p5-mro-compat/.signature
 f:ffe2e51c34c51b9ac099668ba8bb7126:p5-mro-compat/.footprint
 f:a626346151321c38b7ea5b00fd02c63c:p5-mro-compat/Pkgfile
@@ -796,9 +760,6 @@ f:b48d40ecdcbaf43263561b5df358a3f5:p5-params-validationcompiler/Pkgfile
 f:b140e26be26c718c6fad65610ebaa27e:libetpan/.signature
 f:33373a9a0e6ba6552548521ee7821208:libetpan/.footprint
 f:ddb7a3789e36ff70d6db9480b0b71ab4:libetpan/Pkgfile
-f:5e266aec9b1e6a1e8e23bf3970dc569a:p5-path-tiny/.signature
-f:e619bac369604b1ae5940dc9e7546568:p5-path-tiny/.footprint
-f:14f447d364ff1394154ab150d3535015:p5-path-tiny/Pkgfile
 f:c4f74ebf325845c341658dd54f574701:p5-specio/.signature
 f:2f6f527c777f612f3006fce5fb9400af:p5-specio/.footprint
 f:5948f58876ec9b641d555c1afc1e61c6:p5-specio/Pkgfile
@@ -846,9 +807,6 @@ f:be7400e3ec7ecc869f564ea971ccb0b4:p5-libwww/Pkgfile
 f:6e9029516f411575e02017773e4e5438:davfs2/.signature
 f:a0cfa8234952f71459f9380b339f4629:davfs2/.footprint
 f:26a0ccb3120be55b2430ddf0957637fd:davfs2/Pkgfile
-f:c663be6f9bbe89b2dec1b2db8876e446:p5-xml-libxml/.signature
-f:4f0390fa885c32791071d0c888a1e1c1:p5-xml-libxml/.footprint
-f:339e8090cef07b65ee7c294d18b98085:p5-xml-libxml/Pkgfile
 f:e6411f5748977c20c18b30a111d95675:gnome-python-desktop/.signature
 f:b19554bb86b6380e1e4b81f89f80f26c:gnome-python-desktop/01_wnck_enums.patch
 f:729f8b48bea7fca7b2f105b58ed69d06:gnome-python-desktop/.footprint
@@ -878,9 +836,6 @@ f:09c791f20abc7ae267b5678c732a8c9c:xtitle/Pkgfile
 f:f2dbbe52faa5cc3a7bb80663bf5874b8:rapidjson/.signature
 f:0c7f2612247347e9187427f6a3807a13:rapidjson/.footprint
 f:1f11862a6f36b1f99fe184d10875d8c2:rapidjson/Pkgfile
-f:54ea51d4e559c3c6e3ed466c5ccdd709:p5-xml-namespacesupport/.signature
-f:70e1d1ba8973241a04eab6464ef72714:p5-xml-namespacesupport/.footprint
-f:f8241d0777222ef4a2066f86046203e6:p5-xml-namespacesupport/Pkgfile
 f:32fc89d9b5a924e130fcd533e803d47f:kvantum-theme-arc/.signature
 f:657f14bb505e108e2e68a841a9f21d26:kvantum-theme-arc/.footprint
 f:789838e10b9ebe13c664b3b134217355:kvantum-theme-arc/Pkgfile
@@ -929,9 +884,6 @@ f:4014d548fa3a400a75ebd3fb26b90316:murmur/murmur
 f:27c2198c74288abb709ebab5a76105c2:gnome-common/.signature
 f:3ef5f1d63964dbd2af941fb5a56f4b79:gnome-common/.footprint
 f:dd639c4f8c30e20a96e3ed5e65ee623a:gnome-common/Pkgfile
-f:dc88adc0b4836568eb9f2f0df76f4195:p5-file-which/.signature
-f:e7ffab59d50d26574611ec0c4b2239a6:p5-file-which/.footprint
-f:e267dd13ebe14c89551900a0426f7d90:p5-file-which/Pkgfile
 f:e139388315b3309891689b949d3e9f47:distcc/.signature
 f:1f3b9a697f770a006e77b17075a4933a:distcc/.footprint
 f:fd0c63bd2c2f133450834affb7c78588:distcc/README

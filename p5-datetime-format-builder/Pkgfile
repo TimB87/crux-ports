@@ -1,12 +1,12 @@
 # Description: Create DateTime parser classes and objects
-# URL: https://search.cpan.org/dist/DateTime-Format-Builder
+# URL: https://cpan.metacpan.org/dist/DateTime-Format-Builder
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: p5-class-factory-util p5-datetime p5-datetime-format-strptime p5-params-validate
 
 name=p5-datetime-format-builder
 version=0.80
 release=1
-source=(https://search.cpan.org/CPAN/authors/id/D/DR/DROLSKY/DateTime-Format-Builder-$version.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/DateTime-Format-Builder-$version.tar.gz)
 
 build() {
   cd DateTime-Format-Builder-$version

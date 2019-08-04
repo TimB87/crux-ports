@@ -1,5 +1,5 @@
 # Description: Perl extension for using OpenSSL
-# URL: https://search.cpan.org/dist/Net-SSLeay/
+# URL: https://cpan.metacpan.org/dist/Net-SSLeay/
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: chrpath
 

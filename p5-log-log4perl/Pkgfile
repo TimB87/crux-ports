@@ -6,7 +6,7 @@
 name=p5-log-log4perl
 version=1.49
 release=2
-source=(http://search.cpan.org/CPAN/authors/id/M/MS/MSCHILLI/Log-Log4perl-$version.tar.gz)
+source=(https://search.cpan.org/CPAN/authors/id/M/MS/MSCHILLI/Log-Log4perl-$version.tar.gz)
 
 build() {
   cd Log-Log4perl-$version

@@ -6,7 +6,7 @@
 name=p5-file-find-rule
 version=0.34
 release=1
-source=(https://search.mcpan.org/authors/id/R/RC/RCLAMP/File-Find-Rule-$version.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/R/RC/RCLAMP/File-Find-Rule-$version.tar.gz)
 
 build() {
   cd File-Find-Rule-$version

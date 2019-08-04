@@ -6,7 +6,7 @@
 name=p5-file-slurper
 version=0.012
 release=1
-source=(https://search.cpan.org/CPAN/authors/id/L/LE/LEONT/File-Slurper-$version.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/L/LE/LEONT/File-Slurper-$version.tar.gz)
 
 build() {
   cd File-Slurper-$version

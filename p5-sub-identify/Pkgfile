@@ -1,12 +1,12 @@
 # Description: Retrieve names of code references
-# URL: http://search.mcpan.org/dist/Sub-Identify
+# URL: https://search.mcpan.org/dist/Sub-Identify
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on:
 
 name=p5-sub-identify
 version=0.14
 release=1
-source=(http://search.mcpan.org/CPAN/authors/id/R/RG/RGARCIA/Sub-Identify-$version.tar.gz)
+source=(https://search.mcpan.org/CPAN/authors/id/R/RG/RGARCIA/Sub-Identify-$version.tar.gz)
 
 build() {
   cd Sub-Identify-$version

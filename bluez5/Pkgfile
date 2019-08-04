@@ -6,7 +6,7 @@
 name=bluez5
 version=5.50
 release=2
-source=(http://www.kernel.org/pub/linux/bluetooth/bluez-$version.tar.xz bluetoothd)
+source=(https://www.kernel.org/pub/linux/bluetooth/bluez-$version.tar.xz)
 
 build() {
   cd bluez-$version

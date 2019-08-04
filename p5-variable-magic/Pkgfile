@@ -1,12 +1,12 @@
 # Description: Associate user-defined magic to variables from Perl.
-# URL: https://search.cpan.org/dist/Variable-Magic
+# URL: https://cpan.metacpan.org/dist/Variable-Magic
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on:
 
 name=p5-variable-magic
 version=0.62
 release=1
-source=(https://search.cpan.org/CPAN/authors/id/V/VP/VPIT/Variable-Magic-$version.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/V/VP/VPIT/Variable-Magic-$version.tar.gz)
 
 build() {
   cd Variable-Magic-$version

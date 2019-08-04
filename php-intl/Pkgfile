@@ -6,17 +6,15 @@
 name=php-intl
 version=7.3.8
 release=1
-source=(http://www.php.net/distributions/php-$version.tar.xz)
+source=(https://www.php.net/distributions/php-$version.tar.xz)
 
 build() {
-	cd php-$version
-
-	./configure \
-		--disable-all \
-		--enable-intl=shared
-	make build-modules
-
-	install -d $PKG/etc/php/conf.d
-	echo "extension=intl.so" > $PKG/etc/php/conf.d/intl.ini
-	install -D -m775 modules/intl.so $PKG/usr/lib/php/extensions/intl.so
+  cd php-$version
+  ./configure \
+    --disable-all \
+    --enable-intl=shared
+  make build-modules
+  install -d $PKG/etc/php/conf.d
+  echo "extension=intl.so" > $PKG/etc/php/conf.d/intl.ini
+  install -D -m775 modules/intl.so $PKG/usr/lib/php/extensions/intl.so
 }

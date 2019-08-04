@@ -6,7 +6,7 @@
 name=p5-perlio-utf8-strict
 version=0.007
 release=1
-source=(http://search.cpan.org/CPAN/authors/id/L/LE/LEONT/PerlIO-utf8_strict-$version.tar.gz)
+source=(https://search.cpan.org/CPAN/authors/id/L/LE/LEONT/PerlIO-utf8_strict-$version.tar.gz)
 
 build() {
   cd PerlIO-utf8_strict-$version

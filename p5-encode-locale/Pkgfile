@@ -1,12 +1,12 @@
 # Description: Determine the locale encoding
-# URL: https://search.cpan.org/dist/Encode-Locale
+# URL: https://cpan.metacpan.org/dist/Encode-Locale
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on:
 
 name=p5-encode-locale
 version=1.05
 release=1
-source=(https://search.cpan.org/CPAN/authors/id/G/GA/GAAS/Encode-Locale-$version.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/G/GA/GAAS/Encode-Locale-$version.tar.gz)
 
 build() {
   cd Encode-Locale-$version

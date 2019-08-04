@@ -6,7 +6,7 @@
 name=p5-scalar-list-utils
 version=1.50
 release=1
-source=(http://search.cpan.org/CPAN/authors/id/P/PE/PEVANS/Scalar-List-Utils-$version.tar.gz)
+source=(https://search.cpan.org/CPAN/authors/id/P/PE/PEVANS/Scalar-List-Utils-$version.tar.gz)
 
 build() {
   cd Scalar-List-Utils-$version

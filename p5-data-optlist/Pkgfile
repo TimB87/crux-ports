@@ -6,7 +6,7 @@
 name=p5-data-optlist
 version=0.110
 release=1
-source=(http://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/Data-OptList-$version.tar.gz)
+source=(https://search.cpan.org/CPAN/authors/id/R/RJ/RJBS/Data-OptList-$version.tar.gz)
 
 build() {
   cd Data-OptList-$version

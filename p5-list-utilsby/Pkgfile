@@ -1,12 +1,12 @@
 # Description: Higher-order list utility functions
-# URL: https://search.cpan.org/~pevans/List-UtilsBy
+# URL: https://cpan.metacpan.org/~pevans/List-UtilsBy
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on:
 
 name=p5-list-utilsby
 version=0.11
 release=1
-source=(https://search.cpan.org/CPAN/authors/id/P/PE/PEVANS/List-UtilsBy-$version.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/P/PE/PEVANS/List-UtilsBy-$version.tar.gz)
 
 build() {
   cd List-UtilsBy-$version

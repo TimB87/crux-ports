@@ -1,5 +1,5 @@
 # Description: Perl package that combines List::Util and List::MoreUtils in one bite-sized package
-# URL: http://search.cpan.org/dist/List-AllUtils
+# URL: https://search.cpan.org/dist/List-AllUtils
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: p5-list-moreutils p5-list-someutils p5-list-utilsby p5-scalar-list-utils
 

@@ -5,18 +5,11 @@
 
 name=claws-mail
 version=3.17.4
-release=1
-source=(http://www.claws-mail.org/releases/$name-$version.tar.xz)
+release=2
+source=(https://www.claws-mail.org/releases/$name-$version.tar.xz)
 
 build() {
     cd $name-$version
-
-    NM_CFLAGS="-I/usr/include/libnm"
-    sed -i "s:PKG_CHECK_MODULES(ENCHANT, enchant >= 1.4.0:PKG_CHECK_MODULES(ENCHANT, enchant-2 >= 1.4.0:" configure.ac
-    sed -i "s:--cflags enchant:--cflags enchant-2:" configure.ac
-    autoreconf -vfi
-    sed -i 's@^#!.*python.*@#!/usr/bin/python2@' tools/*.py
-    sed -i 's:python -c:python2 -c:g' configure
 
     ./configure \
         --prefix=/usr \

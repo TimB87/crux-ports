@@ -1,5 +1,5 @@
 # Description: Build an optimized subroutine parameter validator once, use it forever
-# URL: http://search.cpan.org/dist/Params-ValidationCompiler/
+# URL: https://search.cpan.org/dist/Params-ValidationCompiler/
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: p5-eval-closure p5-exception-class p5-role-tiny
 

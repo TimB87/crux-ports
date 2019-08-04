@@ -1,5 +1,5 @@
 # Description: Interface to the libxml library
-# URL: http://search.cpan.org/dist/XML-LibXML
+# URL: https://search.cpan.org/dist/XML-LibXML
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: p5-alien-libxml2 p5-xml-namespacesupport p5-xml-sax
 

@@ -1,12 +1,12 @@
 # Description: Open an HTML file with automatic charset detection
-# URL: https://search.cpan.org/dist/IO-HTML
+# URL: https://cpan.metacpan.org/dist/IO-HTML
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on:
 
 name=p5-io-html
 version=1.001
 release=1
-source=(https://search.cpan.org/CPAN/authors/id/C/CJ/CJM/IO-HTML-$version.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/C/CJ/CJM/IO-HTML-$version.tar.gz)
 
 build() {
   cd IO-HTML-$version

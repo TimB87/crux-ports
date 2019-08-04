@@ -1,12 +1,12 @@
 # Description: Alternative interface to File::Find
-# URL: http://search.mcpan.org/dist/File-Find-Rule
+# URL: https://search.mcpan.org/dist/File-Find-Rule
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: p5-number-compare p5-text-glob
 
 name=p5-file-find-rule
 version=0.34
 release=1
-source=(http://search.mcpan.org/CPAN/authors/id/R/RC/RCLAMP/File-Find-Rule-$version.tar.gz)
+source=(https://search.mcpan.org/CPAN/authors/id/R/RC/RCLAMP/File-Find-Rule-$version.tar.gz)
 
 build() {
   cd File-Find-Rule-$version

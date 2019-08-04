@@ -6,7 +6,7 @@
 name=p5-business-isbn-data
 version=20140910.003
 release=1
-source=(https://search.cpan.org/CPAN/authors/id/B/BD/BDFOY/Business-ISBN-Data-$version.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/B/BD/BDFOY/Business-ISBN-Data-$version.tar.gz)
 
 build() {
   cd Business-ISBN-Data-$version

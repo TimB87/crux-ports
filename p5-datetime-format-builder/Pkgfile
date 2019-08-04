@@ -1,5 +1,5 @@
 # Description: Create DateTime parser classes and objects
-# URL: http://search.cpan.org/dist/DateTime-Format-Builder
+# URL: https://search.cpan.org/dist/DateTime-Format-Builder
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: p5-class-factory-util p5-datetime p5-datetime-format-strptime p5-params-validate
 

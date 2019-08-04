@@ -6,7 +6,7 @@
 name=p5-sub-identify
 version=0.14
 release=1
-source=(https://search.mcpan.org/authors/id/R/RG/RGARCIA/Sub-Identify-$version.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/R/RG/RGARCIA/Sub-Identify-$version.tar.gz)
 
 build() {
   cd Sub-Identify-$version

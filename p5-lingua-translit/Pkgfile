@@ -6,7 +6,7 @@
 name=p5-lingua-translit
 version=0.28
 release=1
-source=(http://search.cpan.org/CPAN/authors/id/A/AL/ALINKE/Lingua-Translit-$version.tar.gz)
+source=(https://search.cpan.org/CPAN/authors/id/A/AL/ALINKE/Lingua-Translit-$version.tar.gz)
 
 build() {
   cd Lingua-Translit-$version

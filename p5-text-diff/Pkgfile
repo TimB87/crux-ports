@@ -1,5 +1,5 @@
 # Description: Perform diffs on files and record sets
-# URL: http://search.cpan.org/dist/Text-Diff
+# URL: https://search.cpan.org/dist/Text-Diff
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: p5-algorithm-diff
 

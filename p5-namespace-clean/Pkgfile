@@ -1,12 +1,12 @@
 # Description: Keep imports and functions out of your namespace
-# URL: https://search.cpan.org/dist/namespace-clean
+# URL: https://cpan.metacpan.org/dist/namespace-clean
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: p5-b-hooks-endofscope p5-package-stash
 
 name=p5-namespace-clean
 version=0.27
 release=1
-source=(https://search.cpan.org/CPAN/authors/id/R/RI/RIBASUSHI/namespace-clean-$version.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/R/RI/RIBASUSHI/namespace-clean-$version.tar.gz)
 
 build() {
   cd namespace-clean-$version

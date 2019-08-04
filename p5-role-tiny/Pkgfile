@@ -1,12 +1,12 @@
 # Description: Roles. Like a nouvelle cuisine portion size slice of Moose.
-# URL: https://search.cpan.org/dist/Role-Tiny/
+# URL: https://cpan.metacpan.org/dist/Role-Tiny/
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on:
 
 name=p5-role-tiny
 version=2.000006
 release=1
-source=(https://search.cpan.org/CPAN/authors/id/H/HA/HAARG/Role-Tiny-$version.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/H/HA/HAARG/Role-Tiny-$version.tar.gz)
 
 build() {
   cd Role-Tiny-$version

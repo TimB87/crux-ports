@@ -1,12 +1,12 @@
 # Description: Provide the stuff missing in List::Util
-# URL: https://search.cpan.org/dist/List-MoreUtils
+# URL: https://cpan.metacpan.org/dist/List-MoreUtils
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: p5-exporter-tiny p5-list-moreutils-xs
 
 name=p5-list-moreutils
 version=0.428
 release=1
-source=(https://search.cpan.org/CPAN/authors/id/R/RE/REHSACK/List-MoreUtils-$version.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/R/RE/REHSACK/List-MoreUtils-$version.tar.gz)
 
 build() {
   cd List-MoreUtils-$version

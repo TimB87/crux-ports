@@ -1,12 +1,12 @@
 # Description: Communicate with the i3 window manager
-# URL: https://search.cpan.org/~mstplbg/AnyEvent-I3/
+# URL: https://cpan.metacpan.org/~mstplbg/AnyEvent-I3/
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: p5-anyevent p5-json-xs
 
 name=p5-anyevent-i3
 version=0.17
 release=1
-source=(https://search.cpan.org/CPAN/authors/id/M/MS/MSTPLBG/AnyEvent-I3-$version.tar.gz)
+source=(https://cpan.metacpan.org/authors/id/M/MS/MSTPLBG/AnyEvent-I3-$version.tar.gz)
 
 build() {
   cd AnyEvent-I3-$version

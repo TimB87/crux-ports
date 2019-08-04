@@ -1,5 +1,5 @@
 # Description: Parse and Format DateTimes using Strptime
-# URL: http://search.cpan.org/dist/DateTime-Format-Strptime
+# URL: https://search.cpan.org/dist/DateTime-Format-Strptime
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: p5-datetime p5-datetime-locale p5-datetime-timezone p5-package-deprecationmanager p5-params-validate
 

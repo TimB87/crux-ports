@@ -1,12 +1,12 @@
 # Description: Minimal try/catch with proper localization of $@
-# URL: http://search.cpan.org/dist/Try-Tiny
+# URL: https://search.cpan.org/dist/Try-Tiny
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on:
 
 name=p5-try-tiny
 version=0.30
 release=1
-source=(http://search.cpan.org/CPAN/authors/id/E/ET/ETHER/Try-Tiny-$version.tar.gz)
+source=(https://search.cpan.org/CPAN/authors/id/E/ET/ETHER/Try-Tiny-$version.tar.gz)
 
 build() {
   cd Try-Tiny-$version

@@ -1,5 +1,5 @@
 # Description: Validate sub params against a spec
-# URL: http://search.cpan.org/dist/Params-Validate
+# URL: https://search.cpan.org/dist/Params-Validate
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: p5-module-implementation p5-module-build
 

@@ -1,5 +1,5 @@
 # Description: a working (require 'Class::Name') and more
-# URL: http://search.cpan.org/dist/Class-Load
+# URL: https://search.cpan.org/dist/Class-Load
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: p5-data-optlist p5-module-implementation p5-module-runtime p5-namespace-clean p5-package-stash p5-try-tiny
 

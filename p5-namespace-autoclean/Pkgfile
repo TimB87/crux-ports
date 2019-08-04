@@ -6,7 +6,7 @@
 name=p5-namespace-autoclean
 version=0.28
 release=1
-source=(http://search.cpan.org/CPAN/authors/id/E/ET/ETHER/namespace-autoclean-$version.tar.gz)
+source=(https://search.cpan.org/CPAN/authors/id/E/ET/ETHER/namespace-autoclean-$version.tar.gz)
 
 build() {
   cd namespace-autoclean-$version

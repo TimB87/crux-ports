@@ -6,7 +6,7 @@
 name=p5-file-sharedir-install
 version=0.13
 release=1
-source=(https://cpan.org/modules/by-module/File/File-ShareDir-Install-$version.tar.gz)
+source=(https://www.cpan.org/modules/by-module/File/File-ShareDir-Install-$version.tar.gz)
 
 build() {
   cd File-ShareDir-Install-$version

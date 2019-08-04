@@ -1,12 +1,12 @@
 # Description: Perl extension for simple generation of unique IDs
-# URL: http://search.cpan.org/dist/Data-Uniqid
+# URL: https://search.cpan.org/dist/Data-Uniqid
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on:
 
 name=p5-data-uniqid
 version=0.12
 release=1
-source=(http://search.cpan.org/CPAN/authors/id/M/MW/MWX/Data-Uniqid-$version.tar.gz)
+source=(https://search.cpan.org/CPAN/authors/id/M/MW/MWX/Data-Uniqid-$version.tar.gz)
 
 build() {
   cd Data-Uniqid-$version

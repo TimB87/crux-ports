@@ -133,7 +133,6 @@ d:optipng
 d:arandr
 d:colm
 d:p5-module-runtime
-d:networkmanager
 d:p5-test-differences
 d:font-awesome-compat
 d:python3-pyudev
@@ -655,15 +654,6 @@ f:1db03760c313831870e327b392da083f:colm/Pkgfile
 f:40c94390c46e46ea1fe08ddcde174123:p5-module-runtime/.signature
 f:ffe52015e92da7e938e938a5169b8bee:p5-module-runtime/.footprint
 f:1639f538975b344402e5ef463dd2ab11:p5-module-runtime/Pkgfile
-f:a7b8b8ae0030c04a1574034222abf603:networkmanager/.signature
-f:8959cd1832461aa0255c3a42fbc5b52f:networkmanager/networkmanager.rc
-f:e0e211d866df936d82d0ab029e6bfea9:networkmanager/.footprint
-f:4a6fd05ae47bb208f58799b4e4e41745:networkmanager/polkit.conf
-f:8ccd2b552400bd31556e038d0c7308b6:networkmanager/README
-f:81688f781d7f6b316a288d3d57e73d5d:networkmanager/Pkgfile
-f:1653159d6634fb62d3a5c548b7a56151:networkmanager/NetworkManager.conf
-f:3a7fb4b8ff084c1ccfaeb16e1650c574:networkmanager/org.freedesktop.NetworkManager.rules
-f:b722fa02f904a9c8ed0d2ec21cbfc588:networkmanager/dhcp.conf
 f:8a9a71177198e4904e30ee25be183667:p5-test-differences/.signature
 f:312e20a4ef1f0ffe4bee584a661d474f:p5-test-differences/.footprint
 f:5f570f62cf8fb0dd28d1f960fc9559f5:p5-test-differences/Pkgfile

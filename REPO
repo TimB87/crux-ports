@@ -491,9 +491,9 @@ f:174531f8a20e1f3c8fc96e6863bb4838:p5-regexp-common/Pkgfile
 f:17ff4f8bd96ed99116e10808c8df8367:p5-mozilla-ca/.signature
 f:1f93078449cc989b24f020c9b50284b0:p5-mozilla-ca/.footprint
 f:d41a75780444855f88fc21bfc3fba219:p5-mozilla-ca/Pkgfile
-f:fe72f1aa1e15d87f94a00ad1c319d2b4:npm/.signature
-f:c31d9880fbe55e724d8261cc3f0bf390:npm/.footprint
-f:2b21d2d638ac1261ba2c137d610583d5:npm/Pkgfile
+f:16c24cf72ec546de63fa04d8db0b498b:npm/.signature
+f:5e86aab400ff5414007b1d764d54e3ef:npm/.footprint
+f:284324bfc3488e9102257aa15326ee08:npm/Pkgfile
 f:723721c9a3d4821ce0f7d746805caf10:php-imagick/.signature
 f:97f8c324e249ac36e0ba2c4b1870bff3:php-imagick/.footprint
 f:fe5e1a54b54021021e2443534d8ac9b2:php-imagick/Pkgfile
@@ -525,10 +525,10 @@ f:b27384aed906b1e22f0d530822263966:p5-variable-magic/Pkgfile
 f:8f731a5c38ff3db005320acfe17ecbc6:p5-text-bibtex/.signature
 f:738b9327af76d352f278787c345d2cb4:p5-text-bibtex/.footprint
 f:873867fe470e2a1aed6e71f3feaf0f16:p5-text-bibtex/Pkgfile
-f:3601bd8b20fae06e555c247837fbf6bd:compton/.signature
+f:c5d985a1d876b2d8b9ac336c1117be26:compton/.signature
 f:788ba14c6467fca362b03f5ad4c55d1d:compton/.footprint
 f:c4660ef0a605512664d2119c44158edf:compton/README
-f:307cc1dd3d8a2f7ba0ecc257ce030862:compton/Pkgfile
+f:2e434a072db65f7b755f74b342dd7388:compton/Pkgfile
 f:8e527a8b6f702d9b7671a21820783ba9:compton/skip_tests.patch
 f:17d884153e644baf4ee0806b219aa427:papirus-icon-theme/.signature
 f:e8cf618de8c7772971903ef52880ba83:papirus-icon-theme/.footprint

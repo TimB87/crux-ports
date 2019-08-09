@@ -205,7 +205,6 @@ d:distcc
 d:fuse-exfat
 d:php-intl
 d:papirus-filezilla-theme
-d:potrace
 d:p5-sub-exporter
 d:p5-file-listing
 f:f0d67e32efa4dd92600d355bd69e20b2:arc-kde-theme/.signature
@@ -888,9 +887,6 @@ f:2d51b668c4548ddd1ac9208d833b5a4f:php-intl/Pkgfile
 f:7cacf86db864438b25643a10f4872ddf:papirus-filezilla-theme/.signature
 f:ce0cdff35871135338e70dce399b26b1:papirus-filezilla-theme/.footprint
 f:9932c95f5b6779e2cf64cf24c5f04b26:papirus-filezilla-theme/Pkgfile
-f:d4718536c5fb0376e15e05626a4f4f58:potrace/.signature
-f:7203ed3ec0d87586e39f69edceeab13a:potrace/.footprint
-f:8bfb50e82ac2df65ff28b38715d5faf8:potrace/Pkgfile
 f:8d4a17ee6d92b8d2692e3d2ba4138dd0:p5-sub-exporter/.signature
 f:2e2c05294eb79b2f9ae03a4308b2aef0:p5-sub-exporter/.footprint
 f:de35b3588e968e5dad06a2e0771c2ee0:p5-sub-exporter/Pkgfile

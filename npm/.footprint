@@ -225,7 +225,6 @@ drwxr-xr-x	root/root	usr/lib/node_modules/npm/lib/config/
 -rw-r--r--	root/root	usr/lib/node_modules/npm/lib/config/cmd-list.js
 -rw-r--r--	root/root	usr/lib/node_modules/npm/lib/config/core.js
 -rw-r--r--	root/root	usr/lib/node_modules/npm/lib/config/defaults.js
--rw-r--r--	root/root	usr/lib/node_modules/npm/lib/config/fetch-opts.js
 -rw-r--r--	root/root	usr/lib/node_modules/npm/lib/config/figgy-config.js
 -rw-r--r--	root/root	usr/lib/node_modules/npm/lib/config/gentle-fs.js
 -rw-r--r--	root/root	usr/lib/node_modules/npm/lib/config/get-credentials-by-uri.js
@@ -4547,6 +4546,7 @@ drwxr-xr-x	root/root	usr/lib/node_modules/npm/scripts/
 -rwxr-xr-x	root/root	usr/lib/node_modules/npm/scripts/index-build.js
 -rwxr-xr-x	root/root	usr/lib/node_modules/npm/scripts/install.sh
 -rwxr-xr-x	root/root	usr/lib/node_modules/npm/scripts/maketest
+-rwxr-xr-x	root/root	usr/lib/node_modules/npm/scripts/pr
 -rw-r--r--	root/root	usr/lib/node_modules/npm/scripts/publish-tag.js
 -rw-r--r--	root/root	usr/lib/node_modules/npm/scripts/release.sh
 -rwxr-xr-x	root/root	usr/lib/node_modules/npm/scripts/relocate.sh

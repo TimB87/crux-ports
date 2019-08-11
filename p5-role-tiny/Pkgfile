@@ -4,7 +4,7 @@
 # Depends on:
 
 name=p5-role-tiny
-version=2.000006
+version=2.000008
 release=1
 source=(https://cpan.metacpan.org/authors/id/H/HA/HAARG/Role-Tiny-$version.tar.gz)
 

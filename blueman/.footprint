@@ -614,8 +614,3 @@ drwxr-xr-x	root/root	usr/share/pixmaps/blueman/
 -rw-r--r--	root/root	usr/share/pixmaps/blueman/blueman-tpl-70.png
 -rw-r--r--	root/root	usr/share/pixmaps/blueman/blueman-tpl-80.png
 -rw-r--r--	root/root	usr/share/pixmaps/blueman/blueman-tpl-90.png
-drwxr-xr-x	root/root	usr/share/polkit-1/
-drwxr-xr-x	root/root	usr/share/polkit-1/actions/
--rw-r--r--	root/root	usr/share/polkit-1/actions/org.blueman.policy
-drwxr-xr-x	root/root	usr/share/polkit-1/rules.d/
--rw-r--r--	root/root	usr/share/polkit-1/rules.d/blueman.rules

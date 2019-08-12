@@ -1,7 +1,7 @@
 # Description: A simple server for running CGI applications over FastCGI.
 # URL: http://nginx.localdomain.pl/wiki/FcgiWrap
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: fcgi
+# Depends on: fcgi git
 
 name=fcgiwrap
 version=git

@@ -271,8 +271,6 @@ drwxr-xr-x	root/root	usr/lib/claws-mail/plugins/
 -rwxr-xr-x	root/root	usr/lib/claws-mail/plugins/newmail.so
 -rwxr-xr-x	root/root	usr/lib/claws-mail/plugins/notification.la
 -rwxr-xr-x	root/root	usr/lib/claws-mail/plugins/notification.so
--rwxr-xr-x	root/root	usr/lib/claws-mail/plugins/pdf_viewer.la
--rwxr-xr-x	root/root	usr/lib/claws-mail/plugins/pdf_viewer.so
 -rwxr-xr-x	root/root	usr/lib/claws-mail/plugins/perl.la
 -rwxr-xr-x	root/root	usr/lib/claws-mail/plugins/perl.so
 -rwxr-xr-x	root/root	usr/lib/claws-mail/plugins/pgpcore.la
@@ -283,8 +281,6 @@ drwxr-xr-x	root/root	usr/lib/claws-mail/plugins/
 -rw-r--r--	root/root	usr/lib/claws-mail/plugins/pgpmime.deps
 -rwxr-xr-x	root/root	usr/lib/claws-mail/plugins/pgpmime.la
 -rwxr-xr-x	root/root	usr/lib/claws-mail/plugins/pgpmime.so
--rwxr-xr-x	root/root	usr/lib/claws-mail/plugins/python.la
--rwxr-xr-x	root/root	usr/lib/claws-mail/plugins/python.so
 -rwxr-xr-x	root/root	usr/lib/claws-mail/plugins/rssyl.la
 -rwxr-xr-x	root/root	usr/lib/claws-mail/plugins/rssyl.so
 -rw-r--r--	root/root	usr/lib/claws-mail/plugins/smime.deps

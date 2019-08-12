@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwDsxKk8Ww7qwnKowdVE5pKylC4n90GO3enutp0g6sMewYPTsmbAWbjLIbROsyMDW21tlJyBPVhbmZ/LpoCD5oAA=
-SHA256 (Pkgfile) = 09c73a57c64d983c853cdab9cb924eee44e5fa26b64ee33b9983d04ec65ce14f
-SHA256 (.footprint) = d29947069ea8b0f26c3593e9a6e21bde103222f47ab164e6577f0ac3b0db5cf0
+RWSXjYMPO7mZwNBfNcOeXQEZ2kbCVZY3+2C175b/Fm7+0wdBaPhdeXlHC9eOtBMJntnVQWJWdl7sBngpdnwKgaFa0lC2pZjsqQ4=
+SHA256 (Pkgfile) = 83b3e432ef2b06efdc6f0770031d9ac02a24034c455cd4c1b6c92a62eab8eff8
+SHA256 (.footprint) = 12b86300cd703f30eefcabac9074c5d58fe0f9fee117af56d4187741e1961947
 SHA256 (fail2ban-0.10.4.tar.gz) = d6ca1bbc7e7944f7acb2ba7c1065953cd9837680bc4d175f30ed155c6a372449
 SHA256 (fail2ban.rc) = c8fd673d954deb9ed2fde9faa8d8633196f314561b04f0821267425a94c7e8ac

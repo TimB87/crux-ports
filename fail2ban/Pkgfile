@@ -1,9 +1,7 @@
 # Description: Bans IP that makes too many password failures.
 # URL: http://www.fail2ban.org/
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Contributor: Danny Rawlins, crux at romster dot me
-# Packager: Jose V Beneyto, sepen at crux dot nu
-# Depends on: python3
+# Depends on: python python3
 
 name=fail2ban
 version=0.10.4

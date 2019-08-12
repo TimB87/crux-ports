@@ -1,7 +1,7 @@
 # Description: Moka Icon Theme
 # URL: https://github.com/snwh/moka-icon-theme
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on:
+# Depends on: git meson ninja
 
 name=moka-icon-theme
 version=git

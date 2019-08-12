@@ -1,7 +1,7 @@
 # Description: udev userspace daemon to control a Logitech G13
 # URL: https://github.com/ecraven/g13
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: boost icu
+# Depends on: boost git
 
 name=g13
 version=git
@@ -10,21 +10,21 @@ source=()
 git=(https://github.com/ecraven/g13.git)
 
 build() {
-    git clone $git $name
-    cd $name
-    
-    sed -r -i -e 's/MODE="0666"/MODE="0660", OWNER="g13", GROUP="g13"\n/' 91-g13.rules
-      echo '
-# Unncomment below (and reboot) on errors on uinput or keys not generating keypresses after binding
-      # #KERNEL=="uinput", SUBSYSTEM=="misc", OPTIONS+="static_node=uinput", TAG+="uaccess", GROUP="wheel"
-      #
-      # # Uncomment the following to start g13d as a systemd service when G13 is plugged in
-      # #ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="046d", ATTR{idProduct}=="c21c", RUN+="/usr/bin/systemctl start g13.service"
-      # #ACTION=="remove", SUBSYSTEM=="usb", ENV{ID_VENDOR_ID}=="046d", ENV{ID_MODEL_ID}=="c21c", RUN+="/usr/bin/systemctl stop g13.service"
-      ' >> 91-g13.rules
+  git clone $git $name
+  cd $name
+  sed -r -i -e 's/MODE="0666"/MODE="0660", OWNER="g13", GROUP="g13"\n/' 91-g13.rules
 
-    make
-    install -dm 755 $PKG/usr/{bin,etc,lib/udev/rules.d}
-    install -m 755 {g13d,pbm2lpbm} $PKG/usr/bin
-    install -m 644 91-g13.rules $PKG/usr/lib/udev/rules.d/
+  cat <<EOF > 91-g13.rules
+# Unncomment below (and reboot) on errors on uinput or keys not generating keypresses after binding
+# #KERNEL=="uinput", SUBSYSTEM=="misc", OPTIONS+="static_node=uinput", TAG+="uaccess", GROUP="wheel"
+#
+# # Uncomment the following to start g13d as a systemd service when G13 is plugged in
+# #ACTION=="add", SUBSYSTEM=="usb", ATTR{idVendor}=="046d", ATTR{idProduct}=="c21c", RUN+="/usr/bin/systemctl start g13.service"
+# #ACTION=="remove", SUBSYSTEM=="usb", ENV{ID_VENDOR_ID}=="046d", ENV{ID_MODEL_ID}=="c21c", RUN+="/usr/bin/systemctl stop g13.service"
+EOF
+
+  make
+  install -dm 755 $PKG/usr/{bin,etc,lib/udev/rules.d}
+  install -m 755 {g13d,pbm2lpbm} $PKG/usr/bin
+  install -m 644 91-g13.rules $PKG/usr/lib/udev/rules.d/
 }

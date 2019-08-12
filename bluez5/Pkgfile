@@ -1,26 +1,25 @@
 # Description: Bluetooth libraries and utilities
 # URL: https://www.bluez.org/
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: icu glib dbus libical
+# Depends on: alsa-lib dbus glib libical
 
 name=bluez5
 version=5.50
 release=2
-source=(https://mirrors.edge.kernel.org/pub/linux/bluetooth/bluez-$version.tar.xz)
+source=(https://mirrors.edge.kernel.org/pub/linux/bluetooth/bluez-$version.tar.xz bluetoothd)
 
 build() {
   cd bluez-$version
 
-  ./configure \
+  [[ -e /usr/lib/cups ]] && PKGMK_BLUEZ+=" --enable-cups" || PKGMK_BLUEZ+=" --disable-cups"
+
+  ./configure $PKGMK_BLUEZ \
     --prefix=/usr \
     --sysconfdir=/etc \
     --localstatedir=/var \
     --libexecdir=/usr/lib/$name \
-    --libdir=/usr/lib \
-    --mandir=/usr/share/man \
     --enable-tools \
     --enable-test \
-    --enable-cups \
     --enable-midi \
     --enable-experimental \
     --enable-a2dp \

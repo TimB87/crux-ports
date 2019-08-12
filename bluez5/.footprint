@@ -73,9 +73,6 @@ drwxr-xr-x	root/root	usr/lib/bluez5/
 drwxr-xr-x	root/root	usr/lib/bluez5/bluetooth/
 -rwxr-xr-x	root/root	usr/lib/bluez5/bluetooth/bluetoothd
 -rwxr-xr-x	root/root	usr/lib/bluez5/bluetooth/obexd
-drwxr-xr-x	root/root	usr/lib/cups/
-drwxr-xr-x	root/root	usr/lib/cups/backend/
--rwxr-xr-x	root/root	usr/lib/cups/backend/bluetooth
 -rwxr-xr-x	root/root	usr/lib/libbluetooth.la
 lrwxrwxrwx	root/root	usr/lib/libbluetooth.so -> libbluetooth.so.3.18.16
 lrwxrwxrwx	root/root	usr/lib/libbluetooth.so.3 -> libbluetooth.so.3.18.16

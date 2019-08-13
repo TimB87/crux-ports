@@ -1,7 +1,7 @@
 # Description: Desktop integration portals for sandboxed apps
 # URL: https://github.com/flatpak/xdg-desktop-portal
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: fuse pipewire
+# Depends on: fuse json-glib pipewire
 
 name=xdg-desktop-portal
 version=1.4.2

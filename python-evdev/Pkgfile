@@ -1,7 +1,7 @@
 # Description: Python bindings for the Linux input subsystem
 # URL: https://github.com/gvalkov/python-evdev
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: python
+# Depends on: python-setuptools
 
 name=python-evdev
 version=0.7.0
@@ -10,5 +10,6 @@ source=(https://github.com/gvalkov/python-evdev/archive/v$version/$name-$version
 
 build() {
   cd $name-$version
+  python setup.py build
   python setup.py install --root $PKG --optimize=1
 }

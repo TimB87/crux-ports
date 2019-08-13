@@ -359,7 +359,6 @@ f:41555fe08bc7bb7274e3454a18260694:sc-controller/Pkgfile
 f:c79e3fccaaa653e5f6327f1118f3efb8:g13/.signature
 f:483a67ed9f685748f9e83441f8f5f079:g13/default.g13.bind
 f:26c816dbe42e2333039c91713e333e30:g13/.footprint
-f:d41d8cd98f00b204e9800998ecf8427e:g13/.md5sum
 f:2392a28fd34684a60a97a2d028035745:g13/Pkgfile
 f:7e0eef407495fe5c48d8e96e8e12c11a:zsh/.signature
 f:58ab82710759b51c04e62ceeb3c13b41:zsh/.footprint
@@ -436,7 +435,6 @@ f:8eabff9825a22cd10b58fbe526260220:libnewt/.footprint
 f:66d76dc0314b673409d3a4b837a2cb2d:libnewt/Pkgfile
 f:effad9ba85f593e884f9f2f2a326d156:fcgiwrap/.signature
 f:6e6b9ce39ea2cafdeb255468697cd0e9:fcgiwrap/.footprint
-f:d41d8cd98f00b204e9800998ecf8427e:fcgiwrap/.md5sum
 f:1884a192d846c612c73b39b7661521a8:fcgiwrap/Pkgfile
 f:29dc2e3d2a13fa4d7219768b8257e596:fcgiwrap/fcgiwrap.init
 f:2613e820676d14af515406931ae86a94:pulseaudio/.signature
@@ -721,7 +719,6 @@ f:815e31856bc5df8dbef380b4487e2398:p5-net-http/Pkgfile
 f:c1eb55ce2e625c7280a76f2d97100485:fail2ban/.signature
 f:36271081deb93c5c6fee5b0d8c182500:fail2ban/.footprint
 f:27205c03a07b0b5ec834a9c17169e264:fail2ban/fail2ban.rc
-f:c7708f2ab230a443c31980d0e3f8c39f:fail2ban/.md5sum
 f:c544cadf908645728f208c70a6ae9be0:fail2ban/Pkgfile
 f:af6b6e6c9afe7540ae6caa624f6545c1:p5-http-negotiate/.signature
 f:8093b7217f59580081adaefd591bfdd6:p5-http-negotiate/.footprint
@@ -862,7 +859,6 @@ f:4e4a7f97c395c1ba9915fca070511d8c:p5-json-xs/.footprint
 f:22f91d8af21a99ec71eb2f24c0923a2e:p5-json-xs/Pkgfile
 f:bd5ed451374d1bfdffb4b6c9d2ab8d10:murmur/.signature
 f:99fa44acfdccf900f090869f7bb38e82:murmur/.footprint
-f:999a9ada854673d16a2c51e256438d54:murmur/.md5sum
 f:3f4e0c125c135c455e341b16bec64be3:murmur/Pkgfile
 f:e72ca7bc42fe99f9de8fd97d1e1572ba:murmur/pre-install
 f:4014d548fa3a400a75ebd3fb26b90316:murmur/murmur

@@ -292,9 +292,9 @@ f:5f5216b253fc29da57b9f5336196f749:apcu/Pkgfile
 f:a01c6a2056a2434d184c12fd19523ae2:p5-list-allutils/.signature
 f:c765083dbf9ea9c0bc958bdb760e290d:p5-list-allutils/.footprint
 f:4bd4181c917789583fe452af234a05d0:p5-list-allutils/Pkgfile
-f:ef322bed8bc38ce720899e10d756469d:termite/.signature
-f:fd5cc44b848499c3ce92f3c3f17e15b7:termite/.footprint
-f:813233e4282ca8df6e2fe8e22a478355:termite/Pkgfile
+f:134e23e1950d79ee8501b1984c8958db:termite/.signature
+f:693f5ebfa6526793ddf90a63f79095eb:termite/.footprint
+f:60cb82b1aaf495107303955c7764165d:termite/Pkgfile
 f:9e023775b9cbe9d4c0f8218648f586d8:p5-devel-stacktrace/.signature
 f:418bfdd31bf0befffd869e0d01a61484:p5-devel-stacktrace/.footprint
 f:32b595842d51c95f2364d13ef6bfe697:p5-devel-stacktrace/Pkgfile

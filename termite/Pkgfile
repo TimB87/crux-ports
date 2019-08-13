@@ -23,7 +23,7 @@ build() {
     --disable-glade-catalogue
   make -j 1
   make install
-  install -Dm644 $SRC/vte-static/etc/profile.d/vte.sh $PKG/etc/porfile.d/vte.sh
+  install -Dm644 $SRC/vte-static/etc/profile.d/vte.sh $PKG/etc/profile.d/vte.sh
   cd ../$name-$version
   mv $SRC/util-master/* util
   export PKG_CONFIG_PATH="$SRC/vte-static/lib/pkgconfig:/usr/lib/pkgconfig"

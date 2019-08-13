@@ -1,6 +1,6 @@
 drwxr-xr-x	root/root	etc/
-drwxr-xr-x	root/root	etc/porfile.d/
--rw-r--r--	root/root	etc/porfile.d/vte.sh
+drwxr-xr-x	root/root	etc/profile.d/
+-rw-r--r--	root/root	etc/profile.d/vte.sh
 drwxr-xr-x	root/root	etc/xdg/
 drwxr-xr-x	root/root	etc/xdg/termite/
 -rw-r--r--	root/root	etc/xdg/termite/config

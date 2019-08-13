@@ -21,6 +21,8 @@ build() {
     enable_vala=no \
     --disable-gtk-doc \
     --disable-glade-catalogue
+  rm -r po/*
+  sed 's/SUBDIRS = src bindings po doc perf/SUBDIRS = src bindings perf/g' -i Makefile
   make -j 1
   make install
   install -Dm644 $SRC/vte-static/etc/profile.d/vte.sh $PKG/etc/profile.d/vte.sh

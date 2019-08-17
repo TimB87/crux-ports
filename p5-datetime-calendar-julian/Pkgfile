@@ -4,7 +4,7 @@
 # Depends on:
 
 name=p5-datetime-calendar-julian
-version=0.100_01
+version=0.101
 release=1
 source=(https://cpan.metacpan.org/authors/id/W/WY/WYANT/DateTime-Calendar-Julian-$version.tar.gz)
 

@@ -4,7 +4,7 @@
 # Depends on: p5-devel-stacktrace p5-mro-compat p5-role-tiny
 
 name=p5-specio
-version=0.43
+version=0.44
 release=1
 source=(https://cpan.metacpan.org/authors/id/D/DR/DROLSKY/Specio-$version.tar.gz)
 

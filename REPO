@@ -520,10 +520,10 @@ f:b27384aed906b1e22f0d530822263966:p5-variable-magic/Pkgfile
 f:8f731a5c38ff3db005320acfe17ecbc6:p5-text-bibtex/.signature
 f:738b9327af76d352f278787c345d2cb4:p5-text-bibtex/.footprint
 f:873867fe470e2a1aed6e71f3feaf0f16:p5-text-bibtex/Pkgfile
-f:c5d985a1d876b2d8b9ac336c1117be26:compton/.signature
+f:f7164dfe16478f9093b010ec59c5b6ac:compton/.signature
 f:788ba14c6467fca362b03f5ad4c55d1d:compton/.footprint
 f:c4660ef0a605512664d2119c44158edf:compton/README
-f:2e434a072db65f7b755f74b342dd7388:compton/Pkgfile
+f:fec172e14316425aacca2656722487a2:compton/Pkgfile
 f:8e527a8b6f702d9b7671a21820783ba9:compton/skip_tests.patch
 f:b7616e16a52aa6de34036717a75badb8:papirus-icon-theme/.signature
 f:6428246a1f05a2d2f8fa897af9d15acf:papirus-icon-theme/.footprint
@@ -865,10 +865,10 @@ f:4014d548fa3a400a75ebd3fb26b90316:murmur/murmur
 f:27c2198c74288abb709ebab5a76105c2:gnome-common/.signature
 f:3ef5f1d63964dbd2af941fb5a56f4b79:gnome-common/.footprint
 f:dd639c4f8c30e20a96e3ed5e65ee623a:gnome-common/Pkgfile
-f:e139388315b3309891689b949d3e9f47:distcc/.signature
-f:1f3b9a697f770a006e77b17075a4933a:distcc/.footprint
+f:8a010b5680e5888d4ff1d83c9248b37a:distcc/.signature
+f:50680a250b1ed1a99fc78ae647f74816:distcc/.footprint
 f:fd0c63bd2c2f133450834affb7c78588:distcc/README
-f:f2e38a86f86dcb012d8807f713e3c4e9:distcc/Pkgfile
+f:d2a070e617c4326b4e062908b299a66b:distcc/Pkgfile
 f:061c47e951d17d9c9e2f159db366a43d:distcc/distccd
 f:64dcce3b80b330596995e953bc8d8ecf:fuse-exfat/.signature
 f:b967b19a19a6a6733801af3bc60ad391:fuse-exfat/.footprint

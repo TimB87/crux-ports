@@ -16,7 +16,7 @@ lrwxrwxrwx	root/root	usr/lib/distcc/g++ -> ../../bin/distcc
 lrwxrwxrwx	root/root	usr/lib/distcc/gcc -> ../../bin/distcc
 drwxr-xr-x	root/root	usr/lib/python3.7/
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/include_server-3.3.2-py3.7.egg-info
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/include_server-3.3.3-py3.7.egg-info
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/include_server/
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/include_server/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/include_server/__pycache__/basics.cpython-37.pyc
@@ -48,7 +48,7 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/include_server/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/include_server/cache_basics.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/include_server/compiler_defaults.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/include_server/compress_files.py
--rwxr-xr-x	root/root	usr/lib/python3.7/site-packages/include_server/distcc_pump_c_extensions.cpython-37m-x86_64-linux-gnu.so
+-rwxrwxr-x	root/root	usr/lib/python3.7/site-packages/include_server/distcc_pump_c_extensions.cpython-37m-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/include_server/include_analyzer.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/include_server/include_analyzer_memoizing_node.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/include_server/include_analyzer_memoizing_node_test.py

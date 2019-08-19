@@ -5,12 +5,12 @@
 # Optional: avahi dbus python3
 
 name=distcc
-version=3.3.2
-release=4
-source=(https://github.com/distcc/distcc/archive/$name-$version.tar.gz distccd)
+version=3.3.3
+release=1
+source=(https://github.com/distcc/distcc/archive/v$version/$name-$version.tar.gz distccd)
 
 build() {
-  cd $name
+  cd $name-$version
   ./autogen.sh
   ./configure \
     --prefix=/usr \

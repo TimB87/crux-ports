@@ -486,9 +486,9 @@ f:174531f8a20e1f3c8fc96e6863bb4838:p5-regexp-common/Pkgfile
 f:17ff4f8bd96ed99116e10808c8df8367:p5-mozilla-ca/.signature
 f:1f93078449cc989b24f020c9b50284b0:p5-mozilla-ca/.footprint
 f:d41a75780444855f88fc21bfc3fba219:p5-mozilla-ca/Pkgfile
-f:16c24cf72ec546de63fa04d8db0b498b:npm/.signature
-f:5e86aab400ff5414007b1d764d54e3ef:npm/.footprint
-f:284324bfc3488e9102257aa15326ee08:npm/Pkgfile
+f:47d514f05a7cf79f9479f3f833e62d28:npm/.signature
+f:a64899f2beb47e3020bc225026542164:npm/.footprint
+f:a6a33a52104b74d3a1c3c64e37a12c00:npm/Pkgfile
 f:723721c9a3d4821ce0f7d746805caf10:php-imagick/.signature
 f:97f8c324e249ac36e0ba2c4b1870bff3:php-imagick/.footprint
 f:fe5e1a54b54021021e2443534d8ac9b2:php-imagick/Pkgfile
@@ -784,9 +784,9 @@ f:9bab0c3103b9d0759ba8bfde465fffde:p5-class-factory-util/Pkgfile
 f:89c61f255c2ea9485a6ef9c7bf0ff112:p5-libwww/.signature
 f:4438023bb2456e7f477ae2c9863e1bc1:p5-libwww/.footprint
 f:be7400e3ec7ecc869f564ea971ccb0b4:p5-libwww/Pkgfile
-f:6e9029516f411575e02017773e4e5438:davfs2/.signature
-f:a0cfa8234952f71459f9380b339f4629:davfs2/.footprint
-f:26a0ccb3120be55b2430ddf0957637fd:davfs2/Pkgfile
+f:93ae9bf96d3862bf3b17186907c32c8d:davfs2/.signature
+f:7e77c56886f4eba7d586cfcb6735e0d1:davfs2/.footprint
+f:1cf24d474210d565d48f9a2803374436:davfs2/Pkgfile
 f:e6411f5748977c20c18b30a111d95675:gnome-python-desktop/.signature
 f:49867170711ca7c81d8bc2a23181a601:gnome-python-desktop/NEWS
 f:b19554bb86b6380e1e4b81f89f80f26c:gnome-python-desktop/01_wnck_enums.patch

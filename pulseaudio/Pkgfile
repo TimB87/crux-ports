@@ -3,7 +3,7 @@
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Packager: Fredrik Rinnestam, fredrik at crux dot guru
 # Depends on: intltool libsndfile tdb dbus speexdsp
-# Optional: avahi bluez5 fftw glib orc
+# Optional: avahi bluez fftw glib sbc orc
 
 name=pulseaudio
 version=12.2

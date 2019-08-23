@@ -186,7 +186,6 @@ d:p5-http-cookies
 d:xtitle
 d:rapidjson
 d:kvantum-theme-arc
-d:bluez5
 d:p5-perlio-utf8-strict
 d:papirus-folders
 d:p5-data-uniqid
@@ -819,10 +818,6 @@ f:1f11862a6f36b1f99fe184d10875d8c2:rapidjson/Pkgfile
 f:32fc89d9b5a924e130fcd533e803d47f:kvantum-theme-arc/.signature
 f:657f14bb505e108e2e68a841a9f21d26:kvantum-theme-arc/.footprint
 f:789838e10b9ebe13c664b3b134217355:kvantum-theme-arc/Pkgfile
-f:23740eca96822fcf7cd53a9d2d63b676:bluez5/.signature
-f:5f8723fb7120c3ea26d79fbc138cd937:bluez5/.footprint
-f:26b0e854e50b67ad0da2b61b194cc87f:bluez5/Pkgfile
-f:97519078e120e7a47851929992dfab13:bluez5/bluetoothd
 f:c7ee024000c3067ea06aae6312564b24:p5-perlio-utf8-strict/.signature
 f:5b0c6f1b41c5ba51652090579b337fdd:p5-perlio-utf8-strict/.footprint
 f:7377c9d00f0c8b196ca19d10a70e8f3e:p5-perlio-utf8-strict/Pkgfile

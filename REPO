@@ -486,9 +486,9 @@ f:174531f8a20e1f3c8fc96e6863bb4838:p5-regexp-common/Pkgfile
 f:17ff4f8bd96ed99116e10808c8df8367:p5-mozilla-ca/.signature
 f:1f93078449cc989b24f020c9b50284b0:p5-mozilla-ca/.footprint
 f:d41a75780444855f88fc21bfc3fba219:p5-mozilla-ca/Pkgfile
-f:47d514f05a7cf79f9479f3f833e62d28:npm/.signature
+f:e5c101be39fd66ad50ef1b6fa9865652:npm/.signature
 f:a64899f2beb47e3020bc225026542164:npm/.footprint
-f:a6a33a52104b74d3a1c3c64e37a12c00:npm/Pkgfile
+f:4504e43e7f6e1fb3cb2775f1f695b499:npm/Pkgfile
 f:723721c9a3d4821ce0f7d746805caf10:php-imagick/.signature
 f:97f8c324e249ac36e0ba2c4b1870bff3:php-imagick/.footprint
 f:fe5e1a54b54021021e2443534d8ac9b2:php-imagick/Pkgfile
@@ -620,9 +620,9 @@ f:b640101c99ca05d02fbae1974f00ab31:light-locker/.signature
 f:24acd60ec47339feb2e9a951b9c06a13:light-locker/.footprint
 f:c12cca3ec32b9d4941f53c72a0e368bc:light-locker/Pkgfile
 f:e62427f53fea4bc79ee8bc158832a8f6:tb.pub
-f:6a94286e3cab171d7fefcf3b2fa796ea:font-awesome/.signature
+f:ce3555482e475affacf99cd1ab547b83:font-awesome/.signature
 f:66cae75bb029a755b80f0968f88a0b94:font-awesome/.footprint
-f:bcfa6c9f6243e8d2c4074a700ce87064:font-awesome/Pkgfile
+f:f8329222f91054be058c41864f47f5a8:font-awesome/Pkgfile
 f:ca5157b9d55142955edaf51f67aff19c:papirus-libreoffice-theme/.signature
 f:32e46505d0a1032c2655d5a14fbcc265:papirus-libreoffice-theme/.footprint
 f:2437e2834d4abde8612ba14ece235458:papirus-libreoffice-theme/Pkgfile

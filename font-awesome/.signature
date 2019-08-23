@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwPkGRR7EBqxDCX6+Ap9Nxmkp5OB28ZUb1+Tda0mjfTyE63IgyEhc5FcRorhC5X2ivk2SrtVs9sMlgQaMjdH/Fws=
-SHA256 (Pkgfile) = ba3839ae2cbb75da3782f5bf72908c408873a8cccbddb20cba80b8990f314325
+RWSXjYMPO7mZwBTHMnHkKYufwDfLSUzVwWfGc03rt2hZO19iP/oQ/WWpdjmofX0EMeb8COcW1R3puYZd32fcCIIJVc/zg9h55wQ=
+SHA256 (Pkgfile) = eea91c5decd8a13e831dc1472a847d705fe32df65fa069a4a8add350debfe517
 SHA256 (.footprint) = ef363d98146e8606a3ff73a699202a5865f19a7149d08e4f88e4af7925ce6100
-SHA256 (FontAwesome-5.10.1.tar.gz) = 8c58f94b774ad7e1b86b2a0ec4de8795acdf7ad2fc5339276fd245023e74913a
+SHA256 (FontAwesome-5.10.2.tar.gz) = 67d1f38d969478e7b0bf07137833d2325b1c23281987f9a3afcd6203d726ae52

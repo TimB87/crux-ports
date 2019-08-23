@@ -437,10 +437,9 @@ f:effad9ba85f593e884f9f2f2a326d156:fcgiwrap/.signature
 f:6e6b9ce39ea2cafdeb255468697cd0e9:fcgiwrap/.footprint
 f:1884a192d846c612c73b39b7661521a8:fcgiwrap/Pkgfile
 f:29dc2e3d2a13fa4d7219768b8257e596:fcgiwrap/fcgiwrap.init
-f:2613e820676d14af515406931ae86a94:pulseaudio/.signature
-f:95d5b85bf33e4ca1765a3003b82b7064:pulseaudio/.footprint
-f:658a2d493f67a80cc2041aced48bee8f:pulseaudio/disable_flat_volumes.conf
-f:eeef690c04cb3e0abd0248beaf43984e:pulseaudio/Pkgfile
+f:b0d5e38ac2eda0e4263cae5f5b3812af:pulseaudio/.signature
+f:c237b46679c210854447c9579f313b18:pulseaudio/.footprint
+f:82e171f76af8f82185ede72ead345ed3:pulseaudio/Pkgfile
 f:39518368836423cb843631bfde9846bd:pulseaudio/pre-install
 f:96c023298affb5f3902c3a0fb7b9d9ad:zotero/.signature
 f:136648cf264908f0003041356b0036b1:zotero/.footprint

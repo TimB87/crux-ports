@@ -2,12 +2,12 @@
 # URL: http://pulseaudio.org/
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Packager: Fredrik Rinnestam, fredrik at crux dot guru
-# Depends on: intltool libsndfile tdb dbus speexdsp
+# Depends on: intltool libsndfile dbus speexdsp
 # Optional: avahi bluez fftw glib sbc orc
 
 name=pulseaudio
 version=12.2
-release=1
+release=2
 source=(http://freedesktop.org/software/pulseaudio/releases/pulseaudio-$version.tar.xz)
 
 build() {
@@ -26,7 +26,7 @@ build() {
     --libexecdir=/usr/lib/$name \
     --disable-{bluez4,default-build-tests,esound,gtk3,hal-compat} \
     --disable-{nls,rpath,samplerate,openssl,tcpwrap,tests,x11} \
-    --with-database=tdb
+    --with-database=gdbm
   # fight unused direct deps
   sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
   make

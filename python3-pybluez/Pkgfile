@@ -1,7 +1,7 @@
 # Description: Bluetooth Python extension module
 # URL: https://github.com/pybluez/pybluez
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: bluez5 git python3-setuptools
+# Depends on: bluez git python3-setuptools
 
 name=python3-pybluez
 version=git

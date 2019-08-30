@@ -25,7 +25,6 @@ lrwxrwxrwx	root/root	usr/bin/parec -> pacat
 lrwxrwxrwx	root/root	usr/bin/parecord -> pacat
 -rwxr-xr-x	root/root	usr/bin/pasuspender
 -rwxr-xr-x	root/root	usr/bin/pulseaudio
--rwxr-xr-x	root/root	usr/bin/start-pulseaudio-x11
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/pulse/
 -rw-r--r--	root/root	usr/include/pulse/cdecl.h
@@ -157,17 +156,6 @@ drwxr-xr-x	root/root	usr/lib/pulseaudio/
 -rwxr-xr-x	root/root	usr/lib/pulseaudio/libpulsedsp.so
 drwxr-xr-x	root/root	usr/lib/pulseaudio/pulse/
 drwxr-xr-x	root/root	usr/share/
-drwxr-xr-x	root/root	usr/share/bash-completion/
-drwxr-xr-x	root/root	usr/share/bash-completion/completions/
-lrwxrwxrwx	root/root	usr/share/bash-completion/completions/pacat -> pulseaudio
-lrwxrwxrwx	root/root	usr/share/bash-completion/completions/pacmd -> pulseaudio
-lrwxrwxrwx	root/root	usr/share/bash-completion/completions/pactl -> pulseaudio
-lrwxrwxrwx	root/root	usr/share/bash-completion/completions/padsp -> pulseaudio
-lrwxrwxrwx	root/root	usr/share/bash-completion/completions/paplay -> pulseaudio
-lrwxrwxrwx	root/root	usr/share/bash-completion/completions/parec -> pulseaudio
-lrwxrwxrwx	root/root	usr/share/bash-completion/completions/parecord -> pulseaudio
-lrwxrwxrwx	root/root	usr/share/bash-completion/completions/pasuspender -> pulseaudio
--rw-r--r--	root/root	usr/share/bash-completion/completions/pulseaudio
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/pacat.1.gz
@@ -181,7 +169,6 @@ lrwxrwxrwx	root/root	usr/share/man/man1/parecord.1.gz -> pacat.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/pasuspender.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/pax11publish.1.gz
 -rw-r--r--	root/root	usr/share/man/man1/pulseaudio.1.gz
--rw-r--r--	root/root	usr/share/man/man1/start-pulseaudio-x11.1.gz
 drwxr-xr-x	root/root	usr/share/man/man5/
 -rw-r--r--	root/root	usr/share/man/man5/default.pa.5.gz
 -rw-r--r--	root/root	usr/share/man/man5/pulse-cli-syntax.5.gz

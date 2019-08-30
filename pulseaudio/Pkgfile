@@ -2,8 +2,8 @@
 # URL: http://pulseaudio.org/
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Packager: Fredrik Rinnestam, fredrik at crux dot guru
-# Depends on: intltool libsndfile dbus speexdsp
-# Optional: avahi bluez fftw glib sbc orc
+# Depends on: intltool libsndfile dbus
+# Optional: avahi bluez fftw glib sbc speexdsp orc
 
 name=pulseaudio
 version=12.2
@@ -13,12 +13,6 @@ source=(http://freedesktop.org/software/pulseaudio/releases/pulseaudio-$version.
 build() {
   cd $name-$version
   NOCONFIGURE=1 ./bootstrap.sh
-
-  [[ -e /usr/lib/pkgconfig/avahi-core.pc ]] && PKGMK_PULSEAUDIO+=" --enable-avahi" || PKGMK_PULSEAUDIO+=" --disable-avahi"
-  [[ -e /usr/lib/pkgconfig/bluez.pc ]] && PKGMK_PULSEAUDIO+=" --enable-bluez5" || PKGMK_PULSEAUDIO+=" --disable-bluez5"
-  [[ -e /usr/lib/pkgconfig/fftw3.pc ]] && PKGMK_PULSEAUDIO+=" --enable-fftw" || PKGMK_PULSEAUDIO+=" --disable-fftw"
-  [[ -e /usr/lib/pkgconfig/glib-2.0.pc ]] && PKGMK_PULSEAUDIO+=" --enable-glib2" || PKGMK_PULSEAUDIO+=" --disable-glib2"
-  [[ -e /usr/lib/pkgconfig/orc-*.pc ]] && PKGMK_PULSEAUDIO+=" --enable-orc" || PKGMK_PULSEAUDIO+=" --disable-orc"
 
   ./configure $PKGMK_PULSEAUDIO \
     --prefix=/usr \
@@ -31,15 +25,16 @@ build() {
   sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
   make
   make -j1 DESTDIR=$PKG install
-  rm -rf $PKG/etc/bash_completion.d
-  rm -rf $PKG/usr/share/zsh
-  rm -f $PKG/usr/share/man/man1/start-pulseaudio-kde.1
-  install -D -m755 src/start-pulseaudio-x11 $PKG/usr/bin/start-pulseaudio-x11
-  # Disable cork-request module, can result in e.g. media players unpausing
-  # when there's a Skype call incoming
-  # thanks to pedja
-  sed -e 's|/usr/bin/pactl load-module module-x11-cork-request|#&|' \
-    -i $PKG/usr/bin/start-pulseaudio-x11
+
+  if ! pkginfo -i | grep '^bash-completion '; then
+    rm -r $PKG/usr/share/bash-completion
+  fi
+  if ! pkginfo -i | grep '^zsh '; then
+    rm -r $PKG/usr/share/zsh
+  fi
+  #rm -r $PKG/usr/share/man/man1/start-pulseaudio-kde.1*
+  #rm -r $PKG/usr/share/man/man1/start-pulseaudio-x11.1.gz
+
   sed -e '/autospawn/iautospawn = no' -i $PKG/etc/pulse/client.conf
   sed -e '/flat-volumes/iflat-volumes = no' -i $PKG/etc/pulse/daemon.conf
   sed -e '/Load several protocols/aload-module module-dbus-protocol' \

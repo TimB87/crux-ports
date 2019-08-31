@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwFOaemZGOl9qEbYYr7sWoAs3NDI5zhmI8NPEFkZq6HkOsZdW1Ai/N/r8QhQGWPPB+rpY50I/Es3UvO5vJxqJ6Qg=
-SHA256 (Pkgfile) = b17f774756eba325938ccb21e87f45feb49b141a0bc0fdb422b56c4a4f0add41
-SHA256 (.footprint) = 3ec550573f084c099902b14e61937f5b7a237cb5f88f403c9953798e11a0d0ba
-SHA256 (LWP-Protocol-https-6.07.tar.gz) = 522cc946cf84a1776304a5737a54b8822ec9e79b264d0ba0722a70473dbfb9e7
-SHA256 (certs.patch) = 4f39966c223a751b1e704850691cdfb7638b53ab6fdc174280bac22d2546f3a0

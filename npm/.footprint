@@ -3301,8 +3301,6 @@ drwxr-xr-x	root/root	usr/lib/node_modules/npm/node_modules/rc/test/
 drwxr-xr-x	root/root	usr/lib/node_modules/npm/node_modules/read-cmd-shim/
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/read-cmd-shim/index.js
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/read-cmd-shim/package.json
-drwxr-xr-x	root/root	usr/lib/node_modules/npm/node_modules/read-cmd-shim/test/
--rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/read-cmd-shim/test/integration.js
 drwxr-xr-x	root/root	usr/lib/node_modules/npm/node_modules/read-installed/
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/read-installed/.npmignore
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/read-installed/.travis.yml

@@ -4,8 +4,8 @@
 # Depends on: dbus-glib
 
 name=dbus-python3
-version=1.2.8
-release=2
+version=1.2.10
+release=1
 source=(https://dbus.freedesktop.org/releases/dbus-python/dbus-python-$version.tar.gz)
 
 build() {
@@ -13,7 +13,7 @@ build() {
   mkdir build && cd build
   PYTHON=/usr/bin/python3 \
   ../configure --prefix=/usr
-	sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
+  sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
   make
   make DESTDIR=$PKG install
   rm -fr $PKG/usr/{share,include}

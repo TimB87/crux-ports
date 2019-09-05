@@ -4,7 +4,7 @@
 # Depends on: clang qt5
 
 name=v4l-utils
-version=1.16.6
+version=1.16.7
 release=1
 source=(https://linuxtv.org/downloads/v4l-utils/$name-$version.tar.bz2)
 

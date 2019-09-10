@@ -176,9 +176,9 @@ f:b0ba20877a8490bb7a973345721a6cd1:python-evdev/Pkgfile
 f:c02a91662ddad4fe0b63804fe807032e:yajl/.signature
 f:1884d7eb9e16a1149157ab8e67651855:yajl/.footprint
 f:a4d33f14ea5b5512a4e134637e2bcc75:yajl/Pkgfile
-f:65be2cce5649e56f4287f2bfc1041384:gdl/.signature
+f:4e3ac1782584e524ce93e2a1d4cac185:gdl/.signature
 f:6f43686c659093f1f3e1505ddb3e5a2b:gdl/.footprint
-f:f9189e52ccb8758ee4e522e6f9426df0:gdl/Pkgfile
+f:81e183b3b9622dd991c5e3dea01eaf64:gdl/Pkgfile
 f:fcc9fe20d05969269cea2d279f1d5682:ttf-unifont/.signature
 f:71763ec593f45a46f46d7144e402e47b:ttf-unifont/.footprint
 f:d5560e0716135149488006bae5b28ece:ttf-unifont/Pkgfile

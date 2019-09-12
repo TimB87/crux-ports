@@ -4,7 +4,7 @@
 # Depends on: dbus-glib
 
 name=dbus-python3
-version=1.2.10
+version=1.2.12
 release=1
 source=(https://dbus.freedesktop.org/releases/dbus-python/dbus-python-$version.tar.gz)
 
@@ -18,5 +18,4 @@ build() {
   make DESTDIR=$PKG install
   rm -fr $PKG/usr/{share,include}
   mv $PKG/usr/lib/pkgconfig/dbus-python.pc $PKG/usr/lib/pkgconfig/dbus-python3.pc
-  #rm -r $PKG/usr/include
 }

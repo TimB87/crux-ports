@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwN8lHGIl7PsOXHGLoNzsFYOijljF/E81NhimnVKJpfNexAk6YXEmT3fE7DCyuYziK5DKnxnTd7/Km9C4U+8dggs=
-SHA256 (Pkgfile) = fede7952a2653fe177743d33d83290ba9afaeca02fe92ada68d0091a28da323c
+RWSXjYMPO7mZwJzuedEgVTte6hEU8cupUo2Ms5+Xv9uBPnzHSxtJGAOEOMKPqHljAs7Sgllpi6juuukdty7nh6WKRNy2nImJ+w8=
+SHA256 (Pkgfile) = 534d0cdaf36ffaaa75a3568a0102044b8b71cd11a4c6fc46d63d0f02867c4e79
 SHA256 (.footprint) = ad3fec5bc45904f4d49d4a95e0ab709ece11d1d431e159df26ab97f252b534f0
-SHA256 (dbus-python-1.2.10.tar.gz) = d4332bbd4a0054fa4010b259c293b84d461bbd9d7a8ef528157d151c0398d886
+SHA256 (dbus-python-1.2.12.tar.gz) = cdd4de2c4f5e58f287b12013ed7b41dee81d503c8d0d2397c5bd2fb01badf260

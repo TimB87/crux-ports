@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwJtpSy1e70hMPjvFcyAAJCq0KbQ1/pmc1KnlUbsvuFfJz7QypRltjIxwWHAQqExpVyNahc+u3IDb6a4ICjD7bQY=
+SHA256 (Pkgfile) = 5197dcff8dc7578748ac94667ef2aace42e41f9631ee0bf2bfda4669acb9ebb9
+SHA256 (.footprint) = 87879c384684e676f90a9d7ee73294d8c5f449702d192f33d04929957a721ef8
+SHA256 (xbindkeys-1.8.6.tar.gz) = 6c0d18be19fc19ab9b4595edf3a23c0a6946c8a5eb5c1bc395471c8f9a710d18

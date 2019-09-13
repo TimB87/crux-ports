@@ -1,0 +1,10 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/amd/
+-rw-r--r--	root/root	etc/amd/amdPalSettings.cfg
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/lib/
+-rwxr-xr-x	root/root	usr/lib/amdvlk64.so
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/vulkan/
+drwxr-xr-x	root/root	usr/share/vulkan/icd.d/
+-rwxr-xr-x	root/root	usr/share/vulkan/icd.d/amd_icd64.json

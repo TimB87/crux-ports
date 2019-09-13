@@ -1,0 +1,39 @@
+# Description: AMD's standalone Vulkan driver
+# URL: https://github.com/GPUOpen-Drivers
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: git vulkan-loader xorg-server wayland
+
+name=amdvlk
+version=2019.Q3.5
+release=1
+source=(https://github.com/GPUOpen-Drivers/AMDVLK/archive/v-$version/$name-$version.tar.gz amdPalSettings.cfg)
+
+build() {
+  git clone -b dev https://github.com/GPUOpen-Drivers/xgl.git xgl
+  git clone -b amd-vulkan-dev https://github.com/GPUOpen-Drivers/llvm.git
+  git clone -b dev https://github.com/GPUOpen-Drivers/pal.git
+  git clone -b master https://github.com/GPUOpen-Drivers/wsa.git
+  git clone -b dev https://github.com/GPUOpen-Drivers/llpc.git
+  git clone -b amd-master https://github.com/GPUOpen-Drivers/MetroHash.git pal/src/util/imported/metrohash
+
+  sed -i "s/<drm/<libdrm/g" pal/src/core/os/amdgpu/display/displayWindowSystem.h
+  cd xgl
+  export CFLAGS=${CFLAGS/-fno-plt}
+  export CXXFLAGS=${CXXFLAGS/-fno-plt}
+  export LDFLAGS=${LDFLAGS/,-z,now}
+  cmake -H. -Bbuilds/Release64 \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DBUILD_WAYLAND_SUPPORT=On \
+    -DBUILD_WSA=On
+  cd builds/Release64
+  make
+
+  install -m755 -d $PKG/usr/lib
+  install -m755 -d $PKG/usr/share/vulkan/icd.d
+  install -m755 -d $PKG/etc/amd
+  install -m644 $SRC/amdPalSettings.cfg $PKG/etc/amd/amdPalSettings.cfg
+  cd $SRC
+  install xgl/builds/Release64/icd/amdvlk64.so $PKG/usr/lib/
+  install AMDVLK-v-$version/json/Redhat/amd_icd64.json $PKG/usr/share/vulkan/icd.d/
+  sed -i "s/\/lib64/\/lib/g" $PKG/usr/share/vulkan/icd.d/amd_icd64.json
+}

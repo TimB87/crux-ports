@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwMJB6jvaoRYzu8dMcehMueMZglZ3WTEstSPbMJufq/y3vWpK3MVU5wNKwSbgN37PAJg48UeVNQ3fuu6G/koADwg=
+SHA256 (Pkgfile) = d378e330ea28b6e9c4d81c01faf1899c8bf3627b94612258a962f868a8756b3e
+SHA256 (.footprint) = abb82eef3dd35998d67940307588fbb85489cb4d7d6a480aca426a4946d581d7
+SHA256 (amdvlk-2019.Q3.5.tar.gz) = 383d43ddcff3295bb8dc85bce2a376fbde9f2aa3535be9e4dbf67f745c40ff41
+SHA256 (amdPalSettings.cfg) = 9a824f59cb8cf6446b4ff6253e1cd11c1351275270cc108734108955bbfab09a

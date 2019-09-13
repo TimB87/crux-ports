@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwNosbrj/bANpx5ykuKV/HmXrNWREsWPAz/9fStn/lLXKhsDboVgH+gXnKYwwonpGxO/qCLXgPYi3s9sMeV1IFwI=
+SHA256 (Pkgfile) = a70dd757dd41dac1b04734c76b9b2d770f368f402a9e065a877fc74f614bc6a8
+SHA256 (.footprint) = 3e02574d7c1a7ec33401c8f5dd0bc481306c1b6a97619640be1446b7f9e2341a
+SHA256 (libgusb-0.3.0.tar.gz) = b36310f8405d5fd68f6caf4a829f7ab4c627b38fd3d02a139d411fce0f3a49f1

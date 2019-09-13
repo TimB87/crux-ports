@@ -1,0 +1,21 @@
+# Description: A shell tool for executing jobs in parallel using one or more computers.
+# URL: http://www.gnu.org/software/parallel/
+# Maintainer: Danny Rawlins, crux at romster dot me
+# Packager: Danny Rawlins, crux at romster dot me
+
+name=parallel
+version=20190722
+release=1
+source=(http://ftp.gnu.org/gnu/$name/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	./configure \
+		--prefix=/usr \
+		--mandir=/usr/share/man
+
+	make
+	make DESTDIR=$PKG install
+	rm -r $PKG/usr/share/doc
+}

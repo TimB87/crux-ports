@@ -1,0 +1,14 @@
+# Description: Actions gestures on your touchpad using libinput
+# URL: https://github.com/bulletmark/libinput-gestures
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: libinput xdotool
+
+name=libinput-gestures
+version=2.45
+release=1
+source=(https://github.com/bulletmark/libinput-gestures/archive/$version/$name-$version.tar.gz)
+
+build() {
+  cd $name-$version
+  make DESTDIR=$PKG install
+}

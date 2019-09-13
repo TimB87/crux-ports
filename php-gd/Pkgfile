@@ -1,0 +1,25 @@
+# Description: GD module for PHP
+# URL: http://www.php.net
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Packager: Juergen Daubert, jue at crux dot nu
+# Packager: Alan Mizrahi, alan at mizrahi dot com dot ve
+# Depends on: libgd
+
+name=php-gd
+version=7.3.9
+release=1
+source=(http://www.php.net/distributions/php-$version.tar.xz)
+
+build() {
+  cd php-$version
+
+  ./configure --disable-all \
+    --with-gd=shared,/usr \
+    --with-freetype-dir=/usr
+  make build-modules
+
+  install -d $PKG/{etc/php/conf.d,usr/lib/php/extensions}
+  install -m 755 modules/gd.so $PKG/usr/lib/php/extensions/
+
+  printf 'extension=%s\n' gd.so > $PKG/etc/php/conf.d/gd.ini
+}

@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwLCUoKFxIkBtWAzL5qIG01tGfIzNlfVk2ucCr9iCjxDcOJmiqocyI7oh/9jVfAVUQKljBIZD1s7AqdFTEZHpXAY=
+SHA256 (Pkgfile) = 48edab941d4577ef5e00b0ae097d219d996aaf1614ae1da1a5dadcadb5331ff8
+SHA256 (.footprint) = 8623e7058602ef51c38eebd3c8577d2c7a106923cfea525e04c58306eef15bf0
+SHA256 (snappy-1.1.7.tar.gz) = 3dfa02e873ff51a11ee02b9ca391807f0c8ea0529a4924afa645fbf97163f9d4
+SHA256 (snappy.pc) = d210ff4d3ffe9a987b974a8387d967af66a93bf90d72fedce94a2159d937813e

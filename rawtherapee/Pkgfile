@@ -1,0 +1,25 @@
+# Description: A powerful cross-platform raw image processing program
+# URL: https://rawtherapee.com/
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: fftw gtkmm3 lcms2 lensfun libcanberra libiptcdata librsvg libwebp tdb
+
+name=rawtherapee
+version=5.7
+release=1
+source=(https://rawtherapee.com/shared/source/$name-$version.tar.xz)
+
+build() {
+  mkdir build
+  cd build
+  cmake ../$name-$version/ \
+    -DCMAKE_INSTALL_PREFIX=/usr \
+    -DCMAKE_BUILD_TYPE=Release \
+    -DCMAKE_NAME_SUFFIX=""
+  make
+  make DESTDIR=$PKG install
+  rm -r $PKG/usr/share/doc
+  find $PKG/usr/share \( \
+    -iname README \
+    -iname AUTHORS \
+    \) -exec rm '{}' \+
+}

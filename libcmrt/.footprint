@@ -1,0 +1,13 @@
+drwxr-xr-x	root/root	usr/
+drwxr-xr-x	root/root	usr/etc/
+-rw-r--r--	root/root	usr/etc/cmrt.conf
+drwxr-xr-x	root/root	usr/include/
+-rw-r--r--	root/root	usr/include/cm_rt.h
+-rw-r--r--	root/root	usr/include/cm_rt_linux.h
+drwxr-xr-x	root/root	usr/lib/
+-rwxr-xr-x	root/root	usr/lib/libcmrt.la
+lrwxrwxrwx	root/root	usr/lib/libcmrt.so -> libcmrt.so.1.1001.0
+lrwxrwxrwx	root/root	usr/lib/libcmrt.so.1 -> libcmrt.so.1.1001.0
+-rwxr-xr-x	root/root	usr/lib/libcmrt.so.1.1001.0
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rw-r--r--	root/root	usr/lib/pkgconfig/libcmrt.pc

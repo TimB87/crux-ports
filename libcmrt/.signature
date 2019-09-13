@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwCqdY6lxXLVn/Wlqkh1E9TyZpCTnWg0IaZKIPQvI/5WCdOxBYaEgnL0J8Jq17CfmNz2bFDWZGwv4FOVx5AaNfA4=
+SHA256 (Pkgfile) = bfd494044b385f85d5e5f29cd42d3a2f633bd68cb817d968d88252c8252b8cea
+SHA256 (.footprint) = ed37da3ae99ac915e814e304b50242dfce49436dbbe7866b7039a409dd11a825
+SHA256 (libcmrt-1.0.6.tar.gz) = ca22e905a2717fc740e703e65a0061a0e11f4ea513ba970bbc10b3bd6d28e6e0

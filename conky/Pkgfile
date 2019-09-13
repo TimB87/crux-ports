@@ -1,0 +1,37 @@
+# Description: Light-weight system monitor
+# URL: https://github.com/brndnmtthws/conky
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: cmake git lua imlib2 xorg-libxdamage xorg-libxft xorg-libxinerama
+# Optional: pulseaudio wireless-tools cmus moc mpd mysql libical
+name=conky
+version=1.11.5
+release=1
+source=(https://github.com/brndnmtthws/conky/archive/v$version/$name-$version.tar.gz)
+
+build() {
+  cd $name-$version
+
+  [[ -e /usr/lib/pkgconfig/libpulse.pc ]] && PKGMK_CONKY+=" -D BUILD_PULSEAUDIO=ON" || PKGMK_CONKY+=" -D BUILD_PULSEAUDIO=OFF"
+  [[ -e /usr/include/wireless.h ]] && PKGMK_CONKY+=" -D BUILD_WLAN=ON" || PKGMK_CONKY+=" -D BUILD_WLAN=OFF"
+  [[ -e /usr/lib/cmus ]] && PKGMK_CONKY+=" -D BUILD_CMUS=ON" || PKGMK_CONKY+=" -D BUILD_CMUS=OFF"
+  [[ -e /usr/lib/moc ]] && PKGMK_CONKY+=" -D BUILD_MOC=ON" || PKGMK_CONKY+=" -D BUILD_MOC=OFF"
+  [[ -e /usr/bin/mpd ]] && PKGMK_CONKY+=" -D BUILD_MPD=ON" || PKGMK_CONKY+=" -D BUILD_MPD=OFF"
+  [[ -e /usr/lib/pkgconfig/mysqlclient.pc ]] && PKGMK_CONKY+=" -D BUILD_MYSQL=ON" || PKGMK_CONKY+=" -D BUILD_MYSQL=OFF"
+  [[ -e /usr/lib/pkgconfig/libical.pc ]] && PKGMK_CONKY+=" -D BUILD_ICAL=ON" || PKGMK_CONKY+=" -D BUILD_ICAL=OFF"
+
+  mkdir build && cd build
+  cmake $PKGMK_CONKY \
+    -D CMAKE_INSTALL_PREFIX=/usr \
+    -D CMAKE_BUILD_TYPE=Release \
+    -D BUILD_CURL=ON \
+    -D MAINTAINER_MODE=OFF \
+    -D BUILD_DOCS=OFF \
+    -D BUILD_I18N=OFF \
+    -D BUILD_RSS=ON \
+    ..
+  make
+  make DESTDIR=$PKG install
+  install -Dm644 ../extras/vim/syntax/conkyrc.vim $PKG/usr/share/vim/vimfiles/syntax/conkyrc.vim
+  install -Dm644 ../extras/vim/ftdetect/conkyrc.vim $PKG/usr/share/vim/vimfiles/ftdetect/conkyrc.vim
+  rm -r $PKG/usr/share/doc
+}

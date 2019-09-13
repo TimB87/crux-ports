@@ -1,0 +1,31 @@
+# Description: System daemon for managing color devices
+# URL: https://www.freedesktop.org/software/colord
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: argyllcms dbus lcms2 libgudev libgusb polkit sane
+
+name=colord
+version=1.4.4
+release=2
+source=(https://github.com/hughsie/colord/archive/$version/$name-$version.tar.gz 0001-trivial-Fix-error-checking-for-sd_pid_get_session-an.patch)
+
+build() {
+  cd $name-$version
+  patch -Np1 -i $SRC/0001-trivial-Fix-error-checking-for-sd_pid_get_session-an.patch
+  meson . build \
+    --prefix=/usr \
+    --libexecdir=/usr/lib/$name \
+    -D udev_rules=true \
+    -D systemd=false \
+    -D bash_completion=false \
+    -D libcolordcompat=true \
+    -D sane=true \
+    -D vapi=false \
+    -D print_profiles=true \
+    -D daemon_user=colord \
+    -D docs=false \
+    -D man=false \
+    -D tests=false
+  ninja -C build
+  DESTDIR=$PKG meson install -C build
+  rm -r $PKG/usr/share/locale
+}

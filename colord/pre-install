@@ -1,0 +1,4 @@
+#!/bin/sh
+getent group colord || /usr/sbin/groupadd colord
+getent passwd colord || /usr/sbin/useradd -g colord -d /var/empty -s /bin/false -c "colord User" colord
+/usr/bin/passwd -l colord

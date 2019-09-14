@@ -6,8 +6,8 @@
 # Optional: avahi bluez fftw glib sbc speexdsp orc
 
 name=pulseaudio
-version=12.2
-release=2
+version=13.0
+release=1
 source=(http://freedesktop.org/software/pulseaudio/releases/pulseaudio-$version.tar.xz)
 
 build() {

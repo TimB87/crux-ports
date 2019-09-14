@@ -359,9 +359,9 @@ f:80eaab8005ce781b85eb16c57243cd11:amdvlk/amdPalSettings.cfg
 f:77fbd26601ccb059e042018e30787f78:uthash/.signature
 f:d8abf2591188e6e6a8badd0abe472dca:uthash/.footprint
 f:e7c378382def4fe6c35ea989b0d0112e:uthash/Pkgfile
-f:dd68893133bbf80dcde9ad96a5954a62:libical/.signature
-f:5341790d2ca271018a86ebab38e22548:libical/.footprint
-f:a73b4dc98bf7a2be4668b5e3cecfb092:libical/Pkgfile
+f:e7b55ba01f4fb89622b8822744710b44:libical/.signature
+f:ecd5507ae3eaa65163485bb25487fc1c:libical/.footprint
+f:e2cf8862b54b0b209e142815d9c89c54:libical/Pkgfile
 f:496a9e1858f9ae6e0d006835b0644830:pipewire/.signature
 f:5770ca1a42bdcbdbff6bd3089aeee602:pipewire/.footprint
 f:82984354e890c5969807c4b668478cdc:pipewire/Pkgfile

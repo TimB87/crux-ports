@@ -4,8 +4,8 @@
 # Depends on: cmake glib libxml2
 
 name=libical
-version=3.0.5
-release=3
+version=3.0.6
+release=1
 source=(https://github.com/libical/libical/archive/v$version/$name-$version.tar.gz)
 
 build() {

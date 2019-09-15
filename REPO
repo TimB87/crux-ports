@@ -73,6 +73,8 @@ d:icon-slicer
 d:light-locker
 d:font-awesome
 d:papirus-libreoffice-theme
+d:argyllcms
+d:libiptcdata
 d:optipng
 d:arandr
 d:colm
@@ -128,9 +130,9 @@ f:761c79282550141f5eb1a085c67858ca:xdotool/Pkgfile
 f:4c6cd91d1e77567c848d90daba7e8ad4:cargo-make/.signature
 f:151e0496d7140054ae1b6c55f2ff3a53:cargo-make/.footprint
 f:566e1958568cee09c53ea174af3a98ec:cargo-make/Pkgfile
-f:e3ea21e7df8a95ea96c03f9b0ee4db58:rawtherapee/.signature
-f:8372e8b8090290b294194bee7ad5d889:rawtherapee/.footprint
-f:1462e375eb515f297030a237c22c631a:rawtherapee/Pkgfile
+f:66a81ea0573ebd67817e580dd2a2f1a7:rawtherapee/.signature
+f:1494a34adc5d01aa608a1e49f1429dd0:rawtherapee/.footprint
+f:8cb9ebc5292e45963f458005b079bbc4:rawtherapee/Pkgfile
 f:944e111a1a869410f564f25ecc5c35a2:xdg-desktop-portal-gtk/.signature
 f:dcab9ebde3c07144d207f24cb479d6b7:xdg-desktop-portal-gtk/.footprint
 f:d5cd8bd3e623379c0d858c2003a3a0e2:xdg-desktop-portal-gtk/Pkgfile
@@ -383,6 +385,12 @@ f:f8329222f91054be058c41864f47f5a8:font-awesome/Pkgfile
 f:ca5157b9d55142955edaf51f67aff19c:papirus-libreoffice-theme/.signature
 f:32e46505d0a1032c2655d5a14fbcc265:papirus-libreoffice-theme/.footprint
 f:2437e2834d4abde8612ba14ece235458:papirus-libreoffice-theme/Pkgfile
+f:e8b59706c804986ab855a096babb5ec5:argyllcms/.signature
+f:732a54e5336be7740f805821378603bd:argyllcms/.footprint
+f:469f4052c5477486517f6a24773139b9:argyllcms/Pkgfile
+f:cf61fab10133c05735733ce8587db3a2:libiptcdata/.signature
+f:cd058f8f5bd01d94f50a18116fe80d9d:libiptcdata/.footprint
+f:77f3bef3f309ca1532d1734fab3de78d:libiptcdata/Pkgfile
 f:d57b29054479894fe820d80f36e15555:optipng/.signature
 f:02ca7bf2822d7962acb9cda48df486cd:optipng/.footprint
 f:a140a68be87b6af42c8db2ca0d4d9b5b:optipng/Pkgfile
@@ -413,9 +421,9 @@ f:4270d0493d15294962bb0900e7d1f3f3:php/Pkgfile
 f:8cbca4b93a5101bb29c347f9557925d0:v4l-utils/.signature
 f:c83a104ca6beae3abd28e27cf16f463f:v4l-utils/.footprint
 f:acf4374371c531ef181f6cdd72101fb3:v4l-utils/Pkgfile
-f:2081163826d32e594edd8acc67f4acaa:libinput-gestures/.signature
-f:53cff5898c4575e408a10ab9f0ee002c:libinput-gestures/.footprint
-f:9e479f0b31cb83f61a06441ae8c9c609:libinput-gestures/Pkgfile
+f:ec24495ff697d645060535158b62c272:libinput-gestures/.signature
+f:ad4fa9236e99bf0cf657e03ea176f1e8:libinput-gestures/.footprint
+f:3457655e9ca4fdb1b038e09fb10c2040:libinput-gestures/Pkgfile
 f:038d2b8dc7bf6f96a13a3453b976b5ec:patchelf/.signature
 f:f95f2f850934b5b1bef9bee2505927d0:patchelf/.footprint
 f:1d99bd651be501884b591c2d15f08a80:patchelf/Pkgfile

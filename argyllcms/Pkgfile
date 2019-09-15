@@ -1,0 +1,20 @@
+# Description: An ICC compatible color management system with support for different colorimeter hardware
+# URL: https://www.argyllcms.com/
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: ftjam libpng libtiff xorg-libxinerama xorg-libxrandr xorg-libxscrnsaver xorg-libxxf86vm zstd
+
+name=argyllcms
+version=2.1.1
+release=1
+source=(https://www.argyllcms.com/Argyll_V${version}_src.zip)
+
+build() {
+  cd Argyll_V$version
+  sed -i 's:^TEST=="/lib/udev/usb-db", IMPORT{program}="usb-db %p":IMPORT{builtin}="hwdb --subsystem=usb":' usb/55-Argyll.rules
+  echo "LINKFLAGS += ${LDFLAGS} ;" >> Jamtop
+  CCOPTFLAG="$CFLAGS"
+  jam -q -fJambase ${MAKEFLAGS} -sPREFIX=/usr -sDESTDIR=$PKG -sREFSUBDIR=share/argyllcms/ref all
+  jam -q -fJambase ${MAKEFLAGS} -sPREFIX=/usr -sDESTDIR=$PKG -sREFSUBDIR=share/argyllcms/ref install
+
+  rm $PKG/usr/bin/License.txt
+}

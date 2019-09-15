@@ -5,7 +5,7 @@
 
 name=rawtherapee
 version=5.7
-release=1
+release=2
 source=(https://rawtherapee.com/shared/source/$name-$version.tar.xz)
 
 build() {
@@ -18,8 +18,8 @@ build() {
   make
   make DESTDIR=$PKG install
   rm -r $PKG/usr/share/doc
-  find $PKG/usr/share \( \
-    -iname README \
-    -iname AUTHORS \
-    \) -exec rm '{}' \+
+  find $PKG/usr/share \(\
+    -iname '*README*' -o \
+    -iname '*AUTHORS*' \
+    \) -exec rm -r '{}' \+
 }

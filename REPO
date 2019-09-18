@@ -36,7 +36,6 @@ d:ttf-font-icons
 d:gnome-keyring
 d:php-gd
 d:highlight
-d:i3status-rust
 d:ftjam
 d:fcgiwrap
 d:pulseaudio
@@ -253,9 +252,6 @@ f:174a85db5c583fa4662c90524ef851f6:php-gd/Pkgfile
 f:36da14bfc83abfc213a62fb224e94c4b:highlight/.signature
 f:aaed406e35e763c7df59952e740832ec:highlight/.footprint
 f:25894e2de8723285f226abcc8d153e37:highlight/Pkgfile
-f:b60e19070e634a480745d61fa797d00b:i3status-rust/.signature
-f:cb88dab39de9f26ccbc4bd46bda46b99:i3status-rust/.footprint
-f:5ed2af0a9410946abaebf73fe2388d19:i3status-rust/Pkgfile
 f:5456e43f5a1edcdc0e290f1e7949d1d7:ftjam/.signature
 f:befbdb005f6d72371ccd16df69e3021e:ftjam/.footprint
 f:57f56176c794f3bd5783f58ae670c87b:ftjam/Pkgfile
@@ -379,9 +375,9 @@ f:b640101c99ca05d02fbae1974f00ab31:light-locker/.signature
 f:24acd60ec47339feb2e9a951b9c06a13:light-locker/.footprint
 f:c12cca3ec32b9d4941f53c72a0e368bc:light-locker/Pkgfile
 f:e62427f53fea4bc79ee8bc158832a8f6:tb.pub
-f:ce3555482e475affacf99cd1ab547b83:font-awesome/.signature
+f:0eae1a25eda88f95ddf043a7a9367257:font-awesome/.signature
 f:66cae75bb029a755b80f0968f88a0b94:font-awesome/.footprint
-f:f8329222f91054be058c41864f47f5a8:font-awesome/Pkgfile
+f:156922284560ba764c386a7278457802:font-awesome/Pkgfile
 f:ca5157b9d55142955edaf51f67aff19c:papirus-libreoffice-theme/.signature
 f:32e46505d0a1032c2655d5a14fbcc265:papirus-libreoffice-theme/.footprint
 f:2437e2834d4abde8612ba14ece235458:papirus-libreoffice-theme/Pkgfile

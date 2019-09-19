@@ -323,10 +323,10 @@ f:788ba14c6467fca362b03f5ad4c55d1d:compton/.footprint
 f:c4660ef0a605512664d2119c44158edf:compton/README
 f:fec172e14316425aacca2656722487a2:compton/Pkgfile
 f:8e527a8b6f702d9b7671a21820783ba9:compton/skip_tests.patch
-f:b7616e16a52aa6de34036717a75badb8:papirus-icon-theme/.signature
-f:6428246a1f05a2d2f8fa897af9d15acf:papirus-icon-theme/.footprint
+f:4d81e5d29c125aa933cec5233f7b94d6:papirus-icon-theme/.signature
+f:ee199b04bec5918534045c13a046d1c3:papirus-icon-theme/.footprint
 f:48c6571235da201e7fb43fba6d18bf7b:papirus-icon-theme/post-install
-f:5db0d7a22e6065585f443e5a1df51767:papirus-icon-theme/Pkgfile
+f:66be5eca2d28e14a2b37a5cd09bc32c4:papirus-icon-theme/Pkgfile
 f:59d6442827830429ee87cf7de8de620b:font-ibm-plex/.signature
 f:4260234cb5b61d9f1aa4e4f633d28b35:font-ibm-plex/.footprint
 f:98c7e596875803fdd00d95bcddd2f830:font-ibm-plex/Pkgfile

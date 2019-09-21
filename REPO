@@ -318,10 +318,10 @@ f:37d844993cfadf4bdb163827aa59351a:libcmrt/Pkgfile
 f:7f0c2b58c8e4e509cfecdde5148a898a:grub2-theme-poly-light/.signature
 f:2512e110d4b94c257d80a38d1456249c:grub2-theme-poly-light/.footprint
 f:0be50df12f3446e3625ebb19d9e8d474:grub2-theme-poly-light/Pkgfile
-f:f7164dfe16478f9093b010ec59c5b6ac:compton/.signature
+f:b8dcfafb661699bc3b20574f7ab52144:compton/.signature
 f:788ba14c6467fca362b03f5ad4c55d1d:compton/.footprint
 f:c4660ef0a605512664d2119c44158edf:compton/README
-f:fec172e14316425aacca2656722487a2:compton/Pkgfile
+f:665ace28505fb5463f154f8ff7e9b010:compton/Pkgfile
 f:8e527a8b6f702d9b7671a21820783ba9:compton/skip_tests.patch
 f:4d81e5d29c125aa933cec5233f7b94d6:papirus-icon-theme/.signature
 f:ee199b04bec5918534045c13a046d1c3:papirus-icon-theme/.footprint

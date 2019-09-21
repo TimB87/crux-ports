@@ -5,7 +5,7 @@
 # Depends on: dbus libconfig libev libpcre libxdg-basedir mesa3d uthash xorg-libxcomposite xorg-libxinerama xorg-libpixman xorg-libxrandr xorg-xcb-util-image xorg-xcb-util-renderutil
 
 name=compton
-version=7.3
+version=7.4
 release=1
 source=(https://github.com/yshui/compton/archive/v$version/$name-$version.tar.gz skip_tests.patch)
 

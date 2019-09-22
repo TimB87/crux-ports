@@ -501,9 +501,9 @@ f:e145f4965e3ec86dd35e8b566838dc3e:gsimplecal/Pkgfile
 f:362e09a14bce7c7522ccd0ed7c49289d:gnome-themes-extra/.signature
 f:a4f6b6756e89b8bdc3df944b2f855529:gnome-themes-extra/.footprint
 f:a33879a2ed46849ead114a9f7712dd58:gnome-themes-extra/Pkgfile
-f:bd5ed451374d1bfdffb4b6c9d2ab8d10:murmur/.signature
+f:b4786f16517207afcdfca4e9a44decfe:murmur/.signature
 f:99fa44acfdccf900f090869f7bb38e82:murmur/.footprint
-f:3f4e0c125c135c455e341b16bec64be3:murmur/Pkgfile
+f:659102c56cef3824e567142e33d410f3:murmur/Pkgfile
 f:e72ca7bc42fe99f9de8fd97d1e1572ba:murmur/pre-install
 f:4014d548fa3a400a75ebd3fb26b90316:murmur/murmur
 f:8a010b5680e5888d4ff1d83c9248b37a:distcc/.signature

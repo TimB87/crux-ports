@@ -7,15 +7,52 @@ name=amdvlk
 version=2019.Q3.5
 release=1
 source=(https://github.com/GPUOpen-Drivers/AMDVLK/archive/v-$version/$name-$version.tar.gz amdPalSettings.cfg)
+git_source=(https://github.com/GPUOpen-Drivers/xgl.git
+  https://github.com/GPUOpen-Drivers/llvm.git
+  https://github.com/GPUOpen-Drivers/pal.git
+  https://github.com/GPUOpen-Drivers/wsa.git
+  https://github.com/GPUOpen-Drivers/llpc.git
+  https://github.com/GPUOpen-Drivers/MetroHash.git pal/src/util/imported/metrohash)
 
 build() {
-  git clone -b dev https://github.com/GPUOpen-Drivers/xgl.git xgl
-  git clone -b amd-vulkan-dev https://github.com/GPUOpen-Drivers/llvm.git
-  git clone -b dev https://github.com/GPUOpen-Drivers/pal.git
-  git clone -b master https://github.com/GPUOpen-Drivers/wsa.git
-  git clone -b dev https://github.com/GPUOpen-Drivers/llpc.git
-  git clone -b amd-master https://github.com/GPUOpen-Drivers/MetroHash.git pal/src/util/imported/metrohash
-
+  cd $PKGMK_SOURCE_DIR
+  if cd xgl; then
+    git pull --rebase https://github.com/GPUOpen-Drivers/xgl.git
+  else
+    git clone -b dev https://github.com/GPUOpen-Drivers/xgl.git xgl
+    cd ..
+  fi
+  if cd llvm; then
+    git pull --rebase https://github.com/GPUOpen-Drivers/llvm.git
+  else
+    git clone -b amd-vulkan-dev https://github.com/GPUOpen-Drivers/llvm.git llvm
+    cd ..
+  fi
+  if cd pal; then
+    git pull --rebase https://github.com/GPUOpen-Drivers/pal.git
+  else
+    git clone -b dev https://github.com/GPUOpen-Drivers/pal.git pal
+    cd ..
+  fi
+  if cd wsa; then
+    git pull --rebase https://github.com/GPUOpen-Drivers/wsa.git
+  else
+    git clone -b master https://github.com/GPUOpen-Drivers/wsa.git wsa
+    cd ..
+  fi
+  if cd llpc; then
+    git pull --rebase https://github.com/GPUOpen-Drivers/llpc.git
+  else
+    git clone -b dev https://github.com/GPUOpen-Drivers/llpc.git llpc
+    cd ..
+  fi
+  if cd pal/src/util/imported/metrohash; then
+    git pull --rebase https://github.com/GPUOpen-Drivers/MetroHash.git
+  else
+    git clone -b amd-master https://github.com/GPUOpen-Drivers/MetroHash.git pal/src/util/imported/metrohash
+  fi
+  cp -r $PKGMK_SOURCE_DIR/{xgl,llvm,pal,wsa,llpc} $SRC
+  cd $SRC
   sed -i "s/<drm/<libdrm/g" pal/src/core/os/amdgpu/display/displayWindowSystem.h
   cd xgl
   export CFLAGS=${CFLAGS/-fno-plt}

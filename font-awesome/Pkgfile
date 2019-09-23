@@ -4,7 +4,7 @@
 # Depends on:
 
 name=font-awesome
-version=5.11.1
+version=5.11.2
 release=1
 source=(https://github.com/FortAwesome/Font-Awesome/archive/$version/FontAwesome-$version.tar.gz)
 

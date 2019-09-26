@@ -4,7 +4,7 @@
 # Depends on: boost cmake
 
 name=assimp
-version=4.1.0
+version=5.0.0
 release=1
 source=(https://github.com/assimp/assimp/archive/v$version/$name-$version.tar.gz)
 

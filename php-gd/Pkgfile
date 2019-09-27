@@ -6,7 +6,7 @@
 # Depends on: libgd
 
 name=php-gd
-version=7.3.9
+version=7.3.10
 release=1
 source=(http://www.php.net/distributions/php-$version.tar.xz)
 

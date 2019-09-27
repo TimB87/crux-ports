@@ -414,9 +414,9 @@ f:3ac8cc7f69dd896264937d86f74c58b9:php/.footprint
 f:918f7ad62a7d65b881408f360ed06124:php/freetype.patch
 f:e447ef10bcd089f1f8fa309b4b501637:php/.md5sum
 f:202da364821d577760dfea18f3302273:php/Pkgfile
-f:8cbca4b93a5101bb29c347f9557925d0:v4l-utils/.signature
+f:11e34b3075cc6facffca2e7d24b83f8d:v4l-utils/.signature
 f:c83a104ca6beae3abd28e27cf16f463f:v4l-utils/.footprint
-f:acf4374371c531ef181f6cdd72101fb3:v4l-utils/Pkgfile
+f:d26e202a7631d6a64559072813d18a23:v4l-utils/Pkgfile
 f:ec24495ff697d645060535158b62c272:libinput-gestures/.signature
 f:ad4fa9236e99bf0cf657e03ea176f1e8:libinput-gestures/.footprint
 f:3457655e9ca4fdb1b038e09fb10c2040:libinput-gestures/Pkgfile

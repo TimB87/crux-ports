@@ -4,7 +4,7 @@
 # Depends on: git vulkan-loader xorg-server wayland
 
 name=amdvlk
-version=2019.Q3.5
+version=2019.Q3.6
 release=1
 source=(https://github.com/GPUOpen-Drivers/AMDVLK/archive/v-$version/$name-$version.tar.gz amdPalSettings.cfg)
 git_source=(https://github.com/GPUOpen-Drivers/xgl.git
@@ -22,30 +22,35 @@ build() {
     git clone -b dev https://github.com/GPUOpen-Drivers/xgl.git xgl
     cd ..
   fi
+  cd $PKGMK_SOURCE_DIR
   if cd llvm; then
     git pull --rebase https://github.com/GPUOpen-Drivers/llvm.git
   else
     git clone -b amd-vulkan-dev https://github.com/GPUOpen-Drivers/llvm.git llvm
     cd ..
   fi
+  cd $PKGMK_SOURCE_DIR
   if cd pal; then
     git pull --rebase https://github.com/GPUOpen-Drivers/pal.git
   else
     git clone -b dev https://github.com/GPUOpen-Drivers/pal.git pal
     cd ..
   fi
+  cd $PKGMK_SOURCE_DIR
   if cd wsa; then
     git pull --rebase https://github.com/GPUOpen-Drivers/wsa.git
   else
     git clone -b master https://github.com/GPUOpen-Drivers/wsa.git wsa
     cd ..
   fi
+  cd $PKGMK_SOURCE_DIR
   if cd llpc; then
     git pull --rebase https://github.com/GPUOpen-Drivers/llpc.git
   else
     git clone -b dev https://github.com/GPUOpen-Drivers/llpc.git llpc
     cd ..
   fi
+  cd $PKGMK_SOURCE_DIR
   if cd pal/src/util/imported/metrohash; then
     git pull --rebase https://github.com/GPUOpen-Drivers/MetroHash.git
   else

@@ -360,9 +360,9 @@ f:e7c378382def4fe6c35ea989b0d0112e:uthash/Pkgfile
 f:e7b55ba01f4fb89622b8822744710b44:libical/.signature
 f:ecd5507ae3eaa65163485bb25487fc1c:libical/.footprint
 f:e2cf8862b54b0b209e142815d9c89c54:libical/Pkgfile
-f:496a9e1858f9ae6e0d006835b0644830:pipewire/.signature
-f:5770ca1a42bdcbdbff6bd3089aeee602:pipewire/.footprint
-f:82984354e890c5969807c4b668478cdc:pipewire/Pkgfile
+f:0ffb0d6cbc1bf3c9d2f43f23eb2c2354:pipewire/.signature
+f:5a0d15c887c72531c9524b842ee144ae:pipewire/.footprint
+f:3597f4d5d3f598a0d1a68cef3edeb43d:pipewire/Pkgfile
 f:d5da8a26305dd2ba001b70b56e46c5e9:os-prober/.signature
 f:d6df03373d469831e56e08af65866c89:os-prober/.footprint
 f:5908b2d6281b2a3ffd71fc93aaa84275:os-prober/Fix-CRUX-grub-menu-entry-detection.patch

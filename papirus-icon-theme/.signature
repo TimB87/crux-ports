@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwBYZOTZjHJRnf04b1A985qbfyUZJS2yyxIutDCRgNVP9fNutV6NRqgZaumFCV50UgI5LPayIm16mliAOM5iDEw8=
-SHA256 (Pkgfile) = 3c9f5c2a9552c1977971f965eced68712e291bae8dc4b3cde7b3920b86bedb48
-SHA256 (.footprint) = 2d7f16f4f944b90fc15b9c3ffd3fa7ad7ad176d6964461c5ce559b2923bc67b3
-SHA256 (papirus-icon-theme-20190919.tar.gz) = c6506f0c6e11e64c1ef11532ec0c759a9611960aee34d2f3ee144b2fd63bb42e
+RWSXjYMPO7mZwNdwTjSsNvYlUhmZmmnkFu0MFlnRe+e1MBv9BV17nsP+Ks8aDVy8ijl5u1BH3W/qWiRv+tcrQbtjEVmdSQzzqgY=
+SHA256 (Pkgfile) = 8733c9177c7732958dec7c7ef32c4f7abc12deb90cd966d77e38bf27d4573167
+SHA256 (.footprint) = 0c0c3d5ed8bbc7fa3a520fd24bcddd8f8c1c76d3fb627f8e269fc4d0dec2f947
+SHA256 (papirus-icon-theme-20191009.tar.gz) = 1e40f8e7b9b827a8aa7c14ec5e3c8905574937d352496c4dd6b05d58ec391ca7

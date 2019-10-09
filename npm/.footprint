@@ -1579,6 +1579,10 @@ drwxr-xr-x	root/root	usr/lib/node_modules/npm/node_modules/from2/node_modules/st
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/from2/test.js
 drwxr-xr-x	root/root	usr/lib/node_modules/npm/node_modules/fs-minipass/
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/fs-minipass/index.js
+drwxr-xr-x	root/root	usr/lib/node_modules/npm/node_modules/fs-minipass/node_modules/
+drwxr-xr-x	root/root	usr/lib/node_modules/npm/node_modules/fs-minipass/node_modules/minipass/
+-rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/fs-minipass/node_modules/minipass/index.js
+-rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/fs-minipass/node_modules/minipass/package.json
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/fs-minipass/package.json
 drwxr-xr-x	root/root	usr/lib/node_modules/npm/node_modules/fs-vacuum/
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/fs-vacuum/.eslintrc
@@ -2649,6 +2653,7 @@ drwxr-xr-x	root/root	usr/lib/node_modules/npm/node_modules/node-gyp/test/
 drwxr-xr-x	root/root	usr/lib/node_modules/npm/node_modules/node-gyp/test/fixtures/
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/node-gyp/test/fixtures/VS_2017_BuildTools_minimal.txt
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/node-gyp/test/fixtures/VS_2017_Community_workload.txt
+-rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/node-gyp/test/fixtures/VS_2017_Express.txt
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/node-gyp/test/fixtures/VS_2017_Unusable.txt
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/node-gyp/test/fixtures/VS_2019_BuildTools_minimal.txt
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/node-gyp/test/fixtures/VS_2019_Community_workload.txt
@@ -2845,10 +2850,6 @@ drwxr-xr-x	root/root	usr/lib/node_modules/npm/node_modules/npm-install-checks/
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/npm-install-checks/CHANGELOG.md
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/npm-install-checks/index.js
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/npm-install-checks/package.json
-drwxr-xr-x	root/root	usr/lib/node_modules/npm/node_modules/npm-install-checks/test/
--rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/npm-install-checks/test/check-engine.js
--rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/npm-install-checks/test/check-git.js
--rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/npm-install-checks/test/check-platform.js
 drwxr-xr-x	root/root	usr/lib/node_modules/npm/node_modules/npm-lifecycle/
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/npm-lifecycle/CHANGELOG.md
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/npm-lifecycle/index.js
@@ -3801,10 +3802,6 @@ drwxr-xr-x	root/root	usr/lib/node_modules/npm/node_modules/tar/node_modules/
 drwxr-xr-x	root/root	usr/lib/node_modules/npm/node_modules/tar/node_modules/minipass/
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/tar/node_modules/minipass/index.js
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/tar/node_modules/minipass/package.json
-drwxr-xr-x	root/root	usr/lib/node_modules/npm/node_modules/tar/node_modules/yallist/
--rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/tar/node_modules/yallist/iterator.js
--rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/tar/node_modules/yallist/package.json
--rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/tar/node_modules/yallist/yallist.js
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/tar/package.json
 drwxr-xr-x	root/root	usr/lib/node_modules/npm/node_modules/term-size/
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/term-size/index.js

@@ -4,7 +4,7 @@
 # Depends on: git vulkan-loader xorg-server wayland
 
 name=amdvlk
-version=2019.Q3.6
+version=2019.Q4.1
 release=1
 source=(https://github.com/GPUOpen-Drivers/AMDVLK/archive/v-$version/$name-$version.tar.gz amdPalSettings.cfg)
 git_source=(https://github.com/GPUOpen-Drivers/xgl.git

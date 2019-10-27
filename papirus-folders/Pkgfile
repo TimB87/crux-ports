@@ -4,11 +4,14 @@
 # Depends on: papirus-icon-theme
 
 name=papirus-folders
-version=1.4.0
+version=1.5.0
 release=1
 source=(https://github.com/PapirusDevelopmentTeam/papirus-folders/archive/v$version/$name-$version.tar.gz)
 
 build() {
-	cd $name-$version
-	make DESTDIR=$PKG install
+  cd $name-$version
+  make DESTDIR=$PKG install
+  if [ ! -d  /lib/zsh ]; then
+    rm $PKG/usr/share/zsh
+  fi
 }

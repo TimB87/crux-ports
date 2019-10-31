@@ -1,0 +1,19 @@
+# Description: libportal provides GIO-style async APIs for most Flatpak portals.
+# URL: https://github.com/flatpak/libportal
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: glib
+
+name=libportal
+version=0.0.2
+release=1
+source=(https://github.com/flatpak/libportal/releases/download/$version/$name-$version.tar.xz)
+
+build() {
+  cd $name-$version
+  # don't build gtkdocs
+  sed '37d' -i meson.build
+  meson . build \
+    --prefix=/usr
+  ninja -C build
+  DESTDIR=$PKG meson install -C build
+}

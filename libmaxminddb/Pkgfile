@@ -4,7 +4,7 @@
 # Depends on:
 
 name=libmaxminddb
-version=1.3.2
+version=1.4.2
 release=1
 source=(https://github.com/maxmind/libmaxminddb/releases/download/$version/libmaxminddb-$version.tar.gz)
 

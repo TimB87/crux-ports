@@ -4,19 +4,22 @@
 # Depends on: nodejs
 
 name=npm
-version=6.12.1
+version=6.13.0
 release=1
 source=(https://github.com/npm/cli/archive/v$version/cli-$version.tar.gz)
 
 build() {
   cd cli-$version
-  mkdir -p node_modules/.bin # we don't want or need marked-man it seems, but you need to create the links for the build to succeed
-  ln -sf /usr/bin/marked{,-man} node_modules/.bin/
-  mkdir -p man/man1
+  # skip docs completly as they try to install files to /root/.npm
+  # and this fails if you are building ports using fakeroot
+  rm -r docs
+  sed -i 's/docs//g' Makefile
   make
   make NPMOPTS="--prefix=\"$PKG/usr\"" install
+
+  # not optimal, if you know a better way, message me
   chmod -R u=rwX,go=rX $PKG
-  chown -R root:root $PKG/usr/lib/node_modules # not optimal, if you know a better way, message me
+  chown -R root:root $PKG
   find $PKG \(\
     -iname "README*" -o \
     -iname "LICENCE" -o \

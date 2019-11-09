@@ -4,7 +4,7 @@
 # Depends on: git vulkan-loader xorg-server wayland
 
 name=amdvlk
-version=2019.Q4.1
+version=2019.Q4.2
 release=1
 source=(https://github.com/GPUOpen-Drivers/AMDVLK/archive/v-$version/$name-$version.tar.gz amdPalSettings.cfg)
 git_source=(https://github.com/GPUOpen-Drivers/xgl.git
@@ -12,7 +12,8 @@ git_source=(https://github.com/GPUOpen-Drivers/xgl.git
   https://github.com/GPUOpen-Drivers/pal.git
   https://github.com/GPUOpen-Drivers/wsa.git
   https://github.com/GPUOpen-Drivers/llpc.git
-  https://github.com/GPUOpen-Drivers/MetroHash.git pal/src/util/imported/metrohash)
+  https://github.com/GPUOpen-Drivers/MetroHash.git pal/src/util/imported/metrohash
+  https://github.com/GPUOpen-Drivers/CWPack.git)
 
 build() {
   cd $PKGMK_SOURCE_DIR
@@ -51,12 +52,20 @@ build() {
     cd ..
   fi
   cd $PKGMK_SOURCE_DIR
-  if cd pal/src/util/imported/metrohash; then
+  if cd cwpack; then
+    git pull --rebase https://github.com/GPUOpen-Drivers/CWPack.git
+  else
+    git clone -b amd-master https://github.com/GPUOpen-Drivers/CWPack.git cwpack
+    cd ..
+  fi
+  cd $PKGMK_SOURCE_DIR
+  if cd metrohash; then
     git pull --rebase https://github.com/GPUOpen-Drivers/MetroHash.git
   else
-    git clone -b amd-master https://github.com/GPUOpen-Drivers/MetroHash.git pal/src/util/imported/metrohash
+    git clone -b amd-master https://github.com/GPUOpen-Drivers/MetroHash.git metrohash
   fi
   cp -r $PKGMK_SOURCE_DIR/{xgl,llvm,pal,wsa,llpc} $SRC
+  cp -R $PKGMK_SOURCE_DIR/{metrohash,cwpack} $SRC/pal/src/util/imported
   cd $SRC
   sed -i "s/<drm/<libdrm/g" pal/src/core/os/amdgpu/display/displayWindowSystem.h
   cd xgl

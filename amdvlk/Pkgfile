@@ -65,7 +65,7 @@ build() {
     git clone -b amd-master https://github.com/GPUOpen-Drivers/MetroHash.git metrohash
   fi
   cp -r $PKGMK_SOURCE_DIR/{xgl,llvm,pal,wsa,llpc} $SRC
-  cp -R $PKGMK_SOURCE_DIR/{metrohash,cwpack} $SRC/pal/src/util/imported
+  cp -R $PKGMK_SOURCE_DIR/{metrohash,cwpack} $SRC/pal/src/util/imported/.
   cd $SRC
   sed -i "s/<drm/<libdrm/g" pal/src/core/os/amdgpu/display/displayWindowSystem.h
   cd xgl

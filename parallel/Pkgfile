@@ -14,6 +14,6 @@ build() {
     --prefix=/usr \
     --mandir=/usr/share/man
   make
-  make destdir=$pkg install
-  rm -r $pkg/usr/share/doc
+  make DESTDIR=$PKG install
+  rm -r $PKG/usr/share/doc
 }

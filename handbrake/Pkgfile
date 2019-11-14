@@ -1,10 +1,10 @@
 # Description: open source video transcoder
 # URL: http://handbrake.fr/
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: faad2 jansson libass libdvdcss libsamplerate libtheora opus x264
+# Depends on: faad2 jansson libass libdvdcss libsamplerate libtheora numactl opus x264
 
 name=handbrake
-version=1.2.2
+version=1.3.0
 release=1
 source=(https://download.handbrake.fr/releases/$version/HandBrake-$version-source.tar.bz2)
 

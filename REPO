@@ -8,6 +8,7 @@ d:xdg-desktop-portal-gtk
 d:python3-pybluez
 d:mpd-mpris
 d:fcgi
+d:numactl
 d:tlp
 d:apcu
 d:termite
@@ -149,6 +150,9 @@ f:02900e5f2400ed2982db1e02c4a17aa8:fcgi/fcgi-2.4.0-poll.patch
 f:7e901968aa90168b6cdfc8323ca59868:fcgi/fcgi-2.4.0-configure.in.patch
 f:35f4256fbdfc1f74b90eeb875291f82a:fcgi/Pkgfile
 f:2e72c834db21da6af3f77dd2b36727a2:fcgi/fcgi-2.4.0-gcc44_fixes.patch
+f:9000d5d3701ba1118ff693b5773b0220:numactl/.signature
+f:e33d8c7034f45de7d50104cbf966edad:numactl/.footprint
+f:0302de3d3a43c487b9452caf9cefa977:numactl/Pkgfile
 f:0ece594be1f39afad649f7de0985430d:tlp/.signature
 f:c3f481e4e30c22358bee45e61d2de54a:tlp/tlp
 f:25fda03549d18b4815d49d1c4960453a:tlp/.footprint
@@ -458,9 +462,9 @@ f:6e6fb39913012a480187f137fc7eca0c:xdg-desktop-portal/Pkgfile
 f:2a69db4946bd86e6ed948d62a5b7bcc6:goaccess/.signature
 f:30ce8265ee5f64e5bda72df7eb25a54d:goaccess/.footprint
 f:d49ef2e496ce7ac773dc46857449d910:goaccess/Pkgfile
-f:c6a32b37d7403d237e854341d00df4fb:handbrake/.signature
+f:266ed395631d28b3126ad73deecafb75:handbrake/.signature
 f:e97af8765bc7fd12631ae9ef0758ae97:handbrake/.footprint
-f:7d97068d2d904e1487812f846abde4a0:handbrake/Pkgfile
+f:61dfae0805caaff052672783abbf6cb5:handbrake/Pkgfile
 f:93ae9bf96d3862bf3b17186907c32c8d:davfs2/.signature
 f:7e77c56886f4eba7d586cfcb6735e0d1:davfs2/.footprint
 f:1cf24d474210d565d48f9a2803374436:davfs2/Pkgfile

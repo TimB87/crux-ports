@@ -171,9 +171,9 @@ f:a18407a2c9b43ca217ebdb14523e3d82:lxc/lxc-users-setup
 f:5c2bdfb9ab3e421c5816408ee646a578:lxc/lxc-users
 f:3adcecede2a9d7bc42c95c60b6b7d004:lxc/man-pages.tar.xz
 f:771a557292a03b34420f3f87687ad329:lxc/lxc-net
-f:90b78e7830ecbd21bcfbe4419682e741:parallel/.signature
+f:3bf24766fbce411a77b8ff12717c0e6d:parallel/.signature
 f:3670ecc1dfaf06a8fad342780fa5eeab:parallel/.footprint
-f:e2b74e3503e627faf0bcb46cc9ead80e:parallel/Pkgfile
+f:899add1741614a71fc0c4346b1eb765f:parallel/Pkgfile
 f:d88d6c65958549c3ec80b9f3e8d5032f:light-locker-settings/.signature
 f:92f6e378c8fbc88902b61f4b63806b29:light-locker-settings/.footprint
 f:7d7b678926090e6ba53c755ac2c0b1ee:light-locker-settings/Pkgfile
@@ -351,9 +351,9 @@ f:13ebcab395827b6f61d0ff94c9a8635d:bdf-unifont/Pkgfile
 f:67d884ce1dd87d55a9fe1e31121f2c96:go-mtpfs/.signature
 f:b76a518d4ba3ca0a808475ec49da691d:go-mtpfs/.footprint
 f:9fa79264fa2103bddac76abd0520f9ce:go-mtpfs/Pkgfile
-f:653fb8970ee45844a42964d8912ea408:amdvlk/.signature
+f:309debcc83504464b21e0b99369b7d5c:amdvlk/.signature
 f:250a4693b430b2e8fadfbfdb8c3d3497:amdvlk/.footprint
-f:469a789180f37aff9dd6ddcfbb662e36:amdvlk/Pkgfile
+f:860fd1749c7dc8a0e9e8d0e213a7c7c6:amdvlk/Pkgfile
 f:80eaab8005ce781b85eb16c57243cd11:amdvlk/amdPalSettings.cfg
 f:77fbd26601ccb059e042018e30787f78:uthash/.signature
 f:d8abf2591188e6e6a8badd0abe472dca:uthash/.footprint

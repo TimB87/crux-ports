@@ -9,6 +9,8 @@ release=1
 source=(https://github.com/Tencent/rapidjson/archive/v$version/$name-$version.tar.gz)
 
 build() {
+  [[ -e /usr/lib/ccache ]] && PATH="$(echo ${PATH} | awk -v RS=: -v ORS=: '/ccache/ {next} {print}' | sed 's/:*$//')"
+  [[ -e /usr/lib/ccache ]] && PKGMK_LIBREOFFICE+=" --enable-ccache" || PKGMK_LIBREOFFICE+=" --disable-ccache"
     cd $name-$version
     find -name CMakeLists.txt | xargs sed -e 's|-Werror||' -i # Don't use -Werror
     mkdir -p build && cd build

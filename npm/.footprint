@@ -1595,6 +1595,8 @@ drwxr-xr-x	root/root	usr/lib/node_modules/npm/node_modules/http-signature/lib/
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/http-signature/lib/verify.js
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/http-signature/package.json
 drwxr-xr-x	root/root	usr/lib/node_modules/npm/node_modules/https-proxy-agent/
+-rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/https-proxy-agent/.editorconfig
+-rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/https-proxy-agent/.eslintrc.js
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/https-proxy-agent/History.md
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/https-proxy-agent/index.d.ts
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/https-proxy-agent/index.js
@@ -3264,7 +3266,6 @@ drwxr-xr-x	root/root	usr/lib/node_modules/npm/node_modules/smart-buffer/docs/
 drwxr-xr-x	root/root	usr/lib/node_modules/npm/node_modules/smart-buffer/typings/
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/smart-buffer/typings/smartbuffer.d.ts
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/smart-buffer/typings/utils.d.ts
--rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/smart-buffer/yarn.lock
 drwxr-xr-x	root/root	usr/lib/node_modules/npm/node_modules/socks-proxy-agent/
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/socks-proxy-agent/.travis.yml
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/socks-proxy-agent/History.md
@@ -3327,7 +3328,6 @@ drwxr-xr-x	root/root	usr/lib/node_modules/npm/node_modules/socks/typings/common/
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/socks/typings/common/receiveBuffer.d.ts
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/socks/typings/common/util.d.ts
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/socks/typings/index.d.ts
--rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/socks/yarn.lock
 drwxr-xr-x	root/root	usr/lib/node_modules/npm/node_modules/sorted-object/
 -rw-r--r--	root/root	usr/lib/node_modules/npm/node_modules/sorted-object/LICENSE.txt
 drwxr-xr-x	root/root	usr/lib/node_modules/npm/node_modules/sorted-object/lib/
@@ -3935,6 +3935,3 @@ drwxr-xr-x	root/root	usr/lib/node_modules/npm/scripts/
 -rw-r--r--	root/root	usr/lib/node_modules/npm/scripts/release.sh
 -rwxr-xr-x	root/root	usr/lib/node_modules/npm/scripts/relocate.sh
 -rwxr-xr-x	root/root	usr/lib/node_modules/npm/scripts/update-authors.sh
-drwxr-xr-x	root/root	usr/lib/node_modules/npm/tap-snapshots/
--rw-r--r--	root/root	usr/lib/node_modules/npm/tap-snapshots/test-tap-fund.js-TAP.test.js
--rw-r--r--	root/root	usr/lib/node_modules/npm/tap-snapshots/test-tap-repo.js-TAP.test.js

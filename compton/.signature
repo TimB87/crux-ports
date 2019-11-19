@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwMz/rC9WuyZqVz2vAkFC7j604NVc8QqbcLgbRK5VMmgbHEYms0w9mz2BGh1UluNtLTWTo+X7zAuuu+bLKiS2YAo=
-SHA256 (Pkgfile) = 2ef671a759a6d8e6139b7beb977c6cfeadb0084056352686d3147d7379152203
-SHA256 (.footprint) = 64ebe0453c7419fffa60ed67012babbd9bbc2901a592992aaa845c0439b22da8
-SHA256 (compton-7.4.tar.gz) = 1911aebb49f765586f655933ee016828e126bc7b2bb016b13c9a34a4865a8fd3
-SHA256 (skip_tests.patch) = 4ce1e8258014f43b667d1a89b6eb76922f28d6a41001485cd40d55cd4c008f6f

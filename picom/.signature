@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwLoJAO6/WUoHOoLPbiFR8fYUm504OhArzBSwkpgD8d2DcJgf4GXN3B2j8ZzJIF2sRUuKOM/j+sFs9xp3ffgbZQg=
+SHA256 (Pkgfile) = 2a01cad684c5e898854ad90dbd18d64180a69795cbca2faae038597bc59e7b52
+SHA256 (.footprint) = a9fe978d854d59a09bef09436397cc2e4a1b15fb3c6cb6bb0003317158ed8269
+SHA256 (picom-7.5.tar.gz) = 1fdeda688d09643563e4314f885beaf074023235e56598ae98d481364e615607
+SHA256 (skip_tests.patch) = 4ce1e8258014f43b667d1a89b6eb76922f28d6a41001485cd40d55cd4c008f6f

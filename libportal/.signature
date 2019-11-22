@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwMAf2qxeaQDk0kh9ecQtkdbLAD4hLAGYi9Pg1pflUMWKyMWef9OqdlPQeMleoVSW6yrB8YSZ0bmc/aTW7Ce08gI=
-SHA256 (Pkgfile) = a4153a2a66c129dc747cf6a79d55dd736a4de39423858ceab6ff9fbcd84880eb
-SHA256 (.footprint) = a53073e1c82c51b40811ef9ab7af35539d6e8338a2f38688970b5c24e073c5d2
-SHA256 (libportal-0.0.2.tar.xz) = e1f23e9e7cb6cf27fd2537d2727cb402c9fff473d4efeb1f192906c4f09f03ea
+RWSXjYMPO7mZwMWxbolz5/3iMOiqANdgIhTXHbS9yTcx8Ls5CyFP+yr3Zxva9Yl4+WTja8JQsQq4rst/tRM5jGr7g22qMUvjxgk=
+SHA256 (Pkgfile) = b4cc9c4a3c3a0de78da27a8a2822c3b9d23460c1acdca7dff35e09cf71a4870e
+SHA256 (.footprint) = 7d36e4619cd8b23f00c83a1490bc9cb1142962ef4d4d6b8b01acc2b96e70e1ad
+SHA256 (libportal-0.0.3.tar.xz) = a8212585ec9d3b12426594c76fba30793d241163631a46a68c700231a301959c

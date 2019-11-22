@@ -11,7 +11,8 @@ drwxr-xr-x	root/root	usr/include/libportal/
 -rw-r--r--	root/root	usr/include/libportal/notification.h
 -rw-r--r--	root/root	usr/include/libportal/openuri.h
 -rw-r--r--	root/root	usr/include/libportal/portal-enums.h
--rw-r--r--	root/root	usr/include/libportal/portal-gtk.h
+-rw-r--r--	root/root	usr/include/libportal/portal-gtk3.h
+-rw-r--r--	root/root	usr/include/libportal/portal-gtk4.h
 -rw-r--r--	root/root	usr/include/libportal/portal-helpers.h
 -rw-r--r--	root/root	usr/include/libportal/portal.h
 -rw-r--r--	root/root	usr/include/libportal/print.h

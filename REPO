@@ -72,6 +72,7 @@ d:os-prober
 d:icon-slicer
 d:light-locker
 d:font-awesome
+d:zotero-bin
 d:papirus-libreoffice-theme
 d:argyllcms
 d:libiptcdata
@@ -128,9 +129,9 @@ f:41b8192b92cc1a53e6aa389f41c72184:snappy/Pkgfile
 f:8ad61f4fd0bccbdb24677d58a3cb6367:xdotool/.signature
 f:7b285dc2bd25228c6f7b8e31af265ef1:xdotool/.footprint
 f:761c79282550141f5eb1a085c67858ca:xdotool/Pkgfile
-f:8e00b29b067fc314c837bbd70df0c24c:cargo-make/.signature
+f:c3cbb08095ea5f23c1ea242c87e2b8f1:cargo-make/.signature
 f:151e0496d7140054ae1b6c55f2ff3a53:cargo-make/.footprint
-f:1656fa74368ce62b41cc367d40ca552a:cargo-make/Pkgfile
+f:63c1799db86a00e004c8f562289c241d:cargo-make/Pkgfile
 f:66a81ea0573ebd67817e580dd2a2f1a7:rawtherapee/.signature
 f:1494a34adc5d01aa608a1e49f1429dd0:rawtherapee/.footprint
 f:8cb9ebc5292e45963f458005b079bbc4:rawtherapee/Pkgfile
@@ -383,6 +384,10 @@ f:e62427f53fea4bc79ee8bc158832a8f6:tb.pub
 f:2d8d0c5d9c9e009661cc1f26595de475:font-awesome/.signature
 f:66cae75bb029a755b80f0968f88a0b94:font-awesome/.footprint
 f:04fc748eafa895ac3f176dec43c3fd14:font-awesome/Pkgfile
+f:38f37ee7e3ff3bc712c656995335ca66:zotero-bin/.signature
+f:4f1e370615c8c8186f05d456659a33ce:zotero-bin/.footprint
+f:9bf3c471a4322d57c3b8f48dc1ed697c:zotero-bin/README
+f:34b88b5b4832932a6cea4f0af42652b1:zotero-bin/Pkgfile
 f:ca5157b9d55142955edaf51f67aff19c:papirus-libreoffice-theme/.signature
 f:32e46505d0a1032c2655d5a14fbcc265:papirus-libreoffice-theme/.footprint
 f:2437e2834d4abde8612ba14ece235458:papirus-libreoffice-theme/Pkgfile

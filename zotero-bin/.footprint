@@ -354,7 +354,7 @@ drwxr-xr-x	root/root	usr/lib/zotero/poppler-data/unicodeMap/
 -rw-rw-r--	root/root	usr/lib/zotero/zotero.jar
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/applications/
--rw-r--r--	root/root	usr/share/applications/zotero.desktop
+lrwxrwxrwx	root/root	usr/share/applications/zotero.desktop -> /usr/lib/zotero/zotero.desktop
 drwxr-xr-x	root/root	usr/share/icons/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/
 drwxr-xr-x	root/root	usr/share/icons/hicolor/16x16/

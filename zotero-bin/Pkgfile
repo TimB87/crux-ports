@@ -6,14 +6,13 @@
 name=zotero
 version=5.0.77
 release=1
-source=(https://download.zotero.org/client/release/$version/Zotero-${version}_linux-x86_64.tar.bz2
-zotero.desktop)
+source=(https://download.zotero.org/client/release/$version/Zotero-${version}_linux-x86_64.tar.bz2)
 
 build() {
-  install -dDm755 $PKG/usr/{bin,lib/zotero}
+  install -dDm755 $PKG/usr/{bin,lib/zotero,share/applications}
   mv Zotero_linux-x86_64/* $PKG/usr/lib/zotero
   ln -s /usr/lib/zotero/zotero $PKG/usr/bin/zotero
-  install -Dm644 $SRC/zotero.desktop $PKG/usr/share/applications/zotero.desktop
+  ln -s /usr/lib/zotero/zotero.desktop $PKG/usr/share/applications/zotero.desktop
   # Copy zotero icons to a standard location
   install -Dm644 $PKG/usr/lib/zotero/chrome/icons/default/default16.png $PKG/usr/share/icons/hicolor/16x16/apps/zotero.png
   install -Dm644 $PKG/usr/lib/zotero/chrome/icons/default/default32.png $PKG/usr/share/icons/hicolor/32x32/apps/zotero.png

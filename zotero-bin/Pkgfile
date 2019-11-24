@@ -1,0 +1,37 @@
+# Description: Zotero is a free, easy-to-use tool to help you collect, organize, cite, and share research
+# URL: https://www.zotero.org/
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: dbus-glib gtk gtk3 nss xorg-libxt
+
+name=zotero
+version=5.0.77
+release=1
+source=(https://download.zotero.org/client/release/$version/Zotero-${version}_linux-x86_64.tar.bz2
+zotero.desktop)
+
+build() {
+  install -dDm755 $PKG/usr/{bin,lib/zotero}
+  mv Zotero_linux-x86_64/* $PKG/usr/lib/zotero
+  ln -s /usr/lib/zotero/zotero $PKG/usr/bin/zotero
+  install -Dm644 $SRC/zotero.desktop $PKG/usr/share/applications/zotero.desktop
+  # Copy zotero icons to a standard location
+  install -Dm644 $PKG/usr/lib/zotero/chrome/icons/default/default16.png $PKG/usr/share/icons/hicolor/16x16/apps/zotero.png
+  install -Dm644 $PKG/usr/lib/zotero/chrome/icons/default/default32.png $PKG/usr/share/icons/hicolor/32x32/apps/zotero.png
+  install -Dm644 $PKG/usr/lib/zotero/chrome/icons/default/default48.png $PKG/usr/share/icons/hicolor/48x48/apps/zotero.png
+  install -Dm644 $PKG/usr/lib/zotero/chrome/icons/default/default256.png $PKG/usr/share/icons/hicolor/256x256/apps/zotero.png
+  # Disable APP update
+  sed -i '/pref("app.update.enabled", true);/c\pref("app.update.enabled", false);' \
+    $PKG/usr/lib/zotero/defaults/preferences/prefs.js
+  # Disable automatically installing the zotero plugin to your office suit
+  sed -i -e 's/\(pref("extensions.zoteroOpenOfficeIntegration.skipInstallation"\).*/\1, true);/' \
+    $PKG/usr/lib/zotero/extensions/zoteroOpenOfficeIntegration@zotero.org/defaults/preferences/zoteroOpenOfficeIntegration.js
+  # No need to keep a shell around when launching Zotero
+  sed -i -r 's/^("\$CALLDIR\/zotero-bin" -app "\$CALLDIR\/application.ini" "\$@")/exec \1/' \
+    $PKG/usr/lib/zotero/zotero
+  #clean up
+  find $PKG \(\
+    -iname '*README*' -o \
+    -iname '*COPYING*' -o \
+    -iname '*README*' \
+    \) -delete || true
+}

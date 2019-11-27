@@ -4,7 +4,7 @@
 # Depends on: git vulkan-loader xorg-server wayland
 
 name=amdvlk
-version=2019.Q4.2
+version=2019.Q4.3
 release=1
 source=(https://github.com/GPUOpen-Drivers/AMDVLK/archive/v-$version/$name-$version.tar.gz amdPalSettings.cfg)
 git_source=(https://github.com/GPUOpen-Drivers/xgl.git
@@ -65,6 +65,7 @@ build() {
     git clone -b amd-master https://github.com/GPUOpen-Drivers/MetroHash.git metrohash
   fi
   cp -r $PKGMK_SOURCE_DIR/{xgl,llvm,pal,wsa,llpc} $SRC
+  mkdir -p $SRC/pal/src/util/imported
   cp -R $PKGMK_SOURCE_DIR/{metrohash,cwpack} $SRC/pal/src/util/imported/.
   cd $SRC
   sed -i "s/<drm/<libdrm/g" pal/src/core/os/amdgpu/display/displayWindowSystem.h

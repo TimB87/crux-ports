@@ -135,9 +135,9 @@ f:63c1799db86a00e004c8f562289c241d:cargo-make/Pkgfile
 f:66a81ea0573ebd67817e580dd2a2f1a7:rawtherapee/.signature
 f:1494a34adc5d01aa608a1e49f1429dd0:rawtherapee/.footprint
 f:8cb9ebc5292e45963f458005b079bbc4:rawtherapee/Pkgfile
-f:2350183c3132aa923a06af2b522fd5e6:xdg-desktop-portal-gtk/.signature
+f:ba0b956cb2256098b7df2805abf87e4a:xdg-desktop-portal-gtk/.signature
 f:dcab9ebde3c07144d207f24cb479d6b7:xdg-desktop-portal-gtk/.footprint
-f:f34b57ff0dc1f7abc00445f68c58245a:xdg-desktop-portal-gtk/Pkgfile
+f:b0da45ad190bd8a264a26e0b2338b9f9:xdg-desktop-portal-gtk/Pkgfile
 f:683aa4ebc4b0d5ee48b66c1e8010b61e:python3-pybluez/.signature
 f:8317c4dd96269392fb54c3af51a2f4c7:python3-pybluez/.footprint
 f:4f0f5b2aee0652c435b1d988d178b9eb:python3-pybluez/Pkgfile
@@ -427,9 +427,9 @@ f:6117acd7b35a753dbc11631af130da5d:php/Pkgfile
 f:11e34b3075cc6facffca2e7d24b83f8d:v4l-utils/.signature
 f:c83a104ca6beae3abd28e27cf16f463f:v4l-utils/.footprint
 f:d26e202a7631d6a64559072813d18a23:v4l-utils/Pkgfile
-f:2fa4dd1d33cc42e6c951cb0ba953f16e:libportal/.signature
+f:fa7804dcfe7391e8e030171934990e37:libportal/.signature
 f:1d0c1cfa2f887aa15c7a471283a570d1:libportal/.footprint
-f:45b8fde3d53f1eac754f791ed8ea93da:libportal/Pkgfile
+f:e87fd17006fc58ce771f838b8d5fa5f1:libportal/Pkgfile
 f:ec24495ff697d645060535158b62c272:libinput-gestures/.signature
 f:ad4fa9236e99bf0cf657e03ea176f1e8:libinput-gestures/.footprint
 f:3457655e9ca4fdb1b038e09fb10c2040:libinput-gestures/Pkgfile
@@ -461,9 +461,9 @@ f:8bc51f39d07991cd779f4b6338c79936:libetpan/Pkgfile
 f:eb3fbd62f32856b1225eeff34d52a1fc:ispell/.signature
 f:5e9a5549da689704198d34653db9ab10:ispell/.footprint
 f:7a1c17b6c7ad772e361390b05ed08601:ispell/Pkgfile
-f:062aecf3e02ed808151c5607906c12bb:xdg-desktop-portal/.signature
+f:9eab94563faba44f528b3719d7e1bbd1:xdg-desktop-portal/.signature
 f:cefe857677632476ed1c8ff255cd3228:xdg-desktop-portal/.footprint
-f:6e6fb39913012a480187f137fc7eca0c:xdg-desktop-portal/Pkgfile
+f:0100cd6505c0045bf78457e5c94a2de8:xdg-desktop-portal/Pkgfile
 f:2a69db4946bd86e6ed948d62a5b7bcc6:goaccess/.signature
 f:30ce8265ee5f64e5bda72df7eb25a54d:goaccess/.footprint
 f:d49ef2e496ce7ac773dc46857449d910:goaccess/Pkgfile

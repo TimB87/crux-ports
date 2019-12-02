@@ -3,7 +3,7 @@
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: dbus-glib gtk gtk3 nss xorg-libxt
 
-name=zotero
+name=zotero-bin
 version=5.0.77
 release=1
 source=(https://download.zotero.org/client/release/$version/Zotero-${version}_linux-x86_64.tar.bz2)

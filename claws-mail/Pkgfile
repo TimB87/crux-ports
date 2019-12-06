@@ -5,27 +5,29 @@
 
 name=claws-mail
 version=3.17.4
-release=2
-source=(https://www.claws-mail.org/releases/$name-$version.tar.xz)
+release=3
+source=(https://www.claws-mail.org/releases/$name-$version.tar.xz
+  claws-mail-3.17.4-libetpan_pkgconfig.patch)
 
 build() {
-    cd $name-$version
+  cd $name-$version
+  patch -Np1 -i $SRC/claws-mail-3.17.4-libetpan_pkgconfig.patch
+  autoreconf
+  ./configure \
+      --prefix=/usr \
+      --enable-gnutls \
+      --enable-alternate-addressbook \
+      --with-config-dir=.config/claws-mail \
+      --disable-manual \
+      --disable-static \
+      --disable-nls \
+      --disable-maintainer-mode \
+      --disable-valgrind
 
-    ./configure \
-        --prefix=/usr \
-        --enable-gnutls \
-        --enable-alternate-addressbook \
-        --with-config-dir=.config/claws-mail \
-        --disable-manual \
-        --disable-static \
-        --disable-nls \
-        --disable-maintainer-mode \
-        --disable-valgrind
+  sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
 
-    sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
+  make
+  make DESTDIR=$PKG install
 
-    make
-    make DESTDIR=$PKG install
-
-    rm -rf $PKG/usr/share/doc
+  rm -rf $PKG/usr/share/doc
 }

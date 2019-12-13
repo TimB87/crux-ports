@@ -4,14 +4,14 @@
 # Depends on: glib
 
 name=libportal
-version=0.1
+version=0.2
 release=1
 source=(https://github.com/flatpak/libportal/releases/download/$version/$name-$version.tar.xz)
 
 build() {
   cd $name-$version
   # don't build gtkdocs
-  sed '37d' -i meson.build
+  sed '38d' -i meson.build
   meson . build \
     --prefix=/usr
   ninja -C build

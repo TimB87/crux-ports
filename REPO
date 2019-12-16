@@ -115,6 +115,7 @@ d:amdvlk
 d:papirus-claws-mail-theme
 d:papirus-folders
 d:pulseaudio
+d:python3-psutil
 d:goaccess
 f:0dc935a26afafedb98cf0f9e0fa2438f:font-awesome-compat/.signature
 f:f7268e0a6eef965f306f092bd53222ff:font-awesome-compat/Pkgfile
@@ -170,8 +171,8 @@ f:edc290cfc8f37574ab9e672950008809:bdf-unifont/.footprint
 f:f0d67e32efa4dd92600d355bd69e20b2:arc-kde-theme/.signature
 f:0aa5e0472eb6ed1e04e304f5847d3b00:arc-kde-theme/Pkgfile
 f:f761c800c4cac31a48e441a61ce65979:arc-kde-theme/.footprint
-f:fa7804dcfe7391e8e030171934990e37:libportal/.signature
-f:e87fd17006fc58ce771f838b8d5fa5f1:libportal/Pkgfile
+f:b41ebb350a6f02b1bfa518c277dae53d:libportal/.signature
+f:a0d9bba76ab9ec70b0ceeccf2879ac26:libportal/Pkgfile
 f:1d0c1cfa2f887aa15c7a471283a570d1:libportal/.footprint
 f:aa67506ad3339c51c97d5e9cfa79353d:colord/.signature
 f:4094f45ee4e25b507d433023b86e4f4c:colord/0001-trivial-Fix-error-checking-for-sd_pid_get_session-an.patch
@@ -352,9 +353,9 @@ f:e711b2abee30008eddf36bae3bb26620:libetpan/.footprint
 f:4e3ac1782584e524ce93e2a1d4cac185:gdl/.signature
 f:81e183b3b9622dd991c5e3dea01eaf64:gdl/Pkgfile
 f:6f43686c659093f1f3e1505ddb3e5a2b:gdl/.footprint
-f:e7b55ba01f4fb89622b8822744710b44:libical/.signature
-f:e2cf8862b54b0b209e142815d9c89c54:libical/Pkgfile
-f:ecd5507ae3eaa65163485bb25487fc1c:libical/.footprint
+f:b14688e51f3b7fbd906e61b20185e287:libical/.signature
+f:6743fda1a52c6a10be782f01818afa23:libical/Pkgfile
+f:226852bf8ca7eefed4db797cc7eadb34:libical/.footprint
 f:019a9cd5f0381222bf04f06f398a9ca7:xbindkeys/.signature
 f:43d8fd22315c02401b7b4382e6685b8c:xbindkeys/.md5sum
 f:dc98cd3a8594ce102d8aca0d70a5a0fc:xbindkeys/Pkgfile
@@ -471,8 +472,8 @@ f:cd7e6758c7b882903e5040f5f9a6edcc:python-psutil/.footprint
 f:5456e43f5a1edcdc0e290f1e7949d1d7:ftjam/.signature
 f:57f56176c794f3bd5783f58ae670c87b:ftjam/Pkgfile
 f:befbdb005f6d72371ccd16df69e3021e:ftjam/.footprint
-f:b509c755f42822e8fdffc9c91c0570a8:re2c/.signature
-f:d6493f891758b2bb7f7d613786158047:re2c/Pkgfile
+f:6c6fce98d1c824f5e5c162f0fe948d65:re2c/.signature
+f:8605f96671cba0e1e345123cd339255a:re2c/Pkgfile
 f:0f9cb00a09d44b247990d42c2c5436df:re2c/.footprint
 f:c02a91662ddad4fe0b63804fe807032e:yajl/.signature
 f:a4d33f14ea5b5512a4e134637e2bcc75:yajl/Pkgfile
@@ -514,8 +515,8 @@ f:02cc6a57a9e282a6f8219525f8e02ccc:xorg-cursor-openzone/.footprint
 f:2d0d4cf550416214921818d09abaf315:xdg-desktop-portal/.signature
 f:b8f603199bd95ea643469b2c7e1aa920:xdg-desktop-portal/Pkgfile
 f:cefe857677632476ed1c8ff255cd3228:xdg-desktop-portal/.footprint
-f:5b83c20ded2ef2e059ed2362a34a5e1a:cargo-make/.signature
-f:a666472770b0679c448b4e823ed0273f:cargo-make/Pkgfile
+f:60ef745f5f39419c4b9d4c0e6e3c51e2:cargo-make/.signature
+f:6acda5984e34931abb9b586e872449d5:cargo-make/Pkgfile
 f:151e0496d7140054ae1b6c55f2ff3a53:cargo-make/.footprint
 f:85b8ac68dfc95dc65964c16759fbb706:amdvlk/.signature
 f:5e8577c3313d4df58368c9fa5badab52:amdvlk/Pkgfile
@@ -531,6 +532,9 @@ f:f0f342648c0f891521333e0efcfd0951:pulseaudio/.signature
 f:103212bb90de42c141b9bfe6a067ddd4:pulseaudio/Pkgfile
 f:39518368836423cb843631bfde9846bd:pulseaudio/pre-install
 f:08c7417ac552f2365e56c70d70699772:pulseaudio/.footprint
+f:c5af095d5984864093b27f0b468e0fca:python3-psutil/.signature
+f:f39613a5095a71d516a1b570f25f2efb:python3-psutil/Pkgfile
+f:c06017343fab569e77e8ab1e479cac48:python3-psutil/.footprint
 f:2a69db4946bd86e6ed948d62a5b7bcc6:goaccess/.signature
 f:d49ef2e496ce7ac773dc46857449d910:goaccess/Pkgfile
 f:30ce8265ee5f64e5bda72df7eb25a54d:goaccess/.footprint

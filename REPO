@@ -366,9 +366,9 @@ f:ccef02ef80adc2e128a19e6e98d7b932:pylibacl/.footprint
 f:12860f5d3871f80b92237d9a7eb29e6a:conky/.signature
 f:3dfdd2dd1ff3edc3ee9a1969fbeb5695:conky/Pkgfile
 f:d6b8ba23eaebdffd973af6e639c64271:conky/.footprint
-f:81810cbe0cebcdcc9e1ec12f28f56e86:nextcloud/.signature
-f:deeb571d12b2d58cab4f5d687c0f4190:nextcloud/Pkgfile
-f:ac7fa191144d64e9371e541a1fe1e539:nextcloud/.footprint
+f:21b111e925e684f8d70feaee1d10ba96:nextcloud/.signature
+f:ff89fe4130537bbc36fa917ef022682b:nextcloud/Pkgfile
+f:dd2551b5f4f714f8b0990e12d859af8f:nextcloud/.footprint
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README
 f:cf61fab10133c05735733ce8587db3a2:libiptcdata/.signature
 f:77f3bef3f309ca1532d1734fab3de78d:libiptcdata/Pkgfile

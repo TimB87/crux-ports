@@ -4,7 +4,7 @@
 # Depends on: bzip2 curl db gdbm libpcre2 libxml2 libzip
 
 name=php
-version=7.3.11
+version=7.3.13
 release=1
 source=(http://php.net/distributions/php-$version.tar.xz)
 

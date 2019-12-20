@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwErTu7oRIiyGMBf+B8vXzxrP+YpPMMG6GW5F5cT5fe7P3bDWsfq9n/JwDOAiAojWhgcJux348Jv5gIyPc6ey1gQ=
-SHA256 (Pkgfile) = c4d8b114d39ad2b77c8431a0805ec36c8775e0b611cf442c8497ab66962178e6
+RWSXjYMPO7mZwA7hAMjTBK70Pc5smaZlL0wYy/CQyjRWg/uLrY6gv9wni4SPEplalFuSLES+JTLYcpEPXQvnH56mMCRJpd4UAwk=
+SHA256 (Pkgfile) = 9f5123464d557e755981b77b9ea9cf0dc88655e00e206ccba2647ea2f92d1e41
 SHA256 (.footprint) = 16a35ec79e431fe394228345d2dd2b3e44e1fe1dd56d83b1e9179432188428d2
-SHA256 (xdg-desktop-portal-1.5.4.tar.xz) = bf8352586b71daa02469f9e87da4433cba60a534273e0b5328d6618eaa0eba5c
+SHA256 (xdg-desktop-portal-1.6.0.tar.xz) = 883c9c9a925e48af54812b5347f546dd776ec2e27076a83d5a8126af6bafb9da

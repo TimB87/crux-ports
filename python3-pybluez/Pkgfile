@@ -4,13 +4,11 @@
 # Depends on: bluez git python3-setuptools
 
 name=python3-pybluez
-version=git
+version=0.23
 release=1
-source=()
-git=(https://github.com/pybluez/pybluez.git)
+source=(https://github.com/pybluez/pybluez/archive/$version/$name-$version.tar.gz)
 
 build() {
-  git clone $git
-  cd pybluez
-  python3 setup.py install --root="$PKG"
+  cd pybluez-$version
+  python3 setup.py install --root=$PKG
 }

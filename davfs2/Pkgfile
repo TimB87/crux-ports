@@ -4,8 +4,8 @@
 # Depends on: expat keyutils krb5 neon
 
 name=davfs2
-version=1.5.5
-release=2
+version=1.5.6
+release=1
 source=(http://mirror.easyname.at/nongnu/$name/$name-$version.tar.gz)
 
 build() {

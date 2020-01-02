@@ -326,10 +326,10 @@ f:37d844993cfadf4bdb163827aa59351a:libcmrt/Pkgfile
 f:7f0c2b58c8e4e509cfecdde5148a898a:grub2-theme-poly-light/.signature
 f:2512e110d4b94c257d80a38d1456249c:grub2-theme-poly-light/.footprint
 f:0be50df12f3446e3625ebb19d9e8d474:grub2-theme-poly-light/Pkgfile
-f:f8d81f138ef6d2f3aa85d4e3f574c94d:papirus-icon-theme/.signature
-f:05a7773174f0c8352b01224a6cf21d88:papirus-icon-theme/.footprint
+f:f282d7320be98b2f0ee674b497c98430:papirus-icon-theme/.signature
+f:1a13b469f3783ac47bc3cc1aef1e8329:papirus-icon-theme/.footprint
 f:48c6571235da201e7fb43fba6d18bf7b:papirus-icon-theme/post-install
-f:8cbe2e88ead7f251ebb37e81140b3e06:papirus-icon-theme/Pkgfile
+f:41ba1f5c278f14501068fe24a430d915:papirus-icon-theme/Pkgfile
 f:83649dba309cb4054cffe54ada8e76cb:font-ibm-plex/.signature
 f:444f1138359ef89ef9915e9d06fa5675:font-ibm-plex/.footprint
 f:97ecfe57b9f8a1af8f2d74fb92507f83:font-ibm-plex/Pkgfile

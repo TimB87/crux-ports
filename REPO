@@ -467,9 +467,9 @@ f:d49ef2e496ce7ac773dc46857449d910:goaccess/Pkgfile
 f:266ed395631d28b3126ad73deecafb75:handbrake/.signature
 f:e97af8765bc7fd12631ae9ef0758ae97:handbrake/.footprint
 f:61dfae0805caaff052672783abbf6cb5:handbrake/Pkgfile
-f:93ae9bf96d3862bf3b17186907c32c8d:davfs2/.signature
+f:859b34fa03b592bf2128e51d5d7ed753:davfs2/.signature
 f:7e77c56886f4eba7d586cfcb6735e0d1:davfs2/.footprint
-f:1cf24d474210d565d48f9a2803374436:davfs2/Pkgfile
+f:f5def6b1fc0b637656a2d496329e3193:davfs2/Pkgfile
 f:e6411f5748977c20c18b30a111d95675:gnome-python-desktop/.signature
 f:49867170711ca7c81d8bc2a23181a601:gnome-python-desktop/NEWS
 f:b19554bb86b6380e1e4b81f89f80f26c:gnome-python-desktop/01_wnck_enums.patch

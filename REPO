@@ -128,9 +128,9 @@ f:41b8192b92cc1a53e6aa389f41c72184:snappy/Pkgfile
 f:8ad61f4fd0bccbdb24677d58a3cb6367:xdotool/.signature
 f:7b285dc2bd25228c6f7b8e31af265ef1:xdotool/.footprint
 f:761c79282550141f5eb1a085c67858ca:xdotool/Pkgfile
-f:e09696f01f422f0bc0aa94c67db40ce3:cargo-make/.signature
+f:c690fa5199172de316fc02bc0f377f12:cargo-make/.signature
 f:151e0496d7140054ae1b6c55f2ff3a53:cargo-make/.footprint
-f:fab90ae20d35c9831d7ed91096c8e635:cargo-make/Pkgfile
+f:6d0189808a4d7298503ce352d6fac6bc:cargo-make/Pkgfile
 f:66a81ea0573ebd67817e580dd2a2f1a7:rawtherapee/.signature
 f:1494a34adc5d01aa608a1e49f1429dd0:rawtherapee/.footprint
 f:8cb9ebc5292e45963f458005b079bbc4:rawtherapee/Pkgfile

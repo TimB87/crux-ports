@@ -4,14 +4,12 @@
 # Depends on: filezilla
 
 name=papirus-filezilla-theme
-version=git
-release=3
-source=()
-git=(https://github.com/PapirusDevelopmentTeam/papirus-filezilla-themes.git)
+version=20200105
+release=1
+source=(https://github.com/PapirusDevelopmentTeam/papirus-filezilla-themes/archive/20200105.tar.gz)
 
 build() {
-    git clone $git $name
-    cd $name
+    cd ${name}s-$version
     make build
     make DESTDIR=$PKG install
     find $PKG -iname "*AUTHORS*" -delete

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwC3VXoGbwziZbahRgzEwnCDy+vZu6362uiE815ralEvv2CvVK5MWy1cQg+rhKcmHnzkva/f4zelJwIzMQTKiFQY=
-SHA256 (Pkgfile) = fb650ed783ca7ae43995865c52e96c82452a52598316458b1fa7892304b7b34e
+RWSXjYMPO7mZwIUFvJJQWbtK/b3S0onHal4sBImsPq8lngoP1MgkFQ2RXw8LwCohFBheFSPrSuqYjSuArlomRpa4LK6slLm2rgU=
+SHA256 (Pkgfile) = 419aa9cfd668de523b10fa7c89135b17a4134d6758193b6c7c80235471865b8a
 SHA256 (.footprint) = 2974e6e5896272d794df5b4c896b939cc76dc616877be807abb88b761af510da
-SHA256 (HandBrake-1.3.0-source.tar.bz2) = a9a82eb5ca04a793705b3d7d11cefa29946694eeb13b40161446aaca35b31d96
+SHA256 (HandBrake-1.3.1-source.tar.bz2) = c005de993af4123babbb60f7d12f6ff46fb7eea26ff0a3556034683901ce2c27

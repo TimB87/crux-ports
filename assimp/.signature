@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwMtuxyHYw0NQ7R2Gq+W8yE3nXzALIparWfQy6uctCyF+FeNxIC5spbOgmdsu8W+ck9J8WNYRB4Nq+w3Sl3jP3Q8=
-SHA256 (Pkgfile) = 4e655ad7c29bb72919701223c3644f076a04e41dda3d314aabf8f6bc3fc24763
+RWSXjYMPO7mZwC6rYvOHZ+FXCmGlMCXDtEhJJbJlCl85F/ylOzwc2muMKh5aWHiERdF1UWisXZoRTUKJkxGU56QuYsjxMsVX4gw=
+SHA256 (Pkgfile) = c8f84ef51de3df4f9a67490df05c523d87dfc6654c12d947c1640bd2caac51e4
 SHA256 (.footprint) = 006eb35ba7faf1ce46e788bb5a0bbad23c946882605be017713b918aff8d875b
-SHA256 (assimp-5.0.0.tar.gz) = b0110a91650d6bb4000e3d5c2185bf77b0ff0a2e7a284bc2c4af81b33988b63c
+SHA256 (assimp-5.0.1.tar.gz) = 11310ec1f2ad2cd46b95ba88faca8f7aaa1efe9aa12605c55e3de2b977b3dbfc

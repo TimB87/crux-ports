@@ -12,7 +12,6 @@ drwxr-xr-x	root/root	usr/lib/node_modules/npm/
 -rw-r--r--	root/root	usr/lib/node_modules/npm/CHANGELOG.md
 -rw-r--r--	root/root	usr/lib/node_modules/npm/CONTRIBUTING.md
 -rw-r--r--	root/root	usr/lib/node_modules/npm/Makefile
--rw-r--r--	root/root	usr/lib/node_modules/npm/appveyor.yml
 drwxr-xr-x	root/root	usr/lib/node_modules/npm/bin/
 drwxr-xr-x	root/root	usr/lib/node_modules/npm/bin/node-gyp-bin/
 -rwxr-xr-x	root/root	usr/lib/node_modules/npm/bin/node-gyp-bin/node-gyp

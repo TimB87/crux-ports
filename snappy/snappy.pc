@@ -5,6 +5,6 @@ includedir=${prefix}/include
 
 Name: snappy
 Description: A fast compression/decompression library
-Version: 1.1.4
+Version: 1.1.8
 Libs: -L${libdir} -lsnappy
 Cflags: -I${includedir}

@@ -406,9 +406,9 @@ f:1db03760c313831870e327b392da083f:colm/Pkgfile
 f:0dc935a26afafedb98cf0f9e0fa2438f:font-awesome-compat/.signature
 f:34982e50c40fa095ec9411bc4a96d13b:font-awesome-compat/.footprint
 f:f7268e0a6eef965f306f092bd53222ff:font-awesome-compat/Pkgfile
-f:ea04401fe58d1db3a94b5d58eb9cfe7f:libgusb/.signature
+f:57086d1626701d03c9e382a5e40e1428:libgusb/.signature
 f:e9abdeb5c229a3020bf994ef0a393bd1:libgusb/.footprint
-f:b7c59643a3bcca5eaebdc47e42c16cb2:libgusb/Pkgfile
+f:d4961d8a69d401e7371ebe410151d260:libgusb/Pkgfile
 f:6259a4e5fc35bfdeb4e6af12d041835a:python3-pyudev/.signature
 f:ec1057a0357e789000742a34c7c65d63:python3-pyudev/.footprint
 f:b26899a1890dd7d4cdf4fe6d546f7282:python3-pyudev/Pkgfile

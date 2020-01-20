@@ -51,6 +51,7 @@ drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/argyllcms/
 drwxr-xr-x	root/root	usr/share/argyllcms/ref/
 -rw-r--r--	root/root	usr/share/argyllcms/ref/3dap5k.sp
+-rw-r--r--	root/root	usr/share/argyllcms/ref/ACES_P3.icm
 -rw-r--r--	root/root	usr/share/argyllcms/ref/CIE_C.sp
 -rw-r--r--	root/root	usr/share/argyllcms/ref/CMP_DT_003.cht
 -rw-r--r--	root/root	usr/share/argyllcms/ref/CMP_Digital_Target-2019.cht
@@ -81,6 +82,7 @@ drwxr-xr-x	root/root	usr/share/argyllcms/ref/
 -rw-r--r--	root/root	usr/share/argyllcms/ref/D50_2.0.sp
 -rw-r--r--	root/root	usr/share/argyllcms/ref/D50_2.5.sp
 -rw-r--r--	root/root	usr/share/argyllcms/ref/D50_3.0.sp
+-rw-r--r--	root/root	usr/share/argyllcms/ref/DisplayP3.icm
 -rw-r--r--	root/root	usr/share/argyllcms/ref/EBU3213_PAL.icm
 -rw-r--r--	root/root	usr/share/argyllcms/ref/ECI2002.ti2
 -rw-r--r--	root/root	usr/share/argyllcms/ref/ECI2002R.ti2

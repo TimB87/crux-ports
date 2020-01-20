@@ -4,7 +4,7 @@
 # Depends on: ftjam libpng libtiff xorg-libxinerama xorg-libxrandr xorg-libxscrnsaver xorg-libxxf86vm zstd
 
 name=argyllcms
-version=2.1.1
+version=2.1.2
 release=1
 source=(https://www.argyllcms.com/Argyll_V${version}_src.zip)
 

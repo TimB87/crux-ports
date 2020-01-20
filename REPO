@@ -278,10 +278,10 @@ f:136648cf264908f0003041356b0036b1:zotero/.footprint
 f:f227abe95940abd63367716928c6e379:zotero/zotero.desktop
 f:9bf3c471a4322d57c3b8f48dc1ed697c:zotero/README
 f:171938d300af82e9b0dcf5a0f21a659b:zotero/Pkgfile
-f:21b111e925e684f8d70feaee1d10ba96:nextcloud/.signature
-f:dd2551b5f4f714f8b0990e12d859af8f:nextcloud/.footprint
+f:d45abc10c52179f75652e8d38b685a5c:nextcloud/.signature
+f:7c6fdd08e283113801898d9829c3437e:nextcloud/.footprint
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README
-f:ff89fe4130537bbc36fa917ef022682b:nextcloud/Pkgfile
+f:39c876ea86921c3bb74baa2103748da6:nextcloud/Pkgfile
 f:b08bbcccd94b953e765ff641f26f4e36:claws-mail/.signature
 f:d0d9b7816f0b21d3093f47575a94d7b1:claws-mail/claws-mail-3.17.4-libetpan_pkgconfig.patch
 f:8c9d38b45ded9dbf5e1c60cdd756e521:claws-mail/.footprint

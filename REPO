@@ -113,6 +113,7 @@ d:gsimplecal
 d:libgd
 d:gnome-themes-extra
 d:murmur
+d:php-sqlite3
 d:distcc
 d:fuse-exfat
 d:php-intl
@@ -529,6 +530,9 @@ f:99fa44acfdccf900f090869f7bb38e82:murmur/.footprint
 f:659102c56cef3824e567142e33d410f3:murmur/Pkgfile
 f:e72ca7bc42fe99f9de8fd97d1e1572ba:murmur/pre-install
 f:4014d548fa3a400a75ebd3fb26b90316:murmur/murmur
+f:1cb29454646f6821561f0a276ca2c70a:php-sqlite3/.signature
+f:eac17d2d7f43e31ab3bb1bc703a254e8:php-sqlite3/.footprint
+f:ed80ac003555728afca984529ba4cb9d:php-sqlite3/Pkgfile
 f:8a010b5680e5888d4ff1d83c9248b37a:distcc/.signature
 f:50680a250b1ed1a99fc78ae647f74816:distcc/.footprint
 f:fd0c63bd2c2f133450834affb7c78588:distcc/README

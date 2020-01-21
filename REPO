@@ -418,11 +418,11 @@ f:d82370331ce6b47ad5fdfe330ef70d63:i3-gaps/.signature
 f:68f26ec436e2ff07170de8389a355c32:i3-gaps/.footprint
 f:a89245058732b01796d0ce1e2279fb00:i3-gaps/.nostrip
 f:ae8dbb79bb357c650904b84a46482752:i3-gaps/Pkgfile
-f:1819cc67b75f4db3f2addd21b31f4bbc:php/.signature
+f:e159398ac016354fab70e58d87881536:php/.signature
 f:4532cdb98a3964a69297fd7efd3de0c2:php/.footprint
 f:918f7ad62a7d65b881408f360ed06124:php/freetype.patch
 f:e447ef10bcd089f1f8fa309b4b501637:php/.md5sum
-f:87a9091d4005743efe82898a4c53941d:php/Pkgfile
+f:8b94744f5287ad0586aa548685605790:php/Pkgfile
 f:11e34b3075cc6facffca2e7d24b83f8d:v4l-utils/.signature
 f:c83a104ca6beae3abd28e27cf16f463f:v4l-utils/.footprint
 f:d26e202a7631d6a64559072813d18a23:v4l-utils/Pkgfile

@@ -9,13 +9,13 @@ release=1
 source=(https://pecl.php.net/get/imagick-$version.tgz)
 
 build() {
-	cd imagick-$version
+  cd imagick-$version
 
-    phpize
-    ./configure --prefix=/usr
-    make
-    make INSTALL_ROOT="$PKG" install
+  phpize
+  ./configure --prefix=/usr
+  make
+  make INSTALL_ROOT="$PKG" install
 
-    echo "extension=imagick.so" > "imagick.ini"
-    install -D -m644 "imagick.ini" "$PKG/etc/php/conf.d/imagick.ini"
+  echo "extension=imagick.so" > "imagick.ini"
+  install -D -m644 "imagick.ini" "$PKG/etc/php/conf.d/imagick.ini"
 }

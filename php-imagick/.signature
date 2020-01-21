@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwOQwkT8RWBDYZpq4ouxeDdqaHLu//o0VBTkfm1U55qMBS8LfIGhJMZ5PP2MCwGLatKusGOK64/JJuAoMM1FGYwg=
-SHA256 (Pkgfile) = 9f926fa7dd86b72fc68600a80a0a2a51ea97f2a763f16fe97f79b9dd6db1b407
+RWSXjYMPO7mZwG1XxZes3vPpE74buvCmGElpR6JuSVr6q+YQQfsCeGEMnD+vhUnkExwNhPoaU2NPMhGOaKYccab2SG7mI2Dbawc=
+SHA256 (Pkgfile) = ea738afcf1d35545ee67f66af05c6b71e477d40ca0671223328dcce0fd84a7f4
 SHA256 (.footprint) = f0b1c96a6cc1bc9a3f9b62e4af1e0e174d79510eb8a33b0bb2ac069e9650ba07
 SHA256 (imagick-3.4.4.tgz) = 8dd5aa16465c218651fc8993e1faecd982e6a597870fd4b937e9ece02d567077

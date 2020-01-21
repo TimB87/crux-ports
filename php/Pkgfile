@@ -1,7 +1,7 @@
 # Description: PHP interpreter, extension modules and support stuff
 # URL: http://www.php.net
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: bzip2 curl db gdbm libpcre2 libxml2 libzip onigurama
+# Depends on: bzip2 curl db gdbm libpcre2 libxml2 libzip oniguruma
 
 name=php
 version=7.4.2

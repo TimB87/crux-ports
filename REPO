@@ -94,6 +94,7 @@ d:fail2ban
 d:pkgconf
 d:libetpan
 d:ispell
+d:oniguruma
 d:xdg-desktop-portal
 d:goaccess
 d:handbrake
@@ -417,11 +418,11 @@ f:d82370331ce6b47ad5fdfe330ef70d63:i3-gaps/.signature
 f:68f26ec436e2ff07170de8389a355c32:i3-gaps/.footprint
 f:a89245058732b01796d0ce1e2279fb00:i3-gaps/.nostrip
 f:ae8dbb79bb357c650904b84a46482752:i3-gaps/Pkgfile
-f:9dd5c92b27ee3c15f4df9bc191167c21:php/.signature
+f:1819cc67b75f4db3f2addd21b31f4bbc:php/.signature
 f:4532cdb98a3964a69297fd7efd3de0c2:php/.footprint
 f:918f7ad62a7d65b881408f360ed06124:php/freetype.patch
 f:e447ef10bcd089f1f8fa309b4b501637:php/.md5sum
-f:e5b9af52f06451a3f49d9a81b6e04b34:php/Pkgfile
+f:87a9091d4005743efe82898a4c53941d:php/Pkgfile
 f:11e34b3075cc6facffca2e7d24b83f8d:v4l-utils/.signature
 f:c83a104ca6beae3abd28e27cf16f463f:v4l-utils/.footprint
 f:d26e202a7631d6a64559072813d18a23:v4l-utils/Pkgfile
@@ -459,6 +460,10 @@ f:8bc51f39d07991cd779f4b6338c79936:libetpan/Pkgfile
 f:eb3fbd62f32856b1225eeff34d52a1fc:ispell/.signature
 f:5e9a5549da689704198d34653db9ab10:ispell/.footprint
 f:7a1c17b6c7ad772e361390b05ed08601:ispell/Pkgfile
+f:fbcea45ace86dccd198595d523e52529:oniguruma/.signature
+f:bf8e83e3abf5de6fefc6c5831b0c84b9:oniguruma/.footprint
+f:45cc4591f7c30a1f2ab43404c91f8175:oniguruma/.md5sum
+f:bccbf8f39970c8b17b652619de619036:oniguruma/Pkgfile
 f:a8db06634e7ac78f7ac523f743c8f21e:xdg-desktop-portal/.signature
 f:cefe857677632476ed1c8ff255cd3228:xdg-desktop-portal/.footprint
 f:d156ad4265d5836b91ba2990fbb928c3:xdg-desktop-portal/Pkgfile

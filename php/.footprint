@@ -159,12 +159,6 @@ drwxr-xr-x	root/root	usr/include/php/ext/mbstring/libmbfl/mbfl/
 -rw-r--r--	root/root	usr/include/php/ext/mbstring/php_mbregex.h
 -rw-r--r--	root/root	usr/include/php/ext/mbstring/php_onig_compat.h
 drwxr-xr-x	root/root	usr/include/php/ext/pcre/
-drwxr-xr-x	root/root	usr/include/php/ext/pcre/pcre2lib/
--rw-r--r--	root/root	usr/include/php/ext/pcre/pcre2lib/config.h
--rw-r--r--	root/root	usr/include/php/ext/pcre/pcre2lib/pcre2.h
--rw-r--r--	root/root	usr/include/php/ext/pcre/pcre2lib/pcre2_internal.h
--rw-r--r--	root/root	usr/include/php/ext/pcre/pcre2lib/pcre2_intmodedep.h
--rw-r--r--	root/root	usr/include/php/ext/pcre/pcre2lib/pcre2_ucp.h
 -rw-r--r--	root/root	usr/include/php/ext/pcre/php_pcre.h
 drwxr-xr-x	root/root	usr/include/php/ext/pdo/
 -rw-r--r--	root/root	usr/include/php/ext/pdo/php_pdo.h
@@ -262,7 +256,6 @@ drwxr-xr-x	root/root	usr/include/php/ext/standard/
 drwxr-xr-x	root/root	usr/include/php/ext/xml/
 -rw-r--r--	root/root	usr/include/php/ext/xml/expat_compat.h
 -rw-r--r--	root/root	usr/include/php/ext/xml/php_xml.h
-drwxr-xr-x	root/root	usr/include/php/include/
 drwxr-xr-x	root/root	usr/include/php/main/
 -rw-r--r--	root/root	usr/include/php/main/SAPI.h
 -rw-r--r--	root/root	usr/include/php/main/build-defs.h
@@ -307,7 +300,6 @@ drwxr-xr-x	root/root	usr/include/php/sapi/cli/
 drwxr-xr-x	root/root	usr/include/php/sapi/embed/
 -rw-r--r--	root/root	usr/include/php/sapi/embed/php_embed.h
 drwxr-xr-x	root/root	usr/lib/
--rwxr-xr-x	root/root	usr/lib/libphp7.so
 drwxr-xr-x	root/root	usr/lib/php/
 drwxr-xr-x	root/root	usr/lib/php/build/
 -rw-r--r--	root/root	usr/lib/php/build/Makefile.global
@@ -330,6 +322,7 @@ drwxr-xr-x	root/root	usr/lib/php/extensions/
 -rwxr-xr-x	root/root	usr/lib/php/extensions/mbstring.so
 -rwxr-xr-x	root/root	usr/lib/php/extensions/opcache.so
 -rwxr-xr-x	root/root	usr/lib/php/extensions/openssl.so
+-rwxr-xr-x	root/root	usr/lib/php/extensions/zip.so
 drwxr-xr-x	root/root	usr/share/
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/

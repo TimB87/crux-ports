@@ -86,6 +86,7 @@ d:php
 d:v4l-utils
 d:libportal
 d:libinput-gestures
+d:ttf-line-awesome
 d:patchelf
 d:geoip2-database
 d:faba-mono-icon-theme
@@ -131,9 +132,9 @@ f:a78920c16bab9e741e27f119a01f3e36:snappy/Pkgfile
 f:8ad61f4fd0bccbdb24677d58a3cb6367:xdotool/.signature
 f:7b285dc2bd25228c6f7b8e31af265ef1:xdotool/.footprint
 f:761c79282550141f5eb1a085c67858ca:xdotool/Pkgfile
-f:0d0b2d997681747203c161a0ce2fca44:cargo-make/.signature
+f:278a82e7d8e892cc9441b0328a3c8071:cargo-make/.signature
 f:a4f6a03f93b6dbaf9df6fbdf2a3eb574:cargo-make/.footprint
-f:05f475f4c3db0e71267954e9b1adf640:cargo-make/Pkgfile
+f:1d42a802c776092581c69b7863fb71db:cargo-make/Pkgfile
 f:66a81ea0573ebd67817e580dd2a2f1a7:rawtherapee/.signature
 f:1494a34adc5d01aa608a1e49f1429dd0:rawtherapee/.footprint
 f:8cb9ebc5292e45963f458005b079bbc4:rawtherapee/Pkgfile
@@ -308,9 +309,9 @@ f:12ef97905f60611111e471a9896195ee:colord/.footprint
 f:b866fe83c0cac361f0991d8bdeae776b:colord/Pkgfile
 f:74fdaac009afbf8e8a3a6d1e1b946709:colord/pre-install
 f:4094f45ee4e25b507d433023b86e4f4c:colord/0001-trivial-Fix-error-checking-for-sd_pid_get_session-an.patch
-f:dbd842a28c55a2e921a78aa86de02fbf:npm/.signature
-f:a2f1b15b35e697e03a06d86be764e7c8:npm/.footprint
-f:c6c2ef14bf8921c5fa30a1e71fbcd726:npm/Pkgfile
+f:f666d268503a297aeb1d6292a9eed0ee:npm/.signature
+f:42228e774715e6781bb858135fdc45f9:npm/.footprint
+f:9934747cfeff963fcddab8c6fabbfa95:npm/Pkgfile
 f:270dea69e3c94c37025763bb0ec5dda0:php-imagick/.signature
 f:97f8c324e249ac36e0ba2c4b1870bff3:php-imagick/.footprint
 f:73bd5a2e814003357e872e60911cae14:php-imagick/Pkgfile
@@ -340,10 +341,10 @@ f:8803fb2af0fa5613c26a9fb7bbfe969d:faba-icon-theme/.signature
 f:91c9223c91d86188775cb8a8f13eec96:faba-icon-theme/.footprint
 f:fd0add61aab7fabfc219cde8b6c79a3b:faba-icon-theme/post-install
 f:e19b162d5db6b104a79c3a8345e48d4b:faba-icon-theme/Pkgfile
-f:e4eb77b6ec2776aca8cdb965fbef69b1:blueman/.signature
-f:5c2c5704d41681631b7afc56d5d7487b:blueman/.footprint
+f:648a68e0f4c6518c826a802fa3e09638:blueman/.signature
+f:69eeab79f58c209c91765af76e77a42e:blueman/.footprint
 f:90c2e115b9668e89968b00a331210001:blueman/post-install
-f:51c37d11220a59a07e85a059ec9e1064:blueman/Pkgfile
+f:6fba0e1541538cb10f873e5059865b6b:blueman/Pkgfile
 f:986649cb1e76d562f50edba012693217:st/.signature
 f:d1cc7660b525b1e5c46472a142eea5c3:st/combined_st-0.8.2.diff
 f:948f5ce3537ad69f4f6fbf0c6a3d4b66:st/.footprint
@@ -433,6 +434,9 @@ f:f1a8ce17b63cce03d0c984d6b0bf9c0d:libportal/Pkgfile
 f:ec24495ff697d645060535158b62c272:libinput-gestures/.signature
 f:ad4fa9236e99bf0cf657e03ea176f1e8:libinput-gestures/.footprint
 f:3457655e9ca4fdb1b038e09fb10c2040:libinput-gestures/Pkgfile
+f:07b70c8bfa5099fcc810db439a2548c2:ttf-line-awesome/.signature
+f:1ad2e45738eb2b46ec02e55ee890c2b6:ttf-line-awesome/.footprint
+f:111eb6c2d95f5c4d8c2442460cb78203:ttf-line-awesome/Pkgfile
 f:038d2b8dc7bf6f96a13a3453b976b5ec:patchelf/.signature
 f:f95f2f850934b5b1bef9bee2505927d0:patchelf/.footprint
 f:1d99bd651be501884b591c2d15f08a80:patchelf/Pkgfile
@@ -463,7 +467,6 @@ f:5e9a5549da689704198d34653db9ab10:ispell/.footprint
 f:7a1c17b6c7ad772e361390b05ed08601:ispell/Pkgfile
 f:fbcea45ace86dccd198595d523e52529:oniguruma/.signature
 f:bf8e83e3abf5de6fefc6c5831b0c84b9:oniguruma/.footprint
-f:45cc4591f7c30a1f2ab43404c91f8175:oniguruma/.md5sum
 f:bccbf8f39970c8b17b652619de619036:oniguruma/Pkgfile
 f:a8db06634e7ac78f7ac523f743c8f21e:xdg-desktop-portal/.signature
 f:cefe857677632476ed1c8ff255cd3228:xdg-desktop-portal/.footprint

@@ -13,13 +13,17 @@ build() {
   # skip docs completly as they try to install files to /root/.npm
   # and this fails if you are building ports using fakeroot
   rm -r docs
-  sed -i 's/docs//g' Makefile
-  make
-  make NPMOPTS="--prefix=\"$PKG/usr\"" install
+  sed -e 's/docs//g' \
+    -i Makefile
 
+  NODE_PATH=/usr/lib/node_modules \
+  NPMOPTS="--prefix=\"$PKG/usr\" --user=root" \
+  make install
+
+  ## seems like --user=root could work around that
   # not optimal, if you know a better way, message me
-  chmod -R u=rwX,go=rX $PKG
-  chown -R root:root $PKG
+  #chmod -R u=rwX,go=rX $PKG
+  #chown -R root:root $PKG
   find $PKG \(\
     -iname "README*" -o \
     -iname "LICENCE" -o \

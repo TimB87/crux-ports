@@ -4,9 +4,9 @@
 # Depends on: fftw gtkmm3 lcms2 lensfun libcanberra libiptcdata librsvg libwebp tdb
 
 name=rawtherapee
-version=5.7
-release=2
-source=(https://rawtherapee.com/shared/source/$name-$version.tar.xz)
+version=5.8
+release=1
+source=(https://github.com/Beep6581/RawTherapee/releases/download/$version/$name-$version.tar.xz)
 
 build() {
   mkdir build

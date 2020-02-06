@@ -4,7 +4,7 @@
 # Depends on:
 
 name=tlp
-version=1.3.0
+version=1.3.1
 release=1
 source=(https://github.com/linrunner/TLP/archive/$version/$name-$version.tar.gz tlp)
 
@@ -12,7 +12,7 @@ build() {
   cd TLP-$version
   export TLP_SBIN='/usr/bin'
   export TLP_CONF='/usr/etc/tlp'
-  export TLP_NO_PMUTILS='1'
+  export TLP_NO_PMUTILS='0'
   export TLP_WITH_SYSTEMD='0'
   make DESTDIR=$PKG install-tlp install-man
   install -D -m 755 $SRC/tlp $PKG/etc/rc.d/tlp

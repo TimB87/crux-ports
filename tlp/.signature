@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwDAjGjUcU4QIe3RXd2cV/RduDiweTGjnviABtw3QNj1XO7kPj2qUeAC040s+6e/059I/kZkkFC9iX0w2V15iKwU=
-SHA256 (Pkgfile) = 1648c928007269513c544f73e2eeeaab80c554192f18bbf7994beff490f7490d
+RWSXjYMPO7mZwDAeXlSYfDia973/75t+k6/TcJFzGIrNJFCoNY2oZ+QymbLip4yVQxnYcPsDqbPrN23jnweXGTQUo1rtjOyNHwQ=
+SHA256 (Pkgfile) = cd41ead7238cbbbf485902ff6fb9033671f2287d566a7c9a2dbf9cbf82013ba5
 SHA256 (.footprint) = d4c31ad1fdc14d2ff4ba80cfa22d96bce35e19c6cc1776d5f9b98e1ee42f0fcd
-SHA256 (tlp-1.3.0.tar.gz) = f94c7de07d199bc454ca6ca726d6e9228becc7c997e6f7620738177c7d1f3399
+SHA256 (tlp-1.3.1.tar.gz) = 4c783606ca6e98a3ddb3dc911785b4d7a73fec4ebb9decfca4ca15e315ece768
 SHA256 (tlp) = 16484feebe143074acd379e43269a33f370df8934f96ce978f682a9281ee1b68

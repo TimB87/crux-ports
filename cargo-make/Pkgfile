@@ -4,7 +4,7 @@
 # Depends on: rust
 
 name=cargo-make
-version=0.26.2
+version=0.27.0
 release=1
 source=(https://github.com/sagiegurari/cargo-make/archive/$version/$name-$version.tar.gz)
 
@@ -16,5 +16,5 @@ build() {
   cargo fetch
   cargo build --release
   cargo install --path . --root $PKG/usr
-  rm $PKG/usr/.crates.toml
+  rm $PKG/usr/{.crates.toml,.crates2.json}
 }

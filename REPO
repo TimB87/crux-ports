@@ -88,7 +88,6 @@ d:ttf-line-awesome
 d:patchelf
 d:geoip2-database
 d:faba-mono-icon-theme
-d:conky
 d:fail2ban
 d:pkgconf
 d:libetpan
@@ -130,9 +129,9 @@ f:a78920c16bab9e741e27f119a01f3e36:snappy/Pkgfile
 f:8ad61f4fd0bccbdb24677d58a3cb6367:xdotool/.signature
 f:7b285dc2bd25228c6f7b8e31af265ef1:xdotool/.footprint
 f:761c79282550141f5eb1a085c67858ca:xdotool/Pkgfile
-f:278a82e7d8e892cc9441b0328a3c8071:cargo-make/.signature
+f:23cbf57102a09e7750ebbd58db6b55a3:cargo-make/.signature
 f:a4f6a03f93b6dbaf9df6fbdf2a3eb574:cargo-make/.footprint
-f:1d42a802c776092581c69b7863fb71db:cargo-make/Pkgfile
+f:f65c931488513269c31ee6677272882d:cargo-make/Pkgfile
 f:651e0d60ede6c86a76f78cb306d9bee5:rawtherapee/.signature
 f:1494a34adc5d01aa608a1e49f1429dd0:rawtherapee/.footprint
 f:0652fdaedc76a12c5495f01e7131ec14:rawtherapee/Pkgfile
@@ -152,10 +151,10 @@ f:2e72c834db21da6af3f77dd2b36727a2:fcgi/fcgi-2.4.0-gcc44_fixes.patch
 f:9000d5d3701ba1118ff693b5773b0220:numactl/.signature
 f:e33d8c7034f45de7d50104cbf966edad:numactl/.footprint
 f:0302de3d3a43c487b9452caf9cefa977:numactl/Pkgfile
-f:34f7261f3200d6a5a8259f754829f40c:tlp/.signature
+f:6349256dedfc121888a294942d69ffc4:tlp/.signature
 f:c3f481e4e30c22358bee45e61d2de54a:tlp/tlp
 f:afdd67a3a4cbd8a9baef1532b74d6477:tlp/.footprint
-f:9b333420754fa443e751737ec4044bb1:tlp/Pkgfile
+f:a7b868174c4e11396685934ac14acaaa:tlp/Pkgfile
 f:4b498b3346f71f7e9a5f5af584a92930:apcu/.signature
 f:1f224e34a35479213575544614c7e7f0:apcu/.footprint
 f:0c5256e0cc9144df4b5f21bd90b4464e:apcu/Pkgfile
@@ -437,9 +436,6 @@ f:2e462c3c849fe8b77cd41192aa97fdd2:faba-mono-icon-theme/.signature
 f:48ab50e3e2e0bdf5c5ea34fe52b444cd:faba-mono-icon-theme/.footprint
 f:9cd906d9823049112cd5038f1fe1551e:faba-mono-icon-theme/post-install
 f:00d4be9c3af5c75c46eabc0c8cd982dc:faba-mono-icon-theme/Pkgfile
-f:12860f5d3871f80b92237d9a7eb29e6a:conky/.signature
-f:d6b8ba23eaebdffd973af6e639c64271:conky/.footprint
-f:3dfdd2dd1ff3edc3ee9a1969fbeb5695:conky/Pkgfile
 f:8d8d512e0ea044e23a7b18a563ee4ee0:fail2ban/.signature
 f:0a85640034d9173ff36ac990fd7db984:fail2ban/.footprint
 f:27205c03a07b0b5ec834a9c17169e264:fail2ban/fail2ban.rc

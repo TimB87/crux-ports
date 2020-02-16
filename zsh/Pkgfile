@@ -4,8 +4,8 @@
 # Depends on: libpcre
 
 name=zsh
-version=5.7.1
-release=2
+version=5.8
+release=1
 source=(https://www.zsh.org/pub/$name-$version.tar.xz _prt-get zsh-lovers.1)
 
 build() {

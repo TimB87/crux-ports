@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwJP1BPAPIqY/YzIliihj1lclQVj3b6YFnUl1QbqmCdFQI3KtIzfJ3tFiLBEomRX11XKrpJ6PpwoAPqfGA4rzYwM=
-SHA256 (Pkgfile) = 9968509ed219dab76f63986535bd5f67efc45570fc85e921f81021d51fc8020f
-SHA256 (.footprint) = a436cea3a19fa3afe7232c7879fffe9a2c6b39c11c6758646d6e109e2862b2b3
-SHA256 (python3-psutil-release-5.6.7.tar.gz) = ebbed18bf912fa4981d05c5c1a0cacec2aa8c594e1608f0cf5cc7a3d4f63d4d4
+RWSXjYMPO7mZwHCtOLWOzkMI73zcbFDnHnmRGneSEjCRLm5n76Pdr+Ni7imC7HFFR/5hVEOs8AvME/XIue6yFp2yJWQCGupU9QE=
+SHA256 (Pkgfile) = 57d3560341b49dfee55b0a74533c82e4f3ce46410ca891a9432066a90286f3e0
+SHA256 (.footprint) = 98fc43950353ffd22375ece3c965cfba7b2e2a8c2f1dc321be06f3b070142040
+SHA256 (python3-psutil-release-5.7.0.tar.gz) = 0a53c5260a096aeefdb4060512bbc3cbdec83dd8c20c5114421790b019dc61ff

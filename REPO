@@ -356,9 +356,9 @@ f:80eaab8005ce781b85eb16c57243cd11:amdvlk/amdPalSettings.cfg
 f:b14688e51f3b7fbd906e61b20185e287:libical/.signature
 f:226852bf8ca7eefed4db797cc7eadb34:libical/.footprint
 f:6743fda1a52c6a10be782f01818afa23:libical/Pkgfile
-f:0ffb0d6cbc1bf3c9d2f43f23eb2c2354:pipewire/.signature
-f:5a0d15c887c72531c9524b842ee144ae:pipewire/.footprint
-f:3597f4d5d3f598a0d1a68cef3edeb43d:pipewire/Pkgfile
+f:4cb87edc84424605f1f33e4c0657ecef:pipewire/.signature
+f:6ce2ef31a9938547b9bfb108ebc091c1:pipewire/.footprint
+f:35969f5e44594c4d7616e158a960907d:pipewire/Pkgfile
 f:d5da8a26305dd2ba001b70b56e46c5e9:os-prober/.signature
 f:d6df03373d469831e56e08af65866c89:os-prober/.footprint
 f:5908b2d6281b2a3ffd71fc93aaa84275:os-prober/Fix-CRUX-grub-menu-entry-detection.patch

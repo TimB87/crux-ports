@@ -5,11 +5,14 @@
 
 name=xdg-desktop-portal
 version=1.6.0
-release=1
-source=(https://github.com/flatpak/xdg-desktop-portal/releases/download/$version/$name-$version.tar.xz)
+release=2
+source=(https://github.com/flatpak/xdg-desktop-portal/releases/download/$version/$name-$version.tar.xz
+  pipewire-0.3.0.patch)
 
 build() {
   cd $name-$version
+  patch -Np1 -i $SRC/pipewire-0.3.0.patch
+  autoreconf -vfi
   ./configure --prefix=/usr \
     --libexecdir=/usr/lib \
     --disable-geoclue \

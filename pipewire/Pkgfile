@@ -1,10 +1,10 @@
 # Description: Server and user space API to deal with multimedia pipelines
 # URL: https://pipewire.org
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: bluez fdk-aac ffmpeg gnutls lame libva libvpx libwebp sbc v4l-utils x264 x265
+# Depends on: bluez fdk-aac ffmpeg gnutls lame libva libvpx libwebp sbc v4l-utils x264 x265 jack
 
 name=pipewire
-version=0.3.0
+version=0.3.1
 release=1
 source=(https://github.com/PipeWire/pipewire/archive/$version/$name-$version.tar.gz)
 

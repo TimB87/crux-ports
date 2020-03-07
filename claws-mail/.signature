@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwOtabE5K3CtbzNlryNvZA4xFNzBQD2eJM7fi9obdkpnap5BmCbYH+JzF04JjH8MBJyXjqCTb/m4kP9R44qnrngA=
-SHA256 (Pkgfile) = 864b3d84f7ef784c8e7712cddf3d3d24da2e71d5e9d02ac5c4b5b278254a3684
+RWSXjYMPO7mZwCiUYZBq/3nsrsV1M8TZ6uPqHVGajPzC90cPS+FXO88I1a/FaMbQ1GZjJR2MCN2bZ5iEDdR7bo4z3NkTm11Imw0=
+SHA256 (Pkgfile) = b196a727a37365d93d58cd920fa2873eeb35c28a665bc8da214c8a821fffafbd
 SHA256 (.footprint) = 23900631c19d0675b11a51487c1c75845929ce0a8fabc7c00733da513fded825
-SHA256 (claws-mail-3.17.4.tar.xz) = 590ed1131e51b3a627e75c3b256068f5176a498628e1c8f3315b9bc09482ae02
+SHA256 (claws-mail-3.17.5.tar.xz) = daced25bfc2ab5b3f9ac2762b091ca3aede50da23e694d338dff1f066bab59be
 SHA256 (claws-mail-3.17.4-libetpan_pkgconfig.patch) = e8367378a9805429ae9d220054ce8fd7f3d6224beaee7da33886683c41b3ca54

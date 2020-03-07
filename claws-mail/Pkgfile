@@ -4,15 +4,15 @@
 # Depends on: gtk libetpan gpgme gnutls libical networkmanager
 
 name=claws-mail
-version=3.17.4
-release=3
+version=3.17.5
+release=1
 source=(https://www.claws-mail.org/releases/$name-$version.tar.xz
   claws-mail-3.17.4-libetpan_pkgconfig.patch)
 
 build() {
   cd $name-$version
-  patch -Np1 -i $SRC/claws-mail-3.17.4-libetpan_pkgconfig.patch
-  autoreconf
+  #patch -Np1 -i $SRC/claws-mail-3.17.4-libetpan_pkgconfig.patch
+  #autoreconf
   ./configure \
       --prefix=/usr \
       --enable-gnutls \

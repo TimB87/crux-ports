@@ -5,7 +5,7 @@
 
 name=fail2ban
 version=0.10.5
-release=1
+release=2
 source=(https://github.com/fail2ban/$name/archive/$version/$name-$version.tar.gz
 fail2ban.rc)
 
@@ -19,4 +19,5 @@ build() {
   find $PKG \(\
     -iname "*README*" \
     \) -exec rm '{}' \+
+  rm -r $PKG/usr/share/doc
 }

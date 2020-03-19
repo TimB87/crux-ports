@@ -1,11 +1,11 @@
 # Description: Nextcloud
 # URL: https://nextcloud.com
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: nginx postgresql php php-gd php-intl php-pgsql php-imagick apcu
+# Depends on: apcu nginx php-gd php-imagick php-intl php-pgsql
 # Optional: You can use apache instead of nginx, there are other options for a sql server as well
 
 name=nextcloud
-version=18.0.0
+version=18.0.2
 release=1
 source=(https://download.nextcloud.com/server/releases/$name-$version.tar.bz2)
 

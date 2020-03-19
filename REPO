@@ -203,9 +203,9 @@ f:7f0c2b58c8e4e509cfecdde5148a898a:grub2-theme-poly-light/.signature
 f:d5560e0716135149488006bae5b28ece:ttf-unifont/Pkgfile
 f:71763ec593f45a46f46d7144e402e47b:ttf-unifont/.footprint
 f:fcc9fe20d05969269cea2d279f1d5682:ttf-unifont/.signature
-f:b82fd667e190c9a982ad4668c6629a5a:pipewire/Pkgfile
+f:d926246a49a5c054ab7c244001026952:pipewire/Pkgfile
 f:62bb10aecb0133ad395162b910ec1a0b:pipewire/.footprint
-f:b9016c68b8d1ad50c58abdc6b312e53d:pipewire/.signature
+f:c7f9c35855fa99412b220366261e7b22:pipewire/.signature
 f:899add1741614a71fc0c4346b1eb765f:parallel/Pkgfile
 f:3670ecc1dfaf06a8fad342780fa5eeab:parallel/.footprint
 f:3bf24766fbce411a77b8ff12717c0e6d:parallel/.signature
@@ -275,9 +275,9 @@ f:effad9ba85f593e884f9f2f2a326d156:fcgiwrap/.signature
 f:50ffc0e0afc98c38261aa02a6a68cc9d:fuse-exfat/Pkgfile
 f:b967b19a19a6a6733801af3bc60ad391:fuse-exfat/.footprint
 f:64dcce3b80b330596995e953bc8d8ecf:fuse-exfat/.signature
-f:f1ff629c867a2fde666b8169abc9b74b:xdg-desktop-portal-gtk/Pkgfile
+f:b844d1511fbe2d1c1e97653fafa040dc:xdg-desktop-portal-gtk/Pkgfile
 f:dcab9ebde3c07144d207f24cb479d6b7:xdg-desktop-portal-gtk/.footprint
-f:d644cb77ac4dc4c85dd2b70f047463f6:xdg-desktop-portal-gtk/.signature
+f:7cd17ec80df86abdcdefcbd8d76bde5d:xdg-desktop-portal-gtk/.signature
 f:4a0e65abaaf5c0b4f62450c22216e17a:php-gd/Pkgfile
 f:2e9563e73147712cc7d7ddb8d3567f44:php-gd/.footprint
 f:5c63d4f04c67118011ae48670a0d4c3d:php-gd/.signature
@@ -511,10 +511,10 @@ f:2e462c3c849fe8b77cd41192aa97fdd2:faba-mono-icon-theme/.signature
 f:f3b43ea745450e5436a2aa41c7b9f8d3:arandr/Pkgfile
 f:8cbd7bf38c05034ee13b9a66cc42599b:arandr/.footprint
 f:29103567e89979ee9f39e16e26fd067c:arandr/.signature
-f:a135de28b46c45e68266d418c9bc1f4f:xdg-desktop-portal/Pkgfile
-f:cefe857677632476ed1c8ff255cd3228:xdg-desktop-portal/.footprint
+f:fdf6f336f79098c391485c4045c0d146:xdg-desktop-portal/Pkgfile
+f:e18c61f370a13c92b63f3ecd4ab1aa8e:xdg-desktop-portal/.footprint
 f:5f5a365d15bfe184255e1d797582df8d:xdg-desktop-portal/pipewire-0.3.0.patch
-f:bdeb9bd60e60404a3f1847afa236f781:xdg-desktop-portal/.signature
+f:4429cc4da536d7507ffde7cb4fdb495c:xdg-desktop-portal/.signature
 f:171938d300af82e9b0dcf5a0f21a659b:zotero/Pkgfile
 f:136648cf264908f0003041356b0036b1:zotero/.footprint
 f:f227abe95940abd63367716928c6e379:zotero/zotero.desktop

@@ -79,7 +79,6 @@ d:zotero-bin
 d:termite
 d:moka-icon-theme
 d:hunspell-de
-d:oniguruma
 d:murmur
 d:papirus-folders
 d:fcgi
@@ -396,9 +395,6 @@ f:960a02cd355a12a90f365b3e38ccd14f:moka-icon-theme/.signature
 f:cfbf5c4ecb6c3fd3cf99d6f59db216d6:hunspell-de/Pkgfile
 f:d70815eeedac20ad5ff7e494e04124e5:hunspell-de/.footprint
 f:75e4bf26fa8e76c03cd237a73d27da67:hunspell-de/.signature
-f:bccbf8f39970c8b17b652619de619036:oniguruma/Pkgfile
-f:bf8e83e3abf5de6fefc6c5831b0c84b9:oniguruma/.footprint
-f:fbcea45ace86dccd198595d523e52529:oniguruma/.signature
 f:659102c56cef3824e567142e33d410f3:murmur/Pkgfile
 f:99fa44acfdccf900f090869f7bb38e82:murmur/.footprint
 f:e72ca7bc42fe99f9de8fd97d1e1572ba:murmur/pre-install
@@ -474,9 +470,9 @@ f:8c9d38b45ded9dbf5e1c60cdd756e521:claws-mail/.footprint
 f:d0d9b7816f0b21d3093f47575a94d7b1:claws-mail/claws-mail-3.17.4-libetpan_pkgconfig.patch
 f:a3818f288bd275c694fa5ea9819747e1:claws-mail/README
 f:235d54abae4ae4f73da56c272f7595d8:claws-mail/.signature
-f:d59cdb3f0aa9ade28e2ad1f2412bb0df:npm/Pkgfile
-f:42228e774715e6781bb858135fdc45f9:npm/.footprint
-f:5825647d844a5b9fe3271138e9694cba:npm/.signature
+f:81b6ee7c186d0db7461d7557fd7841a8:npm/Pkgfile
+f:23c052ad610404b700fae5ff94c8e29a:npm/.footprint
+f:b2e314317c83c9edeeaf6fb9600bb246:npm/.signature
 f:7d7b678926090e6ba53c755ac2c0b1ee:light-locker-settings/Pkgfile
 f:92f6e378c8fbc88902b61f4b63806b29:light-locker-settings/.footprint
 f:d88d6c65958549c3ec80b9f3e8d5032f:light-locker-settings/.signature
@@ -520,9 +516,9 @@ f:136648cf264908f0003041356b0036b1:zotero/.footprint
 f:f227abe95940abd63367716928c6e379:zotero/zotero.desktop
 f:9bf3c471a4322d57c3b8f48dc1ed697c:zotero/README
 f:96c023298affb5f3902c3a0fb7b9d9ad:zotero/.signature
-f:9b86e97506518ac13ef6b99e4ed6796f:cargo-make/Pkgfile
-f:a4f6a03f93b6dbaf9df6fbdf2a3eb574:cargo-make/.footprint
-f:dcf8875268710bd369a0b10daf3d43a1:cargo-make/.signature
+f:50ba6261643a8c1cedae286908cf55cc:cargo-make/Pkgfile
+f:151e0496d7140054ae1b6c55f2ff3a53:cargo-make/.footprint
+f:e118216edf6be147b909f8d27101d05d:cargo-make/.signature
 f:070d413ffde8784281ac21ba2e01fb13:python3-psutil/Pkgfile
 f:a25159f2d5ea0067198d8167d1988a36:python3-psutil/.footprint
 f:3062d5a55f63b4b3c8636f88454ba1f1:python3-psutil/.signature

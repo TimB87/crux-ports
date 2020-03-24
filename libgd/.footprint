@@ -6,7 +6,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/gd2togif
 -rwxr-xr-x	root/root	usr/bin/gd2topng
 -rwxr-xr-x	root/root	usr/bin/gdcmpgif
--rwxr-xr-x	root/root	usr/bin/gdlib-config
 -rwxr-xr-x	root/root	usr/bin/gdparttopng
 -rwxr-xr-x	root/root	usr/bin/gdtopng
 -rwxr-xr-x	root/root	usr/bin/giftogd2
@@ -30,8 +29,8 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libgd.a
 -rwxr-xr-x	root/root	usr/lib/libgd.la
-lrwxrwxrwx	root/root	usr/lib/libgd.so -> libgd.so.3.0.5
-lrwxrwxrwx	root/root	usr/lib/libgd.so.3 -> libgd.so.3.0.5
--rwxr-xr-x	root/root	usr/lib/libgd.so.3.0.5
+lrwxrwxrwx	root/root	usr/lib/libgd.so -> libgd.so.3.0.8
+lrwxrwxrwx	root/root	usr/lib/libgd.so.3 -> libgd.so.3.0.8
+-rwxr-xr-x	root/root	usr/lib/libgd.so.3.0.8
 drwxr-xr-x	root/root	usr/lib/pkgconfig/
 -rw-r--r--	root/root	usr/lib/pkgconfig/gdlib.pc

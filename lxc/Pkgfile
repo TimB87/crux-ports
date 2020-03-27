@@ -7,7 +7,7 @@
 # Optional: gnupg dnsmasq
 
 name=lxc
-version=3.2.1
+version=4.0.0
 release=1
 source=(https://linuxcontainers.org/downloads/$name/$name-$version.tar.gz
         man-pages.tar.xz

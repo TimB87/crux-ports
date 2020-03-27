@@ -1,39 +1,35 @@
-# Description: PulseAudio is a cross-platform, networked sound server - with bluez5 support
+# Description: PulseAudio is a cross-platform, networked sound server
 # URL: http://pulseaudio.org/
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Packager: Fredrik Rinnestam, fredrik at crux dot guru
-# Depends on: intltool libsndfile dbus
-# Optional: avahi bluez fftw glib sbc speexdsp orc
+# Depends on: dbus intltool libsndfile meson ninja
+# Optional: avahi bluez fftw glib orc sbc speexdsp
 
 name=pulseaudio
 version=13.0
-release=1
+release=2
 source=(http://freedesktop.org/software/pulseaudio/releases/pulseaudio-$version.tar.xz)
 
 build() {
   cd $name-$version
-  NOCONFIGURE=1 ./bootstrap.sh
 
-  ./configure $PKGMK_PULSEAUDIO \
+  [[ -e /usr/lib/pkgconfig/bluez.pc ]] || PKGMK_PULSEAUDIO+=' -Dbluez5=false'
+  [[ -e /usr/lib/pkgconfig/xtst.pc ]] || PKGMK_PULSEAUDIO+=' -Dman=false'
+  [[ -e /usr/lib/pkgconfig/bash-completion.pc ]] || PKGMK_PULSEAUDIO+=' -Dbashcompletiondir=no'
+  [[ -e "/usr/bin/zsh" ]] || PKGMK_PULSEAUDIO+=' -Dzshcompletiondir=no'
+
+  meson . build $PKGMK_PULSEAUDIO \
     --prefix=/usr \
-    --sysconfdir=/etc \
     --libexecdir=/usr/lib/$name \
-    --disable-{bluez4,default-build-tests,esound,gtk3,hal-compat} \
-    --disable-{nls,rpath,samplerate,openssl,tcpwrap,tests,x11} \
-    --with-database=gdbm
-  # fight unused direct deps
-  sed -i -e 's/ -shared / -Wl,-O1,--as-needed\0/g' libtool
-  make
-  make -j1 DESTDIR=$PKG install
+    -Dudevrulesdir=/etc/udev/rules.d \
+    -Ddatabase=gdbm \
+    -Dtests=false
 
-  if ! pkginfo -i | grep '^bash-completion '; then
-    rm -r $PKG/usr/share/bash-completion
-  fi
-  if ! pkginfo -i | grep '^zsh '; then
-    rm -r $PKG/usr/share/zsh
-  fi
-  #rm -r $PKG/usr/share/man/man1/start-pulseaudio-kde.1*
-  #rm -r $PKG/usr/share/man/man1/start-pulseaudio-x11.1.gz
+  ninja -C build
+  DESTDIR=$PKG meson install -C build
+
+  rm -r $PKG/usr/share/locale
+  # the meson build seems broken here, no idea why though
+  rm -r $PKG/usr/no
 
   sed -e '/autospawn/iautospawn = no' -i $PKG/etc/pulse/client.conf
   sed -e '/flat-volumes/iflat-volumes = no' -i $PKG/etc/pulse/daemon.conf

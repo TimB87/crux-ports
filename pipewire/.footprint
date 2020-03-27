@@ -4,14 +4,10 @@ drwxr-xr-x	root/root	etc/pipewire/
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/pipewire
--rwxr-xr-x	root/root	usr/bin/pipewire-media-session
--rwxr-xr-x	root/root	usr/bin/pw-cat
 -rwxr-xr-x	root/root	usr/bin/pw-cli
 -rwxr-xr-x	root/root	usr/bin/pw-dot
 -rwxr-xr-x	root/root	usr/bin/pw-mon
-lrwxrwxrwx	root/root	usr/bin/pw-play -> pw-cat
 -rwxr-xr-x	root/root	usr/bin/pw-profiler
-lrwxrwxrwx	root/root	usr/bin/pw-record -> pw-cat
 -rwxr-xr-x	root/root	usr/bin/spa-inspect
 -rwxr-xr-x	root/root	usr/bin/spa-monitor
 drwxr-xr-x	root/root	usr/include/
@@ -155,19 +151,9 @@ drwxr-xr-x	root/root	usr/include/spa-0.2/spa/utils/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/alsa-lib/
 -rwxr-xr-x	root/root	usr/lib/alsa-lib/libasound_module_pcm_pipewire.so
-drwxr-xr-x	root/root	usr/lib/gstreamer-1.0/
--rwxr-xr-x	root/root	usr/lib/gstreamer-1.0/libgstpipewire.so
-lrwxrwxrwx	root/root	usr/lib/libjack-pw.so -> libjack-pw.so.0.3.1
--rwxr-xr-x	root/root	usr/lib/libjack-pw.so.0.3.1
 lrwxrwxrwx	root/root	usr/lib/libpipewire-0.3.so -> libpipewire-0.3.so.0
-lrwxrwxrwx	root/root	usr/lib/libpipewire-0.3.so.0 -> libpipewire-0.3.so.0.301.0
--rwxr-xr-x	root/root	usr/lib/libpipewire-0.3.so.0.301.0
-lrwxrwxrwx	root/root	usr/lib/libpulse-mainloop-glib-pw.so -> libpulse-mainloop-glib-pw.so.0.3.1
--rwxr-xr-x	root/root	usr/lib/libpulse-mainloop-glib-pw.so.0.3.1
-lrwxrwxrwx	root/root	usr/lib/libpulse-pw.so -> libpulse-pw.so.0.3.1
--rwxr-xr-x	root/root	usr/lib/libpulse-pw.so.0.3.1
-lrwxrwxrwx	root/root	usr/lib/libpulse-simple-pw.so -> libpulse-simple-pw.so.0.3.1
--rwxr-xr-x	root/root	usr/lib/libpulse-simple-pw.so.0.3.1
+lrwxrwxrwx	root/root	usr/lib/libpipewire-0.3.so.0 -> libpipewire-0.3.so.0.302.0
+-rwxr-xr-x	root/root	usr/lib/libpipewire-0.3.so.0.302.0
 drwxr-xr-x	root/root	usr/lib/pipewire-0.3/
 -rwxr-xr-x	root/root	usr/lib/pipewire-0.3/libpipewire-module-access.so
 -rwxr-xr-x	root/root	usr/lib/pipewire-0.3/libpipewire-module-adapter.so
@@ -193,18 +179,10 @@ drwxr-xr-x	root/root	usr/lib/spa-0.2/audioconvert/
 -rwxr-xr-x	root/root	usr/lib/spa-0.2/audioconvert/libspa-audioconvert.so
 drwxr-xr-x	root/root	usr/lib/spa-0.2/audiomixer/
 -rwxr-xr-x	root/root	usr/lib/spa-0.2/audiomixer/libspa-audiomixer.so
-drwxr-xr-x	root/root	usr/lib/spa-0.2/bluez5/
--rwxr-xr-x	root/root	usr/lib/spa-0.2/bluez5/libspa-bluez5.so
 drwxr-xr-x	root/root	usr/lib/spa-0.2/control/
 -rwxr-xr-x	root/root	usr/lib/spa-0.2/control/libspa-control.so
-drwxr-xr-x	root/root	usr/lib/spa-0.2/jack/
--rwxr-xr-x	root/root	usr/lib/spa-0.2/jack/libspa-jack.so
 drwxr-xr-x	root/root	usr/lib/spa-0.2/support/
 -rwxr-xr-x	root/root	usr/lib/spa-0.2/support/libspa-dbus.so
 -rwxr-xr-x	root/root	usr/lib/spa-0.2/support/libspa-support.so
-drwxr-xr-x	root/root	usr/lib/spa-0.2/v4l2/
--rwxr-xr-x	root/root	usr/lib/spa-0.2/v4l2/libspa-v4l2.so
 drwxr-xr-x	root/root	usr/lib/spa-0.2/videoconvert/
 -rwxr-xr-x	root/root	usr/lib/spa-0.2/videoconvert/libspa-videoconvert.so
-drwxr-xr-x	root/root	usr/lib/spa-0.2/vulkan/
--rwxr-xr-x	root/root	usr/lib/spa-0.2/vulkan/libspa-vulkan.so

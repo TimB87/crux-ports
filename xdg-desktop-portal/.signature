@@ -1,6 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwPp/E8H+GP/qBmdYg85RTzTx9O/o/CWKcSsI6+m2ePp6P133DgVQFNjOVA1wpubi5GoNLGjyZ8qt9aT3QV5PJA4=
-SHA256 (Pkgfile) = 64dd289496096a0f7065dd3b21a893d8a8a00891dce3af95fb26c9769e012b43
+RWSXjYMPO7mZwJoiqDAkwoP98Qy9RK5n7izRwLcpE55ojaRqsz6QmAkf18ir+V1spbok+9xwdwX+2pbamxGWC5RsWzcQX0iVHQs=
+SHA256 (Pkgfile) = 9fe4ac368f81b3146b399cd73db36a9f806ee6f5f522a607f1c68607ef034cf0
 SHA256 (.footprint) = 44b525d06f045689e93f6cd215da5ed77806760521b2e6de84e916b3a8ec68d9
-SHA256 (xdg-desktop-portal-1.7.0.tar.xz) = e9ed11d1833706e65d75c5b51841fc6e8180fe539b4fa8ee24c397c11bf35694
-SHA256 (pipewire-0.3.0.patch) = e015aa054625e58c915ff14e64c0eca16ba73ecf92bac951325b3acd794bfdd0
+SHA256 (xdg-desktop-portal-1.7.1.tar.xz) = 41b3c1ce33716c89944b70ed20b61cef9c07dcff1a2fa4dd67965a3e1d5cd6c6

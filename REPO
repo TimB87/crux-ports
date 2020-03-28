@@ -198,10 +198,10 @@ f:7f0c2b58c8e4e509cfecdde5148a898a:grub2-theme-poly-light/.signature
 f:d5560e0716135149488006bae5b28ece:ttf-unifont/Pkgfile
 f:71763ec593f45a46f46d7144e402e47b:ttf-unifont/.footprint
 f:fcc9fe20d05969269cea2d279f1d5682:ttf-unifont/.signature
-f:c27df96f840cc02068e9fd9c112b2f93:pipewire/Pkgfile
+f:e382b6e2d297986b2e64858f4d27c5c4:pipewire/Pkgfile
 f:23f058566d1439c79f258d426ab3050f:pipewire/.footprint
 f:ce2540deb981cbc0b7a3543a38771855:pipewire/README
-f:a7af23c3791b256e688a6cbd237745ef:pipewire/.signature
+f:3c6bf17011369cad42ff003ee6876c10:pipewire/.signature
 f:899add1741614a71fc0c4346b1eb765f:parallel/Pkgfile
 f:3670ecc1dfaf06a8fad342780fa5eeab:parallel/.footprint
 f:3bf24766fbce411a77b8ff12717c0e6d:parallel/.signature

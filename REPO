@@ -119,10 +119,10 @@ f:8ab1a8aebf81c512aa5d551b60792167:gnome-keyring/post-install
 f:391d976bb40fc36f516199b78cc2133f:gnome-keyring/Pkgfile
 f:4a8ba2e5a3bae2f99cb87246761a86b7:gnome-keyring/.footprint
 f:5e372467c8d8afbef52d082a51fbc3e9:gnome-keyring/.signature
-f:48c6571235da201e7fb43fba6d18bf7b:papirus-icon-theme/post-install
-f:acb7745cbeee2990a4d93dd2a6f261c6:papirus-icon-theme/Pkgfile
+f:141f03bc3aa571f8d1b78be79a515fca:papirus-icon-theme/post-install
+f:ea5caf65486e41915fcddb344cd38c29:papirus-icon-theme/Pkgfile
 f:0bcc6f28885430c181a02d5e717218d8:papirus-icon-theme/.footprint
-f:fb640106c1c1086e08498c3d3191369d:papirus-icon-theme/.signature
+f:7b221a6f95a5e8cdff02e70ab638fc77:papirus-icon-theme/.signature
 f:cdaab91680ba17cbf31b21d1b64dcd6a:php-fcgi/php-fcgi
 f:e11a7a78b9e17e76ac287a34c656c13d:php-fcgi/Pkgfile
 f:e679b27dde73d5c7b0a7576785722aa1:php-fcgi/.footprint
@@ -240,6 +240,7 @@ f:57086d1626701d03c9e382a5e40e1428:libgusb/.signature
 f:d3524b5a5ba80ec9244208cf347299d7:acpi/Pkgfile
 f:3783ddd1a1bab952dc8166225349052a:acpi/.footprint
 f:246728e1f71d9470bbe726f5f174f1dd:acpi/.signature
+f:80e8a7cc4ae78931eee37ff9c63972cb:pulseaudio/post-install
 f:a6fd26f7566cce8d19bc91bfaeb2ed6c:pulseaudio/Pkgfile
 f:48976aa36a080408495ffe0e3d36fc74:pulseaudio/.footprint
 f:39518368836423cb843631bfde9846bd:pulseaudio/pre-install

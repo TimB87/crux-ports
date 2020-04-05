@@ -4,8 +4,8 @@
 # Depends on:
 
 name=papirus-icon-theme
-version=20200301
-release=2
+version=20200405
+release=1
 source=(https://github.com/PapirusDevelopmentTeam/papirus-icon-theme/archive/$version/$name-$version.tar.gz)
 
 build() {

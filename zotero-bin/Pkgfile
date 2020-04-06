@@ -5,7 +5,7 @@
 
 name=zotero-bin
 version=5.0.85
-release=1
+release=2
 source=(https://download.zotero.org/client/release/$version/Zotero-${version}_linux-x86_64.tar.bz2)
 
 build() {
@@ -31,6 +31,7 @@ build() {
 
   echo "/usr/lib/zotero" >> zotero.conf
   install -Dm755 zotero.conf $PKG/etc/ld.so.conf.d/zotero.conf
+  rm $PKG/usr/lib/zotero/libxul.so.sig
   #clean up
   find $PKG \(\
     -iname '*README*' -o \

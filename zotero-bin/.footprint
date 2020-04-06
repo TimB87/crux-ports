@@ -1,3 +1,6 @@
+drwxr-xr-x	root/root	etc/
+drwxr-xr-x	root/root	etc/ld.so.conf.d/
+-rwxr-xr-x	root/root	etc/ld.so.conf.d/zotero.conf
 drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/bin/
 lrwxrwxrwx	root/root	usr/bin/zotero -> /usr/lib/zotero/zotero
@@ -24,7 +27,7 @@ drwxrwxr-x	root/root	usr/lib/zotero/defaults/preferences/
 -rw-rw-r--	root/root	usr/lib/zotero/defaults/preferences/prefs.js
 -rw-rw-r--	root/root	usr/lib/zotero/defaults/preferences/zotero.js
 -rw-r--r--	root/root	usr/lib/zotero/dependentlibs.list
-drwxr-xr-x	root/root	usr/lib/zotero/dictionaries/
+drwxrwxr-x	root/root	usr/lib/zotero/dictionaries/
 -rw-r--r--	root/root	usr/lib/zotero/dictionaries/en-US.aff
 -rw-r--r--	root/root	usr/lib/zotero/dictionaries/en-US.dic
 drwxrwxr-x	root/root	usr/lib/zotero/extensions/
@@ -49,17 +52,19 @@ drwxrwxr-x	root/root	usr/lib/zotero/extensions/zoteroOpenOfficeIntegration@zoter
 -rw-rw-r--	root/root	usr/lib/zotero/extensions/zoteroOpenOfficeIntegration@zotero.org/resource/installer.jsm
 drwxrwxr-x	root/root	usr/lib/zotero/extensions/zoteroOpenOfficeIntegration@zotero.org/scripts/
 -rwxrwxr-x	root/root	usr/lib/zotero/extensions/zoteroOpenOfficeIntegration@zotero.org/scripts/symlink_sdk
-drwxr-xr-x	root/root	usr/lib/zotero/fonts/
+-rw-r--r--	root/root	usr/lib/zotero/firefox-bin.sig
+-rw-r--r--	root/root	usr/lib/zotero/firefox.sig
+drwxrwxr-x	root/root	usr/lib/zotero/fonts/
 -rw-r--r--	root/root	usr/lib/zotero/fonts/EmojiOneMozilla.ttf
-drwxr-xr-x	root/root	usr/lib/zotero/gmp-clearkey/
-drwxr-xr-x	root/root	usr/lib/zotero/gmp-clearkey/0.1/
--rw-r--r--	root/root	usr/lib/zotero/gmp-clearkey/0.1/clearkey.info
+drwxrwxr-x	root/root	usr/lib/zotero/gmp-clearkey/
+drwxrwxr-x	root/root	usr/lib/zotero/gmp-clearkey/0.1/
 -rwxr-xr-x	root/root	usr/lib/zotero/gmp-clearkey/0.1/libclearkey.so
-drwxr-xr-x	root/root	usr/lib/zotero/gtk2/
+-rw-r--r--	root/root	usr/lib/zotero/gmp-clearkey/0.1/libclearkey.so.sig
+-rw-r--r--	root/root	usr/lib/zotero/gmp-clearkey/0.1/manifest.json
+drwxrwxr-x	root/root	usr/lib/zotero/gtk2/
 -rwxr-xr-x	root/root	usr/lib/zotero/gtk2/libmozgtk.so
-drwxr-xr-x	root/root	usr/lib/zotero/icons/
+drwxrwxr-x	root/root	usr/lib/zotero/icons/
 -rw-r--r--	root/root	usr/lib/zotero/icons/updater.png
--rw-r--r--	root/root	usr/lib/zotero/icudt58l.dat
 -rw-r--r--	root/root	usr/lib/zotero/libfreeblpriv3.chk
 -rwxr-xr-x	root/root	usr/lib/zotero/libfreeblpriv3.so
 -rwxr-xr-x	root/root	usr/lib/zotero/liblgpllibs.so
@@ -81,12 +86,14 @@ drwxr-xr-x	root/root	usr/lib/zotero/icons/
 -rwxr-xr-x	root/root	usr/lib/zotero/libsoftokn3.so
 -rwxr-xr-x	root/root	usr/lib/zotero/libssl3.so
 -rwxr-xr-x	root/root	usr/lib/zotero/libxul.so
+-rw-r--r--	root/root	usr/lib/zotero/libxul.so.sig
 -rwxr-xr-x	root/root	usr/lib/zotero/minidump-analyzer
 -rw-rw-r--	root/root	usr/lib/zotero/omni.ja
 -rwxr-xr-x	root/root	usr/lib/zotero/pdfinfo
 -rwxr-xr-x	root/root	usr/lib/zotero/pdftotext
 -rw-r--r--	root/root	usr/lib/zotero/platform.ini
 -rwxr-xr-x	root/root	usr/lib/zotero/plugin-container
+-rw-r--r--	root/root	usr/lib/zotero/plugin-container.sig
 drwxr-xr-x	root/root	usr/lib/zotero/poppler-data/
 drwxr-xr-x	root/root	usr/lib/zotero/poppler-data/cMap/
 drwxr-xr-x	root/root	usr/lib/zotero/poppler-data/cMap/Adobe-CNS1/

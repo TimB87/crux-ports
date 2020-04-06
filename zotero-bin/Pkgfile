@@ -4,7 +4,7 @@
 # Depends on: dbus-glib gtk gtk3 nss xorg-libxt
 
 name=zotero-bin
-version=5.0.77
+version=5.0.85
 release=1
 source=(https://download.zotero.org/client/release/$version/Zotero-${version}_linux-x86_64.tar.bz2)
 
@@ -13,6 +13,7 @@ build() {
   mv Zotero_linux-x86_64/* $PKG/usr/lib/zotero
   ln -s /usr/lib/zotero/zotero $PKG/usr/bin/zotero
   ln -s /usr/lib/zotero/zotero.desktop $PKG/usr/share/applications/zotero.desktop
+  sed -i -e 's/\(^Exec.*$\)/Exec=\/usr\/bin\/zotero/g' $PKG/usr/lib/zotero/zotero.desktop
   # Copy zotero icons to a standard location
   install -Dm644 $PKG/usr/lib/zotero/chrome/icons/default/default16.png $PKG/usr/share/icons/hicolor/16x16/apps/zotero.png
   install -Dm644 $PKG/usr/lib/zotero/chrome/icons/default/default32.png $PKG/usr/share/icons/hicolor/32x32/apps/zotero.png
@@ -27,6 +28,9 @@ build() {
   # No need to keep a shell around when launching Zotero
   sed -i -r 's/^("\$CALLDIR\/zotero-bin" -app "\$CALLDIR\/application.ini" "\$@")/exec \1/' \
     $PKG/usr/lib/zotero/zotero
+
+  echo "/usr/lib/zotero" >> zotero.conf
+  install -Dm755 zotero.conf $PKG/etc/ld.so.conf.d/zotero.conf
   #clean up
   find $PKG \(\
     -iname '*README*' -o \

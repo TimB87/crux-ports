@@ -40,7 +40,6 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/lxc-update-config
 -rwxr-xr-x	root/root	usr/bin/lxc-usernsexec
 -rwxr-xr-x	root/root	usr/bin/lxc-wait
--rwxr-xr-x	root/root	usr/bin/run-coccinelle.sh
 drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/lxc/
 -rw-r--r--	root/root	usr/include/lxc/attach_options.h

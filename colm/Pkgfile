@@ -4,13 +4,14 @@
 # Depends on:
 
 name=colm
-version=0.13.0.7
-release=2
+version=0.14.1
+release=1
 source=(https://www.colm.net/files/colm/colm-$version.tar.gz)
 
 build() {
   cd $name-$version
-  ./configure --prefix=/usr
+  ./configure --prefix=/usr \
+    --enable-manual=no
   make
   make DESTDIR=$PKG install
   rm -fr $PKG/usr/share/doc

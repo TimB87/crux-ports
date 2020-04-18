@@ -134,9 +134,9 @@ f:7c354e3afd61e31dcad2d8ad98171a27:os-prober/Pkgfile
 f:d6df03373d469831e56e08af65866c89:os-prober/.footprint
 f:5908b2d6281b2a3ffd71fc93aaa84275:os-prober/Fix-CRUX-grub-menu-entry-detection.patch
 f:d5da8a26305dd2ba001b70b56e46c5e9:os-prober/.signature
-f:1db03760c313831870e327b392da083f:colm/Pkgfile
-f:f0f9fa05f5b463adb8b035bd8fa4a7c4:colm/.footprint
-f:848254519e59267bbe7314d1645e048e:colm/.signature
+f:9ee47d5e9f33c4bef31b76f762576a29:colm/Pkgfile
+f:ee91a5139986bd3e4dc91f38f341a623:colm/.footprint
+f:813db9ab11abced823b04ebc21118354:colm/.signature
 f:a2114bd76d8f147ffb8765a4053549d1:ragel/Pkgfile
 f:80ce09f789b9bde6d26aba64ea1afc09:ragel/.footprint
 f:8e07fc15cbde8ad9b73d9738176edb8f:ragel/.signature
@@ -513,9 +513,9 @@ f:136648cf264908f0003041356b0036b1:zotero/.footprint
 f:f227abe95940abd63367716928c6e379:zotero/zotero.desktop
 f:9bf3c471a4322d57c3b8f48dc1ed697c:zotero/README
 f:96c023298affb5f3902c3a0fb7b9d9ad:zotero/.signature
-f:1b0bd67b6f6c8263c50e2e82fb63b6ce:cargo-make/Pkgfile
+f:2daf8df94628a2b2891a3c457e79a699:cargo-make/Pkgfile
 f:151e0496d7140054ae1b6c55f2ff3a53:cargo-make/.footprint
-f:8b4400bb7088458773f748e01cb5b587:cargo-make/.signature
+f:49639fda5b386f489a1de4a1cc0e340f:cargo-make/.signature
 f:070d413ffde8784281ac21ba2e01fb13:python3-psutil/Pkgfile
 f:a25159f2d5ea0067198d8167d1988a36:python3-psutil/.footprint
 f:3062d5a55f63b4b3c8636f88454ba1f1:python3-psutil/.signature

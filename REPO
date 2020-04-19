@@ -1,6 +1,5 @@
 d:gnome-keyring
 d:papirus-icon-theme
-d:php-fcgi
 d:ttf-font-icons
 d:os-prober
 d:colm
@@ -45,7 +44,6 @@ d:zsh
 d:fcgiwrap
 d:fuse-exfat
 d:xdg-desktop-portal-gtk
-d:php-gd
 d:php-pgsql
 d:php-intl
 d:ttf-line-awesome
@@ -62,7 +60,6 @@ d:flatbuffers
 d:ftjam
 d:solaar
 d:amdvlk
-d:php-sqlite3
 d:libinput-gestures
 d:yajl
 d:i3-gaps
@@ -113,7 +110,6 @@ d:zotero
 d:cargo-make
 d:python3-psutil
 d:highlight
-d:php-fpm
 d:font-noto
 f:8ab1a8aebf81c512aa5d551b60792167:gnome-keyring/post-install
 f:391d976bb40fc36f516199b78cc2133f:gnome-keyring/Pkgfile
@@ -123,10 +119,6 @@ f:141f03bc3aa571f8d1b78be79a515fca:papirus-icon-theme/post-install
 f:3268ef26a3d57f599efa07b7d3d2e306:papirus-icon-theme/Pkgfile
 f:f2b826d4247be69d4597bdfcc83eeb6c:papirus-icon-theme/.footprint
 f:0bbfcf9eb923f5a07f1fde191627766b:papirus-icon-theme/.signature
-f:cdaab91680ba17cbf31b21d1b64dcd6a:php-fcgi/php-fcgi
-f:e11a7a78b9e17e76ac287a34c656c13d:php-fcgi/Pkgfile
-f:e679b27dde73d5c7b0a7576785722aa1:php-fcgi/.footprint
-f:f2ffabbe95340960a7668ac9eeaa2b4b:php-fcgi/.signature
 f:d0d64fe4327a17cbdf90039af0c2a44a:ttf-font-icons/Pkgfile
 f:9e318bed7942bb8155c8b337f695908d:ttf-font-icons/.footprint
 f:4416ac03cf4ec625fcafe338c1945c0a:ttf-font-icons/.signature
@@ -275,15 +267,12 @@ f:64dcce3b80b330596995e953bc8d8ecf:fuse-exfat/.signature
 f:c5ea7ab88d50f7e87149b8eb85fe775b:xdg-desktop-portal-gtk/Pkgfile
 f:dcab9ebde3c07144d207f24cb479d6b7:xdg-desktop-portal-gtk/.footprint
 f:43c7ab447941a666e28fd552694e101a:xdg-desktop-portal-gtk/.signature
-f:0a95edffa5dacfad1934542a77ae788a:php-gd/Pkgfile
-f:2e9563e73147712cc7d7ddb8d3567f44:php-gd/.footprint
-f:64dafd568765d2a93e19204cbce29775:php-gd/.signature
-f:56ee59b6dc3ed87776556039b0d77d0c:php-pgsql/Pkgfile
+f:13bfe871ebaad894f07d272544b4d474:php-pgsql/Pkgfile
 f:4bcff8c2fae56f50bf50bb9a3211205e:php-pgsql/.footprint
-f:87892ba90cc5d566f51f8523b49210a3:php-pgsql/.signature
-f:d700ad61b5ca79afde3a68213cd2d778:php-intl/Pkgfile
+f:e8ccd3188545b2af161d1ab5a7bc9b01:php-pgsql/.signature
+f:f4790bbc7e50d576a800e7b288ee625e:php-intl/Pkgfile
 f:c5157587e260c79d378428d7424a96c2:php-intl/.footprint
-f:9ef752b7404ed361be6eaad2f10bbf15:php-intl/.signature
+f:307986ac43e39fd0df1941fb3730464b:php-intl/.signature
 f:111eb6c2d95f5c4d8c2442460cb78203:ttf-line-awesome/Pkgfile
 f:1ad2e45738eb2b46ec02e55ee890c2b6:ttf-line-awesome/.footprint
 f:07b70c8bfa5099fcc810db439a2548c2:ttf-line-awesome/.signature
@@ -335,9 +324,6 @@ f:5e8577c3313d4df58368c9fa5badab52:amdvlk/Pkgfile
 f:250a4693b430b2e8fadfbfdb8c3d3497:amdvlk/.footprint
 f:80eaab8005ce781b85eb16c57243cd11:amdvlk/amdPalSettings.cfg
 f:85b8ac68dfc95dc65964c16759fbb706:amdvlk/.signature
-f:0093ff233cfb412e1c20394a08238de9:php-sqlite3/Pkgfile
-f:eac17d2d7f43e31ab3bb1bc703a254e8:php-sqlite3/.footprint
-f:083f55534797e4e112fc6a5586e543e6:php-sqlite3/.signature
 f:3457655e9ca4fdb1b038e09fb10c2040:libinput-gestures/Pkgfile
 f:ad4fa9236e99bf0cf657e03ea176f1e8:libinput-gestures/.footprint
 f:ec24495ff697d645060535158b62c272:libinput-gestures/.signature
@@ -490,11 +476,10 @@ f:8803fb2af0fa5613c26a9fb7bbfe969d:faba-icon-theme/.signature
 f:25913130308a0dd1333e7d781b61ab84:papirus-filezilla-theme/Pkgfile
 f:2fba55174bd682fde79c4db0740a098c:papirus-filezilla-theme/.footprint
 f:c8632b6290fadbfe5294a4b579e1f385:papirus-filezilla-theme/.signature
-f:4d2514599cce3066aac7338ca43c152b:php/Pkgfile
+f:ccba0f049029b5ff682f13c8aa11e145:php/Pkgfile
 f:ea2a7fa6d7c53fca1b945cb1f385a6b6:php/.footprint
-f:918f7ad62a7d65b881408f360ed06124:php/freetype.patch
 f:e447ef10bcd089f1f8fa309b4b501637:php/.md5sum
-f:434c2d98e8a40d2962d005bbfd892c15:php/.signature
+f:95b3b781451ed11a6a097c532ca7692f:php/.signature
 f:d49ef2e496ce7ac773dc46857449d910:goaccess/Pkgfile
 f:30ce8265ee5f64e5bda72df7eb25a54d:goaccess/.footprint
 f:2a69db4946bd86e6ed948d62a5b7bcc6:goaccess/.signature
@@ -522,10 +507,6 @@ f:3062d5a55f63b4b3c8636f88454ba1f1:python3-psutil/.signature
 f:25894e2de8723285f226abcc8d153e37:highlight/Pkgfile
 f:aaed406e35e763c7df59952e740832ec:highlight/.footprint
 f:36da14bfc83abfc213a62fb224e94c4b:highlight/.signature
-f:7033545232cbfb67e3c727315dd5eb4b:php-fpm/Pkgfile
-f:5fdeeb4e93c5a496b7ece09d4a996d47:php-fpm/.footprint
-f:1937e3119cb077a2968d0cebf0a19e2f:php-fpm/.signature
-f:954d95b7f645f3435815195aeeac6949:php-fpm/php-fpm
 f:abb2be845e798e1140314f666def496d:font-noto/Pkgfile
 f:ecb06f374fcf9a58e9fc2773d8cabf28:font-noto/.footprint
 f:db47bc9b9c086239c4d86d4a5bc5db38:font-noto/README

@@ -1,10 +1,10 @@
-# Description: PHP interpreter, extension modules and support stuff
+# Description: PHP interpreter, extension modules and support stuff - with ICU support
 # URL: http://www.php.net
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: bzip2 curl db gdbm libpcre2 libxml2 libzip oniguruma
 
 name=php
-version=7.4.4
+version=7.4.5
 release=1
 source=(http://php.net/distributions/php-$version.tar.xz)
 

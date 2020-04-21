@@ -398,7 +398,7 @@ f:147a4d5f5691d2d6be57b903a942d1e5:libical/Pkgfile
 f:793d513dc1d88d5c2b131d3bae1bdb57:libical/.footprint
 f:e6e1adf15c9b19c6c3252626f119ca47:libical/.signature
 f:598dbfd55fbc2cf9954b2c4ce94cbfdd:lxc/post-install
-f:e0ff560bfc72657c51f28eaec3a34664:lxc/Pkgfile
+f:242c2bf3f01d27f62087e5ad808b1635:lxc/Pkgfile
 f:b8f78d7f5b2359abe9c597f1fc735abd:lxc/.footprint
 f:2136f3664da330867e5993d7a1174c61:lxc/default.conf
 f:3adcecede2a9d7bc42c95c60b6b7d004:lxc/man-pages.tar.xz
@@ -406,7 +406,7 @@ f:0d61d1ff89bb9d3708a4c0b523b079af:lxc/lxc-cgroups
 f:771a557292a03b34420f3f87687ad329:lxc/lxc-net
 f:e5f4d1655e531abdd57b777fdb22a2e8:lxc/README
 f:a18407a2c9b43ca217ebdb14523e3d82:lxc/lxc-users-setup
-f:03b7ff35e38c065dfd63f938783f893b:lxc/.signature
+f:090b589cb8394728c5010c478f68e19b:lxc/.signature
 f:5c2bdfb9ab3e421c5816408ee646a578:lxc/lxc-users
 f:13b40dfb0c71e737148782c6a29151eb:lxc/lxc-usernet
 f:77f3bef3f309ca1532d1734fab3de78d:libiptcdata/Pkgfile

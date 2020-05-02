@@ -4,6 +4,7 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/
 -rw-r-----	nginx/nginx	var/www/nextcloud/.htaccess
 -rw-r-----	nginx/nginx	var/www/nextcloud/.user.ini
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/
+-rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/.gitignore
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/autoload.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/aws/
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/aws/aws-sdk-php/
@@ -1793,6 +1794,7 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/aws/aws-sdk-php/src/signer/Exc
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/aws/aws-sdk-php/src/signer/signerClient.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/bantu/
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/bantu/ini-get-wrapper/
+-rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/bantu/ini-get-wrapper/.gitignore
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/bantu/ini-get-wrapper/.scrutinizer.yml
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/bantu/ini-get-wrapper/composer.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/bantu/ini-get-wrapper/phpunit.xml.dist
@@ -1800,6 +1802,7 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/bantu/ini-get-wrapper/src/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/bantu/ini-get-wrapper/src/IniGetWrapper.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/christophwurst/
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/christophwurst/id3parser/
+-rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/christophwurst/id3parser/.gitignore
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/christophwurst/id3parser/composer.json
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/christophwurst/id3parser/src/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/christophwurst/id3parser/src/ID3Parser.php
@@ -2559,6 +2562,7 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/guzzlehttp/streams/src/Excepti
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/guzzlehttp/streams/src/Utils.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/icewind/
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/icewind/searchdav/
+-rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/icewind/searchdav/.gitignore
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/icewind/searchdav/src/
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/icewind/searchdav/src/Backend/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/icewind/searchdav/src/Backend/ISearchBackend.php
@@ -2589,6 +2593,7 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/icewind/searchdav/src/XML/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/icewind/searchdav/src/XML/Scope.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/icewind/searchdav/src/XML/SupportedQueryGrammar.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/icewind/streams/
+-rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/icewind/streams/.gitignore
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/icewind/streams/src/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/icewind/streams/src/CallbackWrapper.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/icewind/streams/src/CountWrapper.php
@@ -2921,6 +2926,7 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/microsoft/azure-storage-common
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/microsoft/azure-storage-common/src/Common/SharedAccessSignatureHelper.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/mtdowling/
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/mtdowling/jmespath.php/
+-rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/mtdowling/jmespath.php/.gitignore
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/mtdowling/jmespath.php/Makefile
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/mtdowling/jmespath.php/composer.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/mtdowling/jmespath.php/phpunit.xml.dist
@@ -3307,11 +3313,13 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/patchwork/utf8/src/Patchwork/U
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/patchwork/utf8/src/Patchwork/Utf8/data/translit_extra.ser
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/pear/
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/pear/archive_tar/
+-rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/pear/archive_tar/.gitignore
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/pear/archive_tar/Archive/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/pear/archive_tar/Archive/Tar.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/pear/archive_tar/composer.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/pear/archive_tar/package.xml
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/pear/console_getopt/
+-rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/pear/console_getopt/.gitignore
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/pear/console_getopt/Console/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/pear/console_getopt/Console/Getopt.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/pear/console_getopt/composer.json
@@ -3327,12 +3335,14 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/pear/pear-core-minimal/src/PEA
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/pear/pear-core-minimal/src/PEAR/ErrorStack.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/pear/pear-core-minimal/src/System.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/pear/pear_exception/
+-rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/pear/pear_exception/.gitignore
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/pear/pear_exception/PEAR/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/pear/pear_exception/PEAR/Exception.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/pear/pear_exception/composer.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/pear/pear_exception/package.xml
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/php-opencloud/
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/php-opencloud/openstack/
+-rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/php-opencloud/openstack/.gitignore
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/php-opencloud/openstack/.php_cs.dist
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/php-opencloud/openstack/.scrutinizer.yml
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/php-opencloud/openstack/CODE_OF_CONDUCT.md
@@ -3570,6 +3580,7 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/pimple/pimple/src/Pimple/Psr11
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/pimple/pimple/src/Pimple/ServiceProviderInterface.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/psr/
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/psr/container/
+-rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/psr/container/.gitignore
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/psr/container/composer.json
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/psr/container/src/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/psr/container/src/ContainerExceptionInterface.php
@@ -4178,6 +4189,7 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/ralouphie/getallheaders/src/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/ralouphie/getallheaders/src/getallheaders.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/react/
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/react/promise/
+-rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/react/promise/.gitignore
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/react/promise/src/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/react/promise/src/CancellablePromiseInterface.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/react/promise/src/Deferred.php
@@ -4193,6 +4205,7 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/react/promise/src/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/react/promise/src/functions_include.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/dav/
+-rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/dav/.gitignore
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/dav/CONTRIBUTING.md
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/dav/composer.json
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/dav/lib/
@@ -4474,6 +4487,7 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/dav/lib/DAVACL/Xml/Reque
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/dav/lib/DAVACL/Xml/Request/PrincipalPropertySearchReport.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/dav/lib/DAVACL/Xml/Request/PrincipalSearchPropertySetReport.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/event/
+-rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/event/.gitignore
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/event/composer.json
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/event/lib/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/event/lib/EventEmitter.php
@@ -4490,6 +4504,7 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/event/lib/Promise/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/event/lib/coroutine.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/event/phpunit.xml.dist
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/http/
+-rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/http/.gitignore
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/http/composer.json
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/http/lib/
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/http/lib/Auth/
@@ -4517,12 +4532,14 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/http/lib/Auth/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/http/lib/Version.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/http/lib/functions.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/uri/
+-rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/uri/.gitignore
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/uri/composer.json
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/uri/lib/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/uri/lib/InvalidUriException.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/uri/lib/Version.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/uri/lib/functions.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/vobject/
+-rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/vobject/.gitignore
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/vobject/composer.json
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/vobject/lib/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/vobject/lib/BirthdayCalendarGenerator.php
@@ -4617,6 +4634,7 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/vobject/resources/schema
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/vobject/resources/schema/xcal.rng
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/vobject/resources/schema/xcard.rng
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/xml/
+-rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/xml/.gitignore
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/xml/composer.json
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/sabre/xml/lib/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/sabre/xml/lib/ContextStackTrait.php
@@ -4854,6 +4872,7 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/swiftmailer/swiftmailer/lib/de
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/swiftmailer/swiftmailer/lib/swiftmailer_generate_mimes_config.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/console/
+-rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/console/.gitignore
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/console/Application.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/console/Command/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/console/Command/Command.php
@@ -4958,6 +4977,7 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/event-dispatcher-contr
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/event-dispatcher-contracts/EventDispatcherInterface.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/event-dispatcher-contracts/composer.json
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/event-dispatcher/
+-rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/event-dispatcher/.gitignore
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/event-dispatcher/Debug/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/event-dispatcher/Debug/TraceableEventDispatcher.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/event-dispatcher/Debug/TraceableEventDispatcherInterface.php
@@ -5073,6 +5093,7 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/polyfill-util/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/polyfill-util/TestListenerTrait.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/polyfill-util/composer.json
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/process/
+-rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/process/.gitignore
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/process/Exception/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/process/Exception/ExceptionInterface.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/process/Exception/InvalidArgumentException.php
@@ -5180,6 +5201,7 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/translation-contracts/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/translation-contracts/TranslatorTrait.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/translation-contracts/composer.json
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/translation/
+-rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/translation/.gitignore
 drwxr-x---	nginx/nginx	var/www/nextcloud/3rdparty/symfony/translation/Catalogue/
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/translation/Catalogue/AbstractOperation.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/3rdparty/symfony/translation/Catalogue/MergeOperation.php
@@ -5335,6 +5357,10 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/accessibility/l10n/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/accessibility/l10n/es.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/accessibility/l10n/es_AR.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/accessibility/l10n/es_AR.json
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/accessibility/l10n/es_CO.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/accessibility/l10n/es_CO.json
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/accessibility/l10n/et_EE.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/accessibility/l10n/et_EE.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/accessibility/l10n/eu.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/accessibility/l10n/eu.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/accessibility/l10n/fa.js
@@ -5363,6 +5389,8 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/accessibility/l10n/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/accessibility/l10n/it.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/accessibility/l10n/ja.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/accessibility/l10n/ja.json
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/accessibility/l10n/ka_GE.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/accessibility/l10n/ka_GE.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/accessibility/l10n/ko.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/accessibility/l10n/ko.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/accessibility/l10n/lt_LT.js
@@ -6331,7 +6359,6 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/dav/lib/Connector/Sabre/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/dav/lib/Connector/Sabre/ChecksumList.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/dav/lib/Connector/Sabre/CommentPropertiesPlugin.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/dav/lib/Connector/Sabre/CopyEtagHeaderPlugin.php
--rw-r-----	nginx/nginx	var/www/nextcloud/apps/dav/lib/Connector/Sabre/CustomPropertiesBackend.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/dav/lib/Connector/Sabre/DavAclPlugin.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/dav/lib/Connector/Sabre/Directory.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/dav/lib/Connector/Sabre/DummyGetResponsePlugin.php
@@ -6451,7 +6478,6 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/dav/lib/Upload/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/dav/lib/Upload/UploadFolder.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/dav/lib/Upload/UploadHome.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/dav/templates/
--rw-r-----	nginx/nginx	var/www/nextcloud/apps/dav/templates/exception.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/dav/templates/schedule-response-error.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/dav/templates/schedule-response-options.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/dav/templates/schedule-response-success.php
@@ -7061,6 +7087,8 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/federation/l10n/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/federation/l10n/tr.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/federation/l10n/uk.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/federation/l10n/uk.json
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/federation/l10n/vi.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/federation/l10n/vi.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/federation/l10n/zh_CN.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/federation/l10n/zh_CN.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/federation/l10n/zh_TW.js
@@ -7510,6 +7538,7 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/files/templates/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files/templates/simplelist.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/files_external/
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/.gitignore
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/autoload.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/composer.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/composer.lock
@@ -7523,9 +7552,11 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/composer/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/composer/installed.json
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/smb/
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/smb/.gitignore
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/smb/.php_cs.dist
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/smb/composer.json
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/smb/src/
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/smb/src/ACL.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/smb/src/AbstractServer.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/smb/src/AbstractShare.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/smb/src/AnonymousAuth.php
@@ -7536,8 +7567,10 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/sm
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/smb/src/Exception/AlreadyExistsException.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/smb/src/Exception/AuthenticationException.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/smb/src/Exception/ConnectException.php
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/smb/src/Exception/ConnectionAbortedException.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/smb/src/Exception/ConnectionException.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/smb/src/Exception/ConnectionRefusedException.php
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/smb/src/Exception/ConnectionResetException.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/smb/src/Exception/DependencyException.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/smb/src/Exception/Exception.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/smb/src/Exception/FileInUseException.php
@@ -7590,6 +7623,7 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/sm
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/streams-dummy/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/streams-dummy/composer.json
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/streams/
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/streams/.gitignore
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/streams/.travis.yml
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/streams/LICENCE
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_external/3rdparty/icewind/streams/composer.json
@@ -8200,8 +8234,20 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/files_pdfviewer/vendor/pdfjs/web/i
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_pdfviewer/vendor/pdfjs/web/images/secondaryToolbarButton-rotateCcw@2x.png
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_pdfviewer/vendor/pdfjs/web/images/secondaryToolbarButton-rotateCw.png
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_pdfviewer/vendor/pdfjs/web/images/secondaryToolbarButton-rotateCw@2x.png
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_pdfviewer/vendor/pdfjs/web/images/secondaryToolbarButton-scrollHorizontal.png
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_pdfviewer/vendor/pdfjs/web/images/secondaryToolbarButton-scrollHorizontal@2x.png
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_pdfviewer/vendor/pdfjs/web/images/secondaryToolbarButton-scrollVertical.png
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_pdfviewer/vendor/pdfjs/web/images/secondaryToolbarButton-scrollVertical@2x.png
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_pdfviewer/vendor/pdfjs/web/images/secondaryToolbarButton-scrollWrapped.png
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_pdfviewer/vendor/pdfjs/web/images/secondaryToolbarButton-scrollWrapped@2x.png
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_pdfviewer/vendor/pdfjs/web/images/secondaryToolbarButton-selectTool.png
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_pdfviewer/vendor/pdfjs/web/images/secondaryToolbarButton-selectTool@2x.png
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_pdfviewer/vendor/pdfjs/web/images/secondaryToolbarButton-spreadEven.png
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_pdfviewer/vendor/pdfjs/web/images/secondaryToolbarButton-spreadEven@2x.png
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_pdfviewer/vendor/pdfjs/web/images/secondaryToolbarButton-spreadNone.png
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_pdfviewer/vendor/pdfjs/web/images/secondaryToolbarButton-spreadNone@2x.png
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_pdfviewer/vendor/pdfjs/web/images/secondaryToolbarButton-spreadOdd.png
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_pdfviewer/vendor/pdfjs/web/images/secondaryToolbarButton-spreadOdd@2x.png
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_pdfviewer/vendor/pdfjs/web/images/shadow.png
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_pdfviewer/vendor/pdfjs/web/images/texture.png
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_pdfviewer/vendor/pdfjs/web/images/toolbarButton-bookmark.png
@@ -9007,6 +9053,7 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/files_sharing/lib/External/
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/files_sharing/lib/Listener/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_sharing/lib/Listener/LoadAdditionalListener.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_sharing/lib/Listener/LoadSidebarListener.php
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_sharing/lib/Listener/UserAddedToGroupListener.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_sharing/lib/Listener/UserShareAcceptanceListener.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/files_sharing/lib/Middleware/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_sharing/lib/Middleware/OCSShareAPIMiddleware.php
@@ -9607,6 +9654,7 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/js/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/js/firstrunwizard.js.map
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/js/personalsettings.js
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/l10n/
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/l10n/.gitignore (EMPTY)
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/l10n/af.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/l10n/af.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/l10n/ar.js
@@ -10789,14 +10837,24 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/photos/img/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/img/photos.svg
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/img/yourphotos.svg
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/photos/js/
--rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/0.js
--rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/0.js.map
--rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/1.js
--rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/1.js.map
--rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/2.js
--rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/2.js.map
--rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/3.js
--rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/3.js.map
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/photos.0.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/photos.0.js.map
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/photos.1.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/photos.1.js.map
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/photos.2.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/photos.2.js.map
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/photos.4.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/photos.4.js.map
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/photos.5.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/photos.5.js.map
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/photos.6.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/photos.6.js.map
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/photos.7.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/photos.7.js.map
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/photos.8.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/photos.8.js.map
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/photos.9.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/photos.9.js.map
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/photos.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/photos/js/photos.js.map
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/photos/l10n/
@@ -13074,6 +13132,8 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/theming/l10n/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/theming/l10n/es_UY.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/theming/l10n/et_EE.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/theming/l10n/et_EE.json
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/theming/l10n/eu.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/theming/l10n/eu.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/theming/l10n/fi.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/theming/l10n/fi.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/theming/l10n/fr.js
@@ -13236,6 +13296,8 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/twofactor_backupcodes/l10n/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/twofactor_backupcodes/l10n/es_SV.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/twofactor_backupcodes/l10n/es_UY.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/twofactor_backupcodes/l10n/es_UY.json
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/twofactor_backupcodes/l10n/eu.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/twofactor_backupcodes/l10n/eu.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/twofactor_backupcodes/l10n/fi.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/twofactor_backupcodes/l10n/fi.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/twofactor_backupcodes/l10n/fr.js
@@ -14491,12 +14553,10 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/core/doc/admin/_images/
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/admin/_images/authentication-types.png
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/admin/_images/automated_tagging_sample_rule.png
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/admin/_images/code-integrity-admin.png
--rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/admin/_images/code-integrity-notification.png
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/admin/_images/create_public_share-10.png
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/admin/_images/create_public_share-6.png
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/admin/_images/create_public_share-8.png
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/admin/_images/create_public_share-9.png
--rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/admin/_images/dropbox-oc.png
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/admin/_images/enable-app.png
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/admin/_images/encryption1.png
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/admin/_images/encryption10.png
@@ -14651,6 +14711,9 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/core/doc/admin/_sources/file_workflows/
 drwxr-x---	nginx/nginx	var/www/nextcloud/core/doc/admin/_sources/gdpr/
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/admin/_sources/gdpr/cookies.rst.txt
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/admin/_sources/gdpr/index.rst.txt
+drwxr-x---	nginx/nginx	var/www/nextcloud/core/doc/admin/_sources/groupware/
+-rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/admin/_sources/groupware/calendar.rst.txt
+-rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/admin/_sources/groupware/index.rst.txt
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/admin/_sources/index.rst.txt
 drwxr-x---	nginx/nginx	var/www/nextcloud/core/doc/admin/_sources/installation/
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/admin/_sources/installation/apps_supported.rst.txt
@@ -14842,6 +14905,9 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/core/doc/admin/gdpr/
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/admin/gdpr/cookies.html
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/admin/gdpr/index.html
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/admin/genindex.html
+drwxr-x---	nginx/nginx	var/www/nextcloud/core/doc/admin/groupware/
+-rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/admin/groupware/calendar.html
+-rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/admin/groupware/index.html
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/admin/index.html
 drwxr-x---	nginx/nginx	var/www/nextcloud/core/doc/admin/installation/
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/admin/installation/apps_supported.html
@@ -14899,6 +14965,10 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/core/doc/user/_images/
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/user/_images/calendar_create.gif
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/user/_images/calendar_dropdown.png
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/user/_images/calendar_editing.png
+-rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/user/_images/calendar_event_invitation_level.png
+-rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/user/_images/calendar_event_menu.png
+-rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/user/_images/calendar_event_reminders.png
+-rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/user/_images/calendar_event_repeat.png
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/user/_images/calendar_new-event_month.gif
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/user/_images/calendar_new-event_week.gif
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/user/_images/calendar_settings.png
@@ -14909,9 +14979,7 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/core/doc/user/_images/
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/user/_images/contact_picture.png
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/user/_images/contact_picture_options.png
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/user/_images/contact_picture_set.png
--rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/user/_images/contact_uploadbutton.png
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/user/_images/contacts_empty.png
--rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/user/_images/contacts_link.png
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/user/_images/contacts_menu.png
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/user/_images/contacts_popup.png
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/doc/user/_images/create_public_share-6.png
@@ -15604,6 +15672,7 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/core/templates/loginflowv2/
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/templates/update.use-cli.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/templates/update.user.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/core/vendor/
+-rw-r-----	nginx/nginx	var/www/nextcloud/core/vendor/.gitignore
 drwxr-x---	nginx/nginx	var/www/nextcloud/core/vendor/zxcvbn/
 drwxr-x---	nginx/nginx	var/www/nextcloud/core/vendor/zxcvbn/dist/
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/vendor/zxcvbn/dist/zxcvbn.js
@@ -15792,6 +15861,8 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/lib/l10n/
 -rw-r-----	nginx/nginx	var/www/nextcloud/lib/l10n/ta_LK.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/lib/l10n/th.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/lib/l10n/th.json
+-rw-r-----	nginx/nginx	var/www/nextcloud/lib/l10n/tk.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/lib/l10n/tk.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/lib/l10n/tr.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/lib/l10n/tr.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/lib/l10n/ug.js

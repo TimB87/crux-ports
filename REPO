@@ -222,10 +222,10 @@ f:0dc935a26afafedb98cf0f9e0fa2438f:font-awesome-compat/.signature
 f:0302de3d3a43c487b9452caf9cefa977:numactl/Pkgfile
 f:e33d8c7034f45de7d50104cbf966edad:numactl/.footprint
 f:9000d5d3701ba1118ff693b5773b0220:numactl/.signature
-f:2e1b9ae450685f4eb927f7c5b6fdf7c3:nextcloud/Pkgfile
-f:c5a68bd8874a30567d21c82691cc8d38:nextcloud/.footprint
+f:ddd17d79486e249f6b9c05a0ce143f36:nextcloud/Pkgfile
+f:a9ad263d08ebd380883fe6b1754012b8:nextcloud/.footprint
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README
-f:a2a7097a607cb449402ab044a715506e:nextcloud/.signature
+f:dc67e29e3a1792f9a7e1a828e0284fdc:nextcloud/.signature
 f:d4961d8a69d401e7371ebe410151d260:libgusb/Pkgfile
 f:e9abdeb5c229a3020bf994ef0a393bd1:libgusb/.footprint
 f:57086d1626701d03c9e382a5e40e1428:libgusb/.signature

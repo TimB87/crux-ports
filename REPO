@@ -116,9 +116,9 @@ f:391d976bb40fc36f516199b78cc2133f:gnome-keyring/Pkgfile
 f:4a8ba2e5a3bae2f99cb87246761a86b7:gnome-keyring/.footprint
 f:5e372467c8d8afbef52d082a51fbc3e9:gnome-keyring/.signature
 f:141f03bc3aa571f8d1b78be79a515fca:papirus-icon-theme/post-install
-f:3268ef26a3d57f599efa07b7d3d2e306:papirus-icon-theme/Pkgfile
-f:f2b826d4247be69d4597bdfcc83eeb6c:papirus-icon-theme/.footprint
-f:0bbfcf9eb923f5a07f1fde191627766b:papirus-icon-theme/.signature
+f:06a8323988559eadd810f5f52f88b2b5:papirus-icon-theme/Pkgfile
+f:088a57c6155c28434ffdb445ca0f1321:papirus-icon-theme/.footprint
+f:98040a258849990134bab7c4b32cc914:papirus-icon-theme/.signature
 f:d0d64fe4327a17cbdf90039af0c2a44a:ttf-font-icons/Pkgfile
 f:9e318bed7942bb8155c8b337f695908d:ttf-font-icons/.footprint
 f:4416ac03cf4ec625fcafe338c1945c0a:ttf-font-icons/.signature
@@ -152,9 +152,9 @@ f:32fc89d9b5a924e130fcd533e803d47f:kvantum-theme-arc/.signature
 f:81e10c4463a7460434d7aaffd4686002:pylibacl/Pkgfile
 f:ccef02ef80adc2e128a19e6e98d7b932:pylibacl/.footprint
 f:66896c5b9975fd43cb8516ed550dd820:pylibacl/.signature
-f:2244e6ba4beb6a111b6bb607f054fbf0:re2/Pkgfile
-f:c18483d3e9a3d9ff65e9ea843c27ff35:re2/.footprint
-f:9b67e775ce7cce70124edc9f801679a4:re2/.signature
+f:5367c76851cb244e8e8e1201f99699b0:re2/Pkgfile
+f:ede2fd3d0a5a958a969005094cddb9c4:re2/.footprint
+f:a3764c70fef39cb220ea8e39690049cc:re2/.signature
 f:90c2e115b9668e89968b00a331210001:blueman/post-install
 f:6fba0e1541538cb10f873e5059865b6b:blueman/Pkgfile
 f:69eeab79f58c209c91765af76e77a42e:blueman/.footprint

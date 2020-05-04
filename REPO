@@ -175,9 +175,9 @@ f:6349256dedfc121888a294942d69ffc4:tlp/.signature
 f:26475be6fba20498649865a39c6599b9:libmaxminddb/Pkgfile
 f:118ba6f3b2fad4c7f1a601ba1a12a1d1:libmaxminddb/.footprint
 f:a012b62d057cf002750c7e6563ff2783:libmaxminddb/.signature
-f:3dabc477a19a82b93bb1bcc248783281:handbrake/Pkgfile
-f:e97af8765bc7fd12631ae9ef0758ae97:handbrake/.footprint
-f:2923fe7bfce2328e18ba61b4fd13a0be:handbrake/.signature
+f:def58ab40f37f551d68e39fe3bd2eb69:handbrake/Pkgfile
+f:e74cb3011f87448663f0d788e7728747:handbrake/.footprint
+f:ee93eea42d2c005ab1d13aee147a13a9:handbrake/.signature
 f:0479e47edd0434a51a743a9d531e34a3:bdf-unifont/Pkgfile
 f:edc290cfc8f37574ab9e672950008809:bdf-unifont/.footprint
 f:4e084856225905e20a35ab4204049bc6:bdf-unifont/.signature

@@ -156,9 +156,9 @@ f:5367c76851cb244e8e8e1201f99699b0:re2/Pkgfile
 f:ede2fd3d0a5a958a969005094cddb9c4:re2/.footprint
 f:a3764c70fef39cb220ea8e39690049cc:re2/.signature
 f:90c2e115b9668e89968b00a331210001:blueman/post-install
-f:6fba0e1541538cb10f873e5059865b6b:blueman/Pkgfile
+f:1175c054b954e9ba0ffd2b1ac633c560:blueman/Pkgfile
 f:69eeab79f58c209c91765af76e77a42e:blueman/.footprint
-f:648a68e0f4c6518c826a802fa3e09638:blueman/.signature
+f:601385226a1a811ce55e71a87bdee3dd:blueman/.signature
 f:761c79282550141f5eb1a085c67858ca:xdotool/Pkgfile
 f:7b285dc2bd25228c6f7b8e31af265ef1:xdotool/.footprint
 f:8ad61f4fd0bccbdb24677d58a3cb6367:xdotool/.signature
@@ -439,9 +439,9 @@ f:85ceeff34ec5331eb69ad339bdd395fc:python-evdev/.signature
 f:c8c835572d90d956ade8f3d379b71840:papirus-claws-mail-theme/Pkgfile
 f:f73f1497296d36f4cb2f52d5bd933f9d:papirus-claws-mail-theme/.footprint
 f:9aa593c8341fe5f85e965eea18ab89ea:papirus-claws-mail-theme/.signature
-f:e1cb25c288b11905fb72aa03e3e148eb:v4l-utils/Pkgfile
+f:7b600b64027ba4080caa1630633393c6:v4l-utils/Pkgfile
 f:c7669d51ca2593401ac0b3efbd4ff733:v4l-utils/.footprint
-f:b1b62c825880287014ec143123fcfbdf:v4l-utils/.signature
+f:4116d1cb7e6f0929eb4db329700f913b:v4l-utils/.signature
 f:22391f7aed6e0110c5d8befaf6d7608b:xorg-cursor-openzone/post-install
 f:a2809e5e1c1cc8f41611a3932f61e20d:xorg-cursor-openzone/Pkgfile
 f:02cc6a57a9e282a6f8219525f8e02ccc:xorg-cursor-openzone/.footprint
@@ -498,9 +498,9 @@ f:136648cf264908f0003041356b0036b1:zotero/.footprint
 f:f227abe95940abd63367716928c6e379:zotero/zotero.desktop
 f:9bf3c471a4322d57c3b8f48dc1ed697c:zotero/README
 f:96c023298affb5f3902c3a0fb7b9d9ad:zotero/.signature
-f:fcaab2023acda53184455ee92fdcd753:cargo-make/Pkgfile
+f:1266d7f37f6303878887cf57236fce54:cargo-make/Pkgfile
 f:151e0496d7140054ae1b6c55f2ff3a53:cargo-make/.footprint
-f:bc718fbf284fc1c2f957ac68293f3b8f:cargo-make/.signature
+f:56e2f20b7f1bfe38df08baaa3fef859e:cargo-make/.signature
 f:070d413ffde8784281ac21ba2e01fb13:python3-psutil/Pkgfile
 f:a25159f2d5ea0067198d8167d1988a36:python3-psutil/.footprint
 f:3062d5a55f63b4b3c8636f88454ba1f1:python3-psutil/.signature

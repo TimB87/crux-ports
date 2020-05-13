@@ -190,10 +190,10 @@ f:7f0c2b58c8e4e509cfecdde5148a898a:grub2-theme-poly-light/.signature
 f:a1f39b1f73018a4d66fc639f3b298071:ttf-unifont/Pkgfile
 f:83ee95cee0ca41a876d181f7084d6878:ttf-unifont/.footprint
 f:0c2f5fc998f4eb8692033be17b1b7bb5:ttf-unifont/.signature
-f:8be76770fa488af02ce27b59777087db:pipewire/Pkgfile
-f:bbd11dff3ee51923916e581ef6fe35ee:pipewire/.footprint
+f:3b3b189faf4d18733c9ae02a8ca7adc7:pipewire/Pkgfile
+f:42c2ef8fe24df4006d711ae79a430ea2:pipewire/.footprint
 f:ce2540deb981cbc0b7a3543a38771855:pipewire/README
-f:48a8ca2be8e511503ef088ef181cd6f7:pipewire/.signature
+f:d997c56f4b23fe3d288ec5ca212ff28e:pipewire/.signature
 f:899add1741614a71fc0c4346b1eb765f:parallel/Pkgfile
 f:3670ecc1dfaf06a8fad342780fa5eeab:parallel/.footprint
 f:3bf24766fbce411a77b8ff12717c0e6d:parallel/.signature

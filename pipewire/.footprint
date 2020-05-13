@@ -6,6 +6,8 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/pipewire
 -rwxr-xr-x	root/root	usr/bin/pw-cli
 -rwxr-xr-x	root/root	usr/bin/pw-dot
+-rwxr-xr-x	root/root	usr/bin/pw-metadata
+-rwxr-xr-x	root/root	usr/bin/pw-mididump
 -rwxr-xr-x	root/root	usr/bin/pw-mon
 -rwxr-xr-x	root/root	usr/bin/pw-profiler
 -rwxr-xr-x	root/root	usr/bin/spa-inspect
@@ -153,8 +155,8 @@ drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/alsa-lib/
 -rwxr-xr-x	root/root	usr/lib/alsa-lib/libasound_module_pcm_pipewire.so
 lrwxrwxrwx	root/root	usr/lib/libpipewire-0.3.so -> libpipewire-0.3.so.0
-lrwxrwxrwx	root/root	usr/lib/libpipewire-0.3.so.0 -> libpipewire-0.3.so.0.304.0
--rwxr-xr-x	root/root	usr/lib/libpipewire-0.3.so.0.304.0
+lrwxrwxrwx	root/root	usr/lib/libpipewire-0.3.so.0 -> libpipewire-0.3.so.0.305.0
+-rwxr-xr-x	root/root	usr/lib/libpipewire-0.3.so.0.305.0
 drwxr-xr-x	root/root	usr/lib/pipewire-0.3/
 -rwxr-xr-x	root/root	usr/lib/pipewire-0.3/libpipewire-module-access.so
 -rwxr-xr-x	root/root	usr/lib/pipewire-0.3/libpipewire-module-adapter.so
@@ -187,3 +189,8 @@ drwxr-xr-x	root/root	usr/lib/spa-0.2/support/
 -rwxr-xr-x	root/root	usr/lib/spa-0.2/support/libspa-support.so
 drwxr-xr-x	root/root	usr/lib/spa-0.2/videoconvert/
 -rwxr-xr-x	root/root	usr/lib/spa-0.2/videoconvert/libspa-videoconvert.so
+drwxr-xr-x	root/root	usr/share/
+drwxr-xr-x	root/root	usr/share/alsa/
+drwxr-xr-x	root/root	usr/share/alsa/alsa.conf.d/
+-rw-r--r--	root/root	usr/share/alsa/alsa.conf.d/50-pipewire.conf
+-rw-r--r--	root/root	usr/share/alsa/alsa.conf.d/99-pipewire-default.conf

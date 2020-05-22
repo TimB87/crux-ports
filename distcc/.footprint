@@ -48,7 +48,7 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/include_server/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/include_server/cache_basics.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/include_server/compiler_defaults.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/include_server/compress_files.py
--rwxrwxr-x	root/root	usr/lib/python3.7/site-packages/include_server/distcc_pump_c_extensions.cpython-37m-x86_64-linux-gnu.so
+-rwxr-xr-x	root/root	usr/lib/python3.7/site-packages/include_server/distcc_pump_c_extensions.cpython-37m-x86_64-linux-gnu.so
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/include_server/include_analyzer.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/include_server/include_analyzer_memoizing_node.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/include_server/include_analyzer_memoizing_node_test.py

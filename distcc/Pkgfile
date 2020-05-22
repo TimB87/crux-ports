@@ -6,24 +6,30 @@
 
 name=distcc
 version=3.3.3
-release=1
+release=2
 source=(https://github.com/distcc/distcc/archive/v$version/$name-$version.tar.gz distccd)
 
 build() {
   cd $name-$version
   ./autogen.sh
+
+  sed -i pump.in \
+    -e 's!@PYTHON@!/usr/bin/python3!g' \
+    -e "/PATH/s:\$distcc_location:/usr/lib/distcc/bin:"
+
   ./configure \
     --prefix=/usr \
     --mandir=/usr/share/man \
     --enable-rfc2553 \
     --without-gnome \
     --without-gtk \
-    --disable-Werror \
-    --with-included-popt
+    --disable-Werror
+
   make WERROR_CFLAGS= INCLUDESERVER_PYTHON=/usr/bin/python3
   make DESTDIR=$PKG \
     INCLUDESERVER_PYTHON=/usr/bin/python3 \
     install
+
   # distccd should be in sbin
   install -d $PKG/usr/sbin
   mv $PKG/usr/bin/distccd $PKG/usr/sbin/distccd

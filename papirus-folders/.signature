@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwInRzAnBow9FexGVsBw50vGw/xPdfz3hS31Pen4UcgrTmuBxN4U3ihdTYS22pIv+aIZP2NmP5XZT5IRFK1N1QgQ=
-SHA256 (Pkgfile) = d2e0184d7af8ba91c8d94b4d42af0d43891ac6d24375f0af33f9ab4ba975db53
-SHA256 (.footprint) = 2c4c81594dfc64d3e56401c68e00cd9557024cf54b1404947dede4bb35420293
-SHA256 (papirus-folders-1.6.0.tar.gz) = 63137664bb4be6a1bb014113da4ec88782609830ffb84fab8fbfab7b4d41c54c
+RWSXjYMPO7mZwBEF0hCNGtZUfzKLb9EFJsx79jGNElkHYePmTt/H0zDUYisZHwLeadePqxvqF1nUXepd9pGbMZpqJzIRf4AOrwo=
+SHA256 (Pkgfile) = be7c646888aba0e7c174e8f2e8960013b533934a6f334899d0669171616c5715
+SHA256 (.footprint) = 2cc769830869a461aa9fabea8ff6885f5634009d847ed7dd8fe8d5af96840ade
+SHA256 (papirus-folders-1.7.0.tar.gz) = 8ba3ebd98b077ea45133bbccbf5751160f47303f951fce7d48e2772a1469ba82

@@ -4,13 +4,11 @@
 # Depends on: git python3-setuptools
 
 name=python3-pyudev
-version=git
+version=0.22
 release=1
-source=()
-git=(https://github.com/pyudev/pyudev.git)
+source=(https://github.com/pyudev/pyudev/archive/v$version/$name-$version.tar.gz)
 
 build() {
-  git clone $git $name
-  cd $name
+  cd ${name/python3-/}-$version
   python3 setup.py install --root $PKG --optimize=1
 }

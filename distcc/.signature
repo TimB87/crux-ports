@@ -1,6 +1,6 @@
-untrusted comment: verify with /etc/ports/contrib.pub
-RWSagIOpLGJF3+LGVxdeA2sEM3W9aQk+xgs+dshDJPQC+bmaRq7CNzcsa+vQ+OZhBXBdO0Wmn1x6dN20c0H+7MYI/XKOTscFHwk=
-SHA256 (Pkgfile) = 038937b4edb378f34f89fb6273f01e9f31b8f286f3cda663614ed9096c645ac3
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwOVcgFNQy1kIUwV/Nlw4Cn+IRAJLBHFu0hrcVcrJgApOcUx9xNss4r1Wxk9VQet/Mx9VLuK7TObeqVdpJdOuWwk=
+SHA256 (Pkgfile) = 13a120b6d6372145d26d48da1e67728d075b04a5af3c9a1168a431453fb1d56a
 SHA256 (.footprint) = 1fbf341e3180254350bd14e2d9a0f139e0c74e49042fb3c7ecd4c714023a9724
 SHA256 (distcc-3.3.3.tar.gz) = b7f37d314704fbaf006d747514ff6e4d0d722102ef7d2aea132f97cf170f5169
 SHA256 (distccd) = ff8f413d6b6bfb5b0b9cd38945f6dd18e66a7fc1a89811175915b0893f052790

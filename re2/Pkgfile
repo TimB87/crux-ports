@@ -4,7 +4,7 @@
 # Depends on:
 
 name=re2
-version=2020-05-01
+version=2020-06-01
 release=1
 source=(https://github.com/google/re2/archive/$version/$name-$version.tar.gz)
 

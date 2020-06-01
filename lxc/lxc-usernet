@@ -1,3 +1,0 @@
-# Edit this file to allow unprivileged users to create network devices for LXC containers.
-# Example Entry:
-# $USER veth lxcbr0 8

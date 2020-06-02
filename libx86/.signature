@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwIQH1j7HAu/+dlKfmy14sjyxVntU4VmzeHYwh0sUgDaTU4HK5r5axgHqh18G+/IEq1i2Y7qAFplZnKS7T+DKvQ0=
+SHA256 (Pkgfile) = 943b9878e5687d5b96974ccc9c3d8b59bfd6f35dc52722af3ce549ccc026fd9d
+SHA256 (.footprint) = de00dc3fc4e91b74711985131ddc17e47ebc0847d6bbd5f4b288cb82892f89d5
+SHA256 (libx86-1.1.tar.gz) = 5bf13104cb327472b5cb65643352a9138646becacc06763088d83001d832d048
+SHA256 (libx86-ifmask.patch) = b8070e57c5d267b3736b133e4c3c92965cc5a62e72466b705b506ad2ce39dd25

@@ -1,0 +1,17 @@
+# Description: tools for reading the EDID from a monitor
+# URL: http://www.polypux.org/projects/read-edid/
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: cmake libx86
+
+name=read-edid
+version=3.0.2
+release=1
+source=(http://www.polypux.org/projects/read-edid/read-edid-3.0.2.tar.gz)
+
+build() {
+  sed -i 's/COPYING/LICENSE/' $name-$version/CMakeLists.txt
+  cmake -S$name-$version -Bbuild \
+    -DCMAKE_INSTALL_PREFIX=/usr
+  cmake --build build
+  DESTDIR=$PKG cmake --build build --target install
+}

@@ -1,5 +1,0 @@
-untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwErhYpv4/LrAlqeIR0aGxPodLlKpD6r+MA0tZqQVL7TPrXvEfREji7Mdk208kWtSHEc0bcC61f7OoSD33sDPLgU=
-SHA256 (Pkgfile) = d467cc01b14cc85a776cfa5e1f9de2152a1cc50d132ddab84ea42777b0cd6270
-SHA256 (.footprint) = 7d5293986368adaab29dd15ee291b553402a652597dd29111a35ca3ffa5471f6
-SHA256 (patchelf-0.10.tar.gz) = b3cb6bdedcef5607ce34a350cf0b182eb979f8f7bc31eae55a93a70a3f020d13

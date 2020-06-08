@@ -1,12 +1,12 @@
 # Description: An interactive spell-checking program for Unix
-# URL: http://ficus-www.cs.ucla.edu/geoff/ispell.html
+# URL: https://www.cs.hmc.edu/~geoff/ispell.html
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: ncurses
 
 name=ispell
 version=3.4.00
 release=1
-source=(http://fmg-www.cs.ucla.edu/geoff/tars/$name-$version.tar.gz)
+source=(http://www.cs.hmc.edu/~geoff/tars/$name-$version.tar.gz)
 
 build() {
   cd $name-$version

@@ -6,7 +6,7 @@
 name=read-edid
 version=3.0.2
 release=1
-source=(http://www.polypux.org/projects/read-edid/read-edid-3.0.2.tar.gz)
+source=(http://www.polypux.org/projects/read-edid/$name-$version.tar.gz)
 
 build() {
   sed -i 's/COPYING/LICENSE/' $name-$version/CMakeLists.txt
@@ -14,4 +14,5 @@ build() {
     -DCMAKE_INSTALL_PREFIX=/usr
   cmake --build build
   DESTDIR=$PKG cmake --build build --target install
+  rm -r $PKG/usr/share/doc
 }

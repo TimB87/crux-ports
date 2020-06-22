@@ -1,7 +1,0 @@
-untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwG9Up7ziJ1Va/s6ZJV+LT4FJmmzb58Wrg42dHsRCn8TS3RAfLbzr4jLkhJP5hlrswwqcCD48UhDE+jwA1K9/YgU=
-SHA256 (Pkgfile) = 8944b6ecd416b65bc724c8de3a6724bf67acc5787974e6df209ff218c4befce8
-SHA256 (.footprint) = 2e1495fc958093d4e6c2fd56819cc70fb2e43c554aab71a33c68b71b47ad4ccc
-SHA256 (st-0.8.2.tar.gz) = aeb74e10aa11ed364e1bcc635a81a523119093e63befd2f231f8b0705b15bf35
-SHA256 (combined_st-0.8.2.diff) = e83dd2fe8129e90e69b1adbfa86f178538351f1e8b13907a4bf1eed597e0f37c
-SHA256 (st.desktop) = 77bf465f233dd6b3dab1b1a2979ba017b57be3da41ed435be76fc13903c3f032

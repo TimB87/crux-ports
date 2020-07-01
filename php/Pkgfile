@@ -35,8 +35,8 @@ build () {
     --with-external-pcre \
     --with-zlib \
     --enable-embed=shared \
-    --enable-bcmath \
-    --with-gmp \
+    --enable-bcmath=shared \
+    --with-gmp=shared \
     --enable-mbstring=shared"
 
   EXTENSION_DIR=/usr/lib/php/extensions \
@@ -58,6 +58,6 @@ build () {
   install -m 644 php.ini-* $PKG/etc/php
 
   # order matters !
-  printf 'extension=%s\n' {zip,bz2,curl,openssl,dba,mbstring}.so \
+  printf 'extension=%s\n' {zip,bz2,curl,openssl,dba,mbstring,bcmath,gmp}.so \
     > $PKG/etc/php/conf.d/extensions.ini
 }

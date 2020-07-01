@@ -103,6 +103,8 @@ drwxr-xr-x	root/root	usr/include/php/ext/dom/
 -rw-r--r--	root/root	usr/include/php/ext/dom/xml_common.h
 drwxr-xr-x	root/root	usr/include/php/ext/filter/
 -rw-r--r--	root/root	usr/include/php/ext/filter/php_filter.h
+drwxr-xr-x	root/root	usr/include/php/ext/gmp/
+-rw-r--r--	root/root	usr/include/php/ext/gmp/php_gmp_int.h
 drwxr-xr-x	root/root	usr/include/php/ext/hash/
 -rw-r--r--	root/root	usr/include/php/ext/hash/php_hash.h
 -rw-r--r--	root/root	usr/include/php/ext/hash/php_hash_adler32.h
@@ -316,9 +318,11 @@ drwxr-xr-x	root/root	usr/lib/php/build/
 -rw-r--r--	root/root	usr/lib/php/build/run-tests.php
 -rwxr-xr-x	root/root	usr/lib/php/build/shtool
 drwxr-xr-x	root/root	usr/lib/php/extensions/
+-rwxr-xr-x	root/root	usr/lib/php/extensions/bcmath.so
 -rwxr-xr-x	root/root	usr/lib/php/extensions/bz2.so
 -rwxr-xr-x	root/root	usr/lib/php/extensions/curl.so
 -rwxr-xr-x	root/root	usr/lib/php/extensions/dba.so
+-rwxr-xr-x	root/root	usr/lib/php/extensions/gmp.so
 -rwxr-xr-x	root/root	usr/lib/php/extensions/mbstring.so
 -rwxr-xr-x	root/root	usr/lib/php/extensions/opcache.so
 -rwxr-xr-x	root/root	usr/lib/php/extensions/openssl.so

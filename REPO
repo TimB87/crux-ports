@@ -304,9 +304,9 @@ f:fd0add61aab7fabfc219cde8b6c79a3b:faba-icon-theme/post-install
 f:e19b162d5db6b104a79c3a8345e48d4b:faba-icon-theme/Pkgfile
 f:91c9223c91d86188775cb8a8f13eec96:faba-icon-theme/.footprint
 f:8803fb2af0fa5613c26a9fb7bbfe969d:faba-icon-theme/.signature
-f:e8971760cb00d165faab9bbdb48f72ef:php/Pkgfile
-f:ea2a7fa6d7c53fca1b945cb1f385a6b6:php/.footprint
-f:1e6437e29acee7cc6c873ce7905f78ae:php/.signature
+f:09d59fd5d50b67d377402c292ca5b2ba:php/Pkgfile
+f:eaf651cb85186b38a725f7757cab0e45:php/.footprint
+f:2f82f77b2498585c072a38f0e82ad3a5:php/.signature
 f:d49ef2e496ce7ac773dc46857449d910:goaccess/Pkgfile
 f:30ce8265ee5f64e5bda72df7eb25a54d:goaccess/.footprint
 f:2a69db4946bd86e6ed948d62a5b7bcc6:goaccess/.signature

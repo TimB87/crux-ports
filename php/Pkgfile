@@ -5,7 +5,7 @@
 
 name=php
 version=7.4.7
-release=1
+release=2
 source=(http://php.net/distributions/php-$version.tar.xz)
 
 build () {
@@ -35,6 +35,8 @@ build () {
     --with-external-pcre \
     --with-zlib \
     --enable-embed=shared \
+    --enable-bcmath \
+    --with-gmp \
     --enable-mbstring=shared"
 
   EXTENSION_DIR=/usr/lib/php/extensions \

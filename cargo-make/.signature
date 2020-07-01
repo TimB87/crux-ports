@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwABAn/yu/299pgbgybA5R7pa32hAXtDgxAoYiRj+LVBKpT7CaNMvb4sTZsz5b9qo1DCpPFQxta3ka/JQ3OcNLQk=
-SHA256 (Pkgfile) = 00fa0ad33864b51947f0e97cd36a87a6ed1e58d2e99cdb21907ce694c5ad053d
+RWSXjYMPO7mZwID6ugqat+bhfy7aZoAcE5/r8sEEBcxvfdsIYqd2e0okVlQ3lqQlK1UTV3Cu6pIPWhek8uhinX2iD1M4rVoLsQI=
+SHA256 (Pkgfile) = 8e5a55c8649a26223baf83f0826b535923e418abe4426fe47b0e78315e05c424
 SHA256 (.footprint) = 98043c450fb7faf7d7618113a42e5057f5ec0ef9812bdf8bcf064e68dcd20fbb
-SHA256 (cargo-make-0.31.0.tar.gz) = 880ec5eee04c8e802a403b4a15742ebeb056b4dabeb5187406adc180255f2510
+SHA256 (cargo-make-0.31.1.tar.gz) = a7744aa79fc7b5d6ea57465a484536e6fdbd101bec867a18c24594f19e5c3004

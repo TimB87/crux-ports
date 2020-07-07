@@ -220,6 +220,7 @@ drwxr-xr-x	root/root	usr/lib/node_modules/npm/lib/utils/completion/
 -rw-r--r--	root/root	usr/lib/node_modules/npm/lib/utils/pulse-till-done.js
 -rw-r--r--	root/root	usr/lib/node_modules/npm/lib/utils/read-local-package.js
 -rw-r--r--	root/root	usr/lib/node_modules/npm/lib/utils/read-user-info.js
+-rw-r--r--	root/root	usr/lib/node_modules/npm/lib/utils/replace-info.js
 -rw-r--r--	root/root	usr/lib/node_modules/npm/lib/utils/save-stack.js
 -rw-r--r--	root/root	usr/lib/node_modules/npm/lib/utils/spawn.js
 -rw-r--r--	root/root	usr/lib/node_modules/npm/lib/utils/temp-filename.js

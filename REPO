@@ -280,11 +280,11 @@ f:4e721dc1b64eb06ef061fd49cf87d722:xorg-cursor-openzone/.signature
 f:37d844993cfadf4bdb163827aa59351a:libcmrt/Pkgfile
 f:ecc306f3344957262737de05abcf4bce:libcmrt/.footprint
 f:0e40803b4346e52fc0a022b095c3658a:libcmrt/.signature
-f:0d4e2edfe9db255430dd129c0623a853:claws-mail/Pkgfile
+f:526220e257762f5e2a6cd12637914261:claws-mail/Pkgfile
 f:8c9d38b45ded9dbf5e1c60cdd756e521:claws-mail/.footprint
 f:d0d9b7816f0b21d3093f47575a94d7b1:claws-mail/claws-mail-3.17.4-libetpan_pkgconfig.patch
 f:a3818f288bd275c694fa5ea9819747e1:claws-mail/README
-f:235d54abae4ae4f73da56c272f7595d8:claws-mail/.signature
+f:b9eeb90f0f247a28ac533dd61cd87e78:claws-mail/.signature
 f:93df611763c1e101a99d0f107b3eafa1:npm/Pkgfile
 f:6b5a31ac690a456c21145aca96fdca2b:npm/.footprint
 f:b4231e8f5e6a8c81ff437b6246bd43b4:npm/.signature

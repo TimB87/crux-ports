@@ -122,7 +122,7 @@ f:24acd60ec47339feb2e9a951b9c06a13:light-locker/.footprint
 f:b640101c99ca05d02fbae1974f00ab31:light-locker/.signature
 f:d0090e01f106ad74b24cb810212e056a:php-imagick/Pkgfile
 f:97f8c324e249ac36e0ba2c4b1870bff3:php-imagick/.footprint
-f:e7300405dd3eedd735b61ea3e19d4b82:php-imagick/.signature
+f:e3a3eb662288ea450dba7d266d6ffb15:php-imagick/.signature
 f:0a042fbe0f30e4afeb6535313e070c07:font-awesome/Pkgfile
 f:66cae75bb029a755b80f0968f88a0b94:font-awesome/.footprint
 f:a7290bcedfd4b8b593cae7eddbee3979:font-awesome/.signature
@@ -159,12 +159,12 @@ f:effad9ba85f593e884f9f2f2a326d156:fcgiwrap/.signature
 f:c5ea7ab88d50f7e87149b8eb85fe775b:xdg-desktop-portal-gtk/Pkgfile
 f:dcab9ebde3c07144d207f24cb479d6b7:xdg-desktop-portal-gtk/.footprint
 f:43c7ab447941a666e28fd552694e101a:xdg-desktop-portal-gtk/.signature
-f:efad57a576df39fcf6179ed2fd51f741:php-pgsql/Pkgfile
+f:6aea9f5c4ed8918ff07f1e4a0e0d9528:php-pgsql/Pkgfile
 f:4bcff8c2fae56f50bf50bb9a3211205e:php-pgsql/.footprint
-f:0fdc9640106436475e801331e5b313a7:php-pgsql/.signature
-f:5293339398967fd3dc17c60e826fb962:php-intl/Pkgfile
+f:fd359d70750f66b89d2e0b5429958b15:php-pgsql/.signature
+f:b66924fb0334e313a2419ae5eb6ec1d3:php-intl/Pkgfile
 f:c5157587e260c79d378428d7424a96c2:php-intl/.footprint
-f:4ad031e8c3996c6435621f0188b756f1:php-intl/.signature
+f:3d1d4519b54e9144b5bd34b38c4a502a:php-intl/.signature
 f:81e183b3b9622dd991c5e3dea01eaf64:gdl/Pkgfile
 f:6f43686c659093f1f3e1505ddb3e5a2b:gdl/.footprint
 f:4e3ac1782584e524ce93e2a1d4cac185:gdl/.signature
@@ -304,9 +304,9 @@ f:fd0add61aab7fabfc219cde8b6c79a3b:faba-icon-theme/post-install
 f:e19b162d5db6b104a79c3a8345e48d4b:faba-icon-theme/Pkgfile
 f:91c9223c91d86188775cb8a8f13eec96:faba-icon-theme/.footprint
 f:8803fb2af0fa5613c26a9fb7bbfe969d:faba-icon-theme/.signature
-f:a7c71a154adcc3b3f5b37e953c3a9df9:php/Pkgfile
+f:f3a574338cb805f8d68d4ab8acd3c11d:php/Pkgfile
 f:eaf651cb85186b38a725f7757cab0e45:php/.footprint
-f:2f82f77b2498585c072a38f0e82ad3a5:php/.signature
+f:d9530590540e4280f390230c2e7766c8:php/.signature
 f:d49ef2e496ce7ac773dc46857449d910:goaccess/Pkgfile
 f:30ce8265ee5f64e5bda72df7eb25a54d:goaccess/.footprint
 f:2a69db4946bd86e6ed948d62a5b7bcc6:goaccess/.signature

@@ -120,7 +120,7 @@ f:7f0c2b58c8e4e509cfecdde5148a898a:grub2-theme-poly-light/.signature
 f:c12cca3ec32b9d4941f53c72a0e368bc:light-locker/Pkgfile
 f:24acd60ec47339feb2e9a951b9c06a13:light-locker/.footprint
 f:b640101c99ca05d02fbae1974f00ab31:light-locker/.signature
-f:4eef6b357ebb8223c871ce118cc7af09:php-imagick/Pkgfile
+f:d0090e01f106ad74b24cb810212e056a:php-imagick/Pkgfile
 f:97f8c324e249ac36e0ba2c4b1870bff3:php-imagick/.footprint
 f:e7300405dd3eedd735b61ea3e19d4b82:php-imagick/.signature
 f:c6c623c99a7eb19b11d656303e776ba0:font-awesome/Pkgfile
@@ -159,10 +159,10 @@ f:effad9ba85f593e884f9f2f2a326d156:fcgiwrap/.signature
 f:c5ea7ab88d50f7e87149b8eb85fe775b:xdg-desktop-portal-gtk/Pkgfile
 f:dcab9ebde3c07144d207f24cb479d6b7:xdg-desktop-portal-gtk/.footprint
 f:43c7ab447941a666e28fd552694e101a:xdg-desktop-portal-gtk/.signature
-f:f919fb81a4bb4ad2eaec1024f820454c:php-pgsql/Pkgfile
+f:efad57a576df39fcf6179ed2fd51f741:php-pgsql/Pkgfile
 f:4bcff8c2fae56f50bf50bb9a3211205e:php-pgsql/.footprint
 f:0fdc9640106436475e801331e5b313a7:php-pgsql/.signature
-f:44333ec41e67f57304f9f13e51fc9c27:php-intl/Pkgfile
+f:5293339398967fd3dc17c60e826fb962:php-intl/Pkgfile
 f:c5157587e260c79d378428d7424a96c2:php-intl/.footprint
 f:4ad031e8c3996c6435621f0188b756f1:php-intl/.signature
 f:81e183b3b9622dd991c5e3dea01eaf64:gdl/Pkgfile
@@ -304,7 +304,7 @@ f:fd0add61aab7fabfc219cde8b6c79a3b:faba-icon-theme/post-install
 f:e19b162d5db6b104a79c3a8345e48d4b:faba-icon-theme/Pkgfile
 f:91c9223c91d86188775cb8a8f13eec96:faba-icon-theme/.footprint
 f:8803fb2af0fa5613c26a9fb7bbfe969d:faba-icon-theme/.signature
-f:09d59fd5d50b67d377402c292ca5b2ba:php/Pkgfile
+f:a7c71a154adcc3b3f5b37e953c3a9df9:php/Pkgfile
 f:eaf651cb85186b38a725f7757cab0e45:php/.footprint
 f:2f82f77b2498585c072a38f0e82ad3a5:php/.signature
 f:d49ef2e496ce7ac773dc46857449d910:goaccess/Pkgfile

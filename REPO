@@ -285,9 +285,9 @@ f:8c9d38b45ded9dbf5e1c60cdd756e521:claws-mail/.footprint
 f:d0d9b7816f0b21d3093f47575a94d7b1:claws-mail/claws-mail-3.17.4-libetpan_pkgconfig.patch
 f:a3818f288bd275c694fa5ea9819747e1:claws-mail/README
 f:b9eeb90f0f247a28ac533dd61cd87e78:claws-mail/.signature
-f:93df611763c1e101a99d0f107b3eafa1:npm/Pkgfile
-f:6b5a31ac690a456c21145aca96fdca2b:npm/.footprint
-f:b4231e8f5e6a8c81ff437b6246bd43b4:npm/.signature
+f:ea32cc55a1cb059aa8664ed6283c845d:npm/Pkgfile
+f:2013f23c7d128a3d481cc4aa2b10e7d4:npm/.footprint
+f:a41239fcf21c0f496e469c7329e7a87f:npm/.signature
 f:7d7b678926090e6ba53c755ac2c0b1ee:light-locker-settings/Pkgfile
 f:92f6e378c8fbc88902b61f4b63806b29:light-locker-settings/.footprint
 f:d88d6c65958549c3ec80b9f3e8d5032f:light-locker-settings/.signature

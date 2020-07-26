@@ -202,10 +202,10 @@ f:85b8ac68dfc95dc65964c16759fbb706:amdvlk/.signature
 f:3457655e9ca4fdb1b038e09fb10c2040:libinput-gestures/Pkgfile
 f:ad4fa9236e99bf0cf657e03ea176f1e8:libinput-gestures/.footprint
 f:ec24495ff697d645060535158b62c272:libinput-gestures/.signature
-f:1b847c6b368d4880f5ac5f6609cfaa90:i3-gaps/Pkgfile
+f:348bc9ea9fb38203ea82357853dea6af:i3-gaps/Pkgfile
 f:68f26ec436e2ff07170de8389a355c32:i3-gaps/.footprint
 f:a89245058732b01796d0ce1e2279fb00:i3-gaps/.nostrip
-f:aff272f67497811680362dc3ef8c1209:i3-gaps/.signature
+f:0c6f36e294fc27f4b7d2df8afdc49db9:i3-gaps/.signature
 f:0d7c72eeb7a6e3b8f0941235abf73018:gnome-python-desktop/Pkgfile
 f:729f8b48bea7fca7b2f105b58ed69d06:gnome-python-desktop/.footprint
 f:49867170711ca7c81d8bc2a23181a601:gnome-python-desktop/NEWS

@@ -4,10 +4,9 @@
 # Depends on: python3-pyudev
 
 name=solaar
-version=1.0.2
+version=1.0.3
 release=1
 source=(https://github.com/pwr-Solaar/Solaar/archive/$version/$name-$version.tar.gz)
-git=(https://github.com/pwr/Solaar.git)
 
 build() {
   cd Solaar-$version

@@ -1,12 +1,11 @@
 # Description: A tool to distribute compilations.
 # URL: https://github.com/distcc/distcc
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Packager: Johannes Winkelmann, jw at tks6 dot net
 # Optional: avahi dbus python3
 
 name=distcc
 version=3.3.3
-release=3
+release=4
 source=(https://github.com/distcc/distcc/archive/v$version/$name-$version.tar.gz distccd)
 
 build() {
@@ -17,10 +16,10 @@ build() {
     -e 's!@PYTHON@!/usr/bin/python3!g' \
     -e "/PATH/s:\$distcc_location:/usr/lib/distcc/bin:"
 
+  PYTHON=/usr/bin/python3 \
   ./configure \
     --prefix=/usr \
     --mandir=/usr/share/man \
-    --enable-rfc2553 \
     --without-gnome \
     --without-gtk \
     --disable-Werror

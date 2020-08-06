@@ -105,9 +105,9 @@ f:a7b868174c4e11396685934ac14acaaa:tlp/Pkgfile
 f:afdd67a3a4cbd8a9baef1532b74d6477:tlp/.footprint
 f:c3f481e4e30c22358bee45e61d2de54a:tlp/tlp
 f:6349256dedfc121888a294942d69ffc4:tlp/.signature
-f:26475be6fba20498649865a39c6599b9:libmaxminddb/Pkgfile
-f:118ba6f3b2fad4c7f1a601ba1a12a1d1:libmaxminddb/.footprint
-f:a012b62d057cf002750c7e6563ff2783:libmaxminddb/.signature
+f:8efa5b80ba59518e463b1e496ca7c4f9:libmaxminddb/Pkgfile
+f:9ba9c7d810dc7025dfe2ea85f84262a2:libmaxminddb/.footprint
+f:b83aa05b8c40bb871946823b8413d074:libmaxminddb/.signature
 f:0479e47edd0434a51a743a9d531e34a3:bdf-unifont/Pkgfile
 f:edc290cfc8f37574ab9e672950008809:bdf-unifont/.footprint
 f:4e084856225905e20a35ab4204049bc6:bdf-unifont/.signature

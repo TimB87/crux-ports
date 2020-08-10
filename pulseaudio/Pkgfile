@@ -15,7 +15,7 @@ build() {
   [[ -e /usr/lib/pkgconfig/bluez.pc ]] || PKGMK_PULSEAUDIO+=' -Dbluez5=false'
   [[ -e /usr/lib/pkgconfig/xtst.pc ]] || PKGMK_PULSEAUDIO+=' -Dman=false'
   [[ -e /usr/lib/pkgconfig/bash-completion.pc ]] || PKGMK_PULSEAUDIO+=' -Dbashcompletiondir=no'
-  [[ -e "/usr/bin/zsh" ]] || PKGMK_PULSEAUDIO+=' -Dzshcompletiondir=no'
+  [[ -e "/usr/bin/zsh" || -e "/bin/zsh" ]] || PKGMK_PULSEAUDIO+=' -Dzshcompletiondir=no'
 
   meson . build $PKGMK_PULSEAUDIO \
     --prefix=/usr \

@@ -134,7 +134,7 @@ f:5e3f59eb654fc7e7b6cd4a70ddc99476:nextcloud/.footprint
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README
 f:10da4cb62c4446310a4472d4b202f6b8:nextcloud/.signature
 f:80e8a7cc4ae78931eee37ff9c63972cb:pulseaudio/post-install
-f:9023d589a8004148fa1b55f27ee720eb:pulseaudio/Pkgfile
+f:070a4035ab14e528225c709ca1e2403e:pulseaudio/Pkgfile
 f:48976aa36a080408495ffe0e3d36fc74:pulseaudio/.footprint
 f:39518368836423cb843631bfde9846bd:pulseaudio/pre-install
 f:436d8c8162756949196f0e5cb0588631:pulseaudio/.signature
@@ -285,9 +285,9 @@ f:8c9d38b45ded9dbf5e1c60cdd756e521:claws-mail/.footprint
 f:d0d9b7816f0b21d3093f47575a94d7b1:claws-mail/claws-mail-3.17.4-libetpan_pkgconfig.patch
 f:a3818f288bd275c694fa5ea9819747e1:claws-mail/README
 f:b9eeb90f0f247a28ac533dd61cd87e78:claws-mail/.signature
-f:ea32cc55a1cb059aa8664ed6283c845d:npm/Pkgfile
-f:2013f23c7d128a3d481cc4aa2b10e7d4:npm/.footprint
-f:a41239fcf21c0f496e469c7329e7a87f:npm/.signature
+f:83637c625451017507e1a3e5fe62a8cc:npm/Pkgfile
+f:c4582028b65dd96ed8d4bb478877854f:npm/.footprint
+f:6df21b0fbadae464660ba451a2126e8e:npm/.signature
 f:7d7b678926090e6ba53c755ac2c0b1ee:light-locker-settings/Pkgfile
 f:92f6e378c8fbc88902b61f4b63806b29:light-locker-settings/.footprint
 f:d88d6c65958549c3ec80b9f3e8d5032f:light-locker-settings/.signature

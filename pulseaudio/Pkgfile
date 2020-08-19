@@ -1,7 +1,7 @@
 # Description: PulseAudio is a cross-platform, networked sound server
 # URL: http://pulseaudio.org/
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: dbus intltool libsndfile meson ninja
+# Depends on: dbus intltool libsndfile meson ninja xorg-libxtst
 # Optional: avahi bluez fftw glib orc sbc speexdsp
 
 name=pulseaudio

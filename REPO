@@ -137,7 +137,7 @@ f:80e8a7cc4ae78931eee37ff9c63972cb:pulseaudio/post-install
 f:070a4035ab14e528225c709ca1e2403e:pulseaudio/Pkgfile
 f:48976aa36a080408495ffe0e3d36fc74:pulseaudio/.footprint
 f:39518368836423cb843631bfde9846bd:pulseaudio/pre-install
-f:436d8c8162756949196f0e5cb0588631:pulseaudio/.signature
+f:d601efb77c78ec751da3361fd508cd6a:pulseaudio/.signature
 f:b866fe83c0cac361f0991d8bdeae776b:colord/Pkgfile
 f:12ef97905f60611111e471a9896195ee:colord/.footprint
 f:74fdaac009afbf8e8a3a6d1e1b946709:colord/pre-install

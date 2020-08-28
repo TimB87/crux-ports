@@ -129,10 +129,10 @@ f:a7290bcedfd4b8b593cae7eddbee3979:font-awesome/.signature
 f:f7268e0a6eef965f306f092bd53222ff:font-awesome-compat/Pkgfile
 f:34982e50c40fa095ec9411bc4a96d13b:font-awesome-compat/.footprint
 f:0dc935a26afafedb98cf0f9e0fa2438f:font-awesome-compat/.signature
-f:4349fc8fed2b69a63211617ced9f97b7:nextcloud/Pkgfile
-f:5e3f59eb654fc7e7b6cd4a70ddc99476:nextcloud/.footprint
+f:880e212dcc3fbe3a3995a1788e5655ce:nextcloud/Pkgfile
+f:402063818d4fb55186096e533216a3b0:nextcloud/.footprint
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README
-f:10da4cb62c4446310a4472d4b202f6b8:nextcloud/.signature
+f:4b30012c2fb7a31bf797f0f18af53fe3:nextcloud/.signature
 f:80e8a7cc4ae78931eee37ff9c63972cb:pulseaudio/post-install
 f:070a4035ab14e528225c709ca1e2403e:pulseaudio/Pkgfile
 f:48976aa36a080408495ffe0e3d36fc74:pulseaudio/.footprint

@@ -4,7 +4,7 @@
 # Depends on:
 
 name=font-ibm-plex
-version=5.1.0
+version=5.1.3
 release=1
 source=(https://github.com/IBM/plex/archive/v$version/plex-v$version.tar.gz)
 

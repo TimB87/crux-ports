@@ -156,9 +156,9 @@ f:1884a192d846c612c73b39b7661521a8:fcgiwrap/Pkgfile
 f:6e6b9ce39ea2cafdeb255468697cd0e9:fcgiwrap/.footprint
 f:29dc2e3d2a13fa4d7219768b8257e596:fcgiwrap/fcgiwrap.init
 f:effad9ba85f593e884f9f2f2a326d156:fcgiwrap/.signature
-f:c5ea7ab88d50f7e87149b8eb85fe775b:xdg-desktop-portal-gtk/Pkgfile
+f:795efc38074b77d42dbd087504e18887:xdg-desktop-portal-gtk/Pkgfile
 f:dcab9ebde3c07144d207f24cb479d6b7:xdg-desktop-portal-gtk/.footprint
-f:43c7ab447941a666e28fd552694e101a:xdg-desktop-portal-gtk/.signature
+f:06fe202ab35997046d43380c59c6b6cf:xdg-desktop-portal-gtk/.signature
 f:58a94aa698ca644cafc1cafa25ac7e50:php-pgsql/Pkgfile
 f:4bcff8c2fae56f50bf50bb9a3211205e:php-pgsql/.footprint
 f:fea0d310cedb4f474e070496b4eeeec8:php-pgsql/.signature
@@ -314,9 +314,9 @@ f:9cd906d9823049112cd5038f1fe1551e:faba-mono-icon-theme/post-install
 f:00d4be9c3af5c75c46eabc0c8cd982dc:faba-mono-icon-theme/Pkgfile
 f:48ab50e3e2e0bdf5c5ea34fe52b444cd:faba-mono-icon-theme/.footprint
 f:2e462c3c849fe8b77cd41192aa97fdd2:faba-mono-icon-theme/.signature
-f:41228d8c420a905eb799090c81e04403:xdg-desktop-portal/Pkgfile
+f:d4e8332b00e0f59d4a78842c266009ae:xdg-desktop-portal/Pkgfile
 f:e18c61f370a13c92b63f3ecd4ab1aa8e:xdg-desktop-portal/.footprint
-f:5459ddd76876e2ebbdf24871d906ecfa:xdg-desktop-portal/.signature
+f:14fbd5cbab0eded52e2969259dfeeb1e:xdg-desktop-portal/.signature
 f:171938d300af82e9b0dcf5a0f21a659b:zotero/Pkgfile
 f:136648cf264908f0003041356b0036b1:zotero/.footprint
 f:f227abe95940abd63367716928c6e379:zotero/zotero.desktop

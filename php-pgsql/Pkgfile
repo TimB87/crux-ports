@@ -4,7 +4,7 @@
 # Depends on: postgresql
 
 name=php-pgsql
-version=7.4.10
+version=7.4.11
 release=1
 source=(https://www.php.net/distributions/php-$version.tar.xz)
 

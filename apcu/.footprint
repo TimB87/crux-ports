@@ -22,6 +22,7 @@ drwxr-xr-x	root/root	usr/include/php/ext/apcu/
 -rw-r--r--	root/root	usr/include/php/ext/apcu/apc_sma_api.h
 -rw-r--r--	root/root	usr/include/php/ext/apcu/apc_stack.h
 -rw-r--r--	root/root	usr/include/php/ext/apcu/php_apc.h
+-rw-r--r--	root/root	usr/include/php/ext/apcu/php_apc_legacy_arginfo.h
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/php/
 drwxr-xr-x	root/root	usr/lib/php/extensions/

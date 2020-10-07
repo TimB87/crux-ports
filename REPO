@@ -82,9 +82,9 @@ f:8e07fc15cbde8ad9b73d9738176edb8f:ragel/.signature
 f:8bc51f39d07991cd779f4b6338c79936:libetpan/Pkgfile
 f:e711b2abee30008eddf36bae3bb26620:libetpan/.footprint
 f:115e2795f17fad8ac6e9a22c3ba1e9d6:libetpan/.signature
-f:4ee010edd7787b48066c6959507cb631:apcu/Pkgfile
-f:1f224e34a35479213575544614c7e7f0:apcu/.footprint
-f:1d599a3332702fcb996f773bf3163c95:apcu/.signature
+f:1a6187028b8e95622dca5022d06ddf2d:apcu/Pkgfile
+f:1381ea3e5d13d4109fc396057fe8120d:apcu/.footprint
+f:db210d361f6a5b0a3b49e1255020d07b:apcu/.signature
 f:789838e10b9ebe13c664b3b134217355:kvantum-theme-arc/Pkgfile
 f:657f14bb505e108e2e68a841a9f21d26:kvantum-theme-arc/.footprint
 f:32fc89d9b5a924e130fcd533e803d47f:kvantum-theme-arc/.signature
@@ -123,9 +123,9 @@ f:b640101c99ca05d02fbae1974f00ab31:light-locker/.signature
 f:e927e5d564ee1173d2c92d7afa3361cd:php-imagick/Pkgfile
 f:97f8c324e249ac36e0ba2c4b1870bff3:php-imagick/.footprint
 f:efd573602a86b9b89eaf9816f442678f:php-imagick/.signature
-f:90166b1133fdbf0cfa7111f97ad13301:font-awesome/Pkgfile
+f:0a6778276cbd9112c51fb16c160487f4:font-awesome/Pkgfile
 f:66cae75bb029a755b80f0968f88a0b94:font-awesome/.footprint
-f:b72dd64bbad85d847d357e1cc01a0c26:font-awesome/.signature
+f:fbb563ed7ed3bec1652d954e288f1159:font-awesome/.signature
 f:f7268e0a6eef965f306f092bd53222ff:font-awesome-compat/Pkgfile
 f:34982e50c40fa095ec9411bc4a96d13b:font-awesome-compat/.footprint
 f:0dc935a26afafedb98cf0f9e0fa2438f:font-awesome-compat/.signature
@@ -322,6 +322,6 @@ f:136648cf264908f0003041356b0036b1:zotero/.footprint
 f:f227abe95940abd63367716928c6e379:zotero/zotero.desktop
 f:9bf3c471a4322d57c3b8f48dc1ed697c:zotero/README
 f:96c023298affb5f3902c3a0fb7b9d9ad:zotero/.signature
-f:6eb61916ff512d830b70ece3b76e2801:cargo-make/Pkgfile
-f:a4f6a03f93b6dbaf9df6fbdf2a3eb574:cargo-make/.footprint
-f:89022e9fbf70c6ba05e15e48dc9fd758:cargo-make/.signature
+f:d981d79758a4330a51649d764e9ddc78:cargo-make/Pkgfile
+f:151e0496d7140054ae1b6c55f2ff3a53:cargo-make/.footprint
+f:8bdf0655cdfdba23d5986a14cdd512fe:cargo-make/.signature

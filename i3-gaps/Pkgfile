@@ -4,7 +4,7 @@
 # Depends on: libev libxkbcommon pango startup-notification xorg-xcb-util-xrm xorg-xcb-util-cursor xorg-xcb-util-keysyms xorg-xcb-util-wm yajl
 
 name=i3-gaps
-version=4.18.2
+version=4.18.3
 release=1
 source=(https://github.com/Airblader/i3/archive/$version/$name-$version.tar.gz)
 

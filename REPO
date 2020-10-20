@@ -202,10 +202,10 @@ f:85b8ac68dfc95dc65964c16759fbb706:amdvlk/.signature
 f:3457655e9ca4fdb1b038e09fb10c2040:libinput-gestures/Pkgfile
 f:ad4fa9236e99bf0cf657e03ea176f1e8:libinput-gestures/.footprint
 f:ec24495ff697d645060535158b62c272:libinput-gestures/.signature
-f:348bc9ea9fb38203ea82357853dea6af:i3-gaps/Pkgfile
+f:b05220e05231e071ad956c096a969842:i3-gaps/Pkgfile
 f:68f26ec436e2ff07170de8389a355c32:i3-gaps/.footprint
 f:a89245058732b01796d0ce1e2279fb00:i3-gaps/.nostrip
-f:0c6f36e294fc27f4b7d2df8afdc49db9:i3-gaps/.signature
+f:e229b3d86fd0d708d02c977dc4fa601a:i3-gaps/.signature
 f:0d7c72eeb7a6e3b8f0941235abf73018:gnome-python-desktop/Pkgfile
 f:729f8b48bea7fca7b2f105b58ed69d06:gnome-python-desktop/.footprint
 f:49867170711ca7c81d8bc2a23181a601:gnome-python-desktop/NEWS
@@ -280,11 +280,11 @@ f:4e721dc1b64eb06ef061fd49cf87d722:xorg-cursor-openzone/.signature
 f:37d844993cfadf4bdb163827aa59351a:libcmrt/Pkgfile
 f:ecc306f3344957262737de05abcf4bce:libcmrt/.footprint
 f:0e40803b4346e52fc0a022b095c3658a:libcmrt/.signature
-f:4ed4aaf89b751ac2a630a95094b63fc2:claws-mail/Pkgfile
+f:536df513c523180d1d67020dbd969b36:claws-mail/Pkgfile
 f:8c9d38b45ded9dbf5e1c60cdd756e521:claws-mail/.footprint
 f:d0d9b7816f0b21d3093f47575a94d7b1:claws-mail/claws-mail-3.17.4-libetpan_pkgconfig.patch
 f:a3818f288bd275c694fa5ea9819747e1:claws-mail/README
-f:5653137f71d0fdb5dc02a3b59e2ce7a6:claws-mail/.signature
+f:7e3fe4926c847a3471cd2f873b66bd6e:claws-mail/.signature
 f:83637c625451017507e1a3e5fe62a8cc:npm/Pkgfile
 f:c4582028b65dd96ed8d4bb478877854f:npm/.footprint
 f:6df21b0fbadae464660ba451a2126e8e:npm/.signature

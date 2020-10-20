@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwOrLCRDJveUn6AM6OstqaZb3pnhNPFLic/AVRy6ex1pn9yvmZOO357febc90Fy8+t0OUcC1bWc7/Hrn9PEcZqgs=
-SHA256 (Pkgfile) = 644ff9e5da996aaae693dc45ce2f54b5825e1627e7ba69cc0e38e0607e3418a1
+RWSXjYMPO7mZwBlF0sobACbHGAtHxYt7jxsgBD/pzLLDRPUoguMX83EruWxQ+y7MzdMutR9OfLGjaY/MtsyexXjYN9IdhtU2eQQ=
+SHA256 (Pkgfile) = abf07db405433ed6dc07e2c2d7faec5312084dbae56c6dd5d9e7d91e5992767f
 SHA256 (.footprint) = 23900631c19d0675b11a51487c1c75845929ce0a8fabc7c00733da513fded825
-SHA256 (claws-mail-3.17.7.tar.xz) = 60b94649bc30ae79e057054e44afbe5fe29de0e77614b81505cff2204c02ddc8
+SHA256 (claws-mail-3.17.8.tar.xz) = cdb7b2814995d6f4a9c3b1f0bc1467ed5c3cf2a5e0da1730aaa25a8accafddaf

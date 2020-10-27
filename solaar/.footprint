@@ -32,6 +32,8 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/logitech_receiver/__pycache
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/logitech_receiver/__pycache__/common.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/logitech_receiver/__pycache__/descriptors.cpython-37.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/logitech_receiver/__pycache__/descriptors.cpython-37.pyc
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/logitech_receiver/__pycache__/device.cpython-37.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/logitech_receiver/__pycache__/device.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/logitech_receiver/__pycache__/hidpp10.cpython-37.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/logitech_receiver/__pycache__/hidpp10.cpython-37.pyc
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/logitech_receiver/__pycache__/hidpp20.cpython-37.opt-1.pyc
@@ -56,6 +58,7 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/logitech_receiver/__pycache
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/logitech_receiver/base_usb.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/logitech_receiver/common.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/logitech_receiver/descriptors.py
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/logitech_receiver/device.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/logitech_receiver/hidpp10.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/logitech_receiver/hidpp20.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/logitech_receiver/i18n.py
@@ -66,12 +69,12 @@ drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/logitech_receiver/__pycache
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/logitech_receiver/settings_templates.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/logitech_receiver/special_keys.py
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/logitech_receiver/status.py
-drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/solaar-1.0.3-py3.7.egg-info/
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/solaar-1.0.3-py3.7.egg-info/PKG-INFO
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/solaar-1.0.3-py3.7.egg-info/SOURCES.txt
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/solaar-1.0.3-py3.7.egg-info/dependency_links.txt
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/solaar-1.0.3-py3.7.egg-info/requires.txt
--rw-r--r--	root/root	usr/lib/python3.7/site-packages/solaar-1.0.3-py3.7.egg-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/solaar-1.0.4-py3.7.egg-info/
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/solaar-1.0.4-py3.7.egg-info/PKG-INFO
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/solaar-1.0.4-py3.7.egg-info/SOURCES.txt
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/solaar-1.0.4-py3.7.egg-info/dependency_links.txt
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/solaar-1.0.4-py3.7.egg-info/requires.txt
+-rw-r--r--	root/root	usr/lib/python3.7/site-packages/solaar-1.0.4-py3.7.egg-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/solaar/
 -rw-r--r--	root/root	usr/lib/python3.7/site-packages/solaar/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.7/site-packages/solaar/__pycache__/

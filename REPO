@@ -92,9 +92,9 @@ f:81e10c4463a7460434d7aaffd4686002:pylibacl/Pkgfile
 f:ccef02ef80adc2e128a19e6e98d7b932:pylibacl/.footprint
 f:66896c5b9975fd43cb8516ed550dd820:pylibacl/.signature
 f:90c2e115b9668e89968b00a331210001:blueman/post-install
-f:1175c054b954e9ba0ffd2b1ac633c560:blueman/Pkgfile
+f:b961e0a695edf97765f2f89b52105878:blueman/Pkgfile
 f:69eeab79f58c209c91765af76e77a42e:blueman/.footprint
-f:601385226a1a811ce55e71a87bdee3dd:blueman/.signature
+f:64eca395ac4119987c82b38456a459e2:blueman/.signature
 f:6fa93085ed9523d4901693a17820cd91:argyllcms/Pkgfile
 f:2c002f298f96cc7f30d3ea8ff9319413:argyllcms/.footprint
 f:1e5a1a2aa46df80b5882dcdff9d73a50:argyllcms/.signature
@@ -191,9 +191,9 @@ f:50680a250b1ed1a99fc78ae647f74816:distcc/.footprint
 f:061c47e951d17d9c9e2f159db366a43d:distcc/distccd
 f:fd0c63bd2c2f133450834affb7c78588:distcc/README
 f:e0eb42174e5c3ef5610d10177c17fa2b:distcc/.signature
-f:bbd71a4a7bd31ec5e6845c31196278b9:solaar/Pkgfile
-f:542f0dd44fd75a41aee42c684ec1b7f5:solaar/.footprint
-f:c052db89af3fa7ff01bfa0b8c7d92966:solaar/.signature
+f:aff517709c4ff76a5fc4e0a1afb5eb8a:solaar/Pkgfile
+f:9765959a2ca211e8ea44965200c12f6c:solaar/.footprint
+f:d79e411755008f50784644b3d30f4269:solaar/.signature
 f:e62427f53fea4bc79ee8bc158832a8f6:tb.pub
 f:5e8577c3313d4df58368c9fa5badab52:amdvlk/Pkgfile
 f:250a4693b430b2e8fadfbfdb8c3d3497:amdvlk/.footprint

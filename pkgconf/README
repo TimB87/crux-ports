@@ -1,3 +1,13 @@
+# Part 1:
+
+Please read up on the following ticket:
+https://todo.sr.ht/~kaniini/pkgconf/1
+
+The gist: since we exchange pkg-config for pkgconf here, this should not be a
+problem, still, this is not 'nice'.
+
+# Part 2:
+
 #!/bin/sh
 #
 # This was originally my post-install for this port!

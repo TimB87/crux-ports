@@ -10,6 +10,6 @@ source=(https://github.com/kozec/sc-controller/archive/v$version/$name-$version.
 
 build() {
   cd $name-$version
-  python2 setup.py build
-  python2 setup.py install --root="$PKG" --optimize=1
+  /usr/bin/python2 setup.py build
+  /usr/bin/python2 setup.py install --root="$PKG" --optimize=1 --skip-build
 }

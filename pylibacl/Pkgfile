@@ -10,6 +10,6 @@ source=(https://pylibacl.k1024.org/downloads/$name-$version.tar.gz)
 
 build() {
   cd $name-$version
-  python2 setup.py build
-  python2 setup.py install --root="$PKG" --optimize=1 --skip-build
+  /usr/bin/python2 setup.py build
+  /usr/bin/python2 setup.py install --root="$PKG" --optimize=1 --skip-build
 }

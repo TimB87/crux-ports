@@ -1,4 +1,0 @@
-This is not optimal. I am working on a Pkgfile that will build from source
-tars, but as of right now, the supplied scripts
-(namely zotero-standalone-build/scripts/build_dir) fail to build from that
-for a missing git hash.

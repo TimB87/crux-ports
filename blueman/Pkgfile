@@ -1,7 +1,7 @@
 # Description: A GTK+ bluetooth manager
 # URL: https://github.com/blueman-project/blueman
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: bluez desktop-file-utils intltool polkit python3-cython python3-gobject
+# Depends on: bluez desktop-file-utils polkit python3-cython python3-gobject
 
 name=blueman
 version=2.1.4

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwHDwb/3Fn4wkrXYMkiRcdcjN9IZ297RjtowI4QGL7yNXp+g8NqVE/KxZxAij+ZGh1/+Ils+N784tB7piZwz8cQ8=
-SHA256 (Pkgfile) = f02c0b4dda724738d41e1766ffcced89a7013c9cfccabde96d565d9a770a8fc5
+RWSXjYMPO7mZwCneC7iBngQHNjkNc4M7ZspUUx3PUHAUJOdQwMrZi86vo3pbmLj0Lo/Hxy5j9GP21Pq1/Ovf9eI0RAZbVok1dQk=
+SHA256 (Pkgfile) = 5bc438e60ffba6906ba7c31fee1e1a4113424600b471df1bf26a78e01e4a7d25
 SHA256 (.footprint) = 155f7b25676930ea07ff10a56d04dccf9f86369c7d126f389b2bad8b3e3d95db
 SHA256 (python-pybluez-0.23.tar.gz) = 2c5234a27d8bd560c65eee73d0b72e65ddfdf018b256b4eccab0680d577db1d5

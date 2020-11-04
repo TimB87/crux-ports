@@ -11,5 +11,6 @@ git=(https://github.com/pybluez/pybluez.git)
 
 build() {
   cd pybluez-$version
-  python2 setup.py install --root=$PKG
+  /usr/bin/python2 setup.py build
+  /usr/bin/python2 setup.py install --root=$PKG --skip-build
 }

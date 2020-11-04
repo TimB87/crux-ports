@@ -6,9 +6,7 @@
 name=hunspell-de
 version=20161207
 release=1
-source=(
-https://www.j3e.de/ispell/igerman98/dict/igerman98-$version.tar.bz2
-)
+source=(https://www.j3e.de/ispell/igerman98/dict/igerman98-$version.tar.bz2)
 
 build() {
   cd igerman98-$version

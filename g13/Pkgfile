@@ -1,17 +1,23 @@
 # Description: udev userspace daemon to control a Logitech G13
 # URL: https://github.com/ecraven/g13
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: boost git
+# Depends on: boost
 
 name=g13
-version=git
-release=2
-source=()
-git=(https://github.com/ecraven/g13.git)
+version=20160120
+_commit=815e0001cb5e24a184186506d2c95f4171e48547
+release=1
+source=(https://github.com/ecraven/g13/archive/$_commit/$name-$version.tar.gz
+  https://patch-diff.githubusercontent.com/raw/ecraven/g13/pull/33.patch
+  https://patch-diff.githubusercontent.com/raw/ecraven/g13/pull/35.patch
+  https://patch-diff.githubusercontent.com/raw/ecraven/g13/pull/37.patch)
 
 build() {
-  git clone $git $name
-  cd $name
+  cd $name-$_commit
+  patch -Np1 -i $SRC/33.patch
+  patch -Np1 -i $SRC/35.patch
+  # might just need a rebase..
+  #patch -Np1 -i $SRC/37.patch
   sed -r -i -e 's/MODE="0666"/MODE="0660", OWNER="g13", GROUP="g13"\n/' 91-g13.rules
 
   cat <<EOF > 91-g13.rules

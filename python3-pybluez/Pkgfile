@@ -10,5 +10,6 @@ source=(https://github.com/pybluez/pybluez/archive/$version/$name-$version.tar.g
 
 build() {
   cd pybluez-$version
-  python3 setup.py install --root=$PKG
+  /usr/bin/python3 setup.py build
+  /usr/bin/python3 setup.py install --root=$PKG --skip-build
 }

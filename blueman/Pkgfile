@@ -11,7 +11,8 @@ source=(https://github.com/blueman-project/$name/releases/download/$version/$nam
 build() {
   cd $name-$version
   sed -e 's/cython/cython3/g' -i configure.ac
-  ./autogen.sh --prefix=/usr \
+  NOCONFIGURE=1 ./autogen.sh
+  ./configure --prefix=/usr \
     --sysconfdir=/etc \
     --with-dhcp-config=/etc/dhcpd/dhcpcd.conf \
     --libexecdir=/usr/lib/blueman \

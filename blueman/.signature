@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwGKTM5aE3EQzm0yxsIAlPxek4/CByzmIRcTBk/rTJpbkzBM3ruvEpBEfy6xARXaB5uQf+xG+aAf09V/al22+8wo=
-SHA256 (Pkgfile) = f915683ae6df0e3a13ab4b0f5ceb092b94a2858901d7abfad8e8ded5fa2ac31b
+RWSXjYMPO7mZwA030JXS73OyWhj/eEpxX7CSE2wH2kzLyzM1lYxqzT1kvBATijRuRZ6XcyMMI+G4eRxPkFdY9jWYVNsT58keFQo=
+SHA256 (Pkgfile) = 145c61d64111e092d19660b2a77b36144badc31b8c0b22eae06f8fa7073bc745
 SHA256 (.footprint) = e78ee4dc3ab9a2cc9e4f133038be1bde66d6a39b639dedbd23c1fbe127fba191
 SHA256 (blueman-2.1.4.tar.xz) = 1d9c3d39a564d88851aa8de509f16bfa586b0b50f4307dc6c6347ba4833664da

@@ -9,11 +9,12 @@ release=2
 source=(https://github.com/hughsie/colord/archive/$version/$name-$version.tar.gz 0001-trivial-Fix-error-checking-for-sd_pid_get_session-an.patch)
 
 build() {
-  cd $name-$version
-  patch -Np1 -i $SRC/0001-trivial-Fix-error-checking-for-sd_pid_get_session-an.patch
-  meson . build \
+  patch -d $name-$version -Np1 -i $SRC/0001-trivial-Fix-error-checking-for-sd_pid_get_session-an.patch
+  meson setup $name-$version build \
     --prefix=/usr \
     --libexecdir=/usr/lib/$name \
+    --buildtype=plain \
+    -D b_ndebug=true \
     -D udev_rules=true \
     -D systemd=false \
     -D bash_completion=false \
@@ -25,7 +26,7 @@ build() {
     -D docs=false \
     -D man=false \
     -D tests=false
-  ninja -C build
+  meson compile -C build
   DESTDIR=$PKG meson install -C build
   rm -r $PKG/usr/share/locale
 }

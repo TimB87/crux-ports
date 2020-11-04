@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwJ7smFS/I73v2X9s/J0pqYIxnIOx38NAM/Vfq3bzjfKYfsLKT9FZeVA5Xfro94/mYOdHan8KhZsQC3IvgX+wOAs=
-SHA256 (Pkgfile) = c352a886054de282591eac7da932e043b00e22f1e8bf05ea0f1de41847f82abd
-SHA256 (.footprint) = ae248ab2bccd4e97f78ef218b494584b4ddc476a707e221687dfe7d69eb83c58
-SHA256 (libinput-gestures-2.45.tar.gz) = f49bfdb7d44068e4f8c600985d3bbe3936e4967e82666ca961503e3b4e9bddc0
+RWSXjYMPO7mZwHVLW6fWvPI1Ybex0mlTDzQAVEQO4inEq7ahXB49Jr5mxCXmDpJBPODpzGeXuyA1cshUvPYh4KlCJej5eGbZxAQ=
+SHA256 (Pkgfile) = 8b8f12f5dd4a7e5005e0efc2fe9b2ef72d61f52ecf3480cfafbc0a77764daf37
+SHA256 (.footprint) = b86f35f7b704c175638d7997641141b11fc4bb8a85a021e1745659761e7eaf35
+SHA256 (libinput-gestures-2.52.tar.gz) = b1f6e8b6158f840ac4c95a8490d740d0e23de82c4ebf5cea7ac8160dc279ff65

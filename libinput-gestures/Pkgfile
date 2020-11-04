@@ -4,8 +4,8 @@
 # Depends on: libinput xdotool
 
 name=libinput-gestures
-version=2.45
-release=2
+version=2.52
+release=1
 source=(https://github.com/bulletmark/libinput-gestures/archive/$version/$name-$version.tar.gz)
 
 build() {

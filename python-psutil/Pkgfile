@@ -9,6 +9,7 @@ release=1
 source=("https://github.com/giampaolo/psutil/archive/release-${version}/${name}-release-${version}.tar.gz")
 
 build() {
-  cd "psutil-release-${version}"
-  python setup.py install --root "${PKG}" --optimize=1
+  cd psutil-release-$version
+  /usr/bin/python setup.py build
+  /usr/bin/python setup.py install --root $PKG --optimize=1 --skip-build
 }

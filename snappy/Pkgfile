@@ -1,5 +1,5 @@
 # Description: A fast compressor/decompressor library
-# URL:https://google.github.io/snappy/
+# URL: https://google.github.io/snappy/
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: clang cmake
 
@@ -9,14 +9,12 @@ release=1
 source=(https://github.com/google/snappy/archive/$version/$name-$version.tar.gz snappy.pc)
 
 build() {
-  cd $name-$version
   CXXFLAGS+=\ -DNDEBUG
-  cmake \
+  cmake -S$name-$version -Bbuild -GNinja \
     -DCMAKE_INSTALL_PREFIX=/usr \
     -DCMAKE_INSTALL_LIBDIR=/usr/lib \
-    -DBUILD_SHARED_LIBS=yes \
-    .
-  make
-  make DESTDIR=$PKG install
+    -DBUILD_SHARED_LIBS=yes
+  cmake --build build
+  DESTDIR=$PKG cmake --install build
   install -Dm644 $SRC/snappy.pc $PKG/usr/lib/pkgconfig/snappy.pc
 }

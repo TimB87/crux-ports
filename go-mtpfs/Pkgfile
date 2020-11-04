@@ -1,20 +1,16 @@
 # Description: Mount MTP devices over FUSE
 # URL: https://github.com/hanwen/go-mtpfs
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: go git fuse libusb
+# Depends on: go fuse libusb
 
 name=go-mtpfs
-version=git
+version=1.0.0
 release=1
-source=()
-git=https://github.com/hanwen/go-mtpfs.git
+source=(https://github.com/hanwen/go-mtpfs/archive/v$version/$name-$version.tar.gz)
 _gourl=github.com/hanwen/go-mtpfs
 
 build() {
-  git clone $git $name
-  export GOPATH="$SRC/build"
-  mkdir --parents `dirname "$GOPATH/src/$_gourl"`
-  mv -Tv "$SRC/$name" "$GOPATH/src/$_gourl"
-  go get -v -x $_gourl
-  install -Dm755 $SRC/build/bin/go-mtpfs $PKG/usr/bin/go-mtpfs
+  cd $name-$version
+  go build -o go-mtpfs .
+  install -Dm755 go-mtpfs $PKG/usr/bin/go-mtpfs
 }

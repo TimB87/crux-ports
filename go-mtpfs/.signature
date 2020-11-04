@@ -1,4 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwCZt9dXLA7Z6nRhcshIO3xO62sFbvZ8Q36vYsrwUWg7RWK6GKKMv3xNg+5t+yvBQjN8RBVjkj2BlYtMdvZuV5w0=
-SHA256 (Pkgfile) = 98cd56dd2e97790ac85a1cbede054e42ec249698e0fd54aa32007267e7c356f5
+RWSXjYMPO7mZwNbZ23GJ7LVYNE8qqcAFqVxrRcVCc3YCoxeo7e5rFIgBLWWsiZFn4i4kX50pDGlMH9QmvCCqJ2pQplrBS6dlQwc=
+SHA256 (Pkgfile) = 8f4ee9252f1becedeefd61602bd5605037a64ef3a1f881917a96a70f192e4232
 SHA256 (.footprint) = 82f3102de81c48781c77db86d79d7dc61829ee44c3b5356ebfec3318df2f9bb5
+SHA256 (go-mtpfs-1.0.0.tar.gz) = 47060acf74c9f7a612f492c041c9463efb37eab4f9a74eca96686ed61bbbe7ec

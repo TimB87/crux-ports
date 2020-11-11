@@ -22,7 +22,6 @@ d:pulseaudio
 d:colord
 d:read-edid
 d:zsh
-d:fcgiwrap
 d:xdg-desktop-portal-gtk
 d:php-pgsql
 d:php-intl
@@ -48,7 +47,6 @@ d:termite
 d:moka-icon-theme
 d:hunspell-de
 d:murmur
-d:fcgi
 d:sc-controller
 d:python3-pyudev
 d:python-evdev
@@ -149,10 +147,6 @@ f:bbcef882147da9000691b07ac61c1b6b:zsh/zsh-lovers.1
 f:1f693bf2be89d608a359c63a513cec1c:zsh/README
 f:ab140f2a16d00a9121679722415f4bba:zsh/.signature
 f:1df5b335eca489948dfc49026d5a5e17:zsh/_prt-get
-f:1884a192d846c612c73b39b7661521a8:fcgiwrap/Pkgfile
-f:6e6b9ce39ea2cafdeb255468697cd0e9:fcgiwrap/.footprint
-f:29dc2e3d2a13fa4d7219768b8257e596:fcgiwrap/fcgiwrap.init
-f:effad9ba85f593e884f9f2f2a326d156:fcgiwrap/.signature
 f:795efc38074b77d42dbd087504e18887:xdg-desktop-portal-gtk/Pkgfile
 f:dcab9ebde3c07144d207f24cb479d6b7:xdg-desktop-portal-gtk/.footprint
 f:06fe202ab35997046d43380c59c6b6cf:xdg-desktop-portal-gtk/.signature
@@ -243,13 +237,6 @@ f:99fa44acfdccf900f090869f7bb38e82:murmur/.footprint
 f:e72ca7bc42fe99f9de8fd97d1e1572ba:murmur/pre-install
 f:4014d548fa3a400a75ebd3fb26b90316:murmur/murmur
 f:ec5c3c20ca54dab8e3ac365d7a351340:murmur/.signature
-f:35f4256fbdfc1f74b90eeb875291f82a:fcgi/Pkgfile
-f:bea2d2d548512be2d42a8165c09aa29c:fcgi/.footprint
-f:2e72c834db21da6af3f77dd2b36727a2:fcgi/fcgi-2.4.0-gcc44_fixes.patch
-f:7e901968aa90168b6cdfc8323ca59868:fcgi/fcgi-2.4.0-configure.in.patch
-f:02900e5f2400ed2982db1e02c4a17aa8:fcgi/fcgi-2.4.0-poll.patch
-f:24f1f8c9890df39fd8458a80404dee10:fcgi/.signature
-f:8c07165aed574b853326ae25fe9af291:fcgi/fcgi-2.4.0-Makefile.am-CPPFLAGS.patch
 f:db2078afe0f8ccb569d1e61c0048887b:sc-controller/Pkgfile
 f:706ad01e3dd4e33b638c1d0f6b35c611:sc-controller/.footprint
 f:d649723534fa600a0df2202df7bad398:sc-controller/.signature
@@ -306,6 +293,6 @@ f:2e462c3c849fe8b77cd41192aa97fdd2:faba-mono-icon-theme/.signature
 f:d4e8332b00e0f59d4a78842c266009ae:xdg-desktop-portal/Pkgfile
 f:e18c61f370a13c92b63f3ecd4ab1aa8e:xdg-desktop-portal/.footprint
 f:14fbd5cbab0eded52e2969259dfeeb1e:xdg-desktop-portal/.signature
-f:ccaca45f551d9da1f1b2311af2500ce9:cargo-make/Pkgfile
+f:bfc5a1fce38fb83c85b34f0e37711b0e:cargo-make/Pkgfile
 f:151e0496d7140054ae1b6c55f2ff3a53:cargo-make/.footprint
-f:7814fb4ecc4ce8346f3e6c0a75865e30:cargo-make/.signature
+f:979579c3d45c064113871aa944b2033d:cargo-make/.signature

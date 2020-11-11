@@ -1,8 +1,0 @@
-drwxr-xr-x	root/root	usr/
-drwxr-xr-x	root/root	usr/sbin/
--rwxr-xr-x	root/root	usr/sbin/fcgiwrap
-drwxr-xr-x	root/root	usr/usr/
-drwxr-xr-x	root/root	usr/usr/share/
-drwxr-xr-x	root/root	usr/usr/share/man/
-drwxr-xr-x	root/root	usr/usr/share/man/man8/
--rw-r--r--	root/root	usr/usr/share/man/man8/fcgiwrap.8.gz

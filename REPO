@@ -190,10 +190,10 @@ f:e62427f53fea4bc79ee8bc158832a8f6:tb.pub
 f:569fd557820cbda67dd56445fbdaee23:libinput-gestures/Pkgfile
 f:8c45b681beadf8ca1bce0c7e287486f0:libinput-gestures/.footprint
 f:095e6c8c89511122d16355afd87da3a0:libinput-gestures/.signature
-f:b05220e05231e071ad956c096a969842:i3-gaps/Pkgfile
-f:68f26ec436e2ff07170de8389a355c32:i3-gaps/.footprint
+f:624edc40a6ccaf32ac995b5e493224b3:i3-gaps/Pkgfile
+f:9371001c062cd02c5cabc6ca321c1cb0:i3-gaps/.footprint
 f:a89245058732b01796d0ce1e2279fb00:i3-gaps/.nostrip
-f:e229b3d86fd0d708d02c977dc4fa601a:i3-gaps/.signature
+f:94a512d5921212834a5cd1ea23d2dbca:i3-gaps/.signature
 f:15b7c7c6be6f1d64863d52e45df143f9:snappy/Pkgfile
 f:d834993b017a44e28205f159cb032207:snappy/.footprint
 f:429ca9ea1b0200662722fdad2244ab87:snappy/snappy.pc

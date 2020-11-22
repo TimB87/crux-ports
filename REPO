@@ -187,9 +187,9 @@ f:969462b13830bb03f882eadc37581dde:solaar/Pkgfile
 f:9765959a2ca211e8ea44965200c12f6c:solaar/.footprint
 f:e5f14f6ac4c3f7a9c56136c6ceb93491:solaar/.signature
 f:e62427f53fea4bc79ee8bc158832a8f6:tb.pub
-f:569fd557820cbda67dd56445fbdaee23:libinput-gestures/Pkgfile
+f:cdbac75c552f95e3646e1bd79e63a50e:libinput-gestures/Pkgfile
 f:8c45b681beadf8ca1bce0c7e287486f0:libinput-gestures/.footprint
-f:095e6c8c89511122d16355afd87da3a0:libinput-gestures/.signature
+f:2223bcb21586f79ee4138bef33675920:libinput-gestures/.signature
 f:624edc40a6ccaf32ac995b5e493224b3:i3-gaps/Pkgfile
 f:9371001c062cd02c5cabc6ca321c1cb0:i3-gaps/.footprint
 f:a89245058732b01796d0ce1e2279fb00:i3-gaps/.nostrip

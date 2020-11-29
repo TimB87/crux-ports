@@ -4,7 +4,7 @@
 # Depends on: pylibacl python-cairo python-evdev python-gobject python-setuptools
 
 name=sc-controller
-version=0.4.7
+version=0.4.8
 release=1
 source=(https://github.com/kozec/sc-controller/archive/v$version/$name-$version.tar.gz)
 

@@ -439,7 +439,7 @@ drwxr-xr-x	root/root	usr/lib/python2.7/site-packages/scc/x11/
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/scc/x11/scc_autoswitch_daemon.py
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/scc/x11/scc_autoswitch_daemon.pyc
 -rw-r--r--	root/root	usr/lib/python2.7/site-packages/scc/x11/scc_autoswitch_daemon.pyo
--rw-r--r--	root/root	usr/lib/python2.7/site-packages/sccontroller-0.4.7-py2.7.egg-info
+-rw-r--r--	root/root	usr/lib/python2.7/site-packages/sccontroller-0.4.8-py2.7.egg-info
 drwxr-xr-x	root/root	usr/lib/udev/
 drwxr-xr-x	root/root	usr/lib/udev/rules.d/
 -rw-rw-r--	root/root	usr/lib/udev/rules.d/69-sc-controller.rules

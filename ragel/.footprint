@@ -13,59 +13,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/ragel-ocaml
 -rwxr-xr-x	root/root	usr/bin/ragel-ruby
 -rwxr-xr-x	root/root	usr/bin/ragel-rust
-drwxr-xr-x	root/root	usr/include/
-drwxr-xr-x	root/root	usr/include/ragel/
--rw-r--r--	root/root	usr/include/ragel/action.h
--rw-r--r--	root/root	usr/include/ragel/avlbasic.h
--rw-r--r--	root/root	usr/include/ragel/avlcommon.h
--rw-r--r--	root/root	usr/include/ragel/avlibasic.h
--rw-r--r--	root/root	usr/include/ragel/avlikeyless.h
--rw-r--r--	root/root	usr/include/ragel/avlimap.h
--rw-r--r--	root/root	usr/include/ragel/avlimel.h
--rw-r--r--	root/root	usr/include/ragel/avlimelkey.h
--rw-r--r--	root/root	usr/include/ragel/avliset.h
--rw-r--r--	root/root	usr/include/ragel/avlitree.h
--rw-r--r--	root/root	usr/include/ragel/avlkeyless.h
--rw-r--r--	root/root	usr/include/ragel/avlmap.h
--rw-r--r--	root/root	usr/include/ragel/avlmel.h
--rw-r--r--	root/root	usr/include/ragel/avlmelkey.h
--rw-r--r--	root/root	usr/include/ragel/avlset.h
--rw-r--r--	root/root	usr/include/ragel/avltree.h
--rw-r--r--	root/root	usr/include/ragel/bstcommon.h
--rw-r--r--	root/root	usr/include/ragel/bstmap.h
--rw-r--r--	root/root	usr/include/ragel/bstset.h
--rw-r--r--	root/root	usr/include/ragel/bsttable.h
--rw-r--r--	root/root	usr/include/ragel/bubblesort.h
--rw-r--r--	root/root	usr/include/ragel/common.h
--rw-r--r--	root/root	usr/include/ragel/compare.h
--rw-r--r--	root/root	usr/include/ragel/config.h
--rw-r--r--	root/root	usr/include/ragel/dlcommon.h
--rw-r--r--	root/root	usr/include/ragel/dlist.h
--rw-r--r--	root/root	usr/include/ragel/dlistmel.h
--rw-r--r--	root/root	usr/include/ragel/dlistval.h
--rw-r--r--	root/root	usr/include/ragel/dot.h
--rw-r--r--	root/root	usr/include/ragel/fsmgraph.h
--rw-r--r--	root/root	usr/include/ragel/gendata.h
--rw-r--r--	root/root	usr/include/ragel/insertsort.h
--rw-r--r--	root/root	usr/include/ragel/mergesort.h
--rw-r--r--	root/root	usr/include/ragel/quicksort.h
--rw-r--r--	root/root	usr/include/ragel/ragel.h
--rw-r--r--	root/root	usr/include/ragel/redfsm.h
--rw-r--r--	root/root	usr/include/ragel/resize.h
--rw-r--r--	root/root	usr/include/ragel/sbstmap.h
--rw-r--r--	root/root	usr/include/ragel/sbstset.h
--rw-r--r--	root/root	usr/include/ragel/sbsttable.h
--rw-r--r--	root/root	usr/include/ragel/svector.h
--rw-r--r--	root/root	usr/include/ragel/table.h
--rw-r--r--	root/root	usr/include/ragel/vector.h
 drwxr-xr-x	root/root	usr/lib/
--rw-r--r--	root/root	usr/lib/libfsm.a
--rwxr-xr-x	root/root	usr/lib/libfsm.la
-lrwxrwxrwx	root/root	usr/lib/libfsm.so -> libfsm.so.0.0.0
-lrwxrwxrwx	root/root	usr/lib/libfsm.so.0 -> libfsm.so.0.0.0
--rwxr-xr-x	root/root	usr/lib/libfsm.so.0.0.0
--rw-r--r--	root/root	usr/lib/libragel.a
--rwxr-xr-x	root/root	usr/lib/libragel.la
 lrwxrwxrwx	root/root	usr/lib/libragel.so -> libragel.so.0.0.0
 lrwxrwxrwx	root/root	usr/lib/libragel.so.0 -> libragel.so.0.0.0
 -rwxr-xr-x	root/root	usr/lib/libragel.so.0.0.0
@@ -74,6 +22,7 @@ drwxr-xr-x	root/root	usr/share/doc/
 drwxr-xr-x	root/root	usr/share/man/
 drwxr-xr-x	root/root	usr/share/man/man1/
 -rw-r--r--	root/root	usr/share/man/man1/ragel.1.gz
+-rw-r--r--	root/root	usr/share/out-go.lm
 -rw-r--r--	root/root	usr/share/ragel.lm
 drwxr-xr-x	root/root	usr/share/vim/
 drwxr-xr-x	root/root	usr/share/vim/vimfiles/

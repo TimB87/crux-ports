@@ -4,17 +4,21 @@
 # Depends on: colm
 
 name=ragel
-version=7.0.0.12
+version=7.0.1
 release=1
 source=(http://www.colm.net/files/$name/$name-$version.tar.gz)
 
 build() {
   cd $name-$version
+  autoreconf -vfi
   ./configure --prefix=/usr \
-    CXXFLAGS="$CXXFLAGS \
-    -std=gnu++98"
+    CXXFLAGS="$CXXFLAGS -std=gnu++98" \
+    --disable-static \
+    --with-colm=/usr \
+    --disable-manual
   make
   make DESTDIR=$PKG install
   install -m0644 -D ragel.vim $PKG/usr/share/vim/vimfiles/syntax/ragel.vim
   rm -fr $PKG/usr/share/doc/ragel
+  find $PKG -type f -name '*.la' -delete
 }

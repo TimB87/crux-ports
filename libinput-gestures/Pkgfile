@@ -1,10 +1,10 @@
 # Description: Actions gestures on your touchpad using libinput
 # URL: https://github.com/bulletmark/libinput-gestures
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: libinput xdotool
+# Depends on: libinput python3 wmctrl xdotool
 
 name=libinput-gestures
-version=2.54
+version=2.55
 release=1
 source=(https://github.com/bulletmark/libinput-gestures/archive/$version/$name-$version.tar.gz)
 

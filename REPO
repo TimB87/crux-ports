@@ -68,9 +68,9 @@ d:cargo-make
 f:d0d64fe4327a17cbdf90039af0c2a44a:ttf-font-icons/Pkgfile
 f:9e318bed7942bb8155c8b337f695908d:ttf-font-icons/.footprint
 f:4416ac03cf4ec625fcafe338c1945c0a:ttf-font-icons/.signature
-f:6012384dd703778f334ac2889b6b0783:colm/Pkgfile
-f:5eaa55130560ef5998d126dfaf30a308:colm/.footprint
-f:a5e73a26fdd0a071d4b27a3927053d45:colm/.signature
+f:9633b3dd99776bb60c2e5cfc1b2e8a13:colm/Pkgfile
+f:9a9e3a2a50f2743d5316062a21cb58a5:colm/.footprint
+f:2de136b396c2cf21bedc9f3cd30949a6:colm/.signature
 f:b6f7c220c08e2880f3467ab36438ff29:ragel/Pkgfile
 f:4060e2ed35986dc0ceb3108da1cb7e5e:ragel/.footprint
 f:8c093f36608434b17ee56961b7d72450:ragel/.signature
@@ -194,10 +194,10 @@ f:624edc40a6ccaf32ac995b5e493224b3:i3-gaps/Pkgfile
 f:9371001c062cd02c5cabc6ca321c1cb0:i3-gaps/.footprint
 f:a89245058732b01796d0ce1e2279fb00:i3-gaps/.nostrip
 f:94a512d5921212834a5cd1ea23d2dbca:i3-gaps/.signature
-f:15b7c7c6be6f1d64863d52e45df143f9:snappy/Pkgfile
+f:2989ecb0b8efa29c336f23ea748d3199:snappy/Pkgfile
 f:d834993b017a44e28205f159cb032207:snappy/.footprint
 f:429ca9ea1b0200662722fdad2244ab87:snappy/snappy.pc
-f:bbf6a6667bd6e1a81834bc3fe258ba8a:snappy/.signature
+f:4360850f467f7d2be543e2394c8607ae:snappy/.signature
 f:0aa5e0472eb6ed1e04e304f5847d3b00:arc-kde-theme/Pkgfile
 f:f761c800c4cac31a48e441a61ce65979:arc-kde-theme/.footprint
 f:f0d67e32efa4dd92600d355bd69e20b2:arc-kde-theme/.signature

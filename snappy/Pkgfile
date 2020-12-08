@@ -9,11 +9,14 @@ release=1
 source=(https://github.com/google/snappy/archive/$version/$name-$version.tar.gz snappy.pc)
 
 build() {
-  CXXFLAGS+=\ -DNDEBUG
   cmake -S$name-$version -Bbuild -GNinja \
-    -DCMAKE_INSTALL_PREFIX=/usr \
-    -DCMAKE_INSTALL_LIBDIR=/usr/lib \
-    -DBUILD_SHARED_LIBS=yes
+    -D CMAKE_INSTALL_PREFIX=/usr \
+    -D CMAKE_INSTALL_LIBDIR=lib \
+    -D CMAKE_BUILD_TYPE=Release \
+    -D CMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+    -D CMAKE_C_FLAGS_RELEASE="$CFLAGS" \
+    -D BUILD_SHARED_LIBS=yes \
+    -Wno-dev
   cmake --build build
   DESTDIR=$PKG cmake --install build
   install -Dm644 $SRC/snappy.pc $PKG/usr/lib/pkgconfig/snappy.pc

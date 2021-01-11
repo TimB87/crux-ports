@@ -4,8 +4,8 @@
 # Optional: avahi dbus python3
 
 name=distcc
-version=3.3.3
-release=4
+version=3.3.5
+release=1
 source=(https://github.com/distcc/distcc/archive/v$version/$name-$version.tar.gz distccd)
 
 build() {
@@ -16,6 +16,7 @@ build() {
     -e 's!@PYTHON@!/usr/bin/python3!g' \
     -e "/PATH/s:\$distcc_location:/usr/lib/distcc/bin:"
 
+  export CFLAGS+=' -fcommon'
   PYTHON=/usr/bin/python3 \
   ./configure \
     --prefix=/usr \
@@ -47,4 +48,8 @@ build() {
 
   rm -rf $PKG/usr/share/doc $PKG/usr/etc/default $PKG/usr/etc/distcc
   rmdir $PKG/usr/etc
+
+  export PYTHONHASHSEED=0
+  /usr/bin/python3 -m compileall -d $PKG/
+  /usr/bin/python3 -O -m compileall -d $PKG/
 }

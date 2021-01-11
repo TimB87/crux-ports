@@ -4,7 +4,7 @@
 # Depends on:
 
 name=colm
-version=0.14.2b
+version=0.14.4
 release=1
 source=(https://www.colm.net/files/colm/colm-$version.tar.gz)
 

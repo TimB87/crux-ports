@@ -5,7 +5,7 @@
 
 name=distcc
 version=3.3.5
-release=1
+release=2
 source=(https://github.com/distcc/distcc/archive/v$version/$name-$version.tar.gz distccd)
 
 build() {

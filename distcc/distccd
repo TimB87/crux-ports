@@ -21,18 +21,15 @@ DISTCC_LOG_LEVEL="${DISTCC_LOG_LEVEL:=debug}"
 
 case $1 in
 start)
-    /usr/sbin/distccd --daemon --user "$DISTCC_USER" --allow "$DISTCC_ALLOW" --log-level "$DISTCC_LOG_LEVEL" --log-file "$DISTCC_LOG_FILE" --allow-private
-	;;
+    /usr/sbin/distccd --daemon --user "$DISTCC_USER" --allow "$DISTCC_ALLOW" --log-level "$DISTCC_LOG_LEVEL" --log-file "$DISTCC_LOG_FILE" ;;
 stop)
-	killall -q /usr/sbin/distccd
-	;;
+  killall -q /usr/sbin/distccd ;;
 restart)
-	$0 stop
-	$0 start
-	;;
+  $0 stop
+  $0 start
+  ;;
 *)
-	echo "usage: $0 [start|stop|restart]"
-	;;
+  echo "usage: $0 [start|stop|restart]" ;;
 esac
 
 # End of file

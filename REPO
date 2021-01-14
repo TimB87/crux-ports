@@ -118,9 +118,9 @@ f:0f85baa9533db9657ed992165d4c6f7d:light-locker/.signature
 f:e927e5d564ee1173d2c92d7afa3361cd:php-imagick/Pkgfile
 f:97f8c324e249ac36e0ba2c4b1870bff3:php-imagick/.footprint
 f:efd573602a86b9b89eaf9816f442678f:php-imagick/.signature
-f:0a6778276cbd9112c51fb16c160487f4:font-awesome/Pkgfile
+f:9bae8bb9072af879855904f3b201e617:font-awesome/Pkgfile
 f:66cae75bb029a755b80f0968f88a0b94:font-awesome/.footprint
-f:fbb563ed7ed3bec1652d954e288f1159:font-awesome/.signature
+f:f931db03b6812157e93843f4eb7fdc8a:font-awesome/.signature
 f:f7268e0a6eef965f306f092bd53222ff:font-awesome-compat/Pkgfile
 f:34982e50c40fa095ec9411bc4a96d13b:font-awesome-compat/.footprint
 f:0dc935a26afafedb98cf0f9e0fa2438f:font-awesome-compat/.signature
@@ -178,11 +178,11 @@ f:01b3e66e64d213c36fc46a1352c87f76:pkgconf/.signature
 f:c089ac92764df7d6b5bb3532e0087808:libportal/Pkgfile
 f:1d0c1cfa2f887aa15c7a471283a570d1:libportal/.footprint
 f:5461ff257ea883d9ff4116c449fe4dc8:libportal/.signature
-f:d52af689a4e1f7c3f6dbcf2867adc333:distcc/Pkgfile
+f:885cc315d4c063f36fb6523c83109b9f:distcc/Pkgfile
 f:8b1e5a484f172fed75be4a12f8c733e7:distcc/.footprint
-f:061c47e951d17d9c9e2f159db366a43d:distcc/distccd
+f:ba10d6a72c4ee85ad54b334a0f8b0ba7:distcc/distccd
 f:fd0c63bd2c2f133450834affb7c78588:distcc/README
-f:4c30eb05c4f72df8ac79a46b4704d3d2:distcc/.signature
+f:012df8d57ac6a292e5ba9984daeba085:distcc/.signature
 f:969462b13830bb03f882eadc37581dde:solaar/Pkgfile
 f:9765959a2ca211e8ea44965200c12f6c:solaar/.footprint
 f:e5f14f6ac4c3f7a9c56136c6ceb93491:solaar/.signature

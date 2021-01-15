@@ -54,7 +54,6 @@ d:papirus-claws-mail-theme
 d:xorg-cursor-openzone
 d:libcmrt
 d:claws-mail
-d:npm
 d:light-locker-settings
 d:python-pybluez
 d:geoip2-database
@@ -179,10 +178,10 @@ f:c089ac92764df7d6b5bb3532e0087808:libportal/Pkgfile
 f:1d0c1cfa2f887aa15c7a471283a570d1:libportal/.footprint
 f:5461ff257ea883d9ff4116c449fe4dc8:libportal/.signature
 f:885cc315d4c063f36fb6523c83109b9f:distcc/Pkgfile
-f:8b1e5a484f172fed75be4a12f8c733e7:distcc/.footprint
+f:1b3dda4ee38bab197915c061a9ba2608:distcc/.footprint
 f:ba10d6a72c4ee85ad54b334a0f8b0ba7:distcc/distccd
 f:fd0c63bd2c2f133450834affb7c78588:distcc/README
-f:012df8d57ac6a292e5ba9984daeba085:distcc/.signature
+f:b755272653e13350583700588104ff4f:distcc/.signature
 f:969462b13830bb03f882eadc37581dde:solaar/Pkgfile
 f:9765959a2ca211e8ea44965200c12f6c:solaar/.footprint
 f:e5f14f6ac4c3f7a9c56136c6ceb93491:solaar/.signature
@@ -261,9 +260,6 @@ f:8c9d38b45ded9dbf5e1c60cdd756e521:claws-mail/.footprint
 f:d0d9b7816f0b21d3093f47575a94d7b1:claws-mail/claws-mail-3.17.4-libetpan_pkgconfig.patch
 f:a3818f288bd275c694fa5ea9819747e1:claws-mail/README
 f:7e3fe4926c847a3471cd2f873b66bd6e:claws-mail/.signature
-f:83637c625451017507e1a3e5fe62a8cc:npm/Pkgfile
-f:c4582028b65dd96ed8d4bb478877854f:npm/.footprint
-f:6df21b0fbadae464660ba451a2126e8e:npm/.signature
 f:7d7b678926090e6ba53c755ac2c0b1ee:light-locker-settings/Pkgfile
 f:92f6e378c8fbc88902b61f4b63806b29:light-locker-settings/.footprint
 f:d88d6c65958549c3ec80b9f3e8d5032f:light-locker-settings/.signature

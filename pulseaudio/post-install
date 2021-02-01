@@ -1,2 +1,0 @@
-#!/bin/sh
-[ -e /usr/share/glib-2.0/schemas/org.freedesktop.pulseaudio.gschema.xml ] && glib-compile-schemas /usr/share/glib-2.0/schemas

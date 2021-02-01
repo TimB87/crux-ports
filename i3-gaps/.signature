@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwM46OL9Q866cxm7M+mymRYjCJD+rnvCg4pQtNFE4aC69ls5TjKd0RetkXn+zNLL23qFpRQnlyJNeP5B51Iyn/gk=
-SHA256 (Pkgfile) = 8174dc135515d0649ec64454938c7606fc85fc951f1e9257f848e387584aaf60
+RWSXjYMPO7mZwDJuG4siluSR7wouVbVmPtw2mhroiw3HbqhYz06JVo0DI4Cc2nWV3bdzRR+dt+BBAiZParrQJPFF5X6k9atqHAQ=
+SHA256 (Pkgfile) = 0cb1f63464ddba37d9bc0eaca77d4c4b9b6abcd963092bb9c858d33ad38705f1
 SHA256 (.footprint) = 515dca714d8a51ca1ef66a207f533cfd6356d1dbb9e86bda3712419cf44baf34
-SHA256 (i3-gaps-4.19.tar.gz) = dbd739dae5c16a94763dac0a7407d0307f0814f7bf48b99591b772820c874b4f
+SHA256 (i3-gaps-4.19.1.tar.gz) = 97f33544f0a64a325b7b98cd4ad17dcf6f2c8ead1350d378154b76af1798e8fc

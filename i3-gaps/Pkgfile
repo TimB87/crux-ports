@@ -5,7 +5,7 @@
 # Optional: asciidoc
 
 name=i3-gaps
-version=4.19
+version=4.19.1
 release=1
 source=(https://github.com/Airblader/i3/archive/$version/$name-$version.tar.gz)
 

@@ -4,7 +4,7 @@
 # Depends on: libinput python3 wmctrl xdotool
 
 name=libinput-gestures
-version=2.55
+version=2.57
 release=1
 source=(https://github.com/bulletmark/libinput-gestures/archive/$version/$name-$version.tar.gz)
 

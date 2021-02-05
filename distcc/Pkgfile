@@ -5,7 +5,7 @@
 
 name=distcc
 version=3.3.5
-release=2
+release=3
 source=(https://github.com/distcc/distcc/archive/v$version/$name-$version.tar.gz distccd)
 
 build() {
@@ -15,6 +15,8 @@ build() {
   sed -i pump.in \
     -e 's!@PYTHON@!/usr/bin/python3!g' \
     -e "/PATH/s:\$distcc_location:/usr/lib/distcc/bin:"
+
+  find . -name '*.py' -type f -exec sed -i 's,e.clock(,e.perf_counter(,g' {} \;
 
   export CFLAGS+=' -fcommon'
   PYTHON=/usr/bin/python3 \

@@ -168,11 +168,11 @@ f:01b3e66e64d213c36fc46a1352c87f76:pkgconf/.signature
 f:c089ac92764df7d6b5bb3532e0087808:libportal/Pkgfile
 f:1d0c1cfa2f887aa15c7a471283a570d1:libportal/.footprint
 f:5461ff257ea883d9ff4116c449fe4dc8:libportal/.signature
-f:885cc315d4c063f36fb6523c83109b9f:distcc/Pkgfile
+f:4cac7e315dfaa25eb3759fc97d91a6c2:distcc/Pkgfile
 f:1b3dda4ee38bab197915c061a9ba2608:distcc/.footprint
 f:ba10d6a72c4ee85ad54b334a0f8b0ba7:distcc/distccd
 f:fd0c63bd2c2f133450834affb7c78588:distcc/README
-f:b755272653e13350583700588104ff4f:distcc/.signature
+f:aa2cd0cc09ea2c30803876a831376834:distcc/.signature
 f:969462b13830bb03f882eadc37581dde:solaar/Pkgfile
 f:9765959a2ca211e8ea44965200c12f6c:solaar/.footprint
 f:e5f14f6ac4c3f7a9c56136c6ceb93491:solaar/.signature
@@ -280,6 +280,6 @@ f:2e462c3c849fe8b77cd41192aa97fdd2:faba-mono-icon-theme/.signature
 f:d4e8332b00e0f59d4a78842c266009ae:xdg-desktop-portal/Pkgfile
 f:e18c61f370a13c92b63f3ecd4ab1aa8e:xdg-desktop-portal/.footprint
 f:14fbd5cbab0eded52e2969259dfeeb1e:xdg-desktop-portal/.signature
-f:53f760357265dcb8ceae345409b345f6:cargo-make/Pkgfile
+f:1a3b187412a953792a46bc4ac444a2a3:cargo-make/Pkgfile
 f:151e0496d7140054ae1b6c55f2ff3a53:cargo-make/.footprint
-f:3ae735876a4896818f10a82c486c2fed:cargo-make/.signature
+f:f70e98324611882334495fdb9f96e0cf:cargo-make/.signature

@@ -68,18 +68,11 @@ drwxr-xr-x	root/root	usr/include/libfsm/
 -rw-r--r--	root/root	usr/include/libfsm/ragel.h
 -rw-r--r--	root/root	usr/include/libfsm/redfsm.h
 drwxr-xr-x	root/root	usr/lib/
-<<<<<<< HEAD
--rwxr-xr-x	root/root	usr/lib/libcolm-0.14.2b.so
--rw-r--r--	root/root	usr/lib/libcolm.a
--rwxr-xr-x	root/root	usr/lib/libcolm.la
-lrwxrwxrwx	root/root	usr/lib/libcolm.so -> libcolm-0.14.2b.so
-=======
 -rwxr-xr-x	root/root	usr/lib/libcolm-0.14.4.so
 -rw-r--r--	root/root	usr/lib/libcolm.a
 -rwxr-xr-x	root/root	usr/lib/libcolm.la
 lrwxrwxrwx	root/root	usr/lib/libcolm.so -> libcolm-0.14.4.so
 -rwxr-xr-x	root/root	usr/lib/libfsm-0.14.4.so
->>>>>>> 9ed2911 (colm: 0.14.1 -> 0.14.4)
 -rw-r--r--	root/root	usr/lib/libfsm.a
 -rwxr-xr-x	root/root	usr/lib/libfsm.la
 lrwxrwxrwx	root/root	usr/lib/libfsm.so -> libfsm-0.14.4.so

@@ -1,7 +1,0 @@
-untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwAaE22akqveD8/O9ZBR68gZfcvoXyZL4ABcpcLyKicifwN4zlWLSJ7vgTS4BROa6nBMxecMK8+0WzuZL0lt0Ag4=
-SHA256 (Pkgfile) = 6deafd3b073c540dd1cfebf70be3a33fce91ae3ddfc14855fd09c736fb5ccd92
-SHA256 (.footprint) = 4beab942825711e6a370b60b5f2875784e080e473c462f5512128b5b4c037a08
-SHA256 (zsh-5.8.tar.xz) = dcc4b54cc5565670a65581760261c163d720991f0d06486da61f8d839b52de27
-SHA256 (_prt-get) = de2e23df932f0c855c0e34389cc8a3d1083b30114f437cb77cb19df2a261b21c
-SHA256 (zsh-lovers.1) = b40802dd83f1f2eded9823776ae90af8e0b91488e97f98b3a0629f8d11953e81

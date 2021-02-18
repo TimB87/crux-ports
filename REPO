@@ -18,10 +18,8 @@ d:php-imagick
 d:font-awesome
 d:font-awesome-compat
 d:nextcloud
-d:pulseaudio
 d:colord
 d:read-edid
-d:zsh
 d:xdg-desktop-portal-gtk
 d:php-pgsql
 d:php-intl
@@ -68,8 +66,8 @@ f:d0d64fe4327a17cbdf90039af0c2a44a:ttf-font-icons/Pkgfile
 f:9e318bed7942bb8155c8b337f695908d:ttf-font-icons/.footprint
 f:4416ac03cf4ec625fcafe338c1945c0a:ttf-font-icons/.signature
 f:e620f96203d3a98567e07de017e91e9a:colm/Pkgfile
-f:dec1a13b48fcfa2fd689bfcee3fc9d81:colm/.footprint
-f:ea15117a9d790b77f53f7e4b3faf6c06:colm/.signature
+f:b0337b60178f4f740bf2ea568a843ec4:colm/.footprint
+f:2778fb8d31dd74e8be2fc077a0ee24b4:colm/.signature
 f:b6f7c220c08e2880f3467ab36438ff29:ragel/Pkgfile
 f:4060e2ed35986dc0ceb3108da1cb7e5e:ragel/.footprint
 f:8c093f36608434b17ee56961b7d72450:ragel/.signature
@@ -127,7 +125,6 @@ f:a48197e30e0409b75df939b397913be0:nextcloud/Pkgfile
 f:547090d4802aa17597ea860753e17a35:nextcloud/.footprint
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README
 f:b034da1a356f9692b766d812eaf95f5f:nextcloud/.signature
-f:bb5261d3b31f491a2760795b3d88df14:pulseaudio/.signature
 f:57a7f4910176794f61adfd39712a94bb:colord/Pkgfile
 f:12ef97905f60611111e471a9896195ee:colord/.footprint
 f:74fdaac009afbf8e8a3a6d1e1b946709:colord/pre-install
@@ -136,7 +133,6 @@ f:6b067b8b01b13903f391b5cf44f11d18:colord/.signature
 f:b0660ba9ca2d2502a2336550b672c8d1:read-edid/Pkgfile
 f:10c7dd1a7f1fdf33783a2f3fda6068fa:read-edid/.footprint
 f:8423cc24dd507e3f4be60badb53b6b34:read-edid/.signature
-f:ab140f2a16d00a9121679722415f4bba:zsh/.signature
 f:795efc38074b77d42dbd087504e18887:xdg-desktop-portal-gtk/Pkgfile
 f:dcab9ebde3c07144d207f24cb479d6b7:xdg-desktop-portal-gtk/.footprint
 f:06fe202ab35997046d43380c59c6b6cf:xdg-desktop-portal-gtk/.signature

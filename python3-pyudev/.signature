@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwKhvGQ4Hdb6qvfIMWfSZV4oHTO0tK+Bcvzmq92kKTFhi5IrFeFAe4iH8udgtJ28zKjUWLm0ZGFp5+0pIpHk4YgA=
+RWSXjYMPO7mZwOo0ZTl9QCa9P2XqSxu4dhPxd0UTg/MNLnOgk9SGPzL9gbPJfCHHWnn2asxboQYOYZ1tpTwOizwxFzJiZjDr8w4=
 SHA256 (Pkgfile) = 722f521dee1dc3b8046bcac9558efd3cf943a3204ee91dff77a8f1cafa01954c
-SHA256 (.footprint) = 338763f42a36021de6ab998020f377d4ca59db52ce941e92530bc0e39ddb3f06
+SHA256 (.footprint) = 236df48f338542d77b9a55be67a586147f3f493dc307efa291704e2813530bfb
 SHA256 (python3-pyudev-0.22.tar.gz) = 245b5717923bed83993cd50761c3f8f1a1a68e2cd09031adbd30beed4dc60077

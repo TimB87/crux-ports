@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwJCEzta+RKaeZB3Dd5JY6GyzjmW4gRrRjRPQxRBhmhUAJ848bnFTkw+Jd1tkri2GKXx89eP/CJlucZLR2lEZYwE=
-SHA256 (Pkgfile) = 5bfa08d04ca613cf61cea19ede188ceea7d142fb718a3bf2d89dd60fbb0054a8
+RWSXjYMPO7mZwNdePDgbuJ8nHWPUqXUMfMI26zudYyx6SKxy9oTmvytB7EW5I7vwKbqLxZVSQxXWlib6U/T6fOAWhHe7pF5AnwY=
+SHA256 (Pkgfile) = cf9a47094ee8a28ba8dd77d1e12cae447d5207c747a80fbc72383db8ba089da7
 SHA256 (.footprint) = 1fb0f3908f1e8a73f8647ea04fa96d75a514107289e199a2eed24cca9c3b0329
-SHA256 (solaar-1.0.4.tar.gz) = ab383aa832a57ca3de10f754488272c65ef1cfe9fbdfb66874dac183cc039b7e
+SHA256 (solaar-1.0.5.tar.gz) = 6514f278da3f3a96dda6f254b786a2b106e1a5c20e0c20e61c8273b3e5c33973

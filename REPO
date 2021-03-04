@@ -74,9 +74,9 @@ f:8c093f36608434b17ee56961b7d72450:ragel/.signature
 f:8bc51f39d07991cd779f4b6338c79936:libetpan/Pkgfile
 f:e711b2abee30008eddf36bae3bb26620:libetpan/.footprint
 f:115e2795f17fad8ac6e9a22c3ba1e9d6:libetpan/.signature
-f:1a6187028b8e95622dca5022d06ddf2d:apcu/Pkgfile
-f:1381ea3e5d13d4109fc396057fe8120d:apcu/.footprint
-f:db210d361f6a5b0a3b49e1255020d07b:apcu/.signature
+f:164ca046cc522dde7faec8547184deb4:apcu/Pkgfile
+f:c8541c6f67ae1748985ccee2b7ae8919:apcu/.footprint
+f:0a99818d2728ee8f3887ebd468c8cab2:apcu/.signature
 f:789838e10b9ebe13c664b3b134217355:kvantum-theme-arc/Pkgfile
 f:657f14bb505e108e2e68a841a9f21d26:kvantum-theme-arc/.footprint
 f:32fc89d9b5a924e130fcd533e803d47f:kvantum-theme-arc/.signature

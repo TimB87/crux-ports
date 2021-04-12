@@ -154,9 +154,9 @@ f:07cea4def42b459d7dbe9f37e8ce1636:g13/Pkgfile
 f:26c816dbe42e2333039c91713e333e30:g13/.footprint
 f:483a67ed9f685748f9e83441f8f5f079:g13/default.g13.bind
 f:f335f306c2ef96613d843b8f84c84fc1:g13/.signature
-f:c089ac92764df7d6b5bb3532e0087808:libportal/Pkgfile
-f:1d0c1cfa2f887aa15c7a471283a570d1:libportal/.footprint
-f:5461ff257ea883d9ff4116c449fe4dc8:libportal/.signature
+f:1390890909449971d2bd9cca21374676:libportal/Pkgfile
+f:cfc7702dcf6c3e8501b700f8ecd5d61c:libportal/.footprint
+f:167249d143cd4ce3ee258868868976cb:libportal/.signature
 f:4cac7e315dfaa25eb3759fc97d91a6c2:distcc/Pkgfile
 f:1b3dda4ee38bab197915c061a9ba2608:distcc/.footprint
 f:ba10d6a72c4ee85ad54b334a0f8b0ba7:distcc/distccd
@@ -269,6 +269,6 @@ f:2e462c3c849fe8b77cd41192aa97fdd2:faba-mono-icon-theme/.signature
 f:a9dcbddd7ae920c955e0c847551354b9:xdg-desktop-portal/Pkgfile
 f:e18c61f370a13c92b63f3ecd4ab1aa8e:xdg-desktop-portal/.footprint
 f:e86cfdafd2a18ea6803ea15ad84f6bb4:xdg-desktop-portal/.signature
-f:be8f97912df0c339aeb90a598998d5bd:cargo-make/Pkgfile
+f:53878f7f5f5f8b7b10f80e805a83bab6:cargo-make/Pkgfile
 f:151e0496d7140054ae1b6c55f2ff3a53:cargo-make/.footprint
-f:f8d72f954390d36fa556f84ee54a0477:cargo-make/.signature
+f:29464dd53070ccbb866a673fcdd3ee3c:cargo-make/.signature

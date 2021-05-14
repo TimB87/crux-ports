@@ -157,11 +157,11 @@ f:f335f306c2ef96613d843b8f84c84fc1:g13/.signature
 f:1390890909449971d2bd9cca21374676:libportal/Pkgfile
 f:cfc7702dcf6c3e8501b700f8ecd5d61c:libportal/.footprint
 f:167249d143cd4ce3ee258868868976cb:libportal/.signature
-f:4cac7e315dfaa25eb3759fc97d91a6c2:distcc/Pkgfile
-f:1b3dda4ee38bab197915c061a9ba2608:distcc/.footprint
+f:0470cf77008b533384fa271e56bf2e06:distcc/Pkgfile
+f:3979bf20c74e22c0d4a9049a4120f0a8:distcc/.footprint
 f:ba10d6a72c4ee85ad54b334a0f8b0ba7:distcc/distccd
 f:fd0c63bd2c2f133450834affb7c78588:distcc/README
-f:aa2cd0cc09ea2c30803876a831376834:distcc/.signature
+f:b6c8c17c3562a83921861ba1420b353a:distcc/.signature
 f:1ec9ab67f972bcce33a64cf992d00d7b:solaar/Pkgfile
 f:c3bdb68b98ea4aed4080d3cf832276eb:solaar/.footprint
 f:ab511da8f411553fc4f953595214568a:solaar/.signature

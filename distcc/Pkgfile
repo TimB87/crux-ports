@@ -4,8 +4,8 @@
 # Optional: avahi dbus python3
 
 name=distcc
-version=3.3.5
-release=3
+version=3.4
+release=1
 source=(https://github.com/distcc/distcc/archive/v$version/$name-$version.tar.gz distccd)
 
 build() {

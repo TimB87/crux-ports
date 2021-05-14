@@ -16,7 +16,7 @@ lrwxrwxrwx	root/root	usr/lib/distcc/g++ -> ../../bin/distcc
 lrwxrwxrwx	root/root	usr/lib/distcc/gcc -> ../../bin/distcc
 drwxr-xr-x	root/root	usr/lib/python3.9/
 drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/
--rw-r--r--	root/root	usr/lib/python3.9/site-packages/include_server-3.3.5-py3.9.egg-info
+-rw-r--r--	root/root	usr/lib/python3.9/site-packages/include_server-3.4-py3.9.egg-info
 drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/include_server/
 drwxr-xr-x	root/root	usr/lib/python3.9/site-packages/include_server/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.9/site-packages/include_server/__pycache__/basics.cpython-39.pyc

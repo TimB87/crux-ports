@@ -1,5 +1,6 @@
 d:ttf-font-icons
 d:colm
+d:iniparser
 d:ragel
 d:libetpan
 d:apcu
@@ -13,6 +14,7 @@ d:libmaxminddb
 d:bdf-unifont
 d:libgd
 d:grub2-theme-poly-light
+d:xdg-desktop-portal-wlr
 d:light-locker
 d:php-imagick
 d:font-awesome
@@ -67,6 +69,9 @@ f:4416ac03cf4ec625fcafe338c1945c0a:ttf-font-icons/.signature
 f:e620f96203d3a98567e07de017e91e9a:colm/Pkgfile
 f:b0337b60178f4f740bf2ea568a843ec4:colm/.footprint
 f:2778fb8d31dd74e8be2fc077a0ee24b4:colm/.signature
+f:a41e47be2b78a6c61693933120273a4b:iniparser/Pkgfile
+f:d5c3eee2df0731044745c6f78526b819:iniparser/.footprint
+f:e7b8558b0191d031aab32581be4a0510:iniparser/.signature
 f:b6f7c220c08e2880f3467ab36438ff29:ragel/Pkgfile
 f:4060e2ed35986dc0ceb3108da1cb7e5e:ragel/.footprint
 f:8c093f36608434b17ee56961b7d72450:ragel/.signature
@@ -108,6 +113,9 @@ f:a6ea76adf9189d0955a583e770329458:libgd/.signature
 f:0be50df12f3446e3625ebb19d9e8d474:grub2-theme-poly-light/Pkgfile
 f:2512e110d4b94c257d80a38d1456249c:grub2-theme-poly-light/.footprint
 f:7f0c2b58c8e4e509cfecdde5148a898a:grub2-theme-poly-light/.signature
+f:12d9c62065a0934d9cbf8a01bf448874:xdg-desktop-portal-wlr/Pkgfile
+f:2501486e124342333a3d5216c996e137:xdg-desktop-portal-wlr/.footprint
+f:6a0f6c957bce46b0081d8aef3cc11b13:xdg-desktop-portal-wlr/.signature
 f:2c2f1850c0286cfcb1ffc35bad94f341:light-locker/Pkgfile
 f:24acd60ec47339feb2e9a951b9c06a13:light-locker/.footprint
 f:0f85baa9533db9657ed992165d4c6f7d:light-locker/.signature
@@ -266,9 +274,9 @@ f:9cd906d9823049112cd5038f1fe1551e:faba-mono-icon-theme/post-install
 f:00d4be9c3af5c75c46eabc0c8cd982dc:faba-mono-icon-theme/Pkgfile
 f:48ab50e3e2e0bdf5c5ea34fe52b444cd:faba-mono-icon-theme/.footprint
 f:2e462c3c849fe8b77cd41192aa97fdd2:faba-mono-icon-theme/.signature
-f:a9dcbddd7ae920c955e0c847551354b9:xdg-desktop-portal/Pkgfile
+f:1d3b07fa70ad23192cf3571e74829945:xdg-desktop-portal/Pkgfile
 f:e18c61f370a13c92b63f3ecd4ab1aa8e:xdg-desktop-portal/.footprint
-f:e86cfdafd2a18ea6803ea15ad84f6bb4:xdg-desktop-portal/.signature
+f:76e2a6aa49117ecd4db6a1cde9cbe862:xdg-desktop-portal/.signature
 f:81dd90fa285580591fcd0ccc0f1845f2:cargo-make/Pkgfile
 f:151e0496d7140054ae1b6c55f2ff3a53:cargo-make/.footprint
 f:20dd3013bddf10cc863237567ea23d9f:cargo-make/.signature

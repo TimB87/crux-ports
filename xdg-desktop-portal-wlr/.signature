@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwJoetERAGyfKl+qBIdAQwQ4q7hFXHhd++RoSSHGJmcH9gva5VvKlpAeMkRHGF5MXUeUtRkdpzppOz0arqQaNhgQ=
-SHA256 (Pkgfile) = 80b3c542e3ade5463e7b1a846bc1fb879a9b77ed69b1edef7400e18903324189
+RWSXjYMPO7mZwANE7LUxVOrTwaRr4bgo3sphwYBshtHKGJI2jwsNOZriam3hoCV6vLbzE5Lviijz6SFMC+iKGxNHl5qyZPJv1wE=
+SHA256 (Pkgfile) = fd3be788b607aa73811fc8e5d32d5619ce51416962c507f23e6a364f1b5dfad4
 SHA256 (.footprint) = ff8c316321d3dcd36002452bc816fd966718ec324177ca61291bbf5ea8a85786
-SHA256 (xdg-desktop-portal-wlr-0.3.0.tar.gz) = 5c80469b04c4e5d22689f755d61adcf92758bc1c85f0747ae1f586b4bcd7873c
+SHA256 (xdg-desktop-portal-wlr-0.4.0.tar.gz) = eb97248c3625a2e6775a250de4bd53d50c5a548bf880fc716e28b6b9c51447d5

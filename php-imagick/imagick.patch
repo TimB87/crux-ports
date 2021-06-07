@@ -1,0 +1,47 @@
+From f054a66254a71d9840fb9504abeedb4ba25a2b7a Mon Sep 17 00:00:00 2001
+From: Remi Collet <remi@remirepo.net>
+Date: Fri, 4 Sep 2020 10:46:01 +0200
+Subject: [PATCH] set single thread by default
+
+---
+ imagick.c                           | 4 ++--
+ tests/281_ini_settings_default.phpt | 4 ++--
+ 2 files changed, 4 insertions(+), 4 deletions(-)
+
+diff --git a/imagick.c b/imagick.c
+index 1e6d174a..70ca1460 100644
+--- a/imagick.c
++++ b/imagick.c
+@@ -3278,7 +3278,7 @@ PHP_INI_BEGIN()
+ 	STD_PHP_INI_ENTRY("imagick.skip_version_check", "0", PHP_INI_ALL, OnUpdateBool, skip_version_check, zend_imagick_globals, imagick_globals)
+ 	STD_PHP_INI_ENTRY("imagick.progress_monitor", "0", PHP_INI_SYSTEM, OnUpdateBool, progress_monitor, zend_imagick_globals, imagick_globals)
+ 
+-	STD_PHP_INI_ENTRY("imagick.set_single_thread", "0", PHP_INI_SYSTEM, OnUpdateBool, set_single_thread, zend_imagick_globals, imagick_globals)
++	STD_PHP_INI_ENTRY("imagick.set_single_thread", "1", PHP_INI_SYSTEM, OnUpdateBool, set_single_thread, zend_imagick_globals, imagick_globals)
+ 	STD_PHP_INI_ENTRY("imagick.shutdown_sleep_count",  "10", PHP_INI_ALL, OnUpdateLong, shutdown_sleep_count, zend_imagick_globals, imagick_globals)
+ 
+ PHP_INI_END()
+@@ -3288,7 +3288,7 @@ static void php_imagick_init_globals(zend_imagick_globals *imagick_globals)
+ 	imagick_globals->locale_fix = 0;
+ 	imagick_globals->progress_monitor = 0;
+ 	imagick_globals->skip_version_check = 0;
+-	imagick_globals->set_single_thread = 0;
++	imagick_globals->set_single_thread = 1;
+ 	// 10 is magick number, that seems to be enough.
+ 	imagick_globals->shutdown_sleep_count = 10;
+ }
+diff --git a/tests/281_ini_settings_default.phpt b/tests/281_ini_settings_default.phpt
+index e397e982..4b223acc 100644
+--- a/tests/281_ini_settings_default.phpt
++++ b/tests/281_ini_settings_default.phpt
+@@ -18,8 +18,8 @@ if ($sleepCount != 10) {
+     echo "imagick.shutdown_sleep_count is not set to 10 but instead " . var_export($sleepCount, true) ."\n";
+ }
+ 
+-if ($setSingleThread != 0) {
+-    echo "imagick.set_single_thread setting is not false but instead " . var_export($setSingleThread, true) ."\n";
++if ($setSingleThread != 1) {
++    echo "imagick.set_single_thread setting is not true but instead " . var_export($setSingleThread, true) ."\n";
+ }
+ 
+ 

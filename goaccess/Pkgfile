@@ -5,7 +5,7 @@
 # Optional: geoip2-database
 
 name=goaccess
-version=1.4
+version=1.5
 release=1
 source=(https://tar.goaccess.io/$name-$version.tar.gz)
 

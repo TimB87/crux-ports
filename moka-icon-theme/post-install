@@ -1,5 +1,0 @@
-#!/bin/sh
-
-/usr/bin/gtk-update-icon-cache -f -t /usr/share/icons/Moka
-
-# EOF

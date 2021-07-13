@@ -1,10 +1,10 @@
 # Description: An e-mail client (and news reader), based on GTK+
 # URL: https://www.claws-mail.org
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: gtk libetpan gpgme gnutls libical networkmanager
+# Depends on: gtk3 libetpan gpgme gnutls libical
 
 name=claws-mail
-version=3.17.8
+version=4.0.0
 release=1
 source=(https://www.claws-mail.org/releases/$name-$version.tar.xz)
 

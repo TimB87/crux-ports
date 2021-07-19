@@ -66,8 +66,8 @@ f:a89245058732b01796d0ce1e2279fb00:i3-gaps/.nostrip
 f:9371001c062cd02c5cabc6ca321c1cb0:i3-gaps/.footprint
 f:398ad43834994d08b5cca7e490c6a3dd:i3-gaps/Pkgfile
 f:151e0496d7140054ae1b6c55f2ff3a53:cargo-make/.footprint
-f:18e08524b2c8a03b56894906e4cd2812:cargo-make/Pkgfile
-f:670501e60fde3c5874dc75fe5bce5878:cargo-make/.signature
+f:3d1f4c926ee1b6e50a29a3723ef315a5:cargo-make/Pkgfile
+f:931c1e629396061902e6990885964c73:cargo-make/.signature
 f:118ba6f3b2fad4c7f1a601ba1a12a1d1:libmaxminddb/.footprint
 f:d0e5baa69986c8cef622a7e4011ca552:libmaxminddb/Pkgfile
 f:3fc581cddfa800e6599309c6b3bd5e53:libmaxminddb/.signature

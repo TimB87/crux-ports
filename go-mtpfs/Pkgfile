@@ -7,10 +7,22 @@ name=go-mtpfs
 version=1.0.0
 release=1
 source=(https://github.com/hanwen/go-mtpfs/archive/v$version/$name-$version.tar.gz)
-_gourl=github.com/hanwen/go-mtpfs
 
 build() {
   cd $name-$version
-  go build -o go-mtpfs .
+  export CGO_CPPFLAGS="${CPPFLAGS}"
+  export CGO_CFLAGS="${CFLAGS}"
+  export CGO_CXXFLAGS="${CXXFLAGS}"
+  export CGO_LDFLAGS="${LDFLAGS}"
+
+  mkdir "$PKGMK_SOURCE_DIR/gopath" || true
+  export GOPATH="$PKGMK_SOURCE_DIR/gopath"
+
+  go build \
+    -trimpath \
+    -buildmode=pie \
+    -mod=readonly \
+    -modcacherw \
+    -o go-mtpfs .
   install -Dm755 go-mtpfs $PKG/usr/bin/go-mtpfs
 }

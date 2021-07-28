@@ -1,6 +1,0 @@
-#!/bin/sh
-
-/usr/bin/gtk-update-icon-cache -f -t /usr/share/icons/Faba-Mono
-/usr/bin/gtk-update-icon-cache -f -t /usr/share/icons/Faba-Mono-Dark
-
-# EOF

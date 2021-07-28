@@ -1,0 +1,14 @@
+# Description: an open source font by IBM
+# URL: https://ibm.github.io/type/
+# Maintainer: Tim Biermann, tbier at posteo dot de
+
+name=ttf-plex
+version=5.2.1
+release=1
+source=(https://github.com/IBM/plex/archive/v$version/plex-v$version.tar.gz)
+
+build() {
+  for i in plex-$version/IBM-Plex-*/fonts/complete/ttf/*.ttf;
+    do install -Dm644 $i $PKG/usr/share/fonts/ibm-plex/$(basename $i);
+  done
+}

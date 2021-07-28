@@ -2,7 +2,7 @@
 # URL: http://fontawesome.io/
 # Maintainer: Tim Biermann, tbier at posteo dot de
 
-name=font-awesome-compat
+name=ttf-font-awesome-compat
 version=4.7.0
 release=1
 source=(https://github.com/FortAwesome/Font-Awesome/archive/v$version/Font-Awesome-$version.tar.gz)

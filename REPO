@@ -183,9 +183,9 @@ f:6b067b8b01b13903f391b5cf44f11d18:colord/.signature
 f:a4f6b6756e89b8bdc3df944b2f855529:gnome-themes-extra/.footprint
 f:a33879a2ed46849ead114a9f7712dd58:gnome-themes-extra/Pkgfile
 f:362e09a14bce7c7522ccd0ed7c49289d:gnome-themes-extra/.signature
-f:c3fa240853fc593d8dcb5a15f86fbb23:libgd/.footprint
-f:a6ea76adf9189d0955a583e770329458:libgd/.signature
-f:c9d06a593ba56e6287316753ec06824e:libgd/Pkgfile
+f:5767f0b249b7b3ec0fe7ea6153590e92:libgd/.footprint
+f:dd43adf628ed10747c3d257c834042cc:libgd/.signature
+f:75f06c02c5fc62c381bb6457187cf506:libgd/Pkgfile
 f:82550854e53f0d4322a59258a93883d1:nextcloud/.footprint
 f:c8f9e7543dbf4efd5d963b781a69b584:nextcloud/Pkgfile
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README

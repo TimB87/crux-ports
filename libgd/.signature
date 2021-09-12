@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwDZ8fUFomKavOkrpv+XJmQQPcgjRJdwmtrD+wMP0p2d+stlOo0V8S3L90jTIMkKjUQSErTgSJ/2gLegt3AZ4Rw0=
-SHA256 (Pkgfile) = 0a64af1e1c2d0fb3d177a8251bb3efb512de82708b1d5bffe3cc1535effbd5ce
-SHA256 (.footprint) = 12dd6844ef0d5c6b84517c56c9119e9eda0fb1e9ed73b99d3a8d3f87170f677e
-SHA256 (libgd-2.3.2.tar.xz) = 478a047084e0d89b83616e4c2cf3c9438175fb0cc55d8c8967f06e0427f7d7fb
+RWSXjYMPO7mZwAAmLQP/nVd/sGbcs1PP7KjTLjmaLxsn8xsP8sjbcUrThA+xIc74Syb9Zvgo9jhlMyzsrw4y0jX0+1Afu9uZAgY=
+SHA256 (Pkgfile) = 706ae2e61a548bfe43d61ae90bda2f6c88aa7d931dbc709e2b62fc8225158d9c
+SHA256 (.footprint) = a7451ec23132bfbaed312ff3256c14b89312f513753c19e870a9736c1db2d512
+SHA256 (libgd-2.3.3.tar.xz) = 3fe822ece20796060af63b7c60acb151e5844204d289da0ce08f8fdf131e5a61

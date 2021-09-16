@@ -1,7 +1,8 @@
 # Description: Desktop integration portals for sandboxed apps
 # URL: https://github.com/flatpak/xdg-desktop-portal
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: fontconfig fuse json-glib libportal pipewire
+# Depends on: fontconfig fuse json-glib libportal
+# Optional: pipewire geoclue
 
 name=xdg-desktop-portal
 version=1.10.0
@@ -10,12 +11,14 @@ source=(https://github.com/flatpak/xdg-desktop-portal/archive/$version/$name-$ve
 
 build() {
   cd $name-$version
+
+  prt-get isinst pipewire && PKGMK_XDGDP+=' --enable-pipewire' ||PKGMK_XDGDP+=' --disable-pipewire'
+  prt-get isinst geoclue && PKGMK_XDGDP+=' --enable-geoclue' ||PKGMK_XDGDP+=' --disable-geoclue'
+
   NOCONFIGURE=1 ./autogen.sh
-  ./configure --prefix=/usr \
+  ./configure --prefix=/usr $PKGMK_XDGDP \
     --libexecdir=/usr/lib \
-    --enable-pipewire \
     --disable-libportal \
-    --disable-geoclue \
     --disable-nls
   make
   make DESTDIR=$PKG install

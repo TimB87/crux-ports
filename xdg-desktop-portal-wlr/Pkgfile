@@ -1,13 +1,11 @@
 # Description: xdg-desktop-portal backend for wlroots
 # URL: https://github.com/emersion/xdg-desktop-portal-wlr
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: basu inih pipewire wayland-protocols xdg-desktop-portal
+# Depends on: basu inih pipewire wayland
 
 name=xdg-desktop-portal-wlr
 version=0.4.0
-release=1
-#_commit=cf3e02695e3d54de142b7b1b9740fb2776be1fc4
-#source=(https://github.com/emersion/xdg-desktop-portal-wlr/archive/$_commit/$name-$_commit.tar.gz)
+release=3
 source=(https://github.com/emersion/xdg-desktop-portal-wlr/archive/v$version/$name-$version.tar.gz)
 
 build() {
@@ -15,7 +13,11 @@ build() {
   meson setup $name-$version build \
     --prefix=/usr \
     --libexecdir=lib \
-    --buildtype=plain
+    --buildtype=plain \
+    --wrap-mode nodownload \
+    -D b_lto=true \
+    -D b_pie=true \
+    -D sd-bus-provider=basu
   meson compile -C build
   DESTDIR=$PKG meson install -C build
 }

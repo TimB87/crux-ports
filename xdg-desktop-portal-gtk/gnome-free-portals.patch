@@ -1,0 +1,1225 @@
+From 9bfb0e70dd42dc0f5e5dfd8af1ce924a661305a6 Mon Sep 17 00:00:00 2001
+From: Matthias Clasen <mclasen@redhat.com>
+Date: Sun, 6 Jun 2021 16:00:28 -0400
+Subject: [PATCH 1/7] Build the wallpaper portal backend conditionally
+
+This is a first step towards moving gnome-specific panels
+to their own backend.
+---
+ configure.ac                       | 11 ++++++++++-
+ data/Makefile.am.inc               | 12 +++++++++++-
+ data/{gtk.portal => gtk.portal.in} |  2 +-
+ src/Makefile.am.inc                | 15 ++++++++++++---
+ src/xdg-desktop-portal-gtk.c       |  5 +++++
+ 5 files changed, 39 insertions(+), 6 deletions(-)
+ rename data/{gtk.portal => gtk.portal.in} (89%)
+
+diff --git a/configure.ac b/configure.ac
+index e1723e2..32e46db 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -57,7 +57,16 @@ AC_SUBST([DBUS_INTERFACES_DIR], [`$PKG_CONFIG --variable=interfaces_dir dbus-1`]
+ AC_SUBST([GDBUS_CODEGEN], [`$PKG_CONFIG --variable gdbus_codegen gio-2.0`])
+ AC_SUBST([GLIB_COMPILE_RESOURCES], [`$PKG_CONFIG --variable glib_compile_resources gio-2.0`])
+ 
+-PKG_CHECK_MODULES(GTK, [xdg-desktop-portal >= 1.5 glib-2.0 >= 2.44 gio-unix-2.0 gtk+-3.0 >= 3.14 gtk+-unix-print-3.0 fontconfig gnome-desktop-3.0 gsettings-desktop-schemas])
++AC_ARG_ENABLE(wallpaper,
++              [AS_HELP_STRING([--enable-wallpaper],[Build wallpaper portal. Needs gnome-desktop])],
++              enable_wallpaper=$enableval, enable_wallpaper=yes)
++if test x$enable_wallpaper = xyes; then
++    PKG_CHECK_MODULES(WALLPAPER, [gnome-desktop-3.0])
++    AC_DEFINE([BUILD_WALLPAPER], [1], [Define to enable wallpaper portal])
++fi
++AM_CONDITIONAL([BUILD_WALLPAPER],[test "$enable_wallpaper" = "yes"])
++
++PKG_CHECK_MODULES(GTK, [xdg-desktop-portal >= 1.5 glib-2.0 >= 2.44 gio-unix-2.0 gtk+-3.0 >= 3.14 gtk+-unix-print-3.0 fontconfig gsettings-desktop-schemas])
+ AC_SUBST(GTK_CFLAGS)
+ AC_SUBST(GTK_LIBS)
+ 
+diff --git a/data/Makefile.am.inc b/data/Makefile.am.inc
+index 21b134e..25f5571 100644
+--- a/data/Makefile.am.inc
++++ b/data/Makefile.am.inc
+@@ -1,5 +1,13 @@
++if BUILD_WALLPAPER
++wallpaper_iface = org.freedesktop.impl.portal.Wallpaper;
++endif
++
++%.portal: data/%.portal.in config.log
++	$(AM_V_GEN) $(SED) -e "s|\@wallpaper_iface\@|$(wallpaper_iface)|" $< > $@
++
+ portaldir = $(datadir)/xdg-desktop-portal/portals
+-dist_portal_DATA = data/gtk.portal
++portal_in_files = data/gtk.portal.in
++portal_DATA = gtk.portal
+ 
+ %.service: data/%.service.in config.log
+ 	$(AM_V_GEN) $(SED) -e "s|\@libexecdir\@|$(libexecdir)|" $< > $@
+@@ -27,11 +35,13 @@ desktop_in_files = xdg-desktop-portal-gtk.desktop.in
+ desktop_DATA = xdg-desktop-portal-gtk.desktop
+ 
+ CLEANFILES += \
++	$(portal_DATA)		\
+ 	$(desktop_in_files)	\
+ 	$(desktop_DATA)		\
+ 	$(NULL)
+ 
+ EXTRA_DIST += \
++	$(portal_in_files)			\
+ 	$(dbus_service_in_files)                \
+         $(systemduserunit_in_files)             \
+         $(desktop_in_in_files)                  \
+diff --git a/data/gtk.portal b/data/gtk.portal.in
+similarity index 89%
+rename from data/gtk.portal
+rename to data/gtk.portal.in
+index d890619..52dde2c 100644
+--- a/data/gtk.portal
++++ b/data/gtk.portal.in
+@@ -1,4 +1,4 @@
+ [portal]
+ DBusName=org.freedesktop.impl.portal.desktop.gtk
+-Interfaces=org.freedesktop.impl.portal.FileChooser;org.freedesktop.impl.portal.AppChooser;org.freedesktop.impl.portal.Print;org.freedesktop.impl.portal.Screenshot;org.freedesktop.impl.portal.Notification;org.freedesktop.impl.portal.Inhibit;org.freedesktop.impl.portal.Access;org.freedesktop.impl.portal.Account;org.freedesktop.impl.portal.Email;org.freedesktop.impl.portal.ScreenCast;org.freedesktop.impl.portal.RemoteDesktop;org.freedesktop.impl.portal.Lockdown;org.freedesktop.impl.portal.Background;org.freedesktop.impl.portal.Settings;org.freedesktop.impl.portal.Wallpaper;
++Interfaces=org.freedesktop.impl.portal.FileChooser;org.freedesktop.impl.portal.AppChooser;org.freedesktop.impl.portal.Print;org.freedesktop.impl.portal.Screenshot;org.freedesktop.impl.portal.Notification;org.freedesktop.impl.portal.Inhibit;org.freedesktop.impl.portal.Access;org.freedesktop.impl.portal.Account;org.freedesktop.impl.portal.Email;org.freedesktop.impl.portal.ScreenCast;org.freedesktop.impl.portal.RemoteDesktop;org.freedesktop.impl.portal.Lockdown;org.freedesktop.impl.portal.Background;org.freedesktop.impl.portal.Settings;@wallpaper_iface@
+ UseIn=gnome
+diff --git a/src/Makefile.am.inc b/src/Makefile.am.inc
+index 4c212d2..c349d20 100644
+--- a/src/Makefile.am.inc
++++ b/src/Makefile.am.inc
+@@ -2,6 +2,10 @@ dbus_built_sources = src/xdg-desktop-portal-dbus.c src/xdg-desktop-portal-dbus.h
+ BUILT_SOURCES += $(dbus_built_sources)
+ CLEANFILES += $(dbus_built_sources)
+ 
++if BUILD_WALLPAPER
++        WALLPAPER_IFACE=$(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Wallpaper.xml
++endif
++
+ $(dbus_built_sources): src/Makefile.am.inc
+ 	$(AM_V_GEN) $(GDBUS_CODEGEN)			\
+ 	--interface-prefix org.freedesktop.impl.portal.	\
+@@ -24,7 +28,7 @@ $(dbus_built_sources): src/Makefile.am.inc
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Lockdown.xml \
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Background.xml \
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Settings.xml \
+-	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Wallpaper.xml \
++	 $(WALLPAPER_IFACE) \
+ 	$(NULL)
+ 
+ shell_built_sources = src/shell-dbus.c src/shell-dbus.h
+@@ -137,6 +141,10 @@ xdg_desktop_portal_gtk_SOURCES = \
+         src/fc-monitor.h                        \
+         src/settings.c                          \
+         src/settings.h                          \
++	$(NULL)
++
++if BUILD_WALLPAPER
++xdg_desktop_portal_gtk_SOURCES += \
+ 	src/wallpaperdialog.c				\
+ 	src/wallpaperdialog.h				\
+ 	src/wallpaperpreview.c				\
+@@ -144,6 +152,7 @@ xdg_desktop_portal_gtk_SOURCES = \
+ 	src/wallpaper.c				\
+ 	src/wallpaper.h				\
+ 	$(NULL)
++endif
+ 
+ nodist_xdg_desktop_portal_gtk_SOURCES = \
+ 	src/resources.c				\
+@@ -165,8 +174,8 @@ xdg_desktop_portal_gtk_SOURCES += \
+ 	$(NULL)
+ endif
+ 
+-xdg_desktop_portal_gtk_LDADD = $(BASE_LIBS) $(GTK_LIBS) $(GTK_X11_LIBS)
+-xdg_desktop_portal_gtk_CFLAGS = $(BASE_CFLAGS) $(GTK_CFLAGS) $(GTK_X11_CFLAGS)
++xdg_desktop_portal_gtk_LDADD = $(BASE_LIBS) $(GTK_LIBS) $(GTK_X11_LIBS) $(WALLPAPER_LIBS)
++xdg_desktop_portal_gtk_CFLAGS = $(BASE_CFLAGS) $(GTK_CFLAGS) $(GTK_X11_CFLAGS) $(WALLPAPER_CFLAGS)
+ xdg_desktop_portal_gtk_CPPFLAGS = \
+ 	-DGETTEXT_PACKAGE=\"$(GETTEXT_PACKAGE)\"        \
+ 	-DLOCALEDIR=\"$(localedir)\"                    \
+diff --git a/src/xdg-desktop-portal-gtk.c b/src/xdg-desktop-portal-gtk.c
+index 8cad9f2..a5507bc 100644
+--- a/src/xdg-desktop-portal-gtk.c
++++ b/src/xdg-desktop-portal-gtk.c
+@@ -55,7 +55,10 @@
+ #include "lockdown.h"
+ #include "background.h"
+ #include "settings.h"
++
++#ifdef BUILD_WALLPAPER
+ #include "wallpaper.h"
++#endif
+ 
+ 
+ static GMainLoop *loop = NULL;
+@@ -190,11 +193,13 @@ on_bus_acquired (GDBusConnection *connection,
+       g_clear_error (&error);
+     }
+ 
++#ifdef BUILD_WALLPAPER
+   if (!wallpaper_init (connection, &error))
+     {
+       g_warning ("error: %s\n", error->message);
+       g_clear_error (&error);
+     }
++#endif
+ }
+ 
+ static void
+
+From bbe5abe9379d2a9eae8f5e1fc1e62dc22414efe2 Mon Sep 17 00:00:00 2001
+From: Matthias Clasen <mclasen@redhat.com>
+Date: Sun, 6 Jun 2021 16:13:31 -0400
+Subject: [PATCH 2/7] Build the screenshot portal backend conditionally
+
+Another step towards allowing to build a gnome-free
+xdg-desktop-portal-gtk.
+---
+ configure.ac                 |  8 ++++++++
+ data/Makefile.am.inc         |  8 +++++++-
+ data/gtk.portal.in           |  2 +-
+ src/Makefile.am.inc          | 22 ++++++++++++++++------
+ src/xdg-desktop-portal-gtk.c |  6 ++++++
+ 5 files changed, 38 insertions(+), 8 deletions(-)
+
+diff --git a/configure.ac b/configure.ac
+index 32e46db..a34f66b 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -66,6 +66,14 @@ if test x$enable_wallpaper = xyes; then
+ fi
+ AM_CONDITIONAL([BUILD_WALLPAPER],[test "$enable_wallpaper" = "yes"])
+ 
++AC_ARG_ENABLE(screenshot,
++              [AS_HELP_STRING([--enable-screenshot],[Build screenshot portal. Needs gnome-shell])],
++              enable_screenshot=$enableval, enable_screenshot=yes)
++if test x$enable_screenshot = xyes; then
++    AC_DEFINE([BUILD_SCREENSHOT], [1], [Define to enable screenshot portal])
++fi
++AM_CONDITIONAL([BUILD_SCREENSHOT],[test "$enable_screenshot" = "yes"])
++
+ PKG_CHECK_MODULES(GTK, [xdg-desktop-portal >= 1.5 glib-2.0 >= 2.44 gio-unix-2.0 gtk+-3.0 >= 3.14 gtk+-unix-print-3.0 fontconfig gsettings-desktop-schemas])
+ AC_SUBST(GTK_CFLAGS)
+ AC_SUBST(GTK_LIBS)
+diff --git a/data/Makefile.am.inc b/data/Makefile.am.inc
+index 25f5571..87336bd 100644
+--- a/data/Makefile.am.inc
++++ b/data/Makefile.am.inc
+@@ -2,8 +2,14 @@ if BUILD_WALLPAPER
+ wallpaper_iface = org.freedesktop.impl.portal.Wallpaper;
+ endif
+ 
++if BUILD_SCREENSHOT
++screenshot_iface = org.freedesktop.impl.portal.Screenshot;
++endif
++
+ %.portal: data/%.portal.in config.log
+-	$(AM_V_GEN) $(SED) -e "s|\@wallpaper_iface\@|$(wallpaper_iface)|" $< > $@
++	$(AM_V_GEN) $(SED) -e "s|\@wallpaper_iface\@|$(wallpaper_iface)|" \
++			   -e "s|\@screenshot_iface\@|$(screenshot_iface)|" \
++			   $< > $@
+ 
+ portaldir = $(datadir)/xdg-desktop-portal/portals
+ portal_in_files = data/gtk.portal.in
+diff --git a/data/gtk.portal.in b/data/gtk.portal.in
+index 52dde2c..8190dc0 100644
+--- a/data/gtk.portal.in
++++ b/data/gtk.portal.in
+@@ -1,4 +1,4 @@
+ [portal]
+ DBusName=org.freedesktop.impl.portal.desktop.gtk
+-Interfaces=org.freedesktop.impl.portal.FileChooser;org.freedesktop.impl.portal.AppChooser;org.freedesktop.impl.portal.Print;org.freedesktop.impl.portal.Screenshot;org.freedesktop.impl.portal.Notification;org.freedesktop.impl.portal.Inhibit;org.freedesktop.impl.portal.Access;org.freedesktop.impl.portal.Account;org.freedesktop.impl.portal.Email;org.freedesktop.impl.portal.ScreenCast;org.freedesktop.impl.portal.RemoteDesktop;org.freedesktop.impl.portal.Lockdown;org.freedesktop.impl.portal.Background;org.freedesktop.impl.portal.Settings;@wallpaper_iface@
++Interfaces=org.freedesktop.impl.portal.FileChooser;org.freedesktop.impl.portal.AppChooser;org.freedesktop.impl.portal.Print;@screenshot_iface@org.freedesktop.impl.portal.Notification;org.freedesktop.impl.portal.Inhibit;org.freedesktop.impl.portal.Access;org.freedesktop.impl.portal.Account;org.freedesktop.impl.portal.Email;org.freedesktop.impl.portal.ScreenCast;org.freedesktop.impl.portal.RemoteDesktop;org.freedesktop.impl.portal.Lockdown;org.freedesktop.impl.portal.Background;org.freedesktop.impl.portal.Settings;@wallpaper_iface@
+ UseIn=gnome
+diff --git a/src/Makefile.am.inc b/src/Makefile.am.inc
+index c349d20..75bd1ed 100644
+--- a/src/Makefile.am.inc
++++ b/src/Makefile.am.inc
+@@ -6,6 +6,11 @@ if BUILD_WALLPAPER
+         WALLPAPER_IFACE=$(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Wallpaper.xml
+ endif
+ 
++if BUILD_SCREENSHOT
++        SCREENSHOT_IFACE=$(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Screenshot.xml
++        SHELL_SCREENSHOT_IFACE=$(top_srcdir)/data/org.gnome.Shell.Screenshot.xml
++endif
++
+ $(dbus_built_sources): src/Makefile.am.inc
+ 	$(AM_V_GEN) $(GDBUS_CODEGEN)			\
+ 	--interface-prefix org.freedesktop.impl.portal.	\
+@@ -17,7 +22,6 @@ $(dbus_built_sources): src/Makefile.am.inc
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.FileChooser.xml \
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.AppChooser.xml \
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Print.xml \
+-	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Screenshot.xml \
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Notification.xml \
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Inhibit.xml \
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Access.xml \
+@@ -29,6 +33,7 @@ $(dbus_built_sources): src/Makefile.am.inc
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Background.xml \
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Settings.xml \
+ 	 $(WALLPAPER_IFACE) \
++         $(SCREENSHOT_IFACE) \
+ 	$(NULL)
+ 
+ shell_built_sources = src/shell-dbus.c src/shell-dbus.h
+@@ -41,7 +46,6 @@ $(shell_built_sources): src/Makefile.am.inc
+ 	$(top_srcdir)/data/org.gnome.Mutter.DisplayConfig.xml	        \
+ 	$(top_srcdir)/data/org.gnome.Mutter.ScreenCast.xml	        \
+ 	$(top_srcdir)/data/org.gnome.Mutter.RemoteDesktop.xml	        \
+-	$(top_srcdir)/data/org.gnome.Shell.Screenshot.xml	        \
+ 	$(top_srcdir)/data/org.gnome.Shell.Introspect.xml	        \
+ 	$(top_srcdir)/data/org.gtk.Notifications.xml			\
+ 	$(top_srcdir)/data/org.gnome.SessionManager.xml		        \
+@@ -49,6 +53,7 @@ $(shell_built_sources): src/Makefile.am.inc
+ 	$(top_srcdir)/data/org.freedesktop.ScreenSaver.xml		\
+ 	$(top_srcdir)/data/org.freedesktop.Accounts.xml		        \
+ 	$(top_srcdir)/data/org.freedesktop.Accounts.User.xml            \
++        $(SHELL_SCREENSHOT_IFACE)                                       \
+ 	$(NULL)
+ 
+ resource_files = $(shell $(GLIB_COMPILE_RESOURCES) --sourcedir=$(top_srcdir)/src --generate-dependencies $(top_srcdir)/src/xdg-desktop-portal-gtk.gresource.xml)
+@@ -99,10 +104,6 @@ xdg_desktop_portal_gtk_SOURCES = \
+ 	src/appchooserrow.c			\
+ 	src/appchooserdialog.h		        \
+ 	src/appchooserdialog.c		        \
+-	src/screenshot.h			\
+-	src/screenshot.c			\
+-	src/screenshotdialog.h		        \
+-	src/screenshotdialog.c		        \
+ 	src/print.h				\
+ 	src/print.c				\
+ 	src/access.h				\
+@@ -154,6 +155,15 @@ xdg_desktop_portal_gtk_SOURCES += \
+ 	$(NULL)
+ endif
+ 
++if BUILD_SCREENSHOT
++xdg_desktop_portal_gtk_SOURCES += \
++	src/screenshot.h			\
++	src/screenshot.c			\
++	src/screenshotdialog.h		        \
++	src/screenshotdialog.c		        \
++	$(NULL)
++endif
++
+ nodist_xdg_desktop_portal_gtk_SOURCES = \
+ 	src/resources.c				\
+ 	$(dbus_built_sources)			\
+diff --git a/src/xdg-desktop-portal-gtk.c b/src/xdg-desktop-portal-gtk.c
+index a5507bc..a109e58 100644
+--- a/src/xdg-desktop-portal-gtk.c
++++ b/src/xdg-desktop-portal-gtk.c
+@@ -44,7 +44,11 @@
+ #include "filechooser.h"
+ #include "appchooser.h"
+ #include "print.h"
++
++#ifdef BUILD_SCREENSHOT
+ #include "screenshot.h"
++#endif
++
+ #include "notification.h"
+ #include "inhibit.h"
+ #include "access.h"
+@@ -127,11 +131,13 @@ on_bus_acquired (GDBusConnection *connection,
+       g_clear_error (&error);
+     }
+ 
++#ifdef BUILD_SCREENSHOT
+   if (!screenshot_init (connection, &error))
+     {
+       g_warning ("error: %s\n", error->message);
+       g_clear_error (&error);
+     }
++#endif
+ 
+   if (!notification_init (connection, &error))
+     {
+
+From b80392fc7bd1ad05d931ee72b87935dad85a9c2e Mon Sep 17 00:00:00 2001
+From: Matthias Clasen <mclasen@redhat.com>
+Date: Sun, 6 Jun 2021 16:29:04 -0400
+Subject: [PATCH 3/7] Build screencast and remote desktop portals conditionall
+
+Another step towards allowing to build a gnome-free
+xdg-desktop-portal-gtk.
+---
+ configure.ac                 |  8 ++++++
+ data/Makefile.am.inc         |  7 +++++
+ data/gtk.portal.in           |  2 +-
+ src/Makefile.am.inc          | 51 ++++++++++++++++++++++--------------
+ src/xdg-desktop-portal-gtk.c |  6 +++++
+ 5 files changed, 54 insertions(+), 20 deletions(-)
+
+diff --git a/configure.ac b/configure.ac
+index a34f66b..aef8064 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -74,6 +74,14 @@ if test x$enable_screenshot = xyes; then
+ fi
+ AM_CONDITIONAL([BUILD_SCREENSHOT],[test "$enable_screenshot" = "yes"])
+ 
++AC_ARG_ENABLE(screencast,
++              [AS_HELP_STRING([--enable-screencast],[Build screencast and remote desktop portals. Needs mutter])],
++              enable_screencast=$enableval, enable_screencast=yes)
++if test x$enable_screencast = xyes; then
++    AC_DEFINE([BUILD_SCREENCAST], [1], [Define to enable screencast portal])
++fi
++AM_CONDITIONAL([BUILD_SCREENCAST],[test "$enable_screencast" = "yes"])
++
+ PKG_CHECK_MODULES(GTK, [xdg-desktop-portal >= 1.5 glib-2.0 >= 2.44 gio-unix-2.0 gtk+-3.0 >= 3.14 gtk+-unix-print-3.0 fontconfig gsettings-desktop-schemas])
+ AC_SUBST(GTK_CFLAGS)
+ AC_SUBST(GTK_LIBS)
+diff --git a/data/Makefile.am.inc b/data/Makefile.am.inc
+index 87336bd..7839eae 100644
+--- a/data/Makefile.am.inc
++++ b/data/Makefile.am.inc
+@@ -6,9 +6,16 @@ if BUILD_SCREENSHOT
+ screenshot_iface = org.freedesktop.impl.portal.Screenshot;
+ endif
+ 
++if BUILD_SCREENCAST
++screencast_iface = org.freedesktop.impl.portal.ScreenCast;
++remotedesktop_iface = org.freedesktop.impl.portal.RemoteDesktop;
++endif
++
+ %.portal: data/%.portal.in config.log
+ 	$(AM_V_GEN) $(SED) -e "s|\@wallpaper_iface\@|$(wallpaper_iface)|" \
+ 			   -e "s|\@screenshot_iface\@|$(screenshot_iface)|" \
++			   -e "s|\@screencast_iface\@|$(screencast_iface)|" \
++			   -e "s|\@remotedesktop_iface\@|$(remotedesktop_iface)|" \
+ 			   $< > $@
+ 
+ portaldir = $(datadir)/xdg-desktop-portal/portals
+diff --git a/data/gtk.portal.in b/data/gtk.portal.in
+index 8190dc0..3581967 100644
+--- a/data/gtk.portal.in
++++ b/data/gtk.portal.in
+@@ -1,4 +1,4 @@
+ [portal]
+ DBusName=org.freedesktop.impl.portal.desktop.gtk
+-Interfaces=org.freedesktop.impl.portal.FileChooser;org.freedesktop.impl.portal.AppChooser;org.freedesktop.impl.portal.Print;@screenshot_iface@org.freedesktop.impl.portal.Notification;org.freedesktop.impl.portal.Inhibit;org.freedesktop.impl.portal.Access;org.freedesktop.impl.portal.Account;org.freedesktop.impl.portal.Email;org.freedesktop.impl.portal.ScreenCast;org.freedesktop.impl.portal.RemoteDesktop;org.freedesktop.impl.portal.Lockdown;org.freedesktop.impl.portal.Background;org.freedesktop.impl.portal.Settings;@wallpaper_iface@
++Interfaces=org.freedesktop.impl.portal.FileChooser;org.freedesktop.impl.portal.AppChooser;org.freedesktop.impl.portal.Print;@screenshot_iface@org.freedesktop.impl.portal.Notification;org.freedesktop.impl.portal.Inhibit;org.freedesktop.impl.portal.Access;org.freedesktop.impl.portal.Account;org.freedesktop.impl.portal.Email;@screencast_iface@@remotedesktop_iface@org.freedesktop.impl.portal.Lockdown;org.freedesktop.impl.portal.Background;org.freedesktop.impl.portal.Settings;@wallpaper_iface@
+ UseIn=gnome
+diff --git a/src/Makefile.am.inc b/src/Makefile.am.inc
+index 75bd1ed..94655ba 100644
+--- a/src/Makefile.am.inc
++++ b/src/Makefile.am.inc
+@@ -11,6 +11,14 @@ if BUILD_SCREENSHOT
+         SHELL_SCREENSHOT_IFACE=$(top_srcdir)/data/org.gnome.Shell.Screenshot.xml
+ endif
+ 
++if BUILD_SCREENCAST
++        SCREENCAST_IFACE=$(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.ScreenCast.xml
++        REMOTE_DESKTOP_IFACE=$(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.RemoteDesktop.xml
++        MUTTER_SCREENCAST_IFACE=$(top_srcdir)/data/org.gnome.Mutter.ScreenCast.xml
++        MUTTER_REMOTE_DESKTOP_IFACE=$(top_srcdir)/data/org.gnome.Mutter.RemoteDesktop.xml
++        MUTTER_DISPLAYCONFIG_IFACE=$(top_srcdir)/data/org.gnome.Mutter.DisplayConfig.xml
++endif
++
+ $(dbus_built_sources): src/Makefile.am.inc
+ 	$(AM_V_GEN) $(GDBUS_CODEGEN)			\
+ 	--interface-prefix org.freedesktop.impl.portal.	\
+@@ -27,13 +35,13 @@ $(dbus_built_sources): src/Makefile.am.inc
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Access.xml \
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Account.xml \
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Email.xml \
+-	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.ScreenCast.xml \
+-	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.RemoteDesktop.xml \
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Lockdown.xml \
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Background.xml \
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Settings.xml \
+ 	 $(WALLPAPER_IFACE) \
+          $(SCREENSHOT_IFACE) \
++         $(SCREENCAST_IFACE) \
++         $(REMOTE_DESKTOP_IFACE) \
+ 	$(NULL)
+ 
+ shell_built_sources = src/shell-dbus.c src/shell-dbus.h
+@@ -43,9 +51,6 @@ CLEANFILES += $(shell_built_sources)
+ $(shell_built_sources): src/Makefile.am.inc
+ 	$(AM_V_GEN) $(GDBUS_CODEGEN)			                \
+ 	--generate-c-code src/shell-dbus	                        \
+-	$(top_srcdir)/data/org.gnome.Mutter.DisplayConfig.xml	        \
+-	$(top_srcdir)/data/org.gnome.Mutter.ScreenCast.xml	        \
+-	$(top_srcdir)/data/org.gnome.Mutter.RemoteDesktop.xml	        \
+ 	$(top_srcdir)/data/org.gnome.Shell.Introspect.xml	        \
+ 	$(top_srcdir)/data/org.gtk.Notifications.xml			\
+ 	$(top_srcdir)/data/org.gnome.SessionManager.xml		        \
+@@ -54,6 +59,9 @@ $(shell_built_sources): src/Makefile.am.inc
+ 	$(top_srcdir)/data/org.freedesktop.Accounts.xml		        \
+ 	$(top_srcdir)/data/org.freedesktop.Accounts.User.xml            \
+         $(SHELL_SCREENSHOT_IFACE)                                       \
++        $(MUTTER_SCREENCAST_IFACE)                                      \
++        $(MUTTER_REMOTE_DESKTOP_IFACE)                                  \
++        $(MUTTER_DISPLAYCONFIG_IFACE)                                   \
+ 	$(NULL)
+ 
+ resource_files = $(shell $(GLIB_COMPILE_RESOURCES) --sourcedir=$(top_srcdir)/src --generate-dependencies $(top_srcdir)/src/xdg-desktop-portal-gtk.gresource.xml)
+@@ -118,20 +126,6 @@ xdg_desktop_portal_gtk_SOURCES = \
+         src/gtkbackports.c                      \
+ 	src/externalwindow.h			\
+ 	src/externalwindow.c			\
+-	src/screencast.c			\
+-	src/screencast.h			\
+-	src/screencastwidget.c			\
+-	src/screencastwidget.h			\
+-	src/screencastdialog.c			\
+-	src/screencastdialog.h			\
+-	src/gnomescreencast.c			\
+-	src/gnomescreencast.h			\
+-	src/remotedesktop.c			\
+-	src/remotedesktop.h			\
+-	src/remotedesktopdialog.c		\
+-	src/remotedesktopdialog.h		\
+-	src/displaystatetracker.c		\
+-	src/displaystatetracker.h		\
+ 	src/shellintrospect.c			\
+ 	src/shellintrospect.h			\
+ 	src/lockdown.c				\
+@@ -164,6 +158,25 @@ xdg_desktop_portal_gtk_SOURCES += \
+ 	$(NULL)
+ endif
+ 
++if BUILD_SCREENCAST
++xdg_desktop_portal_gtk_SOURCES += \
++	src/screencast.c			\
++	src/screencast.h			\
++	src/screencastwidget.c			\
++	src/screencastwidget.h			\
++	src/screencastdialog.c			\
++	src/screencastdialog.h			\
++	src/gnomescreencast.c			\
++	src/gnomescreencast.h			\
++	src/remotedesktop.c			\
++	src/remotedesktop.h			\
++	src/remotedesktopdialog.c		\
++	src/remotedesktopdialog.h		\
++	src/displaystatetracker.c		\
++	src/displaystatetracker.h		\
++	$(NULL)
++endif
++
+ nodist_xdg_desktop_portal_gtk_SOURCES = \
+ 	src/resources.c				\
+ 	$(dbus_built_sources)			\
+diff --git a/src/xdg-desktop-portal-gtk.c b/src/xdg-desktop-portal-gtk.c
+index a109e58..a26855b 100644
+--- a/src/xdg-desktop-portal-gtk.c
++++ b/src/xdg-desktop-portal-gtk.c
+@@ -54,8 +54,12 @@
+ #include "access.h"
+ #include "account.h"
+ #include "email.h"
++
++#ifdef BUILD_SCREENCAST
+ #include "screencast.h"
+ #include "remotedesktop.h"
++#endif
++
+ #include "lockdown.h"
+ #include "background.h"
+ #include "settings.h"
+@@ -169,6 +173,7 @@ on_bus_acquired (GDBusConnection *connection,
+       g_clear_error (&error);
+     }
+ 
++#ifdef BUILD_SCREENCAST
+   if (!screen_cast_init (connection, &error))
+     {
+       g_warning ("error: %s\n", error->message);
+@@ -180,6 +185,7 @@ on_bus_acquired (GDBusConnection *connection,
+       g_warning ("error: %s\n", error->message);
+       g_clear_error (&error);
+     }
++#endif
+ 
+   if (!lockdown_init (connection, &error))
+     {
+
+From 3811dd8b4067bac414037dc1c2b9fb2f2ea8e0a3 Mon Sep 17 00:00:00 2001
+From: Matthias Clasen <mclasen@redhat.com>
+Date: Sun, 6 Jun 2021 16:55:22 -0400
+Subject: [PATCH 4/7] Build the background portal conditionally
+
+Another step towards allowing to build a gnome-free
+xdg-desktop-portal-gtk.
+---
+ configure.ac                 |  8 ++++++++
+ data/Makefile.am.inc         |  5 +++++
+ data/gtk.portal.in           |  2 +-
+ src/Makefile.am.inc          | 37 ++++++++++++++++++++++++++++++------
+ src/xdg-desktop-portal-gtk.c |  6 ++++++
+ 5 files changed, 51 insertions(+), 7 deletions(-)
+
+diff --git a/configure.ac b/configure.ac
+index aef8064..9d470fa 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -82,6 +82,14 @@ if test x$enable_screencast = xyes; then
+ fi
+ AM_CONDITIONAL([BUILD_SCREENCAST],[test "$enable_screencast" = "yes"])
+ 
++AC_ARG_ENABLE(background,
++              [AS_HELP_STRING([--enable-background],[Build background portal. Needs gnome-shell])],
++              enable_background=$enableval, enable_background=yes)
++if test x$enable_background = xyes; then
++    AC_DEFINE([BUILD_BACKGROUND], [1], [Define to enable background portal])
++fi
++AM_CONDITIONAL([BUILD_BACKGROUND],[test "$enable_background" = "yes"])
++
+ PKG_CHECK_MODULES(GTK, [xdg-desktop-portal >= 1.5 glib-2.0 >= 2.44 gio-unix-2.0 gtk+-3.0 >= 3.14 gtk+-unix-print-3.0 fontconfig gsettings-desktop-schemas])
+ AC_SUBST(GTK_CFLAGS)
+ AC_SUBST(GTK_LIBS)
+diff --git a/data/Makefile.am.inc b/data/Makefile.am.inc
+index 7839eae..5b7af7d 100644
+--- a/data/Makefile.am.inc
++++ b/data/Makefile.am.inc
+@@ -11,11 +11,16 @@ screencast_iface = org.freedesktop.impl.portal.ScreenCast;
+ remotedesktop_iface = org.freedesktop.impl.portal.RemoteDesktop;
+ endif
+ 
++if BUILD_BACKGROUND
++background_iface = org.freedesktop.impl.portal.Background;
++endif
++
+ %.portal: data/%.portal.in config.log
+ 	$(AM_V_GEN) $(SED) -e "s|\@wallpaper_iface\@|$(wallpaper_iface)|" \
+ 			   -e "s|\@screenshot_iface\@|$(screenshot_iface)|" \
+ 			   -e "s|\@screencast_iface\@|$(screencast_iface)|" \
+ 			   -e "s|\@remotedesktop_iface\@|$(remotedesktop_iface)|" \
++			   -e "s|\@background_iface\@|$(background_iface)|" \
+ 			   $< > $@
+ 
+ portaldir = $(datadir)/xdg-desktop-portal/portals
+diff --git a/data/gtk.portal.in b/data/gtk.portal.in
+index 3581967..a73d783 100644
+--- a/data/gtk.portal.in
++++ b/data/gtk.portal.in
+@@ -1,4 +1,4 @@
+ [portal]
+ DBusName=org.freedesktop.impl.portal.desktop.gtk
+-Interfaces=org.freedesktop.impl.portal.FileChooser;org.freedesktop.impl.portal.AppChooser;org.freedesktop.impl.portal.Print;@screenshot_iface@org.freedesktop.impl.portal.Notification;org.freedesktop.impl.portal.Inhibit;org.freedesktop.impl.portal.Access;org.freedesktop.impl.portal.Account;org.freedesktop.impl.portal.Email;@screencast_iface@@remotedesktop_iface@org.freedesktop.impl.portal.Lockdown;org.freedesktop.impl.portal.Background;org.freedesktop.impl.portal.Settings;@wallpaper_iface@
++Interfaces=org.freedesktop.impl.portal.FileChooser;org.freedesktop.impl.portal.AppChooser;org.freedesktop.impl.portal.Print;@screenshot_iface@org.freedesktop.impl.portal.Notification;org.freedesktop.impl.portal.Inhibit;org.freedesktop.impl.portal.Access;org.freedesktop.impl.portal.Account;org.freedesktop.impl.portal.Email;@screencast_iface@@remotedesktop_iface@org.freedesktop.impl.portal.Lockdown;@background_iface@org.freedesktop.impl.portal.Settings;@wallpaper_iface@
+ UseIn=gnome
+diff --git a/src/Makefile.am.inc b/src/Makefile.am.inc
+index 94655ba..0163383 100644
+--- a/src/Makefile.am.inc
++++ b/src/Makefile.am.inc
+@@ -19,6 +19,16 @@ if BUILD_SCREENCAST
+         MUTTER_DISPLAYCONFIG_IFACE=$(top_srcdir)/data/org.gnome.Mutter.DisplayConfig.xml
+ endif
+ 
++if BUILD_BACKGROUND
++        BACKGROUND_IFACE=$(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Background.xml
++endif
++
++if BUILD_BACKGROUND
++        SHELL_INTROSPECT_IFACE=$(top_srcdir)/data/org.gnome.Shell.Introspect.xml
++else
++        SHELL_INTROSPECT_IFACE=$(top_srcdir)/data/org.gnome.Shell.Introspect.xml
++endif
++
+ $(dbus_built_sources): src/Makefile.am.inc
+ 	$(AM_V_GEN) $(GDBUS_CODEGEN)			\
+ 	--interface-prefix org.freedesktop.impl.portal.	\
+@@ -36,12 +46,12 @@ $(dbus_built_sources): src/Makefile.am.inc
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Account.xml \
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Email.xml \
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Lockdown.xml \
+-	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Background.xml \
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Settings.xml \
+ 	 $(WALLPAPER_IFACE) \
+          $(SCREENSHOT_IFACE) \
+          $(SCREENCAST_IFACE) \
+          $(REMOTE_DESKTOP_IFACE) \
++         $(BACKGROUND_IFACE) \
+ 	$(NULL)
+ 
+ shell_built_sources = src/shell-dbus.c src/shell-dbus.h
+@@ -51,7 +61,6 @@ CLEANFILES += $(shell_built_sources)
+ $(shell_built_sources): src/Makefile.am.inc
+ 	$(AM_V_GEN) $(GDBUS_CODEGEN)			                \
+ 	--generate-c-code src/shell-dbus	                        \
+-	$(top_srcdir)/data/org.gnome.Shell.Introspect.xml	        \
+ 	$(top_srcdir)/data/org.gtk.Notifications.xml			\
+ 	$(top_srcdir)/data/org.gnome.SessionManager.xml		        \
+ 	$(top_srcdir)/data/org.gnome.ScreenSaver.xml			\
+@@ -62,6 +71,7 @@ $(shell_built_sources): src/Makefile.am.inc
+         $(MUTTER_SCREENCAST_IFACE)                                      \
+         $(MUTTER_REMOTE_DESKTOP_IFACE)                                  \
+         $(MUTTER_DISPLAYCONFIG_IFACE)                                   \
++        $(SHELL_INTROSPECT_IFACE)                                       \
+ 	$(NULL)
+ 
+ resource_files = $(shell $(GLIB_COMPILE_RESOURCES) --sourcedir=$(top_srcdir)/src --generate-dependencies $(top_srcdir)/src/xdg-desktop-portal-gtk.gresource.xml)
+@@ -126,12 +136,8 @@ xdg_desktop_portal_gtk_SOURCES = \
+         src/gtkbackports.c                      \
+ 	src/externalwindow.h			\
+ 	src/externalwindow.c			\
+-	src/shellintrospect.c			\
+-	src/shellintrospect.h			\
+ 	src/lockdown.c				\
+ 	src/lockdown.h				\
+-        src/background.c                        \
+-        src/background.h                        \
+         src/fc-monitor.c                        \
+         src/fc-monitor.h                        \
+         src/settings.c                          \
+@@ -177,6 +183,25 @@ xdg_desktop_portal_gtk_SOURCES += \
+ 	$(NULL)
+ endif
+ 
++if BUILD_BACKGROUND
++xdg_desktop_portal_gtk_SOURCES += \
++        src/background.c                        \
++        src/background.h                        \
++	$(NULL)
++endif
++
++if BUILD_BACKGROUND
++xdg_desktop_portal_gtk_SOURCES += \
++	src/shellintrospect.c			\
++	src/shellintrospect.h			\
++	$(NULL)
++else
++xdg_desktop_portal_gtk_SOURCES += \
++	src/shellintrospect.c			\
++	src/shellintrospect.h			\
++	$(NULL)
++endif
++
+ nodist_xdg_desktop_portal_gtk_SOURCES = \
+ 	src/resources.c				\
+ 	$(dbus_built_sources)			\
+diff --git a/src/xdg-desktop-portal-gtk.c b/src/xdg-desktop-portal-gtk.c
+index a26855b..2f26583 100644
+--- a/src/xdg-desktop-portal-gtk.c
++++ b/src/xdg-desktop-portal-gtk.c
+@@ -61,7 +61,11 @@
+ #endif
+ 
+ #include "lockdown.h"
++
++#ifdef BUILD_BACKGROUND
+ #include "background.h"
++#endif
++
+ #include "settings.h"
+ 
+ #ifdef BUILD_WALLPAPER
+@@ -193,11 +197,13 @@ on_bus_acquired (GDBusConnection *connection,
+       g_clear_error (&error);
+     }
+ 
++#ifdef BUILD_BACKGROUND
+   if (!background_init (connection, &error))
+     {
+       g_warning ("error: %s\n", error->message);
+       g_clear_error (&error);
+     }
++#endif
+ 
+   if (!settings_init (connection, &error))
+     {
+
+From 5dcc1f0eddc46f1ae6ce4573279174be900bef9c Mon Sep 17 00:00:00 2001
+From: Matthias Clasen <mclasen@redhat.com>
+Date: Sun, 6 Jun 2021 17:10:27 -0400
+Subject: [PATCH 5/7] Build the settings portal conditionally
+
+Another step towards allowing to build a gnome-free
+xdg-desktop-portal-gtk.
+---
+ configure.ac                 | 11 ++++++++++-
+ data/Makefile.am.inc         |  5 +++++
+ data/gtk.portal.in           |  2 +-
+ src/Makefile.am.inc          | 27 ++++++++++++++++++++-------
+ src/xdg-desktop-portal-gtk.c |  4 ++++
+ 5 files changed, 40 insertions(+), 9 deletions(-)
+
+diff --git a/configure.ac b/configure.ac
+index 9d470fa..96a600a 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -90,7 +90,16 @@ if test x$enable_background = xyes; then
+ fi
+ AM_CONDITIONAL([BUILD_BACKGROUND],[test "$enable_background" = "yes"])
+ 
+-PKG_CHECK_MODULES(GTK, [xdg-desktop-portal >= 1.5 glib-2.0 >= 2.44 gio-unix-2.0 gtk+-3.0 >= 3.14 gtk+-unix-print-3.0 fontconfig gsettings-desktop-schemas])
++AC_ARG_ENABLE(settings,
++              [AS_HELP_STRING([--enable-settings],[Build settings portal. Needs dconf])],
++              enable_settings=$enableval, enable_settings=yes)
++if test x$enable_settings = xyes; then
++    PKG_CHECK_MODULES(SETTINGS, [fontconfig gsettings-desktop-schemas])
++    AC_DEFINE([BUILD_SETTINGS], [1], [Define to enable settings portal])
++fi
++AM_CONDITIONAL([BUILD_SETTINGS],[test "$enable_settings" = "yes"])
++
++PKG_CHECK_MODULES(GTK, [xdg-desktop-portal >= 1.5 glib-2.0 >= 2.44 gio-unix-2.0 gtk+-3.0 >= 3.14 gtk+-unix-print-3.0])
+ AC_SUBST(GTK_CFLAGS)
+ AC_SUBST(GTK_LIBS)
+ 
+diff --git a/data/Makefile.am.inc b/data/Makefile.am.inc
+index 5b7af7d..56bde55 100644
+--- a/data/Makefile.am.inc
++++ b/data/Makefile.am.inc
+@@ -15,12 +15,17 @@ if BUILD_BACKGROUND
+ background_iface = org.freedesktop.impl.portal.Background;
+ endif
+ 
++if BUILD_SETTINGS
++settings_iface = org.freedesktop.impl.portal.Settings;
++endif
++
+ %.portal: data/%.portal.in config.log
+ 	$(AM_V_GEN) $(SED) -e "s|\@wallpaper_iface\@|$(wallpaper_iface)|" \
+ 			   -e "s|\@screenshot_iface\@|$(screenshot_iface)|" \
+ 			   -e "s|\@screencast_iface\@|$(screencast_iface)|" \
+ 			   -e "s|\@remotedesktop_iface\@|$(remotedesktop_iface)|" \
+ 			   -e "s|\@background_iface\@|$(background_iface)|" \
++			   -e "s|\@settings_iface\@|$(settings_iface)|" \
+ 			   $< > $@
+ 
+ portaldir = $(datadir)/xdg-desktop-portal/portals
+diff --git a/data/gtk.portal.in b/data/gtk.portal.in
+index a73d783..a1c274b 100644
+--- a/data/gtk.portal.in
++++ b/data/gtk.portal.in
+@@ -1,4 +1,4 @@
+ [portal]
+ DBusName=org.freedesktop.impl.portal.desktop.gtk
+-Interfaces=org.freedesktop.impl.portal.FileChooser;org.freedesktop.impl.portal.AppChooser;org.freedesktop.impl.portal.Print;@screenshot_iface@org.freedesktop.impl.portal.Notification;org.freedesktop.impl.portal.Inhibit;org.freedesktop.impl.portal.Access;org.freedesktop.impl.portal.Account;org.freedesktop.impl.portal.Email;@screencast_iface@@remotedesktop_iface@org.freedesktop.impl.portal.Lockdown;@background_iface@org.freedesktop.impl.portal.Settings;@wallpaper_iface@
++Interfaces=org.freedesktop.impl.portal.FileChooser;org.freedesktop.impl.portal.AppChooser;org.freedesktop.impl.portal.Print;@screenshot_iface@org.freedesktop.impl.portal.Notification;org.freedesktop.impl.portal.Inhibit;org.freedesktop.impl.portal.Access;org.freedesktop.impl.portal.Account;org.freedesktop.impl.portal.Email;@screencast_iface@@remotedesktop_iface@org.freedesktop.impl.portal.Lockdown;@background_iface@@settings_iface@@wallpaper_iface@
+ UseIn=gnome
+diff --git a/src/Makefile.am.inc b/src/Makefile.am.inc
+index 0163383..de98c50 100644
+--- a/src/Makefile.am.inc
++++ b/src/Makefile.am.inc
+@@ -23,11 +23,17 @@ if BUILD_BACKGROUND
+         BACKGROUND_IFACE=$(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Background.xml
+ endif
+ 
++if BUILD_SETTINGS
++        SETTINGS_IFACE=$(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Settings.xml
++endif
++
+ if BUILD_BACKGROUND
+         SHELL_INTROSPECT_IFACE=$(top_srcdir)/data/org.gnome.Shell.Introspect.xml
+ else
++if BUILD_SETTINGS
+         SHELL_INTROSPECT_IFACE=$(top_srcdir)/data/org.gnome.Shell.Introspect.xml
+ endif
++endif
+ 
+ $(dbus_built_sources): src/Makefile.am.inc
+ 	$(AM_V_GEN) $(GDBUS_CODEGEN)			\
+@@ -46,12 +52,12 @@ $(dbus_built_sources): src/Makefile.am.inc
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Account.xml \
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Email.xml \
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Lockdown.xml \
+-	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Settings.xml \
+ 	 $(WALLPAPER_IFACE) \
+          $(SCREENSHOT_IFACE) \
+          $(SCREENCAST_IFACE) \
+          $(REMOTE_DESKTOP_IFACE) \
+          $(BACKGROUND_IFACE) \
++         $(SETTINGS_IFACE) \
+ 	$(NULL)
+ 
+ shell_built_sources = src/shell-dbus.c src/shell-dbus.h
+@@ -138,10 +144,6 @@ xdg_desktop_portal_gtk_SOURCES = \
+ 	src/externalwindow.c			\
+ 	src/lockdown.c				\
+ 	src/lockdown.h				\
+-        src/fc-monitor.c                        \
+-        src/fc-monitor.h                        \
+-        src/settings.c                          \
+-        src/settings.h                          \
+ 	$(NULL)
+ 
+ if BUILD_WALLPAPER
+@@ -190,17 +192,28 @@ xdg_desktop_portal_gtk_SOURCES += \
+ 	$(NULL)
+ endif
+ 
++if BUILD_SETTINGS
++xdg_desktop_portal_gtk_SOURCES += \
++        src/fc-monitor.c                        \
++        src/fc-monitor.h                        \
++        src/settings.c                          \
++        src/settings.h                          \
++	$(NULL)
++endif
++
+ if BUILD_BACKGROUND
+ xdg_desktop_portal_gtk_SOURCES += \
+ 	src/shellintrospect.c			\
+ 	src/shellintrospect.h			\
+ 	$(NULL)
+ else
++if BUILD_SETTINGS
+ xdg_desktop_portal_gtk_SOURCES += \
+ 	src/shellintrospect.c			\
+ 	src/shellintrospect.h			\
+ 	$(NULL)
+ endif
++endif
+ 
+ nodist_xdg_desktop_portal_gtk_SOURCES = \
+ 	src/resources.c				\
+@@ -222,8 +235,8 @@ xdg_desktop_portal_gtk_SOURCES += \
+ 	$(NULL)
+ endif
+ 
+-xdg_desktop_portal_gtk_LDADD = $(BASE_LIBS) $(GTK_LIBS) $(GTK_X11_LIBS) $(WALLPAPER_LIBS)
+-xdg_desktop_portal_gtk_CFLAGS = $(BASE_CFLAGS) $(GTK_CFLAGS) $(GTK_X11_CFLAGS) $(WALLPAPER_CFLAGS)
++xdg_desktop_portal_gtk_LDADD = $(BASE_LIBS) $(GTK_LIBS) $(GTK_X11_LIBS) $(WALLPAPER_LIBS) $(SETTINGS_LIBS)
++xdg_desktop_portal_gtk_CFLAGS = $(BASE_CFLAGS) $(GTK_CFLAGS) $(GTK_X11_CFLAGS) $(WALLPAPER_CFLAGS) $(SETTINGS_CFLAGS)
+ xdg_desktop_portal_gtk_CPPFLAGS = \
+ 	-DGETTEXT_PACKAGE=\"$(GETTEXT_PACKAGE)\"        \
+ 	-DLOCALEDIR=\"$(localedir)\"                    \
+diff --git a/src/xdg-desktop-portal-gtk.c b/src/xdg-desktop-portal-gtk.c
+index 2f26583..b2d0df2 100644
+--- a/src/xdg-desktop-portal-gtk.c
++++ b/src/xdg-desktop-portal-gtk.c
+@@ -66,7 +66,9 @@
+ #include "background.h"
+ #endif
+ 
++#ifdef BUILD_SETTINGS
+ #include "settings.h"
++#endif
+ 
+ #ifdef BUILD_WALLPAPER
+ #include "wallpaper.h"
+@@ -205,11 +207,13 @@ on_bus_acquired (GDBusConnection *connection,
+     }
+ #endif
+ 
++#ifdef BUILD_SETTINGS
+   if (!settings_init (connection, &error))
+     {
+       g_warning ("error: %s\n", error->message);
+       g_clear_error (&error);
+     }
++#endif
+ 
+ #ifdef BUILD_WALLPAPER
+   if (!wallpaper_init (connection, &error))
+
+From 9ae5098887c48d70dfc3a004099900c716ebce16 Mon Sep 17 00:00:00 2001
+From: Matthias Clasen <mclasen@redhat.com>
+Date: Sun, 6 Jun 2021 17:18:26 -0400
+Subject: [PATCH 6/7] Build the appchooser portal conditionally
+
+Another step towards allowing to build a gnome-free
+xdg-desktop-portal-gtk.
+---
+ configure.ac                 |  8 ++++++++
+ data/Makefile.am.inc         |  5 +++++
+ data/gtk.portal.in           |  2 +-
+ src/Makefile.am.inc          | 23 ++++++++++++++++-------
+ src/xdg-desktop-portal-gtk.c |  6 ++++++
+ 5 files changed, 36 insertions(+), 8 deletions(-)
+
+diff --git a/configure.ac b/configure.ac
+index 96a600a..82989ac 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -99,6 +99,14 @@ if test x$enable_settings = xyes; then
+ fi
+ AM_CONDITIONAL([BUILD_SETTINGS],[test "$enable_settings" = "yes"])
+ 
++AC_ARG_ENABLE(appchooser,
++              [AS_HELP_STRING([--enable-appchooser],[Build appchooser portal.])],
++              enable_appchooser=$enableval, enable_appchooser=yes)
++if test x$enable_appchooser = xyes; then
++    AC_DEFINE([BUILD_APPCHOOSER], [1], [Define to enable appchooser portal])
++fi
++AM_CONDITIONAL([BUILD_APPCHOOSER],[test "$enable_appchooser" = "yes"])
++
+ PKG_CHECK_MODULES(GTK, [xdg-desktop-portal >= 1.5 glib-2.0 >= 2.44 gio-unix-2.0 gtk+-3.0 >= 3.14 gtk+-unix-print-3.0])
+ AC_SUBST(GTK_CFLAGS)
+ AC_SUBST(GTK_LIBS)
+diff --git a/data/Makefile.am.inc b/data/Makefile.am.inc
+index 56bde55..81e1715 100644
+--- a/data/Makefile.am.inc
++++ b/data/Makefile.am.inc
+@@ -19,6 +19,10 @@ if BUILD_SETTINGS
+ settings_iface = org.freedesktop.impl.portal.Settings;
+ endif
+ 
++if BUILD_APPCHOOSER
++appchooser_iface = org.freedesktop.impl.portal.AppChooser;
++endif
++
+ %.portal: data/%.portal.in config.log
+ 	$(AM_V_GEN) $(SED) -e "s|\@wallpaper_iface\@|$(wallpaper_iface)|" \
+ 			   -e "s|\@screenshot_iface\@|$(screenshot_iface)|" \
+@@ -26,6 +30,7 @@ endif
+ 			   -e "s|\@remotedesktop_iface\@|$(remotedesktop_iface)|" \
+ 			   -e "s|\@background_iface\@|$(background_iface)|" \
+ 			   -e "s|\@settings_iface\@|$(settings_iface)|" \
++			   -e "s|\@appchooser_iface\@|$(appchooser_iface)|" \
+ 			   $< > $@
+ 
+ portaldir = $(datadir)/xdg-desktop-portal/portals
+diff --git a/data/gtk.portal.in b/data/gtk.portal.in
+index a1c274b..4eb10ed 100644
+--- a/data/gtk.portal.in
++++ b/data/gtk.portal.in
+@@ -1,4 +1,4 @@
+ [portal]
+ DBusName=org.freedesktop.impl.portal.desktop.gtk
+-Interfaces=org.freedesktop.impl.portal.FileChooser;org.freedesktop.impl.portal.AppChooser;org.freedesktop.impl.portal.Print;@screenshot_iface@org.freedesktop.impl.portal.Notification;org.freedesktop.impl.portal.Inhibit;org.freedesktop.impl.portal.Access;org.freedesktop.impl.portal.Account;org.freedesktop.impl.portal.Email;@screencast_iface@@remotedesktop_iface@org.freedesktop.impl.portal.Lockdown;@background_iface@@settings_iface@@wallpaper_iface@
++Interfaces=org.freedesktop.impl.portal.FileChooser;@appchooser_iface@org.freedesktop.impl.portal.Print;@screenshot_iface@org.freedesktop.impl.portal.Notification;org.freedesktop.impl.portal.Inhibit;org.freedesktop.impl.portal.Access;org.freedesktop.impl.portal.Account;org.freedesktop.impl.portal.Email;@screencast_iface@@remotedesktop_iface@org.freedesktop.impl.portal.Lockdown;@background_iface@@settings_iface@@wallpaper_iface@
+ UseIn=gnome
+diff --git a/src/Makefile.am.inc b/src/Makefile.am.inc
+index de98c50..408d81d 100644
+--- a/src/Makefile.am.inc
++++ b/src/Makefile.am.inc
+@@ -35,6 +35,10 @@ if BUILD_SETTINGS
+ endif
+ endif
+ 
++if BUILD_APPCHOOSER
++        APPCHOOSER_IFACE=$(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.AppChooser.xml
++endif
++
+ $(dbus_built_sources): src/Makefile.am.inc
+ 	$(AM_V_GEN) $(GDBUS_CODEGEN)			\
+ 	--interface-prefix org.freedesktop.impl.portal.	\
+@@ -44,7 +48,6 @@ $(dbus_built_sources): src/Makefile.am.inc
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Request.xml \
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Session.xml \
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.FileChooser.xml \
+-	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.AppChooser.xml \
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Print.xml \
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Notification.xml \
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Inhibit.xml \
+@@ -58,6 +61,7 @@ $(dbus_built_sources): src/Makefile.am.inc
+          $(REMOTE_DESKTOP_IFACE) \
+          $(BACKGROUND_IFACE) \
+          $(SETTINGS_IFACE) \
++         $(APPCHOOSER_IFACE) \
+ 	$(NULL)
+ 
+ shell_built_sources = src/shell-dbus.c src/shell-dbus.h
+@@ -116,18 +120,12 @@ xdg_desktop_portal_gtk_SOURCES = \
+ 	src/session.h	        		\
+ 	src/filechooser.h			\
+ 	src/filechooser.c			\
+-	src/appchooser.h			\
+-	src/appchooser.c			\
+ 	src/notification.h			\
+ 	src/notification.c			\
+ 	src/fdonotification.h			\
+ 	src/fdonotification.c			\
+ 	src/inhibit.h			        \
+ 	src/inhibit.c			        \
+-	src/appchooserrow.h			\
+-	src/appchooserrow.c			\
+-	src/appchooserdialog.h		        \
+-	src/appchooserdialog.c		        \
+ 	src/print.h				\
+ 	src/print.c				\
+ 	src/access.h				\
+@@ -215,6 +213,17 @@ xdg_desktop_portal_gtk_SOURCES += \
+ endif
+ endif
+ 
++if BUILD_APPCHOOSER
++xdg_desktop_portal_gtk_SOURCES += \
++	src/appchooser.h			\
++	src/appchooser.c			\
++	src/appchooserrow.h			\
++	src/appchooserrow.c			\
++	src/appchooserdialog.h		        \
++	src/appchooserdialog.c		        \
++	$(NULL)
++endif
++
+ nodist_xdg_desktop_portal_gtk_SOURCES = \
+ 	src/resources.c				\
+ 	$(dbus_built_sources)			\
+diff --git a/src/xdg-desktop-portal-gtk.c b/src/xdg-desktop-portal-gtk.c
+index b2d0df2..4cc7c76 100644
+--- a/src/xdg-desktop-portal-gtk.c
++++ b/src/xdg-desktop-portal-gtk.c
+@@ -42,7 +42,11 @@
+ 
+ #include "request.h"
+ #include "filechooser.h"
++
++#ifdef BUILD_APPCHOOSER
+ #include "appchooser.h"
++#endif
++
+ #include "print.h"
+ 
+ #ifdef BUILD_SCREENSHOT
+@@ -129,11 +133,13 @@ on_bus_acquired (GDBusConnection *connection,
+       g_clear_error (&error);
+     }
+ 
++#ifdef BUILD_APPCHOOSER
+   if (!app_chooser_init (connection, &error))
+     {
+       g_warning ("error: %s\n", error->message);
+       g_clear_error (&error);
+     }
++#endif
+ 
+   if (!print_init (connection, &error))
+     {
+
+From be1ce3f16f99dda957d60258f73ccbf1e9cbb683 Mon Sep 17 00:00:00 2001
+From: Matthias Clasen <mclasen@redhat.com>
+Date: Sun, 6 Jun 2021 17:24:04 -0400
+Subject: [PATCH 7/7] Build lockdown portal conditionally
+
+Another step towards allowing to build a gnome-free
+xdg-desktop-portal-gtk.
+---
+ configure.ac                 |  8 ++++++++
+ data/Makefile.am.inc         |  5 +++++
+ data/gtk.portal.in           |  2 +-
+ src/Makefile.am.inc          | 15 ++++++++++++---
+ src/xdg-desktop-portal-gtk.c |  4 ++++
+ 5 files changed, 30 insertions(+), 4 deletions(-)
+
+diff --git a/configure.ac b/configure.ac
+index 82989ac..24eb6a2 100644
+--- a/configure.ac
++++ b/configure.ac
+@@ -107,6 +107,14 @@ if test x$enable_appchooser = xyes; then
+ fi
+ AM_CONDITIONAL([BUILD_APPCHOOSER],[test "$enable_appchooser" = "yes"])
+ 
++AC_ARG_ENABLE(lockdown,
++              [AS_HELP_STRING([--enable-lockdown],[Build lockdown portal.])],
++              enable_lockdown=$enableval, enable_lockdown=yes)
++if test x$enable_lockdown = xyes; then
++    AC_DEFINE([BUILD_LOCKDOWN], [1], [Define to enable lockdown portal])
++fi
++AM_CONDITIONAL([BUILD_LOCKDOWN],[test "$enable_lockdown" = "yes"])
++
+ PKG_CHECK_MODULES(GTK, [xdg-desktop-portal >= 1.5 glib-2.0 >= 2.44 gio-unix-2.0 gtk+-3.0 >= 3.14 gtk+-unix-print-3.0])
+ AC_SUBST(GTK_CFLAGS)
+ AC_SUBST(GTK_LIBS)
+diff --git a/data/Makefile.am.inc b/data/Makefile.am.inc
+index 81e1715..a846e64 100644
+--- a/data/Makefile.am.inc
++++ b/data/Makefile.am.inc
+@@ -23,6 +23,10 @@ if BUILD_APPCHOOSER
+ appchooser_iface = org.freedesktop.impl.portal.AppChooser;
+ endif
+ 
++if BUILD_LOCKDOWN
++lockdown_iface = org.freedesktop.impl.portal.Lockdown;
++endif
++
+ %.portal: data/%.portal.in config.log
+ 	$(AM_V_GEN) $(SED) -e "s|\@wallpaper_iface\@|$(wallpaper_iface)|" \
+ 			   -e "s|\@screenshot_iface\@|$(screenshot_iface)|" \
+@@ -31,6 +35,7 @@ endif
+ 			   -e "s|\@background_iface\@|$(background_iface)|" \
+ 			   -e "s|\@settings_iface\@|$(settings_iface)|" \
+ 			   -e "s|\@appchooser_iface\@|$(appchooser_iface)|" \
++			   -e "s|\@lockdown_iface\@|$(lockdown_iface)|" \
+ 			   $< > $@
+ 
+ portaldir = $(datadir)/xdg-desktop-portal/portals
+diff --git a/data/gtk.portal.in b/data/gtk.portal.in
+index 4eb10ed..c235e52 100644
+--- a/data/gtk.portal.in
++++ b/data/gtk.portal.in
+@@ -1,4 +1,4 @@
+ [portal]
+ DBusName=org.freedesktop.impl.portal.desktop.gtk
+-Interfaces=org.freedesktop.impl.portal.FileChooser;@appchooser_iface@org.freedesktop.impl.portal.Print;@screenshot_iface@org.freedesktop.impl.portal.Notification;org.freedesktop.impl.portal.Inhibit;org.freedesktop.impl.portal.Access;org.freedesktop.impl.portal.Account;org.freedesktop.impl.portal.Email;@screencast_iface@@remotedesktop_iface@org.freedesktop.impl.portal.Lockdown;@background_iface@@settings_iface@@wallpaper_iface@
++Interfaces=org.freedesktop.impl.portal.FileChooser;@appchooser_iface@org.freedesktop.impl.portal.Print;@screenshot_iface@org.freedesktop.impl.portal.Notification;org.freedesktop.impl.portal.Inhibit;org.freedesktop.impl.portal.Access;org.freedesktop.impl.portal.Account;org.freedesktop.impl.portal.Email;@screencast_iface@@remotedesktop_iface@@lockdown_iface@@background_iface@@settings_iface@@wallpaper_iface@
+ UseIn=gnome
+diff --git a/src/Makefile.am.inc b/src/Makefile.am.inc
+index 408d81d..097ebe7 100644
+--- a/src/Makefile.am.inc
++++ b/src/Makefile.am.inc
+@@ -39,6 +39,10 @@ if BUILD_APPCHOOSER
+         APPCHOOSER_IFACE=$(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.AppChooser.xml
+ endif
+ 
++if BUILD_LOCKDOWN
++        LOCKDOWN_IFACE=$(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Lockdown.xml
++endif
++
+ $(dbus_built_sources): src/Makefile.am.inc
+ 	$(AM_V_GEN) $(GDBUS_CODEGEN)			\
+ 	--interface-prefix org.freedesktop.impl.portal.	\
+@@ -54,7 +58,6 @@ $(dbus_built_sources): src/Makefile.am.inc
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Access.xml \
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Account.xml \
+ 	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Email.xml \
+-	 $(DESKTOP_PORTAL_INTERFACES_DIR)/org.freedesktop.impl.portal.Lockdown.xml \
+ 	 $(WALLPAPER_IFACE) \
+          $(SCREENSHOT_IFACE) \
+          $(SCREENCAST_IFACE) \
+@@ -62,6 +65,7 @@ $(dbus_built_sources): src/Makefile.am.inc
+          $(BACKGROUND_IFACE) \
+          $(SETTINGS_IFACE) \
+          $(APPCHOOSER_IFACE) \
++         $(LOCKDOWN_IFACE) \
+ 	$(NULL)
+ 
+ shell_built_sources = src/shell-dbus.c src/shell-dbus.h
+@@ -140,8 +144,6 @@ xdg_desktop_portal_gtk_SOURCES = \
+         src/gtkbackports.c                      \
+ 	src/externalwindow.h			\
+ 	src/externalwindow.c			\
+-	src/lockdown.c				\
+-	src/lockdown.h				\
+ 	$(NULL)
+ 
+ if BUILD_WALLPAPER
+@@ -224,6 +226,13 @@ xdg_desktop_portal_gtk_SOURCES += \
+ 	$(NULL)
+ endif
+ 
++if BUILD_LOCKDOWN
++xdg_desktop_portal_gtk_SOURCES += \
++	src/lockdown.c				\
++	src/lockdown.h				\
++	$(NULL)
++endif
++
+ nodist_xdg_desktop_portal_gtk_SOURCES = \
+ 	src/resources.c				\
+ 	$(dbus_built_sources)			\
+diff --git a/src/xdg-desktop-portal-gtk.c b/src/xdg-desktop-portal-gtk.c
+index 4cc7c76..f8f6757 100644
+--- a/src/xdg-desktop-portal-gtk.c
++++ b/src/xdg-desktop-portal-gtk.c
+@@ -64,7 +64,9 @@
+ #include "remotedesktop.h"
+ #endif
+ 
++#ifdef BUILD_LOCKDOWN
+ #include "lockdown.h"
++#endif
+ 
+ #ifdef BUILD_BACKGROUND
+ #include "background.h"
+@@ -199,11 +201,13 @@ on_bus_acquired (GDBusConnection *connection,
+     }
+ #endif
+ 
++#ifdef BUILD_LOCKDOWN
+   if (!lockdown_init (connection, &error))
+     {
+       g_warning ("error: %s\n", error->message);
+       g_clear_error (&error);
+     }
++#endif
+ 
+ #ifdef BUILD_BACKGROUND
+   if (!background_init (connection, &error))

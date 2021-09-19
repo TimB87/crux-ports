@@ -4,7 +4,6 @@ d:libmaxminddb
 d:python3-pyudev
 d:python3-pybluez
 d:libx86
-d:libportal
 d:python-evdev
 d:claws-mail
 d:grub2-theme-poly-light
@@ -19,7 +18,6 @@ d:ttf-font-icons
 d:go-mtpfs
 d:ttf-plex
 d:icon-slicer
-d:xdg-desktop-portal-wlr
 d:distcc
 d:zotero-bin
 d:read-edid
@@ -32,7 +30,6 @@ d:termite
 d:libetpan
 d:snappy
 d:php
-d:xdg-desktop-portal-gtk
 d:php-pgsql
 d:apcu
 d:pylibacl
@@ -44,7 +41,6 @@ d:libgd
 d:nextcloud
 d:libcmrt
 d:arc-kde-theme
-d:xdg-desktop-portal
 f:789838e10b9ebe13c664b3b134217355:kvantum-theme-arc/Pkgfile
 f:32fc89d9b5a924e130fcd533e803d47f:kvantum-theme-arc/.signature
 f:657f14bb505e108e2e68a841a9f21d26:kvantum-theme-arc/.footprint
@@ -64,9 +60,6 @@ f:8138fca59cfa9b0c008ab6a2d98015fa:libx86/.signature
 f:573897186eb8670d8d97c64ea7614001:libx86/libx86-ifmask.patch
 f:d9246bd88f6e1dc01fbd91fd16d6317e:libx86/Pkgfile
 f:ce2b2fa28ac815214f9c75ca394eff4b:libx86/.footprint
-f:cfc7702dcf6c3e8501b700f8ecd5d61c:libportal/.footprint
-f:1390890909449971d2bd9cca21374676:libportal/Pkgfile
-f:167249d143cd4ce3ee258868868976cb:libportal/.signature
 f:206ee67aeeab07dc50334686f8936f1f:python-evdev/.signature
 f:c4cd9626febb2b0cedd17500c0c4cad1:python-evdev/.footprint
 f:5fe47a9a68c05d0addc86a4797e70e38:python-evdev/Pkgfile
@@ -112,9 +105,6 @@ f:72c30ffb8f74bb40eff64862ae086ece:icon-slicer/Pkgfile
 f:83173b8c98cb800e54be41d5e2be868e:icon-slicer/.footprint
 f:a33c3150e135de6ab63059e0f8843522:icon-slicer/.signature
 f:1a0ec657e39c1c80bf94d346040a7c90:icon-slicer/hotspotfix.patch
-f:2501486e124342333a3d5216c996e137:xdg-desktop-portal-wlr/.footprint
-f:0b689c46aeec089af964b578679bc404:xdg-desktop-portal-wlr/Pkgfile
-f:1790b79b7d3c9e512607d70260b62bdf:xdg-desktop-portal-wlr/.signature
 f:0470cf77008b533384fa271e56bf2e06:distcc/Pkgfile
 f:b6c8c17c3562a83921861ba1420b353a:distcc/.signature
 f:3979bf20c74e22c0d4a9049a4120f0a8:distcc/.footprint
@@ -156,11 +146,6 @@ f:f8f4e8e9f4d810b48397be068a7ce8c1:snappy/Pkgfile
 f:76e01d5b569e7adce8ad3178adfee15f:php/Pkgfile
 f:21c6698682f6a994686f9b0bd7938d92:php/.footprint
 f:4730a0d46935a903a09cacc4ec969dbe:php/.signature
-f:5e40089a8f6d26e14492ffc809ef1a26:xdg-desktop-portal-gtk/gnome-free-portals.patch
-f:215748b73e89dc4e8ec72db2caddd9b3:xdg-desktop-portal-gtk/.signature
-f:3cb8f2a3f6cd38b432aa23f33b99b243:xdg-desktop-portal-gtk/build.diff
-f:9cdb126f66ce34a76a72b887e8beea38:xdg-desktop-portal-gtk/Pkgfile
-f:dcab9ebde3c07144d207f24cb479d6b7:xdg-desktop-portal-gtk/.footprint
 f:4bcff8c2fae56f50bf50bb9a3211205e:php-pgsql/.footprint
 f:581a14603ba7e2806c226d2c88e24b55:php-pgsql/.signature
 f:464be97d8ab8395c002ddeb3d570f05c:php-pgsql/Pkgfile
@@ -199,6 +184,3 @@ f:37d844993cfadf4bdb163827aa59351a:libcmrt/Pkgfile
 f:0aa5e0472eb6ed1e04e304f5847d3b00:arc-kde-theme/Pkgfile
 f:f761c800c4cac31a48e441a61ce65979:arc-kde-theme/.footprint
 f:f0d67e32efa4dd92600d355bd69e20b2:arc-kde-theme/.signature
-f:1b102c0ca6f2473406d087fb6d3a3cf8:xdg-desktop-portal/.signature
-f:e77bc0dab76408d219ed364e0e7f2308:xdg-desktop-portal/.footprint
-f:6b9c1cb79cc73b025c187999a3290a4f:xdg-desktop-portal/Pkgfile

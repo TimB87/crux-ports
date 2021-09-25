@@ -37,7 +37,6 @@ d:python-pybluez
 d:php-imagick
 d:colord
 d:gnome-themes-extra
-d:libgd
 d:nextcloud
 d:libcmrt
 d:arc-kde-theme
@@ -117,8 +116,8 @@ f:fb647e13d84f8d6fb7c9f48385df698b:zotero-bin/.signature
 f:8423cc24dd507e3f4be60badb53b6b34:read-edid/.signature
 f:10c7dd1a7f1fdf33783a2f3fda6068fa:read-edid/.footprint
 f:b0660ba9ca2d2502a2336550b672c8d1:read-edid/Pkgfile
-f:1f71412b5bbe01c5700ad2cbedbbd385:php-intl/Pkgfile
-f:b978bd99933d896e9d8ce3be9a017063:php-intl/.signature
+f:dab466600287eadc315c9923ee25ce2f:php-intl/Pkgfile
+f:f3ccb0dda029092f16df934a6ae0eca1:php-intl/.signature
 f:c5157587e260c79d378428d7424a96c2:php-intl/.footprint
 f:b89e20333e116a815bbc0cf6fcc21f06:python-psutil/Pkgfile
 f:cd7e6758c7b882903e5040f5f9a6edcc:python-psutil/.footprint
@@ -143,12 +142,12 @@ f:6cf53e7cc0581fafcd26eb3846a07a95:snappy/.footprint
 f:429ca9ea1b0200662722fdad2244ab87:snappy/snappy.pc
 f:64da7f5194f56d8a57dd4a87335f73b6:snappy/.signature
 f:f8f4e8e9f4d810b48397be068a7ce8c1:snappy/Pkgfile
-f:76e01d5b569e7adce8ad3178adfee15f:php/Pkgfile
+f:37b142561d941096fe5c8a6b255a0ba5:php/Pkgfile
 f:21c6698682f6a994686f9b0bd7938d92:php/.footprint
-f:4730a0d46935a903a09cacc4ec969dbe:php/.signature
+f:9375dd95579c3aa5ab7f528556eb5b9f:php/.signature
 f:4bcff8c2fae56f50bf50bb9a3211205e:php-pgsql/.footprint
-f:581a14603ba7e2806c226d2c88e24b55:php-pgsql/.signature
-f:464be97d8ab8395c002ddeb3d570f05c:php-pgsql/Pkgfile
+f:374b8dd4494d845748d2d23d6366013f:php-pgsql/.signature
+f:0675ba06d531506db3a5cd842759c667:php-pgsql/Pkgfile
 f:164ca046cc522dde7faec8547184deb4:apcu/Pkgfile
 f:c8541c6f67ae1748985ccee2b7ae8919:apcu/.footprint
 f:0a99818d2728ee8f3887ebd468c8cab2:apcu/.signature
@@ -170,9 +169,6 @@ f:6b067b8b01b13903f391b5cf44f11d18:colord/.signature
 f:a4f6b6756e89b8bdc3df944b2f855529:gnome-themes-extra/.footprint
 f:a33879a2ed46849ead114a9f7712dd58:gnome-themes-extra/Pkgfile
 f:362e09a14bce7c7522ccd0ed7c49289d:gnome-themes-extra/.signature
-f:5767f0b249b7b3ec0fe7ea6153590e92:libgd/.footprint
-f:dd43adf628ed10747c3d257c834042cc:libgd/.signature
-f:75f06c02c5fc62c381bb6457187cf506:libgd/Pkgfile
 f:82550854e53f0d4322a59258a93883d1:nextcloud/.footprint
 f:c8f9e7543dbf4efd5d963b781a69b584:nextcloud/Pkgfile
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README

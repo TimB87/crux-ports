@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwHBlajJjAA/QGGEpAKHB7HmesV35dnrfEePT2WAPJGOnyRJx041zCM6UbtbWZBnPabXx0oosj1EcEBTdLxstOQQ=
-SHA256 (Pkgfile) = b3a1850524cc738a0d31bf97d1ecabf0b503e9103f37fc841345b17249f6ca04
+RWSXjYMPO7mZwF6S8/A83T8xSupwdE3OfXhpkIpx+mpBYC1wXnG+w3GSris6cEnGTjpG385mEclDt454AMHJbflmD52vvRZaJAM=
+SHA256 (Pkgfile) = 837898a301597b56048f2201f13966c5f9b0996df9cf260113ce5b68303012af
 SHA256 (.footprint) = deb97609e89fd98523429a8de334778825a2f216e11536efaf17741258d6ac9d
-SHA256 (plex-v5.2.1.tar.gz) = 6b43a97a116a4beba474b9a9c646fb6ded8ba255fa8d3b252e669f67cbeb9d7f
+SHA256 (plex-v6.0.0.tar.gz) = e78cc68cb40ccca0318facade727a0deb32f73e931a2e31bb2fcaf8a6d386dff

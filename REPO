@@ -44,8 +44,8 @@ f:789838e10b9ebe13c664b3b134217355:kvantum-theme-arc/Pkgfile
 f:32fc89d9b5a924e130fcd533e803d47f:kvantum-theme-arc/.signature
 f:657f14bb505e108e2e68a841a9f21d26:kvantum-theme-arc/.footprint
 f:151e0496d7140054ae1b6c55f2ff3a53:cargo-make/.footprint
-f:9abfabc8a03b972326dd7850ca7309e9:cargo-make/Pkgfile
-f:d60d39a19853e43b2af3d60a494b077e:cargo-make/.signature
+f:a6e4dd055144fd8516d73792d6a9fe0e:cargo-make/Pkgfile
+f:02a3f6d80dc1258f91906a45e008fa32:cargo-make/.signature
 f:118ba6f3b2fad4c7f1a601ba1a12a1d1:libmaxminddb/.footprint
 f:d0e5baa69986c8cef622a7e4011ca552:libmaxminddb/Pkgfile
 f:3fc581cddfa800e6599309c6b3bd5e53:libmaxminddb/.signature
@@ -148,9 +148,9 @@ f:9375dd95579c3aa5ab7f528556eb5b9f:php/.signature
 f:4bcff8c2fae56f50bf50bb9a3211205e:php-pgsql/.footprint
 f:374b8dd4494d845748d2d23d6366013f:php-pgsql/.signature
 f:0675ba06d531506db3a5cd842759c667:php-pgsql/Pkgfile
-f:164ca046cc522dde7faec8547184deb4:apcu/Pkgfile
+f:58b129c0fa533532df7367cc40c82d0c:apcu/Pkgfile
 f:c8541c6f67ae1748985ccee2b7ae8919:apcu/.footprint
-f:0a99818d2728ee8f3887ebd468c8cab2:apcu/.signature
+f:be3d5d5c2458453c575dd38d964eb2e7:apcu/.signature
 f:91c075a9eb39aafa766aeeb114323b7f:pylibacl/.signature
 f:ccef02ef80adc2e128a19e6e98d7b932:pylibacl/.footprint
 f:d42a0f0464272366edeae499558f4ef6:pylibacl/Pkgfile

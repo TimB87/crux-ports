@@ -1,14 +1,18 @@
 # Description: python3 bindings for udev
 # URL: http://pyudev.readthedocs.io/en/latest/index.html
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: git python3-setuptools
+# Depends on: python3-setuptools
 
 name=python3-pyudev
-version=0.22
-release=1
-source=(https://github.com/pyudev/pyudev/archive/v$version/$name-$version.tar.gz)
+version=0.22.0
+release=2
+source=(https://pypi.python.org/packages/source/p/pyudev/pyudev-$version.tar.gz)
 
 build() {
-  cd ${name/python3-/}-$version
-  python3 setup.py install --root $PKG --optimize=1
+  cd pyudev-$version
+  /usr/bin/python3 setup.py build
+  /usr/bin/python3 setup.py install --prefix=/usr \
+    --root=$PKG \
+    -O1 \
+    --skip-build
 }

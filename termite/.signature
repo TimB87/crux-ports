@@ -1,7 +1,0 @@
-untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwHvJJLiav8EtdJYF4xmWSwfgsxIJkfTQk+UXCQmFryvE+D8yC7NeXhgXrVklPlFTpkywnavMF/9oDT4+Ob16kwk=
-SHA256 (Pkgfile) = 5ef0377278a3ca041223f5fcf3d68828e31d5e8d0c25767e00bc4c7b2364a38e
-SHA256 (.footprint) = b4df6cbb199f0b2d5c6e7edcf5ae813c0285396cf4a84d882c2e27a671ab5d1e
-SHA256 (termite-15.tar.gz) = 3ae9ebef28aad081c6c11351f086776e2fd9547563b2f900732b41c376bec05a
-SHA256 (vte3-ng-util-master-01.tar.gz) = a3da977849a2ddb406035540875bb0c69b65df106f4700fb9db1f46e7d11c220
-SHA256 (vte3-ng-0.56.2.a.tar.gz) = 28162f4318cb51a74070dbcc57b6900f7a1de2616cab843a2431fd5cb67fccb3

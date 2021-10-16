@@ -21,6 +21,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/iccdump
 -rwxr-xr-x	root/root	usr/bin/iccgamut
 -rwxr-xr-x	root/root	usr/bin/icclu
+-rwxr-xr-x	root/root	usr/bin/iccvcgt
 -rwxr-xr-x	root/root	usr/bin/illumread
 -rwxr-xr-x	root/root	usr/bin/invprofcheck
 -rwxr-xr-x	root/root	usr/bin/kodak2ti3
@@ -54,6 +55,7 @@ drwxr-xr-x	root/root	usr/share/argyllcms/ref/
 -rw-r--r--	root/root	usr/share/argyllcms/ref/ACES_P3.icm
 -rw-r--r--	root/root	usr/share/argyllcms/ref/CIE_C.sp
 -rw-r--r--	root/root	usr/share/argyllcms/ref/CMP_DT_003.cht
+-rw-r--r--	root/root	usr/share/argyllcms/ref/CMP_DT_mini.cht
 -rw-r--r--	root/root	usr/share/argyllcms/ref/CMP_Digital_Target-2019.cht
 -rw-r--r--	root/root	usr/share/argyllcms/ref/CMP_Digital_Target-4.cht
 -rw-r--r--	root/root	usr/share/argyllcms/ref/CMP_Digital_Target-4.cie
@@ -125,6 +127,7 @@ drwxr-xr-x	root/root	usr/share/argyllcms/ref/
 -rw-r--r--	root/root	usr/share/argyllcms/ref/i1_RGB_Scan_1.4.cht
 -rw-r--r--	root/root	usr/share/argyllcms/ref/i1_RGB_Scan_1.4.ti2
 -rw-r--r--	root/root	usr/share/argyllcms/ref/it8.cht
+-rw-r--r--	root/root	usr/share/argyllcms/ref/it8Wolf.cht
 -rw-r--r--	root/root	usr/share/argyllcms/ref/lab2lab.icm
 -rw-r--r--	root/root	usr/share/argyllcms/ref/linear.cal
 -rw-r--r--	root/root	usr/share/argyllcms/ref/sRGB.icm

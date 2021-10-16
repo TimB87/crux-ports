@@ -52,8 +52,8 @@ f:8138fca59cfa9b0c008ab6a2d98015fa:libx86/.signature
 f:573897186eb8670d8d97c64ea7614001:libx86/libx86-ifmask.patch
 f:d9246bd88f6e1dc01fbd91fd16d6317e:libx86/Pkgfile
 f:ce2b2fa28ac815214f9c75ca394eff4b:libx86/.footprint
-f:f97312d154096c436cc5ae492860da1f:python-evdev/.signature
-f:c4cd9626febb2b0cedd17500c0c4cad1:python-evdev/.footprint
+f:8101d9255e8cb692cc0069234f1ebd8b:python-evdev/.signature
+f:6d1759c93f27c790575ab9f5f156d5bf:python-evdev/.footprint
 f:2b0544b743562e6ad4a6c852d926ff93:python-evdev/Pkgfile
 f:7f0c2b58c8e4e509cfecdde5148a898a:grub2-theme-poly-light/.signature
 f:2512e110d4b94c257d80a38d1456249c:grub2-theme-poly-light/.footprint
@@ -121,8 +121,8 @@ f:0675ba06d531506db3a5cd842759c667:php-pgsql/Pkgfile
 f:58b129c0fa533532df7367cc40c82d0c:apcu/Pkgfile
 f:c8541c6f67ae1748985ccee2b7ae8919:apcu/.footprint
 f:be3d5d5c2458453c575dd38d964eb2e7:apcu/.signature
-f:4a4a35d12a3d6b4fa6b5afc2788ad626:pylibacl/.signature
-f:ccef02ef80adc2e128a19e6e98d7b932:pylibacl/.footprint
+f:95fdad0f805fa8292dcd4217c558cb9e:pylibacl/.signature
+f:23aa7955cdd8cc1114ff7ada87f6f8d6:pylibacl/.footprint
 f:70353ce86e0ca874bfa47a203242c6cb:pylibacl/Pkgfile
 f:97f8c324e249ac36e0ba2c4b1870bff3:php-imagick/.footprint
 f:c50c8889507c5c95940bd98b98e826de:php-imagick/imagick.patch

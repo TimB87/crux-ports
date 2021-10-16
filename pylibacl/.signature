@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwGUVDPbw/q8eVwML5lnR0Zc+npHMl4KlcwYGOF//Sqb7xg13SlzboBJ2rrkd4uHTjGiV0IPOhIkl3IQyVytBNwE=
-SHA256 (Pkgfile) = 7d537c77eeb79ebfdccf5415c82109599f11fb5abc340fb3518ba6180d6a1981
+RWSXjYMPO7mZwFXipQTMYMy/GjGlEWcrDrDaaZIaoF2+rKzhjS+KP7wZuVUW+P9s9Cj/ZTKTdsJBBvocD2F5HMBfMnSlO88eng4=
+SHA256 (Pkgfile) = 2f6a118d25a4672c29a6cc100d2bb972d8b8917ebd8c8879c50b3c9ce86e39a3
 SHA256 (.footprint) = fe696b129fcab6fa02e8ca25748944c247051c201d83e936bc0d2d24e363a65e
-SHA256 (pylibacl-0.5.3.tar.gz) = 40be9f1fc5de05e4c25505c45ad7cda61b3b8db5dd730e98b6d2c05574e07d30
+SHA256 (pylibacl-0.5.4.tar.gz) = 060f375aeff90a16fbc3a827b7e234694ad636485d8ecd6654e01e1fc4ea3b37

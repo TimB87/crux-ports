@@ -4,7 +4,7 @@
 # Depends on: python-setuptools
 
 name=pylibacl
-version=0.5.3
+version=0.5.4
 release=1
 source=(https://pylibacl.k1024.org/downloads/$name-$version.tar.gz)
 

@@ -1,15 +1,18 @@
 # Description: Python bindings for the Linux input subsystem
-# URL: https://github.com/gvalkov/python-evdev
+# URL: https://pypi.org/project/evdev/
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: python-setuptools
 
 name=python-evdev
-version=0.7.0
-release=1
-source=(https://github.com/gvalkov/python-evdev/archive/v$version/$name-$version.tar.gz)
+version=1.4.0
+release=2
+source=(https://pypi.python.org/packages/source/e/evdev/evdev-$version.tar.gz)
 
 build() {
-  cd $name-$version
-  /usr/bin/python setup.py build
-  /usr/bin/python setup.py install --root $PKG --optimize=1 --skip-build
+  cd evdev-$version
+  /usr/bin/python2 setup.py build
+  /usr/bin/python2 setup.py install --prefix=/usr \
+    --root=$PKG \
+    -O1 \
+    --skip-build
 }

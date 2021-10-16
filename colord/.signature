@@ -1,6 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwP2rzj/x9kVgW2/65UJZyR1OGWtTb8P5Z1hddNpOOIfEHvjwLv07CS5V7l+h0Gf+XG1bCAhM69r66395RJfknAQ=
-SHA256 (Pkgfile) = bb3218bc979e5300a343ec19ed6bc5e695cfd07fa05c814762346c21ad5837c9
+RWSXjYMPO7mZwEwOdzjHVy7rnYeZYBlVDxEeT7s0pF3pU53iaeHiVv/1nRrVMKB587OLi7YlJm06ytZZoBiMkRR9aazf8G0chwM=
+SHA256 (Pkgfile) = d00617849b804d2a4da5547e75b24c44335cac85d95b07738a35645ce5588a10
 SHA256 (.footprint) = 6d8cc50d0b50028e82e5a74f2929522b5be70231f2e90dae07986b231ad20442
-SHA256 (colord-1.4.4.tar.gz) = 26903ae44cb419390eb77aeb98ffad21bf1dbe2eb2e4c45e964414b0ad98d5ae
-SHA256 (0001-trivial-Fix-error-checking-for-sd_pid_get_session-an.patch) = 90df20f7962a24a97b92fcaa7178c263f4b00ba1e90ff2dc5efdb7e97873b3a1
+SHA256 (colord-1.4.5.tar.gz) = a193795229944151cab3fa4cb6f93faf4a4b2f282c88f586904e1978e514ab5b

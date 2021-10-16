@@ -4,12 +4,11 @@
 # Depends on: argyllcms dbus lcms2 libgudev libgusb polkit sane
 
 name=colord
-version=1.4.4
-release=2
-source=(https://github.com/hughsie/colord/archive/$version/$name-$version.tar.gz 0001-trivial-Fix-error-checking-for-sd_pid_get_session-an.patch)
+version=1.4.5
+release=1
+source=(https://github.com/hughsie/colord/archive/$version/$name-$version.tar.gz)
 
 build() {
-  patch -d $name-$version -Np1 -i $SRC/0001-trivial-Fix-error-checking-for-sd_pid_get_session-an.patch
   meson setup $name-$version build \
     --prefix=/usr \
     --libexecdir=/usr/lib/$name \

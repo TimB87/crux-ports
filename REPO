@@ -22,7 +22,6 @@ d:python-psutil
 d:ttf-font-awesome
 d:hunspell-de
 d:blueman
-d:snappy
 d:php
 d:php-pgsql
 d:apcu
@@ -37,8 +36,8 @@ f:789838e10b9ebe13c664b3b134217355:kvantum-theme-arc/Pkgfile
 f:32fc89d9b5a924e130fcd533e803d47f:kvantum-theme-arc/.signature
 f:657f14bb505e108e2e68a841a9f21d26:kvantum-theme-arc/.footprint
 f:151e0496d7140054ae1b6c55f2ff3a53:cargo-make/.footprint
-f:a6e4dd055144fd8516d73792d6a9fe0e:cargo-make/Pkgfile
-f:02a3f6d80dc1258f91906a45e008fa32:cargo-make/.signature
+f:f3a55b5269297c73ed2055016b260c7e:cargo-make/Pkgfile
+f:4e2e72d759ba5fbcac8864f16c49116b:cargo-make/.signature
 f:118ba6f3b2fad4c7f1a601ba1a12a1d1:libmaxminddb/.footprint
 f:d0e5baa69986c8cef622a7e4011ca552:libmaxminddb/Pkgfile
 f:3fc581cddfa800e6599309c6b3bd5e53:libmaxminddb/.signature
@@ -108,10 +107,6 @@ f:90c2e115b9668e89968b00a331210001:blueman/post-install
 f:60c999b297d7f5f3d2800067d7153e52:blueman/.footprint
 f:1f4a80238bfe53961d0c4c60a568fe45:blueman/Pkgfile
 f:62bf50d4c7f566dceb80bdbbe60e9bdf:blueman/.signature
-f:6cf53e7cc0581fafcd26eb3846a07a95:snappy/.footprint
-f:429ca9ea1b0200662722fdad2244ab87:snappy/snappy.pc
-f:64da7f5194f56d8a57dd4a87335f73b6:snappy/.signature
-f:f8f4e8e9f4d810b48397be068a7ce8c1:snappy/Pkgfile
 f:37b142561d941096fe5c8a6b255a0ba5:php/Pkgfile
 f:21c6698682f6a994686f9b0bd7938d92:php/.footprint
 f:9375dd95579c3aa5ab7f528556eb5b9f:php/.signature

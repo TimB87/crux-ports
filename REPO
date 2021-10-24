@@ -36,8 +36,8 @@ f:789838e10b9ebe13c664b3b134217355:kvantum-theme-arc/Pkgfile
 f:32fc89d9b5a924e130fcd533e803d47f:kvantum-theme-arc/.signature
 f:657f14bb505e108e2e68a841a9f21d26:kvantum-theme-arc/.footprint
 f:151e0496d7140054ae1b6c55f2ff3a53:cargo-make/.footprint
-f:f3a55b5269297c73ed2055016b260c7e:cargo-make/Pkgfile
-f:4e2e72d759ba5fbcac8864f16c49116b:cargo-make/.signature
+f:350a3c8aed12d18c0fcb8aced0ef8bc5:cargo-make/Pkgfile
+f:d3dfe173b10b8b15bb5628791f736cf5:cargo-make/.signature
 f:118ba6f3b2fad4c7f1a601ba1a12a1d1:libmaxminddb/.footprint
 f:d0e5baa69986c8cef622a7e4011ca552:libmaxminddb/Pkgfile
 f:3fc581cddfa800e6599309c6b3bd5e53:libmaxminddb/.signature

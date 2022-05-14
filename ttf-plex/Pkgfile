@@ -3,7 +3,7 @@
 # Maintainer: Tim Biermann, tbier at posteo dot de
 
 name=ttf-plex
-version=6.0.0
+version=6.0.1
 release=1
 source=(https://github.com/IBM/plex/archive/v$version/plex-v$version.tar.gz)
 

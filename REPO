@@ -131,10 +131,10 @@ f:b51106e5d34cbc91bbc333bafd7496ad:colord/.signature
 f:a4f6b6756e89b8bdc3df944b2f855529:gnome-themes-extra/.footprint
 f:a33879a2ed46849ead114a9f7712dd58:gnome-themes-extra/Pkgfile
 f:362e09a14bce7c7522ccd0ed7c49289d:gnome-themes-extra/.signature
-f:82550854e53f0d4322a59258a93883d1:nextcloud/.footprint
-f:c8f9e7543dbf4efd5d963b781a69b584:nextcloud/Pkgfile
+f:e2bbeab5f712f8b7d812e8f1563fc53c:nextcloud/.footprint
+f:b88ede072f383d186b7ca2df56d7f86a:nextcloud/Pkgfile
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README
-f:9d7ef136b507da7c7a1e88e5cae583ec:nextcloud/.signature
+f:e83855b60dd06968b83313f4ed5023d1:nextcloud/.signature
 f:e62427f53fea4bc79ee8bc158832a8f6:tb.pub
 f:0e40803b4346e52fc0a022b095c3658a:libcmrt/.signature
 f:ecc306f3344957262737de05abcf4bce:libcmrt/.footprint

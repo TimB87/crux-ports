@@ -105,8 +105,8 @@ f:d70815eeedac20ad5ff7e494e04124e5:hunspell-de/.footprint
 f:ff52cc806f66d64b25894cd356ab27b7:hunspell-de/.signature
 f:90c2e115b9668e89968b00a331210001:blueman/post-install
 f:80cc87f544c6b5d211776ee3b215eb12:blueman/.footprint
-f:bf630310b5de4de1f65bb70ed0bf3bc0:blueman/Pkgfile
-f:62cb65ba6ebfb561b97982b1097ac200:blueman/.signature
+f:6949792f6d89bd81ec1c0cc0aaa68418:blueman/Pkgfile
+f:17552ba373a89e3f8f349b6811c14b03:blueman/.signature
 f:50daa33af0875283b2ea0a53379ceb63:php/Pkgfile
 f:bcad1e30d8d462334ced505116c8d943:php/.footprint
 f:379e97ebc821427825f4a5fee33e63c3:php/.signature
@@ -139,6 +139,6 @@ f:e62427f53fea4bc79ee8bc158832a8f6:tb.pub
 f:0e40803b4346e52fc0a022b095c3658a:libcmrt/.signature
 f:ecc306f3344957262737de05abcf4bce:libcmrt/.footprint
 f:37d844993cfadf4bdb163827aa59351a:libcmrt/Pkgfile
-f:0aa5e0472eb6ed1e04e304f5847d3b00:arc-kde-theme/Pkgfile
-f:f761c800c4cac31a48e441a61ce65979:arc-kde-theme/.footprint
-f:f0d67e32efa4dd92600d355bd69e20b2:arc-kde-theme/.signature
+f:b3dc4e54e516a4358dc8bc4635a0202d:arc-kde-theme/Pkgfile
+f:909cc3cad21a25d9aaf9cb6b5c2212c3:arc-kde-theme/.footprint
+f:75e662b7a95cad3c98922eb8fc5ff8c0:arc-kde-theme/.signature

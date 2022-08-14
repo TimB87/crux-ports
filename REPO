@@ -36,8 +36,8 @@ f:789838e10b9ebe13c664b3b134217355:kvantum-theme-arc/Pkgfile
 f:32fc89d9b5a924e130fcd533e803d47f:kvantum-theme-arc/.signature
 f:657f14bb505e108e2e68a841a9f21d26:kvantum-theme-arc/.footprint
 f:151e0496d7140054ae1b6c55f2ff3a53:cargo-make/.footprint
-f:b595eaf16881c890043f46efb8340b07:cargo-make/Pkgfile
-f:159fa6a45bb3fab9b938bcf26d9d1e99:cargo-make/.signature
+f:12547c416fba04f4f024ea4c3dd45b27:cargo-make/Pkgfile
+f:331661fd576fa9a1e53e6277032b1693:cargo-make/.signature
 f:118ba6f3b2fad4c7f1a601ba1a12a1d1:libmaxminddb/.footprint
 f:d0e5baa69986c8cef622a7e4011ca552:libmaxminddb/Pkgfile
 f:3fc581cddfa800e6599309c6b3bd5e53:libmaxminddb/.signature
@@ -104,9 +104,9 @@ f:5f6dcb9f982caa99c5d22d2be433a185:hunspell-de/Pkgfile
 f:d70815eeedac20ad5ff7e494e04124e5:hunspell-de/.footprint
 f:ff52cc806f66d64b25894cd356ab27b7:hunspell-de/.signature
 f:90c2e115b9668e89968b00a331210001:blueman/post-install
-f:80cc87f544c6b5d211776ee3b215eb12:blueman/.footprint
-f:6949792f6d89bd81ec1c0cc0aaa68418:blueman/Pkgfile
-f:17552ba373a89e3f8f349b6811c14b03:blueman/.signature
+f:cb9640af718a731f923f5d49af6f596d:blueman/.footprint
+f:ea456767852c145869c569ed5b1468a0:blueman/Pkgfile
+f:e48683f26bc4a0bb89f74e46d0c2357c:blueman/.signature
 f:50daa33af0875283b2ea0a53379ceb63:php/Pkgfile
 f:bcad1e30d8d462334ced505116c8d943:php/.footprint
 f:379e97ebc821427825f4a5fee33e63c3:php/.signature
@@ -139,6 +139,6 @@ f:e62427f53fea4bc79ee8bc158832a8f6:tb.pub
 f:0e40803b4346e52fc0a022b095c3658a:libcmrt/.signature
 f:ecc306f3344957262737de05abcf4bce:libcmrt/.footprint
 f:37d844993cfadf4bdb163827aa59351a:libcmrt/Pkgfile
-f:b3dc4e54e516a4358dc8bc4635a0202d:arc-kde-theme/Pkgfile
-f:909cc3cad21a25d9aaf9cb6b5c2212c3:arc-kde-theme/.footprint
-f:75e662b7a95cad3c98922eb8fc5ff8c0:arc-kde-theme/.signature
+f:6f432dbf09403cf0a9adfc931d762ae9:arc-kde-theme/Pkgfile
+f:317c29ca6d205a99a0e94f2250c705a0:arc-kde-theme/.footprint
+f:cdda094102b96758e678733312cd8342:arc-kde-theme/.signature

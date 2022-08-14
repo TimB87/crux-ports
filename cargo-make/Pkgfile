@@ -4,20 +4,16 @@
 # Depends on: rust
 
 name=cargo-make
-version=0.35.12
+version=0.35.16
 release=1
 source=(https://github.com/sagiegurari/cargo-make/archive/$version/$name-$version.tar.gz)
 
 build() {
-  cd $name-$version
-
   prt-get isinst sccache && export RUSTC_WRAPPER=/usr/bin/sccache
-  mkdir "$PKGMK_SOURCE_DIR/rust" || true
-  export CARGO_HOME="$PKGMK_SOURCE_DIR/rust"
+  [[ ! -e $PKGMK_SOURCE_DIR/rust ]] && mkdir $PKGMK_SOURCE_DIR/rust
 
-  cargo update
-  cargo build --release
-  cargo install --path . --root $PKG/usr
+  cargo build --release --manifest-path $name-$version/Cargo.toml
 
-  rm $PKG/usr/{.crates.toml,.crates2.json}
+  install -Dt $PKG/usr/bin $name-$version/target/release/$name
+  install -Dt $PKG/usr/bin $name-$version/target/release/makers
 }

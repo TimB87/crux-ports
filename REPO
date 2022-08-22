@@ -81,8 +81,8 @@ f:9e318bed7942bb8155c8b337f695908d:ttf-font-icons/.footprint
 f:b76a518d4ba3ca0a808475ec49da691d:go-mtpfs/.footprint
 f:031df9890fc05c6b337ce32d9cea2936:go-mtpfs/Pkgfile
 f:20462d0398b0760aa760094f77fba1c8:go-mtpfs/.signature
-f:244af8147685f5c7d00e0d845d792138:ttf-plex/.signature
-f:561f96cfe6c55dbefbf38fc3d2bb1b72:ttf-plex/Pkgfile
+f:028912344ff9ab27d450cff22b6a3cde:ttf-plex/.signature
+f:a47fae01656d1902be8e143363faeb69:ttf-plex/Pkgfile
 f:9b9344dce6c0721fd6ca42350c3955c5:ttf-plex/.footprint
 f:1f779484498a0c673175bccc97b87af3:zotero-bin/.footprint
 f:6873c409188f0bb57dbd67bdddad0120:zotero-bin/Pkgfile
@@ -97,8 +97,8 @@ f:c5157587e260c79d378428d7424a96c2:php-intl/.footprint
 f:4dea86d630deef1a82f68ab72a6f9282:python-psutil/Pkgfile
 f:cd7e6758c7b882903e5040f5f9a6edcc:python-psutil/.footprint
 f:2647ede22d8ff991be4fe6e8a83f8e4f:python-psutil/.signature
-f:003d0d23afc431f3654e432794514298:ttf-font-awesome/.signature
-f:2c466f877a229ebdb6d3ce86ea8cb965:ttf-font-awesome/Pkgfile
+f:99371639247c17f0a25369b43d41f9a4:ttf-font-awesome/.signature
+f:1acd87880b9754d01850f367f15a2da0:ttf-font-awesome/Pkgfile
 f:5a7423bda03806dd20c0daaefedb0825:ttf-font-awesome/.footprint
 f:5f6dcb9f982caa99c5d22d2be433a185:hunspell-de/Pkgfile
 f:d70815eeedac20ad5ff7e494e04124e5:hunspell-de/.footprint

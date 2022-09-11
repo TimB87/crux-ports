@@ -143,6 +143,12 @@ drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/Arc-Color/icons/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/Arc-Color/icons/yakuake.svg
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/Arc-Color/icons/zoom.svg
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/Arc-Color/metadata.desktop
+drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/Arc-Color/opaque/
+drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/Arc-Color/opaque/dialogs/
+-rw-r--r--	root/root	usr/share/plasma/desktoptheme/Arc-Color/opaque/dialogs/background.svg
+drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/Arc-Color/opaque/widgets/
+-rw-r--r--	root/root	usr/share/plasma/desktoptheme/Arc-Color/opaque/widgets/panel-background.svg
+-rw-r--r--	root/root	usr/share/plasma/desktoptheme/Arc-Color/opaque/widgets/tooltip.svg
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/Arc-Color/widgets/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/Arc-Color/widgets/action-overlays.svg
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/Arc-Color/widgets/actionbutton.svg
@@ -281,6 +287,12 @@ drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/Arc-Dark/icons/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/Arc-Dark/icons/yakuake.svg
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/Arc-Dark/icons/zoom.svg
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/Arc-Dark/metadata.desktop
+drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/Arc-Dark/opaque/
+drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/Arc-Dark/opaque/dialogs/
+-rw-r--r--	root/root	usr/share/plasma/desktoptheme/Arc-Dark/opaque/dialogs/background.svg
+drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/Arc-Dark/opaque/widgets/
+-rw-r--r--	root/root	usr/share/plasma/desktoptheme/Arc-Dark/opaque/widgets/panel-background.svg
+-rw-r--r--	root/root	usr/share/plasma/desktoptheme/Arc-Dark/opaque/widgets/tooltip.svg
 drwxr-xr-x	root/root	usr/share/plasma/desktoptheme/Arc-Dark/widgets/
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/Arc-Dark/widgets/action-overlays.svg
 -rw-r--r--	root/root	usr/share/plasma/desktoptheme/Arc-Dark/widgets/actionbutton.svg

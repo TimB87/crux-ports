@@ -4,7 +4,7 @@
 # Depends on:
 
 name=arc-kde-theme
-version=20220810
+version=20220908
 release=1
 source=(https://github.com/PapirusDevelopmentTeam/arc-kde/archive/$version/$name-$version.tar.gz)
 

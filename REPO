@@ -97,8 +97,8 @@ f:c5157587e260c79d378428d7424a96c2:php-intl/.footprint
 f:4dea86d630deef1a82f68ab72a6f9282:python-psutil/Pkgfile
 f:cd7e6758c7b882903e5040f5f9a6edcc:python-psutil/.footprint
 f:2647ede22d8ff991be4fe6e8a83f8e4f:python-psutil/.signature
-f:99371639247c17f0a25369b43d41f9a4:ttf-font-awesome/.signature
-f:1acd87880b9754d01850f367f15a2da0:ttf-font-awesome/Pkgfile
+f:0eec992c13ecef205a22745f37b4437f:ttf-font-awesome/.signature
+f:72630d639c44480920f9f22b006d1207:ttf-font-awesome/Pkgfile
 f:5a7423bda03806dd20c0daaefedb0825:ttf-font-awesome/.footprint
 f:5f6dcb9f982caa99c5d22d2be433a185:hunspell-de/Pkgfile
 f:d70815eeedac20ad5ff7e494e04124e5:hunspell-de/.footprint
@@ -139,6 +139,6 @@ f:e62427f53fea4bc79ee8bc158832a8f6:tb.pub
 f:0e40803b4346e52fc0a022b095c3658a:libcmrt/.signature
 f:ecc306f3344957262737de05abcf4bce:libcmrt/.footprint
 f:37d844993cfadf4bdb163827aa59351a:libcmrt/Pkgfile
-f:6f432dbf09403cf0a9adfc931d762ae9:arc-kde-theme/Pkgfile
-f:317c29ca6d205a99a0e94f2250c705a0:arc-kde-theme/.footprint
-f:cdda094102b96758e678733312cd8342:arc-kde-theme/.signature
+f:65ffc87999f41cbc4c7fb0cc1a37b537:arc-kde-theme/Pkgfile
+f:d500d0389976ea0a0be72becae76817c:arc-kde-theme/.footprint
+f:825040daf38fbb5e335b8ed6b80240cb:arc-kde-theme/.signature

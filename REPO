@@ -113,9 +113,9 @@ f:1df814c7e084895b266d4b57cfcbd835:php/.signature
 f:4bcff8c2fae56f50bf50bb9a3211205e:php-pgsql/.footprint
 f:934342540ee389033bb084c6669180a2:php-pgsql/.signature
 f:10836ab018c532f195f4c54b2cd5a358:php-pgsql/Pkgfile
-f:58b129c0fa533532df7367cc40c82d0c:apcu/Pkgfile
+f:c74f3f0b8a029eb19a41870bc88ae16c:apcu/Pkgfile
 f:c8541c6f67ae1748985ccee2b7ae8919:apcu/.footprint
-f:be3d5d5c2458453c575dd38d964eb2e7:apcu/.signature
+f:cdf09be97581fb924545b5574e2d3357:apcu/.signature
 f:95fdad0f805fa8292dcd4217c558cb9e:pylibacl/.signature
 f:23aa7955cdd8cc1114ff7ada87f6f8d6:pylibacl/.footprint
 f:70353ce86e0ca874bfa47a203242c6cb:pylibacl/Pkgfile

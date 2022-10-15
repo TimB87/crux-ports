@@ -132,10 +132,10 @@ f:fb647e13d84f8d6fb7c9f48385df698b:zotero-bin/.signature
 f:d7be2ad91114ded18f7fb5af059398b5:ttf-font-awesome-compat/.footprint
 f:54a61166337f62093b2bae75eef6974e:ttf-font-awesome-compat/Pkgfile
 f:08b6ee88437e22337bc66da4bce7ea2e:ttf-font-awesome-compat/.signature
-f:cb9640af718a731f923f5d49af6f596d:blueman/.footprint
-f:ea456767852c145869c569ed5b1468a0:blueman/Pkgfile
+f:a9f2c223480ef02deae2db2bd7daae54:blueman/.footprint
+f:e2a6f4f775c895c600e49d765737d536:blueman/Pkgfile
 f:90c2e115b9668e89968b00a331210001:blueman/post-install
-f:e48683f26bc4a0bb89f74e46d0c2357c:blueman/.signature
+f:abccb13342025644a481f847a724e1ec:blueman/.signature
 f:4dea86d630deef1a82f68ab72a6f9282:python-psutil/Pkgfile
 f:cd7e6758c7b882903e5040f5f9a6edcc:python-psutil/.footprint
 f:2647ede22d8ff991be4fe6e8a83f8e4f:python-psutil/.signature

@@ -5,13 +5,10 @@
 
 name=php-imagick
 version=3.5.1
-release=1
-source=(#https://github.com/Imagick/imagick/archive/$_commit/$name-$_commit.tar.gz
-  https://pecl.php.net/get/imagick-$version.tgz
-  imagick.patch)
+release=3
+source=(https://pecl.php.net/get/imagick-$version.tgz)
 
 build() {
-  #cd imagick-$_commit
   cd imagick-$version
 
   phpize

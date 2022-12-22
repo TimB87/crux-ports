@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwMPm2s7fE0xBhpOb7ZDgBk5FQberh9YZA/hGmpav12PNnhfjSGNqGupLjgU3nqCvQADMQrY1hox741cS/I04pgQ=
+SHA256 (Pkgfile) = cad3af75e48abc0b6403f6cdaf167e02a2019cbf43c8bf790336b9aec9f813dd
+SHA256 (.footprint) = f0352573132e3fd508a9a2be71e90e5aa77cf52178cb322ab922505bd33514c3
+SHA256 (python-evdev-1.4.0.tar.gz) = 979638719b205acdead3ea3f7861d7b19427a8dc6147c660c24c58e79f0bb427

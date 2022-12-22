@@ -4,7 +4,7 @@
 # Depends on: ncurses
 
 name=ispell
-version=3.4.00
+version=3.4.05
 release=1
 source=(http://www.cs.hmc.edu/~geoff/tars/$name-$version.tar.gz)
 

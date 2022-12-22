@@ -1,0 +1,15 @@
+# Description: A python extension module that allows you to manipulate the POSIX.1e ACLs.
+# URL: https://pylibacl.k1024.org/
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: python3-setuptools
+
+name=python3-pylibacl
+version=0.6.0
+release=1
+source=(https://pylibacl.k1024.org/downloads/pylibacl-$version.tar.gz)
+
+build() {
+  cd pylibacl-$version
+  /usr/bin/python3 setup.py build
+  /usr/bin/python3 setup.py install --root="$PKG" --optimize=1 --skip-build
+}

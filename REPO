@@ -25,7 +25,6 @@ d:read-edid
 d:sc-controller
 d:ttf-font-awesome-compat
 d:ttf-font-awesome
-d:ttf-font-icons
 d:ttf-plex
 d:zotero-bin
 d:php-sodium
@@ -72,8 +71,8 @@ f:d70815eeedac20ad5ff7e494e04124e5:hunspell-de/.footprint
 f:ff52cc806f66d64b25894cd356ab27b7:hunspell-de/.signature
 f:5f6dcb9f982caa99c5d22d2be433a185:hunspell-de/Pkgfile
 f:5e9a5549da689704198d34653db9ab10:ispell/.footprint
-f:6471eb8cca110a1711ca42da4c6d68b4:ispell/.signature
-f:e7633a1eb8d4e938439ded7d29cf4714:ispell/Pkgfile
+f:9dd4eadc422dd4158747b21fe8c138d2:ispell/Pkgfile
+f:228dbf20e010b44c7be5fb52ad7b25f8:ispell/.signature
 f:657f14bb505e108e2e68a841a9f21d26:kvantum-theme-arc/.footprint
 f:32fc89d9b5a924e130fcd533e803d47f:kvantum-theme-arc/.signature
 f:789838e10b9ebe13c664b3b134217355:kvantum-theme-arc/Pkgfile
@@ -119,9 +118,6 @@ f:54a61166337f62093b2bae75eef6974e:ttf-font-awesome-compat/Pkgfile
 f:5a7423bda03806dd20c0daaefedb0825:ttf-font-awesome/.footprint
 f:0eec992c13ecef205a22745f37b4437f:ttf-font-awesome/.signature
 f:72630d639c44480920f9f22b006d1207:ttf-font-awesome/Pkgfile
-f:9e318bed7942bb8155c8b337f695908d:ttf-font-icons/.footprint
-f:4416ac03cf4ec625fcafe338c1945c0a:ttf-font-icons/.signature
-f:d0d64fe4327a17cbdf90039af0c2a44a:ttf-font-icons/Pkgfile
 f:9b9344dce6c0721fd6ca42350c3955c5:ttf-plex/.footprint
 f:08345ecfbf3a5d8ff41ff3bf7a3212fc:ttf-plex/.signature
 f:fcc1eef269f55fa0a557f01eef49e14c:ttf-plex/Pkgfile

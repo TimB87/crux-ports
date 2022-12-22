@@ -1,0 +1,24 @@
+# Description: libsodium module for PHP
+# URL: https://www.php.net
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: libsodium
+
+name=php-sodium
+version=8.1.6
+release=1
+source=(https://php.net/distributions/php-$version.tar.xz)
+
+build() {
+  cd php-$version
+
+  ./configure \
+    --disable-all \
+    --with-sodium=shared
+
+  make build-modules
+
+  install -d $PKG/{etc/php/conf.d,usr/lib/php/extensions}
+  install -m 755 modules/sodium.so $PKG/usr/lib/php/extensions
+
+  printf 'extension=%s\n' sodium.so > $PKG/etc/php/conf.d/sodium.ini
+}

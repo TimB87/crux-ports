@@ -71,8 +71,9 @@ f:d70815eeedac20ad5ff7e494e04124e5:hunspell-de/.footprint
 f:ff52cc806f66d64b25894cd356ab27b7:hunspell-de/.signature
 f:5f6dcb9f982caa99c5d22d2be433a185:hunspell-de/Pkgfile
 f:5e9a5549da689704198d34653db9ab10:ispell/.footprint
-f:9dd4eadc422dd4158747b21fe8c138d2:ispell/Pkgfile
-f:228dbf20e010b44c7be5fb52ad7b25f8:ispell/.signature
+f:c7a8cfe5d489d6527ad0652bb9e87942:ispell/cflags-from-environment.patch
+f:140d0cbebbf60076d58c30e55e0b64b7:ispell/Pkgfile
+f:432b32d971e382a0ee9be7019fdc4fbb:ispell/.signature
 f:657f14bb505e108e2e68a841a9f21d26:kvantum-theme-arc/.footprint
 f:32fc89d9b5a924e130fcd533e803d47f:kvantum-theme-arc/.signature
 f:789838e10b9ebe13c664b3b134217355:kvantum-theme-arc/Pkgfile

@@ -5,7 +5,7 @@
 
 name=php-imagick
 version=3.5.1
-release=3
+release=4
 source=(https://pecl.php.net/get/imagick-$version.tgz)
 
 build() {

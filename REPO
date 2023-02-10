@@ -45,8 +45,8 @@ f:90c2e115b9668e89968b00a331210001:blueman/post-install
 f:2c5723264505f51b740f5e585b73e8d4:blueman/Pkgfile
 f:0abc5264cdcc8b1b35c80b6fd9f62745:blueman/.signature
 f:151e0496d7140054ae1b6c55f2ff3a53:cargo-make/.footprint
-f:4e48b0c645c541ceddf0650317a749cc:cargo-make/Pkgfile
-f:d4f7134d838836ed34aa63f376a052b8:cargo-make/.signature
+f:0a5f14ad0fc69e16d37146577ce15485:cargo-make/Pkgfile
+f:6ac58adb80969710c5fad4aca0b1fdbb:cargo-make/.signature
 f:12ef97905f60611111e471a9896195ee:colord/.footprint
 f:b51106e5d34cbc91bbc333bafd7496ad:colord/.signature
 f:4094f45ee4e25b507d433023b86e4f4c:colord/0001-trivial-Fix-error-checking-for-sd_pid_get_session-an.patch
@@ -117,8 +117,8 @@ f:d7be2ad91114ded18f7fb5af059398b5:ttf-font-awesome-compat/.footprint
 f:08b6ee88437e22337bc66da4bce7ea2e:ttf-font-awesome-compat/.signature
 f:54a61166337f62093b2bae75eef6974e:ttf-font-awesome-compat/Pkgfile
 f:5a7423bda03806dd20c0daaefedb0825:ttf-font-awesome/.footprint
-f:0eec992c13ecef205a22745f37b4437f:ttf-font-awesome/.signature
-f:72630d639c44480920f9f22b006d1207:ttf-font-awesome/Pkgfile
+f:915016ac328ce403905dab6b39c5df97:ttf-font-awesome/Pkgfile
+f:1ae4f895f9e36ecbb762c5bb433b5694:ttf-font-awesome/.signature
 f:9b9344dce6c0721fd6ca42350c3955c5:ttf-plex/.footprint
 f:08345ecfbf3a5d8ff41ff3bf7a3212fc:ttf-plex/.signature
 f:fcc1eef269f55fa0a557f01eef49e14c:ttf-plex/Pkgfile

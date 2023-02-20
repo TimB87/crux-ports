@@ -45,8 +45,8 @@ f:90c2e115b9668e89968b00a331210001:blueman/post-install
 f:2c5723264505f51b740f5e585b73e8d4:blueman/Pkgfile
 f:0abc5264cdcc8b1b35c80b6fd9f62745:blueman/.signature
 f:151e0496d7140054ae1b6c55f2ff3a53:cargo-make/.footprint
-f:0a5f14ad0fc69e16d37146577ce15485:cargo-make/Pkgfile
-f:6ac58adb80969710c5fad4aca0b1fdbb:cargo-make/.signature
+f:25edae8c212b958186adafde1e33abc7:cargo-make/Pkgfile
+f:a9220d65d4cfb9fe9bbb231b7fff288a:cargo-make/.signature
 f:12ef97905f60611111e471a9896195ee:colord/.footprint
 f:b51106e5d34cbc91bbc333bafd7496ad:colord/.signature
 f:4094f45ee4e25b507d433023b86e4f4c:colord/0001-trivial-Fix-error-checking-for-sd_pid_get_session-an.patch

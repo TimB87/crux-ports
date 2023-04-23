@@ -1,7 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwCFX7xbDXfVhQdV6F7tcByxxyStluXBQg78mZVmoRuVkfaF2kJn2Wba8oIF/vNGD3INhOF0g7rGIiow8nP8ytgg=
-SHA256 (Pkgfile) = 743389c506e6b7592896bb50dcaa8f5ea034af1e29fcbb41042a3772baf1bf03
+RWSXjYMPO7mZwB6uZJbojBTmBbTz0gRMxpYae98TTyL7rlLO3HmSJ7j/mrdU2NezXS9wSAiPCEPJJ03D8z/qjAm2uC6rcNL+Sg8=
+SHA256 (Pkgfile) = d2f2bb4b06e57c56fb14f7c4222438bbfede8623f6924aa94d68d29a560f3c30
 SHA256 (.footprint) = c97ae325dbc2aebeacc489de4d692cd9cb0d2c2f7403b59215c2113f4c4faf88
-SHA256 (arc-kde-theme-20180614.tar.gz) = 44267738b2bee20f62cc3f1c150b4eb0aa7ce79f4f5d302102f11d15ffa6de15
-SHA256 (ebe4ed6bd17b2fdb8c17e3784e913e12c6b325d5.patch) = b43affc425aadca30be1be22b68ac10bacff26dbc60e370faa903c2c6d3d7f24
-SHA256 (b7b7f6d60ed2b19ba9822418c2d43fbcf27c5245.patch) = 80d46e6f2c31c655236f3743517396c21ef4a29d93f8d39dfe975afca3e1c7ed
+SHA256 (arc-kde-theme-20220908.tar.gz) = bb4f547df20fc43fc19315cd0c96a447068abdc4095e7ae8b654a813e3422e93

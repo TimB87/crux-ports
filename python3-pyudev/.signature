@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwKkGwiHP2f/pPvJnAu7SeMNGyhz91qW/MfNWvGaW79GrNlY8OOJt7QhjbmkY6jrmR2oXGdDWJMmVc8ftotWlUAU=
-SHA256 (Pkgfile) = 721a0810def057abcd9f23b1a00893944270f1ca398e792fa238083d6c2d20aa
-SHA256 (.footprint) = 908ccd3db7ad4f2513e823cca92db784a62ef0c2360aa59610b46d34ebdde83a
-SHA256 (pyudev-0.24.0.tar.gz) = b2a3afe1c99ea751f8296652557eac559874da2a1b1ec0625178706ec5a345f3
+RWSXjYMPO7mZwABKRHQTD61AyKjvoNkmETnUkWnJ5gRt6LiDyjJiCiXxZr5zTo+FkL0aekii/gUjGdgwqDl7FeLplMt66ihTYAk=
+SHA256 (Pkgfile) = 97ecca2c6a30492d72e3fea32423f1d9c554489d21968cc0b90f25f7b4fee6d0
+SHA256 (.footprint) = da3dbecca3e19fa8eb9277266fecff76c1ee9eae541811561eaee72ea0a9b4c9
+SHA256 (pyudev-0.24.1.tar.gz) = 75e54d37218f5ac45b0da1f0fd9cc5e526a3cac3ef1cfad410cf7ab338b01471

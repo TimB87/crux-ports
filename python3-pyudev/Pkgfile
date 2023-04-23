@@ -4,7 +4,7 @@
 # Depends on: python3-setuptools
 
 name=python3-pyudev
-version=0.24.0
+version=0.24.1
 release=1
 source=(https://pypi.python.org/packages/source/p/pyudev/pyudev-$version.tar.gz)
 

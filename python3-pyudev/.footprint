@@ -2,11 +2,11 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.10/
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/pyudev-0.24.0-py3.10.egg-info/
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev-0.24.0-py3.10.egg-info/PKG-INFO
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev-0.24.0-py3.10.egg-info/SOURCES.txt
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev-0.24.0-py3.10.egg-info/dependency_links.txt
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev-0.24.0-py3.10.egg-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/pyudev-0.24.1-py3.10.egg-info/
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev-0.24.1-py3.10.egg-info/PKG-INFO
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev-0.24.1-py3.10.egg-info/SOURCES.txt
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev-0.24.1-py3.10.egg-info/dependency_links.txt
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev-0.24.1-py3.10.egg-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/pyudev/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/pyudev/__pycache__/
@@ -32,6 +32,8 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/pyudev/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev/__pycache__/pyqt5.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev/__pycache__/pyside.cpython-310.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev/__pycache__/pyside.cpython-310.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev/__pycache__/pyside6.cpython-310.opt-1.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev/__pycache__/pyside6.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev/__pycache__/version.cpython-310.opt-1.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev/__pycache__/version.cpython-310.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev/__pycache__/wx.cpython-310.opt-1.pyc
@@ -82,5 +84,6 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/pyudev/device/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev/pyqt4.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev/pyqt5.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev/pyside.py
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev/pyside6.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev/version.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev/wx.py

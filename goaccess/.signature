@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwOTnElZg+LEwJFY0dTff/1iFgWeF8VJS+yRnH1z0SjPirJYOBmyIBRHEnKwBUr5wuml1YaZ5G1zHb1PuHM+EGwY=
-SHA256 (Pkgfile) = a974bf75dd68ce51c8beacef4c5e65a8e3bb61d196eae9b6890cfc5bb9461bdf
+RWSXjYMPO7mZwIzut73zqQ0NbXzLx9PhjlSoLmE6pkyrZLFPACRf47XTc3+bQOlyDf4EeBfZzEUm+Pj8hBPhWI6tzibw5CDCGAU=
+SHA256 (Pkgfile) = 8a57f572b119c689cdf3906822cdbe1eff324d2e7071438c031019ae3d6a6016
 SHA256 (.footprint) = ee3c78789b1201e35fa62c8658e4eca465fec2b891a1630c494afc4b24c103a7
-SHA256 (goaccess-1.5.tar.gz) = 96226d5df89703283e34109c17e1b4eefe2404a59e7c76a2b6eefa10f3aac161
+SHA256 (goaccess-1.7.2.tar.gz) = 0e9aaba29c021d1c6a187130a91404730183ee8ab81cd31381854b47149d126b

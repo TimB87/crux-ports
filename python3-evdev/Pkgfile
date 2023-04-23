@@ -4,7 +4,7 @@
 # Depends on: python3-setuptools
 
 name=python3-evdev
-version=1.4.0
+version=1.6.1
 release=1
 source=(https://github.com/gvalkov/python-evdev/archive/v$version/python-evdev-$version.tar.gz)
 

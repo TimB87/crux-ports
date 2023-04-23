@@ -4,7 +4,7 @@
 # Depends on: argyllcms dbus lcms2 libgudev libgusb polkit sane
 
 name=colord
-version=1.4.5
+version=1.4.6
 release=1
 source=(https://github.com/hughsie/colord/archive/$version/$name-$version.tar.gz)
 
@@ -13,7 +13,9 @@ build() {
     --prefix=/usr \
     --libexecdir=/usr/lib/$name \
     --buildtype=plain \
-    -D b_ndebug=true \
+    --wrap-mode nodownload \
+    -D b_lto=true \
+    -D b_pie=true \
     -D udev_rules=true \
     -D systemd=false \
     -D bash_completion=false \
@@ -27,5 +29,6 @@ build() {
     -D tests=false
   meson compile -C build
   DESTDIR=$PKG meson install -C build
+
   rm -r $PKG/usr/share/locale
 }

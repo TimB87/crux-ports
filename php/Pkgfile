@@ -4,7 +4,7 @@
 # Depends on: bzip2 curl db gdbm libpcre2 libxml2 libzip oniguruma
 
 name=php
-version=8.2.5
+version=8.2.6
 release=1
 source=(http://php.net/distributions/php-$version.tar.xz)
 
@@ -37,6 +37,9 @@ build () {
     --enable-embed=shared \
     --enable-bcmath=shared \
     --with-gmp=shared \
+    --enable-sysvmsg=shared \
+    --enable-sysvsem=shared \
+    --enable-sysvshm=shared \
     --enable-mbstring=shared"
 
   EXTENSION_DIR=/usr/lib/php/extensions \
@@ -58,6 +61,6 @@ build () {
   install -m 644 php.ini-* $PKG/etc/php
 
   # order matters !
-  printf 'extension=%s\n' {zip,bz2,curl,openssl,dba,mbstring,bcmath,gmp}.so \
+  printf 'extension=%s\n' {zip,bz2,curl,openssl,dba,mbstring,bcmath,gmp,sysvmsg,sysvsem,sysvshm}.so \
     > $PKG/etc/php/conf.d/extensions.ini
 }

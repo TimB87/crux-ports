@@ -3,12 +3,12 @@
 # Maintainer: Tim Biermann, tbier at posteo dot de
 
 name=ttf-plex
-version=6.2.0
+version=6.3.0
 release=1
 source=(https://github.com/IBM/plex/archive/v$version/plex-v$version.tar.gz)
 
 build() {
-  for i in plex-$version/IBM-Plex-*/fonts/complete/ttf/*.ttf;
-    do install -Dm644 $i $PKG/usr/share/fonts/ibm-plex/$(basename $i);
-  done
+  find . \
+    -iname "*.ttf" \
+    -execdir install -Dm644 {} $PKG/usr/share/fonts/TTF/${name/ttf-/}/{} \;
 }

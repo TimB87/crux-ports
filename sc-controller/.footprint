@@ -60,6 +60,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/scc/drivers/
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/scc/drivers/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/scc/drivers/__pycache__/__init__.cpython-310.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/scc/drivers/__pycache__/ds4drv.cpython-310.opt-2.pyc
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/scc/drivers/__pycache__/ds5drv.cpython-310.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/scc/drivers/__pycache__/evdevdrv.cpython-310.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/scc/drivers/__pycache__/fake.cpython-310.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/scc/drivers/__pycache__/hiddrv.cpython-310.opt-2.pyc
@@ -70,6 +71,7 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/scc/drivers/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/scc/drivers/__pycache__/steamdeck.cpython-310.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/scc/drivers/__pycache__/usb.cpython-310.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/scc/drivers/ds4drv.py
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/scc/drivers/ds5drv.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/scc/drivers/evdevdrv.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/scc/drivers/fake.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/scc/drivers/hiddrv.py
@@ -314,12 +316,12 @@ drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/scc/x11/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/scc/x11/scc-autoswitch-daemon.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/scc/x11/scc-osd-daemon.py
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/scc/x11/scc_autoswitch_daemon.py
-drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sccontroller-0.4.8.9.dist-info/
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/sccontroller-0.4.8.9.dist-info/LICENSE
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/sccontroller-0.4.8.9.dist-info/METADATA
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/sccontroller-0.4.8.9.dist-info/RECORD
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/sccontroller-0.4.8.9.dist-info/WHEEL
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/sccontroller-0.4.8.9.dist-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/sccontroller-0.4.8.11.dist-info/
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sccontroller-0.4.8.11.dist-info/LICENSE
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sccontroller-0.4.8.11.dist-info/METADATA
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sccontroller-0.4.8.11.dist-info/RECORD
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sccontroller-0.4.8.11.dist-info/WHEEL
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/sccontroller-0.4.8.11.dist-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/udev/
 drwxr-xr-x	root/root	usr/lib/udev/rules.d/
 -rw-r--r--	root/root	usr/lib/udev/rules.d/69-sc-controller.rules
@@ -484,6 +486,8 @@ drwxr-xr-x	root/root	usr/share/scc/images/button-images/
 -rw-r--r--	root/root	usr/share/scc/images/button-images/Y.bw.svg
 -rw-r--r--	root/root	usr/share/scc/images/button-images/Y.svg
 -rw-r--r--	root/root	usr/share/scc/images/button-images/ds4SHARE.svg
+-rw-r--r--	root/root	usr/share/scc/images/button-images/ds5SELECT.svg
+-rw-r--r--	root/root	usr/share/scc/images/button-images/ds5START.svg
 -rw-r--r--	root/root	usr/share/scc/images/button-images/groups.json
 -rw-r--r--	root/root	usr/share/scc/images/button-images/snesA.svg
 -rw-r--r--	root/root	usr/share/scc/images/button-images/snesB.svg
@@ -508,6 +512,13 @@ drwxr-xr-x	root/root	usr/share/scc/images/controller-icons/
 -rw-r--r--	root/root	usr/share/scc/images/controller-icons/ds4evdev-4.svg
 -rw-r--r--	root/root	usr/share/scc/images/controller-icons/ds4evdev-5.svg
 -rw-r--r--	root/root	usr/share/scc/images/controller-icons/ds4evdev-6.svg
+-rw-r--r--	root/root	usr/share/scc/images/controller-icons/ds5-0.svg
+-rw-r--r--	root/root	usr/share/scc/images/controller-icons/ds5-1.svg
+-rw-r--r--	root/root	usr/share/scc/images/controller-icons/ds5-2.svg
+-rw-r--r--	root/root	usr/share/scc/images/controller-icons/ds5-3.svg
+-rw-r--r--	root/root	usr/share/scc/images/controller-icons/ds5-4.svg
+-rw-r--r--	root/root	usr/share/scc/images/controller-icons/ds5-5.svg
+-rw-r--r--	root/root	usr/share/scc/images/controller-icons/ds5-6.svg
 -rw-r--r--	root/root	usr/share/scc/images/controller-icons/evdev-0.svg
 -rw-r--r--	root/root	usr/share/scc/images/controller-icons/evdev-1.svg
 -rw-r--r--	root/root	usr/share/scc/images/controller-icons/evdev-2.svg
@@ -554,6 +565,7 @@ drwxr-xr-x	root/root	usr/share/scc/images/controller-icons/
 drwxr-xr-x	root/root	usr/share/scc/images/controller-images/
 -rw-r--r--	root/root	usr/share/scc/images/controller-images/deck.svg
 -rw-r--r--	root/root	usr/share/scc/images/controller-images/ds4.svg
+-rw-r--r--	root/root	usr/share/scc/images/controller-images/ds5.svg
 -rw-r--r--	root/root	usr/share/scc/images/controller-images/ps1.svg
 -rw-r--r--	root/root	usr/share/scc/images/controller-images/psx.svg
 -rw-r--r--	root/root	usr/share/scc/images/controller-images/remotepad.svg
@@ -564,6 +576,7 @@ drwxr-xr-x	root/root	usr/share/scc/images/controller-images/
 -rw-r--r--	root/root	usr/share/scc/images/deck.config.json
 -rw-r--r--	root/root	usr/share/scc/images/ds4-config.json
 -rw-r--r--	root/root	usr/share/scc/images/ds4-small.svg
+-rw-r--r--	root/root	usr/share/scc/images/ds5-config.json
 -rw-r--r--	root/root	usr/share/scc/images/inputdisplay-cursor.svg
 -rw-r--r--	root/root	usr/share/scc/images/inputdisplay.svg
 -rw-r--r--	root/root	usr/share/scc/images/keyboard.svg

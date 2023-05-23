@@ -105,9 +105,9 @@ f:0de308eda26eeab7a3ecb26858a13aeb:python3-pyudev/Pkgfile
 f:10c7dd1a7f1fdf33783a2f3fda6068fa:read-edid/.footprint
 f:8423cc24dd507e3f4be60badb53b6b34:read-edid/.signature
 f:b0660ba9ca2d2502a2336550b672c8d1:read-edid/Pkgfile
-f:c5736e9ba07f9d80cf0c892737ec6925:sc-controller/.footprint
-f:ac591baaef56c0e9b80253eaf6c902b8:sc-controller/.signature
-f:3c230ac19d404405b0ebafd21b43c4d1:sc-controller/Pkgfile
+f:61dc8a5aeb3e651219da5a03710127ea:sc-controller/.footprint
+f:72cfcfde4fb8860cd04102ca9dc8ddef:sc-controller/Pkgfile
+f:9927a9f1bea59ab9683b8dc59550a724:sc-controller/.signature
 f:e62427f53fea4bc79ee8bc158832a8f6:tb.pub
 f:d7be2ad91114ded18f7fb5af059398b5:ttf-font-awesome-compat/.footprint
 f:08b6ee88437e22337bc66da4bce7ea2e:ttf-font-awesome-compat/.signature

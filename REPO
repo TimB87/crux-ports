@@ -80,10 +80,10 @@ f:ce2b2fa28ac815214f9c75ca394eff4b:libx86/.footprint
 f:8138fca59cfa9b0c008ab6a2d98015fa:libx86/.signature
 f:573897186eb8670d8d97c64ea7614001:libx86/libx86-ifmask.patch
 f:d9246bd88f6e1dc01fbd91fd16d6317e:libx86/Pkgfile
-f:04bce73a14dc5740d4069e9b7445f0cf:nextcloud/.footprint
+f:5c9f84c7a9005a990956a44e7791bdd9:nextcloud/.footprint
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README
-f:0273b06b1ba1c100a177459156a43614:nextcloud/.signature
-f:16db6ce823193e9fb443c3b536c47cbf:nextcloud/Pkgfile
+f:edf1cefee8a8ef460109385d13556c4b:nextcloud/Pkgfile
+f:d9c03a0e501ea9fb993c6ceb7d32934e:nextcloud/.signature
 f:97f8c324e249ac36e0ba2c4b1870bff3:php-imagick/.footprint
 f:fce8d1ffa11b0356b1d6ff472628d598:php-imagick/.signature
 f:3741d201a036f296d4eed623ba96cd81:php-imagick/Pkgfile

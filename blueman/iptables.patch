@@ -1,0 +1,21 @@
+Index: blueman-2.1.3/blueman/main/NetConf.py
+===================================================================
+--- blueman-2.1.3.orig/blueman/main/NetConf.py
++++ blueman-2.1.3/blueman/main/NetConf.py
+@@ -319,14 +319,14 @@ class NetConf(object):
+ 
+     def add_ipt_rule(self, table: str, chain: str, rule: str) -> None:
+         self.ipt_rules.append((table, chain, rule))
+-        args = ["/sbin/iptables", "-t", table, "-A", chain] + rule.split(" ")
++        args = ["/usr/sbin/iptables", "-t", table, "-A", chain] + rule.split(" ")
+         logging.debug(" ".join(args))
+         ret = call(args)
+         logging.info(f"Return code {ret}")
+ 
+     def del_ipt_rules(self) -> None:
+         for table, chain, rule in self.ipt_rules:
+-            call(["/sbin/iptables", "-t", table, "-D", chain] + rule.split(" "))
++            call(["/usr/sbin/iptables", "-t", table, "-D", chain] + rule.split(" "))
+         self.ipt_rules = []
+         self.unlock("iptables")
+ 

@@ -2,16 +2,21 @@
 # URL: https://github.com/blueman-project/blueman
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: bluez desktop-file-utils polkit python3-cython python3-gobject
+# Optional: libayatana-appindicator
 
 name=blueman
 version=2.3.5
-release=1
-source=(https://github.com/blueman-project/$name/releases/download/$version/$name-$version.tar.xz)
+release=2
+source=(https://github.com/blueman-project/$name/releases/download/$version/$name-$version.tar.xz
+  iptables.patch)
 
 build() {
   cd $name-$version
 
+  patch -Np1 -i $SRC/iptables.patch
+
   sed -e 's/cython/cython3/g' -i configure
+
   ./configure --prefix=/usr \
     --sysconfdir=/etc \
     --with-dhcp-config=/etc/dhcpd/dhcpcd.conf \

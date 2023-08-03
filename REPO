@@ -54,8 +54,8 @@ f:2512e110d4b94c257d80a38d1456249c:grub2-theme-poly-light/.footprint
 f:0de308eda26eeab7a3ecb26858a13aeb:python3-pyudev/Pkgfile
 f:2e71d3398ba4b0612bc4170370a731d9:python3-pyudev/.signature
 f:95d95a99272fdef338f14e7dca8e11be:python3-pyudev/.footprint
-f:2a1b2697103ffd83c7128404d520ad28:ttf-font-awesome/Pkgfile
-f:17ea58fefff2d3508af90e89781e6057:ttf-font-awesome/.signature
+f:bcea66c450e8ad3fb9021bd241134ce0:ttf-font-awesome/Pkgfile
+f:f4af543d0dfa29088ac4fb67875fb60b:ttf-font-awesome/.signature
 f:5a7423bda03806dd20c0daaefedb0825:ttf-font-awesome/.footprint
 f:434ed2711a7c65c710aa785deac2b85d:python3-evdev/Pkgfile
 f:e9b70efc81952a2814f86cada51e0756:python3-evdev/.signature

@@ -63,8 +63,8 @@ f:7a80a96fbdb65f13ad75713f43c72524:python3-evdev/.footprint
 f:5f6dcb9f982caa99c5d22d2be433a185:hunspell-de/Pkgfile
 f:ff52cc806f66d64b25894cd356ab27b7:hunspell-de/.signature
 f:d70815eeedac20ad5ff7e494e04124e5:hunspell-de/.footprint
-f:2f0d5a544b8448ab9039bb3ca4a98a18:cargo-make/Pkgfile
-f:a43cff858c4e9e6dbbfc8172838cc50a:cargo-make/.signature
+f:089817224844f3c3966337992b26f7d4:cargo-make/Pkgfile
+f:551738c3648ae53486b6211ed72e7b6c:cargo-make/.signature
 f:151e0496d7140054ae1b6c55f2ff3a53:cargo-make/.footprint
 f:54a61166337f62093b2bae75eef6974e:ttf-font-awesome-compat/Pkgfile
 f:08b6ee88437e22337bc66da4bce7ea2e:ttf-font-awesome-compat/.signature

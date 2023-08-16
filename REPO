@@ -45,8 +45,8 @@ f:12ef97905f60611111e471a9896195ee:colord/.footprint
 f:5bf7d925a9fb4ea1077b4c4580a473c0:libmaxminddb/Pkgfile
 f:5711e3807eb6b374a2413bd7384e3c32:libmaxminddb/.signature
 f:c72fe4b5addb5c7c88daea91ea4ff901:libmaxminddb/.footprint
-f:cb65a63b3110fc715595dc3b77fae0c3:php-sodium/Pkgfile
-f:fe012828ee6a43b37bcc9f6407003422:php-sodium/.signature
+f:457c0a6eb1341a65d437a7a1520d3109:php-sodium/Pkgfile
+f:77d0011bf8e13bc7e0335059c9030936:php-sodium/.signature
 f:246f48c324871d76fdb1b7ff54458170:php-sodium/.footprint
 f:0be50df12f3446e3625ebb19d9e8d474:grub2-theme-poly-light/Pkgfile
 f:7f0c2b58c8e4e509cfecdde5148a898a:grub2-theme-poly-light/.signature
@@ -69,8 +69,8 @@ f:151e0496d7140054ae1b6c55f2ff3a53:cargo-make/.footprint
 f:54a61166337f62093b2bae75eef6974e:ttf-font-awesome-compat/Pkgfile
 f:08b6ee88437e22337bc66da4bce7ea2e:ttf-font-awesome-compat/.signature
 f:d7be2ad91114ded18f7fb5af059398b5:ttf-font-awesome-compat/.footprint
-f:06d31d26b08e5723a51f02960503d475:php/Pkgfile
-f:5bcbab250ea839c2b5437a0428ca9965:php/.signature
+f:40e6c5b8a752e223904432b280583941:php/Pkgfile
+f:8274452cb1b0dab8cbcfbdebbb13b832:php/.signature
 f:b41b076f532dbb453dff2d1b3a6bae9f:php/.footprint
 f:fe196ee7bc698395f24f8c806a5a93a9:kvantum-theme-arc/Pkgfile
 f:cc19051af0bb539a4f2a81225313a77f:kvantum-theme-arc/.signature
@@ -103,8 +103,8 @@ f:e62427f53fea4bc79ee8bc158832a8f6:tb.pub
 f:e5b26b2712a5448b3a3dea858dff1ee4:python3-pybluez/Pkgfile
 f:cd5eb8147fb38ff71277ba2386a22055:python3-pybluez/.signature
 f:b0d69f424f1cd7a917fcc6ea7bce455a:python3-pybluez/.footprint
-f:ac894bc84f81634f78996880f45c427c:php-intl/Pkgfile
-f:50579dc5bfd2a1b3e3e7692e3f19b6c8:php-intl/.signature
+f:bc28c48d0bf0bc4af66667962bac48e3:php-intl/Pkgfile
+f:27a19c3b8d25959192bf5a435da7de3e:php-intl/.signature
 f:c5157587e260c79d378428d7424a96c2:php-intl/.footprint
 f:35c166ff3eec323492bf5cb2bb33e80b:goaccess/Pkgfile
 f:b60aa9a4b7a26f6a4717773e18fa8782:goaccess/.signature
@@ -132,6 +132,6 @@ f:97f8c324e249ac36e0ba2c4b1870bff3:php-imagick/.footprint
 f:e5553a3e2b34b232339977aafa54ad9b:geoip2-database/Pkgfile
 f:b5ebe5992574f9c74a2e0515994bbe23:geoip2-database/.signature
 f:7dcac88aec3a79e1b381dd31cf067fab:geoip2-database/.footprint
-f:fb1b60107fddbcd2dfee87141586bffb:php-pgsql/Pkgfile
-f:94778f669ee0a6970b17b3f24d286f50:php-pgsql/.signature
+f:06d6ce60bd8767ce2ab7939b43c3995f:php-pgsql/Pkgfile
+f:51509c2e1910dbb69d07123d46a572ca:php-pgsql/.signature
 f:4bcff8c2fae56f50bf50bb9a3211205e:php-pgsql/.footprint

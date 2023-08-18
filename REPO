@@ -79,9 +79,9 @@ f:72cfcfde4fb8860cd04102ca9dc8ddef:sc-controller/Pkgfile
 f:9927a9f1bea59ab9683b8dc59550a724:sc-controller/.signature
 f:61dc8a5aeb3e651219da5a03710127ea:sc-controller/.footprint
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README
-f:edf1cefee8a8ef460109385d13556c4b:nextcloud/Pkgfile
-f:d9c03a0e501ea9fb993c6ceb7d32934e:nextcloud/.signature
-f:5c9f84c7a9005a990956a44e7791bdd9:nextcloud/.footprint
+f:2e2cb430d4ca053766761d91880b58a4:nextcloud/Pkgfile
+f:74eb98553978dfbd9ed30ea160a9da72:nextcloud/.signature
+f:940ff617d46784c8b4c3e82e039933bc:nextcloud/.footprint
 f:a33879a2ed46849ead114a9f7712dd58:gnome-themes-extra/Pkgfile
 f:362e09a14bce7c7522ccd0ed7c49289d:gnome-themes-extra/.signature
 f:a4f6b6756e89b8bdc3df944b2f855529:gnome-themes-extra/.footprint

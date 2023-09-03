@@ -1,6 +1,0 @@
-untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwGDs2VEBdeAPrnmfKtmde8VDGvGk/24bmQMD0SjMhLVVPonIRMHrCkMzFSKMmiEIxLlMEhMtNo97YDoXcSdYugU=
-SHA256 (Pkgfile) = 628a0c385259675e63cab3a9d01017f933d1545c58565d80d471a3179543700b
-SHA256 (.footprint) = f82d40679e8a3f89fb3d9a54a17b3590f7ba1c384073a65a06669b8f2371f33a
-SHA256 (blueman-2.3.5.tar.xz) = b2d21afdf77a06cd86daf5402406f7d2a53459817e29e0bebc4911d4f0dcfda1
-SHA256 (iptables.patch) = dcb7a6dda59e13ac2f5adb1f421df6a5d4d4a9b3be4afba7ae9311c6cd6279cd

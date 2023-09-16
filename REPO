@@ -44,8 +44,8 @@ f:12ef97905f60611111e471a9896195ee:colord/.footprint
 f:5bf7d925a9fb4ea1077b4c4580a473c0:libmaxminddb/Pkgfile
 f:5711e3807eb6b374a2413bd7384e3c32:libmaxminddb/.signature
 f:c72fe4b5addb5c7c88daea91ea4ff901:libmaxminddb/.footprint
-f:591710ed520bd807806eeb0fcd0751c1:php-sodium/Pkgfile
-f:8477979bc5805a598c18984b78b67167:php-sodium/.signature
+f:a8ea3b9007753b493431c9ae36598162:php-sodium/Pkgfile
+f:af2a46d62dd473a23e0e8fab9ec0160c:php-sodium/.signature
 f:246f48c324871d76fdb1b7ff54458170:php-sodium/.footprint
 f:0be50df12f3446e3625ebb19d9e8d474:grub2-theme-poly-light/Pkgfile
 f:7f0c2b58c8e4e509cfecdde5148a898a:grub2-theme-poly-light/.signature

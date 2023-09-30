@@ -1,20 +1,20 @@
 # Description: a theme for Grub2
 # URL: https://github.com/shvchk/poly-light
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on:
+# Depends on: grub2
 
 name=grub2-theme-poly-light
-version=git
-release=2
-source=()
-git=(https://github.com/shvchk/poly-light.git)
+version=20230724
+release=1
+_commit=7386e13abfaa8bc59524c02b4e027bac2872e908
+source=(https://github.com/shvchk/poly-light/archive/$_commit/$name-$version.tar.gz)
 
 build() {
-    git clone $git $name
-    cd $name
-    mkdir -p $PKG/boot/grub/themes/poly-light
-    cp -R * $PKG/boot/grub/themes/poly-light
-    cp unifont-regular-16.pf2 $PKG/boot/grub/themes/poly-light
-    find $PKG -iname "*LICENSE*" -o -iname "*README*" -o -iname "install.sh" -delete
-    rm -fr $PKG/boot/grub/themes/poly-light/README.md
+  cd poly-light-$_commit
+
+  mkdir -p $PKG/boot/grub/themes/poly-light
+  cp -R * $PKG/boot/grub/themes/poly-light
+  cp unifont-regular-16.pf2 $PKG/boot/grub/themes/poly-light
+
+  find $PKG -iname "*LICENSE*" -o -iname "*README*" -o -iname "install.sh" -delete
 }

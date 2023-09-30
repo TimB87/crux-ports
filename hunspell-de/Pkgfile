@@ -1,5 +1,5 @@
-# Description:  Hunspell dictionary for English
-# URL:  http://wordlist.sourceforge.net/
+# Description: Hunspell dictionary for English
+# URL: http://wordlist.sourceforge.net/
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: hunspell ispell
 
@@ -12,8 +12,8 @@ build() {
   cd igerman98-$version
 
   make hunspell/de_AT.dic hunspell/de_AT.aff \
-   hunspell/de_CH.dic hunspell/de_CH.aff \
-   hunspell/de_DE.dic hunspell/de_DE.aff
+    hunspell/de_CH.dic hunspell/de_CH.aff \
+    hunspell/de_DE.dic hunspell/de_DE.aff
 
   install -dm755 $PKG/usr/share/hunspell
   cp -p hunspell/de_*.dic hunspell/de_*.aff $PKG/usr/share/hunspell

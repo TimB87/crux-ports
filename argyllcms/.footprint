@@ -68,8 +68,12 @@ drwxr-xr-x	root/root	usr/share/argyllcms/ref/
 -rw-r--r--	root/root	usr/share/argyllcms/ref/ColorChecker.ti2
 -rw-r--r--	root/root	usr/share/argyllcms/ref/ColorCheckerDC.cht
 -rw-r--r--	root/root	usr/share/argyllcms/ref/ColorCheckerDC.ti2
+-rw-r--r--	root/root	usr/share/argyllcms/ref/ColorCheckerHalfPassport.cht
+-rw-r--r--	root/root	usr/share/argyllcms/ref/ColorCheckerHalfPassport.cie
+-rw-r--r--	root/root	usr/share/argyllcms/ref/ColorCheckerHalfPassport.ti2
 -rw-r--r--	root/root	usr/share/argyllcms/ref/ColorCheckerPassport.cht
 -rw-r--r--	root/root	usr/share/argyllcms/ref/ColorCheckerPassport.cie
+-rw-r--r--	root/root	usr/share/argyllcms/ref/ColorCheckerPassport.ti2
 -rw-r--r--	root/root	usr/share/argyllcms/ref/ColorCheckerSG.cht
 -rw-r--r--	root/root	usr/share/argyllcms/ref/ColorCheckerSG.ti2
 -rw-r--r--	root/root	usr/share/argyllcms/ref/D50_0.0.sp

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwEOTqTfoIMoNuj+oNBG0fYDb+qllwdCuIaPvZE9mtMkiBIXs9vPtXXioWrHjXF4qkASFs/+6xSqzvUiheUejRgU=
-SHA256 (Pkgfile) = 5b33a16ca18e06a9ec80ef1f832c1b7f555b2c2900ab53b37c4030b6d4327a5e
-SHA256 (.footprint) = c2709a25a66be804b0ad28bfe0c373071038d932750263248b9296186a1e6ce5
-SHA256 (Zotero-5.0.92_linux-x86_64.tar.bz2) = 1f8fcdc07f245c3d3249307a25c3a17bf3d328ad627fe15ede8d81c3023e7522
+RWSXjYMPO7mZwPbQibtp06OnBmWs0+Iq4jWXeBR59VA14rJUa4weQGapwarosq4KgZKQWpthh/EdAtAeYVJs6WymJcTHFbzA6gw=
+SHA256 (Pkgfile) = 5eae9cb037439d8c889d6e06905c1465964572f704a2ac9e1ad7b17bd7d81f19
+SHA256 (.footprint) = ede5dedaec738e0760496a35b3afa79d8632a35abde30ea10a2428ba47994e86
+SHA256 (Zotero-6.0.27_linux-x86_64.tar.bz2) = fa708f2d5541904bb48362b1b7f5d802deac631626d399cf7263cd4b639e8d1b

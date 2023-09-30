@@ -4,7 +4,7 @@
 # Depends on: dbus-glib gtk gtk3 nss xorg-libxt
 
 name=zotero-bin
-version=5.0.92
+version=6.0.27
 release=1
 source=(https://download.zotero.org/client/release/$version/Zotero-${version}_linux-x86_64.tar.bz2)
 

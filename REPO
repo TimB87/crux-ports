@@ -61,8 +61,8 @@ f:657f14bb505e108e2e68a841a9f21d26:kvantum-theme-arc/.footprint
 f:b2c15570b0136d0207693bc4959b2cea:grub2-theme-poly-light/Pkgfile
 f:d2c9d7ee684d688b006caf22b25793a5:grub2-theme-poly-light/.signature
 f:18cb56c49b2350380b1e20b2647c4875:grub2-theme-poly-light/.footprint
-f:3026b331d0548d7acd2b079e6996427b:cargo-make/Pkgfile
-f:c4eb25be5b2ffa021fff9cd6d02220d1:cargo-make/.signature
+f:599241d1280cdeda345201eb465f9e8b:cargo-make/Pkgfile
+f:be67a5bef3eef82b6e74bec346eb1b7c:cargo-make/.signature
 f:151e0496d7140054ae1b6c55f2ff3a53:cargo-make/.footprint
 f:5bf7d925a9fb4ea1077b4c4580a473c0:libmaxminddb/Pkgfile
 f:5711e3807eb6b374a2413bd7384e3c32:libmaxminddb/.signature
@@ -108,9 +108,9 @@ f:b76a518d4ba3ca0a808475ec49da691d:go-mtpfs/.footprint
 f:e5553a3e2b34b232339977aafa54ad9b:geoip2-database/Pkgfile
 f:b5ebe5992574f9c74a2e0515994bbe23:geoip2-database/.signature
 f:7dcac88aec3a79e1b381dd31cf067fab:geoip2-database/.footprint
-f:e57a2f43a586752258e6678221bb44d9:nextcloud/Pkgfile
-f:d0bf9fc0950b626e85ee929cc4a14210:nextcloud/.signature
-f:da927ca3589da2b6c5f21ee52ed226cc:nextcloud/.footprint
+f:13e306bf1cdb55f508c8c6fba7257f49:nextcloud/Pkgfile
+f:3cd326c147940e3e4a40ae342f3eff30:nextcloud/.signature
+f:936b3786b762fbc706722e4b87b304d7:nextcloud/.footprint
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README
 f:ccce743e074422ed5f0f55d15e524e65:zotero-bin/Pkgfile
 f:d22f3485c0b71c68042110e8d8f14e9c:zotero-bin/.signature

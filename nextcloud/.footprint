@@ -9568,6 +9568,8 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/admin_audit/l10n/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/admin_audit/l10n/ca.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/admin_audit/l10n/cs.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/admin_audit/l10n/cs.json
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/admin_audit/l10n/cy_GB.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/admin_audit/l10n/cy_GB.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/admin_audit/l10n/da.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/admin_audit/l10n/da.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/admin_audit/l10n/de.js
@@ -10611,6 +10613,8 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/cloud_federation_api/composer/comp
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/cloud_federation_api/l10n/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/cloud_federation_api/l10n/ar.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/cloud_federation_api/l10n/ar.json
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/cloud_federation_api/l10n/ast.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/cloud_federation_api/l10n/ast.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/cloud_federation_api/l10n/bg.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/cloud_federation_api/l10n/bg.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/cloud_federation_api/l10n/ca.js
@@ -10946,6 +10950,8 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/contactsinteraction/composer/compo
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/contactsinteraction/l10n/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/contactsinteraction/l10n/ar.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/contactsinteraction/l10n/ar.json
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/contactsinteraction/l10n/ast.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/contactsinteraction/l10n/ast.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/contactsinteraction/l10n/bg.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/contactsinteraction/l10n/bg.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/contactsinteraction/l10n/ca.js
@@ -13776,6 +13782,8 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/files_reminders/l10n/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_reminders/l10n/fr.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_reminders/l10n/gl.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_reminders/l10n/gl.json
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_reminders/l10n/hu.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_reminders/l10n/hu.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_reminders/l10n/lt_LT.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_reminders/l10n/lt_LT.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/files_reminders/l10n/mk.js
@@ -14886,6 +14894,8 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/l10n/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/l10n/ca.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/l10n/cs.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/l10n/cs.json
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/l10n/cy_GB.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/l10n/cy_GB.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/l10n/cy_GB.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/l10n/da.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/firstrunwizard/l10n/da.json
@@ -15313,6 +15323,8 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/lookup_server_connector/composer/c
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/lookup_server_connector/l10n/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/lookup_server_connector/l10n/ar.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/lookup_server_connector/l10n/ar.json
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/lookup_server_connector/l10n/ast.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/lookup_server_connector/l10n/ast.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/lookup_server_connector/l10n/bg.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/lookup_server_connector/l10n/bg.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/lookup_server_connector/l10n/ca.js
@@ -16035,6 +16047,8 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/password_policy/l10n/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/password_policy/l10n/af.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/password_policy/l10n/ar.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/password_policy/l10n/ar.json
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/password_policy/l10n/ast.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/password_policy/l10n/ast.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/password_policy/l10n/az.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/password_policy/l10n/az.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/password_policy/l10n/bg.js
@@ -16792,6 +16806,8 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/provisioning_api/img/
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/provisioning_api/l10n/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/provisioning_api/l10n/ar.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/provisioning_api/l10n/ar.json
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/provisioning_api/l10n/ast.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/provisioning_api/l10n/ast.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/provisioning_api/l10n/bg.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/provisioning_api/l10n/bg.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/provisioning_api/l10n/ca.js
@@ -17352,6 +17368,8 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/serverinfo/l10n/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/serverinfo/l10n/ca.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/serverinfo/l10n/cs.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/serverinfo/l10n/cs.json
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/serverinfo/l10n/cy_GB.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/serverinfo/l10n/cy_GB.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/serverinfo/l10n/da.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/serverinfo/l10n/da.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/serverinfo/l10n/de.js
@@ -17781,6 +17799,7 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/settings/lib/Middleware/
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/settings/lib/Search/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/settings/lib/Search/AppSearch.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/settings/lib/Search/SectionSearch.php
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/settings/lib/Search/UserSearch.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/settings/lib/Sections/
 drwxr-x---	nginx/nginx	var/www/nextcloud/apps/settings/lib/Sections/Admin/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/settings/lib/Sections/Admin/Additional.php
@@ -18476,6 +18495,8 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/suspicious_login/l10n/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/suspicious_login/l10n/tr.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/suspicious_login/l10n/uk.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/suspicious_login/l10n/uk.json
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/suspicious_login/l10n/vi.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/suspicious_login/l10n/vi.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/suspicious_login/l10n/zh_CN.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/suspicious_login/l10n/zh_CN.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/suspicious_login/l10n/zh_HK.js
@@ -22041,6 +22062,8 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/apps/twofactor_totp/l10n/
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/twofactor_totp/l10n/af.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/twofactor_totp/l10n/ar.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/twofactor_totp/l10n/ar.json
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/twofactor_totp/l10n/ast.js
+-rw-r-----	nginx/nginx	var/www/nextcloud/apps/twofactor_totp/l10n/ast.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/twofactor_totp/l10n/az.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/twofactor_totp/l10n/az.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/apps/twofactor_totp/l10n/bg.js
@@ -23727,6 +23750,7 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/core/Command/User/
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/Command/User/Report.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/Command/User/ResetPassword.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/Command/User/Setting.php
+-rw-r-----	nginx/nginx	var/www/nextcloud/core/Command/User/SyncAccountDataCommand.php
 drwxr-x---	nginx/nginx	var/www/nextcloud/core/Controller/
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/Controller/AppPasswordController.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/Controller/AutoCompleteController.php
@@ -24987,24 +25011,14 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/core/l10n/
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/l10n/es_EC.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/l10n/es_GT.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/l10n/es_GT.json
--rw-r-----	nginx/nginx	var/www/nextcloud/core/l10n/es_HN.js
--rw-r-----	nginx/nginx	var/www/nextcloud/core/l10n/es_HN.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/l10n/es_MX.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/l10n/es_MX.json
--rw-r-----	nginx/nginx	var/www/nextcloud/core/l10n/es_NI.js
--rw-r-----	nginx/nginx	var/www/nextcloud/core/l10n/es_NI.json
--rw-r-----	nginx/nginx	var/www/nextcloud/core/l10n/es_PA.js
--rw-r-----	nginx/nginx	var/www/nextcloud/core/l10n/es_PA.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/l10n/es_PE.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/l10n/es_PE.json
--rw-r-----	nginx/nginx	var/www/nextcloud/core/l10n/es_PR.js
--rw-r-----	nginx/nginx	var/www/nextcloud/core/l10n/es_PR.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/l10n/es_PY.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/l10n/es_PY.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/l10n/es_SV.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/l10n/es_SV.json
--rw-r-----	nginx/nginx	var/www/nextcloud/core/l10n/es_UY.js
--rw-r-----	nginx/nginx	var/www/nextcloud/core/l10n/es_UY.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/l10n/et_EE.js
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/l10n/et_EE.json
 -rw-r-----	nginx/nginx	var/www/nextcloud/core/l10n/eu.js
@@ -26010,6 +26024,7 @@ drwxr-x---	nginx/nginx	var/www/nextcloud/lib/private/Files/Storage/Wrapper/
 -rw-r-----	nginx/nginx	var/www/nextcloud/lib/private/Files/Storage/Wrapper/EncodingDirectoryWrapper.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/lib/private/Files/Storage/Wrapper/Encryption.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/lib/private/Files/Storage/Wrapper/Jail.php
+-rw-r-----	nginx/nginx	var/www/nextcloud/lib/private/Files/Storage/Wrapper/KnownMtime.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/lib/private/Files/Storage/Wrapper/PermissionsMask.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/lib/private/Files/Storage/Wrapper/Quota.php
 -rw-r-----	nginx/nginx	var/www/nextcloud/lib/private/Files/Storage/Wrapper/Wrapper.php

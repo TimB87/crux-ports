@@ -4,8 +4,8 @@
 # Depends on: libsodium
 
 name=php-sodium
-version=8.2.11
-release=2
+version=8.2.12
+release=1
 source=(https://php.net/distributions/php-$version.tar.xz)
 
 build() {

@@ -64,8 +64,8 @@ f:18cb56c49b2350380b1e20b2647c4875:grub2-theme-poly-light/.footprint
 f:1bad1adc3d135f374441001f311d756e:cargo-make/Pkgfile
 f:807e57f6953703c44d732c96415515f7:cargo-make/.signature
 f:151e0496d7140054ae1b6c55f2ff3a53:cargo-make/.footprint
-f:5bf7d925a9fb4ea1077b4c4580a473c0:libmaxminddb/Pkgfile
-f:5711e3807eb6b374a2413bd7384e3c32:libmaxminddb/.signature
+f:c640295c74ef1f37dcd571bd31475629:libmaxminddb/Pkgfile
+f:3df539eb42be82b1cb2e444c53114b9e:libmaxminddb/.signature
 f:c72fe4b5addb5c7c88daea91ea4ff901:libmaxminddb/.footprint
 f:cc2191188ea4de940bb88c9f3ba523e1:hunspell-de/Pkgfile
 f:ccd0c8f4319ddd77a96b38e7020a55fb:hunspell-de/.signature

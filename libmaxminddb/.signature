@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwI43FcuThJB6tEKGOkgAJo+gddOvtUwh6MzMTXrkrWaTurc7FdLn9qi2mtSKiFNd1blzMeZ7rC4JdI2dylkBwgQ=
-SHA256 (Pkgfile) = 8ac702a4dc92ce7544efe2e0abbc1e2416e2fa7b9b8900ef900c760f196aac56
+RWSXjYMPO7mZwKdlrCfnvDcSWJFO5RSnNuQ1rvYFK8qy0sunoxifvSvwR2QeFjVHT/gVshGtnXg2YApE6wrEfT5jwfI5mMMUuwc=
+SHA256 (Pkgfile) = 64edd5bf2762bd0d484bbe655b45d9b6b2c82fa9b6349c8492466ca6d0ae3d29
 SHA256 (.footprint) = 9b2c2dab7de762c94391adc2df9daacfb311d2d1a2f7c2da8ee39ddaeae8d89c
-SHA256 (libmaxminddb-1.7.1.tar.gz) = e8414f0dedcecbc1f6c31cb65cd81650952ab0677a4d8c49cab603b3b8fb083e
+SHA256 (libmaxminddb-1.8.0.tar.gz) = 1107799f77be6aa3b9796ad0eed8ffcc334bf45f8bd18e6a984d8adf3e719c6d

@@ -99,8 +99,8 @@ f:246f48c324871d76fdb1b7ff54458170:php-sodium/.footprint
 f:65ffc87999f41cbc4c7fb0cc1a37b537:arc-kde-theme/Pkgfile
 f:825040daf38fbb5e335b8ed6b80240cb:arc-kde-theme/.signature
 f:d500d0389976ea0a0be72becae76817c:arc-kde-theme/.footprint
-f:c74f3f0b8a029eb19a41870bc88ae16c:apcu/Pkgfile
-f:cdf09be97581fb924545b5574e2d3357:apcu/.signature
+f:fb900a1cc05fe5d276bfd17f1dc7b329:apcu/Pkgfile
+f:dc5a8cc483d93c5541be7de3556175be:apcu/.signature
 f:c8541c6f67ae1748985ccee2b7ae8919:apcu/.footprint
 f:031df9890fc05c6b337ce32d9cea2936:go-mtpfs/Pkgfile
 f:20462d0398b0760aa760094f77fba1c8:go-mtpfs/.signature

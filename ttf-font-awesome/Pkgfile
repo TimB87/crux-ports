@@ -3,7 +3,7 @@
 # Maintainer: Tim Biermann, tbier at posteo dot de
 
 name=ttf-font-awesome
-version=6.4.2
+version=6.5.0
 release=1
 source=(https://github.com/FortAwesome/Font-Awesome/archive/$version/FontAwesome-$version.tar.gz)
 
@@ -11,5 +11,5 @@ build() {
   cd Font-Awesome-$version
 
   install -d $PKG/usr/share/fonts/TTF/font-awesome/
-  install -m644 ./webfonts/*.ttf $PKG/usr/share/fonts/TTF/font-awesome/
+  install -m644 ./free/webfonts/*.ttf $PKG/usr/share/fonts/TTF/font-awesome/
 }

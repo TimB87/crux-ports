@@ -4,15 +4,12 @@
 # Depends on: bzip2 curl db gdbm libpcre2 libxml2 libzip oniguruma
 
 name=php
-version=8.2.13
+version=8.3.1
 release=1
-source=(https://php.net/distributions/php-$version.tar.xz
-  libxml2-2.12.patch)
+source=(https://php.net/distributions/php-$version.tar.xz)
 
 build () {
   cd php-$version
-
-  patch -p1 -i $SRC/libxml2-2.12.patch
 
   CPPFLAGS+=' -DU_USING_ICU_NAMESPACE=1'
 

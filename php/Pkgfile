@@ -5,7 +5,7 @@
 
 name=php
 version=8.3.2
-release=1
+release=2
 source=(https://php.net/distributions/php-$version.tar.xz)
 
 build () {
@@ -37,6 +37,7 @@ build () {
     --with-external-pcre \
     --enable-pcntl \
     --with-zlib \
+    --enable-exif=shared \
     --enable-embed=shared \
     --enable-bcmath=shared \
     --with-gmp=shared \
@@ -64,6 +65,6 @@ build () {
   install -m 644 php.ini-* $PKG/etc/php
 
   # order matters !
-  printf 'extension=%s\n' {zip,bz2,curl,openssl,dba,mbstring,bcmath,gmp,sysvmsg,sysvsem,sysvshm,pcntl}.so \
+  printf 'extension=%s\n' {zip,bz2,curl,openssl,dba,mbstring,exif,bcmath,gmp,sysvmsg,sysvsem,sysvshm,pcntl}.so \
     > $PKG/etc/php/conf.d/extensions.ini
 }

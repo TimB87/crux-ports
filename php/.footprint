@@ -349,6 +349,7 @@ drwxr-xr-x	root/root	usr/lib/php/extensions/
 -rwxr-xr-x	root/root	usr/lib/php/extensions/bz2.so
 -rwxr-xr-x	root/root	usr/lib/php/extensions/curl.so
 -rwxr-xr-x	root/root	usr/lib/php/extensions/dba.so
+-rwxr-xr-x	root/root	usr/lib/php/extensions/exif.so
 -rwxr-xr-x	root/root	usr/lib/php/extensions/gmp.so
 -rwxr-xr-x	root/root	usr/lib/php/extensions/mbstring.so
 -rwxr-xr-x	root/root	usr/lib/php/extensions/opcache.so

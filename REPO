@@ -46,9 +46,9 @@ f:bb7379071a342145258dca1c1e225d15:argyllcms/.footprint
 f:434ed2711a7c65c710aa785deac2b85d:python3-evdev/Pkgfile
 f:e9b70efc81952a2814f86cada51e0756:python3-evdev/.signature
 f:7a80a96fbdb65f13ad75713f43c72524:python3-evdev/.footprint
-f:72cfcfde4fb8860cd04102ca9dc8ddef:sc-controller/Pkgfile
-f:9927a9f1bea59ab9683b8dc59550a724:sc-controller/.signature
-f:61dc8a5aeb3e651219da5a03710127ea:sc-controller/.footprint
+f:03cc29953ea7838ffc92c8990ea53ea5:sc-controller/Pkgfile
+f:8685095a0c1e3648e21c54def7172f88:sc-controller/.signature
+f:0476650d377fc9a78e5e5674e0187704:sc-controller/.footprint
 f:539ff4b1b0371cc11c26df6503d64ea8:python3-pylibacl/Pkgfile
 f:f4bc3dadb96bf098304a5a88d2e85f90:python3-pylibacl/.signature
 f:6e0427b2c147df7d73a1a63fc2f11531:python3-pylibacl/.footprint

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwKwaB9WDUfcZx/LAzxAciqlt6JfE1V5p8ULswNONLDBEVTgmt5J1TWcHttJWuoaSZYI2OdkArw8pQ9zkEh+wggg=
-SHA256 (Pkgfile) = c7bc4a3801f94e42b9c476f2659df895f572ffee38b758539aa662afec0db9e9
-SHA256 (.footprint) = 755ffbadd57d4b6bbbd984856dad8312caea0726ddaa2d8b59bd82fb65399774
-SHA256 (nextcloud-28.0.1.tar.bz2) = 2f80735b443082272fe6a3b5e32137957f1fc448c75342b94b5200b29725f3a4
+RWSXjYMPO7mZwCVZpySSUb6sZpU98c2DU1Aa9/atX+oDlj1wNystWqm7dD/Ya+4Tyyts6/va6x8hPjLmrc1MGPPKzkFjJOiLTAY=
+SHA256 (Pkgfile) = 88256c1d1e6f0bbe133dd89821303943e01eb42058f11f16efdca84334439547
+SHA256 (.footprint) = 07b23bd022d53d001353d502d278a73a6bd4fe8ad4c0029ddb4518e3958bce48
+SHA256 (nextcloud-28.0.2.tar.bz2) = de34d6baf3ecceacfdd138e85520cd85e1d2ce6798d9ffa478ac17eb1efa1d08

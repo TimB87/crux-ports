@@ -27,7 +27,6 @@ d:nextcloud
 d:zotero-bin
 d:goaccess
 d:ttf-plex
-d:php-pgsql
 f:56d15bdcdb67ca22744acaa6c22f5443:colord/Pkgfile
 f:e6aac1355b9c1418cfe48fd8227af662:colord/.signature
 f:74fdaac009afbf8e8a3a6d1e1b946709:colord/pre-install
@@ -122,6 +121,3 @@ f:693759b7401adc3768f9b2358b71e27e:goaccess/.footprint
 f:96988f2427032c152fb97738f6f8e927:ttf-plex/Pkgfile
 f:55f1f92d8deb84f5420c63ba56b73a99:ttf-plex/.signature
 f:ff912c0d70fa7451637553e1ed2b3873:ttf-plex/.footprint
-f:a5cea29d7ecdfeb3a7d377a3fc9c1e20:php-pgsql/Pkgfile
-f:cb7d593c0da1a48b7afbac3e7760e15e:php-pgsql/.signature
-f:4bcff8c2fae56f50bf50bb9a3211205e:php-pgsql/.footprint

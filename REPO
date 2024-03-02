@@ -107,9 +107,9 @@ f:b76a518d4ba3ca0a808475ec49da691d:go-mtpfs/.footprint
 f:e5553a3e2b34b232339977aafa54ad9b:geoip2-database/Pkgfile
 f:b5ebe5992574f9c74a2e0515994bbe23:geoip2-database/.signature
 f:7dcac88aec3a79e1b381dd31cf067fab:geoip2-database/.footprint
-f:d3be8e355ba84fee7624e2c6e154fe33:nextcloud/Pkgfile
-f:5f92f2aa1c18ec4888a68b84121469fe:nextcloud/.signature
-f:0d2c21fba403d9de285a22c9b5af8a6d:nextcloud/.footprint
+f:115dbd242a8bb7896daa90c3af52ac77:nextcloud/Pkgfile
+f:f2096c4d1202a96d7edf75fc643674a1:nextcloud/.signature
+f:bc73e2eebf9d8440f8826900fd831ba5:nextcloud/.footprint
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README
 f:ccce743e074422ed5f0f55d15e524e65:zotero-bin/Pkgfile
 f:d22f3485c0b71c68042110e8d8f14e9c:zotero-bin/.signature

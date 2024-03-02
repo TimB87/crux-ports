@@ -4,7 +4,7 @@
 # Depends on: apcu nginx php-gd php-imagick php-intl php-pgsql php-redis php-sodium
 
 name=nextcloud
-version=28.0.2
+version=28.0.3
 release=1
 source=(https://download.nextcloud.com/server/releases/$name-$version.tar.bz2)
 

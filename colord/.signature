@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwFBw8AmoNYDXP+VkQh+1i/ki3kT1mQPOFsM9qC6bEcKPcY2o9k8k0ZuE9W22qn63davIcVmd3jkrtb8svGeUCAw=
-SHA256 (Pkgfile) = d2a25d155d647b7cc8faa53a411e4df3ced65a38c34f047de268437b073eed50
+RWSXjYMPO7mZwAgf7m1XTC0/+Owh3FZYXWtYz30gsKFwEKxR1vyu+sG4ds1FWDLmNLMwldiDe8tgCeaJcEktqmxBcd2Vh/uahAQ=
+SHA256 (Pkgfile) = b12c18c39eb91970c99fec56912d1bf824166f09622fa60860450ff70ec39e3c
 SHA256 (.footprint) = 6d8cc50d0b50028e82e5a74f2929522b5be70231f2e90dae07986b231ad20442
-SHA256 (colord-1.4.6.tar.gz) = a1d1ccbd301a75aa79df59c8cda69521db0099db30dc5d297ccc587dd13a37e6
+SHA256 (colord-1.4.7.tar.gz) = 09a2c35c2cf6afd28b9a107dd48090ee7a376c20008a7fd7b2eb576a46ee057e

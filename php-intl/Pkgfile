@@ -4,7 +4,7 @@
 # Depends on: icu
 
 name=php-intl
-version=8.3.4
+version=8.3.6
 release=1
 source=(https://www.php.net/distributions/php-$version.tar.xz)
 

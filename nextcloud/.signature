@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwMuUjKwZSWNTVlHXPY0deEmg/QTgmTRPrc6+HCOHMtz3YZQ7wF8vUi2CN8aZVjk7Bt0QhLfzQBUaKNOrYt8nvAc=
-SHA256 (Pkgfile) = ad1deca84ec4f0d650a4631d2a7187aba957cb0b3bdd0450cab1ae15df9bb294
-SHA256 (.footprint) = e4b533f5e31e7f8f4fa51702dffb4ff764d79b7c2db56972f96a4c464d595c12
-SHA256 (nextcloud-28.0.4.tar.bz2) = 9bfecee1e12fba48c49e9a71caa81c4ba10b2884787fab75d64ccfd122a13019
+RWSXjYMPO7mZwL/ibLfebuuYZj/osL7GH2p99qN7JF9yzkQdaTIHQL+y5wlOT64/MkNMSqKWZFv2RvJ8AStyqyMMWX1PO26iUAM=
+SHA256 (Pkgfile) = 20b10d03aa6bdc3264aec5d8e23424814136b8614153b35b36f6422e90f63e11
+SHA256 (.footprint) = 7eb90fb1822c8b2f2db01ad4dd8c509558412cf1b9408b0cdbf1bd5c3b0e0f30
+SHA256 (nextcloud-28.0.5.tar.bz2) = dca1100f95b864bade113477723c71ac897193352c317e39cd286d87635706eb
 SHA256 (nextcloud.config.php) = 2ff8a9c376bdf3362da628f2cfae4faa96a90f3552caadd878238b5cc7d6fe45

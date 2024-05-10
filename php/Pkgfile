@@ -5,7 +5,7 @@
 
 name=php
 version=8.3.7
-release=2
+release=1
 source=(https://php.net/distributions/php-$version.tar.xz)
 
 build () {

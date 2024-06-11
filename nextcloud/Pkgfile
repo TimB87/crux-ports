@@ -2,10 +2,10 @@
 # URL: https://nextcloud.com
 # Maintainer: Tim Biermann, tbier at posteo dot de
 # Depends on: php-gd
-# Optional: apcu curl php-fpm php-imagick php-intl php-pgsql php-redis php-sodium samba
+# Optional: apache apcu curl nginx php-fpm php-imagick php-intl php-pgsql php-redis php-sodium samba
 
 name=nextcloud
-version=29.0.1
+version=29.0.2
 release=1
 source=(https://download.nextcloud.com/server/releases/$name-$version.tar.bz2
   nextcloud.config.php)
@@ -13,21 +13,33 @@ source=(https://download.nextcloud.com/server/releases/$name-$version.tar.bz2
 build() {
   cd $name
 
-  install -vdm 755 $PKG/var/lib/$name/
-  install -vdm 770 $PKG/var/lib/$name/data
-  install -vdm 755 $PKG/var/lib/$name/apps
-  install -vdm 755 $PKG/var/log/$name/
+  install -dm 755 $PKG/var/lib/$name/
+  install -dm 770 $PKG/var/lib/$name/data
+  install -d -o www -m 700 $PKG/var/lib/$name/apps
+  install -dm 755 $PKG/var/log/$name/
 
-  install -vDm 644 .htaccess -t $PKG/etc/webapps/$name/
-  install -vDm 640 ../$name.config.php $PKG/etc/webapps/$name/config/config.php
-  find config -type f -exec install -vDm 644 {} $PKG/etc/webapps/$name/{} \;
+  install -D -o www -m 644 .htaccess -t $PKG/etc/webapps/$name/
+  install -D -o www -m 640 ../$name.config.php $PKG/etc/webapps/$name/config/config.php
+  find config -type f -exec install -Dm 644 {} $PKG/etc/webapps/$name/{} \;
 
   rm -rf config .htaccess
 
-  find . -type f -not -iname "*.orig" -exec install -vDm 644 {} "$PKG/usr/share/webapps/$name/"{} \;
+  find . -type f -not -iname "*.orig" -exec install -Dm 644 {} $PKG/usr/share/webapps/$name/{} \;
 
   ln -sv /etc/webapps/$name/config $PKG/usr/share/webapps/$name/
   ln -sv /etc/webapps/$name/.htaccess $PKG/usr/share/webapps/$name/
-  ln -sv /var/lib/$name/apps $PKG/usr/share/webapps/$name/wapps
-  install -vDm 755 occ -t $PKG/usr/share/webapps/$name/
+  ln -sv /var/lib/$name/apps $PKG/usr/share/webapps/$name/apps-appstore
+
+  ln -sf /etc/ssl/certs/ca-certificates.crt $PKG/usr/share/webapps/$name/resources/config/ca-bundle.crt
+
+  install -Dm 755 occ -t $PKG/usr/share/webapps/$name/
+
+  find . -name .gitignore -delete \
+    -o -name .bower.json -delete \
+    -o -name 'README*' -delete \
+    -o -name 'CHANGELOG*' -delete \
+    -o -name 'CONTRIBUTING*' -delete
+  find . -name .github -type d -prune -exec rm -r {} \;
+
+  rm -r $PKG/usr/share/webapps/$name/core/doc
 }

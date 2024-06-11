@@ -61,8 +61,8 @@ f:18cb56c49b2350380b1e20b2647c4875:grub2-theme-poly-light/.footprint
 f:dbc39be66711a14452fa8d85f70a191b:cargo-make/Pkgfile
 f:d93f92f185ea213d5ff4013b6d692783:cargo-make/.signature
 f:151e0496d7140054ae1b6c55f2ff3a53:cargo-make/.footprint
-f:35d32dfa276ff7e077da46824defe8ce:libmaxminddb/Pkgfile
-f:4b49c7c5d4bb6fc54237159c4135e676:libmaxminddb/.signature
+f:c3f3913dbe17fd8950923fc94ab7d88c:libmaxminddb/Pkgfile
+f:73326ffe93cf9e75e1ea9fd43c00265e:libmaxminddb/.signature
 f:c72fe4b5addb5c7c88daea91ea4ff901:libmaxminddb/.footprint
 f:cc2191188ea4de940bb88c9f3ba523e1:hunspell-de/Pkgfile
 f:ccd0c8f4319ddd77a96b38e7020a55fb:hunspell-de/.signature
@@ -105,10 +105,10 @@ f:b76a518d4ba3ca0a808475ec49da691d:go-mtpfs/.footprint
 f:e5553a3e2b34b232339977aafa54ad9b:geoip2-database/Pkgfile
 f:b5ebe5992574f9c74a2e0515994bbe23:geoip2-database/.signature
 f:7dcac88aec3a79e1b381dd31cf067fab:geoip2-database/.footprint
-f:8d57e8ac2443b13241dd819552aca5cf:nextcloud/Pkgfile
+f:b519b8d8efad99cb394606a1f30d3fad:nextcloud/Pkgfile
 f:55bc81dbccca98cb820285749d9ddbb1:nextcloud/nextcloud.config.php
-f:bed60a16e2d5f8fa8b4a617c3b2d0b4f:nextcloud/.signature
-f:74cc7801e9324604edb2fb2a5da27fa1:nextcloud/.footprint
+f:05214739814778443d95105359578228:nextcloud/.signature
+f:60f082d4bd366bf0485ec31479bc5f15:nextcloud/.footprint
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README
 f:ccce743e074422ed5f0f55d15e524e65:zotero-bin/Pkgfile
 f:d22f3485c0b71c68042110e8d8f14e9c:zotero-bin/.signature

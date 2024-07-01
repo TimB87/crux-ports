@@ -5,7 +5,7 @@
 # Optional: apache apcu curl nginx php-fpm php-imagick php-intl php-pgsql php-redis php-sodium samba
 
 name=nextcloud
-version=29.0.2
+version=29.0.3
 release=1
 source=(https://download.nextcloud.com/server/releases/$name-$version.tar.bz2
   nextcloud.config.php)
@@ -28,7 +28,7 @@ build() {
 
   ln -sv /etc/webapps/$name/config $PKG/usr/share/webapps/$name/
   ln -sv /etc/webapps/$name/.htaccess $PKG/usr/share/webapps/$name/
-  ln -sv /var/lib/$name/apps $PKG/usr/share/webapps/$name/apps-appstore
+  ln -sv /var/lib/$name/apps $PKG/usr/share/webapps/$name/wapps
 
   ln -sf /etc/ssl/certs/ca-certificates.crt $PKG/usr/share/webapps/$name/resources/config/ca-bundle.crt
 

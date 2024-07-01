@@ -7964,7 +7964,6 @@ drwxr-xr-x	root/root	usr/share/webapps/nextcloud/3rdparty/web-auth/webauthn-lib/
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/3rdparty/web-auth/webauthn-lib/src/Util/CoseSignatureFixer.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/AUTHORS
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/COPYING
-lrwxrwxrwx	root/root	usr/share/webapps/nextcloud/apps-appstore -> /var/lib/nextcloud/apps
 drwxr-xr-x	root/root	usr/share/webapps/nextcloud/apps/
 drwxr-xr-x	root/root	usr/share/webapps/nextcloud/apps/activity/
 drwxr-xr-x	root/root	usr/share/webapps/nextcloud/apps/activity/appinfo/
@@ -10153,6 +10152,7 @@ drwxr-xr-x	root/root	usr/share/webapps/nextcloud/apps/dav/lib/BackgroundJob/
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/dav/lib/BackgroundJob/CalendarRetentionJob.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/dav/lib/BackgroundJob/CleanupDirectLinksJob.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/dav/lib/BackgroundJob/CleanupInvitationTokenJob.php
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/dav/lib/BackgroundJob/DeleteOutdatedSchedulingObjects.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/dav/lib/BackgroundJob/EventReminderJob.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/dav/lib/BackgroundJob/GenerateBirthdayCalendarBackgroundJob.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/dav/lib/BackgroundJob/OutOfOfficeEventDispatcherJob.php
@@ -10305,6 +10305,8 @@ drwxr-xr-x	root/root	usr/share/webapps/nextcloud/apps/dav/lib/CardDAV/Integratio
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/dav/lib/CardDAV/MultiGetExportPlugin.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/dav/lib/CardDAV/PhotoCache.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/dav/lib/CardDAV/Plugin.php
+drwxr-xr-x	root/root	usr/share/webapps/nextcloud/apps/dav/lib/CardDAV/Security/
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/dav/lib/CardDAV/Security/CardDavRateLimitingPlugin.php
 drwxr-xr-x	root/root	usr/share/webapps/nextcloud/apps/dav/lib/CardDAV/Sharing/
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/dav/lib/CardDAV/Sharing/Backend.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/dav/lib/CardDAV/Sharing/Service.php
@@ -10478,6 +10480,7 @@ drwxr-xr-x	root/root	usr/share/webapps/nextcloud/apps/dav/lib/Migration/
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/dav/lib/Migration/BuildSocialSearchIndexBackgroundJob.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/dav/lib/Migration/CalDAVRemoveEmptyValue.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/dav/lib/Migration/ChunkCleanup.php
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/dav/lib/Migration/DeleteSchedulingObjects.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/dav/lib/Migration/FixBirthdayCalendarComponent.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/dav/lib/Migration/RefreshWebcalJobRegistrar.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/dav/lib/Migration/RegenerateBirthdayCalendars.php
@@ -10681,6 +10684,8 @@ drwxr-xr-x	root/root	usr/share/webapps/nextcloud/apps/encryption/l10n/
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/encryption/l10n/fi.json
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/encryption/l10n/fr.js
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/encryption/l10n/fr.json
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/encryption/l10n/ga.js
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/encryption/l10n/ga.json
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/encryption/l10n/gl.js
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/encryption/l10n/gl.json
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/encryption/l10n/he.js
@@ -10831,8 +10836,6 @@ drwxr-xr-x	root/root	usr/share/webapps/nextcloud/apps/federatedfilesharing/img/
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/federatedfilesharing/img/social-diaspora.svg
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/federatedfilesharing/img/social-facebook.svg
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/federatedfilesharing/img/social-twitter.svg
-drwxr-xr-x	root/root	usr/share/webapps/nextcloud/apps/federatedfilesharing/js/
--rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/federatedfilesharing/js/external.js
 drwxr-xr-x	root/root	usr/share/webapps/nextcloud/apps/federatedfilesharing/l10n/
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/federatedfilesharing/l10n/ar.js
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/federatedfilesharing/l10n/ar.json
@@ -11672,6 +11675,8 @@ drwxr-xr-x	root/root	usr/share/webapps/nextcloud/apps/files_downloadlimit/l10n/
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/files_downloadlimit/l10n/fi.json
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/files_downloadlimit/l10n/fr.js
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/files_downloadlimit/l10n/fr.json
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/files_downloadlimit/l10n/ga.js
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/files_downloadlimit/l10n/ga.json
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/files_downloadlimit/l10n/gl.js
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/files_downloadlimit/l10n/gl.json
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/files_downloadlimit/l10n/hr.js
@@ -12765,6 +12770,8 @@ drwxr-xr-x	root/root	usr/share/webapps/nextcloud/apps/files_pdfviewer/l10n/
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/files_pdfviewer/l10n/fi.json
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/files_pdfviewer/l10n/fr.js
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/files_pdfviewer/l10n/fr.json
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/files_pdfviewer/l10n/ga.js
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/files_pdfviewer/l10n/ga.json
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/files_pdfviewer/l10n/gl.js
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/files_pdfviewer/l10n/gl.json
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/files_pdfviewer/l10n/ja.js
@@ -12854,6 +12861,8 @@ drwxr-xr-x	root/root	usr/share/webapps/nextcloud/apps/files_reminders/l10n/
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/files_reminders/l10n/fi.json
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/files_reminders/l10n/fr.js
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/files_reminders/l10n/fr.json
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/files_reminders/l10n/ga.js
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/files_reminders/l10n/ga.json
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/files_reminders/l10n/gl.js
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/files_reminders/l10n/gl.json
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/files_reminders/l10n/hu.js
@@ -16950,6 +16959,7 @@ drwxr-xr-x	root/root	usr/share/webapps/nextcloud/apps/settings/lib/SetupChecks/
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/settings/lib/SetupChecks/LegacySSEKeyFormat.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/settings/lib/SetupChecks/MaintenanceWindowStart.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/settings/lib/SetupChecks/MemcacheConfigured.php
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/settings/lib/SetupChecks/MimeTypeMigrationAvailable.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/settings/lib/SetupChecks/MysqlUnicodeSupport.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/settings/lib/SetupChecks/OcxProviders.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/settings/lib/SetupChecks/OverwriteCliUrl.php
@@ -16965,6 +16975,7 @@ drwxr-xr-x	root/root	usr/share/webapps/nextcloud/apps/settings/lib/SetupChecks/
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/settings/lib/SetupChecks/PushService.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/settings/lib/SetupChecks/RandomnessSecure.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/settings/lib/SetupChecks/ReadOnlyConfig.php
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/settings/lib/SetupChecks/SchedulingTableSize.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/settings/lib/SetupChecks/SecurityHeaders.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/settings/lib/SetupChecks/SupportedDatabase.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/settings/lib/SetupChecks/SystemIs64bit.php
@@ -17441,6 +17452,8 @@ drwxr-xr-x	root/root	usr/share/webapps/nextcloud/apps/survey_client/l10n/
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/survey_client/l10n/fi.json
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/survey_client/l10n/fr.js
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/survey_client/l10n/fr.json
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/survey_client/l10n/ga.js
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/survey_client/l10n/ga.json
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/survey_client/l10n/gl.js
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/survey_client/l10n/gl.json
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/survey_client/l10n/he.js
@@ -17586,6 +17599,8 @@ drwxr-xr-x	root/root	usr/share/webapps/nextcloud/apps/suspicious_login/l10n/
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/suspicious_login/l10n/fi.json
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/suspicious_login/l10n/fr.js
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/suspicious_login/l10n/fr.json
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/suspicious_login/l10n/ga.js
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/suspicious_login/l10n/ga.json
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/suspicious_login/l10n/gl.js
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/suspicious_login/l10n/gl.json
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/suspicious_login/l10n/he.js
@@ -22371,6 +22386,7 @@ drwxr-xr-x	root/root	usr/share/webapps/nextcloud/apps/viewer/composer/composer/
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/viewer/composer/composer/autoload_real.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/viewer/composer/composer/autoload_static.php
 drwxr-xr-x	root/root	usr/share/webapps/nextcloud/apps/viewer/css/
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/viewer/css/viewer-index.css
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/viewer/css/viewer-main.css
 drwxr-xr-x	root/root	usr/share/webapps/nextcloud/apps/viewer/img/
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/viewer/img/app.svg
@@ -22836,6 +22852,8 @@ drwxr-xr-x	root/root	usr/share/webapps/nextcloud/apps/workflowengine/l10n/
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/workflowengine/l10n/fi.json
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/workflowengine/l10n/fr.js
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/workflowengine/l10n/fr.json
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/workflowengine/l10n/ga.js
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/workflowengine/l10n/ga.json
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/workflowengine/l10n/gl.js
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/workflowengine/l10n/gl.json
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/apps/workflowengine/l10n/he.js
@@ -23801,6 +23819,8 @@ drwxr-xr-x	root/root	usr/share/webapps/nextcloud/core/vendor/zxcvbn/dist/
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/core/vendor/zxcvbn/dist/zxcvbn.js
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/cron.php
 drwxr-xr-x	root/root	usr/share/webapps/nextcloud/dist/
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/1241-1241.js
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/1241-1241.js.map
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/1439-1439.js
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/1439-1439.js.LICENSE.txt
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/1439-1439.js.map
@@ -23812,15 +23832,13 @@ drwxr-xr-x	root/root	usr/share/webapps/nextcloud/dist/
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/3865-3865.js
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/3865-3865.js.map
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/5528-5528.js
--rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/5632-5632.js
--rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/5632-5632.js.map
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/6075-6075.js
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/6075-6075.js.map
--rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/6364-6364.js
--rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/6364-6364.js.LICENSE.txt
--rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/6364-6364.js.map
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/6794-6794.js
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/6794-6794.js.map
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/7412-7412.js
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/7412-7412.js.LICENSE.txt
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/7412-7412.js.map
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/7462-7462.js
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/7462-7462.js.LICENSE.txt
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/7462-7462.js.map
@@ -23830,6 +23848,8 @@ drwxr-xr-x	root/root	usr/share/webapps/nextcloud/dist/
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/7883-7883.js
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/7883-7883.js.LICENSE.txt
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/7883-7883.js.map
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/857-857.js
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/857-857.js.map
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/8618-8618.js
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/8618-8618.js.LICENSE.txt
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/8618-8618.js.map
@@ -23897,6 +23917,8 @@ drwxr-xr-x	root/root	usr/share/webapps/nextcloud/dist/
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/dav-settings-personal-availability.js
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/dav-settings-personal-availability.js.LICENSE.txt
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/dav-settings-personal-availability.js.map
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/federatedfilesharing-external.js
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/federatedfilesharing-external.js.map
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/federatedfilesharing-vue-settings-admin.js
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/federatedfilesharing-vue-settings-admin.js.LICENSE.txt
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/dist/federatedfilesharing-vue-settings-admin.js.map
@@ -24895,6 +24917,7 @@ drwxr-xr-x	root/root	usr/share/webapps/nextcloud/lib/private/Memcache/
 drwxr-xr-x	root/root	usr/share/webapps/nextcloud/lib/private/Migration/
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/lib/private/Migration/BackgroundRepair.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/lib/private/Migration/ConsoleOutput.php
+-rw-r--r--	root/root	usr/share/webapps/nextcloud/lib/private/Migration/NullOutput.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/lib/private/Migration/SimpleOutput.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/lib/private/NaturalSort.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/lib/private/NaturalSort_DefaultCollator.php
@@ -26278,6 +26301,7 @@ drwxr-xr-x	root/root	usr/share/webapps/nextcloud/updater/
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/updater/index.php
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/updater/updater.phar
 -rw-r--r--	root/root	usr/share/webapps/nextcloud/version.php
+lrwxrwxrwx	root/root	usr/share/webapps/nextcloud/wapps -> /var/lib/nextcloud/apps
 drwxr-xr-x	root/root	var/
 drwxr-xr-x	root/root	var/lib/
 drwxr-xr-x	root/root	var/lib/nextcloud/

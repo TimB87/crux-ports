@@ -4,7 +4,7 @@
 # Depends on: bzip2 curl db gdbm libpcre2 libxml2 libzip oniguruma
 
 name=php
-version=8.3.8
+version=8.3.9
 release=1
 source=(https://php.net/distributions/php-$version.tar.xz)
 

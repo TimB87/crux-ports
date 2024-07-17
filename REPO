@@ -58,8 +58,8 @@ f:657f14bb505e108e2e68a841a9f21d26:kvantum-theme-arc/.footprint
 f:b2c15570b0136d0207693bc4959b2cea:grub2-theme-poly-light/Pkgfile
 f:d2c9d7ee684d688b006caf22b25793a5:grub2-theme-poly-light/.signature
 f:18cb56c49b2350380b1e20b2647c4875:grub2-theme-poly-light/.footprint
-f:334d0bf8d60112299a38de48b4ec7aba:cargo-make/Pkgfile
-f:771c8119b6f0f47badd3a8d856523026:cargo-make/.signature
+f:c857a0b8336f3cc843ca093a6f27565e:cargo-make/Pkgfile
+f:4885799e94f04b5fca0e90af860b4941:cargo-make/.signature
 f:151e0496d7140054ae1b6c55f2ff3a53:cargo-make/.footprint
 f:c3f3913dbe17fd8950923fc94ab7d88c:libmaxminddb/Pkgfile
 f:73326ffe93cf9e75e1ea9fd43c00265e:libmaxminddb/.signature
@@ -87,8 +87,8 @@ f:10c7dd1a7f1fdf33783a2f3fda6068fa:read-edid/.footprint
 f:de039ad25d94ddda43bf65b16f3fea5e:php-intl/Pkgfile
 f:6f3d116cec7779a992ab0714e95f2d12:php-intl/.signature
 f:c5157587e260c79d378428d7424a96c2:php-intl/.footprint
-f:2448a865e0b28296cfb47a86b791b876:ttf-font-awesome/Pkgfile
-f:6f066f06d6f4eba77affb8c4728c8141:ttf-font-awesome/.signature
+f:279eeb9eabeb7f62c37be1bc197fa2a2:ttf-font-awesome/Pkgfile
+f:03ddb83f17a883a85ea582d4dc857149:ttf-font-awesome/.signature
 f:5a7423bda03806dd20c0daaefedb0825:ttf-font-awesome/.footprint
 f:b01270442844ce8a529709da6cdb9fd7:php-sodium/Pkgfile
 f:9965acb375c9d1ff189d83cb846879e0:php-sodium/.signature

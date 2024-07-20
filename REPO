@@ -105,10 +105,10 @@ f:b76a518d4ba3ca0a808475ec49da691d:go-mtpfs/.footprint
 f:e5553a3e2b34b232339977aafa54ad9b:geoip2-database/Pkgfile
 f:b5ebe5992574f9c74a2e0515994bbe23:geoip2-database/.signature
 f:7dcac88aec3a79e1b381dd31cf067fab:geoip2-database/.footprint
-f:5fc8f3c982cf867dc921806e89c15cf5:nextcloud/Pkgfile
+f:aafb372e308885ef4ac1ccf1902f31ac:nextcloud/Pkgfile
 f:55bc81dbccca98cb820285749d9ddbb1:nextcloud/nextcloud.config.php
-f:7569a1c03b5ff6bbad10306c8ab6d9ad:nextcloud/.signature
-f:0dd484f348dbdc1e59fac6233c915067:nextcloud/.footprint
+f:af2b58286ba846ba357f613248e8496e:nextcloud/.signature
+f:8144ad505b31eea24d9cecd232dcc6b8:nextcloud/.footprint
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README
 f:ccce743e074422ed5f0f55d15e524e65:zotero-bin/Pkgfile
 f:d22f3485c0b71c68042110e8d8f14e9c:zotero-bin/.signature

@@ -96,8 +96,8 @@ f:246f48c324871d76fdb1b7ff54458170:php-sodium/.footprint
 f:65ffc87999f41cbc4c7fb0cc1a37b537:arc-kde-theme/Pkgfile
 f:825040daf38fbb5e335b8ed6b80240cb:arc-kde-theme/.signature
 f:d500d0389976ea0a0be72becae76817c:arc-kde-theme/.footprint
-f:694a3f10ac6823a5f615817715d01d43:apcu/Pkgfile
-f:00baa80909a67c5de55fc9acfd4f7b93:apcu/.signature
+f:9750eeb3894592a11643e4da921e7f0b:apcu/Pkgfile
+f:37942d8680dba6a6eb7b399ac4171397:apcu/.signature
 f:c8541c6f67ae1748985ccee2b7ae8919:apcu/.footprint
 f:031df9890fc05c6b337ce32d9cea2936:go-mtpfs/Pkgfile
 f:20462d0398b0760aa760094f77fba1c8:go-mtpfs/.signature

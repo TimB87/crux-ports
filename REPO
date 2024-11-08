@@ -105,11 +105,14 @@ f:b76a518d4ba3ca0a808475ec49da691d:go-mtpfs/.footprint
 f:e5553a3e2b34b232339977aafa54ad9b:geoip2-database/Pkgfile
 f:b5ebe5992574f9c74a2e0515994bbe23:geoip2-database/.signature
 f:7dcac88aec3a79e1b381dd31cf067fab:geoip2-database/.footprint
-f:90302722f969bca5173548e4ee3708a3:nextcloud/Pkgfile
+f:6bfe0dbcd46752c398cdda3a5f32b467:nextcloud/Pkgfile
 f:55bc81dbccca98cb820285749d9ddbb1:nextcloud/nextcloud.config.php
-f:2678ff4bb2ca75b995772b137f3cbfdc:nextcloud/.signature
-f:50d638dadecdf65bfa0c3a038727ec45:nextcloud/.footprint
+f:af48a91b8dce773bdcb25b4513ad3363:nextcloud/disable-integrity-check-as-default.patch
+f:6abe0f411ba9c91470afaf77e2fdece1:nextcloud/.signature
+f:36ec98c1b93c3c6fb242f179697ce849:nextcloud/.footprint
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README
+f:e6dc4db4175a48697991f52ea8034063:nextcloud/nextcloud-dont-chmod.patch
+f:25db417b0c5143a1827a76ac480c73ae:nextcloud/dont-update-htaccess.patch
 f:ccce743e074422ed5f0f55d15e524e65:zotero-bin/Pkgfile
 f:d22f3485c0b71c68042110e8d8f14e9c:zotero-bin/.signature
 f:cf7fb0c52fb7a8e7d903834ccb58c21b:zotero-bin/.footprint

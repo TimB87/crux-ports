@@ -5,7 +5,7 @@
 
 name=php
 version=8.3.14
-release=1
+release=2
 source=(https://php.net/distributions/php-$version.tar.xz)
 
 build () {
@@ -35,7 +35,7 @@ build () {
     --with-openssl=shared,/usr \
     --with-zip=shared \
     --with-external-pcre \
-    --enable-pcntl \
+    --enable-pcntl=shared \
     --with-zlib \
     --enable-exif=shared \
     --enable-embed=shared \

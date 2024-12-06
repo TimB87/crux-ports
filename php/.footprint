@@ -354,6 +354,7 @@ drwxr-xr-x	root/root	usr/lib/php/extensions/
 -rwxr-xr-x	root/root	usr/lib/php/extensions/mbstring.so
 -rwxr-xr-x	root/root	usr/lib/php/extensions/opcache.so
 -rwxr-xr-x	root/root	usr/lib/php/extensions/openssl.so
+-rwxr-xr-x	root/root	usr/lib/php/extensions/pcntl.so
 -rwxr-xr-x	root/root	usr/lib/php/extensions/sysvmsg.so
 -rwxr-xr-x	root/root	usr/lib/php/extensions/sysvsem.so
 -rwxr-xr-x	root/root	usr/lib/php/extensions/sysvshm.so

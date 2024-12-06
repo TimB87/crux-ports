@@ -15,7 +15,6 @@ drwxr-xr-x	root/root	usr/include/
 drwxr-xr-x	root/root	usr/include/php/
 drwxr-xr-x	root/root	usr/include/php/TSRM/
 -rw-r--r--	root/root	usr/include/php/TSRM/TSRM.h
--rw-r--r--	root/root	usr/include/php/TSRM/tsrm_win32.h
 drwxr-xr-x	root/root	usr/include/php/Zend/
 drwxr-xr-x	root/root	usr/include/php/Zend/Optimizer/
 -rw-r--r--	root/root	usr/include/php/Zend/Optimizer/zend_call_graph.h
@@ -44,7 +43,6 @@ drwxr-xr-x	root/root	usr/include/php/Zend/Optimizer/
 -rw-r--r--	root/root	usr/include/php/Zend/zend_closures_arginfo.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_compile.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_config.h
--rw-r--r--	root/root	usr/include/php/Zend/zend_config.w32.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_constants.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_constants_arginfo.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_cpuinfo.h
@@ -276,7 +274,6 @@ drwxr-xr-x	root/root	usr/include/php/ext/standard/
 -rw-r--r--	root/root	usr/include/php/ext/standard/url.h
 -rw-r--r--	root/root	usr/include/php/ext/standard/url_scanner_ex.h
 -rw-r--r--	root/root	usr/include/php/ext/standard/user_filters_arginfo.h
--rw-r--r--	root/root	usr/include/php/ext/standard/winver.h
 drwxr-xr-x	root/root	usr/include/php/ext/xml/
 -rw-r--r--	root/root	usr/include/php/ext/xml/expat_compat.h
 -rw-r--r--	root/root	usr/include/php/ext/xml/php_xml.h

@@ -1,7 +1,7 @@
 # Description: PHP interpreter, extension modules and support stuff - with ICU support
 # URL: https://www.php.net
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: bzip2 curl db gdbm libpcre2 libxml2 libzip oniguruma
+# Depends on: bzip2 curl db gdbm icu libpcre2 libxml2 libzip oniguruma autoconf-2.13
 
 name=php
 version=8.3.14
@@ -10,8 +10,6 @@ source=(https://php.net/distributions/php-$version.tar.xz)
 
 build () {
   cd php-$version
-
-  CPPFLAGS+=' -DU_USING_ICU_NAMESPACE=1'
 
   local PHP_CONFIG="
     --prefix=/usr \
@@ -32,7 +30,7 @@ build () {
     --without-pear \
     --with-bz2=shared \
     --with-curl=shared \
-    --with-openssl=shared,/usr \
+    --with-openssl=shared \
     --with-zip=shared \
     --with-external-pcre \
     --enable-pcntl=shared \
@@ -45,6 +43,14 @@ build () {
     --enable-sysvsem=shared \
     --enable-sysvshm=shared \
     --enable-mbstring=shared"
+
+  rm -f TSRM/tsrm_win32.h \
+    TSRM/tsrm_config.w32.h \
+    Zend/zend_config.w32.h \
+    ext/mysqlnd/config-win.h \
+    ext/standard/winver.h
+  find . -name '*.[ch]' -exec chmod 644 {} \;
+  autoconf
 
   EXTENSION_DIR=/usr/lib/php/extensions \
   ./configure \

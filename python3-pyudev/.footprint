@@ -2,11 +2,11 @@ drwxr-xr-x	root/root	usr/
 drwxr-xr-x	root/root	usr/lib/
 drwxr-xr-x	root/root	usr/lib/python3.10/
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/
-drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/pyudev-0.24.1-py3.10.egg-info/
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev-0.24.1-py3.10.egg-info/PKG-INFO
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev-0.24.1-py3.10.egg-info/SOURCES.txt
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev-0.24.1-py3.10.egg-info/dependency_links.txt
--rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev-0.24.1-py3.10.egg-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/pyudev-0.24.3-py3.10.egg-info/
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev-0.24.3-py3.10.egg-info/PKG-INFO
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev-0.24.3-py3.10.egg-info/SOURCES.txt
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev-0.24.3-py3.10.egg-info/dependency_links.txt
+-rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev-0.24.3-py3.10.egg-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/pyudev/
 -rw-r--r--	root/root	usr/lib/python3.10/site-packages/pyudev/__init__.py
 drwxr-xr-x	root/root	usr/lib/python3.10/site-packages/pyudev/__pycache__/

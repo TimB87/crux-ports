@@ -4,8 +4,8 @@
 # Depends on: bzip2 curl db gdbm icu libpcre2 libxml2 libzip oniguruma autoconf-2.13
 
 name=php
-version=8.3.14
-release=2
+version=8.4.2
+release=1
 source=(https://php.net/distributions/php-$version.tar.xz)
 
 build () {
@@ -64,7 +64,6 @@ build () {
   make -j1 INSTALL_ROOT=$PKG install-{modules,cli,build,headers,programs,pharcmd}
   rm $PKG/usr/lib/php/modules/*.a || true
   ln -sf phar.phar $PKG/usr/bin/phar
-  rmdir $PKG/usr/include/php/include
 
   sed -i '/^extension_dir/s|=.*$|= "/usr/lib/php/extensions"|' php.ini-*
   install -d $PKG/etc/php/conf.d

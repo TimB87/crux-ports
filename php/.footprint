@@ -25,6 +25,7 @@ drwxr-xr-x	root/root	usr/include/php/Zend/Optimizer/
 -rw-r--r--	root/root	usr/include/php/Zend/Optimizer/zend_inference.h
 -rw-r--r--	root/root	usr/include/php/Zend/Optimizer/zend_optimizer.h
 -rw-r--r--	root/root	usr/include/php/Zend/Optimizer/zend_ssa.h
+-rw-r--r--	root/root	usr/include/php/Zend/Optimizer/zend_worklist.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_API.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_alloc.h
@@ -57,6 +58,7 @@ drwxr-xr-x	root/root	usr/include/php/Zend/Optimizer/
 -rw-r--r--	root/root	usr/include/php/Zend/zend_fibers.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_fibers_arginfo.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_float.h
+-rw-r--r--	root/root	usr/include/php/Zend/zend_frameless_function.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_gc.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_gdb.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_generators.h
@@ -73,11 +75,11 @@ drwxr-xr-x	root/root	usr/include/php/Zend/Optimizer/
 -rw-r--r--	root/root	usr/include/php/Zend/zend_ini_scanner_defs.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_interfaces.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_interfaces_arginfo.h
--rw-r--r--	root/root	usr/include/php/Zend/zend_istdiostream.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_iterators.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_language_parser.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_language_scanner.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_language_scanner_defs.h
+-rw-r--r--	root/root	usr/include/php/Zend/zend_lazy_objects.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_list.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_llist.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_long.h
@@ -93,6 +95,7 @@ drwxr-xr-x	root/root	usr/include/php/Zend/Optimizer/
 -rw-r--r--	root/root	usr/include/php/Zend/zend_observer.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_operators.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_portability.h
+-rw-r--r--	root/root	usr/include/php/Zend/zend_property_hooks.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_ptr_stack.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_range_check.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_signal.h
@@ -110,6 +113,7 @@ drwxr-xr-x	root/root	usr/include/php/Zend/Optimizer/
 -rw-r--r--	root/root	usr/include/php/Zend/zend_type_info.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_types.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_variables.h
+-rw-r--r--	root/root	usr/include/php/Zend/zend_verify_type_inference.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_virtual_cwd.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_vm.h
 -rw-r--r--	root/root	usr/include/php/Zend/zend_vm_def.h
@@ -130,7 +134,10 @@ drwxr-xr-x	root/root	usr/include/php/ext/date/lib/
 -rw-r--r--	root/root	usr/include/php/ext/date/lib/timelib_config.h
 -rw-r--r--	root/root	usr/include/php/ext/date/php_date.h
 drwxr-xr-x	root/root	usr/include/php/ext/dom/
+-rw-r--r--	root/root	usr/include/php/ext/dom/dom_ce.h
+-rw-r--r--	root/root	usr/include/php/ext/dom/namespace_compat.h
 -rw-r--r--	root/root	usr/include/php/ext/dom/xml_common.h
+-rw-r--r--	root/root	usr/include/php/ext/dom/xpath_callbacks.h
 drwxr-xr-x	root/root	usr/include/php/ext/filter/
 -rw-r--r--	root/root	usr/include/php/ext/filter/php_filter.h
 drwxr-xr-x	root/root	usr/include/php/ext/gmp/
@@ -152,8 +159,9 @@ drwxr-xr-x	root/root	usr/include/php/ext/hash/
 -rw-r--r--	root/root	usr/include/php/ext/hash/php_hash_tiger.h
 -rw-r--r--	root/root	usr/include/php/ext/hash/php_hash_whirlpool.h
 -rw-r--r--	root/root	usr/include/php/ext/hash/php_hash_xxhash.h
+drwxr-xr-x	root/root	usr/include/php/ext/hash/xxhash/
+-rw-r--r--	root/root	usr/include/php/ext/hash/xxhash/xxhash.h
 drwxr-xr-x	root/root	usr/include/php/ext/iconv/
--rw-r--r--	root/root	usr/include/php/ext/iconv/iconv_arginfo.h
 -rw-r--r--	root/root	usr/include/php/ext/iconv/php_iconv.h
 drwxr-xr-x	root/root	usr/include/php/ext/json/
 -rw-r--r--	root/root	usr/include/php/ext/json/php_json.h
@@ -184,6 +192,7 @@ drwxr-xr-x	root/root	usr/include/php/ext/mbstring/libmbfl/mbfl/
 drwxr-xr-x	root/root	usr/include/php/ext/pcre/
 -rw-r--r--	root/root	usr/include/php/ext/pcre/php_pcre.h
 drwxr-xr-x	root/root	usr/include/php/ext/pdo/
+-rw-r--r--	root/root	usr/include/php/ext/pdo/pdo_sql_parser.h
 -rw-r--r--	root/root	usr/include/php/ext/pdo/php_pdo.h
 -rw-r--r--	root/root	usr/include/php/ext/pdo/php_pdo_driver.h
 -rw-r--r--	root/root	usr/include/php/ext/pdo/php_pdo_error.h
@@ -191,6 +200,8 @@ drwxr-xr-x	root/root	usr/include/php/ext/phar/
 -rw-r--r--	root/root	usr/include/php/ext/phar/php_phar.h
 drwxr-xr-x	root/root	usr/include/php/ext/random/
 -rw-r--r--	root/root	usr/include/php/ext/random/php_random.h
+-rw-r--r--	root/root	usr/include/php/ext/random/php_random_csprng.h
+-rw-r--r--	root/root	usr/include/php/ext/random/php_random_uint128.h
 drwxr-xr-x	root/root	usr/include/php/ext/session/
 -rw-r--r--	root/root	usr/include/php/ext/session/mod_files.h
 -rw-r--r--	root/root	usr/include/php/ext/session/mod_user.h
@@ -203,7 +214,6 @@ drwxr-xr-x	root/root	usr/include/php/ext/spl/
 -rw-r--r--	root/root	usr/include/php/ext/spl/spl_array.h
 -rw-r--r--	root/root	usr/include/php/ext/spl/spl_directory.h
 -rw-r--r--	root/root	usr/include/php/ext/spl/spl_dllist.h
--rw-r--r--	root/root	usr/include/php/ext/spl/spl_engine.h
 -rw-r--r--	root/root	usr/include/php/ext/spl/spl_exceptions.h
 -rw-r--r--	root/root	usr/include/php/ext/spl/spl_fixedarray.h
 -rw-r--r--	root/root	usr/include/php/ext/spl/spl_functions.h
@@ -238,12 +248,14 @@ drwxr-xr-x	root/root	usr/include/php/ext/standard/
 -rw-r--r--	root/root	usr/include/php/ext/standard/md5.h
 -rw-r--r--	root/root	usr/include/php/ext/standard/pack.h
 -rw-r--r--	root/root	usr/include/php/ext/standard/pageinfo.h
+-rw-r--r--	root/root	usr/include/php/ext/standard/password_arginfo.h
 -rw-r--r--	root/root	usr/include/php/ext/standard/php_array.h
 -rw-r--r--	root/root	usr/include/php/ext/standard/php_assert.h
 -rw-r--r--	root/root	usr/include/php/ext/standard/php_browscap.h
 -rw-r--r--	root/root	usr/include/php/ext/standard/php_crypt.h
 -rw-r--r--	root/root	usr/include/php/ext/standard/php_crypt_r.h
 -rw-r--r--	root/root	usr/include/php/ext/standard/php_dir.h
+-rw-r--r--	root/root	usr/include/php/ext/standard/php_dir_int.h
 -rw-r--r--	root/root	usr/include/php/ext/standard/php_dns.h
 -rw-r--r--	root/root	usr/include/php/ext/standard/php_ext_syslog.h
 -rw-r--r--	root/root	usr/include/php/ext/standard/php_filestat.h
@@ -251,14 +263,11 @@ drwxr-xr-x	root/root	usr/include/php/ext/standard/
 -rw-r--r--	root/root	usr/include/php/ext/standard/php_http.h
 -rw-r--r--	root/root	usr/include/php/ext/standard/php_image.h
 -rw-r--r--	root/root	usr/include/php/ext/standard/php_incomplete_class.h
--rw-r--r--	root/root	usr/include/php/ext/standard/php_lcg.h
 -rw-r--r--	root/root	usr/include/php/ext/standard/php_mail.h
 -rw-r--r--	root/root	usr/include/php/ext/standard/php_math.h
--rw-r--r--	root/root	usr/include/php/ext/standard/php_mt_rand.h
+-rw-r--r--	root/root	usr/include/php/ext/standard/php_math_round_mode.h
 -rw-r--r--	root/root	usr/include/php/ext/standard/php_net.h
 -rw-r--r--	root/root	usr/include/php/ext/standard/php_password.h
--rw-r--r--	root/root	usr/include/php/ext/standard/php_rand.h
--rw-r--r--	root/root	usr/include/php/ext/standard/php_random.h
 -rw-r--r--	root/root	usr/include/php/ext/standard/php_smart_string.h
 -rw-r--r--	root/root	usr/include/php/ext/standard/php_smart_string_public.h
 -rw-r--r--	root/root	usr/include/php/ext/standard/php_standard.h
@@ -277,7 +286,6 @@ drwxr-xr-x	root/root	usr/include/php/ext/standard/
 drwxr-xr-x	root/root	usr/include/php/ext/xml/
 -rw-r--r--	root/root	usr/include/php/ext/xml/expat_compat.h
 -rw-r--r--	root/root	usr/include/php/ext/xml/php_xml.h
--rw-r--r--	root/root	usr/include/php/ext/xml/xml_arginfo.h
 drwxr-xr-x	root/root	usr/include/php/main/
 -rw-r--r--	root/root	usr/include/php/main/SAPI.h
 -rw-r--r--	root/root	usr/include/php/main/build-defs.h

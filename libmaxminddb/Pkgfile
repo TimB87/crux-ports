@@ -3,7 +3,7 @@
 # Maintainer: Tim Biermann, tbier at posteo dot de
 
 name=libmaxminddb
-version=1.11.0
+version=1.12.1
 release=1
 source=(https://github.com/maxmind/libmaxminddb/releases/download/$version/libmaxminddb-$version.tar.gz)
 

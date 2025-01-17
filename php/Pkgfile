@@ -4,7 +4,7 @@
 # Depends on: bzip2 curl db gdbm icu libpcre2 libxml2 libzip oniguruma autoconf-2.13
 
 name=php
-version=8.4.2
+version=8.4.3
 release=1
 source=(https://php.net/distributions/php-$version.tar.xz)
 

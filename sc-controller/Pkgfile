@@ -4,7 +4,7 @@
 # Depends on: gtk-layer-shell python3-evdev python3-gobject python3-pylibacl
 
 name=sc-controller
-version=0.4.8.21
+version=0.5.0
 release=1
 source=(https://github.com/C0rn3j/sc-controller/archive/refs/tags/v$version.tar.gz)
 renames=($name-$version.tar.gz)

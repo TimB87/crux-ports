@@ -5,7 +5,7 @@
 # Optional: apache apcu curl nginx php-fpm php-imagick php-intl php-pgsql php-redis php-sodium samba
 
 name=nextcloud
-version=30.0.5
+version=30.0.6
 release=1
 source=(https://download.nextcloud.com/server/releases/$name-$version.tar.bz2
   nextcloud.config.php
@@ -15,32 +15,32 @@ source=(https://download.nextcloud.com/server/releases/$name-$version.tar.bz2
 )
 
 build() {
-  cd $name
+  cd "$name"
 
-  patch -Np1 -i $SRC/disable-integrity-check-as-default.patch
-  patch -Np1 -i $SRC/dont-update-htaccess.patch
-  patch -Np1 -i $SRC/nextcloud-dont-chmod.patch
+  patch -Np1 -i "$SRC/disable-integrity-check-as-default.patch"
+  #patch -Np1 -i "$SRC/dont-update-htaccess.patch"
+  patch -Np1 -i "$SRC/nextcloud-dont-chmod.patch"
 
-  install -dm 755 $PKG/var/lib/$name/
-  install -dm 770 $PKG/var/lib/$name/data
-  install -d -o www -m 700 $PKG/var/lib/$name/apps
-  install -dm 755 $PKG/var/log/$name/
+  install -d -o www -g www -m 755 "$PKG/var/lib/$name/"
+  install -d -o www -g www -m 770 "$PKG/var/lib/$name/data"
+  install -d -o www -g www -m 750 "$PKG/var/lib/$name/apps"
+  install -d -o www -g www -m 755 "$PKG/var/log/$name/"
 
-  install -D -o www -m 644 .htaccess -t $PKG/etc/webapps/$name/
-  install -D -o www -m 640 ../$name.config.php $PKG/etc/webapps/$name/config/config.php
-  find config -type f -exec install -Dm 644 {} $PKG/etc/webapps/$name/{} \;
+  install -D -o www -g www -m 644 .htaccess -t "$PKG/etc/webapps/$name/"
+  install -D -o www -g www -m 640 "../$name.config.php" "$PKG/etc/webapps/$name/config/config.php"
+  find config -type f -exec install -D -o www -g www -m 644 {} "$PKG/etc/webapps/$name/{}" \;
 
   rm -rf config .htaccess
 
-  find . -type f -not -iname "*.orig" -exec install -Dm 644 {} $PKG/usr/share/webapps/$name/{} \;
+  find . -type f -not -iname "*.orig" -exec install -D -o www -g www -m 644 {} "$PKG/usr/share/webapps/$name/{}" \;
 
-  ln -sv /etc/webapps/$name/config $PKG/usr/share/webapps/$name/
-  ln -sv /etc/webapps/$name/.htaccess $PKG/usr/share/webapps/$name/
-  ln -sv /var/lib/$name/apps $PKG/usr/share/webapps/$name/wapps
+  ln -sv /etc/webapps/"$name"/config "$PKG/usr/share/webapps/$name/"
+  ln -sv /etc/webapps/"$name"/.htaccess "$PKG/usr/share/webapps/$name/"
+  ln -sv /var/lib/"$name"/apps "$PKG/usr/share/webapps/$name/wapps"
 
-  ln -sf /etc/ssl/certs/ca-certificates.crt $PKG/usr/share/webapps/$name/resources/config/ca-bundle.crt
+  ln -sf /etc/ssl/certs/ca-certificates.crt "$PKG/usr/share/webapps/$name/resources/config/ca-bundle.crt"
 
-  install -Dm 755 occ -t $PKG/usr/share/webapps/$name/
+  install -D -o www -g www -m 755 occ -t "$PKG/usr/share/webapps/$name/"
 
   find . -name .gitignore -delete \
     -o -name .bower.json -delete \
@@ -49,5 +49,5 @@ build() {
     -o -name 'CONTRIBUTING*' -delete
   find . -name .github -type d -prune -exec rm -r {} \;
 
-  rm -r $PKG/usr/share/webapps/$name/core/doc
+  rm -r "$PKG/usr/share/webapps/$name/core/doc"
 }

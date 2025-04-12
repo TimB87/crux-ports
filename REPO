@@ -67,8 +67,8 @@ f:c72fe4b5addb5c7c88daea91ea4ff901:libmaxminddb/.footprint
 f:cc2191188ea4de940bb88c9f3ba523e1:hunspell-de/Pkgfile
 f:ccd0c8f4319ddd77a96b38e7020a55fb:hunspell-de/.signature
 f:d70815eeedac20ad5ff7e494e04124e5:hunspell-de/.footprint
-f:3ef2b2f05269dd1ebf8131f5e1b7bc59:php-imagick/Pkgfile
-f:2bea94f5258642ac6921b1699d8f18b1:php-imagick/.signature
+f:94feb6aadf75e3b33f6859977afcadff:php-imagick/Pkgfile
+f:2c5d2e59846d395ff8357c2231e75a51:php-imagick/.signature
 f:97f8c324e249ac36e0ba2c4b1870bff3:php-imagick/.footprint
 f:7a5dfe88065c08e957279d94ded88bfb:php/Pkgfile
 f:0ad180bfeb1c05a7e36c2fb5af663455:php/.signature
@@ -105,11 +105,11 @@ f:b76a518d4ba3ca0a808475ec49da691d:go-mtpfs/.footprint
 f:e5553a3e2b34b232339977aafa54ad9b:geoip2-database/Pkgfile
 f:b5ebe5992574f9c74a2e0515994bbe23:geoip2-database/.signature
 f:7dcac88aec3a79e1b381dd31cf067fab:geoip2-database/.footprint
-f:106ad815edf43075f19eabd21e294704:nextcloud/Pkgfile
+f:8ee2a6f577b396213cdae2fc8fb87513:nextcloud/Pkgfile
 f:55bc81dbccca98cb820285749d9ddbb1:nextcloud/nextcloud.config.php
 f:af48a91b8dce773bdcb25b4513ad3363:nextcloud/disable-integrity-check-as-default.patch
-f:acf769b876643db85cc02942745f2bcf:nextcloud/.signature
-f:043c409437664cda584c0f24cf4671f7:nextcloud/.footprint
+f:a04fe4f057b888416eb090670aa0bc1e:nextcloud/.signature
+f:2b0014bebf2e07928efaa30c153b8a76:nextcloud/.footprint
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README
 f:74d2743267d73bd4d119c9144a052423:nextcloud/nextcloud-dont-chmod.patch
 f:25db417b0c5143a1827a76ac480c73ae:nextcloud/dont-update-htaccess.patch

@@ -4,8 +4,8 @@
 # Depends on: graphite2 imagemagick php
 
 name=php-imagick
-version=3.5.1
-release=5
+version=3.8.0
+release=1
 source=(https://pecl.php.net/get/imagick-$version.tgz)
 
 build() {

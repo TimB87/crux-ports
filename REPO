@@ -72,7 +72,7 @@ f:2c5d2e59846d395ff8357c2231e75a51:php-imagick/.signature
 f:97f8c324e249ac36e0ba2c4b1870bff3:php-imagick/.footprint
 f:e5f305ec581f8e13c67f7b079443d4fd:php/Pkgfile
 f:7dd8c9928589651d198ee51e99ddc9d8:php/.signature
-f:6af02235730a21914192382054b6f526:php/.footprint
+f:5b280edbff1b2d876a74a69218d5b71a:php/.footprint
 f:e62427f53fea4bc79ee8bc158832a8f6:tb.pub
 f:963337285398662eeed738457abf470a:ispell/Pkgfile
 f:1eda8b0991d7777303e85894b8d2ce39:ispell/.signature
@@ -105,11 +105,11 @@ f:b76a518d4ba3ca0a808475ec49da691d:go-mtpfs/.footprint
 f:e5553a3e2b34b232339977aafa54ad9b:geoip2-database/Pkgfile
 f:b5ebe5992574f9c74a2e0515994bbe23:geoip2-database/.signature
 f:7dcac88aec3a79e1b381dd31cf067fab:geoip2-database/.footprint
-f:a381a389afb27256f118741729b67884:nextcloud/Pkgfile
+f:69081ee6e51cba43b8357ba8f7faa031:nextcloud/Pkgfile
 f:55bc81dbccca98cb820285749d9ddbb1:nextcloud/nextcloud.config.php
 f:af48a91b8dce773bdcb25b4513ad3363:nextcloud/disable-integrity-check-as-default.patch
-f:fb96f8c48a2b97411c69850fcd1e6efb:nextcloud/.signature
-f:7e733e2992c050a4ff6e55dbc766fd79:nextcloud/.footprint
+f:aaebcb7117409c964b9553fb76467ca9:nextcloud/.signature
+f:3c68453d68f937c08a96c842d3bd2770:nextcloud/.footprint
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README
 f:74d2743267d73bd4d119c9144a052423:nextcloud/nextcloud-dont-chmod.patch
 f:25db417b0c5143a1827a76ac480c73ae:nextcloud/dont-update-htaccess.patch

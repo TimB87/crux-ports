@@ -1,6 +1,6 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwKGHYSqlWYv7aKCj4/sdA8lQDypZqvsV7ypq4FVmeT5zTp9wpzIk8BsSQp9m+jy4KgVcotN+ESyc4HlRPBGgTwQ=
-SHA256 (Pkgfile) = 8e4bf7f56bf3259d49a336a241e436fa80c23e8de21652ee5c187ac05d05c6e1
+RWSXjYMPO7mZwENE/ANXyLYhFh/3FoZdaWITSIRAZ/5fwq2zYpJ5wzTsFMalw4vvxL7Ubug1dmgHPMifFNkbyQ43pkppKEGxGgc=
+SHA256 (Pkgfile) = cc65dc0bb26fee7713fe2d21ecdc07e1c417362131e0c5b1a1fef49d5d0493de
 SHA256 (.footprint) = a621c45bc1fe8a4be6c920c5390d9e8aae41f4113f52bb15ce60f11f448cd0fd
-SHA256 (ispell-3.4.05.tar.gz) = cf0c6dede3fd25fada4375d86acafe583cb96d8fe546de746a92ebb6df895602
+SHA256 (ispell-3.4.06.tar.gz) = 17c91633d4c8075acc503163a16463fc54ab1c7453280ad39cd3db75c783eba6
 SHA256 (cflags-from-environment.patch) = 280459d2cdb17846aab202d53089fd13469e6e59ae9e6da4a95b475597dd4603

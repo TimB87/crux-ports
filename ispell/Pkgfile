@@ -4,7 +4,7 @@
 # Depends on: ncurses
 
 name=ispell
-version=3.4.05
+version=3.4.06
 release=1
 source=(https://www.cs.hmc.edu/~geoff/tars/$name-$version.tar.gz
   cflags-from-environment.patch)

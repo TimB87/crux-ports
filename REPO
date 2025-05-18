@@ -74,8 +74,8 @@ f:e5f305ec581f8e13c67f7b079443d4fd:php/Pkgfile
 f:7dd8c9928589651d198ee51e99ddc9d8:php/.signature
 f:5b280edbff1b2d876a74a69218d5b71a:php/.footprint
 f:e62427f53fea4bc79ee8bc158832a8f6:tb.pub
-f:963337285398662eeed738457abf470a:ispell/Pkgfile
-f:1eda8b0991d7777303e85894b8d2ce39:ispell/.signature
+f:80e977d86d81098c7a446473aefa2621:ispell/Pkgfile
+f:b05accfcf1a148dbc10055cb0fd5c1dc:ispell/.signature
 f:c7a8cfe5d489d6527ad0652bb9e87942:ispell/cflags-from-environment.patch
 f:5e9a5549da689704198d34653db9ab10:ispell/.footprint
 f:54a61166337f62093b2bae75eef6974e:ttf-font-awesome-compat/Pkgfile

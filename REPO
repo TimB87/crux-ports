@@ -105,11 +105,11 @@ f:b76a518d4ba3ca0a808475ec49da691d:go-mtpfs/.footprint
 f:e5553a3e2b34b232339977aafa54ad9b:geoip2-database/Pkgfile
 f:b5ebe5992574f9c74a2e0515994bbe23:geoip2-database/.signature
 f:7dcac88aec3a79e1b381dd31cf067fab:geoip2-database/.footprint
-f:ff6ec1de3a89126a7c9847ffe8dce14e:nextcloud/Pkgfile
+f:492e9af57f9c952e3a4779f30c8af838:nextcloud/Pkgfile
 f:55bc81dbccca98cb820285749d9ddbb1:nextcloud/nextcloud.config.php
 f:af48a91b8dce773bdcb25b4513ad3363:nextcloud/disable-integrity-check-as-default.patch
-f:23da766404a6ccb5856a4be4a850cff4:nextcloud/.signature
-f:ce0bc33afcfaaa6f88ee43cfe53c6c1d:nextcloud/.footprint
+f:132ad00a44dc68aec4dc9ca521d6d005:nextcloud/.signature
+f:2a9972a7f4d8a9285ac96a1fe2740929:nextcloud/.footprint
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README
 f:74d2743267d73bd4d119c9144a052423:nextcloud/nextcloud-dont-chmod.patch
 f:25db417b0c5143a1827a76ac480c73ae:nextcloud/dont-update-htaccess.patch

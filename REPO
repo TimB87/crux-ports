@@ -87,7 +87,7 @@ f:10c7dd1a7f1fdf33783a2f3fda6068fa:read-edid/.footprint
 f:5d74fdd4ad3d89a027450aeda46e51bf:php-intl/Pkgfile
 f:521c55de7252e26724bf1fbed4b89685:php-intl/.signature
 f:c5157587e260c79d378428d7424a96c2:php-intl/.footprint
-f:e1cb48bbaa8c7da8fb6d219893f2b0ea:ttf-font-awesome/Pkgfile
+f:20062cec7ed0e4463e30cdfaa747bb17:ttf-font-awesome/Pkgfile
 f:ea15d1a9ad57008996cc418cf9e3c083:ttf-font-awesome/.signature
 f:5a7423bda03806dd20c0daaefedb0825:ttf-font-awesome/.footprint
 f:c1f54372b4443b799f916a35fb475952:php-sodium/Pkgfile
@@ -96,8 +96,8 @@ f:246f48c324871d76fdb1b7ff54458170:php-sodium/.footprint
 f:65ffc87999f41cbc4c7fb0cc1a37b537:arc-kde-theme/Pkgfile
 f:825040daf38fbb5e335b8ed6b80240cb:arc-kde-theme/.signature
 f:d500d0389976ea0a0be72becae76817c:arc-kde-theme/.footprint
-f:9750eeb3894592a11643e4da921e7f0b:apcu/Pkgfile
-f:37942d8680dba6a6eb7b399ac4171397:apcu/.signature
+f:552f00a4666789b73c89a98780e962a6:apcu/Pkgfile
+f:057255a754bb7f23b05463fdf1071f27:apcu/.signature
 f:c8541c6f67ae1748985ccee2b7ae8919:apcu/.footprint
 f:031df9890fc05c6b337ce32d9cea2936:go-mtpfs/Pkgfile
 f:20462d0398b0760aa760094f77fba1c8:go-mtpfs/.signature

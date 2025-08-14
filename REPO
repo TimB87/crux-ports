@@ -68,14 +68,14 @@ f:ce2b2fa28ac815214f9c75ca394eff4b:libx86/.footprint
 f:8138fca59cfa9b0c008ab6a2d98015fa:libx86/.signature
 f:d9246bd88f6e1dc01fbd91fd16d6317e:libx86/Pkgfile
 f:573897186eb8670d8d97c64ea7614001:libx86/libx86-ifmask.patch
-f:2a9972a7f4d8a9285ac96a1fe2740929:nextcloud/.footprint
-f:132ad00a44dc68aec4dc9ca521d6d005:nextcloud/.signature
-f:492e9af57f9c952e3a4779f30c8af838:nextcloud/Pkgfile
+f:26d8f606b3d457ba8428b96ac1e41afd:nextcloud/.footprint
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README
 f:af48a91b8dce773bdcb25b4513ad3363:nextcloud/disable-integrity-check-as-default.patch
 f:25db417b0c5143a1827a76ac480c73ae:nextcloud/dont-update-htaccess.patch
 f:74d2743267d73bd4d119c9144a052423:nextcloud/nextcloud-dont-chmod.patch
 f:55bc81dbccca98cb820285749d9ddbb1:nextcloud/nextcloud.config.php
+f:965038d58c18ea78672c4f0eb850e2e1:nextcloud/Pkgfile
+f:5b00050788e8651fe028a91c60cfb5f2:nextcloud/.signature
 f:97f8c324e249ac36e0ba2c4b1870bff3:php-imagick/.footprint
 f:2c5d2e59846d395ff8357c2231e75a51:php-imagick/.signature
 f:94feb6aadf75e3b33f6859977afcadff:php-imagick/Pkgfile

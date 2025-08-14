@@ -5,7 +5,7 @@
 # Optional: apache apcu curl nginx php-fpm php-imagick php-intl php-pgsql php-redis php-sodium samba
 
 name=nextcloud
-version=31.0.7
+version=31.0.8
 release=1
 source=(https://download.nextcloud.com/server/releases/$name-$version.tar.bz2
   nextcloud.config.php

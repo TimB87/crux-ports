@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwCYP79X2mwB+TsVdHW6qXg0vW8t9J6SwsLSeHutSCISrkQcj9e/IuUtTQ5XDFaMjR4fjqR9ABsWCQUT4g9h03Qg=
-SHA256 (Pkgfile) = f4d9cf9ddf8041e0706d2e1849c8cf51d7b2e3e456d543bb9e2605304f908fc9
+RWSXjYMPO7mZwP/L+6S+SEHCovSnG0wWxqIKHIBsxQkyCXQ68viHeKroJPFEEtaLQUAZor+lW30CBw1MAiEH9exvE5s2A3PqNwk=
+SHA256 (Pkgfile) = 99cb6f2ca53f9d2b2ae6cb515c585adb69965ff78e728f645bcba9cf353d4044
 SHA256 (.footprint) = eae81ae74efd516ffa507c20f161d4a114acbc9f4684ca7beb3a44960fcb097b
-SHA256 (apcu-5.1.26.tgz) = aed8d359d98c33723b65e4ba58e5422e5cf794c54fbd2241be31f83a49b44dde
+SHA256 (apcu-5.1.27.tgz) = 1a2c37fcad2ae2a1aea779cd6ca9353d8b38d4e27dde2327c52ff3892dfadb3f

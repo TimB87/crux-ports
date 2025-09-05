@@ -23,9 +23,9 @@ d:python3-pyudev
 d:read-edid
 d:sc-controller
 d:ttf-font-awesome-compat
-d:ttf-font-awesome
 d:ttf-plex
 d:zotero-bin
+d:otf-font-awesome
 f:c8541c6f67ae1748985ccee2b7ae8919:apcu/.footprint
 f:1abad9e98bbd02bba4c2fe51d7ddc8cd:apcu/.signature
 f:74b52c5d6ee632826f4d61dd01e84e8f:apcu/Pkgfile
@@ -109,9 +109,6 @@ f:c9df42b9ea44f2c8dd281ff6739c7d48:sc-controller/Pkgfile
 f:d7be2ad91114ded18f7fb5af059398b5:ttf-font-awesome-compat/.footprint
 f:08b6ee88437e22337bc66da4bce7ea2e:ttf-font-awesome-compat/.signature
 f:54a61166337f62093b2bae75eef6974e:ttf-font-awesome-compat/Pkgfile
-f:5a7423bda03806dd20c0daaefedb0825:ttf-font-awesome/.footprint
-f:ea15d1a9ad57008996cc418cf9e3c083:ttf-font-awesome/.signature
-f:e1cb48bbaa8c7da8fb6d219893f2b0ea:ttf-font-awesome/Pkgfile
 f:ff912c0d70fa7451637553e1ed2b3873:ttf-plex/.footprint
 f:36f8595517d5250ad95c2757d7446c23:ttf-plex/.signature
 f:955cd102758394755ba72f60dcacf4b3:ttf-plex/Pkgfile
@@ -120,3 +117,6 @@ f:d22f3485c0b71c68042110e8d8f14e9c:zotero-bin/.signature
 f:9bf3c471a4322d57c3b8f48dc1ed697c:zotero-bin/README
 f:ccce743e074422ed5f0f55d15e524e65:zotero-bin/Pkgfile
 f:e62427f53fea4bc79ee8bc158832a8f6:tb.pub
+f:300e25bc66dfd6cc25fd93d520d2566c:otf-font-awesome/.footprint
+f:d2e3a7ae753c89732c2194e031030d30:otf-font-awesome/Pkgfile
+f:8918b40d038341512d0a9556156d4b75:otf-font-awesome/.signature

@@ -1,8 +1,8 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwI4+7IhAo5TJ19zEzg2mm+9fE7/tjPL7ruoLXFSMetPS19MBBMOgeMlOG0TIvs5FpWxJO45DcVJqYtt0HuyzewM=
-SHA256 (Pkgfile) = 4ec7dbd744e3a39a690f8d2d6fef8a64c29253b5464f83eb5b3977be3bf3ac3e
-SHA256 (.footprint) = 3a574d63bb387853207aa4422ab5e4d4e9b0176228838a9d7f29e58c8048e2ef
-SHA256 (nextcloud-31.0.8.tar.bz2) = 62117db783fe775677ce8b680f4b48c13b9591657fed3b508bdc3a32b4115cb0
+RWSXjYMPO7mZwOo9yQZnC03VWufUjU1WwcO6MaI8YVN9e16G4Dfxzxk2KCgd6oqp5FBb3IBjuApJBs2P7kA4KLRYx74tupWRgws=
+SHA256 (Pkgfile) = effc05766c3523ed26cc4907ff9ee8b2de079f6287c3faee42190bddce41dbdd
+SHA256 (.footprint) = 565fe81ea37a0a87b9ff11533a2f55dbb47eb7c4204059f86d314ba0de29796d
+SHA256 (nextcloud-31.0.9.tar.bz2) = aab8414cc63581ca3a8df472f45eb412b2b843a966b3870275421bad0d670f68
 SHA256 (nextcloud.config.php) = 2ff8a9c376bdf3362da628f2cfae4faa96a90f3552caadd878238b5cc7d6fe45
 SHA256 (disable-integrity-check-as-default.patch) = 482b7256f9f155c8f721ab192702e965e79e8307c74f1ef5e4d79bdec57489b6
 SHA256 (dont-update-htaccess.patch) = e84c969195de9e6f870610bff7ce1fd9f859ad0848fb904106500468186565eb

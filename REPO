@@ -68,14 +68,14 @@ f:ce2b2fa28ac815214f9c75ca394eff4b:libx86/.footprint
 f:8138fca59cfa9b0c008ab6a2d98015fa:libx86/.signature
 f:573897186eb8670d8d97c64ea7614001:libx86/libx86-ifmask.patch
 f:d9246bd88f6e1dc01fbd91fd16d6317e:libx86/Pkgfile
-f:49a4bfbbc273401711a22c54cd1a14b1:nextcloud/.footprint
+f:e8d0e6f8b1502569a9b9ebb6442fa470:nextcloud/.footprint
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README
 f:af48a91b8dce773bdcb25b4513ad3363:nextcloud/disable-integrity-check-as-default.patch
 f:25db417b0c5143a1827a76ac480c73ae:nextcloud/dont-update-htaccess.patch
 f:74d2743267d73bd4d119c9144a052423:nextcloud/nextcloud-dont-chmod.patch
 f:55bc81dbccca98cb820285749d9ddbb1:nextcloud/nextcloud.config.php
-f:335c9de685a45e8545bbb2ee62dafe88:nextcloud/.signature
-f:26f3783b4132cea3908e9434353859a1:nextcloud/Pkgfile
+f:413e244d8c3df5b18ba9c9e549c1bf58:nextcloud/Pkgfile
+f:cd6088b1fe56d6f1291175464a731c39:nextcloud/.signature
 f:97f8c324e249ac36e0ba2c4b1870bff3:php-imagick/.footprint
 f:2c5d2e59846d395ff8357c2231e75a51:php-imagick/.signature
 f:94feb6aadf75e3b33f6859977afcadff:php-imagick/Pkgfile
@@ -118,5 +118,5 @@ f:9bf3c471a4322d57c3b8f48dc1ed697c:zotero-bin/README
 f:ccce743e074422ed5f0f55d15e524e65:zotero-bin/Pkgfile
 f:e62427f53fea4bc79ee8bc158832a8f6:tb.pub
 f:300e25bc66dfd6cc25fd93d520d2566c:otf-font-awesome/.footprint
-f:8918b40d038341512d0a9556156d4b75:otf-font-awesome/.signature
-f:d2e3a7ae753c89732c2194e031030d30:otf-font-awesome/Pkgfile
+f:886329c31d93ba2d2088fb31ed913d46:otf-font-awesome/Pkgfile
+f:5e494bff185cee1cee30e19530784776:otf-font-awesome/.signature

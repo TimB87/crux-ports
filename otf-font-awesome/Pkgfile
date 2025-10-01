@@ -3,7 +3,7 @@
 # Maintainer: Tim Biermann, tbier at posteo dot de
 
 name=otf-font-awesome
-version=7.0.1
+version=7.1.0
 release=1
 source=(https://github.com/FortAwesome/Font-Awesome/archive/$version/FontAwesome-$version.tar.gz)
 

@@ -4,9 +4,9 @@
 # Depends on: python3-setuptools
 
 name=python3-pylibacl
-version=0.7.0
+version=0.7.3
 release=1
-source=(https://pylibacl.k1024.org/downloads/pylibacl-$version.tar.gz)
+source=(https://pypi.org/packages/source/p/pylibacl/pylibacl-$version.tar.gz)
 
 build() {
   cd pylibacl-$version

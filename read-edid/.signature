@@ -1,5 +1,7 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwOA34rr+xDjM5zJH61fMY7EMWCd+tR/8iM6VqM/FY0ASYX7lqX8T03UdJehqWBByFBwOUtgnBFezEJwIov8OtwU=
-SHA256 (Pkgfile) = b0ad6154484bb4c5bc933f9a9b642e1539284f87c54e842f735b2a910311d29d
+RWSXjYMPO7mZwF8SdPz2cG0FKPVM0eWQpGsskJ2vC4sj/h9ADq34LQC3i/Fa5c+lHFbsuCS5zAsaxTdaCK/sXGSeW31JTWgmZAw=
+SHA256 (Pkgfile) = a02cbc2635e3ad9fd2ca4c8cf58bab1a8da6efa80fd997394c62d3074e111304
 SHA256 (.footprint) = 38fda81fa987d8592eb7550290876417841b2e30baefb0b67d829c23df8439ec
 SHA256 (read-edid-3.0.2.tar.gz) = c7c6d8440f5b90f98e276829271ccea5b2ff5a3413df8a0f87ec09f834af186f
+SHA256 (read-edid-3.0.2-cmake4.patch) = bb9c40834b6cba53a36d76fd493155d0b3712a4bb5b77ed2b9d62e644be32fd4
+SHA256 (read-edid-3.0.2-fcommon.patch) = 1d2c5effaae9036ca30a3c0d1f1138aac60ddcb2fe46e6bd927c06c8f76d9ef7

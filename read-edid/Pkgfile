@@ -1,18 +1,28 @@
 # Description: tools for reading the EDID from a monitor
 # URL: http://www.polypux.org/projects/read-edid/
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: cmake libx86
+# Depends on: libx86
 
 name=read-edid
 version=3.0.2
-release=1
-source=(http://www.polypux.org/projects/read-edid/$name-$version.tar.gz)
+release=2
+source=(http://www.polypux.org/projects/read-edid/$name-$version.tar.gz
+  read-edid-3.0.2-cmake4.patch
+  read-edid-3.0.2-fcommon.patch)
 
 build() {
   sed -i 's/COPYING/LICENSE/' $name-$version/CMakeLists.txt
-  cmake -S$name-$version -Bbuild \
-    -DCMAKE_INSTALL_PREFIX=/usr
+  patch -Np1 -d $name-$version -i $SRC/read-edid-3.0.2-fcommon.patch
+  patch -Np1 -d $name-$version -i $SRC/read-edid-3.0.2-cmake4.patch
+
+  cmake -S $name-$version -B build -G Ninja \
+    -D CMAKE_INSTALL_PREFIX=/usr \
+    -D CMAKE_BUILD_TYPE=Release \
+    -D CMAKE_CXX_FLAGS_RELEASE="$CXXFLAGS" \
+    -D CMAKE_C_FLAGS_RELEASE="$CFLAGS" \
+    -Wno-dev
   cmake --build build
-  DESTDIR=$PKG cmake --build build --target install
+  DESTDIR=$PKG cmake --install build
+
   rm -r $PKG/usr/share/doc
 }

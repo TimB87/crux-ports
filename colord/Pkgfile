@@ -4,7 +4,7 @@
 # Depends on: argyllcms lcms2 libgudev libgusb polkit sane
 
 name=colord
-version=1.4.7
+version=1.4.8
 release=1
 source=(https://github.com/hughsie/colord/archive/$version/$name-$version.tar.gz)
 

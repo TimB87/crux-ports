@@ -1,17 +1,32 @@
 # Description: a hardware-independent library for executing real-mode x86 code
-# URL: https://www.codon.org.uk/~mjg59/libx86/
+# URL: https://web.archive.org/web/20160326170219/http://www.codon.org.uk/~mjg59/libx86
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on:
 
 name=libx86
 version=1.1
 release=1
-source=(http://www.codon.org.uk/~mjg59/libx86/downloads/libx86-1.1.tar.gz
-  libx86-ifmask.patch)
+source=(https://ftp.gwdg.de/pub/linux/slackware/slackware-13.37/source/ap/libx86/libx86-1.1.tar.gz
+  libx86-1.1-24-fix-invalid-hlt-opcode.patch
+  libx86-add-pkgconfig.patch
+  libx86-c99-2.patch
+  libx86-c99.patch
+  libx86-fix_processor_flags.patch
+  libx86-ld_flags.patch
+  libx86-libc-test.patch
+  libx86-mmap-offset.patch)
 
 build() {
   cd $name-$version
-  patch -Np0 -i $SRC/libx86-ifmask.patch
+
+  patch -Np1 -i $SRC/libx86-add-pkgconfig.patch
+  patch -Np1 -i $SRC/libx86-mmap-offset.patch
+  patch -Np1 -i $SRC/libx86-libc-test.patch
+  patch -Np1 -i $SRC/libx86-fix_processor_flags.patch
+  patch -Np0 -i $SRC/libx86-ld_flags.patch
+  patch -Np1 -i $SRC/libx86-1.1-24-fix-invalid-hlt-opcode.patch
+  patch -Np1 -i $SRC/libx86-c99-2.patch
+  patch -Np1 -i $SRC/libx86-c99.patch
+
   make BACKEND=x86emu
   make DESTDIR=$PKG install
   chmod 644 $PKG/usr/lib/libx86.a

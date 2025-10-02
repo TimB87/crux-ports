@@ -5,3 +5,5 @@ drwxr-xr-x	root/root	usr/lib/
 -rw-r--r--	root/root	usr/lib/libx86.a
 lrwxrwxrwx	root/root	usr/lib/libx86.so -> libx86.so.1
 -rwxr-xr-x	root/root	usr/lib/libx86.so.1
+drwxr-xr-x	root/root	usr/lib/pkgconfig/
+-rwxr-xr-x	root/root	usr/lib/pkgconfig/x86.pc

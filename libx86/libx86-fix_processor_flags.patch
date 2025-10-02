@@ -1,6 +1,8 @@
---- lrmi.c.orig	2008-09-06 12:24:36.070136428 +0200
-+++ lrmi.c	2008-09-06 12:28:10.584287458 +0200
-@@ -55,6 +55,18 @@ OTHER DEALINGS IN THE SOFTWARE.
+Linux 2.6.26-rc1 and newer no longer define *_MASK; use X86_EFLAGS_*
+instead (thanks to Colin Watson)
+--- libx86.orig/lrmi.c
++++ libx86/lrmi.c
+@@ -55,6 +55,18 @@
  #include "x86-common.h"
  
  #if defined(__linux__)

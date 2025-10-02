@@ -1,0 +1,20 @@
+The glibc implementations used for x_inl and x_outl have slightly
+different types.
+
+diff --git a/thunk.c b/thunk.c
+index 9facd4386478c735..63d4452d4e1cf35a 100644
+--- a/thunk.c
++++ b/thunk.c
+@@ -157,10 +157,10 @@ int LRMI_init() {
+ 	X86EMU_pioFuncs pioFuncs = {
+ 		(&x_inb),
+ 		(&x_inw),
+-		(&x_inl),
++		((x86emuu32 (*)(X86EMU_pioAddr)) &x_inl),
+ 		(&x_outb),
+ 		(&x_outw),
+-		(&x_outl)
++		((void (*)(X86EMU_pioAddr,  x86emuu32)) &x_outl)
+ 	};
+ 	
+ 	X86EMU_setupPioFuncs(&pioFuncs);

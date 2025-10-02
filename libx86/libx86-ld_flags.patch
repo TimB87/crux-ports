@@ -1,0 +1,19 @@
+--- Makefile.orig	2021-12-13 10:48:43.690174577 -0600
++++ Makefile	2021-12-13 10:49:21.037556290 -0600
+@@ -2,6 +2,7 @@ OBJECTS = x86-common.o
+ CFLAGS ?= -O2 -Wall -DDEBUG -g
+ LIBDIR ?= /usr/lib
+ INCLUDEDIR ?= /usr/include
++LDFLAGS ?= -Wl,-z,now
+ 
+ ifeq ($(BACKEND),x86emu)
+ 	OBJECTS += thunk.o x86emu/decode.o x86emu/debug.o x86emu/fpu.o \
+@@ -24,7 +25,7 @@ static: $(OBJECTS)
+ 	$(AR) cru libx86.a $(OBJECTS)
+ 
+ shared: $(OBJECTS)
+-	$(CC) $(CFLAGS) -o libx86.so.1 -shared -Wl,-soname,libx86.so.1 $(OBJECTS)
++	$(CC) $(CFLAGS) -o libx86.so.1 -shared $(LDFLAGS) -Wl,-soname,libx86.so.1 $(OBJECTS)
+ 
+ objclean:
+ 	$(MAKE) -C x86emu clean

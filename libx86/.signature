@@ -1,6 +1,13 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwIQH1j7HAu/+dlKfmy14sjyxVntU4VmzeHYwh0sUgDaTU4HK5r5axgHqh18G+/IEq1i2Y7qAFplZnKS7T+DKvQ0=
-SHA256 (Pkgfile) = 943b9878e5687d5b96974ccc9c3d8b59bfd6f35dc52722af3ce549ccc026fd9d
-SHA256 (.footprint) = de00dc3fc4e91b74711985131ddc17e47ebc0847d6bbd5f4b288cb82892f89d5
+RWSXjYMPO7mZwA0bEKOrYFI6svB9DBJrDxCgqswkDwa8YMAKhsZ9KqkXVqsGL7eLiHXNnzJnEtIYGDVkioCXt2zmxtVcVtXaWgc=
+SHA256 (Pkgfile) = c132175eeb1a6c55126d05664854306009cd3a5e5319773a27efbeec33253fc2
+SHA256 (.footprint) = fe2abe05f9facb009cda4c4e7c71c75b9c6e5b4dbde9f43bbee68ee47b973f55
 SHA256 (libx86-1.1.tar.gz) = 5bf13104cb327472b5cb65643352a9138646becacc06763088d83001d832d048
-SHA256 (libx86-ifmask.patch) = b8070e57c5d267b3736b133e4c3c92965cc5a62e72466b705b506ad2ce39dd25
+SHA256 (libx86-1.1-24-fix-invalid-hlt-opcode.patch) = 860a29adb747a5b59e36572abe69234c25b543c3ece560f6d3f0b65f935b3820
+SHA256 (libx86-add-pkgconfig.patch) = d57185fe74156ef697455be3746abe49ffb73247eea76e517ad6600579a96c19
+SHA256 (libx86-c99-2.patch) = 01b9d752e628a0fefd281ac11abbbf642664ed5c03cb2851ac47117566f9aaba
+SHA256 (libx86-c99.patch) = 5e469173a28b18d90090e3e0357d9eadaa3e808c0379ef17b953a23ae6a0003e
+SHA256 (libx86-fix_processor_flags.patch) = d00b4abf44160fb67ca5a7a40171639bfa98005ea6e2ad01c6e4a52eb29cfc4d
+SHA256 (libx86-ld_flags.patch) = a2e78d97e88180d5e99c79d03baaa7f7779c2461f5808100f1ac5d977638909c
+SHA256 (libx86-libc-test.patch) = 484dbb8579cb3491e1a4a9fefffe773df6810f14ef4e9799f25e3ea12eb132b9
+SHA256 (libx86-mmap-offset.patch) = f7e840a1e8217391aed22398c0a5ae413e340eaa321d9977326383346999f3f8

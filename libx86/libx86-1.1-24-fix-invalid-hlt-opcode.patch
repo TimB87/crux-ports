@@ -1,0 +1,22 @@
+http://cgit.freedesktop.org/~vignatti/libx86/commit/src/lrmi/backend-x86emu.c?id=b327015cf23f
+http://ref.x86asm.net/coder32.html#xF4
+http://pdos.csail.mit.edu/6.828/2010/readings/i386/HLT.htm
+
+HLT is 0xf4 and not 0x4f
+
+Spotted by Thierry Vignaud
+
+From Mageia
+
+
+--- libx86-1.1/thunk.c.orig	2015-05-20 01:45:50.000000000 +0200
++++ libx86-1.1/thunk.c	2015-05-20 01:46:11.000000000 +0200
+@@ -179,7 +179,7 @@
+ 	X86_ESP = 0xFFF9;
+ 	memset (stack, 0, 64*1024);
+ 
+-	*mmap_addr = 0x4f; /* Make sure that we end up jumping back to a
++	*mmap_addr = 0xf4; /* Make sure that we end up jumping back to a
+ 			      halt instruction */
+ 
+ 	M.mem_base = (unsigned long)mmap_addr;

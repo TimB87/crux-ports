@@ -9,6 +9,7 @@ drwxr-xr-x	root/root	usr/bin/
 -rwxr-xr-x	root/root	usr/bin/collink
 -rwxr-xr-x	root/root	usr/bin/colprof
 -rwxr-xr-x	root/root	usr/bin/colverify
+-rw-r--r--	root/root	usr/bin/com.argyllcms.metainfo.xml
 -rwxr-xr-x	root/root	usr/bin/cxf2ti3
 -rwxr-xr-x	root/root	usr/bin/dispcal
 -rwxr-xr-x	root/root	usr/bin/dispread

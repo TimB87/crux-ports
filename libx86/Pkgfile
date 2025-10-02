@@ -4,7 +4,7 @@
 
 name=libx86
 version=1.1
-release=1
+release=2
 source=(https://ftp.gwdg.de/pub/linux/slackware/slackware-13.37/source/ap/libx86/libx86-1.1.tar.gz
   libx86-1.1-24-fix-invalid-hlt-opcode.patch
   libx86-add-pkgconfig.patch

@@ -1,5 +1,8 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwFnU+HG0fNKfHbuNS/NgoUIxentmpMtwgnTgE3y/bYWRFzeC7VZ8XDIMTxlJD/efoai3CyDh7mulDqf1lGf1oQc=
-SHA256 (Pkgfile) = d541494902c430d1661f01cd53188cbc7ee855397a71edb93789007f851641b1
-SHA256 (.footprint) = 0cb152c8dde8e41ae2e913029e4e3bae0a2e2b5bce43eadc8dcca6dbf6c42d1f
-SHA256 (python3-pybluez-0.23-2.tar.gz) = aca04a8ff2ea43ad5cf422b90e5ec3c1b09a427aabb8523896a1317e43b89c5d
+RWSXjYMPO7mZwDg0om/rBCJTM7Exrl6IHNQoggtuzpIRjc863WPBtZmEJ215UiaoKKcOKDZ5hyyiHHquRZYPRpEg0epfyF5xWQs=
+SHA256 (Pkgfile) = 691823f1aa69cb172d80f4a319669b37831794e082f54a681a545fdcec4a0676
+SHA256 (.footprint) = f353e51b0d608aa6a603a1f1c607e5dbbaf6838d2d51f7eaac481dfdd219dd1b
+SHA256 (PyBluez-0.23.tar.gz) = c8f04d2e78951eaa9de486b4d49381704e8943d0a6e6e58f55fcd7b8582e90de
+SHA256 (pybluez-py310.patch) = c5c0bf74342b981b34360d15a708592b3aa19b6c96a5ba0a8449bf0c22da984d
+SHA256 (no-2to3.patch) = 0d95de5f65531483d64ba799efcd04e302bb36a9c3cf1c2bc66dc7da5dbfaecd
+SHA256 (427.patch) = 6a0c342407db2a9f6f8aa74bfcb643226ca00a2bd96796f77cad58cf93c61876

@@ -1,0 +1,147 @@
+From d17508960a65408dc733cc9f20925768b06289e0 Mon Sep 17 00:00:00 2001
+From: Nicolas Schodet <nico@ni.fr.eu.org>
+Date: Sun, 5 Dec 2021 15:24:35 +0100
+Subject: [PATCH] Use Py_ssize_t when parsing buffer length, fix #426
+
+From python 3.9 documentation:
+
+> For all # variants of formats (s#, y#, etc.), the macro
+> PY_SSIZE_T_CLEAN must be defined before including Python.h. On Python
+> 3.9 and older, the type of the length argument is Py_ssize_t if the
+> PY_SSIZE_T_CLEAN macro is defined, or int otherwise.
+
+From python 3.8 changes:
+
+> Use of # variants of formats in parsing or building value (e.g.
+> PyArg_ParseTuple(), Py_BuildValue(), PyObject_CallFunction(), etc.)
+> without PY_SSIZE_T_CLEAN defined raises DeprecationWarning now. It
+> will be removed in 3.10 or 4.0. Read Parsing arguments and building
+> values for detail. (Contributed by Inada Naoki in bpo-36381.)
+
+Fixes https://github.com/pybluez/pybluez/issues/426
+---
+ bluez/btmodule.c | 19 ++++++++++++-------
+ msbt/_msbt.c     |  6 ++++--
+ 2 files changed, 16 insertions(+), 9 deletions(-)
+
+diff --git a/bluez/btmodule.c b/bluez/btmodule.c
+index af8a3d0..bb13c0c 100644
+--- a/bluez/btmodule.c
++++ b/bluez/btmodule.c
+@@ -726,7 +727,7 @@ sock_setsockopt(PySocketSockObject *s, PyObject *args)
+     int optname;
+     int res;
+     void *buf;
+-    int buflen;
++    Py_ssize_t buflen;
+     int flag;
+ 
+     if (PyArg_ParseTuple(args, "iii:setsockopt", &level, &optname, &flag)) {
+@@ -1991,7 +1992,8 @@ static PyObject *
+ bt_hci_send_cmd(PyObject *self, PyObject *args)
+ {
+     PySocketSockObject *socko = NULL;
+-    int err, plen = 0;
++    int err;
++    Py_ssize_t plen = 0;
+     uint16_t ogf, ocf;
+     char *param = NULL;
+     int dd = 0;
+@@ -2026,6 +2028,7 @@ bt_hci_send_req(PyObject *self, PyObject *args, PyObject *kwds)
+     int err;
+     int to=0;
+     char rparam[256];
++    Py_ssize_t req_clen;
+     struct hci_request req = { 0 };
+     int dd = 0;
+ 
+@@ -2264,7 +2268,8 @@ Returns the name of the device, or raises an error on failure");
+ static PyObject * bt_hci_filter_ ## name (PyObject *self, PyObject *args )\
+ { \
+     char *param; \
+-    int len, arg; \
++    Py_ssize_t len; \
++    int arg; \
+     if( !PyArg_ParseTuple(args,"s#i", &param, &len, &arg) ) \
+         return 0; \
+     if( len != sizeof(struct hci_filter) ) { \
+@@ -2293,7 +2298,7 @@ DECL_HCI_FILTER_OP_1(test_opcode, "test opcode!")
+ static PyObject * bt_hci_filter_ ## name (PyObject *self, PyObject *args )\
+ { \
+     char *param; \
+-    int len; \
++    Py_ssize_t len; \
+     if( !PyArg_ParseTuple(args,"s#", &param, &len) ) \
+         return 0; \
+     if( len != sizeof(struct hci_filter) ) { \
+@@ -2354,7 +2359,7 @@ static PyObject *
+ bt_ba2str(PyObject *self, PyObject *args)
+ {
+     char *data=NULL;
+-    int len=0;
++    Py_ssize_t len=0;
+     char ba_str[19] = {0};
+     if (!PyArg_ParseTuple(args, "s#", &data, &len)) return 0;
+     ba2str((bdaddr_t*)data, ba_str);
+diff --git a/msbt/_msbt.c b/msbt/_msbt.c
+index 4569540..6fd525c 100644
+--- a/msbt/_msbt.c
++++ b/msbt/_msbt.c
+@@ -2,6 +2,8 @@
+ #define UNICODE
+ #endif
+ 
++#define PY_SSIZE_T_CLEAN 1
++
+ #include <winsock2.h>
+ #include <ws2bth.h>
+ #include <BluetoothAPIs.h>
+@@ -181,7 +183,7 @@ static PyObject *
+ msbt_bind(PyObject *self, PyObject *args)
+ {
+     wchar_t *addrstr = NULL;
+-    int addrstrlen = -1;
++    Py_ssize_t addrstrlen = -1;
+     int sockfd = -1;
+     int port = -1;
+     char buf[100] = { 0 };
+@@ -795,7 +797,7 @@ msbt_set_service_raw(PyObject *self, PyObject *args)
+     WSAESETSERVICEOP op;
+ 
+     char *record = NULL;
+-    int reclen = -1;
++    Py_ssize_t reclen = -1;
+     BTH_SET_SERVICE *si = NULL;
+     int silen = -1;
+     ULONG sdpVersion = BTH_SDP_VERSION;
+--- pybluez-0.23/bluez/btmodule.c~	2022-01-07 10:21:47.188513936 -0600
++++ pybluez-0.23/bluez/btmodule.c	2022-01-07 10:27:00.721723470 -0600
+@@ -16,7 +16,7 @@
+ - names starting with bt_ are module-level functions
+ 
+ */
+-
++#define PY_SSIZE_T_CLEAN 1
+ #include "btmodule.h"
+ #include "structmember.h"
+ 
+@@ -2046,8 +2046,9 @@
+ 
+     if( !PyArg_ParseTupleAndKeywords(args, kwds, "OHHii|s#i", keywords,
+                 &socko, &req.ogf, &req.ocf, &req.event, &req.rlen, 
+-                &req.cparam, &req.clen, &to) )
++                &req.cparam, &req_clen, &to) )
+         return 0;
++    req.clen = req_clen;
+ 
+     req.rparam = rparam;
+     dd = socko->sock_fd;
+@@ -2582,7 +2583,7 @@
+          *provider = NULL, 
+          *description = NULL;
+     PyObject *service_classes, *profiles, *protocols;
+-    int namelen = 0, provlen = 0, desclen = 0;
++    Py_ssize_t namelen = 0, provlen = 0, desclen = 0;
+     uuid_t svc_uuid = { 0 };
+     int i;
+     char addrbuf[256] = { 0 };

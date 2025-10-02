@@ -1,0 +1,17 @@
+--- bluez/btmodule.c~	2019-12-27 18:53:51.000000000 -0600
++++ bluez/btmodule.c	2020-11-12 10:35:13.536356078 -0600
+@@ -2975,8 +2975,14 @@
+ init_bluetooth(void)
+ #endif
+ {
++#if PY_MAJOR_VERSION >= 3 && PY_MINOR_VERSION >= 10
++    Py_SET_TYPE(&sock_type,&PyType_Type);
++    Py_SET_TYPE(&sdp_session_type, &PyType_Type);
++#else
+     Py_TYPE(&sock_type) = &PyType_Type;
+     Py_TYPE(&sdp_session_type) = &PyType_Type;
++#endif
++
+ #if PY_MAJOR_VERSION >= 3
+     PyObject *m = PyModule_Create(&moduledef);
+ #else

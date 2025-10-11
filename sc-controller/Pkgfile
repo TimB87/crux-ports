@@ -1,10 +1,10 @@
 # Description: User-mode driver and GTK3 based GUI for Steam Controller
 # URL: https://github.com/kozec/sc-controller
 # Maintainer: Tim Biermann, tbier at posteo dot de
-# Depends on: gtk-layer-shell python3-evdev python3-gobject python3-pylibacl
+# Depends on: gtk-layer-shell python3-evdev python3-gobject python3-pylibacl python3-setuptools-scm
 
 name=sc-controller
-version=0.5.0
+version=0.5.4
 release=1
 source=(https://github.com/C0rn3j/sc-controller/archive/refs/tags/v$version.tar.gz)
 renames=($name-$version.tar.gz)
@@ -12,6 +12,7 @@ renames=($name-$version.tar.gz)
 build() {
   cd $name-$version
 
+  SETUPTOOLS_SCM_PRETEND_VERSION=$version \
   /usr/bin/python3 -m build --wheel --skip-dependency-check --no-isolation
   /usr/bin/python3 -m installer --compile-bytecode 2 --destdir=$PKG dist/*.whl
 }

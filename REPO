@@ -84,8 +84,8 @@ f:55bc81dbccca98cb820285749d9ddbb1:nextcloud/nextcloud.config.php
 f:5e7284f17ca8afbb040c900d6bb9f3c3:nextcloud/.signature
 f:19de521aae52cbcf088c05dc32ba7e80:nextcloud/Pkgfile
 f:97f8c324e249ac36e0ba2c4b1870bff3:php-imagick/.footprint
-f:2c5d2e59846d395ff8357c2231e75a51:php-imagick/.signature
-f:94feb6aadf75e3b33f6859977afcadff:php-imagick/Pkgfile
+f:08cb1cfb41d8af3e6f62a6697d902dfd:php-imagick/Pkgfile
+f:e56ba882411035c68ac15d35b24da8a2:php-imagick/.signature
 f:c5157587e260c79d378428d7424a96c2:php-intl/.footprint
 f:e276ef9013360b3dfba331fa21d2184e:php-intl/Pkgfile
 f:2c12ededaccc99b388e1bcc84afa2aaf:php-intl/.signature

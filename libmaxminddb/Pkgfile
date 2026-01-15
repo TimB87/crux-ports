@@ -1,5 +1,5 @@
 # Description: MaxMindDB GeoIP2 database library
-# URL: https://dev.maxmind.com/geoip/geoip2/downloadable/
+# URL: https://maxmind.github.io/libmaxminddb/
 # Maintainer: Tim Biermann, tbier at posteo dot de
 
 name=libmaxminddb
@@ -9,8 +9,10 @@ source=(https://github.com/maxmind/libmaxminddb/releases/download/$version/libma
 
 build() {
   cd $name-$version
+
   ./configure --prefix=/usr
   make
   make PREFIX=/usr DESTDIR=$PKG install
+
   rm -rf $PKG/usr/{bin,share/man/man1}
 }

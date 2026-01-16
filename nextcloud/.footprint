@@ -9259,6 +9259,7 @@ drwxr-xr-x	root/root	usr/share/webapps/nextcloud/apps/files/lib/Command/Object/M
 -rw-r--r--	www/www	usr/share/webapps/nextcloud/apps/files/lib/Command/ScanAppData.php
 -rw-r--r--	www/www	usr/share/webapps/nextcloud/apps/files/lib/Command/TransferOwnership.php
 -rw-r--r--	www/www	usr/share/webapps/nextcloud/apps/files/lib/Command/WindowsCompatibleFilenames.php
+-rw-r--r--	www/www	usr/share/webapps/nextcloud/apps/files/lib/ConfigLexicon.php
 drwxr-xr-x	root/root	usr/share/webapps/nextcloud/apps/files/lib/Controller/
 -rw-r--r--	www/www	usr/share/webapps/nextcloud/apps/files/lib/Controller/ApiController.php
 -rw-r--r--	www/www	usr/share/webapps/nextcloud/apps/files/lib/Controller/ConversionApiController.php
@@ -9826,6 +9827,7 @@ drwxr-xr-x	root/root	usr/share/webapps/nextcloud/apps/files_external/lib/Migrati
 -rw-r--r--	www/www	usr/share/webapps/nextcloud/apps/files_external/lib/Migration/Version1011Date20200630192246.php
 -rw-r--r--	www/www	usr/share/webapps/nextcloud/apps/files_external/lib/Migration/Version1015Date20211104103506.php
 -rw-r--r--	www/www	usr/share/webapps/nextcloud/apps/files_external/lib/Migration/Version1016Date20220324154536.php
+-rw-r--r--	www/www	usr/share/webapps/nextcloud/apps/files_external/lib/Migration/Version1025Date20250228162604.php
 -rw-r--r--	www/www	usr/share/webapps/nextcloud/apps/files_external/lib/Migration/Version22000Date20210216084416.php
 -rw-r--r--	www/www	usr/share/webapps/nextcloud/apps/files_external/lib/MountConfig.php
 -rw-r--r--	www/www	usr/share/webapps/nextcloud/apps/files_external/lib/NotFoundException.php

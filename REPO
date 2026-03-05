@@ -58,8 +58,8 @@ f:657f14bb505e108e2e68a841a9f21d26:kvantum-theme-arc/.footprint
 f:cc19051af0bb539a4f2a81225313a77f:kvantum-theme-arc/.signature
 f:fe196ee7bc698395f24f8c806a5a93a9:kvantum-theme-arc/Pkgfile
 f:c72fe4b5addb5c7c88daea91ea4ff901:libmaxminddb/.footprint
-f:1327eb3b08a28c8f94903b82282ee0be:libmaxminddb/Pkgfile
-f:5a3e02605cc8a3be7c1fd6493c789883:libmaxminddb/.signature
+f:7f1d8df73bc8999284436fbe379dcb07:libmaxminddb/Pkgfile
+f:bda73b9b39e708998fe1ebdedd67571b:libmaxminddb/.signature
 f:61c974c875a0d328beae3dc7c819b1df:libx86/.footprint
 f:b97f956db7841a0b984e4f81d6bcbec8:libx86/libx86-c99.patch
 f:8c544b644a8d3b2f60b7612188bac9dc:libx86/libx86-c99-2.patch

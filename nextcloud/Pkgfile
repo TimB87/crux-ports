@@ -5,21 +5,17 @@
 # Optional: apache apcu curl nginx php-fpm php-imagick php-intl php-pgsql php-redis php-sodium samba
 
 name=nextcloud
-version=33.0.5
+version=34.0.0
 release=1
 source=(https://download.nextcloud.com/server/releases/$name-$version.tar.bz2
   nextcloud.config.php
   disable-integrity-check-as-default.patch
-  dont-update-htaccess.patch
-  nextcloud-dont-chmod.patch
 )
 
 build() {
   cd "$name"
 
   patch -Np1 -i "$SRC/disable-integrity-check-as-default.patch"
-  #patch -Np1 -i "$SRC/dont-update-htaccess.patch"
-  patch -Np1 -i "$SRC/nextcloud-dont-chmod.patch"
 
   install -d -o www -g www -m 755 "$PKG/var/lib/$name/"
   install -d -o www -g www -m 770 "$PKG/var/lib/$name/data"

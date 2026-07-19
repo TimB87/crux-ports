@@ -46,6 +46,7 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scc/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scc/__pycache__/special_actions.cpython-312.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scc/__pycache__/tools.cpython-312.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scc/__pycache__/uinput.cpython-312.opt-2.pyc
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/scc/_uinput_codes.pyi
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scc/actions.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scc/aliases.py
 drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scc/bin/
@@ -259,7 +260,6 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scc/lib/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scc/lib/__pycache__/hidparse.cpython-312.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scc/lib/__pycache__/hidparse_data.cpython-312.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scc/lib/__pycache__/hidraw.cpython-312.opt-2.pyc
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scc/lib/__pycache__/jsonencoder.cpython-312.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scc/lib/__pycache__/vdf.cpython-312.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scc/lib/__pycache__/xinput.cpython-312.opt-2.pyc
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scc/lib/__pycache__/xwrappers.cpython-312.opt-2.pyc
@@ -268,7 +268,6 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scc/lib/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scc/lib/hidparse.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scc/lib/hidparse_data.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scc/lib/hidraw.py
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/scc/lib/jsonencoder.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scc/lib/vdf.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scc/lib/xinput.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scc/lib/xwrappers.py
@@ -338,14 +337,14 @@ drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/scc/x11/__pycache__/
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scc/x11/scc-autoswitch-daemon.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scc/x11/scc-osd-daemon.py
 -rw-r--r--	root/root	usr/lib/python3.12/site-packages/scc/x11/scc_autoswitch_daemon.py
-drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sccontroller-0.5.5.dist-info/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/sccontroller-0.5.5.dist-info/METADATA
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/sccontroller-0.5.5.dist-info/RECORD
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/sccontroller-0.5.5.dist-info/WHEEL
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/sccontroller-0.5.5.dist-info/entry_points.txt
-drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sccontroller-0.5.5.dist-info/licenses/
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/sccontroller-0.5.5.dist-info/licenses/LICENSE
--rw-r--r--	root/root	usr/lib/python3.12/site-packages/sccontroller-0.5.5.dist-info/top_level.txt
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sccontroller-0.6.2.dist-info/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/sccontroller-0.6.2.dist-info/METADATA
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/sccontroller-0.6.2.dist-info/RECORD
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/sccontroller-0.6.2.dist-info/WHEEL
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/sccontroller-0.6.2.dist-info/entry_points.txt
+drwxr-xr-x	root/root	usr/lib/python3.12/site-packages/sccontroller-0.6.2.dist-info/licenses/
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/sccontroller-0.6.2.dist-info/licenses/LICENSE
+-rw-r--r--	root/root	usr/lib/python3.12/site-packages/sccontroller-0.6.2.dist-info/top_level.txt
 drwxr-xr-x	root/root	usr/lib/udev/
 drwxr-xr-x	root/root	usr/lib/udev/rules.d/
 -rw-r--r--	root/root	usr/lib/udev/rules.d/69-sc-controller.rules

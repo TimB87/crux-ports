@@ -71,12 +71,12 @@ f:9db114153fe88854c180cc656de358a7:libx86/libx86-libc-test.patch
 f:cfa7e8b178d2d14431dc0c3e9d5f842d:libx86/libx86-mmap-offset.patch
 f:31339a3d1bdebacd0f853fe3e455d4f0:libx86/.signature
 f:ab4be0d2acdd0af25ffd7cfdf335c983:libx86/Pkgfile
-f:d839cdd5fc910182411a89aaa66a3120:nextcloud/.footprint
+f:f94a05a3bdfa2ba5e36f55c7c394ffc7:nextcloud/.footprint
 f:82baaab1150e48c78e54afa66fa6cd21:nextcloud/README
 f:af48a91b8dce773bdcb25b4513ad3363:nextcloud/disable-integrity-check-as-default.patch
 f:55bc81dbccca98cb820285749d9ddbb1:nextcloud/nextcloud.config.php
-f:edb558a2a00ff6016b68431f7ba37c15:nextcloud/.signature
-f:68cb695be1fbe9d821218eac0068023d:nextcloud/Pkgfile
+f:16b960a2abc02f1d067dc2e21dc0098f:nextcloud/Pkgfile
+f:7f5c544faeebe688aa41624891faff3b:nextcloud/.signature
 f:97f8c324e249ac36e0ba2c4b1870bff3:php-imagick/.footprint
 f:e56ba882411035c68ac15d35b24da8a2:php-imagick/.signature
 f:08cb1cfb41d8af3e6f62a6697d902dfd:php-imagick/Pkgfile

@@ -27,6 +27,7 @@ d:zotero-bin
 d:otf-font-awesome
 d:python3-hidraw-pure
 d:python3-ioctl-opt
+d:python3-libusb1
 f:c8541c6f67ae1748985ccee2b7ae8919:apcu/.footprint
 f:6417286059ffd20e069210f35d7463be:apcu/.signature
 f:abd2f5e8d5ebe03fb0c5ac1d0efdc429:apcu/Pkgfile
@@ -112,8 +113,9 @@ f:ba5bc39693bfcd5234eeeb0dfbe3c1db:read-edid/read-edid-3.0.2-cmake4.patch
 f:035803c0e7b90b941fd4fa26ceae87ad:read-edid/.signature
 f:0986c118c73cc4820f8938ecfd09871f:read-edid/Pkgfile
 f:475cfdedab34ea964ab44d7f8d41d397:sc-controller/.footprint
-f:ebb013451a234e1b146def3d23bde232:sc-controller/Pkgfile
-f:f4c0f2cf1e95715bfded3c16ee23e3bc:sc-controller/.signature
+f:5cb2134f164da3493858c34edb27a08a:sc-controller/627a5bfee12266c6f2a1338f197d946a9a1886a1.patch
+f:7c49a1a819e6fe8331f8bb839932abd4:sc-controller/Pkgfile
+f:cebc84e57159a30456898cb594e5e8fd:sc-controller/.signature
 f:d7be2ad91114ded18f7fb5af059398b5:ttf-font-awesome-compat/.footprint
 f:08b6ee88437e22337bc66da4bce7ea2e:ttf-font-awesome-compat/.signature
 f:54a61166337f62093b2bae75eef6974e:ttf-font-awesome-compat/Pkgfile
@@ -134,3 +136,6 @@ f:afb37ad93146288e5d699db330266479:python3-hidraw-pure/.signature
 f:c0e609063c70eec1b5f66dc9acdbadd6:python3-ioctl-opt/.footprint
 f:bfbb072547e1b5aaa7f49ba0aa17fe36:python3-ioctl-opt/Pkgfile
 f:360d252bfc235d4e21d9ff0270724164:python3-ioctl-opt/.signature
+f:a1f545486116a572c04dbc338792c7e1:python3-libusb1/.footprint
+f:553ce0ca66e3e026bc17beb0e6522296:python3-libusb1/Pkgfile
+f:2c91e26240adab0caec54419dbe0a925:python3-libusb1/.signature

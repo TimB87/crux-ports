@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwJmT/W3oujWAz9jMCLFBRWoYFEu1fURz4QH2F+kmGj4Y8c/FecUXF9e+E7iH+2sgbHs7LqmH7GRimGTIw1MD1ww=
+SHA256 (Pkgfile) = fdaf164782b1e56663e1aaa5579dd883cab2420e0568cf7234b5f1b2e5def579
+SHA256 (.footprint) = 60fa5e4f3549c2e5c977b6bc635160a8304fc4732f2b9066c66b15c312a646f8
+SHA256 (python3-hidraw-pure-1.2.tar.gz) = 8816005707343a32592d22693fcfdd6c2a6e820662b57f0d0a752f59e5a678a1

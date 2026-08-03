@@ -1,0 +1,106 @@
+From 627a5bfee12266c6f2a1338f197d946a9a1886a1 Mon Sep 17 00:00:00 2001
+From: Martin Rys <martin@rys.rs>
+Date: Mon, 3 Aug 2026 23:36:16 +0200
+Subject: [PATCH] fix: Declare dependencies in `pyproject.toml`
+
+---
+ .github/workflows/scc-linux.yml |  7 +++--
+ pyproject.toml                  | 50 +++++++++++++++++++--------------
+ 2 files changed, 33 insertions(+), 24 deletions(-)
+
+diff --git a/.github/workflows/scc-linux.yml b/.github/workflows/scc-linux.yml
+index 5a31eb0dd..97c2fd096 100644
+--- a/.github/workflows/scc-linux.yml
++++ b/.github/workflows/scc-linux.yml
+@@ -23,14 +23,15 @@ jobs:
+           python-version: '3.14'
+ 
+       # TODO(Martin): Replace URL with just 'hidraw-pure' when https://github.com/vpelletier/python-hidraw/issues/7 is resolved
++      # pygobject is skipped as it seems to lack prebuilt wheels and we don't really need it to run the CI tests
+       - name: Install dependencies
+-        run: pip install build evdev setuptools https://github.com/C0rn3j/python-hidraw/archive/modernize.zip ioctl-opt libusb1 vdf pytest
++        run: pip install build evdev https://github.com/C0rn3j/python-hidraw/archive/modernize.zip ioctl-opt libusb1 pytest setuptools vdf
+ 
+       - name: Build SCC
+         run: python -m build
+ 
+-      - name: Install SCC
+-        run: python -m pip install dist/*.whl
++      - name: Install SCC - skipping deps
++        run: python -m pip install --no-deps dist/*.whl
+ 
+       - name: Run tests
+         run: python -m pytest tests
+diff --git a/pyproject.toml b/pyproject.toml
+index 1b2a45a82..cdc8560d5 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -20,6 +20,15 @@ classifiers = [
+ 	"Typing :: Typed",
+ ]
+ requires-python = ">=3.11"
++dependencies = [
++	"evdev",
++	"hidraw-pure",
++	"ioctl-opt",
++	"libusb1",
++	"pygobject",
++	"setuptools",
++	"vdf",
++]
+ #platforms = ["Linux"]
+ 
+ # https://packaging.python.org/en/latest/guides/writing-pyproject-toml/#creating-executable-scripts
+@@ -62,32 +71,31 @@ target-version = "py311"
+ line-length = 120
+ 
+ [tool.ruff.lint.flake8-quotes]
+-# Existing codebase was already mostly doublequoted
+-inline-quotes = 'double'
++inline-quotes = "double"
+ 
+ 
+ [tool.ruff.format]
+ # Existing codebase was already mostly doublequoted
+-quote-style = 'double'
+-indent-style = 'tab'
++quote-style = "double"
++indent-style = "tab"
+ 
+ [tool.ruff.lint]
+-select = ['ALL']
++select = ["ALL"]
+ ignore = [
+-	'W191',   # We use tabs for indents, disabling this atrocious PEP 8 recommendation
+-	'D206',   # ^
+-	'D203',   # incorrect-blank-line-before-class         - Clashes with D211
+-	#'D211',   # no-blank-line-before-class                - Clashes with D203
+-	#'D212',   # multi-line-summary-first-line             - Clashes with D213
+-	'D213',   # multi-line-summary-second-line            - Clashes with D212
+-	'D400',   # ends-in-period      - We do not care if docstrings end with a period
+-	'D415',    # ends-in-punctuation - ^
+-	'D401',   # non-imperative-mood - Wants docstrings in imperative language but it's really not foolproof, disable
+-	'EM101',  # raw-string-in-exception                   - We do not care about .format in exceptions, readability is not *our* problem, traceback should be colorized to avoid this instead
+-	'EM102',  # f-string-in-exception                     - ^
+-	'EM103',  # dot-format-in-exception                   - ^
+-	'ERA001', # Test for commented out code, but it has way too many false positives, so disable
+-	'FBT001', # boolean-type-hint-positional-argument     - Allow positional booleans in functions, it's not really that much of an issue
+-	'FBT002', # boolean-default-value-positional-argument - ^
+-	'FBT003', # boolean-positional-value-in-call          - ^
++	"W191",   # We use tabs for indents, disabling this atrocious PEP 8 recommendation
++	"D206",   # ^
++	"D203",   # incorrect-blank-line-before-class         - Clashes with D211
++	#"D211",   # no-blank-line-before-class                - Clashes with D203
++	#"D212",   # multi-line-summary-first-line             - Clashes with D213
++	"D213",   # multi-line-summary-second-line            - Clashes with D212
++	"D400",   # ends-in-period      - We do not care if docstrings end with a period
++	"D415",    # ends-in-punctuation - ^
++	"D401",   # non-imperative-mood - Wants docstrings in imperative language but it's really not foolproof, disable
++	"EM101",  # raw-string-in-exception                   - We do not care about .format in exceptions, readability is not *our* problem, traceback should be colorized to avoid this instead
++	"EM102",  # f-string-in-exception                     - ^
++	"EM103",  # dot-format-in-exception                   - ^
++	"ERA001", # Test for commented out code, but it has way too many false positives, so disable
++	"FBT001", # boolean-type-hint-positional-argument     - Allow positional booleans in functions, it's not really that much of an issue
++	"FBT002", # boolean-default-value-positional-argument - ^
++	"FBT003", # boolean-positional-value-in-call          - ^
+ ]

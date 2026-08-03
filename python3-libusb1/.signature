@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/tb.pub
+RWSXjYMPO7mZwB1Yg9i+SRrgAG3hHzsC11cuKt0837Dm3NWsfMHDjrvKt+nQfFBZdXo2MJaxjCXXxwql/r8MlFgq5F47+Z8SOAU=
+SHA256 (Pkgfile) = 0fbe7d294cb3907ade4ab85c3ced442ed6f2cfb3232add79b44f1fc9624e84ed
+SHA256 (.footprint) = ed28490f3b4c6b45d2dcb27d0f260b66d4e9f8364f267cbfa6959c6074e6ef87
+SHA256 (libusb1-3.3.1.tar.gz) = 3951d360f2daf0e0eacf839e15d2d1d2f4f5e7830231eb3188eeffef2dd17bad

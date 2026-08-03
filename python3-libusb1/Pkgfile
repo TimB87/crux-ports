@@ -1,0 +1,16 @@
+# Description: Python ctype-based wrapper around libusb1
+# URL: https://github.com/vpelletier/python-libusb1
+# Maintainer: Tim Biermann, tbier at posteo dot de
+# Depends on: libusb python3-vdf python3-wheel
+
+name=python3-libusb1
+version=3.3.1
+release=1
+source=(https://pypi.org/packages/source/l/libusb1/libusb1-$version.tar.gz)
+
+build() {
+  cd libusb1-$version
+
+  /usr/bin/python3 -m build --wheel --skip-dependency-check --no-isolation
+  /usr/bin/python3 -m installer --destdir=$PKG dist/*.whl
+}

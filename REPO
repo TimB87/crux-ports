@@ -25,6 +25,8 @@ d:ttf-font-awesome-compat
 d:ttf-plex
 d:zotero-bin
 d:otf-font-awesome
+d:python3-hidraw-pure
+d:python3-ioctl-opt
 f:c8541c6f67ae1748985ccee2b7ae8919:apcu/.footprint
 f:6417286059ffd20e069210f35d7463be:apcu/.signature
 f:abd2f5e8d5ebe03fb0c5ac1d0efdc429:apcu/Pkgfile
@@ -110,8 +112,8 @@ f:ba5bc39693bfcd5234eeeb0dfbe3c1db:read-edid/read-edid-3.0.2-cmake4.patch
 f:035803c0e7b90b941fd4fa26ceae87ad:read-edid/.signature
 f:0986c118c73cc4820f8938ecfd09871f:read-edid/Pkgfile
 f:475cfdedab34ea964ab44d7f8d41d397:sc-controller/.footprint
-f:09510045ab2d9e6cc8924415f6876bf0:sc-controller/Pkgfile
-f:c6168d8020fa924b1e354eedeab42f6a:sc-controller/.signature
+f:ebb013451a234e1b146def3d23bde232:sc-controller/Pkgfile
+f:f4c0f2cf1e95715bfded3c16ee23e3bc:sc-controller/.signature
 f:d7be2ad91114ded18f7fb5af059398b5:ttf-font-awesome-compat/.footprint
 f:08b6ee88437e22337bc66da4bce7ea2e:ttf-font-awesome-compat/.signature
 f:54a61166337f62093b2bae75eef6974e:ttf-font-awesome-compat/Pkgfile
@@ -126,3 +128,9 @@ f:e62427f53fea4bc79ee8bc158832a8f6:tb.pub
 f:300e25bc66dfd6cc25fd93d520d2566c:otf-font-awesome/.footprint
 f:c47b1cef673f630069da6e56c8b6e928:otf-font-awesome/Pkgfile
 f:40962c2964c446463bc9207389d60102:otf-font-awesome/.signature
+f:be5383e212f9145af6d10900690c6121:python3-hidraw-pure/.footprint
+f:105f6c5c6efe9967533e16669e1fb32d:python3-hidraw-pure/Pkgfile
+f:afb37ad93146288e5d699db330266479:python3-hidraw-pure/.signature
+f:c0e609063c70eec1b5f66dc9acdbadd6:python3-ioctl-opt/.footprint
+f:bfbb072547e1b5aaa7f49ba0aa17fe36:python3-ioctl-opt/Pkgfile
+f:360d252bfc235d4e21d9ff0270724164:python3-ioctl-opt/.signature

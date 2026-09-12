@@ -112,9 +112,9 @@ f:c19c138088917d51783868797d9792d0:read-edid/read-edid-3.0.2-fcommon.patch
 f:ba5bc39693bfcd5234eeeb0dfbe3c1db:read-edid/read-edid-3.0.2-cmake4.patch
 f:035803c0e7b90b941fd4fa26ceae87ad:read-edid/.signature
 f:0986c118c73cc4820f8938ecfd09871f:read-edid/Pkgfile
-f:99270a38ed9c821f096a9d10fe0818f3:sc-controller/.footprint
-f:a59f5372c388bd82f67dc9c033e8f29b:sc-controller/Pkgfile
-f:fe26bf1744de54bd47c6a2178c998e56:sc-controller/.signature
+f:f39f30212f859a8a995ed87cbf42c57d:sc-controller/.footprint
+f:3e66159624e5d931e681c90235ee9922:sc-controller/Pkgfile
+f:754a328c7dd0a92f200f4c887e98006a:sc-controller/.signature
 f:d7be2ad91114ded18f7fb5af059398b5:ttf-font-awesome-compat/.footprint
 f:08b6ee88437e22337bc66da4bce7ea2e:ttf-font-awesome-compat/.signature
 f:54a61166337f62093b2bae75eef6974e:ttf-font-awesome-compat/Pkgfile

@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwPFjPOAloexYbOOtmYE4P62zs5ZaMmnEj5OnDjwoYaWGGzUP5NfAWSgq8tXx7cf15DwIjuGA4daYMMfkmM5JbgU=
-SHA256 (Pkgfile) = 401015f853809bb26806e6e755ac15b0b016cdada44b47fbc40d4e7b15aee43d
+RWSXjYMPO7mZwAn7RYoi9UTLwU1v8rKqmfo/x6Nahm1257tao+CwprWtaRF8lyfdstIoctpmlGpoHw/QTZec1CWGlIchGP/beAY=
+SHA256 (Pkgfile) = ba8f26d5b67932abae7364d68c1f8f0a89135d98995751644cbe25557adb128a
 SHA256 (.footprint) = 306f3dcc7a393a0ae230d5bef9868e48b8d9533f258b6fbf0fc3282607950b09
-SHA256 (php-8.5.11.tar.xz) = d9be75c08e8c316f4c8f4194d8fbe1750a15f6a6d9d4e3fe72082abeeb800360
+SHA256 (php-8.5.12.tar.xz) = 08bc2eba2a588654ade1357174aa646b761556c862dda0678345ee29ed481209

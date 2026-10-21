@@ -28,6 +28,7 @@ d:otf-font-awesome
 d:python3-hidraw-pure
 d:python3-ioctl-opt
 d:python3-libusb1
+d:php-fpm
 f:c8541c6f67ae1748985ccee2b7ae8919:apcu/.footprint
 f:6417286059ffd20e069210f35d7463be:apcu/.signature
 f:abd2f5e8d5ebe03fb0c5ac1d0efdc429:apcu/Pkgfile
@@ -138,3 +139,7 @@ f:bfbb072547e1b5aaa7f49ba0aa17fe36:python3-ioctl-opt/Pkgfile
 f:a1f545486116a572c04dbc338792c7e1:python3-libusb1/.footprint
 f:2c91e26240adab0caec54419dbe0a925:python3-libusb1/.signature
 f:553ce0ca66e3e026bc17beb0e6522296:python3-libusb1/Pkgfile
+f:5fdeeb4e93c5a496b7ece09d4a996d47:php-fpm/.footprint
+f:5deb10ee675af739c16cafde1f36c2bd:php-fpm/php-fpm
+f:6f8a4937ba0512ef9791e7f44766501e:php-fpm/Pkgfile
+f:03aa524cdd999511fee22127cb5c63a8:php-fpm/.signature

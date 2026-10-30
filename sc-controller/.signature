@@ -1,5 +1,5 @@
 untrusted comment: verify with /etc/ports/tb.pub
-RWSXjYMPO7mZwOGxySmU9S7LX/23qXpDao4pd9GMzahO7kCCKlASiQwas7NeT79lL100hLv/Q90wloh7u2PQ0OTUzad0WIrSFw4=
-SHA256 (Pkgfile) = 7935f71b713385b1044593b2dbc0eb9fa52a2fca0c6fa6b7c2db768589ba1ec4
-SHA256 (.footprint) = f66e26ea1206fde5bbe6608483bc9150471642605bbfc82a26e0b7c113ba7248
-SHA256 (sc-controller-1.0.7.tar.gz) = 5d7cbc8c34c8ac7ff72eeae3beb38164feeed25afadf23c416a8bb6ec04f8e5b
+RWSXjYMPO7mZwDuWUVY5XbU/lAaDi052ESs1c/Hr+p6JXyD2UkfHMRfa8sKMLjrjL0fNhLLQ+CzOWXCy/r/R3mJAz9kDOh4Hawo=
+SHA256 (Pkgfile) = 87f1752a211dddb2b07d4add3c1526a1be56f3c46d98e5344f51814486fe7ae6
+SHA256 (.footprint) = a2c5b64078c1c37edc49c086d318ec3fae4b26e08d63ec5546c5d5cc242a13ed
+SHA256 (sc-controller-1.0.8.tar.gz) = 498f6587f0c1cd36a9ccf636c0f4ae3ef76eee0419f039e09a8d0088e3a0af73

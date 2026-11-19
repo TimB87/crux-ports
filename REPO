@@ -85,14 +85,14 @@ f:97f8c324e249ac36e0ba2c4b1870bff3:php-imagick/.footprint
 f:e56ba882411035c68ac15d35b24da8a2:php-imagick/.signature
 f:08cb1cfb41d8af3e6f62a6697d902dfd:php-imagick/Pkgfile
 f:c5157587e260c79d378428d7424a96c2:php-intl/.footprint
-f:83cacbd75f421cc8da0ac3591fde053f:php-intl/Pkgfile
-f:62d40e46e076c63b094ba12c94613adb:php-intl/.signature
+f:7cfad5946ad3ebe0aefa3271d07df034:php-intl/Pkgfile
+f:a3de3d23fa35fd6b3dc964f5ef6a4af8:php-intl/.signature
 f:246f48c324871d76fdb1b7ff54458170:php-sodium/.footprint
 f:62b3df7fc4f028724d5ecbf74ed52e8b:php-sodium/Pkgfile
 f:54baeae332ae32c3f366c5530962ec5e:php-sodium/.signature
 f:57926760708035a07d292c55ef2aead1:php/.footprint
-f:7f36d61a692cf9079a08a4afccb640cc:php/Pkgfile
-f:ffbac75e41a743bb58728808aa5ef145:php/.signature
+f:58b153f0d9cb25756d5718e6b2ba2ce2:php/Pkgfile
+f:383bb7386fc0b82ef6b5d5a67e9bb185:php/.signature
 f:3c104bad640001b4e7afe0a718599ea0:python3-evdev/.footprint
 f:043f148d977c81fb5e5f6ab7df0bf5ab:python3-evdev/.signature
 f:58b1d4dab3312fd6e0fe7ccc820aaf6c:python3-evdev/Pkgfile
@@ -141,5 +141,5 @@ f:2c91e26240adab0caec54419dbe0a925:python3-libusb1/.signature
 f:553ce0ca66e3e026bc17beb0e6522296:python3-libusb1/Pkgfile
 f:5fdeeb4e93c5a496b7ece09d4a996d47:php-fpm/.footprint
 f:5deb10ee675af739c16cafde1f36c2bd:php-fpm/php-fpm
-f:6f8a4937ba0512ef9791e7f44766501e:php-fpm/Pkgfile
-f:03aa524cdd999511fee22127cb5c63a8:php-fpm/.signature
+f:b49cf4da51913bf1c82e1fde061facc5:php-fpm/Pkgfile
+f:b9c6b815fe1008090e648161023d3947:php-fpm/.signature
